@@ -90,7 +90,7 @@ function OnboardingContent() {
         try {
           const res = await fetch("/api/profile");
           if (res.ok) {
-            const profile = await res.json();
+            const { profile } = await res.json();
             if (profile?.onboarding_completed) {
               setBlocked(true);
             }
@@ -102,7 +102,7 @@ function OnboardingContent() {
         try {
           const res = await fetch("/api/profile");
           if (res.ok) {
-            const profile = await res.json();
+            const { profile } = await res.json();
             if (profile) {
               setData((prev) => ({
                 ...prev,
