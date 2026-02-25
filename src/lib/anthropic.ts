@@ -51,16 +51,30 @@ function buildPrompt(profile: UserProfile, days: number): string {
     lines.push(`Allergies (MUST AVOID): ${profile.allergies.join(", ")}`);
   }
   if (profile.cuisine_preferences.length > 0) {
-    lines.push(`Cuisines: ${profile.cuisine_preferences.join(", ")}`);
+    // Cap to 3 cuisines for 1-day plans to keep response compact
+    const cuisines = days <= 1 && profile.cuisine_preferences.length > 3
+      ? profile.cuisine_preferences.sort(() => 0.5 - Math.random()).slice(0, 3)
+      : profile.cuisine_preferences;
+    lines.push(`Cuisines: ${cuisines.join(", ")}`);
   }
 
-  lines.push(
-    ``,
-    `RULES: Balanced nutrition daily (veggies, protein, grains). Respect all restrictions/allergies. Variety in proteins. Concise instructions (3-4 steps max). Skip pantry staples in ingredients.`,
-    ``,
-    `Respond with ONLY valid JSON (no markdown):`,
-    `{"weekOf":"YYYY-MM-DD","days":[{"day":"Monday","meals":[{"name":"Name","type":"breakfast|lunch|dinner|snack","prepTime":10,"cookTime":20,"calories":450,"servings":2,"ingredients":[{"name":"item","amount":"1","unit":"cup"}],"instructions":["Step 1"],"tags":["quick"]}],"totalCalories":1800}],"groceryList":[{"category":"Produce","items":[{"name":"Tomatoes","amount":"4","unit":"whole"}]}],"estimatedWeeklyCost":"$85-95","notes":"Brief tips"}`
-  );
+  if (days <= 1) {
+    lines.push(
+      ``,
+      `RULES: Be VERY concise. 2-3 ingredients per meal max. 2 instruction steps max. Short names. Skip pantry staples. Respect restrictions/allergies.`,
+      ``,
+      `Respond with ONLY valid JSON (no markdown):`,
+      `{"weekOf":"YYYY-MM-DD","days":[{"day":"Monday","meals":[{"name":"Name","type":"breakfast","prepTime":5,"cookTime":10,"calories":400,"servings":2,"ingredients":[{"name":"item","amount":"1","unit":"cup"}],"instructions":["Step"],"tags":["quick"]}],"totalCalories":1800}],"groceryList":[{"category":"Produce","items":[{"name":"Tomatoes","amount":"4","unit":"whole"}]}],"estimatedWeeklyCost":"$15","notes":"Tip"}`
+    );
+  } else {
+    lines.push(
+      ``,
+      `RULES: Balanced nutrition daily (veggies, protein, grains). Respect all restrictions/allergies. Variety in proteins. Concise instructions (3-4 steps max). Skip pantry staples in ingredients.`,
+      ``,
+      `Respond with ONLY valid JSON (no markdown):`,
+      `{"weekOf":"YYYY-MM-DD","days":[{"day":"Monday","meals":[{"name":"Name","type":"breakfast|lunch|dinner|snack","prepTime":10,"cookTime":20,"calories":450,"servings":2,"ingredients":[{"name":"item","amount":"1","unit":"cup"}],"instructions":["Step 1"],"tags":["quick"]}],"totalCalories":1800}],"groceryList":[{"category":"Produce","items":[{"name":"Tomatoes","amount":"4","unit":"whole"}]}],"estimatedWeeklyCost":"$85-95","notes":"Brief tips"}`
+    );
+  }
 
   return lines.join("\n");
 }
@@ -77,7 +91,7 @@ export async function generateMealPlan(
   // Haiku 4.5 — cheapest model, handles structured JSON well
   const message = await anthropic.messages.create({
     model: "claude-haiku-4-5-20251001",
-    max_tokens: days <= 1 ? 4000 : days <= 3 ? 6000 : 16000,
+    max_tokens: days <= 1 ? 2000 : days <= 3 ? 6000 : 16000,
     system: systemPrompt,
     messages: [{ role: "user", content: userPrompt }],
   });

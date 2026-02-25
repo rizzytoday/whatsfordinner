@@ -164,8 +164,14 @@ export async function POST(req: NextRequest) {
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     console.error("Free plan generation error:", message);
+
+    // User-friendly error for truncation
+    const userMessage = message.includes("truncated")
+      ? "Your plan has too many options for a free plan. Try selecting fewer cuisines or turning off snacks."
+      : "Something went wrong generating your plan. Please try again.";
+
     return NextResponse.json(
-      { error: `Failed to generate meal plan: ${message}` },
+      { error: userMessage },
       { status: 500 }
     );
   }
