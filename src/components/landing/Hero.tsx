@@ -26,6 +26,9 @@ export function Hero() {
             Get Your Free Meal Plan
           </Link>
 
+          <p className="text-xs sm:text-sm text-stone-500">
+            No account needed.
+          </p>
         </div>
       </div>
     </section>
