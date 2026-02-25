@@ -29,20 +29,22 @@ export default function PreviewPage() {
   const [loading, setLoading] = useState(true);
   const [viewMode, setViewMode] = useState<ViewMode>("cards");
   const [isSignedIn, setIsSignedIn] = useState<boolean | null>(null);
+  const [subscribing, setSubscribing] = useState(false);
 
   async function handleSubscribe(plan: "monthly" | "yearly") {
-    // Check if user is logged in
-    const supabase = createClient();
-    const { data: { user } } = await supabase.auth.getUser();
-
-    if (!user) {
-      // Not logged in — go to signup with plan
-      router.push(`/signup?plan=${plan}`);
-      return;
-    }
-
-    // Already logged in — go straight to checkout
+    setSubscribing(true);
     try {
+      // Check if user is logged in
+      const supabase = createClient();
+      const { data: { user } } = await supabase.auth.getUser();
+
+      if (!user) {
+        // Not logged in — go to signup with plan
+        router.push(`/signup?plan=${plan}`);
+        return;
+      }
+
+      // Already logged in — go straight to checkout
       const res = await fetch("/api/lemonsqueezy/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -56,6 +58,7 @@ export default function PreviewPage() {
         router.push("/dashboard");
       }
     } catch {
+      setSubscribing(false);
       router.push(`/signup?plan=${plan}`);
     }
   }
@@ -338,20 +341,24 @@ export default function PreviewPage() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <button
               type="button"
+              disabled={subscribing}
               onClick={() => handleSubscribe("monthly")}
-              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-lg shadow-orange-500/20 hover:shadow-xl hover:shadow-orange-500/30 transition-all duration-200"
+              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-lg shadow-orange-500/20 hover:shadow-xl hover:shadow-orange-500/30 transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
             >
-              Subscribe — $4.99/mo
+              {subscribing ? "Redirecting..." : "Subscribe — $4.99/mo"}
             </button>
             <button
               type="button"
+              disabled={subscribing}
               onClick={() => handleSubscribe("yearly")}
-              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-stone-700 bg-white border border-stone-200 hover:border-orange-300 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
+              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-stone-700 bg-white border border-stone-200 hover:border-orange-300 rounded-full shadow-sm hover:shadow-md transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
             >
-              $29.99/year
-              <span className="ml-2 inline-flex items-center px-2 py-0.5 text-xs font-semibold text-orange-600 bg-orange-100 rounded-full">
-                Save 50%
-              </span>
+              {subscribing ? "Redirecting..." : "$29.99/year"}
+              {!subscribing && (
+                <span className="ml-2 inline-flex items-center px-2 py-0.5 text-xs font-semibold text-orange-600 bg-orange-100 rounded-full">
+                  Save 50%
+                </span>
+              )}
             </button>
           </div>
 

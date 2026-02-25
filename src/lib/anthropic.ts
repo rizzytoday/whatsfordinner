@@ -77,7 +77,7 @@ export async function generateMealPlan(
   // Haiku 4.5 — cheapest model, handles structured JSON well
   const message = await anthropic.messages.create({
     model: "claude-haiku-4-5-20251001",
-    max_tokens: days <= 1 ? 2000 : days <= 3 ? 6000 : 16000,
+    max_tokens: days <= 1 ? 4000 : days <= 3 ? 6000 : 16000,
     system: systemPrompt,
     messages: [{ role: "user", content: userPrompt }],
   });

@@ -1,4 +1,5 @@
 import { redirect } from "next/navigation";
+import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { getWeekOf } from "@/lib/utils";
 import { Card, CardContent, CardHeader } from "@/components/ui/Card";
@@ -49,12 +50,12 @@ export default async function DashboardPage() {
       <header className="border-b border-stone-100 bg-white/60 backdrop-blur-sm sticky top-0 z-10">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <a
+            <Link
               href="/"
               className="w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-xl flex items-center justify-center transition-colors shrink-0"
             >
               <span className="text-2xl leading-none" style={{ filter: "brightness(0) invert(1)" }}>🍴</span>
-            </a>
+            </Link>
             <div>
               <h1 className="text-lg sm:text-2xl font-semibold text-stone-800 tracking-tight">
                 Dashboard
@@ -63,12 +64,12 @@ export default async function DashboardPage() {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <a
+            <Link
               href="/"
               className="text-sm text-stone-400 hover:text-orange-500 transition-colors duration-200"
             >
               Home
-            </a>
+            </Link>
             <LogoutButton />
           </div>
         </div>
@@ -164,12 +165,12 @@ export default async function DashboardPage() {
                     ? "Update your dietary preferences, household size, or delivery schedule."
                     : "Complete your preferences to get personalized weekly meal plans."}
                 </p>
-                <a
-                  href="/onboarding"
+                <Link
+                  href={hasProfile ? "/onboarding?edit=1" : "/onboarding"}
                   className="text-sm font-medium text-orange-500 hover:text-orange-600 transition-colors duration-200"
                 >
                   {hasProfile ? "Edit preferences →" : "Set up preferences →"}
-                </a>
+                </Link>
               </CardContent>
             </Card>
           </aside>

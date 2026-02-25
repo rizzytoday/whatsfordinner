@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
-import { useRouter } from "next/navigation";
+import { Suspense, useState, useEffect, useRef } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { LanguagePicker } from "@/components/ui/LanguagePicker";
@@ -48,7 +48,17 @@ const INITIAL_DATA: OnboardingFormData = {
 };
 
 export default function OnboardingPage() {
+  return (
+    <Suspense>
+      <OnboardingContent />
+    </Suspense>
+  );
+}
+
+function OnboardingContent() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const isEdit = searchParams.get("edit") === "1";
   const { t } = useT();
   const [currentStep, setCurrentStep] = useState(0);
   const [data, setData] = useState<OnboardingFormData>(INITIAL_DATA);
@@ -60,15 +70,49 @@ export default function OnboardingPage() {
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const startedAtRef = useRef(Date.now());
 
-  // Check if user is authenticated
+  // Check if user is authenticated + load profile in edit mode
   useEffect(() => {
     const supabase = createClient();
-    supabase.auth.getUser().then(({ data: { user } }) => {
+    supabase.auth.getUser().then(async ({ data: { user } }) => {
       if (!user) return;
       setIsAuthenticated(true);
       // Pre-fill email from auth
-      if (user.email && !data.delivery_email) {
-        setData((prev) => ({ ...prev, delivery_email: user.email! }));
+      if (user.email) {
+        setData((prev) => ({ ...prev, delivery_email: prev.delivery_email || user.email! }));
+      }
+      // In edit mode, load existing profile
+      if (isEdit) {
+        try {
+          const res = await fetch("/api/profile");
+          if (res.ok) {
+            const profile = await res.json();
+            if (profile) {
+              setData((prev) => ({
+                ...prev,
+                household_size: profile.household_size ?? prev.household_size,
+                has_kids: profile.has_kids ?? prev.has_kids,
+                kids_ages: profile.kids_ages ?? prev.kids_ages,
+                weekly_budget: profile.weekly_budget ?? prev.weekly_budget,
+                age_range: profile.age_range ?? prev.age_range,
+                nutrition_goal: profile.nutrition_goal ?? prev.nutrition_goal,
+                dietary_restrictions: profile.dietary_restrictions ?? prev.dietary_restrictions,
+                allergies: profile.allergies ?? prev.allergies,
+                personal_note: profile.personal_note ?? prev.personal_note,
+                cuisine_preferences: profile.cuisine_preferences ?? prev.cuisine_preferences,
+                cooking_skill: profile.cooking_skill ?? prev.cooking_skill,
+                max_cook_time: profile.max_cook_time ?? prev.max_cook_time,
+                meals_per_day: profile.meals_per_day ?? prev.meals_per_day,
+                include_snacks: profile.include_snacks ?? prev.include_snacks,
+                servings_per_meal: profile.servings_per_meal ?? prev.servings_per_meal,
+                delivery_email: profile.delivery_email ?? user.email ?? prev.delivery_email,
+                delivery_day: profile.delivery_day ?? prev.delivery_day,
+                timezone: profile.timezone ?? prev.timezone,
+              }));
+            }
+          }
+        } catch {
+          // Failed to load profile — continue with defaults
+        }
       }
     });
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -119,6 +163,21 @@ export default function OnboardingPage() {
     setError(null);
 
     try {
+      // Edit mode: save profile and go back to dashboard
+      if (isEdit && isAuthenticated) {
+        await fetch("/api/profile", {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            ...data,
+            servings_per_meal: data.household_size,
+            onboarding_completed: true,
+          }),
+        });
+        router.push("/dashboard");
+        return;
+      }
+
       // If there's already a cached plan, go straight to preview
       const cached = localStorage.getItem("wfd_free_plan");
       if (cached) {
@@ -376,7 +435,7 @@ export default function OnboardingPage() {
                           <span>.</span><span>.</span><span>.</span>
                         </span>
                       </span>
-                    : t("onboarding.generate")
+                    : isEdit ? t("common.save") : t("onboarding.generate")
                   : t("common.next")}
               </Button>
             </div>
