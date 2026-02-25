@@ -28,6 +28,7 @@ export default function PreviewPage() {
   const [weekOf, setWeekOf] = useState("");
   const [loading, setLoading] = useState(true);
   const [viewMode, setViewMode] = useState<ViewMode>("cards");
+  const [isSignedIn, setIsSignedIn] = useState<boolean | null>(null);
 
   async function handleSubscribe(plan: "monthly" | "yearly") {
     // Check if user is logged in
@@ -58,6 +59,14 @@ export default function PreviewPage() {
       router.push(`/signup?plan=${plan}`);
     }
   }
+
+  useEffect(() => {
+    // Check auth state
+    const supabase = createClient();
+    supabase.auth.getUser().then(({ data: { user } }) => {
+      setIsSignedIn(!!user);
+    });
+  }, []);
 
   useEffect(() => {
     // Try localStorage first, fall back to mock data for dev
@@ -123,50 +132,109 @@ export default function PreviewPage() {
     <div className="min-h-screen bg-[#FFFBF5]">
       {/* Header */}
       <header className="border-b border-stone-100 bg-white/60 backdrop-blur-sm sticky top-0 z-20">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
+          <div className="flex items-center gap-3">
             <Link
               href="/"
-              className="text-sm text-stone-400 hover:text-orange-500 transition-colors duration-200"
+              className="w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-xl flex items-center justify-center transition-colors shrink-0"
             >
-              &larr; Back to Home
+              <span className="text-xl leading-none" style={{ filter: "brightness(0) invert(1)", letterSpacing: "0.1em" }}>🍴</span>
             </Link>
-            <h1 className="text-xl font-semibold text-stone-800 tracking-tight mt-1">
-              Week of {formatWeekOf(weekOf)}
-            </h1>
+            <div>
+              <h1 className="text-lg sm:text-xl font-semibold text-stone-800 tracking-tight">
+                Week of {formatWeekOf(weekOf)}
+              </h1>
+              <p className="text-xs text-stone-400">Free 1-day plan</p>
+            </div>
           </div>
-          <div className="flex items-center gap-2">
-            <span className="text-sm text-stone-400 hidden sm:block">
-              Free 1-day plan
-            </span>
+          <div className="flex items-center gap-3">
+            {isSignedIn === false && (
+              <Link
+                href="/login"
+                className="text-sm font-medium text-stone-500 hover:text-orange-500 transition-colors duration-200"
+              >
+                Sign in
+              </Link>
+            )}
+            {isSignedIn === true && (
+              <Link
+                href="/dashboard"
+                className="text-sm font-medium text-stone-500 hover:text-orange-500 transition-colors duration-200"
+              >
+                Dashboard
+              </Link>
+            )}
           </div>
         </div>
       </header>
 
       {/* Hero stat — Just Cancel style */}
       <div className="border-b border-orange-100 bg-gradient-to-r from-orange-50 via-amber-50 to-orange-50">
-        <div className="max-w-4xl mx-auto px-6 pt-8 sm:pt-10 pb-10 sm:pb-14">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-6 sm:pt-10 pb-8 sm:pb-14">
           {/* Small stats — like "found 35 subscriptions · 847 transactions" */}
-          <p className="text-sm text-stone-500 mb-1">
+          <p className="text-xs sm:text-sm text-stone-500 mb-1">
             planned {totalMeals} meals &middot; {totalGroceryItems} grocery items &middot; {totalCalories.toLocaleString()} cal
           </p>
           {/* Secondary line — like "Cancelled 18 · Keeping 13" */}
-          <p className="text-sm text-orange-600/80 mb-4">
+          <p className="text-xs sm:text-sm text-orange-600/80 mb-4">
             {totalCookTime} min total cook time &middot; Est. {plan.estimatedWeeklyCost}
           </p>
           {/* Big heading — like "just saved $27,480/yr ($2,290/mo)" */}
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-stone-900 tracking-tight leading-[1.1]">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-900 tracking-tight leading-[1.1]">
             just saved <span className="text-orange-500">{hoursSavedYearly}+ hours/yr</span>
             <br />
-            <span className="whitespace-nowrap">not thinking about what to eat</span>
+            not thinking about what to eat
           </h2>
         </div>
       </div>
 
+      {/* Save plan CTA — anonymous users */}
+      {isSignedIn === false && (
+        <div className="border-b border-orange-100 bg-white">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between gap-4">
+            <div className="flex items-center gap-2.5 min-w-0">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0">
+                <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/>
+                <polyline points="17 21 17 13 7 13 7 21"/>
+                <polyline points="7 3 7 8 15 8"/>
+              </svg>
+              <p className="text-sm text-stone-600">
+                <span className="font-medium text-stone-800">Create an account</span>{" "}
+                <span className="hidden sm:inline">to save your plan and access it anytime.</span>
+                <span className="sm:hidden">to keep your plan.</span>
+              </p>
+            </div>
+            <Link
+              href="/signup"
+              className="shrink-0 inline-flex items-center px-4 py-1.5 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors duration-200"
+            >
+              Sign up free
+            </Link>
+          </div>
+        </div>
+      )}
+
+      {/* Signed in — link to dashboard */}
+      {isSignedIn === true && (
+        <div className="border-b border-stone-100 bg-white/60">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
+            <p className="text-sm text-stone-500">
+              This plan is saved in your account.
+            </p>
+            <Link
+              href="/dashboard"
+              className="text-sm font-medium text-orange-500 hover:text-orange-600 transition-colors duration-200"
+            >
+              Go to Dashboard &rarr;
+            </Link>
+          </div>
+        </div>
+      )}
+
       {/* Plan content */}
-      <main className="max-w-6xl mx-auto px-6 py-8">
-        {/* View toggle */}
-        <div className="flex items-center justify-end mb-6">
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        {/* View toggle — hidden on mobile since table doesn't fit */}
+        <div className="hidden sm:flex items-center justify-end mb-6">
           <div className="flex bg-white rounded-full border border-stone-100 shadow-sm p-1">
             <button
               type="button"
@@ -229,37 +297,34 @@ export default function PreviewPage() {
           </div>
         </div>
 
-        {viewMode === "table" ? (
-          /* Table view */
-          <div className="space-y-8">
-            <PlanTable days={plan.days} />
+        {/* Mobile: always cards + tabs (table doesn't fit) */}
+        <div className={cn("sm:hidden", viewMode === "table" && "sm:hidden")}>
+          <MobileTabs
+            days={plan.days}
+            groceryCategories={plan.groceryList}
+            estimatedCost={plan.estimatedWeeklyCost}
+          />
+        </div>
 
-            {/* Grocery list below table */}
-            <GroceryList
-              categories={plan.groceryList}
-              estimatedCost={plan.estimatedWeeklyCost}
-            />
-          </div>
-        ) : (
-          <>
-            {/* Mobile: tab view */}
-            <div className="lg:hidden">
-              <MobileTabs
-                days={plan.days}
-                groceryCategories={plan.groceryList}
+        {/* Desktop: respect view toggle */}
+        <div className="hidden sm:block">
+          {viewMode === "table" ? (
+            <div className="space-y-8">
+              <PlanTable days={plan.days} />
+              <GroceryList
+                categories={plan.groceryList}
                 estimatedCost={plan.estimatedWeeklyCost}
               />
             </div>
-
-            {/* Desktop: two-column */}
-            <div className="hidden lg:grid lg:grid-cols-5 lg:gap-8">
+          ) : (
+            <div className="lg:grid lg:grid-cols-5 lg:gap-8">
               <div className="lg:col-span-3 space-y-4">
                 {plan.days.map((day, i) => (
                   <DayCard key={day.day} day={day} defaultOpen={i === 0} />
                 ))}
               </div>
 
-              <div className="lg:col-span-2">
+              <div className="hidden lg:block lg:col-span-2">
                 <div className="sticky top-24">
                   <GroceryList
                     categories={plan.groceryList}
@@ -267,9 +332,17 @@ export default function PreviewPage() {
                   />
                 </div>
               </div>
+
+              {/* Tablet: grocery below cards */}
+              <div className="lg:hidden mt-8">
+                <GroceryList
+                  categories={plan.groceryList}
+                  estimatedCost={plan.estimatedWeeklyCost}
+                />
+              </div>
             </div>
-          </>
-        )}
+          )}
+        </div>
 
       </main>
 
@@ -289,7 +362,7 @@ export default function PreviewPage() {
           </p>
 
           {/* Trust signals */}
-          <div className="flex items-center justify-center gap-4 text-xs text-stone-400 mb-8">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-xs text-stone-400 mb-8">
             <span className="flex items-center gap-1">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
               Cancel anytime

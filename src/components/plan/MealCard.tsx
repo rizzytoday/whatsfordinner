@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { Badge } from "@/components/ui/Badge";
 import { cn } from "@/lib/utils";
 import type { Meal } from "@/types/meal-plan";
 
@@ -25,28 +24,21 @@ export function MealCard({ meal }: MealCardProps) {
       <button
         type="button"
         onClick={() => setExpanded((prev) => !prev)}
-        className="w-full text-left px-4 py-3 flex items-center justify-between group hover:bg-orange-50/40 transition-colors duration-200"
+        className="w-full text-left px-4 py-3 group hover:bg-orange-50/40 transition-colors duration-200"
       >
-        <div className="flex items-center gap-3 min-w-0">
+        {/* Top row: type badge + meal name */}
+        <div className="flex items-start gap-2.5">
           <span
             className={cn(
-              "text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full shrink-0",
+              "text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full shrink-0 mt-0.5",
               mealTypeStyles[meal.type],
             )}
           >
             {meal.type}
           </span>
-          <span className="text-sm font-medium text-stone-700 truncate">
+          <span className="text-sm font-medium text-stone-700 leading-snug flex-1">
             {meal.name}
           </span>
-        </div>
-
-        <div className="flex items-center gap-3 shrink-0 ml-3">
-          {/* Prep + cook time */}
-          <span className="text-xs text-stone-400 hidden sm:block">
-            {meal.prepTime + meal.cookTime} min
-          </span>
-          <Badge variant="muted">{meal.calories} cal</Badge>
           <svg
             width="14"
             height="14"
@@ -56,34 +48,36 @@ export function MealCard({ meal }: MealCardProps) {
             strokeWidth="1.5"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className={`text-stone-300 transition-transform duration-200 ${
+            className={`text-stone-300 transition-transform duration-200 shrink-0 mt-0.5 ${
               expanded ? "rotate-180" : ""
             }`}
           >
             <polyline points="6 9 12 15 18 9" />
           </svg>
         </div>
+        {/* Bottom row: meta info */}
+        <div className="flex items-center gap-3 mt-1.5 ml-[calc(0.625rem+4px+0.625rem)]">
+          <span className="text-xs text-stone-400">
+            {meal.prepTime + meal.cookTime} min
+          </span>
+          <span className="text-xs text-stone-400">&middot;</span>
+          <span className="text-xs text-stone-400">
+            {meal.calories} cal
+          </span>
+          {meal.servings && (
+            <>
+              <span className="text-xs text-stone-400">&middot;</span>
+              <span className="text-xs text-stone-400">
+                {meal.servings} servings
+              </span>
+            </>
+          )}
+        </div>
       </button>
 
       {/* Expanded recipe detail */}
       {expanded && (
         <div className="px-4 pb-4 pt-1 border-t border-stone-100 space-y-4">
-          {/* Time details */}
-          <div className="flex items-center gap-4 text-xs text-stone-500">
-            <span>
-              <strong className="text-stone-600">Prep:</strong> {meal.prepTime}{" "}
-              min
-            </span>
-            <span>
-              <strong className="text-stone-600">Cook:</strong> {meal.cookTime}{" "}
-              min
-            </span>
-            <span>
-              <strong className="text-stone-600">Servings:</strong>{" "}
-              {meal.servings}
-            </span>
-          </div>
-
           {/* Tags */}
           {meal.tags.length > 0 && (
             <div className="flex flex-wrap gap-1.5">

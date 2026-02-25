@@ -15,9 +15,12 @@ export function Hero() {
           ask again.
         </h1>
 
-        <p className="mt-6 text-lg sm:text-xl text-stone-600 max-w-xl mx-auto leading-relaxed">
-          Personalized weekly meal plans and grocery lists, delivered to your
-          inbox. Try a free 1-day plan — no credit card required.
+        <p className="mt-6 text-lg sm:text-xl text-stone-600 max-w-lg mx-auto leading-relaxed">
+          Personalized meal plans and grocery lists,
+          <br />
+          delivered to your inbox every week.
+          <br />
+          Try free — no credit card required.
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-4">

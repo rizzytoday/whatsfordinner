@@ -8,6 +8,7 @@ import { LanguagePicker } from "@/components/ui/LanguagePicker";
 import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n/context";
 import { generateFingerprint } from "@/lib/fingerprint";
+import { createClient } from "@/lib/supabase/client";
 import {
   StepHousehold,
   type OnboardingFormData,
@@ -55,8 +56,23 @@ export default function OnboardingPage() {
   const [elapsed, setElapsed] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const [blocked, setBlocked] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const startedAtRef = useRef(Date.now());
+
+  // Check if user is authenticated
+  useEffect(() => {
+    const supabase = createClient();
+    supabase.auth.getUser().then(({ data: { user } }) => {
+      if (!user) return;
+      setIsAuthenticated(true);
+      // Pre-fill email from auth
+      if (user.email && !data.delivery_email) {
+        setData((prev) => ({ ...prev, delivery_email: user.email! }));
+      }
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const COOKING_KEYS = [
     "onboarding.cooking.msg1", "onboarding.cooking.msg2", "onboarding.cooking.msg3",
@@ -103,7 +119,33 @@ export default function OnboardingPage() {
     setError(null);
 
     try {
-      // --- Client-side guard: one free plan per device, ever ---
+      // --- Authenticated user: save profile and go to dashboard ---
+      if (isAuthenticated) {
+        const profileData = {
+          ...data,
+          servings_per_meal: data.household_size,
+          onboarding_completed: true,
+        };
+
+        const res = await fetch("/api/profile", {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(profileData),
+        });
+
+        if (!res.ok) {
+          const errData = await res.json();
+          throw new Error(errData.error || "Failed to save profile");
+        }
+
+        // Also save to localStorage for backup
+        localStorage.setItem("wfd_preferences", JSON.stringify(data));
+
+        router.push("/dashboard");
+        return;
+      }
+
+      // --- Anonymous user: one free plan per device ---
       if (localStorage.getItem("wfd_free_used") === "1") {
         const cached = localStorage.getItem("wfd_free_plan");
         if (cached) {
@@ -175,9 +217,16 @@ export default function OnboardingPage() {
 
   return (
     <div className="min-h-screen bg-[#FFF8F2]">
-      <div className="max-w-2xl mx-auto px-6 py-8">
+      <div className="max-w-2xl mx-auto px-4 sm:px-6 py-4 sm:py-8">
         {/* Header */}
-        <div className="text-center mb-6 relative">
+        <div className="text-center mb-4 sm:mb-6 relative">
+          <Link
+            href="/"
+            className="absolute left-0 top-0 w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-xl flex items-center justify-center transition-colors"
+            title="Back to home"
+          >
+            <span className="text-xl leading-none" style={{ filter: "brightness(0) invert(1)", letterSpacing: "0.1em" }}>🍴</span>
+          </Link>
           <div className="absolute right-0 top-0">
             <LanguagePicker />
           </div>
@@ -187,16 +236,16 @@ export default function OnboardingPage() {
           >
             What&apos;s For Dinner
           </Link>
-          <h1 className="text-2xl font-bold text-stone-800 mb-1 mt-3">
+          <h1 className="text-xl sm:text-2xl font-bold text-stone-800 mb-0.5 sm:mb-1 mt-2 sm:mt-3">
             {t("onboarding.title")}
           </h1>
-          <p className="text-stone-500 text-sm">
+          <p className="text-stone-500 text-xs sm:text-sm">
             {t("onboarding.subtitle")}
           </p>
         </div>
 
         {/* Progress indicator */}
-        <div className="flex items-center justify-center gap-3 mb-6">
+        <div className="grid grid-cols-5 mb-4 sm:mb-6 max-w-md mx-auto">
           {STEP_KEYS.map((key, index) => (
             <button
               key={key}
@@ -209,7 +258,7 @@ export default function OnboardingPage() {
             >
               <div
                 className={cn(
-                  "w-8 h-8 rounded-full flex items-center justify-center text-xs font-semibold transition-all duration-300",
+                  "w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-xs font-semibold transition-all duration-300",
                   index === currentStep
                     ? "bg-orange-500 text-white shadow-md shadow-orange-200 scale-110"
                     : index < currentStep
@@ -219,7 +268,7 @@ export default function OnboardingPage() {
               >
                 {index < currentStep ? (
                   <svg
-                    className="w-4 h-4"
+                    className="w-3.5 h-3.5 sm:w-4 sm:h-4"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -237,7 +286,7 @@ export default function OnboardingPage() {
               </div>
               <span
                 className={cn(
-                  "text-xs font-medium hidden sm:block transition-colors duration-200",
+                  "text-[10px] sm:text-xs font-medium transition-colors duration-200",
                   index === currentStep
                     ? "text-orange-600"
                     : index < currentStep
@@ -252,7 +301,7 @@ export default function OnboardingPage() {
         </div>
 
         {/* Step content */}
-        <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-6 sm:p-8 mb-6">
+        <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-4 sm:p-8 mb-4 sm:mb-6">
           {currentStep === 0 && (
             <StepHousehold data={data} onChange={handleChange} />
           )}
@@ -270,8 +319,8 @@ export default function OnboardingPage() {
           )}
         </div>
 
-        {/* Blocked — show subscribe CTA instead of form */}
-        {blocked ? (
+        {/* Blocked — show subscribe CTA instead of form (anonymous users only) */}
+        {blocked && !isAuthenticated ? (
           <div className="bg-orange-50 border border-orange-200 rounded-2xl p-6 text-center space-y-3">
             <div className="text-3xl">
               <svg className="w-10 h-10 mx-auto text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -331,13 +380,17 @@ export default function OnboardingPage() {
               >
                 {isLastStep
                   ? loading
-                    ? <span className="inline-flex items-center gap-0">
-                        {cookingMessage}
-                        <span className="animated-dots ml-0.5">
-                          <span>.</span><span>.</span><span>.</span>
+                    ? isAuthenticated
+                      ? "Saving..."
+                      : <span className="inline-flex items-center gap-0">
+                          {cookingMessage}
+                          <span className="animated-dots ml-0.5">
+                            <span>.</span><span>.</span><span>.</span>
+                          </span>
                         </span>
-                      </span>
-                    : t("onboarding.generate")
+                    : isAuthenticated
+                      ? "Save & Continue"
+                      : t("onboarding.generate")
                   : t("common.next")}
               </Button>
             </div>

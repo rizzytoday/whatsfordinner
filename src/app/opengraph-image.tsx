@@ -35,14 +35,16 @@ export default async function OGImage() {
           }}
         />
 
-        {/* Top-left: fork+knife icon + name */}
+        {/* Top center: fork+knife icon + name */}
         <div
           style={{
             position: "absolute",
             top: 44,
-            left: 52,
+            left: 0,
+            right: 0,
             display: "flex",
             alignItems: "center",
+            justifyContent: "center",
             gap: 14,
           }}
         >
@@ -153,26 +155,9 @@ export default async function OGImage() {
             right: 52,
             display: "flex",
             alignItems: "center",
-            justifyContent: "space-between",
+            justifyContent: "flex-end",
           }}
         >
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: 8,
-              backgroundColor: "#F97316",
-              color: "white",
-              padding: "10px 24px",
-              borderRadius: 50,
-              fontSize: 16,
-              fontWeight: 700,
-              fontFamily: "Georgia, serif",
-            }}
-          >
-            What&apos;s For Dinner
-          </div>
-
           <span
             style={{
               fontSize: 18,

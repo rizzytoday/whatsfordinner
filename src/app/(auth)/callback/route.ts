@@ -1,14 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
+import { getAppUrl } from "@/lib/utils";
 
 export async function GET(req: NextRequest) {
-  const { searchParams, origin } = new URL(req.url);
+  const { searchParams } = new URL(req.url);
   const code = searchParams.get("code");
   const plan = searchParams.get("plan");
   const redirect = searchParams.get("redirect");
+  const appUrl = getAppUrl();
 
   if (!code) {
-    return NextResponse.redirect(`${origin}/?error=missing_code`);
+    console.error("Auth callback: no code param received", {
+      params: Object.fromEntries(searchParams.entries()),
+    });
+    return NextResponse.redirect(`${appUrl}/login?error=missing_code`);
   }
 
   try {
@@ -16,22 +21,21 @@ export async function GET(req: NextRequest) {
     const { error } = await supabase.auth.exchangeCodeForSession(code);
 
     if (error) {
-      console.error("Auth callback error:", error);
-      return NextResponse.redirect(`${origin}/?error=auth_failed`);
+      console.error("Auth callback: code exchange failed:", error.message);
+      return NextResponse.redirect(`${appUrl}/login?error=auth_failed`);
     }
 
-    // If signing up with a plan, go to checkout page which handles Stripe
     if (plan) {
-      return NextResponse.redirect(`${origin}/checkout?plan=${plan}`);
+      return NextResponse.redirect(`${appUrl}/checkout?plan=${plan}`);
     }
 
     if (redirect) {
-      return NextResponse.redirect(`${origin}${redirect}`);
+      return NextResponse.redirect(`${appUrl}${redirect}`);
     }
 
-    return NextResponse.redirect(`${origin}/dashboard`);
-  } catch (error) {
-    console.error("Auth callback error:", error);
-    return NextResponse.redirect(`${origin}/?error=auth_failed`);
+    return NextResponse.redirect(`${appUrl}/dashboard`);
+  } catch (err) {
+    console.error("Auth callback: unexpected error:", err);
+    return NextResponse.redirect(`${appUrl}/login?error=auth_failed`);
   }
 }

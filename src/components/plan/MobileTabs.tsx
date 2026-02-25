@@ -20,7 +20,7 @@ export function MobileTabs({ days, groceryCategories, estimatedCost }: MobileTab
   return (
     <div>
       {/* Sticky tab bar */}
-      <div className="sticky top-[73px] z-10 bg-[#FFFBF5] pb-4 pt-1 -mx-6 px-6">
+      <div className="sticky top-[57px] sm:top-[73px] z-10 bg-[#FFFBF5] pb-3 sm:pb-4 pt-1 -mx-4 px-4 sm:-mx-6 sm:px-6">
         <div className="flex bg-white rounded-full border border-stone-100 shadow-sm p-1">
           <button
             type="button"

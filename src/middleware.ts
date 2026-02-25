@@ -5,6 +5,16 @@ const protectedRoutes = ["/dashboard", "/plan"];
 const authRoutes = ["/login", "/signup"];
 
 export async function middleware(request: NextRequest) {
+  const { pathname, searchParams } = request.nextUrl;
+
+  // If Supabase sends auth code to root instead of /callback, redirect BEFORE
+  // any Supabase processing so the code isn't consumed by getUser()
+  if (searchParams.get("code") && pathname === "/") {
+    const url = request.nextUrl.clone();
+    url.pathname = "/callback";
+    return NextResponse.redirect(url);
+  }
+
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
@@ -37,8 +47,6 @@ export async function middleware(request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  const { pathname } = request.nextUrl;
-
   // Protect routes that require auth
   if (protectedRoutes.some((route) => pathname.startsWith(route))) {
     if (!user) {
@@ -49,13 +57,12 @@ export async function middleware(request: NextRequest) {
     }
   }
 
-  // Redirect authenticated users away from auth pages
-  if (authRoutes.some((route) => pathname.startsWith(route))) {
-    if (user) {
-      const url = request.nextUrl.clone();
-      url.pathname = "/dashboard";
-      return NextResponse.redirect(url);
-    }
+  // Redirect authenticated users away from auth pages (only signup, not login)
+  // Login page handles its own redirect so users can always access it
+  if (pathname.startsWith("/signup") && user) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/dashboard";
+    return NextResponse.redirect(url);
   }
 
   return supabaseResponse;

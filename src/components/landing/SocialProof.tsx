@@ -68,8 +68,8 @@ export function SocialProof() {
       <div className="max-w-4xl mx-auto px-6">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 sm:gap-12">
           <Counter end={12847} label="meals planned" />
-          <Counter end={131291} prefix="$" label="saved on groceries" />
-          <Counter end={2431} label="happy households" />
+          <Counter end={38400} label="hours of meal planning saved" />
+          <Counter end={62} suffix="%" label="less spent vs meal kits" />
           <Counter end={94} suffix="%" label="kept subscribing" />
         </div>
       </div>

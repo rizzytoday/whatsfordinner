@@ -46,12 +46,12 @@ export function StepPreferences({ data, onChange }: StepProps) {
   }
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-4 sm:space-y-5">
       <div className="text-center space-y-1">
-        <h2 className="text-2xl font-semibold text-stone-800">
+        <h2 className="text-xl sm:text-2xl font-semibold text-stone-800">
           Your cooking style
         </h2>
-        <p className="text-stone-500 text-sm">
+        <p className="text-stone-500 text-xs sm:text-sm">
           Help us pick recipes you&apos;ll actually enjoy making.
         </p>
       </div>
@@ -61,7 +61,7 @@ export function StepPreferences({ data, onChange }: StepProps) {
         <label className="text-sm font-medium text-stone-700">
           Favorite cuisines
         </label>
-        <div className="flex flex-wrap gap-2">
+        <div className="grid grid-cols-3 sm:flex sm:flex-wrap gap-1.5 sm:gap-2">
           {CUISINE_OPTIONS.map((cuisine) => {
             const selected = data.cuisine_preferences.includes(cuisine);
             return (
@@ -70,7 +70,7 @@ export function StepPreferences({ data, onChange }: StepProps) {
                 type="button"
                 onClick={() => toggleCuisine(cuisine)}
                 className={cn(
-                  "px-3 py-1.5 rounded-full border text-xs font-medium transition-all duration-200",
+                  "px-2 py-1.5 sm:px-3 rounded-full border text-[11px] sm:text-xs font-medium transition-all duration-200 text-center",
                   "hover:border-orange-300 hover:bg-orange-50/50",
                   selected
                     ? "border-orange-400 bg-orange-50 text-orange-700"
@@ -79,7 +79,7 @@ export function StepPreferences({ data, onChange }: StepProps) {
               >
                 {selected && (
                   <svg
-                    className="inline w-3 h-3 mr-1 -mt-0.5"
+                    className="hidden sm:inline w-3 h-3 mr-1 -mt-0.5"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"

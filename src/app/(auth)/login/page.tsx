@@ -21,12 +21,18 @@ function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const redirect = searchParams.get("redirect");
+  const urlError = searchParams.get("error");
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+  const [error, setError] = useState(
+    urlError === "auth_failed" ? "Sign in failed. Please try again." :
+    urlError === "missing_code" ? "Sign in failed. Please try again." :
+    ""
+  );
   const [loading, setLoading] = useState(false);
   const [googleLoading, setGoogleLoading] = useState(false);
+
 
   async function handleGoogleSignIn() {
     setGoogleLoading(true);

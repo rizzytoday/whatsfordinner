@@ -68,16 +68,16 @@ export function Pricing() {
           {/* Monthly Card */}
           <div
             className={cn(
-              "bg-white rounded-2xl border p-8 transition-all duration-200",
+              "bg-white rounded-2xl border p-8 transition-all duration-200 flex flex-col",
               !yearly
                 ? "border-orange-300 shadow-md ring-1 ring-orange-100"
                 : "border-stone-200 shadow-sm"
             )}
           >
             <h3 className="text-lg font-semibold text-stone-900">Monthly</h3>
-            <div className="mt-4 flex items-baseline gap-1">
-              <span className="text-4xl font-bold text-stone-900">$4.99</span>
-              <span className="text-stone-500 text-sm">/month</span>
+            <div className="mt-4 flex items-baseline gap-1.5">
+              <span className="text-5xl font-extrabold text-stone-900 tracking-tight">$4.99</span>
+              <span className="text-stone-400 text-sm font-medium">/month</span>
             </div>
 
             <ul className="mt-8 space-y-3">
@@ -104,7 +104,7 @@ export function Pricing() {
             <Link
               href="/onboarding"
               className={cn(
-                "mt-8 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-medium rounded-full transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2",
+                "mt-auto pt-8 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-medium rounded-full transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2",
                 !yearly
                   ? "bg-orange-500 hover:bg-orange-600 text-white shadow-sm hover:shadow-md"
                   : "bg-stone-100 hover:bg-stone-200 text-stone-700"
@@ -117,7 +117,7 @@ export function Pricing() {
           {/* Yearly Card */}
           <div
             className={cn(
-              "bg-white rounded-2xl border p-8 transition-all duration-200 relative",
+              "bg-white rounded-2xl border p-8 transition-all duration-200 relative flex flex-col",
               yearly
                 ? "border-orange-300 shadow-md ring-1 ring-orange-100"
                 : "border-stone-200 shadow-sm"
@@ -129,15 +129,15 @@ export function Pricing() {
             </span>
 
             <h3 className="text-lg font-semibold text-stone-900">Yearly</h3>
-            <div className="mt-4 flex items-baseline gap-1">
-              <span className="text-4xl font-bold text-stone-900">$29.99</span>
-              <span className="text-stone-500 text-sm">/year</span>
+            <div className="mt-4 flex items-baseline gap-1.5">
+              <span className="text-5xl font-extrabold text-stone-900 tracking-tight">$2.50</span>
+              <span className="text-stone-400 text-sm font-medium">/month</span>
             </div>
-            <p className="mt-1 text-sm text-orange-600 font-medium">
-              $2.50/mo
+            <p className="mt-1.5 text-sm text-stone-400">
+              Billed yearly at $29.99
             </p>
 
-            <ul className="mt-7 space-y-3">
+            <ul className="mt-6 space-y-3">
               {features.map((feature) => (
                 <li key={feature} className="flex items-start gap-3 text-sm text-stone-600">
                   <svg
@@ -161,7 +161,7 @@ export function Pricing() {
             <Link
               href="/onboarding"
               className={cn(
-                "mt-8 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-medium rounded-full transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2",
+                "mt-auto pt-8 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-medium rounded-full transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2",
                 yearly
                   ? "bg-orange-500 hover:bg-orange-600 text-white shadow-sm hover:shadow-md"
                   : "bg-stone-100 hover:bg-stone-200 text-stone-700"

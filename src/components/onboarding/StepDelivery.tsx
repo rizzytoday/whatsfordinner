@@ -15,6 +15,16 @@ const DAYS_OF_WEEK = [
   { value: "saturday", label: "Sat" },
 ];
 
+const DAY_LABELS: Record<string, string> = {
+  sunday: "Sunday",
+  monday: "Monday",
+  tuesday: "Tuesday",
+  wednesday: "Wednesday",
+  thursday: "Thursday",
+  friday: "Friday",
+  saturday: "Saturday",
+};
+
 const COMMON_TIMEZONES = [
   "America/New_York",
   "America/Chicago",
@@ -29,6 +39,9 @@ const COMMON_TIMEZONES = [
   "Europe/London",
   "Europe/Paris",
   "Europe/Berlin",
+  "Europe/Riga",
+  "Europe/Helsinki",
+  "Europe/Istanbul",
   "Asia/Tokyo",
   "Asia/Shanghai",
   "Asia/Kolkata",
@@ -52,21 +65,23 @@ function formatTimezone(tz: string): string {
 }
 
 export function StepDelivery({ data, onChange }: StepProps) {
+  const selectedDayLabel = DAY_LABELS[data.delivery_day] || "Sunday";
+
   return (
-    <div className="space-y-5">
+    <div className="space-y-4 sm:space-y-5">
       <div className="text-center space-y-1">
-        <h2 className="text-2xl font-semibold text-stone-800">
+        <h2 className="text-xl sm:text-2xl font-semibold text-stone-800">
           When should we send it?
         </h2>
-        <p className="text-stone-500 text-sm">
-          Pick a day and we&apos;ll email your meal plan every week.
+        <p className="text-stone-500 text-xs sm:text-sm">
+          Pick the day you want your weekly meal plan to arrive.
         </p>
       </div>
 
       {/* Day picker — buttons */}
       <div className="space-y-2">
         <label className="text-sm font-medium text-stone-700">
-          Every week on
+          Deliver my plan every
         </label>
         <div className="grid grid-cols-7 gap-1.5">
           {DAYS_OF_WEEK.map((day) => {
@@ -89,6 +104,10 @@ export function StepDelivery({ data, onChange }: StepProps) {
             );
           })}
         </div>
+        {/* Confirmation note */}
+        <p className="text-xs text-stone-400 text-center">
+          Every {selectedDayLabel} morning, you&apos;ll get a fresh 7-day meal plan + grocery list in your inbox.
+        </p>
       </div>
 
       {/* Email */}

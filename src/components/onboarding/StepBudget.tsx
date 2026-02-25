@@ -10,7 +10,7 @@ const BUDGET_OPTIONS = [
     price: "$50-80",
     description: "Pantry staples, simple recipes",
     icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+      <svg className="w-6 h-6 sm:w-7 sm:h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
         <path d="M4 15c0 3.5 3.6 6 8 6s8-2.5 8-6" />
         <path d="M4 15h16" />
         <path d="M9 12c0-1 1-1.5 1-2.5S9 8 9 7" />
@@ -26,7 +26,7 @@ const BUDGET_OPTIONS = [
     description: "Fresh ingredients, good variety",
     popular: true,
     icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+      <svg className="w-6 h-6 sm:w-7 sm:h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="13" r="7" />
         <circle cx="12" cy="13" r="4.5" />
         <path d="M8 3v3M8 3l-1 0M8 3l1 0" />
@@ -40,7 +40,7 @@ const BUDGET_OPTIONS = [
     price: "$130-200",
     description: "Specialty items, global flavors",
     icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+      <svg className="w-6 h-6 sm:w-7 sm:h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 14v4h-4v-4" />
         <path d="M16 14v4h-4" />
         <path d="M8 14c0-1-2.5-2-2.5-4.5a4.5 4.5 0 014-4.47 4.5 4.5 0 015 0 4.5 4.5 0 014 4.47c0 2.5-2.5 3.5-2.5 4.5" />
@@ -52,17 +52,67 @@ const BUDGET_OPTIONS = [
 
 export function StepBudget({ data, onChange }: StepProps) {
   return (
-    <div className="space-y-6">
-      <div className="text-center space-y-2">
-        <h2 className="text-2xl font-semibold text-stone-800">
+    <div className="space-y-4 sm:space-y-6">
+      <div className="text-center space-y-1 sm:space-y-2">
+        <h2 className="text-xl sm:text-2xl font-semibold text-stone-800">
           How much do you spend on groceries?
         </h2>
-        <p className="text-stone-500 text-sm">
+        <p className="text-stone-500 text-xs sm:text-sm">
           Weekly grocery budget — we&apos;ll match recipes to your range.
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-4">
+      {/* Mobile: horizontal rows */}
+      <div className="flex flex-col gap-2 sm:hidden">
+        {BUDGET_OPTIONS.map((option) => {
+          const selected = data.weekly_budget === option.value;
+          return (
+            <button
+              key={option.value}
+              type="button"
+              onClick={() => onChange({ weekly_budget: option.value })}
+              className={cn(
+                "relative flex items-center gap-4 px-4 py-3 rounded-2xl border transition-all duration-200",
+                "hover:border-orange-300",
+                selected
+                  ? "border-orange-400 bg-orange-50/80 shadow-sm"
+                  : "border-stone-200 bg-white",
+              )}
+            >
+              {"popular" in option && option.popular && (
+                <span className="absolute -top-2.5 right-4 px-2.5 py-0.5 bg-orange-500 text-white text-[10px] font-semibold rounded-full">
+                  Most picked
+                </span>
+              )}
+              <div
+                className={cn(
+                  "shrink-0",
+                  selected ? "text-orange-500" : "text-stone-400",
+                )}
+              >
+                {option.icon}
+              </div>
+              <div className="flex-1 text-left">
+                <h3
+                  className={cn(
+                    "text-sm font-semibold",
+                    selected ? "text-orange-700" : "text-stone-800",
+                  )}
+                >
+                  {option.label}
+                </h3>
+                <p className="text-xs text-stone-400 mt-0.5">{option.description}</p>
+              </div>
+              <span className="text-sm font-semibold text-orange-500 shrink-0">
+                {option.price}/wk
+              </span>
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Desktop: 3-column cards */}
+      <div className="hidden sm:grid grid-cols-3 gap-4">
         {BUDGET_OPTIONS.map((option) => {
           const selected = data.weekly_budget === option.value;
           return (

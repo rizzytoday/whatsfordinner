@@ -7,9 +7,33 @@ import type { StepProps } from "./StepHousehold";
 const AGE_RANGES = ["18-25", "26-35", "36-45", "46-55", "56+"] as const;
 
 const GOAL_OPTIONS = [
-  { value: "lose" as const, label: "Lose weight" },
-  { value: "maintain" as const, label: "I'm good" },
-  { value: "bulk" as const, label: "Bulk / gain" },
+  {
+    value: "lose" as const,
+    label: "Lose weight",
+    icon: (
+      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 19V5M5 12l7-7 7 7" />
+      </svg>
+    ),
+  },
+  {
+    value: "maintain" as const,
+    label: "I'm good",
+    icon: (
+      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M5 12h14" />
+      </svg>
+    ),
+  },
+  {
+    value: "bulk" as const,
+    label: "Bulk / gain",
+    icon: (
+      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 5v14M5 12l7 7 7-7" />
+      </svg>
+    ),
+  },
 ];
 
 const TASTE_PILLS = [
@@ -101,10 +125,10 @@ export function StepDietary({ data, onChange }: StepProps) {
   const freetext = getFreetext();
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-4 sm:space-y-5">
       <div className="text-center space-y-1">
-        <h2 className="text-2xl font-semibold text-stone-800">About you</h2>
-        <p className="text-stone-500 text-sm">
+        <h2 className="text-xl sm:text-2xl font-semibold text-stone-800">About you</h2>
+        <p className="text-stone-500 text-xs sm:text-sm">
           Helps us build a plan that actually fits your life.
         </p>
       </div>
@@ -134,7 +158,7 @@ export function StepDietary({ data, onChange }: StepProps) {
         </div>
       </div>
 
-      {/* Goal */}
+      {/* Goal — with up/down icons */}
       <div className="space-y-1.5">
         <label className="text-xs font-medium text-stone-500">Goal</label>
         <div className="grid grid-cols-3 gap-1.5">
@@ -149,25 +173,26 @@ export function StepDietary({ data, onChange }: StepProps) {
                 })
               }
               className={cn(
-                "py-2 rounded-lg border text-xs font-medium transition-all",
+                "py-2 rounded-lg border text-xs font-medium transition-all inline-flex items-center justify-center gap-1.5",
                 "hover:border-orange-300",
                 data.nutrition_goal === opt.value
                   ? "border-orange-400 bg-orange-50 text-orange-700"
                   : "border-stone-200 bg-white text-stone-600",
               )}
             >
+              {opt.icon}
               {opt.label}
             </button>
           ))}
         </div>
       </div>
 
-      {/* Taste pills */}
+      {/* Taste pills — compact grid on mobile */}
       <div className="space-y-1.5">
         <label className="text-xs font-medium text-stone-500">
           What sounds like you?
         </label>
-        <div className="flex flex-wrap gap-1.5">
+        <div className="grid grid-cols-3 sm:flex sm:flex-wrap gap-1.5">
           {TASTE_PILLS.map((pill) => {
             const on = selectedPills.includes(pill);
             return (
@@ -176,7 +201,7 @@ export function StepDietary({ data, onChange }: StepProps) {
                 type="button"
                 onClick={() => togglePill(pill)}
                 className={cn(
-                  "px-3 py-1.5 rounded-full border text-xs font-medium transition-all",
+                  "px-2 py-1.5 sm:px-3 rounded-full border text-[11px] sm:text-xs font-medium transition-all text-center",
                   on
                     ? "border-orange-400 bg-orange-50 text-orange-700"
                     : "border-stone-200 bg-white text-stone-500 hover:border-orange-300",
@@ -197,12 +222,12 @@ export function StepDietary({ data, onChange }: StepProps) {
         />
       </div>
 
-      {/* Dietary restrictions */}
+      {/* Dietary restrictions — compact grid on mobile */}
       <div className="space-y-1.5">
         <label className="text-xs font-medium text-stone-500">
           Dietary restrictions
         </label>
-        <div className="flex flex-wrap gap-1.5">
+        <div className="grid grid-cols-3 sm:flex sm:flex-wrap gap-1.5">
           {DIETARY_OPTIONS.map((opt) => {
             const on = data.dietary_restrictions.includes(opt);
             return (
@@ -211,7 +236,7 @@ export function StepDietary({ data, onChange }: StepProps) {
                 type="button"
                 onClick={() => toggleRestriction(opt)}
                 className={cn(
-                  "px-2.5 py-1 rounded-full border text-xs font-medium transition-all",
+                  "px-2 py-1.5 sm:px-2.5 rounded-full border text-[11px] sm:text-xs font-medium transition-all text-center",
                   on
                     ? "border-orange-400 bg-orange-50 text-orange-700"
                     : "border-stone-200 bg-white text-stone-500 hover:border-orange-300",

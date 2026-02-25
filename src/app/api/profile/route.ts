@@ -54,12 +54,28 @@ export async function PUT(req: NextRequest) {
     const body = await req.json();
     const admin = createAdminClient();
 
+    // Only include columns that exist in the profiles table
+    const ALLOWED_FIELDS = [
+      "household_size", "has_kids", "kids_ages", "weekly_budget",
+      "dietary_restrictions", "allergies", "cuisine_preferences",
+      "cooking_skill", "max_cook_time", "meals_per_day",
+      "servings_per_meal", "delivery_email", "delivery_day",
+      "timezone", "onboarding_completed",
+    ];
+
+    const profileData: Record<string, unknown> = {
+      user_id: user.id,
+      updated_at: new Date().toISOString(),
+    };
+    for (const key of ALLOWED_FIELDS) {
+      if (key in body) {
+        profileData[key] = body[key];
+      }
+    }
+
     const { data: profile, error } = await admin
       .from("profiles")
-      .upsert(
-        { ...body, user_id: user.id, updated_at: new Date().toISOString() },
-        { onConflict: "user_id" }
-      )
+      .upsert(profileData, { onConflict: "user_id" })
       .select()
       .single();
 

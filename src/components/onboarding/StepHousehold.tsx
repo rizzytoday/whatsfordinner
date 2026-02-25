@@ -47,12 +47,12 @@ export function StepHousehold({ data, onChange }: StepProps) {
   }
 
   return (
-    <div className="space-y-8">
-      <div className="text-center space-y-2">
-        <h2 className="text-2xl font-semibold text-stone-800">
+    <div className="space-y-5 sm:space-y-8">
+      <div className="text-center space-y-1 sm:space-y-2">
+        <h2 className="text-xl sm:text-2xl font-semibold text-stone-800">
           Who&apos;s eating?
         </h2>
-        <p className="text-stone-500">
+        <p className="text-stone-500 text-sm">
           Tell us about your household so we can plan the right portions.
         </p>
       </div>
@@ -69,11 +69,11 @@ export function StepHousehold({ data, onChange }: StepProps) {
               type="button"
               onClick={() => onChange({ household_size: size })}
               className={cn(
-                "flex flex-col items-center justify-center py-4 px-3 rounded-xl border-2 transition-all duration-200",
+                "flex flex-col items-center justify-center py-4 px-3 rounded-xl border transition-all duration-200",
                 "hover:border-orange-300 hover:bg-orange-50/50",
                 data.household_size === size
                   ? "border-orange-400 bg-orange-50 shadow-sm"
-                  : "border-stone-150 bg-white",
+                  : "border-stone-200 bg-white",
               )}
             >
               <span className="text-2xl mb-1">
@@ -112,16 +112,16 @@ export function StepHousehold({ data, onChange }: StepProps) {
             onChange({ has_kids: !data.has_kids, kids_ages: [] })
           }
           className={cn(
-            "w-full flex items-center gap-3 px-5 py-4 rounded-xl border-2 transition-all duration-200",
+            "w-full flex items-center gap-3 px-5 py-4 rounded-xl border transition-all duration-200",
             "hover:border-orange-300",
             data.has_kids
               ? "border-orange-400 bg-orange-50"
-              : "border-stone-150 bg-white",
+              : "border-stone-200 bg-white",
           )}
         >
           <div
             className={cn(
-              "w-5 h-5 rounded-md border-2 flex items-center justify-center transition-all duration-200",
+              "w-5 h-5 rounded-md border flex items-center justify-center transition-all duration-200",
               data.has_kids
                 ? "bg-orange-500 border-orange-500"
                 : "border-stone-300",
@@ -164,11 +164,11 @@ export function StepHousehold({ data, onChange }: StepProps) {
                   type="button"
                   onClick={() => toggleKidAge(option.value)}
                   className={cn(
-                    "px-4 py-3 rounded-xl border-2 text-sm font-medium transition-all duration-200",
+                    "px-4 py-3 rounded-xl border text-sm font-medium transition-all duration-200",
                     "hover:border-orange-300 hover:bg-orange-50/50",
                     selected
                       ? "border-orange-400 bg-orange-50 text-orange-700"
-                      : "border-stone-150 bg-white text-stone-600",
+                      : "border-stone-200 bg-white text-stone-600",
                   )}
                 >
                   {option.label}
