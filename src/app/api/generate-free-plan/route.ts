@@ -30,7 +30,7 @@ function checkIpLimit(ip: string): boolean {
 }
 
 // --- Layer 2: Supabase persistent store (survives deploys) ---
-async function checkAndRecordFingerprint(
+async function checkFingerprint(
   fingerprint: string,
   ip: string
 ): Promise<{ allowed: boolean; reason?: string }> {
@@ -61,13 +61,20 @@ async function checkAndRecordFingerprint(
       return { allowed: false, reason: "network" };
     }
 
-    // Record this generation
-    await db.from("free_generations").insert({ fingerprint, ip_address: ip });
     return { allowed: true };
   } catch (err) {
     console.error("Supabase free_generations check failed:", err);
     // Fail closed — if DB is down, block the request
     return { allowed: false, reason: "service" };
+  }
+}
+
+async function recordFingerprint(fingerprint: string, ip: string) {
+  try {
+    const db = createAdminClient();
+    await db.from("free_generations").insert({ fingerprint, ip_address: ip });
+  } catch (err) {
+    console.error("Failed to record fingerprint:", err);
   }
 }
 
@@ -130,13 +137,11 @@ export async function POST(req: NextRequest) {
     }
 
     // --- Guard: Supabase persistent (survives everything) ---
-    const dbCheck = await checkAndRecordFingerprint(fingerprint, ip);
+    const dbCheck = await checkFingerprint(fingerprint, ip);
     if (!dbCheck.allowed) {
       usedFingerprints.add(fingerprint);
       return NextResponse.json({ error: BLOCK_MSG }, { status: 403 });
     }
-
-    usedFingerprints.add(fingerprint);
 
     // Build profile
     const profile: UserProfile = {
@@ -167,6 +172,11 @@ export async function POST(req: NextRequest) {
 
     // Free plan = 1 day only (cheaper, faster, and teases the full 7-day subscription)
     const plan = await generateMealPlan(profile, weekOf, { days: 1 });
+
+    // Only record fingerprint AFTER successful generation
+    // (so failed attempts don't burn the user's free try)
+    await recordFingerprint(fingerprint, ip);
+    usedFingerprints.add(fingerprint);
 
     return NextResponse.json({ plan, weekOf });
   } catch (error) {
