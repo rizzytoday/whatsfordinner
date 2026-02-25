@@ -14,7 +14,8 @@ export function Hero() {
         </h1>
 
         <p className="mt-4 sm:mt-6 text-base sm:text-xl text-stone-600 max-w-lg mx-auto leading-relaxed">
-          Personalized weekly meal plans and grocery lists, delivered to your inbox. Try a free 1-day plan{" "}
+          Personalized weekly meal plans and grocery lists, delivered to your inbox. Try a free 1-day plan
+          <br />
           <span className="text-orange-500 font-medium">— no credit card required.</span>
         </p>
 
