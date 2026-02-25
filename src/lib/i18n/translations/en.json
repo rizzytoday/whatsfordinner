@@ -16,7 +16,8 @@
   "landing": {
     "hero": {
       "title": "You'll never have to ask again.",
-      "subtitle": "Personalized weekly meal plans and grocery lists, delivered to your inbox. Try a free 1-day plan — no credit card required.",
+      "subtitle": "Personalized meal plans and grocery lists, delivered to your inbox every week.",
+      "noCreditCard": "Try free — no credit card required.",
       "cta": "Get Your Free Meal Plan",
       "subtext": "No account needed. Then $4.99/mo to keep it going."
     },
