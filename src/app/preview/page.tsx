@@ -147,7 +147,7 @@ export default function PreviewPage() {
               <h1 className="text-lg sm:text-xl font-semibold text-stone-800 tracking-tight">
                 Week of {formatWeekOf(weekOf)}
               </h1>
-              <p className="text-xs text-stone-400">Free 1-day plan</p>
+              <p className="text-xs text-stone-400">Free 3-day plan</p>
             </div>
           </div>
           <div className="flex items-center gap-3">

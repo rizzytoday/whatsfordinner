@@ -60,9 +60,10 @@ function buildPrompt(profile: UserProfile, days: number): string {
     lines.push(`Allergies (MUST AVOID): ${profile.allergies.map((a) => sanitizeUserText(a, 50)).join(", ")}`);
   }
   if (profile.cuisine_preferences.length > 0) {
-    // Cap to 3 cuisines for 1-day plans to keep response compact
-    const cuisines = days <= 1 && profile.cuisine_preferences.length > 3
-      ? profile.cuisine_preferences.sort(() => 0.5 - Math.random()).slice(0, 3)
+    // Cap cuisines for shorter plans to keep response compact
+    const maxCuisines = days <= 1 ? 3 : days <= 3 ? 5 : Infinity;
+    const cuisines = profile.cuisine_preferences.length > maxCuisines
+      ? profile.cuisine_preferences.sort(() => 0.5 - Math.random()).slice(0, maxCuisines)
       : profile.cuisine_preferences;
     lines.push(`Cuisines: ${cuisines.join(", ")}`);
   }

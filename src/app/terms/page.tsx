@@ -32,7 +32,7 @@ export default function TermsPage() {
 
           <h2 className="text-lg font-semibold text-stone-800">Free plan</h2>
           <p>
-            You can generate one free 1-day meal plan without creating an
+            You can generate one free 3-day meal plan without creating an
             account. No credit card is required for the free plan.
           </p>
 

@@ -168,7 +168,7 @@ export default async function DashboardPage() {
                     href="/onboarding"
                     className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm transition-all duration-200"
                   >
-                    Get Your Free 1-Day Plan
+                    Get Your Free 3-Day Plan
                   </a>
                 </CardContent>
               </Card>
@@ -201,7 +201,7 @@ export default async function DashboardPage() {
                       </p>
                     </div>
                     <p className="text-sm text-stone-500 mb-3">
-                      You&apos;ve used your free 1-day plan. Subscribe to edit preferences and get fresh plans every week.
+                      You&apos;ve used your free 3-day plan. Subscribe to edit preferences and get fresh plans every week.
                     </p>
                     <SubscribeButton
                       label="Subscribe — $4.99/mo →"

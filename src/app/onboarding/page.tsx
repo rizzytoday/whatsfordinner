@@ -425,7 +425,7 @@ function OnboardingContent() {
                   </h3>
                 </div>
                 <p className="text-xs text-stone-500">
-                  Your 1-day plan is waiting for you on your dashboard.
+                  Your 3-day plan is waiting for you on your dashboard.
                 </p>
                 <div className="flex flex-row gap-2 justify-center">
                   <Button size="sm" asChild>

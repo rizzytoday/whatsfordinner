@@ -28,7 +28,7 @@ export function FreePlanBanner({ hasDbPlan, hasProfile }: FreePlanBannerProps) {
           Your free meal plan is ready
         </h3>
         <p className="text-sm text-stone-500 mt-1">
-          You generated a free 1-day plan earlier. View it anytime.
+          You generated a free 3-day plan earlier. View it anytime.
         </p>
       </div>
       <Link

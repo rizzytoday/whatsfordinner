@@ -17,7 +17,7 @@
     "hero": {
       "title": "what's for dinner?",
       "subtitle": "Solved. Every week.",
-      "description": "Personalized meal plans and grocery lists, delivered to your inbox. Try a free 1-day plan",
+      "description": "Personalized meal plans and grocery lists, delivered to your inbox. Try a free 3-day plan",
       "noCreditCard": "— no credit card required.",
       "cta": "Get Your Free Meal Plan",
       "subtext": "No account needed."
@@ -40,7 +40,7 @@
     },
     "pricing": {
       "title": "Simple Pricing",
-      "subtitle": "Try a free 1-day plan. Then subscribe for the full week.",
+      "subtitle": "Try a free 3-day plan. Then subscribe for the full week.",
       "monthly": "Monthly",
       "yearly": "Yearly",
       "save50": "Save 50%",
@@ -50,7 +50,7 @@
       "billedYearly": "Billed yearly at $29.99",
       "tryFreeFirst": "Try Free First",
       "features": {
-        "firstWeekFree": "Try a free 1-day plan, no credit card needed",
+        "firstWeekFree": "Try a free 3-day plan, no credit card needed",
         "sevenDayPlans": "Fresh 7-day meal plans every week, made just for your family",
         "groceryLists": "Grocery lists you can actually shop from",
         "regenerations": "Don't love a meal? Regenerate up to 2x/week",
@@ -62,9 +62,9 @@
       "title": "Questions & Answers",
       "subtitle": "Everything you need to know before getting started.",
       "q1": "How does it work?",
-      "a1": "Fill out a quick profile with your dietary preferences, household size, and budget. You'll get a free 1-day meal plan immediately — no credit card required. Love it? Subscribe for full 7-day plans every week.",
+      "a1": "Fill out a quick profile with your dietary preferences, household size, and budget. You'll get a free 3-day meal plan immediately — no credit card required. Love it? Subscribe for full 7-day plans every week.",
       "q2": "Is the free plan really free?",
-      "a2": "Yes! You get a complete 1-day meal plan with recipes and a grocery list — completely free, no credit card needed. Subscribe to unlock full 7-day plans delivered weekly.",
+      "a2": "Yes! You get a complete 3-day meal plan with recipes and a grocery list — completely free, no credit card needed. Subscribe to unlock full 7-day plans delivered weekly.",
       "q3": "Can I customize for allergies and dietary restrictions?",
       "a3": "Absolutely. You can specify any allergies, intolerances, or dietary preferences (vegetarian, vegan, gluten-free, keto, etc.) during onboarding. Every meal plan is tailored to your needs.",
       "q4": "What if I don't like the plan?",
@@ -86,7 +86,7 @@
   },
   "onboarding": {
     "title": "Let's set up your meal plan",
-    "subtitle": "Takes about 2 minutes. Get a free 1-day meal plan.",
+    "subtitle": "Takes about 2 minutes. Get a free 3-day meal plan.",
     "steps": {
       "household": "Household",
       "budget": "Budget",
@@ -208,7 +208,7 @@
     "backHome": "Back to Home",
     "weekOf": "Week of {date}",
     "estCost": "Est. {cost}",
-    "freeBanner": "Here's your free 1-day plan. Enjoy!",
+    "freeBanner": "Here's your free 3-day plan. Enjoy!",
     "wantEveryWeek": "Want the full 7 days, every week?",
     "wantEveryWeekDesc": "Subscribe to get a complete 7-day meal plan and grocery list delivered to your inbox every week.",
     "subscribeMonthly": "Subscribe — $4.99/mo",
@@ -225,7 +225,7 @@
     "upgradeBanner": "Loved your free plan?",
     "upgradeDesc": "Subscribe to get a fresh meal plan every week, plus regenerations and email delivery.",
     "subscribeCta": "Subscribe — $4.99/mo",
-    "freeNotice": "Try a free 1-day plan — generate yours below!",
+    "freeNotice": "Try a free 3-day plan — generate yours below!",
     "noPlan": "No plan yet",
     "noPlanDesc": "Generate your first personalized meal plan based on your preferences.",
     "generateFirst": "Generate My First Plan",

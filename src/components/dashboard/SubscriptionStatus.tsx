@@ -75,7 +75,7 @@ export function SubscriptionStatus({ status, freeUsed }: SubscriptionStatusProps
           {status === "active" &&
             "Your weekly meal plans are being generated automatically."}
           {status === "inactive" && !freeUsed &&
-            "You're on the free plan. Generate a free 1-day plan to try it out!"}
+            "You're on the free plan. Generate a free 3-day plan to try it out!"}
           {status === "inactive" && freeUsed &&
             "Your free plan has been used. Subscribe to keep getting weekly plans."}
           {status === "past_due" &&

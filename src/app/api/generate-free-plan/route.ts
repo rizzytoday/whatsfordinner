@@ -171,8 +171,8 @@ export async function POST(req: NextRequest) {
 
     const weekOf = getWeekOf();
 
-    // Free plan = 1 day only (cheaper, faster, and teases the full 7-day subscription)
-    const plan = await generateMealPlan(profile, weekOf, { days: 1 });
+    // Free plan = 3 days (enough to show value, teases the full 7-day subscription)
+    const plan = await generateMealPlan(profile, weekOf, { days: 3 });
 
     // Only record fingerprint AFTER successful generation
     // (so failed attempts don't burn the user's free try)
