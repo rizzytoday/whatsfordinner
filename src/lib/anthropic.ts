@@ -32,7 +32,7 @@ function buildPrompt(profile: UserProfile, days: number): string {
   lines.push(
     `Budget: ${profile.weekly_budget} ($${profile.weekly_budget === "budget" ? "50-80" : profile.weekly_budget === "moderate" ? "80-130" : "130-200"}/week)`,
     `Servings: ${profile.servings_per_meal}`,
-    `Meals/day: ${profile.meals_per_day} (${profile.meals_per_day >= 3 ? "breakfast, lunch, dinner" : "breakfast, dinner"})${profile.include_snacks ? " + snack" : ""}`,
+    `Meals/day: ${profile.meals_per_day} (${profile.meals_per_day >= 3 ? "breakfast, lunch, dinner" : "lunch, dinner"})${profile.include_snacks ? " + snack" : ""}`,
     `Max cook time: ${profile.max_cook_time} min`,
     `Skill: ${profile.cooking_skill}`,
   );
