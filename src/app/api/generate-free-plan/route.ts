@@ -77,7 +77,7 @@ export const maxDuration = 120;
 export async function POST(req: NextRequest) {
   try {
     // Dev mode: return mock plan without burning tokens (skip all guards)
-    if (process.env.USE_MOCK_PLAN === "1") {
+    if (process.env.NODE_ENV === "development" && process.env.USE_MOCK_PLAN === "1") {
       const weekOf = getWeekOf();
       const { MOCK_PLAN } = await import("@/lib/mock-plan");
       return NextResponse.json({ plan: { ...MOCK_PLAN, weekOf }, weekOf });

@@ -202,13 +202,36 @@ function OnboardingContent() {
         }
       }
 
+      localStorage.setItem("wfd_preferences", JSON.stringify(data));
+
+      // Authenticated users: use the proper generate-plan endpoint
+      if (isAuthenticated) {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 120_000);
+
+        const res = await fetch("/api/generate-plan", {
+          method: "POST",
+          signal: controller.signal,
+        });
+
+        clearTimeout(timeout);
+
+        if (!res.ok) {
+          const errData = await res.json();
+          throw new Error(errData.error || "Failed to generate plan");
+        }
+
+        router.push("/dashboard");
+        return;
+      }
+
       // Anonymous: check device-level block
-      if (!isAuthenticated && localStorage.getItem("wfd_free_used") === "1") {
+      if (localStorage.getItem("wfd_free_used") === "1") {
         setBlocked(true);
         throw new Error("block");
       }
 
-      // Generate the free 1-day plan
+      // Generate the free 1-day plan (anonymous only)
       const fingerprint = await generateFingerprint();
 
       const submitData = {
@@ -218,8 +241,6 @@ function OnboardingContent() {
         _t: startedAtRef.current,
         _email: "",
       };
-
-      localStorage.setItem("wfd_preferences", JSON.stringify(data));
 
       const controller = new AbortController();
       const timeout = setTimeout(() => controller.abort(), 120_000);

@@ -128,7 +128,7 @@ export async function POST() {
     let planData;
 
     // Dev mode: use mock plan without burning tokens
-    if (process.env.USE_MOCK_PLAN === "1") {
+    if (process.env.NODE_ENV === "development" && process.env.USE_MOCK_PLAN === "1") {
       const { MOCK_PLAN } = await import("@/lib/mock-plan");
       planData = { ...MOCK_PLAN, weekOf };
     } else try {
