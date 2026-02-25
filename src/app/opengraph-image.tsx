@@ -110,24 +110,35 @@ export default async function OGImage() {
             &rdquo;
           </div>
 
-          {/* Headline — Georgia Bold like Just Cancel */}
+          {/* Headline */}
           <div
             style={{
               fontFamily: "Inter",
-              fontSize: 76,
+              fontSize: 86,
               fontWeight: 800,
               color: "#0C0A09",
               textAlign: "center",
-              lineHeight: 1.15,
-              letterSpacing: "-1px",
+              lineHeight: 1.1,
+              letterSpacing: "-2px",
               display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
             }}
           >
-            <span>Never ask</span>
-            <span style={{ color: "#F97316" }}>&ldquo;what&apos;s for dinner?&rdquo;</span>
-            <span>again.</span>
+            what&apos;s for dinner?
+          </div>
+
+          {/* Subheadline */}
+          <div
+            style={{
+              fontFamily: "Inter",
+              fontSize: 42,
+              fontWeight: 800,
+              color: "#F97316",
+              marginTop: 16,
+              textAlign: "center",
+              display: "flex",
+            }}
+          >
+            Solved. Every week.
           </div>
 
           {/* Subtitle */}
@@ -136,10 +147,9 @@ export default async function OGImage() {
               fontSize: 18,
               fontWeight: 400,
               color: "#A8A29E",
-              marginTop: 20,
+              marginTop: 24,
               textAlign: "center",
               display: "flex",
-              letterSpacing: "0px",
             }}
           >
             Personalized meal plans + grocery lists, delivered to your inbox weekly.
