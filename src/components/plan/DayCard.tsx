@@ -16,11 +16,11 @@ export function DayCard({ day, defaultOpen = false }: DayCardProps) {
 
   return (
     <Card className={open ? "ring-1 ring-orange-100" : ""}>
-      <CardHeader>
+      <CardHeader className="p-0">
         <button
           type="button"
           onClick={() => setOpen((prev) => !prev)}
-          className="w-full flex items-center justify-between py-1 group"
+          className="w-full flex items-center justify-between py-5 px-6 group"
         >
           <div className="flex items-center gap-3">
             <h3 className="text-base font-semibold text-stone-800 group-hover:text-orange-600 transition-colors duration-200">
@@ -38,9 +38,8 @@ export function DayCard({ day, defaultOpen = false }: DayCardProps) {
             strokeWidth="1.5"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className={`text-stone-400 transition-transform duration-200 ${
-              open ? "rotate-180" : ""
-            }`}
+            className={`text-stone-400 transition-transform duration-200 ${open ? "rotate-180" : ""
+              }`}
           >
             <polyline points="6 9 12 15 18 9" />
           </svg>
@@ -48,7 +47,8 @@ export function DayCard({ day, defaultOpen = false }: DayCardProps) {
       </CardHeader>
 
       {open && (
-        <CardContent className="pt-0 space-y-3">
+        <CardContent className="pb-6 pt-0 space-y-3">
+
           {day.meals.map((meal, i) => (
             <MealCard key={`${meal.name}-${i}`} meal={meal} />
           ))}

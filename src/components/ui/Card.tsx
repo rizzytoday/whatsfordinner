@@ -1,3 +1,4 @@
+
 import { forwardRef, type HTMLAttributes } from "react";
 import { cn } from "@/lib/utils";
 
@@ -19,7 +20,7 @@ const CardHeader = forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
   ({ className, ...props }, ref) => (
     <div
       ref={ref}
-      className={cn("px-6 pt-6 pb-0", className)}
+      className={cn("px-6 py-6", className)}
       {...props}
     />
   ),
@@ -30,7 +31,7 @@ const CardContent = forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
   ({ className, ...props }, ref) => (
     <div
       ref={ref}
-      className={cn("px-6 py-4", className)}
+      className={cn("px-6 py-2", className)}
       {...props}
     />
   ),
@@ -42,7 +43,7 @@ const CardFooter = forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
     <div
       ref={ref}
       className={cn(
-        "px-6 pb-6 pt-0 flex items-center",
+        "px-6 py-6 flex items-center border-t border-stone-50",
         className,
       )}
       {...props}

@@ -139,7 +139,7 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
 
   return (
     <Card>
-      <CardContent className="pt-6">
+      <CardContent>
         <div className="flex items-start justify-between mb-5">
           <div>
             <div className="flex items-center gap-2 mb-1">
@@ -179,7 +179,7 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
         </p>
       </CardContent>
 
-      <CardFooter className="gap-3 flex-wrap">
+      <CardFooter className="gap-3 flex-wrap border-none pt-0">
         <Link href={`/plan/${currentPlan.week_of}`}>
           <Button variant="primary" size="sm">
             View Full Plan
