@@ -74,6 +74,11 @@ function OnboardingContent() {
   useEffect(() => {
     const supabase = createClient();
     supabase.auth.getUser().then(async ({ data: { user } }) => {
+      // Anonymous user who already used their free plan — block immediately
+      if (!user && !isEdit && localStorage.getItem("wfd_free_used") === "1") {
+        setBlocked(true);
+        return;
+      }
       if (!user) return;
       setIsAuthenticated(true);
       // Pre-fill email from auth
