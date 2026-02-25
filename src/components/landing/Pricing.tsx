@@ -3,27 +3,29 @@
 import { useState } from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-
-const features = [
-  "Try a free 1-day plan, no credit card needed",
-  "Fresh 7-day meal plans every week, made just for your family",
-  "Grocery lists you can actually shop from",
-  "Don't love a meal? Regenerate up to 2x/week",
-  "Plans delivered straight to your inbox every Sunday",
-  "Works around allergies, diets, picky eaters — all of it",
-];
+import { useT } from "@/lib/i18n/context";
 
 export function Pricing() {
   const [yearly, setYearly] = useState(false);
+  const { t } = useT();
+
+  const features = [
+    t("landing.pricing.features.firstWeekFree"),
+    t("landing.pricing.features.sevenDayPlans"),
+    t("landing.pricing.features.groceryLists"),
+    t("landing.pricing.features.regenerations"),
+    t("landing.pricing.features.emailDelivery"),
+    t("landing.pricing.features.dietarySupport"),
+  ];
 
   return (
     <section className="py-24 sm:py-32 border-t border-stone-100">
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 text-center tracking-tight">
-          Simple Pricing
+          {t("landing.pricing.title")}
         </h2>
         <p className="mt-4 text-stone-500 text-center text-lg max-w-xl mx-auto">
-          Try a free 1-day plan. Then subscribe for the full week.
+          {t("landing.pricing.subtitle")}
         </p>
 
         {/* Toggle */}
@@ -34,7 +36,7 @@ export function Pricing() {
               !yearly ? "text-stone-900" : "text-stone-400"
             )}
           >
-            Monthly
+            {t("landing.pricing.monthly")}
           </span>
           <button
             type="button"
@@ -59,7 +61,7 @@ export function Pricing() {
               yearly ? "text-stone-900" : "text-stone-400"
             )}
           >
-            Yearly
+            {t("landing.pricing.yearly")}
           </span>
         </div>
 
@@ -74,10 +76,10 @@ export function Pricing() {
                 : "border-stone-200 shadow-sm"
             )}
           >
-            <h3 className="text-lg font-semibold text-stone-900">Monthly</h3>
+            <h3 className="text-lg font-semibold text-stone-900">{t("landing.pricing.monthly")}</h3>
             <div className="mt-4 flex items-baseline gap-1.5">
               <span className="text-5xl font-extrabold text-stone-900 tracking-tight">$4.99</span>
-              <span className="text-stone-400 text-sm font-medium">/month</span>
+              <span className="text-stone-400 text-sm font-medium">{t("landing.pricing.perMonth")}</span>
             </div>
 
             <ul className="mt-8 space-y-3">
@@ -110,7 +112,7 @@ export function Pricing() {
                   : "bg-stone-100 hover:bg-stone-200 text-stone-700"
               )}
             >
-              Try Free First
+              {t("landing.pricing.tryFreeFirst")}
             </Link>
           </div>
 
@@ -125,16 +127,16 @@ export function Pricing() {
           >
             {/* Save badge */}
             <span className="absolute -top-3 right-6 bg-orange-500 text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
-              Save 50%
+              {t("landing.pricing.save50")}
             </span>
 
-            <h3 className="text-lg font-semibold text-stone-900">Yearly</h3>
+            <h3 className="text-lg font-semibold text-stone-900">{t("landing.pricing.yearly")}</h3>
             <div className="mt-4 flex items-baseline gap-1.5">
               <span className="text-5xl font-extrabold text-stone-900 tracking-tight">$2.50</span>
-              <span className="text-stone-400 text-sm font-medium">/month</span>
+              <span className="text-stone-400 text-sm font-medium">{t("landing.pricing.perMonth")}</span>
             </div>
             <p className="mt-1.5 text-sm text-stone-400">
-              Billed yearly at $29.99
+              {t("landing.pricing.billedYearly")}
             </p>
 
             <ul className="mt-6 space-y-3">
@@ -167,7 +169,7 @@ export function Pricing() {
                   : "bg-stone-100 hover:bg-stone-200 text-stone-700"
               )}
             >
-              Try Free First
+              {t("landing.pricing.tryFreeFirst")}
             </Link>
           </div>
         </div>

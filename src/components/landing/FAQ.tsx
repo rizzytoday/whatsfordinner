@@ -2,44 +2,7 @@
 
 import { useState } from "react";
 import { cn } from "@/lib/utils";
-
-const faqs = [
-  {
-    question: "How does it work?",
-    answer:
-      "Fill out a quick profile with your dietary preferences, household size, and budget. You'll get a free 1-day meal plan immediately — no credit card required. Love it? Subscribe for full 7-day plans every week.",
-  },
-  {
-    question: "Is the free plan really free?",
-    answer:
-      "Yes! You get a complete 1-day meal plan with recipes and a grocery list — completely free, no credit card needed. Subscribe to unlock full 7-day plans delivered weekly.",
-  },
-  {
-    question: "Can I customize for allergies and dietary restrictions?",
-    answer:
-      "Absolutely. You can specify any allergies, intolerances, or dietary preferences (vegetarian, vegan, gluten-free, keto, etc.) during onboarding. Every meal plan is tailored to your needs.",
-  },
-  {
-    question: "What if I don't like the plan?",
-    answer:
-      "You get up to 2 regenerations per week. If a plan doesn't feel right, just hit regenerate from your dashboard and we'll create a new one based on the same preferences.",
-  },
-  {
-    question: "Can I cancel anytime?",
-    answer:
-      "Yes, no contracts or commitments. Cancel anytime from your dashboard and you'll retain access through the end of your billing period.",
-  },
-  {
-    question: "What kind of meals are included?",
-    answer:
-      "A wide variety of home-cooked meals — from quick 20-minute weeknight dinners to more involved weekend recipes. All plans include breakfast, lunch, and dinner with realistic prep times and common ingredients.",
-  },
-  {
-    question: "Is this just for one person?",
-    answer:
-      "Nope. During setup, you tell us your household size and we adjust portions and grocery quantities accordingly. Works for individuals, couples, or families.",
-  },
-];
+import { useT } from "@/lib/i18n/context";
 
 function FAQItem({
   question,
@@ -98,15 +61,26 @@ function FAQItem({
 
 export function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const { t } = useT();
+
+  const faqs = [
+    { question: t("landing.faq.q1"), answer: t("landing.faq.a1") },
+    { question: t("landing.faq.q2"), answer: t("landing.faq.a2") },
+    { question: t("landing.faq.q3"), answer: t("landing.faq.a3") },
+    { question: t("landing.faq.q4"), answer: t("landing.faq.a4") },
+    { question: t("landing.faq.q5"), answer: t("landing.faq.a5") },
+    { question: t("landing.faq.q6"), answer: t("landing.faq.a6") },
+    { question: t("landing.faq.q7"), answer: t("landing.faq.a7") },
+  ];
 
   return (
     <section className="py-24 sm:py-32 border-t border-stone-100">
       <div className="max-w-2xl mx-auto px-6">
         <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 text-center tracking-tight">
-          Questions & Answers
+          {t("landing.faq.title")}
         </h2>
         <p className="mt-4 text-stone-500 text-center text-lg">
-          Everything you need to know before getting started.
+          {t("landing.faq.subtitle")}
         </p>
 
         <div className="mt-12">

@@ -1,6 +1,11 @@
+"use client";
+
 import Link from "next/link";
+import { useT } from "@/lib/i18n/context";
 
 export function Hero() {
+  const { t } = useT();
+
   return (
     <section className="relative overflow-hidden">
       {/* Decorative background elements */}
@@ -10,16 +15,16 @@ export function Hero() {
 
       <div className="relative max-w-3xl mx-auto px-6 py-24 sm:py-40 text-center">
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-stone-900 tracking-tight leading-[1.1]">
-          what&apos;s for dinner?
+          {t("landing.hero.title")}
         </h1>
         <p className="mt-3 sm:mt-4 text-xl sm:text-2xl font-semibold text-orange-500">
-          Solved. Every week.
+          {t("landing.hero.subtitle")}
         </p>
 
         <p className="mt-4 sm:mt-6 text-sm sm:text-lg text-stone-600 max-w-md mx-auto leading-relaxed">
-          Personalized meal plans and grocery lists, delivered to your inbox. Try a free 1-day plan
+          {t("landing.hero.description")}
           <br />
-          <span className="text-orange-500 font-medium">— no credit card required.</span>
+          <span className="text-orange-500 font-medium">{t("landing.hero.noCreditCard")}</span>
         </p>
 
         <div className="mt-8 sm:mt-10 flex flex-col items-center gap-3 sm:gap-4">
@@ -27,11 +32,11 @@ export function Hero() {
             href="/onboarding"
             className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-sm hover:shadow-md transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2"
           >
-            Get Your Free Meal Plan
+            {t("landing.hero.cta")}
           </Link>
 
           <p className="text-xs sm:text-sm text-stone-500">
-            No account needed.
+            {t("landing.hero.subtext")}
           </p>
         </div>
       </div>

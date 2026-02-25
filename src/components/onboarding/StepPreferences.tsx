@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/context";
 import { Select } from "@/components/ui/Select";
 import type { StepProps } from "./StepHousehold";
 
@@ -19,21 +20,23 @@ const CUISINE_OPTIONS = [
   "Southern/Soul Food",
 ];
 
-const SKILL_OPTIONS = [
-  { value: "beginner" as const, label: "Beginner" },
-  { value: "intermediate" as const, label: "Intermediate" },
-  { value: "advanced" as const, label: "Advanced" },
-];
-
-const COOK_TIME_OPTIONS = [
-  { value: 15, label: "15 min" },
-  { value: 30, label: "30 min" },
-  { value: 45, label: "45 min" },
-  { value: 60, label: "60 min" },
-  { value: 90, label: "90 min" },
-];
-
 export function StepPreferences({ data, onChange }: StepProps) {
+  const { t } = useT();
+
+  const SKILL_OPTIONS = [
+    { value: "beginner" as const, label: t("onboarding.preferences.beginner") },
+    { value: "intermediate" as const, label: t("onboarding.preferences.intermediate") },
+    { value: "advanced" as const, label: t("onboarding.preferences.advanced") },
+  ];
+
+  const COOK_TIME_OPTIONS = [
+    { value: 15, label: t("onboarding.preferences.min15") },
+    { value: 30, label: t("onboarding.preferences.min30") },
+    { value: 45, label: t("onboarding.preferences.min45") },
+    { value: 60, label: t("onboarding.preferences.min60") },
+    { value: 90, label: t("onboarding.preferences.min90") },
+  ];
+
   function toggleCuisine(cuisine: string) {
     const current = data.cuisine_preferences;
     if (current.includes(cuisine)) {
@@ -49,17 +52,17 @@ export function StepPreferences({ data, onChange }: StepProps) {
     <div className="space-y-4 sm:space-y-5">
       <div className="text-center space-y-1">
         <h2 className="text-xl sm:text-2xl font-semibold text-stone-800">
-          Your cooking style
+          {t("onboarding.preferences.title")}
         </h2>
         <p className="text-stone-500 text-xs sm:text-sm">
-          Help us pick recipes you&apos;ll actually enjoy making.
+          {t("onboarding.preferences.subtitle")}
         </p>
       </div>
 
       {/* Cuisine preferences */}
       <div className="space-y-2">
         <label className="text-sm font-medium text-stone-700">
-          Favorite cuisines
+          {t("onboarding.preferences.cuisines")}
         </label>
         <div className="grid grid-cols-3 sm:flex sm:flex-wrap gap-1.5 sm:gap-2">
           {CUISINE_OPTIONS.map((cuisine) => {
@@ -102,7 +105,7 @@ export function StepPreferences({ data, onChange }: StepProps) {
       {/* Cooking skill */}
       <div className="space-y-2">
         <label className="text-sm font-medium text-stone-700">
-          Skill level
+          {t("onboarding.preferences.skillLevel")}
         </label>
         <div className="grid grid-cols-3 gap-2">
           {SKILL_OPTIONS.map((option) => {
@@ -130,7 +133,7 @@ export function StepPreferences({ data, onChange }: StepProps) {
       {/* Cook time + Meals per day */}
       <div className="grid grid-cols-2 gap-4">
         <Select
-          label="Max cook time"
+          label={t("onboarding.preferences.maxCookTime")}
           value={data.max_cook_time}
           onChange={(e) =>
             onChange({ max_cook_time: parseInt(e.target.value, 10) })
@@ -144,14 +147,14 @@ export function StepPreferences({ data, onChange }: StepProps) {
         </Select>
 
         <Select
-          label="Meals per day"
+          label={t("onboarding.preferences.mealsPerDay")}
           value={data.meals_per_day}
           onChange={(e) =>
             onChange({ meals_per_day: parseInt(e.target.value, 10) })
           }
         >
-          <option value={2}>2 — lunch & dinner</option>
-          <option value={3}>3 — all meals</option>
+          <option value={2}>{t("onboarding.preferences.meals2")}</option>
+          <option value={3}>{t("onboarding.preferences.meals3")}</option>
         </Select>
       </div>
 
@@ -192,7 +195,7 @@ export function StepPreferences({ data, onChange }: StepProps) {
           )}
         </div>
         <span className="text-sm font-medium text-stone-700">
-          Include daily snacks
+          {t("onboarding.preferences.includeSnacks")}
         </span>
       </button>
     </div>

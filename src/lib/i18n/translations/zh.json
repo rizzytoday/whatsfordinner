@@ -15,15 +15,17 @@
   },
   "landing": {
     "hero": {
-      "title": "再也不用纠结吃什么了。",
-      "subtitle": "每周个性化餐饮计划和购物清单，直接送到你的邮箱。免费试用第一周——无需信用卡。",
+      "title": "今晚吃什么？",
+      "subtitle": "每周帮你搞定。",
+      "description": "个性化餐饮计划和购物清单，直接送到你的邮箱。免费试用 1 天计划",
+      "noCreditCard": "——无需信用卡。",
       "cta": "获取免费餐饮计划",
-      "subtext": "无需账户。之后仅需 $4.99/月。"
+      "subtext": "无需账户。"
     },
     "social": {
-      "mealsPlanned": "周餐饮计划",
-      "savedOnGroceries": "节省的采购费用",
-      "happyHouseholds": "满意用户",
+      "mealsPlanned": "餐饮计划已制定",
+      "hoursSaved": "节省的餐饮规划时间",
+      "lessSpent": "比外卖套餐更省钱",
       "keptSubscribing": "继续订阅"
     },
     "howItWorks": {
@@ -32,36 +34,37 @@
       "step1Title": "告诉我们你的偏好",
       "step1Desc": "设置你的饮食需求、预算、家庭人数和任何过敏症。我们帮你记住，你无需费心。",
       "step2Title": "我们为你规划一周",
-      "step2Desc": "AI 根据你的偏好生成个性化的 7 天餐饮计划，包含食谱和整合的购物清单，通过邮件发送。",
+      "step2Desc": "AI 根据你的偏好生成个性化的餐饮计划，包含食谱和整合的购物清单，通过邮件发送。",
       "step3Title": "烹饪享受",
       "step3Desc": "按照简单清晰的食谱做菜。无压力、无浪费、不再纠结吃什么。"
     },
     "pricing": {
       "title": "简单定价",
-      "subtitle": "从免费一周开始。然后选择适合你的计划。",
+      "subtitle": "免费试用 1 天计划。然后订阅获取完整的一周计划。",
       "monthly": "按月",
       "yearly": "按年",
       "save50": "省 50%",
       "perMonth": "/月",
       "perYear": "/年",
       "perMonthCalc": "$2.50/月",
+      "billedYearly": "按年计费 $29.99",
       "tryFreeFirst": "先免费试用",
       "features": {
-        "firstWeekFree": "第一周免费——无需信用卡",
-        "sevenDayPlans": "7 天个性化餐饮计划",
-        "groceryLists": "智能购物清单",
-        "regenerations": "每周最多 2 次重新生成",
-        "emailDelivery": "邮件投送",
-        "dietarySupport": "饮食限制支持"
+        "firstWeekFree": "免费试用 1 天计划，无需信用卡",
+        "sevenDayPlans": "每周为你的家庭量身定制 7 天餐饮计划",
+        "groceryLists": "可以直接用来购物的清单",
+        "regenerations": "不喜欢某道菜？每周可重新生成 2 次",
+        "emailDelivery": "每周日通过邮件发送计划",
+        "dietarySupport": "适应过敏症、饮食限制、挑食者——全部搞定"
       }
     },
     "faq": {
       "title": "常见问题",
       "subtitle": "开始前你需要知道的一切。",
       "q1": "它是如何工作的？",
-      "a1": "免费注册，填写快速资料，包括饮食偏好、家庭人数和预算。你将立即获得第一周的餐饮计划——无需信用卡。喜欢吗？订阅，每周都有新的计划。",
-      "q2": "第一周真的免费吗？",
-      "a2": "是的！你的第一个完整的 7 天餐饮计划（包含食谱和购物清单）完全免费。注册无需信用卡。你只需在决定订阅持续每周计划时付费。",
+      "a1": "填写快速资料，包括饮食偏好、家庭人数和预算。你将立即获得一份免费的 1 天计划——无需信用卡。喜欢吗？订阅获取每周完整的 7 天计划。",
+      "q2": "免费计划真的免费吗？",
+      "a2": "是的！你可以免费获得完整的 1 天餐饮计划（包含食谱和购物清单），无需信用卡。订阅后即可解锁每周 7 天完整计划。",
       "q3": "我可以针对过敏症和饮食限制进行定制吗？",
       "a3": "当然可以。在入门时，你可以指定任何过敏症、不耐受或饮食偏好（素食、纯素、无麸质、生酮等）。每个餐饮计划都根据你的需求定制。",
       "q4": "如果我不喜欢这个计划怎么办？",
@@ -83,7 +86,7 @@
   },
   "onboarding": {
     "title": "让我们设置你的餐饮计划",
-    "subtitle": "大约 2 分钟。你的第一周由我们赞助。",
+    "subtitle": "大约 2 分钟。获取免费的 1 天计划。",
     "steps": {
       "household": "家庭",
       "budget": "预算",
@@ -188,6 +191,7 @@
       "emailPlaceholder": "you@example.com",
       "timezone": "时区",
       "timezoneHint": "自动检测。如需要可更改。",
+      "confirmNote": "每个{day}早上，你会收到一份 7 天餐饮计划 + 购物清单。",
       "sun": "周日",
       "mon": "周一",
       "tue": "周二",
@@ -204,9 +208,9 @@
     "backHome": "返回首页",
     "weekOf": "{date} 这一周",
     "estCost": "估计 {cost}",
-    "freeBanner": "本周计划由我们赞助。尽情享受！",
-    "wantEveryWeek": "想要每周都有吗？",
-    "wantEveryWeekDesc": "每周获得新的个性化餐饮计划和购物清单，直接发送到你的邮箱。不再猜测。",
+    "freeBanner": "这是你的免费 1 天计划。尽情享受！",
+    "wantEveryWeek": "想要每周 7 天完整计划吗？",
+    "wantEveryWeekDesc": "订阅后，每周都能收到完整的 7 天餐饮计划和购物清单。",
     "subscribeMonthly": "订阅——$4.99/月",
     "subscribeYearly": "$29.99/年（省 50%）"
   },
@@ -221,7 +225,7 @@
     "upgradeBanner": "喜欢你的免费计划？",
     "upgradeDesc": "订阅，每周获得新的餐饮计划、重新生成和邮件投送。",
     "subscribeCta": "订阅——$4.99/月",
-    "freeNotice": "你的第一周是免费的——在下面生成你的计划来试试看！",
+    "freeNotice": "免费试用 1 天计划——在下面生成你的计划！",
     "noPlan": "还没有计划",
     "noPlanDesc": "根据你的偏好生成你的第一个个性化餐饮计划。",
     "generateFirst": "生成我的第一个计划",

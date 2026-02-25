@@ -1,64 +1,67 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/context";
 import type { StepProps } from "./StepHousehold";
 
-const BUDGET_OPTIONS = [
-  {
-    value: "budget" as const,
-    label: "Kitchen Basics",
-    price: "$50-80",
-    description: "Pantry staples, simple recipes",
-    icon: (
-      <svg className="w-6 h-6 sm:w-7 sm:h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
-        <path d="M4 15c0 3.5 3.6 6 8 6s8-2.5 8-6" />
-        <path d="M4 15h16" />
-        <path d="M9 12c0-1 1-1.5 1-2.5S9 8 9 7" />
-        <path d="M12 12c0-1 1-1.5 1-2.5S12 8 12 7" />
-        <path d="M15 12c0-1 1-1.5 1-2.5S15 8 15 7" />
-      </svg>
-    ),
-  },
-  {
-    value: "moderate" as const,
-    label: "Home Cook",
-    price: "$80-130",
-    description: "Fresh ingredients, good variety",
-    popular: true,
-    icon: (
-      <svg className="w-6 h-6 sm:w-7 sm:h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
-        <circle cx="12" cy="13" r="7" />
-        <circle cx="12" cy="13" r="4.5" />
-        <path d="M8 3v3M8 3l-1 0M8 3l1 0" />
-        <path d="M16 3v3M16 5h1M16 5a1 1 0 01-1-1v-1" />
-      </svg>
-    ),
-  },
-  {
-    value: "premium" as const,
-    label: "Foodie",
-    price: "$130-200",
-    description: "Specialty items, global flavors",
-    icon: (
-      <svg className="w-6 h-6 sm:w-7 sm:h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 14v4h-4v-4" />
-        <path d="M16 14v4h-4" />
-        <path d="M8 14c0-1-2.5-2-2.5-4.5a4.5 4.5 0 014-4.47 4.5 4.5 0 015 0 4.5 4.5 0 014 4.47c0 2.5-2.5 3.5-2.5 4.5" />
-        <path d="M8 18h8" />
-      </svg>
-    ),
-  },
-];
-
 export function StepBudget({ data, onChange }: StepProps) {
+  const { t } = useT();
+
+  const BUDGET_OPTIONS = [
+    {
+      value: "budget" as const,
+      label: t("onboarding.budget.budgetLabel"),
+      price: t("onboarding.budget.budgetRange"),
+      description: t("onboarding.budget.budgetDesc"),
+      icon: (
+        <svg className="w-6 h-6 sm:w-7 sm:h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+          <path d="M4 15c0 3.5 3.6 6 8 6s8-2.5 8-6" />
+          <path d="M4 15h16" />
+          <path d="M9 12c0-1 1-1.5 1-2.5S9 8 9 7" />
+          <path d="M12 12c0-1 1-1.5 1-2.5S12 8 12 7" />
+          <path d="M15 12c0-1 1-1.5 1-2.5S15 8 15 7" />
+        </svg>
+      ),
+    },
+    {
+      value: "moderate" as const,
+      label: t("onboarding.budget.moderateLabel"),
+      price: t("onboarding.budget.moderateRange"),
+      description: t("onboarding.budget.moderateDesc"),
+      popular: true,
+      icon: (
+        <svg className="w-6 h-6 sm:w-7 sm:h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="12" cy="13" r="7" />
+          <circle cx="12" cy="13" r="4.5" />
+          <path d="M8 3v3M8 3l-1 0M8 3l1 0" />
+          <path d="M16 3v3M16 5h1M16 5a1 1 0 01-1-1v-1" />
+        </svg>
+      ),
+    },
+    {
+      value: "premium" as const,
+      label: t("onboarding.budget.premiumLabel"),
+      price: t("onboarding.budget.premiumRange"),
+      description: t("onboarding.budget.premiumDesc"),
+      icon: (
+        <svg className="w-6 h-6 sm:w-7 sm:h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+          <path d="M12 14v4h-4v-4" />
+          <path d="M16 14v4h-4" />
+          <path d="M8 14c0-1-2.5-2-2.5-4.5a4.5 4.5 0 014-4.47 4.5 4.5 0 015 0 4.5 4.5 0 014 4.47c0 2.5-2.5 3.5-2.5 4.5" />
+          <path d="M8 18h8" />
+        </svg>
+      ),
+    },
+  ];
+
   return (
     <div className="space-y-4 sm:space-y-6">
       <div className="text-center space-y-1 sm:space-y-2">
         <h2 className="text-xl sm:text-2xl font-semibold text-stone-800">
-          How much do you spend on groceries?
+          {t("onboarding.budget.title")}
         </h2>
         <p className="text-stone-500 text-xs sm:text-sm">
-          Weekly grocery budget — we&apos;ll match recipes to your range.
+          {t("onboarding.budget.subtitle")}
         </p>
       </div>
 
@@ -81,7 +84,7 @@ export function StepBudget({ data, onChange }: StepProps) {
             >
               {"popular" in option && option.popular && (
                 <span className="absolute -top-2.5 right-4 px-2.5 py-0.5 bg-orange-500 text-white text-[10px] font-semibold rounded-full">
-                  Most picked
+                  {t("onboarding.budget.mostPicked")}
                 </span>
               )}
               <div
@@ -130,7 +133,7 @@ export function StepBudget({ data, onChange }: StepProps) {
             >
               {"popular" in option && option.popular && (
                 <span className="absolute -top-2.5 px-3 py-0.5 bg-orange-500 text-white text-xs font-semibold rounded-full">
-                  Most picked
+                  {t("onboarding.budget.mostPicked")}
                 </span>
               )}
               <div

@@ -1,29 +1,10 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/context";
 import { Input } from "@/components/ui/Input";
 import { Select } from "@/components/ui/Select";
 import type { StepProps } from "./StepHousehold";
-
-const DAYS_OF_WEEK = [
-  { value: "sunday", label: "Sun" },
-  { value: "monday", label: "Mon" },
-  { value: "tuesday", label: "Tue" },
-  { value: "wednesday", label: "Wed" },
-  { value: "thursday", label: "Thu" },
-  { value: "friday", label: "Fri" },
-  { value: "saturday", label: "Sat" },
-];
-
-const DAY_LABELS: Record<string, string> = {
-  sunday: "Sunday",
-  monday: "Monday",
-  tuesday: "Tuesday",
-  wednesday: "Wednesday",
-  thursday: "Thursday",
-  friday: "Friday",
-  saturday: "Saturday",
-};
 
 const COMMON_TIMEZONES = [
   "America/New_York",
@@ -65,23 +46,45 @@ function formatTimezone(tz: string): string {
 }
 
 export function StepDelivery({ data, onChange }: StepProps) {
-  const selectedDayLabel = DAY_LABELS[data.delivery_day] || "Sunday";
+  const { t } = useT();
+
+  const DAYS_OF_WEEK = [
+    { value: "sunday", label: t("onboarding.delivery.sun") },
+    { value: "monday", label: t("onboarding.delivery.mon") },
+    { value: "tuesday", label: t("onboarding.delivery.tue") },
+    { value: "wednesday", label: t("onboarding.delivery.wed") },
+    { value: "thursday", label: t("onboarding.delivery.thu") },
+    { value: "friday", label: t("onboarding.delivery.fri") },
+    { value: "saturday", label: t("onboarding.delivery.sat") },
+  ];
+
+  const DAY_LABELS: Record<string, string> = {
+    sunday: t("onboarding.delivery.sun"),
+    monday: t("onboarding.delivery.mon"),
+    tuesday: t("onboarding.delivery.tue"),
+    wednesday: t("onboarding.delivery.wed"),
+    thursday: t("onboarding.delivery.thu"),
+    friday: t("onboarding.delivery.fri"),
+    saturday: t("onboarding.delivery.sat"),
+  };
+
+  const selectedDayLabel = DAY_LABELS[data.delivery_day] || t("onboarding.delivery.sun");
 
   return (
     <div className="space-y-4 sm:space-y-5">
       <div className="text-center space-y-1">
         <h2 className="text-xl sm:text-2xl font-semibold text-stone-800">
-          When should we send it?
+          {t("onboarding.delivery.title")}
         </h2>
         <p className="text-stone-500 text-xs sm:text-sm">
-          Pick the day you want your weekly meal plan to arrive.
+          {t("onboarding.delivery.subtitle")}
         </p>
       </div>
 
       {/* Day picker — buttons */}
       <div className="space-y-2">
         <label className="text-sm font-medium text-stone-700">
-          Deliver my plan every
+          {t("onboarding.delivery.everyWeekOn")}
         </label>
         <div className="grid grid-cols-7 gap-1.5">
           {DAYS_OF_WEEK.map((day) => {
@@ -106,15 +109,15 @@ export function StepDelivery({ data, onChange }: StepProps) {
         </div>
         {/* Confirmation note */}
         <p className="text-xs text-stone-400 text-center">
-          Every {selectedDayLabel} morning, you&apos;ll get a fresh 7-day meal plan + grocery list in your inbox.
+          {t("onboarding.delivery.confirmNote", { day: selectedDayLabel })}
         </p>
       </div>
 
       {/* Email */}
       <Input
-        label="Send to"
+        label={t("onboarding.delivery.sendTo")}
         type="email"
-        placeholder="you@example.com"
+        placeholder={t("onboarding.delivery.emailPlaceholder")}
         value={data.delivery_email}
         onChange={(e) => onChange({ delivery_email: e.target.value })}
       />
@@ -122,7 +125,7 @@ export function StepDelivery({ data, onChange }: StepProps) {
       {/* Timezone */}
       <div className="space-y-1">
         <Select
-          label="Timezone"
+          label={t("onboarding.delivery.timezone")}
           value={data.timezone}
           onChange={(e) => onChange({ timezone: e.target.value })}
         >
@@ -133,7 +136,7 @@ export function StepDelivery({ data, onChange }: StepProps) {
           ))}
         </Select>
         <p className="text-xs text-stone-400">
-          Auto-detected. Change if needed.
+          {t("onboarding.delivery.timezoneHint")}
         </p>
       </div>
     </div>

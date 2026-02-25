@@ -1,14 +1,9 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/context";
 
 const HOUSEHOLD_SIZES = [1, 2, 3, 4, 5, 6] as const;
-const KIDS_AGE_OPTIONS = [
-  { value: "toddler", label: "Toddler (1-3)" },
-  { value: "preschool", label: "Preschool (4-5)" },
-  { value: "school-age", label: "School age (6-12)" },
-  { value: "teen", label: "Teen (13+)" },
-] as const;
 
 export interface OnboardingFormData {
   household_size: number;
@@ -37,6 +32,15 @@ export interface StepProps {
 }
 
 export function StepHousehold({ data, onChange }: StepProps) {
+  const { t } = useT();
+
+  const KIDS_AGE_OPTIONS = [
+    { value: "toddler", label: t("onboarding.household.toddler") },
+    { value: "preschool", label: t("onboarding.household.preschool") },
+    { value: "school-age", label: t("onboarding.household.schoolAge") },
+    { value: "teen", label: t("onboarding.household.teen") },
+  ];
+
   function toggleKidAge(age: string) {
     const current = data.kids_ages;
     if (current.includes(age)) {
@@ -50,17 +54,17 @@ export function StepHousehold({ data, onChange }: StepProps) {
     <div className="space-y-5 sm:space-y-8">
       <div className="text-center space-y-1 sm:space-y-2">
         <h2 className="text-xl sm:text-2xl font-semibold text-stone-800">
-          Who&apos;s eating?
+          {t("onboarding.household.title")}
         </h2>
         <p className="text-stone-500 text-sm">
-          Tell us about your household so we can plan the right portions.
+          {t("onboarding.household.subtitle")}
         </p>
       </div>
 
       {/* Household size */}
       <div className="space-y-3">
         <label className="text-sm font-medium text-stone-700">
-          Household size
+          {t("onboarding.household.size")}
         </label>
         <div className="grid grid-cols-3 sm:grid-cols-6 gap-3">
           {HOUSEHOLD_SIZES.map((size) => (
@@ -144,7 +148,7 @@ export function StepHousehold({ data, onChange }: StepProps) {
             )}
           </div>
           <span className="text-sm font-medium text-stone-700">
-            Do you have kids?
+            {t("onboarding.household.hasKids")}
           </span>
         </button>
       </div>
@@ -153,7 +157,7 @@ export function StepHousehold({ data, onChange }: StepProps) {
       {data.has_kids && (
         <div className="space-y-3 animate-in fade-in slide-in-from-top-2 duration-300">
           <label className="text-sm font-medium text-stone-700">
-            Kids&apos; ages
+            {t("onboarding.household.kidsAges")}
           </label>
           <div className="grid grid-cols-2 gap-3">
             {KIDS_AGE_OPTIONS.map((option) => {

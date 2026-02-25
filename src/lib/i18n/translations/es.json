@@ -15,15 +15,17 @@
   },
   "landing": {
     "hero": {
-      "title": "Nunca más tendrás que preguntar.",
-      "subtitle": "Planes de comida personalizados semanalmente y listas de compras, entregadas en tu bandeja de entrada. Prueba tu primera semana gratis — sin tarjeta de crédito.",
+      "title": "¿qué hay para cenar?",
+      "subtitle": "Resuelto. Cada semana.",
+      "description": "Planes de comida personalizados y listas de compras, entregados en tu bandeja de entrada. Prueba un plan gratuito de 1 día",
+      "noCreditCard": "— sin tarjeta de crédito.",
       "cta": "Obtén Tu Plan de Comida Gratis",
-      "subtext": "Sin necesidad de cuenta. Luego $4.99/mes para continuar."
+      "subtext": "Sin necesidad de cuenta."
     },
     "social": {
       "mealsPlanned": "comidas planificadas",
-      "savedOnGroceries": "ahorrados en compras",
-      "happyHouseholds": "hogares felices",
+      "hoursSaved": "horas de planificación de comidas ahorradas",
+      "lessSpent": "menos gasto vs kits de comida",
       "keptSubscribing": "mantienen su suscripción"
     },
     "howItWorks": {
@@ -32,36 +34,37 @@
       "step1Title": "Cuéntanos tus preferencias",
       "step1Desc": "Configura tus necesidades dietéticas, presupuesto, tamaño del hogar y alergias. Recordamos para que no tengas que hacerlo.",
       "step2Title": "Planificamos tu semana",
-      "step2Desc": "La IA genera un plan de comidas personalizado de 7 días con recetas y una lista de compras consolidada, entregada por correo.",
+      "step2Desc": "La IA genera un plan de comidas personalizado con recetas y una lista de compras consolidada, entregada por correo.",
       "step3Title": "Cocina y disfruta",
       "step3Desc": "Sigue recetas simples y claras. Sin estrés, sin desperdicio, sin preguntarte qué hay para cenar."
     },
     "pricing": {
       "title": "Precios Sencillos",
-      "subtitle": "Comienza con una semana gratis. Luego elige el plan que funcione para ti.",
+      "subtitle": "Prueba un plan gratuito de 1 día. Luego suscríbete para la semana completa.",
       "monthly": "Mensual",
       "yearly": "Anual",
       "save50": "Ahorra 50%",
       "perMonth": "/mes",
       "perYear": "/año",
       "perMonthCalc": "$2.50/mes",
+      "billedYearly": "Facturado anualmente a $29.99",
       "tryFreeFirst": "Prueba Gratis Primero",
       "features": {
-        "firstWeekFree": "Primera semana gratis — sin tarjeta de crédito",
-        "sevenDayPlans": "Planes de comidas personalizados de 7 días",
-        "groceryLists": "Listas de compras inteligentes",
-        "regenerations": "Hasta 2 regeneraciones/semana",
-        "emailDelivery": "Entrega por correo",
-        "dietarySupport": "Soporte para restricciones dietéticas"
+        "firstWeekFree": "Prueba un plan gratuito de 1 día, sin tarjeta de crédito",
+        "sevenDayPlans": "Planes de comidas de 7 días cada semana, hechos a medida para tu familia",
+        "groceryLists": "Listas de compras con las que realmente puedes ir al supermercado",
+        "regenerations": "¿No te gustó una comida? Regenera hasta 2 veces/semana",
+        "emailDelivery": "Planes entregados en tu bandeja de entrada cada domingo",
+        "dietarySupport": "Funciona con alergias, dietas, comensales exigentes — todo"
       }
     },
     "faq": {
       "title": "Preguntas y Respuestas",
       "subtitle": "Todo lo que necesitas saber antes de comenzar.",
       "q1": "¿Cómo funciona?",
-      "a1": "Regístrate gratis, completa un perfil rápido con tus preferencias dietéticas, tamaño del hogar y presupuesto. Obtendrás tu plan de comidas de la primera semana inmediatamente — sin tarjeta de crédito requerida. ¿Te encanta? Suscríbete para seguir recibiendo planes cada semana.",
-      "q2": "¿La primera semana es realmente gratis?",
-      "a2": "¡Sí! Tu primer plan completo de 7 días con recetas y lista de compras es completamente gratis. No se requiere tarjeta de crédito para registrarse. Solo pagas cuando decides suscribirte para recibir planes semanales continuos.",
+      "a1": "Completa un perfil rápido con tus preferencias dietéticas, tamaño del hogar y presupuesto. Obtendrás un plan gratuito de 1 día de inmediato — sin tarjeta de crédito. ¿Te encantó? Suscríbete para planes completos de 7 días cada semana.",
+      "q2": "¿El plan gratuito es realmente gratis?",
+      "a2": "¡Sí! Recibes un plan de comidas completo de 1 día con recetas y lista de compras — completamente gratis, sin tarjeta de crédito necesaria. Suscríbete para desbloquear planes completos de 7 días entregados semanalmente.",
       "q3": "¿Puedo personalizar para alergias y restricciones dietéticas?",
       "a3": "Absolutamente. Puedes especificar cualquier alergia, intolerancia o preferencia dietética (vegetariano, vegano, sin gluten, ceto, etc.) durante el registro. Cada plan de comidas se adapta a tus necesidades.",
       "q4": "¿Qué pasa si el plan no me gusta?",
@@ -83,7 +86,7 @@
   },
   "onboarding": {
     "title": "Configuremos tu plan de comidas",
-    "subtitle": "Toma aproximadamente 2 minutos. Tu primera semana corre por nuestra cuenta.",
+    "subtitle": "Toma aproximadamente 2 minutos. Obtén un plan gratuito de 1 día.",
     "steps": {
       "household": "Hogar",
       "budget": "Presupuesto",
@@ -102,7 +105,7 @@
       "msg6": "Probando la salsa",
       "msg7": "Balanceando los macros",
       "msg8": "Escribiendo tu lista de compras",
-      "msg9": "Plating your week",
+      "msg9": "Emplatando la semana",
       "msg10": "Casi listo para servir"
     },
     "blocked": {
@@ -188,6 +191,7 @@
       "emailPlaceholder": "tu@ejemplo.com",
       "timezone": "Zona horaria",
       "timezoneHint": "Detectada automáticamente. Cambia si es necesario.",
+      "confirmNote": "Cada {day} por la mañana, recibirás un plan de comidas de 7 días + lista de compras en tu bandeja de entrada.",
       "sun": "Dom",
       "mon": "Lun",
       "tue": "Mar",
@@ -204,9 +208,9 @@
     "backHome": "Volver a Inicio",
     "weekOf": "Semana del {date}",
     "estCost": "Est. {cost}",
-    "freeBanner": "El plan de esta semana corre por nuestra cuenta. ¡Disfruta!",
-    "wantEveryWeek": "¿Quieres esto cada semana?",
-    "wantEveryWeekDesc": "Obtén un plan de comidas fresco y personalizado y una lista de compras entregada en tu bandeja de entrada cada semana. Sin más adivinanzas.",
+    "freeBanner": "¡Aquí está tu plan gratuito de 1 día. Disfruta!",
+    "wantEveryWeek": "¿Quieres los 7 días completos cada semana?",
+    "wantEveryWeekDesc": "Suscríbete para obtener un plan de comidas de 7 días y una lista de compras entregados en tu bandeja de entrada cada semana.",
     "subscribeMonthly": "Suscríbete — $4.99/mes",
     "subscribeYearly": "$29.99/año (ahorra 50%)"
   },
@@ -221,7 +225,7 @@
     "upgradeBanner": "¿Te encantó tu plan gratis?",
     "upgradeDesc": "Suscríbete para obtener un plan de comidas fresco cada semana, además de regeneraciones y entrega por correo.",
     "subscribeCta": "Suscríbete — $4.99/mes",
-    "freeNotice": "Tu primera semana es gratis — ¡genera tu plan a continuación para probarlo!",
+    "freeNotice": "Prueba un plan gratuito de 1 día — ¡genera el tuyo a continuación!",
     "noPlan": "Sin plan aún",
     "noPlanDesc": "Genera tu primer plan de comidas personalizado basado en tus preferencias.",
     "generateFirst": "Genera Mi Primer Plan",

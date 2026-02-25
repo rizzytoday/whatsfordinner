@@ -15,16 +15,17 @@
   },
   "landing": {
     "hero": {
-      "title": "You'll never have to ask again.",
-      "subtitle": "Personalized meal plans and grocery lists, delivered to your inbox every week.",
-      "noCreditCard": "Try free — no credit card required.",
+      "title": "what's for dinner?",
+      "subtitle": "Solved. Every week.",
+      "description": "Personalized meal plans and grocery lists, delivered to your inbox. Try a free 1-day plan",
+      "noCreditCard": "— no credit card required.",
       "cta": "Get Your Free Meal Plan",
-      "subtext": "No account needed. Then $4.99/mo to keep it going."
+      "subtext": "No account needed."
     },
     "social": {
       "mealsPlanned": "meals planned",
-      "savedOnGroceries": "saved on groceries",
-      "happyHouseholds": "happy households",
+      "hoursSaved": "hours of meal planning saved",
+      "lessSpent": "less spent vs meal kits",
       "keptSubscribing": "kept subscribing"
     },
     "howItWorks": {
@@ -46,6 +47,7 @@
       "perMonth": "/month",
       "perYear": "/year",
       "perMonthCalc": "$2.50/mo",
+      "billedYearly": "Billed yearly at $29.99",
       "tryFreeFirst": "Try Free First",
       "features": {
         "firstWeekFree": "Try a free 1-day plan, no credit card needed",
@@ -189,6 +191,7 @@
       "emailPlaceholder": "you@example.com",
       "timezone": "Timezone",
       "timezoneHint": "Auto-detected. Change if needed.",
+      "confirmNote": "Every {day} morning, you'll get a fresh 7-day meal plan + grocery list in your inbox.",
       "sun": "Sun",
       "mon": "Mon",
       "tue": "Tue",

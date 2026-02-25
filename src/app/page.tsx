@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { Hero } from "@/components/landing/Hero";
 import { SocialProof } from "@/components/landing/SocialProof";
@@ -5,8 +7,12 @@ import { HowItWorks } from "@/components/landing/HowItWorks";
 import { Pricing } from "@/components/landing/Pricing";
 import { FAQ } from "@/components/landing/FAQ";
 import { Footer } from "@/components/landing/Footer";
+import { LanguagePicker } from "@/components/ui/LanguagePicker";
+import { useT } from "@/lib/i18n/context";
 
 export default function Home() {
+  const { t } = useT();
+
   return (
     <main>
       {/* Site header */}
@@ -22,13 +28,14 @@ export default function Home() {
             href="/login"
             className="text-sm text-stone-500 hover:text-orange-600 transition-colors font-medium"
           >
-            Sign In
+            {t("common.signIn")}
           </Link>
+          <LanguagePicker />
           <Link
             href="/onboarding"
             className="text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded-full transition-colors"
           >
-            Try Free
+            {t("common.tryFree")}
           </Link>
         </div>
       </nav>

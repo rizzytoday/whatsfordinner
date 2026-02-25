@@ -2,41 +2,12 @@
 
 import { useState, type KeyboardEvent } from "react";
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/context";
 import type { StepProps } from "./StepHousehold";
 
 const AGE_RANGES = ["18-25", "26-35", "36-45", "46-55", "56+"] as const;
 
-const GOAL_OPTIONS = [
-  {
-    value: "lose" as const,
-    label: "Lose weight",
-    icon: (
-      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 19V5M5 12l7-7 7 7" />
-      </svg>
-    ),
-  },
-  {
-    value: "maintain" as const,
-    label: "I'm good",
-    icon: (
-      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-        <path d="M5 12h14" />
-      </svg>
-    ),
-  },
-  {
-    value: "bulk" as const,
-    label: "Bulk / gain",
-    icon: (
-      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 5v14M5 12l7 7 7-7" />
-      </svg>
-    ),
-  },
-];
-
-const TASTE_PILLS = [
+const TASTE_PILL_VALUES = [
   "Spicy lover",
   "Comfort food",
   "Sweet tooth",
@@ -63,14 +34,59 @@ const DIETARY_OPTIONS = [
 ];
 
 export function StepDietary({ data, onChange }: StepProps) {
+  const { t } = useT();
   const [allergyInput, setAllergyInput] = useState("");
+
+  const GOAL_OPTIONS = [
+    {
+      value: "lose" as const,
+      label: t("onboarding.dietary.goalLose"),
+      icon: (
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+          <path d="M12 19V5M5 12l7-7 7 7" />
+        </svg>
+      ),
+    },
+    {
+      value: "maintain" as const,
+      label: t("onboarding.dietary.goalMaintain"),
+      icon: (
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+          <path d="M5 12h14" />
+        </svg>
+      ),
+    },
+    {
+      value: "bulk" as const,
+      label: t("onboarding.dietary.goalBulk"),
+      icon: (
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+          <path d="M12 5v14M5 12l7 7 7-7" />
+        </svg>
+      ),
+    },
+  ];
+
+  const TASTE_PILLS: { value: string; label: string }[] = [
+    { value: "Spicy lover", label: t("onboarding.dietary.spicyLover") },
+    { value: "Comfort food", label: t("onboarding.dietary.comfortFood") },
+    { value: "Sweet tooth", label: t("onboarding.dietary.sweetTooth") },
+    { value: "Love carbs", label: t("onboarding.dietary.loveCarbs") },
+    { value: "Protein heavy", label: t("onboarding.dietary.proteinHeavy") },
+    { value: "Fresh & light", label: t("onboarding.dietary.freshLight") },
+    { value: "Quick & easy", label: t("onboarding.dietary.quickEasy") },
+    { value: "One-pot meals", label: t("onboarding.dietary.onePot") },
+    { value: "Meal prep", label: t("onboarding.dietary.mealPrep") },
+    { value: "Picky eater", label: t("onboarding.dietary.pickyEater") },
+    { value: "Try anything", label: t("onboarding.dietary.tryAnything") },
+  ];
 
   // Parse personal_note as pill selections + freetext
   // Pills are stored comma-separated at start, freetext after "|"
   function getSelectedPills(): string[] {
     const pills = data.personal_note.split("|")[0];
     return pills
-      ? pills.split(",").filter((p) => TASTE_PILLS.includes(p.trim()))
+      ? pills.split(",").filter((p) => TASTE_PILL_VALUES.includes(p.trim()))
       : [];
   }
 
@@ -106,9 +122,9 @@ export function StepDietary({ data, onChange }: StepProps) {
   function handleKeyDown(e: KeyboardEvent<HTMLInputElement>) {
     if (e.key === "Enter") {
       e.preventDefault();
-      const t = allergyInput.trim();
-      if (t && !data.allergies.includes(t)) {
-        onChange({ allergies: [...data.allergies, t] });
+      const val = allergyInput.trim();
+      if (val && !data.allergies.includes(val)) {
+        onChange({ allergies: [...data.allergies, val] });
       }
       setAllergyInput("");
     }
@@ -127,15 +143,15 @@ export function StepDietary({ data, onChange }: StepProps) {
   return (
     <div className="space-y-4 sm:space-y-5">
       <div className="text-center space-y-1">
-        <h2 className="text-xl sm:text-2xl font-semibold text-stone-800">About you</h2>
+        <h2 className="text-xl sm:text-2xl font-semibold text-stone-800">{t("onboarding.dietary.title")}</h2>
         <p className="text-stone-500 text-xs sm:text-sm">
-          Helps us build a plan that actually fits your life.
+          {t("onboarding.dietary.subtitle")}
         </p>
       </div>
 
       {/* Age */}
       <div className="space-y-1.5">
-        <label className="text-xs font-medium text-stone-500">Age</label>
+        <label className="text-xs font-medium text-stone-500">{t("onboarding.dietary.age")}</label>
         <div className="grid grid-cols-5 gap-1.5">
           {AGE_RANGES.map((age) => (
             <button
@@ -160,7 +176,7 @@ export function StepDietary({ data, onChange }: StepProps) {
 
       {/* Goal — with up/down icons */}
       <div className="space-y-1.5">
-        <label className="text-xs font-medium text-stone-500">Goal</label>
+        <label className="text-xs font-medium text-stone-500">{t("onboarding.dietary.goal")}</label>
         <div className="grid grid-cols-3 gap-1.5">
           {GOAL_OPTIONS.map((opt) => (
             <button
@@ -190,16 +206,16 @@ export function StepDietary({ data, onChange }: StepProps) {
       {/* Taste pills — compact grid on mobile */}
       <div className="space-y-1.5">
         <label className="text-xs font-medium text-stone-500">
-          What sounds like you?
+          {t("onboarding.dietary.tastePillsLabel")}
         </label>
         <div className="grid grid-cols-3 sm:flex sm:flex-wrap gap-1.5">
           {TASTE_PILLS.map((pill) => {
-            const on = selectedPills.includes(pill);
+            const on = selectedPills.includes(pill.value);
             return (
               <button
-                key={pill}
+                key={pill.value}
                 type="button"
-                onClick={() => togglePill(pill)}
+                onClick={() => togglePill(pill.value)}
                 className={cn(
                   "px-2 py-1.5 sm:px-3 rounded-full border text-[11px] sm:text-xs font-medium transition-all text-center",
                   on
@@ -207,7 +223,7 @@ export function StepDietary({ data, onChange }: StepProps) {
                     : "border-stone-200 bg-white text-stone-500 hover:border-orange-300",
                 )}
               >
-                {pill}
+                {pill.label}
               </button>
             );
           })}
@@ -216,7 +232,7 @@ export function StepDietary({ data, onChange }: StepProps) {
           type="text"
           value={freetext}
           onChange={(e) => updateNote(selectedPills, e.target.value)}
-          placeholder="Anything else? (optional)"
+          placeholder={t("onboarding.dietary.anythingElse")}
           maxLength={100}
           className="w-full px-3 py-2 rounded-xl border border-stone-200 bg-white text-xs text-stone-900 placeholder:text-stone-400 focus:border-orange-400 focus:ring-2 focus:ring-orange-100 outline-none transition-all"
         />
@@ -225,7 +241,7 @@ export function StepDietary({ data, onChange }: StepProps) {
       {/* Dietary restrictions — compact grid on mobile */}
       <div className="space-y-1.5">
         <label className="text-xs font-medium text-stone-500">
-          Dietary restrictions
+          {t("onboarding.dietary.restrictions")}
         </label>
         <div className="grid grid-cols-3 sm:flex sm:flex-wrap gap-1.5">
           {DIETARY_OPTIONS.map((opt) => {
@@ -251,7 +267,7 @@ export function StepDietary({ data, onChange }: StepProps) {
 
       {/* Allergies */}
       <div className="space-y-1.5">
-        <label className="text-xs font-medium text-stone-500">Allergies</label>
+        <label className="text-xs font-medium text-stone-500">{t("onboarding.dietary.allergies")}</label>
         <div className="flex flex-wrap items-center gap-1.5 px-3 py-2 rounded-xl border border-stone-200 bg-white focus-within:border-orange-400 focus-within:ring-2 focus-within:ring-orange-100 transition-all">
           {data.allergies.map((a) => (
             <span
@@ -290,7 +306,7 @@ export function StepDietary({ data, onChange }: StepProps) {
             onChange={(e) => setAllergyInput(e.target.value)}
             onKeyDown={handleKeyDown}
             placeholder={
-              data.allergies.length === 0 ? "Peanuts, shellfish, etc." : ""
+              data.allergies.length === 0 ? t("onboarding.dietary.allergiesPlaceholder") : ""
             }
             className="flex-1 min-w-[80px] outline-none text-sm text-stone-900 placeholder:text-stone-400 bg-transparent"
           />
