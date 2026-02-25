@@ -8,6 +8,7 @@ import { PastPlans } from "@/components/dashboard/PastPlans";
 import { SubscriptionStatus } from "@/components/dashboard/SubscriptionStatus";
 import { FreePlanBanner } from "@/components/dashboard/FreePlanBanner";
 import { LogoutButton } from "@/components/dashboard/LogoutButton";
+import { SubscribeButton } from "@/components/dashboard/SubscribeButton";
 import type { MealPlanRecord, MealPlanData } from "@/types/meal-plan";
 
 function DashboardHero({ planData, isSubscribed }: { planData: MealPlanData; isSubscribed: boolean }) {
@@ -33,12 +34,7 @@ function DashboardHero({ planData, isSubscribed }: { planData: MealPlanData; isS
         </h2>
         {!isSubscribed && (
           <div className="mt-4 flex items-center gap-3">
-            <a
-              href="/signup?plan=monthly"
-              className="inline-flex items-center justify-center px-5 py-2 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm transition-all duration-200"
-            >
-              Get this every week — $4.99/mo
-            </a>
+            <SubscribeButton />
           </div>
         )}
       </div>
@@ -132,12 +128,7 @@ export default async function DashboardPage() {
                 Subscribe to get a fresh meal plan every week, plus regenerations and email delivery.
               </p>
             </div>
-            <a
-              href="/signup?plan=monthly"
-              className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm transition-all duration-200 whitespace-nowrap"
-            >
-              Subscribe — $4.99/mo
-            </a>
+            <SubscribeButton label="Subscribe — $4.99/mo" />
           </div>
         )}
 
@@ -212,12 +203,10 @@ export default async function DashboardPage() {
                     <p className="text-sm text-stone-500 mb-3">
                       You&apos;ve used your free 1-day plan. Subscribe to edit preferences and get fresh plans every week.
                     </p>
-                    <a
-                      href="/signup?plan=monthly"
-                      className="text-sm font-medium text-orange-500 hover:text-orange-600 transition-colors duration-200"
-                    >
-                      Subscribe — $4.99/mo →
-                    </a>
+                    <SubscribeButton
+                      label="Subscribe — $4.99/mo →"
+                      variant="link"
+                    />
                   </>
                 ) : (
                   <>

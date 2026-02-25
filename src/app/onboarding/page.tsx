@@ -75,16 +75,27 @@ function OnboardingContent() {
   useEffect(() => {
     const supabase = createClient();
     supabase.auth.getUser().then(async ({ data: { user } }) => {
-      // Anonymous user who already used their free plan — block immediately
+      // Anonymous user who already used their free plan — show banner but let them browse
       if (!user && !isEdit && localStorage.getItem("wfd_free_used") === "1") {
         setBlocked(true);
-        return;
       }
       if (!user) return;
       setIsAuthenticated(true);
       // Pre-fill email from auth
       if (user.email) {
         setData((prev) => ({ ...prev, delivery_email: prev.delivery_email || user.email! }));
+      }
+      // Signed-in user who already used free plan (not in edit mode) — show dashboard nudge
+      if (!isEdit) {
+        try {
+          const res = await fetch("/api/profile");
+          if (res.ok) {
+            const profile = await res.json();
+            if (profile?.onboarding_completed) {
+              setBlocked(true);
+            }
+          }
+        } catch {}
       }
       // In edit mode, load existing profile
       if (isEdit) {
@@ -330,9 +341,9 @@ function OnboardingContent() {
               key={key}
               type="button"
               onClick={() => {
-                if (index < currentStep) setCurrentStep(index);
+                if (blocked || index < currentStep) setCurrentStep(index);
               }}
-              disabled={index > currentStep}
+              disabled={!blocked && index > currentStep}
               className="flex flex-col items-center gap-1.5 group"
             >
               <div
@@ -342,7 +353,9 @@ function OnboardingContent() {
                     ? "bg-orange-500 text-white shadow-md shadow-orange-200 scale-110"
                     : index < currentStep
                       ? "bg-orange-200 text-orange-700 cursor-pointer group-hover:bg-orange-300"
-                      : "bg-stone-100 text-stone-400"
+                      : blocked
+                        ? "bg-stone-200 text-stone-500 cursor-pointer group-hover:bg-stone-300"
+                        : "bg-stone-100 text-stone-400"
                 )}
               >
                 {index < currentStep ? (
@@ -398,123 +411,192 @@ function OnboardingContent() {
           )}
         </div>
 
-        {/* Blocked — show subscribe CTA instead of form (anonymous users only) */}
-        {blocked ? (
-          <div className="bg-orange-50 border border-orange-200 rounded-2xl p-6 text-center space-y-3">
-            <div className="text-3xl">
-              <svg className="w-10 h-10 mx-auto text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
-              </svg>
-            </div>
-            <h3 className="text-lg font-bold text-stone-800">
-              {t("onboarding.blocked.title")}
-            </h3>
-            <p className="text-sm text-stone-500">
-              {t("onboarding.blocked.subtitle")}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-2 justify-center pt-1">
-              <Button
-                loading={subscribing}
-                onClick={async () => {
-                  setSubscribing(true);
-                  try {
-                    const res = await fetch("/api/lemonsqueezy/checkout", {
-                      method: "POST",
-                      headers: { "Content-Type": "application/json" },
-                      body: JSON.stringify({ plan: "monthly" }),
-                    });
-                    const data = await res.json();
-                    if (data.url) { window.location.href = data.url; return; }
-                  } catch {}
-                  setSubscribing(false);
-                }}
-              >
-                {t("onboarding.blocked.monthly")}
-              </Button>
-              <Button
-                variant="secondary"
-                loading={subscribing}
-                onClick={async () => {
-                  setSubscribing(true);
-                  try {
-                    const res = await fetch("/api/lemonsqueezy/checkout", {
-                      method: "POST",
-                      headers: { "Content-Type": "application/json" },
-                      body: JSON.stringify({ plan: "yearly" }),
-                    });
-                    const data = await res.json();
-                    if (data.url) { window.location.href = data.url; return; }
-                  } catch {}
-                  setSubscribing(false);
-                }}
-              >
-                {t("onboarding.blocked.yearly")}
-              </Button>
-            </div>
-            <p className="text-xs text-stone-400 pt-2">
-              Already generated a plan?{" "}
-              <Link href="/login" className="text-orange-500 hover:text-orange-600 font-medium">
-                Sign in
-              </Link>
-              {" "}or{" "}
-              <Link href="/signup" className="text-orange-500 hover:text-orange-600 font-medium">
-                create an account
-              </Link>
-              {" "}to view it.
-            </p>
-          </div>
-        ) : (
-          <>
-            {/* Error */}
-            {error && (
-              <div className="mb-4 bg-red-50 border border-red-200 text-red-700 text-sm rounded-xl px-4 py-3 text-center">
-                {error}
-              </div>
-            )}
-
-            {/* Navigation */}
-            <div className="flex items-center justify-between">
-              <div>
-                {currentStep > 0 && (
+        {/* Blocked banner — free plan already used */}
+        {blocked && (
+          <div className="bg-orange-50 border border-orange-200 rounded-2xl p-4 sm:p-5 mb-4 sm:mb-6 text-center space-y-2.5">
+            {isAuthenticated ? (
+              <>
+                <div className="flex items-center justify-center gap-2">
+                  <svg className="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <h3 className="text-sm font-bold text-stone-800">
+                    You already created your free meal plan
+                  </h3>
+                </div>
+                <p className="text-xs text-stone-500">
+                  Your 1-day plan is waiting for you on your dashboard.
+                </p>
+                <Button size="sm" asChild>
+                  <Link href="/dashboard">
+                    View your meal plan
+                  </Link>
+                </Button>
+                <div className="flex flex-col sm:flex-row gap-2 justify-center pt-1">
                   <Button
                     variant="secondary"
-                    onClick={handleBack}
-                    disabled={loading}
+                    size="sm"
+                    loading={subscribing}
+                    onClick={async () => {
+                      setSubscribing(true);
+                      try {
+                        const res = await fetch("/api/lemonsqueezy/checkout", {
+                          method: "POST",
+                          headers: { "Content-Type": "application/json" },
+                          body: JSON.stringify({ plan: "monthly" }),
+                        });
+                        const d = await res.json();
+                        if (d.url) { window.location.href = d.url; return; }
+                      } catch {}
+                      setSubscribing(false);
+                    }}
                   >
-                    {t("common.back")}
+                    {t("onboarding.blocked.monthly")}
                   </Button>
-                )}
-              </div>
-              <Button
-                variant="primary"
-                size="lg"
-                onClick={handleNext}
-                loading={loading}
-                className="transition-all duration-500 ease-in-out"
-                style={{ minWidth: loading ? 260 : undefined }}
-              >
-                {isLastStep
-                  ? loading
-                    ? <span className="inline-flex items-center gap-0">
-                      {cookingMessage}
-                      <span className="animated-dots ml-0.5">
-                        <span>.</span><span>.</span><span>.</span>
-                      </span>
-                    </span>
-                    : isEdit ? t("common.save") : t("onboarding.generate")
-                  : t("common.next")}
-              </Button>
-            </div>
-
-            {/* Loading status */}
-            {loading && (
-              <div className="mt-4 text-center">
-                <p className="text-xs text-stone-400 tabular-nums">
-                  {t("onboarding.loadingTime", { elapsed: String(elapsed) })}
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="flex items-center justify-center gap-2">
+                  <svg className="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                  </svg>
+                  <h3 className="text-sm font-bold text-stone-800">
+                    {t("onboarding.blocked.title")}
+                  </h3>
+                </div>
+                <p className="text-xs text-stone-500">
+                  {t("onboarding.blocked.subtitle")}
                 </p>
-              </div>
+                <div className="flex flex-col sm:flex-row gap-2 justify-center">
+                  <Button
+                    size="sm"
+                    loading={subscribing}
+                    onClick={async () => {
+                      setSubscribing(true);
+                      try {
+                        const res = await fetch("/api/lemonsqueezy/checkout", {
+                          method: "POST",
+                          headers: { "Content-Type": "application/json" },
+                          body: JSON.stringify({ plan: "monthly" }),
+                        });
+                        const d = await res.json();
+                        if (d.url) { window.location.href = d.url; return; }
+                      } catch {}
+                      setSubscribing(false);
+                    }}
+                  >
+                    {t("onboarding.blocked.monthly")}
+                  </Button>
+                  <Button
+                    variant="secondary"
+                    size="sm"
+                    loading={subscribing}
+                    onClick={async () => {
+                      setSubscribing(true);
+                      try {
+                        const res = await fetch("/api/lemonsqueezy/checkout", {
+                          method: "POST",
+                          headers: { "Content-Type": "application/json" },
+                          body: JSON.stringify({ plan: "yearly" }),
+                        });
+                        const d = await res.json();
+                        if (d.url) { window.location.href = d.url; return; }
+                      } catch {}
+                      setSubscribing(false);
+                    }}
+                  >
+                    {t("onboarding.blocked.yearly")}
+                  </Button>
+                </div>
+                <p className="text-xs text-stone-400">
+                  Already generated a plan?{" "}
+                  <Link href="/login" className="text-orange-500 hover:text-orange-600 font-medium">
+                    Sign in
+                  </Link>
+                  {" "}or{" "}
+                  <Link href="/signup" className="text-orange-500 hover:text-orange-600 font-medium">
+                    create an account
+                  </Link>
+                  {" "}to view it.
+                </p>
+              </>
             )}
-          </>
+          </div>
+        )}
+
+        {/* Error */}
+        {error && (
+          <div className="mb-4 bg-red-50 border border-red-200 text-red-700 text-sm rounded-xl px-4 py-3 text-center">
+            {error}
+          </div>
+        )}
+
+        {/* Navigation */}
+        <div className="flex items-center justify-between">
+          <div>
+            {currentStep > 0 && (
+              <Button
+                variant="secondary"
+                onClick={handleBack}
+                disabled={loading}
+              >
+                {t("common.back")}
+              </Button>
+            )}
+          </div>
+          {blocked && isLastStep ? (
+            <Button
+              variant="primary"
+              size="lg"
+              loading={subscribing}
+              onClick={async () => {
+                setSubscribing(true);
+                try {
+                  const res = await fetch("/api/lemonsqueezy/checkout", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ plan: "monthly" }),
+                  });
+                  const d = await res.json();
+                  if (d.url) { window.location.href = d.url; return; }
+                } catch {}
+                setSubscribing(false);
+              }}
+            >
+              Subscribe — $4.99/mo
+            </Button>
+          ) : (
+            <Button
+              variant="primary"
+              size="lg"
+              onClick={handleNext}
+              loading={loading}
+              disabled={blocked && isLastStep}
+              className="transition-all duration-500 ease-in-out"
+              style={{ minWidth: loading ? 260 : undefined }}
+            >
+              {isLastStep
+                ? loading
+                  ? <span className="inline-flex items-center gap-0">
+                    {cookingMessage}
+                    <span className="animated-dots ml-0.5">
+                      <span>.</span><span>.</span><span>.</span>
+                    </span>
+                  </span>
+                  : isEdit ? t("common.save") : t("onboarding.generate")
+                : t("common.next")}
+            </Button>
+          )}
+        </div>
+
+        {/* Loading status */}
+        {loading && (
+          <div className="mt-4 text-center">
+            <p className="text-xs text-stone-400 tabular-nums">
+              {t("onboarding.loadingTime", { elapsed: String(elapsed) })}
+            </p>
+          </div>
         )}
       </div>
     </div>
