@@ -16,12 +16,11 @@ export function Hero() {
         </h1>
 
         <p className="mt-6 text-lg sm:text-xl text-stone-600 max-w-lg mx-auto leading-relaxed">
-          Personalized meal plans and grocery lists,
+          Personalized weekly meal plans and grocery lists,
           <br />
-          delivered to your inbox every week.
-        </p>
-        <p className="mt-3 text-sm sm:text-base font-medium text-orange-500">
-          Try free — no credit card required.
+          delivered to your inbox. Try a free 1-day plan
+          <br />
+          <span className="text-orange-500 font-medium">— no credit card required.</span>
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-4">
