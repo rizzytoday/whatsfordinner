@@ -19,7 +19,8 @@ export function Hero() {
           Personalized meal plans and grocery lists,
           <br />
           delivered to your inbox every week.
-          <br />
+        </p>
+        <p className="mt-3 text-sm sm:text-base font-medium text-orange-500">
           Try free — no credit card required.
         </p>
 
