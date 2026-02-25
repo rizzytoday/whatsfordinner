@@ -66,6 +66,7 @@ function OnboardingContent() {
   const [elapsed, setElapsed] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const [blocked, setBlocked] = useState(false);
+  const [subscribing, setSubscribing] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const startedAtRef = useRef(Date.now());
@@ -412,26 +413,54 @@ function OnboardingContent() {
               {t("onboarding.blocked.subtitle")}
             </p>
             <div className="flex flex-col sm:flex-row gap-2 justify-center pt-1">
-              <Button asChild>
-                <Link href="/signup?plan=monthly">
-                  {t("onboarding.blocked.monthly")}
-                </Link>
+              <Button
+                loading={subscribing}
+                onClick={async () => {
+                  setSubscribing(true);
+                  try {
+                    const res = await fetch("/api/lemonsqueezy/checkout", {
+                      method: "POST",
+                      headers: { "Content-Type": "application/json" },
+                      body: JSON.stringify({ plan: "monthly" }),
+                    });
+                    const data = await res.json();
+                    if (data.url) { window.location.href = data.url; return; }
+                  } catch {}
+                  setSubscribing(false);
+                }}
+              >
+                {t("onboarding.blocked.monthly")}
               </Button>
-              <Button asChild variant="secondary">
-                <Link href="/signup?plan=yearly">
-                  {t("onboarding.blocked.yearly")}
-                </Link>
+              <Button
+                variant="secondary"
+                loading={subscribing}
+                onClick={async () => {
+                  setSubscribing(true);
+                  try {
+                    const res = await fetch("/api/lemonsqueezy/checkout", {
+                      method: "POST",
+                      headers: { "Content-Type": "application/json" },
+                      body: JSON.stringify({ plan: "yearly" }),
+                    });
+                    const data = await res.json();
+                    if (data.url) { window.location.href = data.url; return; }
+                  } catch {}
+                  setSubscribing(false);
+                }}
+              >
+                {t("onboarding.blocked.yearly")}
               </Button>
             </div>
             <p className="text-xs text-stone-400 pt-2">
-              Already have an account?{" "}
+              Already generated a plan?{" "}
               <Link href="/login" className="text-orange-500 hover:text-orange-600 font-medium">
                 Sign in
               </Link>
-              {" "}&middot;{" "}
-              <Link href="/preview" className="text-orange-500 hover:text-orange-600 font-medium">
-                View your free plan
+              {" "}or{" "}
+              <Link href="/signup" className="text-orange-500 hover:text-orange-600 font-medium">
+                create an account
               </Link>
+              {" "}to view it.
             </p>
           </div>
         ) : (

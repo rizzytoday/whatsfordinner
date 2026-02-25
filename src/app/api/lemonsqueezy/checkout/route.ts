@@ -11,10 +11,6 @@ export async function POST(req: NextRequest) {
       data: { user },
     } = await supabase.auth.getUser();
 
-    if (!user) {
-      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-    }
-
     const { plan } = (await req.json()) as { plan: PlanInterval };
 
     if (!plan || !(plan in VARIANTS)) {
@@ -26,17 +22,27 @@ export async function POST(req: NextRequest) {
 
     const appUrl = getAppUrl();
 
-    const { data, error } = await createCheckout(STORE_ID, VARIANTS[plan], {
-      checkoutData: {
+    const checkoutOptions: Parameters<typeof createCheckout>[2] = {
+      productOptions: {
+        redirectUrl: user ? `${appUrl}/dashboard` : `${appUrl}/signup?from=checkout`,
+      },
+    };
+
+    // If signed in, link to Supabase user + pre-fill email
+    if (user) {
+      checkoutOptions.checkoutData = {
         email: user.email ?? undefined,
         custom: {
           supabase_user_id: user.id,
         },
-      },
-      productOptions: {
-        redirectUrl: `${appUrl}/dashboard`,
-      },
-    });
+      };
+    }
+
+    const { data, error } = await createCheckout(
+      STORE_ID,
+      VARIANTS[plan],
+      checkoutOptions,
+    );
 
     if (error || !data) {
       console.error("Checkout creation error:", error);
