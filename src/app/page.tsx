@@ -39,7 +39,7 @@ export default function Home() {
               href="/dashboard"
               className="text-sm text-stone-500 hover:text-orange-600 transition-colors font-medium"
             >
-              {t("common.dashboard") ?? "Dashboard"}
+              Dashboard
             </Link>
           ) : (
             <Link
@@ -50,11 +50,13 @@ export default function Home() {
             </Link>
           )}
           <LanguagePicker />
-          <Button asChild size="sm">
-            <Link href={isSignedIn ? "/dashboard" : "/onboarding"}>
-              {isSignedIn ? (t("common.dashboard") ?? "Dashboard") : t("common.tryFree")}
-            </Link>
-          </Button>
+          {!isSignedIn && (
+            <Button asChild size="sm">
+              <Link href="/onboarding">
+                {t("common.tryFree")}
+              </Link>
+            </Button>
+          )}
         </div>
       </nav>
 

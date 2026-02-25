@@ -31,10 +31,12 @@ export function SubscriptionStatus({ status, freeUsed }: SubscriptionStatusProps
       const data = await res.json();
       if (data.url) {
         window.location.href = data.url;
+        return;
       }
     } catch {
-      setLoading(false);
+      // fall through
     }
+    setLoading(false);
   }
 
   async function handleSubscribe() {
@@ -48,10 +50,12 @@ export function SubscriptionStatus({ status, freeUsed }: SubscriptionStatusProps
       const data = await res.json();
       if (data.url) {
         window.location.href = data.url;
+        return;
       }
     } catch {
-      setLoading(false);
+      // fall through
     }
+    setLoading(false);
   }
 
   return (
