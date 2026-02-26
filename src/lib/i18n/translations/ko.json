@@ -56,7 +56,9 @@
         "groceryLists": "바로 장보기에 쓸 수 있는 목록",
         "regenerations": "마음에 안 드는 메뉴? 주당 최대 2회 재생성",
         "emailDelivery": "매주 일요일 이메일로 식단 전달",
-        "dietarySupport": "알레르기, 식이 제한, 까다로운 입맛 — 모두 지원"
+        "dietarySupport": "알레르기, 식이 제한, 까다로운 입맛 — 모두 지원",
+        "cancelAnytime": "약정 없음 — 언제든 해지 가능",
+        "bestValue": "최고 가성비 — 월간 대비 연 $30 절약"
       }
     },
     "faq": {

@@ -56,7 +56,9 @@
         "groceryLists": "Listes de courses prêtes pour le supermarché",
         "regenerations": "Un repas ne vous plaît pas ? Régénérez jusqu'à 2 fois/semaine",
         "emailDelivery": "Plans livrés dans votre boîte de réception chaque dimanche",
-        "dietarySupport": "Compatible avec allergies, régimes, mangeurs difficiles — tout"
+        "dietarySupport": "Compatible avec allergies, régimes, mangeurs difficiles — tout",
+        "cancelAnytime": "Sans engagement — annulez quand vous voulez",
+        "bestValue": "Meilleur rapport qualité-prix — économisez $30/an"
       }
     },
     "faq": {

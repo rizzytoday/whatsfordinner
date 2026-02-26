@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
-import { cn } from "@/lib/utils";
 
 import { useT } from "@/lib/i18n/context";
 
@@ -27,13 +26,21 @@ function Check() {
 export function Pricing() {
   const { t } = useT();
 
-  const features = [
-    t("landing.pricing.features.firstWeekFree"),
+  const monthlyFeatures = [
+    t("landing.pricing.features.sevenDayPlans"),
+    t("landing.pricing.features.groceryLists"),
+    t("landing.pricing.features.regenerations"),
+    t("landing.pricing.features.emailDelivery"),
+    t("landing.pricing.features.cancelAnytime"),
+  ];
+
+  const yearlyFeatures = [
     t("landing.pricing.features.sevenDayPlans"),
     t("landing.pricing.features.groceryLists"),
     t("landing.pricing.features.regenerations"),
     t("landing.pricing.features.emailDelivery"),
     t("landing.pricing.features.dietarySupport"),
+    t("landing.pricing.features.bestValue"),
   ];
 
   return (
@@ -46,7 +53,7 @@ export function Pricing() {
           {t("landing.pricing.subtitle")}
         </p>
 
-        {/* Cards — grid ensures equal height, flex-col + mt-auto aligns buttons */}
+        {/* Cards */}
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-3xl mx-auto">
           {/* Monthly */}
           <div className="bg-white rounded-2xl border border-stone-200 shadow-sm p-6 flex flex-col">
@@ -64,7 +71,7 @@ export function Pricing() {
             </p>
 
             <ul className="mt-5 space-y-2.5 flex-1">
-              {features.map((feature) => (
+              {monthlyFeatures.map((feature) => (
                 <li key={feature} className="flex items-start gap-2 text-[13px] text-stone-500">
                   <Check />
                   {feature}
@@ -98,7 +105,7 @@ export function Pricing() {
             </p>
 
             <ul className="mt-5 space-y-2.5 flex-1">
-              {features.map((feature) => (
+              {yearlyFeatures.map((feature) => (
                 <li key={feature} className="flex items-start gap-2 text-[13px] text-stone-500">
                   <Check />
                   {feature}

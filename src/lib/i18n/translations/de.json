@@ -56,7 +56,9 @@
         "groceryLists": "Einkaufslisten, mit denen Du tatsächlich einkaufen gehen kannst",
         "regenerations": "Nicht zufrieden? Bis zu 2x pro Woche regenerieren",
         "emailDelivery": "Pläne jeden Sonntag in Deinen Posteingang geliefert",
-        "dietarySupport": "Funktioniert mit Allergien, Diäten, wählerischen Essern — alles"
+        "dietarySupport": "Funktioniert mit Allergien, Diäten, wählerischen Essern — alles",
+        "cancelAnytime": "Keine Bindung — jederzeit kündbar",
+        "bestValue": "Bester Wert — spare $30/Jahr vs monatlich"
       }
     },
     "faq": {

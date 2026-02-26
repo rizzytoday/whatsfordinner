@@ -56,7 +56,9 @@
         "groceryLists": "Gerçekten alışveriş yapabileceğiniz listeler",
         "regenerations": "Bir öğünü beğenmediniz mi? Haftada 2 kez yeniden oluşturun",
         "emailDelivery": "Planlar her pazar e-postanıza teslim edilir",
-        "dietarySupport": "Alerjiler, diyetler, zor yiyiciler — hepsiyle çalışır"
+        "dietarySupport": "Alerjiler, diyetler, zor yiyiciler — hepsiyle çalışır",
+        "cancelAnytime": "Taahhüt yok — istediğiniz zaman iptal edin",
+        "bestValue": "En iyi değer — aylığa göre yılda $30 tasarruf"
       }
     },
     "faq": {

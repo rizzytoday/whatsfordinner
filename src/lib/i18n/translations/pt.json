@@ -56,7 +56,9 @@
         "groceryLists": "Listas de compras que você realmente pode usar no supermercado",
         "regenerations": "Não gostou de uma refeição? Regenere até 2x/semana",
         "emailDelivery": "Planos entregues na sua caixa de entrada todo domingo",
-        "dietarySupport": "Funciona com alergias, dietas, comensais exigentes — tudo"
+        "dietarySupport": "Funciona com alergias, dietas, comensais exigentes — tudo",
+        "cancelAnytime": "Sem compromisso — cancele quando quiser",
+        "bestValue": "Melhor valor — economize $30/ano vs mensal"
       }
     },
     "faq": {

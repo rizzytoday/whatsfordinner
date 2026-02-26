@@ -56,7 +56,9 @@
         "groceryLists": "Grocery lists you can actually shop from",
         "regenerations": "Don't love a meal? Regenerate up to 2x/week",
         "emailDelivery": "Plans delivered straight to your inbox every Sunday",
-        "dietarySupport": "Works around allergies, diets, picky eaters — all of it"
+        "dietarySupport": "Works around allergies, diets, picky eaters — all of it",
+        "cancelAnytime": "No commitment — cancel anytime",
+        "bestValue": "Best value — save $30/year vs monthly"
       }
     },
     "faq": {
