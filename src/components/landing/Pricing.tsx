@@ -47,7 +47,7 @@ export function Pricing() {
         </p>
 
         {/* Cards — grid ensures equal height, flex-col + mt-auto aligns buttons */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-2xl mx-auto">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-3xl mx-auto">
           {/* Monthly */}
           <div className="bg-white rounded-2xl border border-stone-200 shadow-sm p-6 flex flex-col">
             <div className="flex items-center justify-between">
