@@ -6,6 +6,24 @@ import { cn } from "@/lib/utils";
 
 import { useT } from "@/lib/i18n/context";
 
+function Check() {
+  return (
+    <svg
+      width="15"
+      height="15"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="text-orange-500 shrink-0 mt-0.5"
+    >
+      <polyline points="20 6 9 17 4 12" />
+    </svg>
+  );
+}
+
 export function Pricing() {
   const { t } = useT();
 
@@ -28,20 +46,32 @@ export function Pricing() {
           {t("landing.pricing.subtitle")}
         </p>
 
-        {/* Two compact horizontal cards */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+        {/* Cards — grid ensures equal height, flex-col + mt-auto aligns buttons */}
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-2xl mx-auto">
           {/* Monthly */}
-          <div className="bg-white rounded-2xl border border-stone-200 shadow-sm p-6">
-            <div className="flex items-center justify-between mb-4">
+          <div className="bg-white rounded-2xl border border-stone-200 shadow-sm p-6 flex flex-col">
+            <div className="flex items-center justify-between">
               <h3 className="text-sm font-semibold text-stone-500 uppercase tracking-wide">
                 {t("landing.pricing.monthly")}
               </h3>
             </div>
-            <div className="flex items-baseline gap-1.5 mb-5">
+            <div className="mt-3 flex items-baseline gap-1.5">
               <span className="text-4xl font-extrabold text-stone-900 tracking-tight">$4.99</span>
               <span className="text-stone-400 text-sm">{t("landing.pricing.perMonth")}</span>
             </div>
-            <Button asChild variant="ghost" className="w-full">
+            {/* Invisible spacer to match yearly's "Billed yearly" line */}
+            <p className="mt-1 text-xs text-transparent select-none" aria-hidden="true">&nbsp;</p>
+
+            <ul className="mt-5 space-y-2.5 flex-1">
+              {features.map((feature) => (
+                <li key={feature} className="flex items-start gap-2 text-[13px] text-stone-500">
+                  <Check />
+                  {feature}
+                </li>
+              ))}
+            </ul>
+
+            <Button asChild variant="ghost" className="mt-6 w-full">
               <Link href="/onboarding">
                 {t("landing.pricing.tryFreeFirst")}
               </Link>
@@ -49,8 +79,8 @@ export function Pricing() {
           </div>
 
           {/* Yearly */}
-          <div className="bg-white rounded-2xl border border-orange-300 shadow-md ring-1 ring-orange-100 p-6 relative">
-            <div className="flex items-center justify-between mb-4">
+          <div className="bg-white rounded-2xl border border-orange-300 shadow-md ring-1 ring-orange-100 p-6 flex flex-col relative">
+            <div className="flex items-center justify-between">
               <h3 className="text-sm font-semibold text-stone-500 uppercase tracking-wide">
                 {t("landing.pricing.yearly")}
               </h3>
@@ -58,43 +88,29 @@ export function Pricing() {
                 {t("landing.pricing.save50")}
               </span>
             </div>
-            <div className="flex items-baseline gap-1.5">
+            <div className="mt-3 flex items-baseline gap-1.5">
               <span className="text-4xl font-extrabold text-stone-900 tracking-tight">$2.50</span>
               <span className="text-stone-400 text-sm">{t("landing.pricing.perMonth")}</span>
             </div>
-            <p className="mt-1 mb-5 text-xs text-stone-400">
+            <p className="mt-1 text-xs text-stone-400">
               {t("landing.pricing.billedYearly")}
             </p>
-            <Button asChild variant="primary" className="w-full">
+
+            <ul className="mt-5 space-y-2.5 flex-1">
+              {features.map((feature) => (
+                <li key={feature} className="flex items-start gap-2 text-[13px] text-stone-500">
+                  <Check />
+                  {feature}
+                </li>
+              ))}
+            </ul>
+
+            <Button asChild variant="primary" className="mt-6 w-full">
               <Link href="/onboarding">
                 {t("landing.pricing.tryFreeFirst")}
               </Link>
             </Button>
           </div>
-        </div>
-
-        {/* Shared features */}
-        <div className="mt-8 max-w-2xl mx-auto">
-          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
-            {features.map((feature) => (
-              <li key={feature} className="flex items-start gap-2.5 text-sm text-stone-500">
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="text-orange-500 shrink-0 mt-0.5"
-                >
-                  <polyline points="20 6 9 17 4 12" />
-                </svg>
-                {feature}
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </section>
