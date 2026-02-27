@@ -49,7 +49,6 @@ function Counter({ end, prefix = "", suffix = "", label, duration = 2000 }: Coun
 
   function formatNumber(n: number): string {
     if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, "") + "M";
-    if (n >= 1_000) return (n / 1_000).toFixed(n >= 10_000 ? 0 : 1).replace(/\.0$/, "") + "K";
     return n.toLocaleString();
   }
 
@@ -72,7 +71,7 @@ export function SocialProof() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 sm:gap-12">
           <Counter end={12847} label={t("landing.social.mealsPlanned")} />
           <Counter end={38400} label={t("landing.social.hoursSaved")} />
-          <Counter end={62} suffix="%" label={t("landing.social.lessSpent")} />
+          <Counter end={1200} prefix="$" suffix="+" label={t("landing.social.lessSpent")} />
           <Counter end={94} suffix="%" label={t("landing.social.keptSubscribing")} />
         </div>
       </div>

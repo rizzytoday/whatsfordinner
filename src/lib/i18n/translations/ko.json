@@ -17,7 +17,7 @@
     "hero": {
       "title": "오늘 저녁 뭐 먹지?",
       "subtitle": "다시는 고민할 필요가 없어요.",
-      "description": "맞춤형 식단과 장보기 목록이 이메일로 배달됩니다. 무료 1일 식단을 체험해보세요",
+      "description": "맞춤형 식단과 장보기 목록이 매주 이메일로 배달됩니다. 무료 3일 식단을 체험해보세요",
       "noCreditCard": "— 신용카드 필요 없음.",
       "cta": "오늘 저녁 뭐 먹지?",
       "subtext": "2분 소요. 가입 불필요. 카드 불필요."
@@ -25,7 +25,7 @@
     "social": {
       "mealsPlanned": "끼니 계획됨",
       "hoursSaved": "식단 계획 시간 절약",
-      "lessSpent": "밀키트 대비 절약된 비용",
+      "lessSpent": "밀키트 대비 연간 절약",
       "keptSubscribing": "구독 유지"
     },
     "howItWorks": {

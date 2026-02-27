@@ -17,7 +17,7 @@
     "hero": {
       "title": "what's for dinner?",
       "subtitle": "You'll never have to think about it again.",
-      "description": "Personalized meal plans and grocery lists, delivered to your inbox. Try a free 3-day plan",
+      "description": "Personalized meal plans and grocery lists, delivered to your inbox, every week. Try a free 3-day plan",
       "noCreditCard": "— no credit card required.",
       "cta": "Plan My Meals — Free",
       "subtext": "Takes 2 min. No signup. No credit card."
@@ -25,7 +25,7 @@
     "social": {
       "mealsPlanned": "meals planned",
       "hoursSaved": "hours of meal planning saved",
-      "lessSpent": "less spent vs meal kits",
+      "lessSpent": "saved per year vs meal kits",
       "keptSubscribing": "kept subscribing"
     },
     "howItWorks": {

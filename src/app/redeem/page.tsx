@@ -79,8 +79,11 @@ function RedeemFlow() {
             <h1 className="text-2xl font-bold text-stone-800 mb-2">
               You&apos;ve been invited!
             </h1>
-            <p className="text-sm text-stone-500 mb-2">
+            <p className="text-sm text-stone-500 mb-1">
               A friend gave you 1 month of free meal plans.
+            </p>
+            <p className="text-xs text-stone-400 mb-4">
+              What&apos;s For Dinner sends you personalized weekly meal plans and grocery lists — so you never have to think about what to eat.
             </p>
             <div className="inline-block px-4 py-2 bg-stone-50 rounded-lg mb-6">
               <code className="text-sm font-mono text-stone-700">{code}</code>

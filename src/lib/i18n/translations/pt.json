@@ -17,7 +17,7 @@
     "hero": {
       "title": "o que tem pra janta?",
       "subtitle": "Você nunca mais vai precisar pensar nisso.",
-      "description": "Planos de refeições personalizados e listas de compras, entregues na sua caixa de entrada. Experimente um plano gratuito de 1 dia",
+      "description": "Planos de refeições personalizados e listas de compras, entregues na sua caixa de entrada, toda semana. Experimente um plano gratuito de 3 dias",
       "noCreditCard": "— sem cartão de crédito.",
       "cta": "Veja Seu Cardápio",
       "subtext": "2 minutos. Sem cadastro. Sem cartão."
@@ -25,7 +25,7 @@
     "social": {
       "mealsPlanned": "refeições planejadas",
       "hoursSaved": "horas de planejamento de refeições economizadas",
-      "lessSpent": "menos gasto em comparação com kits de refeição",
+      "lessSpent": "economizados por ano vs kits de refeição",
       "keptSubscribing": "continuaram assinando"
     },
     "howItWorks": {

@@ -17,7 +17,7 @@
     "hero": {
       "title": "¿qué hay para cenar?",
       "subtitle": "Nunca tendrás que pensarlo de nuevo.",
-      "description": "Planes de comida personalizados y listas de compras, entregados en tu bandeja de entrada. Prueba un plan gratuito de 1 día",
+      "description": "Planes de comida personalizados y listas de compras, entregados en tu bandeja de entrada, cada semana. Prueba un plan gratuito de 3 días",
       "noCreditCard": "— sin tarjeta de crédito.",
       "cta": "Descubre Qué Cenar",
       "subtext": "2 minutos. Sin registro. Sin tarjeta."
@@ -25,7 +25,7 @@
     "social": {
       "mealsPlanned": "comidas planificadas",
       "hoursSaved": "horas de planificación de comidas ahorradas",
-      "lessSpent": "menos gasto vs kits de comida",
+      "lessSpent": "ahorrados al año vs kits de comida",
       "keptSubscribing": "mantienen su suscripción"
     },
     "howItWorks": {

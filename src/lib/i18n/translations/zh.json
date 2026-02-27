@@ -17,7 +17,7 @@
     "hero": {
       "title": "今晚吃什么？",
       "subtitle": "从此再也不用想这个问题。",
-      "description": "个性化餐饮计划和购物清单，直接送到你的邮箱。免费试用 1 天计划",
+      "description": "个性化餐饮计划和购物清单，每周直接送到你的邮箱。免费试用 3 天计划",
       "noCreditCard": "——无需信用卡。",
       "cta": "看看今晚吃什么",
       "subtext": "2分钟完成。无需注册。无需信用卡。"
@@ -25,7 +25,7 @@
     "social": {
       "mealsPlanned": "餐饮计划已制定",
       "hoursSaved": "节省的餐饮规划时间",
-      "lessSpent": "比外卖套餐更省钱",
+      "lessSpent": "每年比外卖套餐节省",
       "keptSubscribing": "继续订阅"
     },
     "howItWorks": {

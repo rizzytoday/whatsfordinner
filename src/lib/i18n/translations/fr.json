@@ -17,7 +17,7 @@
     "hero": {
       "title": "qu'est-ce qu'on mange ce soir ?",
       "subtitle": "Vous n'aurez plus jamais à y penser.",
-      "description": "Des plans de repas personnalisés et des listes de courses, livrés dans votre boîte de réception. Essayez un plan gratuit d'1 jour",
+      "description": "Des plans de repas personnalisés et des listes de courses, livrés dans votre boîte de réception, chaque semaine. Essayez un plan gratuit de 3 jours",
       "noCreditCard": "— aucune carte de crédit requise.",
       "cta": "Découvrez Votre Menu",
       "subtext": "2 minutes. Sans inscription. Sans carte."
@@ -25,7 +25,7 @@
     "social": {
       "mealsPlanned": "repas planifiés",
       "hoursSaved": "heures de planification de repas économisées",
-      "lessSpent": "dépensé en moins par rapport aux kits repas",
+      "lessSpent": "économisés par an vs kits repas",
       "keptSubscribing": "continuent de s'abonner"
     },
     "howItWorks": {

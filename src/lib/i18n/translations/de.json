@@ -17,7 +17,7 @@
     "hero": {
       "title": "Was gibt's zum Abendessen?",
       "subtitle": "Du wirst nie wieder darüber nachdenken müssen.",
-      "description": "Personalisierte Essenspläne und Einkaufslisten, direkt in Deinen Posteingang. Probiere einen kostenlosen 1-Tages-Plan",
+      "description": "Personalisierte Essenspläne und Einkaufslisten, direkt in Deinen Posteingang, jede Woche. Probiere einen kostenlosen 3-Tages-Plan",
       "noCreditCard": "— keine Kreditkarte nötig.",
       "cta": "Entdecke Dein Menü",
       "subtext": "2 Minuten. Keine Anmeldung. Keine Karte."
@@ -25,7 +25,7 @@
     "social": {
       "mealsPlanned": "Mahlzeiten geplant",
       "hoursSaved": "Stunden Essensplanung gespart",
-      "lessSpent": "weniger ausgegeben als für Kochboxen",
+      "lessSpent": "pro Jahr gespart vs Kochboxen",
       "keptSubscribing": "bleiben Abonnent"
     },
     "howItWorks": {

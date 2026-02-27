@@ -17,7 +17,7 @@
     "hero": {
       "title": "akşam yemeğinde ne var?",
       "subtitle": "Bir daha asla düşünmek zorunda kalmayacaksınız.",
-      "description": "Kişiselleştirilmiş öğün planları ve alışveriş listeleri, e-postanıza teslim edilir. Ücretsiz 1 günlük planı deneyin",
+      "description": "Kişiselleştirilmiş öğün planları ve alışveriş listeleri, her hafta e-postanıza teslim edilir. Ücretsiz 3 günlük planı deneyin",
       "noCreditCard": "— kredi kartı gerekli değil.",
       "cta": "Akşam Yemeğini Keşfet",
       "subtext": "2 dakika. Kayıt yok. Kart yok."
@@ -25,7 +25,7 @@
     "social": {
       "mealsPlanned": "planlanan öğün",
       "hoursSaved": "tasarruf edilen öğün planlama saati",
-      "lessSpent": "yemek kutularına göre daha az harcama",
+      "lessSpent": "yemek kutularına göre yıllık tasarruf",
       "keptSubscribing": "abonemiz kalan"
     },
     "howItWorks": {
