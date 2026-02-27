@@ -54,7 +54,7 @@ function Counter({ end, prefix = "", suffix = "", label, duration = 2000 }: Coun
 
   return (
     <div ref={ref} className="text-center">
-      <p className="text-3xl sm:text-4xl font-bold text-stone-900 tracking-tight">
+      <p className="text-2xl sm:text-4xl font-bold text-stone-900 tracking-tight">
         {prefix}{formatNumber(count)}{suffix}
       </p>
       <p className="mt-1 text-sm text-stone-500">{label}</p>

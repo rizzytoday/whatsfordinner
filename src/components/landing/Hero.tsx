@@ -19,7 +19,7 @@ export function Hero() {
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-stone-900 tracking-tight leading-[1.1]">
           {t("landing.hero.title")}
         </h1>
-        <p className="mt-3 sm:mt-4 text-lg sm:text-2xl font-semibold text-orange-500 whitespace-nowrap">
+        <p className="mt-3 sm:mt-4 text-base sm:text-2xl font-semibold text-orange-500">
           {t("landing.hero.subtitle")}
         </p>
 

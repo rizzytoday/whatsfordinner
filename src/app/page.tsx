@@ -53,7 +53,7 @@ export default function Home() {
             </Link>
           )}
           {!isSignedIn && (
-            <Button asChild size="sm">
+            <Button asChild size="sm" className="whitespace-nowrap">
               <Link href="/onboarding">
                 {t("common.tryFree")}
               </Link>
