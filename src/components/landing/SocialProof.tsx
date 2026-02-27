@@ -67,10 +67,10 @@ export function SocialProof() {
 
   return (
     <section className="py-16 sm:py-20 border-t border-stone-100">
-      <div className="max-w-4xl mx-auto px-6">
-        <div className="grid grid-cols-3 gap-8 sm:gap-12">
-          <Counter end={530} label={t("landing.social.mealsPlanned")} />
-          <Counter end={1200} label={t("landing.social.hoursSaved")} />
+      <div className="max-w-lg sm:max-w-3xl mx-auto px-6">
+        <div className="grid grid-cols-3 gap-6 sm:gap-12">
+          <Counter end={843} label={t("landing.social.mealsPlanned")} />
+          <Counter end={2150} label={t("landing.social.hoursSaved")} />
           <Counter end={1200} prefix="$" suffix="+" label={t("landing.social.lessSpent")} />
         </div>
       </div>
