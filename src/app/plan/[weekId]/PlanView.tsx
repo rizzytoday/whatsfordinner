@@ -27,7 +27,7 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
     (sum, d) => sum + d.meals.reduce((ms, m) => ms + m.prepTime + m.cookTime, 0),
     0,
   );
-  const hoursSavedYearly = Math.round((25 * 365) / 60 / 10) * 10;
+  // 2.5h/week × 52 weeks = 130h/yr
 
   return (
     <div className="min-h-screen bg-[#FFFBF5]">
@@ -66,7 +66,7 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
             {totalCookTime} min total cook time &middot; Est. {planData.estimatedWeeklyCost}
           </p>
           <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-900 tracking-tight leading-[1.1]">
-            just saved <span className="text-orange-500">{hoursSavedYearly}+ hours/yr</span>
+            just saved <span className="text-orange-500">130+ hours/yr</span>
             <br />
             not thinking about what to eat
           </h2>

@@ -125,11 +125,7 @@ export default function PreviewPage() {
     (sum, d) => sum + d.meals.reduce((ms, m) => ms + m.prepTime + m.cookTime, 0),
     0,
   );
-  // Headline stat — aspirational for free users, accurate for subscribers
-  // Average person spends ~25min/day on meal decisions + planning + grocery listing
-  // Yearly: 25min × 365 days = ~152h/yr, round to clean number
-  // TODO: For subscribers on /plan/[weekId], show cumulative stats from all their plans
-  const hoursSavedYearly = Math.round((25 * 365) / 60 / 10) * 10; // ~150
+  // 2.5h/week × 52 weeks = 130h/yr
 
   return (
     <div className="min-h-screen bg-[#FFFBF5]">
@@ -182,12 +178,15 @@ export default function PreviewPage() {
           <p className="text-xs sm:text-sm text-orange-600/80 mb-4">
             {totalCookTime} min total cook time &middot; Est. {plan.estimatedWeeklyCost}
           </p>
-          {/* Big heading — like "just saved $27,480/yr ($2,290/mo)" */}
+          {/* Big heading — aspirational hook for free users */}
           <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-900 tracking-tight leading-[1.1]">
-            just saved <span className="text-orange-500">{hoursSavedYearly}+ hours/yr</span>
+            save <span className="text-orange-500">130+ hours/yr</span>
             <br />
             not thinking about what to eat
           </h2>
+          <p className="mt-3 text-sm sm:text-base text-stone-500">
+            That&apos;s 2.5 hours back every week — if you stick with it.
+          </p>
         </div>
       </div>
 
