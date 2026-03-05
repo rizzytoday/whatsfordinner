@@ -88,8 +88,9 @@ function OnboardingContent() {
       if (user.email) {
         setData((prev) => ({ ...prev, delivery_email: prev.delivery_email || user.email! }));
       }
-      // Signed-in user who already used free plan (not in edit mode) — show dashboard nudge
-      if (!isEdit) {
+      // Signed-in user who already completed onboarding (not in edit mode) — show dashboard nudge
+      // Skip block if they have a promo code (they may need to retry after a failed attempt)
+      if (!isEdit && !hasPromoCode) {
         try {
           const res = await fetch("/api/profile");
           if (res.ok) {
