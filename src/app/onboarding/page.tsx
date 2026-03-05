@@ -205,20 +205,21 @@ function OnboardingContent() {
         return;
       }
 
-      // Save profile silently if signed in (don't block on failure)
+      // Save profile (required for authenticated plan generation)
       if (isAuthenticated) {
-        try {
-          await fetch("/api/profile", {
-            method: "PUT",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-              ...data,
-              servings_per_meal: data.household_size,
-              onboarding_completed: true,
-            }),
-          });
-        } catch {
-          // Profile save failed — continue with plan generation anyway
+        const profileRes = await fetch("/api/profile", {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            ...data,
+            servings_per_meal: data.household_size,
+            onboarding_completed: true,
+          }),
+        });
+
+        if (!profileRes.ok) {
+          const errData = await profileRes.json().catch(() => ({ error: "Failed to save profile" }));
+          throw new Error(errData.error || "Failed to save profile");
         }
       }
 
