@@ -134,7 +134,7 @@ export default async function OGImage() {
               display: "flex",
             }}
           >
-            Plan My Meals — Free
+            Get My Free Meal Plan
           </div>
         </div>
 
