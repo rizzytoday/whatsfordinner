@@ -32,7 +32,7 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
   return (
     <div className="min-h-screen bg-[#FFFBF5]">
       {/* Header */}
-      <header className="border-b border-stone-100 bg-white/60 backdrop-blur-sm sticky top-0 z-20">
+      <header className="border-b border-stone-100 bg-white/60 backdrop-blur-sm sticky top-0 z-20 print:hidden">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Link
@@ -57,7 +57,7 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
       </header>
 
       {/* Hero stat */}
-      <div className="border-b border-orange-100 bg-gradient-to-r from-orange-50 via-amber-50 to-orange-50">
+      <div className="border-b border-orange-100 bg-gradient-to-r from-orange-50 via-amber-50 to-orange-50 print:hidden">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-6 sm:pt-10 pb-8 sm:pb-14">
           <p className="text-xs sm:text-sm text-stone-500 mb-1">
             planned {totalMeals} meals &middot; {totalGroceryItems} grocery items &middot; {totalCalories.toLocaleString()} cal
@@ -75,8 +75,8 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
 
       {/* Plan content */}
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
-        {/* View toggle — hidden on mobile */}
-        <div className="hidden sm:flex items-center justify-end mb-6">
+        {/* View toggle — hidden on mobile and print */}
+        <div className="hidden sm:flex print:!hidden items-center justify-end mb-6">
           <div className="flex bg-white rounded-full border border-stone-100 shadow-sm p-1">
             <button
               type="button"
