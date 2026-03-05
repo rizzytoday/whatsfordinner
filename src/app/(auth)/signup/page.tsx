@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useState, type FormEvent } from "react";
+import { Suspense, useState, useEffect, type FormEvent } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
@@ -21,12 +21,22 @@ function SignUpForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const plan = searchParams.get("plan") || "monthly";
+  const promoCode = searchParams.get("code");
+  const redirectParam = searchParams.get("redirect");
+  const hasPromo = !!promoCode;
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const [googleLoading, setGoogleLoading] = useState(false);
+
+  // Store promo code in localStorage so it survives auth redirects
+  useEffect(() => {
+    if (promoCode) {
+      localStorage.setItem("wfd_promo_code", promoCode);
+    }
+  }, [promoCode]);
 
   async function redirectToCheckout() {
     try {
@@ -54,10 +64,15 @@ function SignUpForm() {
       const supabase = createClient();
       const appUrl = getAppUrl();
 
+      // Promo users skip checkout — redirect to onboarding after auth
+      const callbackUrl = hasPromo
+        ? `${appUrl}/callback?redirect=/onboarding`
+        : `${appUrl}/callback?plan=${plan}`;
+
       const { error: oauthError } = await supabase.auth.signInWithOAuth({
         provider: "google",
         options: {
-          redirectTo: `${appUrl}/callback?plan=${plan}`,
+          redirectTo: callbackUrl,
           queryParams: {
             access_type: "offline",
             prompt: "consent",
@@ -91,11 +106,15 @@ function SignUpForm() {
       const supabase = createClient();
       const appUrl = getAppUrl();
 
+      const emailRedirectUrl = hasPromo
+        ? `${appUrl}/callback?redirect=/onboarding`
+        : `${appUrl}/callback?plan=${plan}`;
+
       const { error: signUpError } = await supabase.auth.signUp({
         email,
         password,
         options: {
-          emailRedirectTo: `${appUrl}/callback?plan=${plan}`,
+          emailRedirectTo: emailRedirectUrl,
         },
       });
 
@@ -120,7 +139,12 @@ function SignUpForm() {
         }
       }
 
-      await redirectToCheckout();
+      // Promo users skip checkout — go to onboarding instead
+      if (hasPromo) {
+        router.push(redirectParam || "/onboarding");
+      } else {
+        await redirectToCheckout();
+      }
     } catch {
       setError("Something went wrong. Please try again.");
       setLoading(false);
@@ -193,7 +217,7 @@ function SignUpForm() {
               <Input
                 label="Password"
                 type="password"
-                placeholder="At least 6 characters"
+                placeholder="At least 8 characters"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required

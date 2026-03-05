@@ -42,7 +42,7 @@ export function ReferralCodes() {
       </CardHeader>
       <CardContent className="space-y-3 pb-5">
         <p className="text-xs text-stone-500">
-          Share these codes with friends. Each gives 1 month free.
+          Share these codes with friends. {codes.length}/3 codes generated.
         </p>
         <div className="space-y-2">
           {codes.map((c) => {
@@ -55,6 +55,7 @@ export function ReferralCodes() {
                 <code className={`text-xs font-mono ${used ? "text-stone-400 line-through" : "text-stone-700"}`}>
                   {c.code}
                 </code>
+                <span className="text-xs text-stone-400">1 month free</span>
                 {used ? (
                   <span className="text-xs text-stone-400">Used</span>
                 ) : (

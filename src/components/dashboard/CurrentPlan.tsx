@@ -255,7 +255,11 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
             size="sm"
             loading={loading}
             disabled={regenLeft <= 0}
-            onClick={handleGenerate}
+            onClick={() => {
+              if (window.confirm(`This will replace your current plan. You have ${regenLeft}/2 regenerations left. Continue?`)) {
+                handleGenerate();
+              }
+            }}
           >
             Regenerate
           </Button>
