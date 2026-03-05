@@ -49,6 +49,7 @@ function Counter({ end, prefix = "", suffix = "", label, duration = 2000 }: Coun
 
   function formatNumber(n: number): string {
     if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, "") + "M";
+    if (n >= 1_000) return (n / 1_000).toFixed(1).replace(/\.0$/, "") + "k";
     return n.toLocaleString();
   }
 
@@ -62,15 +63,33 @@ function Counter({ end, prefix = "", suffix = "", label, duration = 2000 }: Coun
   );
 }
 
+interface Stats {
+  mealsPlanned: number;
+  hoursSaved: number;
+  plansGenerated: number;
+  users: number;
+}
+
 export function SocialProof() {
   const { t } = useT();
+  const [stats, setStats] = useState<Stats | null>(null);
+
+  useEffect(() => {
+    fetch("/api/stats", { cache: "no-store" })
+      .then((r) => r.json())
+      .then((data) => setStats(data))
+      .catch(() => setStats(null));
+  }, []);
+
+  // Don't show section if no data at all
+  if (!stats || stats.plansGenerated < 1) return null;
 
   return (
     <section className="py-16 sm:py-20 border-t border-stone-100">
       <div className="max-w-lg sm:max-w-3xl mx-auto px-6">
         <div className="grid grid-cols-3 gap-6 sm:gap-12">
-          <Counter end={843} label={t("landing.social.mealsPlanned")} />
-          <Counter end={2150} suffix="h" label={t("landing.social.hoursSaved")} />
+          <Counter end={stats.mealsPlanned} label={t("landing.social.mealsPlanned")} />
+          <Counter end={stats.hoursSaved} suffix="h" label={t("landing.social.hoursSaved")} />
           <Counter end={1200} prefix="$" suffix="+" label={t("landing.social.lessSpent")} />
         </div>
       </div>
