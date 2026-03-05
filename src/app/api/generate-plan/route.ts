@@ -1,11 +1,12 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { generateMealPlan } from "@/lib/anthropic";
 import { getWeekOf } from "@/lib/utils";
+import { rateLimit } from "@/lib/rate-limit";
 import type { UserProfile } from "@/types/meal-plan";
 
-export async function POST() {
+export async function POST(req: NextRequest) {
   try {
     const supabase = await createClient();
     const {
@@ -15,6 +16,9 @@ export async function POST() {
     if (!user) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
+
+    const limited = rateLimit(req, "generate-plan", 5, 60_000);
+    if (limited) return limited;
 
     const admin = createAdminClient();
 

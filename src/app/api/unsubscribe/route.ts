@@ -4,6 +4,7 @@ import {
   verifyUnsubscribeToken,
   verifyEmailUnsubscribeToken,
 } from "@/lib/unsubscribe";
+import { rateLimit } from "@/lib/rate-limit";
 
 function htmlResponse(title: string, message: string, status = 200) {
   const html = `<!DOCTYPE html>
@@ -31,6 +32,9 @@ function htmlResponse(title: string, message: string, status = 200) {
 }
 
 export async function GET(req: NextRequest) {
+  const limited = rateLimit(req, "unsubscribe", 20, 60_000);
+  if (limited) return limited;
+
   const token = req.nextUrl.searchParams.get("token");
   const type = req.nextUrl.searchParams.get("type");
 
@@ -92,5 +96,8 @@ export async function GET(req: NextRequest) {
 
 // RFC 8058: List-Unsubscribe-Post support
 export async function POST(req: NextRequest) {
+  const limited = rateLimit(req, "unsubscribe", 20, 60_000);
+  if (limited) return limited;
+
   return GET(req);
 }

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { rateLimit } from "@/lib/rate-limit";
 import { z } from "zod";
 
 const profileSchema = z.object({
@@ -65,6 +66,9 @@ export async function GET() {
 
 export async function PUT(req: NextRequest) {
   try {
+    const limited = rateLimit(req, "profile", 30, 60_000);
+    if (limited) return limited;
+
     const supabase = await createClient();
     const {
       data: { user },

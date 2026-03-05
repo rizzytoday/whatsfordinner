@@ -3,9 +3,13 @@ import { createClient } from "@/lib/supabase/server";
 import { createCheckout } from "@lemonsqueezy/lemonsqueezy.js";
 import { ensureLemonSqueezySetup, STORE_ID, VARIANTS, type PlanInterval } from "@/lib/lemonsqueezy";
 import { getAppUrl } from "@/lib/utils";
+import { rateLimit } from "@/lib/rate-limit";
 
 export async function POST(req: NextRequest) {
   try {
+    const limited = rateLimit(req, "checkout", 10, 60_000);
+    if (limited) return limited;
+
     ensureLemonSqueezySetup();
 
     const supabase = await createClient();

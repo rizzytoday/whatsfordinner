@@ -1,10 +1,14 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { rateLimit } from "@/lib/rate-limit";
 
 export const dynamic = "force-dynamic";
 
-export async function GET() {
+export async function GET(req: NextRequest) {
   try {
+    const limited = rateLimit(req, "stats", 30, 60_000);
+    if (limited) return limited;
+
     const admin = createAdminClient();
 
     // Count real plans (generated + delivered)

@@ -1,11 +1,15 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { getCustomer } from "@lemonsqueezy/lemonsqueezy.js";
 import { ensureLemonSqueezySetup } from "@/lib/lemonsqueezy";
+import { rateLimit } from "@/lib/rate-limit";
 
-export async function POST() {
+export async function POST(req: NextRequest) {
   try {
+    const limited = rateLimit(req, "portal", 10, 60_000);
+    if (limited) return limited;
+
     ensureLemonSqueezySetup();
     const supabase = await createClient();
     const {

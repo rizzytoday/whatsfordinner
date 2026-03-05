@@ -1,11 +1,15 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { generateReferralCodes } from "@/lib/promo";
+import { rateLimit } from "@/lib/rate-limit";
 
 // GET /api/referral/codes — get or generate referral codes for yearly subscribers
-export async function GET() {
+export async function GET(req: NextRequest) {
   try {
+    const limited = rateLimit(req, "referral", 20, 60_000);
+    if (limited) return limited;
+
     const supabase = await createClient();
     const { data: { user } } = await supabase.auth.getUser();
 

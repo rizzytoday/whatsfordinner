@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createPromoCode, listPromoCodes } from "@/lib/promo";
+import { rateLimit } from "@/lib/rate-limit";
 
 const ADMIN_USER_ID = process.env.ADMIN_USER_ID;
 
@@ -13,7 +14,10 @@ async function isAdmin(): Promise<string | null> {
 }
 
 // GET /api/admin/promo — list all codes
-export async function GET() {
+export async function GET(req: NextRequest) {
+  const limited = rateLimit(req, "admin-promo", 10, 60_000);
+  if (limited) return limited;
+
   const adminId = await isAdmin();
   if (!adminId) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 403 });
@@ -30,6 +34,9 @@ export async function GET() {
 
 // POST /api/admin/promo — create a code
 export async function POST(req: NextRequest) {
+  const limited = rateLimit(req, "admin-promo", 10, 60_000);
+  if (limited) return limited;
+
   const adminId = await isAdmin();
   if (!adminId) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 403 });

@@ -3,6 +3,7 @@ import { generateMealPlan } from "@/lib/anthropic";
 import { sendFreePlanEmail } from "@/lib/resend";
 import { getWeekOf } from "@/lib/utils";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { rateLimit } from "@/lib/rate-limit";
 import type { UserProfile } from "@/types/meal-plan";
 import { z } from "zod";
 
@@ -115,6 +116,9 @@ export async function POST(req: NextRequest) {
       const { MOCK_PLAN } = await import("@/lib/mock-plan");
       return NextResponse.json({ plan: { ...MOCK_PLAN, weekOf }, weekOf });
     }
+
+    const limited = rateLimit(req, "free-plan", 3, 60_000);
+    if (limited) return limited;
 
     // --- Bot detection: User-Agent ---
     const ua = req.headers.get("user-agent") || "";
