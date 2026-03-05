@@ -73,7 +73,12 @@ export function PlanPreview() {
                 key={day.day}
                 className="bg-white rounded-xl border border-stone-200 shadow-sm p-4 sm:p-5"
               >
-                <h3 className="text-sm font-semibold text-stone-900 mb-3">{day.day}</h3>
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-sm font-semibold text-stone-900">{day.day}</h3>
+                  <span className="text-xs text-orange-500 font-medium">
+                    Recipes, grocery list &rarr;
+                  </span>
+                </div>
                 <div className="space-y-2">
                   {day.meals.map((meal) => (
                     <div
