@@ -7,11 +7,11 @@ export async function GET() {
   try {
     const admin = createAdminClient();
 
-    // Count only delivered plans (sent to real users)
+    // Count real plans (generated + delivered)
     const { count: sentCount } = await admin
       .from("meal_plans")
       .select("*", { count: "exact", head: true })
-      .eq("status", "sent");
+      .in("status", ["sent", "ready"]);
 
     // Count total users who completed onboarding
     const { count: totalUsers } = await admin
