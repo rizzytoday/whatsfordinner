@@ -273,6 +273,7 @@ export default function PreviewPage() {
               <GroceryList
                 categories={plan.groceryList}
                 estimatedCost={plan.estimatedWeeklyCost}
+                columns
               />
             </div>
           ) : (

@@ -154,6 +154,7 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
               <GroceryList
                 categories={planData.groceryList}
                 estimatedCost={planData.estimatedWeeklyCost}
+                columns
               />
             </div>
           ) : (

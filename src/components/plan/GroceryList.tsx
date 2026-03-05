@@ -9,9 +9,10 @@ import type { GroceryCategory } from "@/types/meal-plan";
 interface GroceryListProps {
   categories: GroceryCategory[];
   estimatedCost?: string;
+  columns?: boolean;
 }
 
-export function GroceryList({ categories, estimatedCost }: GroceryListProps) {
+export function GroceryList({ categories, estimatedCost, columns = false }: GroceryListProps) {
   const [checked, setChecked] = useState<Record<string, boolean>>({});
 
   function toggleItem(categoryIdx: number, itemIdx: number) {
@@ -44,74 +45,79 @@ export function GroceryList({ categories, estimatedCost }: GroceryListProps) {
               {checkedCount}/{totalItems} items checked
             </p>
           </div>
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={() => window.print()}
-          >
-            <svg
-              width="14"
-              height="14"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="mr-1"
+          <div className="flex flex-col items-end gap-0.5">
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => window.print()}
             >
-              <polyline points="6 9 6 2 18 2 18 9" />
-              <path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2" />
-              <rect x="6" y="14" width="12" height="8" />
-            </svg>
-            Print
-          </Button>
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="mr-1"
+              >
+                <polyline points="6 9 6 2 18 2 18 9" />
+                <path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2" />
+                <rect x="6" y="14" width="12" height="8" />
+              </svg>
+              Print
+            </Button>
+            <span className="text-[10px] text-stone-400 print:hidden">Stick it on your fridge!</span>
+          </div>
         </div>
       </CardHeader>
 
-      <CardContent className="space-y-5 print:space-y-3">
-        {categories.map((cat, catIdx) => (
-          <div key={cat.category}>
-            <div className="flex items-center justify-between mb-2">
-              <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-wide">
-                {cat.category}
-              </h4>
-              <span className="text-[10px] text-stone-400">
-                {cat.items.length} items
-              </span>
+      <CardContent className={cn("print:space-y-3", columns ? "" : "space-y-5")}>
+        <div className={cn(columns && "columns-2 xl:columns-3 gap-8")}>
+          {categories.map((cat, catIdx) => (
+            <div key={cat.category} className={cn(columns ? "break-inside-avoid mb-5" : "mb-5 last:mb-0")}>
+              <div className="flex items-center justify-between mb-2">
+                <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-wide">
+                  {cat.category}
+                </h4>
+                <span className="text-[10px] text-stone-400">
+                  {cat.items.length} items
+                </span>
+              </div>
+
+              <ul className="space-y-1.5">
+                {cat.items.map((item, itemIdx) => {
+                  const key = `${catIdx}-${itemIdx}`;
+                  const isChecked = !!checked[key];
+
+                  return (
+                    <li key={key}>
+                      <label className="flex items-center gap-3 cursor-pointer group">
+                        <input
+                          type="checkbox"
+                          checked={isChecked}
+                          onChange={() => toggleItem(catIdx, itemIdx)}
+                          className="w-4 h-4 rounded border-stone-300 text-orange-500 focus:ring-orange-400 focus:ring-offset-0 cursor-pointer"
+                        />
+                        <span
+                          className={cn(
+                            "text-sm transition-all duration-200",
+                            isChecked
+                              ? "line-through text-stone-400"
+                              : "text-stone-600 group-hover:text-stone-800",
+                          )}
+                        >
+                          {item.amount} {item.unit} {item.name}
+                        </span>
+                      </label>
+                    </li>
+                  );
+                })}
+              </ul>
             </div>
-
-            <ul className="space-y-1.5">
-              {cat.items.map((item, itemIdx) => {
-                const key = `${catIdx}-${itemIdx}`;
-                const isChecked = !!checked[key];
-
-                return (
-                  <li key={key}>
-                    <label className="flex items-center gap-3 cursor-pointer group">
-                      <input
-                        type="checkbox"
-                        checked={isChecked}
-                        onChange={() => toggleItem(catIdx, itemIdx)}
-                        className="w-4 h-4 rounded border-stone-300 text-orange-500 focus:ring-orange-400 focus:ring-offset-0 cursor-pointer"
-                      />
-                      <span
-                        className={cn(
-                          "text-sm transition-all duration-200",
-                          isChecked
-                            ? "line-through text-stone-400"
-                            : "text-stone-600 group-hover:text-stone-800",
-                        )}
-                      >
-                        {item.amount} {item.unit} {item.name}
-                      </span>
-                    </label>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        ))}
+          ))}
+        </div>
       </CardContent>
     </Card>
   );
