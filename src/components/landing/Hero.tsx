@@ -32,9 +32,13 @@ export function Hero() {
         <div className="mt-8 sm:mt-10 flex flex-col items-center gap-3 sm:gap-4">
           <Link
             href="/onboarding"
-            className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-sm hover:shadow-md transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2"
+            className="inline-flex items-center justify-center gap-2 px-10 py-4 text-lg font-semibold text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2"
           >
             {t("landing.hero.cta")}
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
           </Link>
 
           <p className="text-xs sm:text-sm text-stone-500">

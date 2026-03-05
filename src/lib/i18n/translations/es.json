@@ -19,8 +19,8 @@
       "subtitle": "Nunca tendrás que pensarlo de nuevo.",
       "description": "Planes de comida personalizados y listas de compras, entregados en tu bandeja de entrada, cada semana. Prueba un plan gratuito de 3 días",
       "noCreditCard": "— sin tarjeta de crédito.",
-      "cta": "Descubre Qué Cenar",
-      "subtext": "2 minutos. Sin registro. Sin tarjeta."
+      "cta": "Obtén Mi Plan Gratis",
+      "subtext": "2 minutos. Tu plan listo al instante."
     },
     "social": {
       "mealsPlanned": "comidas planificadas",
@@ -37,6 +37,13 @@
       "step3Title": "Cocina y disfruta",
       "step3Desc": "Sigue recetas simples y claras. Sin estrés, sin desperdicio, sin preguntarte qué hay para cenar."
     },
+    "preview": {
+      "title": "Esto es lo que recibirás",
+      "subtitle": "Un plan de comidas personalizado con recetas y una lista de compras lista para usar.",
+      "unlock": "Obtén tu plan gratis",
+      "groceryTitle": "Lista de Compras",
+      "groceryNote": "Generada automáticamente a partir de tus comidas. Imprímela o compra desde tu teléfono."
+    },
     "pricing": {
       "title": "Precios Sencillos",
       "subtitle": "Prueba un plan gratuito de 1 día. Luego suscríbete para la semana completa.",
@@ -48,7 +55,7 @@
       "perMonthCalc": "$2.50/mes",
       "billedMonthly": "Por mes, facturado mensualmente. Cambia a anual cuando quieras.",
       "billedYearly": "Facturado anualmente a $29.99",
-      "tryFreeFirst": "Prueba Gratis Primero",
+      "tryFreeFirst": "Obtén Mi Plan Gratis",
       "features": {
         "firstWeekFree": "Prueba un plan gratuito de 3 días, sin tarjeta de crédito",
         "sevenDayPlans": "Planes de comidas de 7 días cada semana, hechos a medida para ti y tu familia",

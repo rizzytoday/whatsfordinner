@@ -19,8 +19,8 @@
       "subtitle": "다시는 고민할 필요가 없어요.",
       "description": "맞춤형 식단과 장보기 목록이 매주 이메일로 배달됩니다. 무료 3일 식단을 체험해보세요",
       "noCreditCard": "— 신용카드 필요 없음.",
-      "cta": "오늘 저녁 뭐 먹지?",
-      "subtext": "2분 소요. 가입 불필요. 카드 불필요."
+      "cta": "무료 식단 받기",
+      "subtext": "2분이면 끝. 바로 식단이 완성돼요."
     },
     "social": {
       "mealsPlanned": "끼니 계획됨",
@@ -37,6 +37,13 @@
       "step3Title": "요리하고 즐기세요",
       "step3Desc": "간단하고 명확한 레시피를 따라하세요. 스트레스 없고, 음식 낭비 없고, 뭘 먹을지 고민하지 않으셔도 돼요."
     },
+    "preview": {
+      "title": "이런 내용을 받게 돼요",
+      "subtitle": "레시피가 포함된 맞춤 식단과 바로 쓸 수 있는 장보기 목록.",
+      "unlock": "무료 식단 받기",
+      "groceryTitle": "장보기 목록",
+      "groceryNote": "식단에서 자동으로 생성돼요. 인쇄하거나 스마트폰으로 바로 장보기."
+    },
     "pricing": {
       "title": "간단한 가격 책정",
       "subtitle": "무료 1일 식단을 체험해보세요. 그 다음 전체 주간 식단을 구독하세요.",
@@ -48,7 +55,7 @@
       "perMonthCalc": "월 $2.50",
       "billedMonthly": "월별 결제. 언제든 연간 요금제로 전환 가능.",
       "billedYearly": "연간 $29.99 일괄 청구",
-      "tryFreeFirst": "먼저 무료 체험",
+      "tryFreeFirst": "무료 식단 받기",
       "features": {
         "firstWeekFree": "무료 3일 식단 체험, 신용카드 필요 없음",
         "sevenDayPlans": "매주 나와 가족을 위한 맞춤형 7일 식단 계획",

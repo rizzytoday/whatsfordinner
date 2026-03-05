@@ -19,8 +19,8 @@
       "subtitle": "从此再也不用想这个问题。",
       "description": "个性化餐饮计划和购物清单，每周直接送到你的邮箱。免费试用 3 天计划",
       "noCreditCard": "——无需信用卡。",
-      "cta": "看看今晚吃什么",
-      "subtext": "2分钟完成。无需注册。无需信用卡。"
+      "cta": "获取我的免费餐计划",
+      "subtext": "2分钟完成。计划即刻生成。"
     },
     "social": {
       "mealsPlanned": "餐饮计划已制定",
@@ -37,6 +37,13 @@
       "step3Title": "烹饪享受",
       "step3Desc": "按照简单清晰的食谱做菜。无压力、无浪费、不再纠结吃什么。"
     },
+    "preview": {
+      "title": "你将获得以下内容",
+      "subtitle": "个性化餐饮计划，包含食谱和即用购物清单。",
+      "unlock": "获取免费计划",
+      "groceryTitle": "购物清单",
+      "groceryNote": "根据你的餐食自动生成。打印或直接用手机购物。"
+    },
     "pricing": {
       "title": "简单定价",
       "subtitle": "免费试用 1 天计划。然后订阅获取完整的一周计划。",
@@ -48,7 +55,7 @@
       "perMonthCalc": "$2.50/月",
       "billedMonthly": "每月计费，随时可切换为年付。",
       "billedYearly": "按年计费 $29.99",
-      "tryFreeFirst": "先免费试用",
+      "tryFreeFirst": "获取我的免费计划",
       "features": {
         "firstWeekFree": "免费试用 3 天计划，无需信用卡",
         "sevenDayPlans": "每周为你和家人量身定制 7 天餐饮计划",

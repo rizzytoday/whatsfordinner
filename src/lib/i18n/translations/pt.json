@@ -19,8 +19,8 @@
       "subtitle": "Você nunca mais vai precisar pensar nisso.",
       "description": "Planos de refeições personalizados e listas de compras, entregues na sua caixa de entrada, toda semana. Experimente um plano gratuito de 3 dias",
       "noCreditCard": "— sem cartão de crédito.",
-      "cta": "Veja Seu Cardápio",
-      "subtext": "2 minutos. Sem cadastro. Sem cartão."
+      "cta": "Receber Meu Plano Grátis",
+      "subtext": "2 minutos. Seu plano fica pronto na hora."
     },
     "social": {
       "mealsPlanned": "refeições planejadas",
@@ -37,6 +37,13 @@
       "step3Title": "Cozinhe e aproveite",
       "step3Desc": "Siga receitas simples e claras. Sem estresse, sem desperdício, sem se perguntar o que preparar para jantar."
     },
+    "preview": {
+      "title": "Veja o que você vai receber",
+      "subtitle": "Um plano de refeições personalizado com receitas e uma lista de compras pronta para usar.",
+      "unlock": "Receba seu plano grátis",
+      "groceryTitle": "Lista de Compras",
+      "groceryNote": "Gerada automaticamente a partir das suas refeições. Imprima ou compre direto pelo celular."
+    },
     "pricing": {
       "title": "Preços Simples",
       "subtitle": "Experimente um plano gratuito de 1 dia. Depois assine para a semana completa.",
@@ -48,7 +55,7 @@
       "perMonthCalc": "$2.50/mês",
       "billedMonthly": "Por mês, cobrado mensalmente. Mude para anual a qualquer momento.",
       "billedYearly": "Cobrado anualmente por $29.99",
-      "tryFreeFirst": "Teste Primeiro Grátis",
+      "tryFreeFirst": "Receber Meu Plano Grátis",
       "features": {
         "firstWeekFree": "Experimente um plano gratuito de 3 dias, sem cartão de crédito",
         "sevenDayPlans": "Planos de refeições de 7 dias toda semana, feitos sob medida para você e sua família",

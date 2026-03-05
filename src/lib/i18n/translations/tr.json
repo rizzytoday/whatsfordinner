@@ -19,8 +19,8 @@
       "subtitle": "Bir daha asla düşünmek zorunda kalmayacaksınız.",
       "description": "Kişiselleştirilmiş öğün planları ve alışveriş listeleri, her hafta e-postanıza teslim edilir. Ücretsiz 3 günlük planı deneyin",
       "noCreditCard": "— kredi kartı gerekli değil.",
-      "cta": "Akşam Yemeğini Keşfet",
-      "subtext": "2 dakika. Kayıt yok. Kart yok."
+      "cta": "Ücretsiz Planımı Al",
+      "subtext": "2 dakika. Planınız anında hazır."
     },
     "social": {
       "mealsPlanned": "planlanan öğün",
@@ -37,6 +37,13 @@
       "step3Title": "Pişir ve tadını çıkar",
       "step3Desc": "Basit, açık talimatları izleyin. Stres yok, israf yok, ne yiyeceğim diye endişelenme yok."
     },
+    "preview": {
+      "title": "İşte Alacaklarınız",
+      "subtitle": "Tariflerle birlikte kişiselleştirilmiş bir öğün planı ve alışverişe hazır bir liste.",
+      "unlock": "Ücretsiz planınızı alın",
+      "groceryTitle": "Alışveriş Listesi",
+      "groceryNote": "Öğünlerinizden otomatik oluşturulur. Yazdırın veya telefonunuzdan alışveriş yapın."
+    },
     "pricing": {
       "title": "Basit Fiyatlandırma",
       "subtitle": "Ücretsiz 1 günlük planı deneyin. Sonra tam hafta için abone olun.",
@@ -48,7 +55,7 @@
       "perMonthCalc": "$2.50/ay",
       "billedMonthly": "Aylık faturalandırılır. İstediğiniz zaman yıllığa geçin.",
       "billedYearly": "Yıllık $29.99 olarak faturalandırılır",
-      "tryFreeFirst": "Önce Ücretsiz Dene",
+      "tryFreeFirst": "Ücretsiz Planımı Al",
       "features": {
         "firstWeekFree": "Ücretsiz 3 günlük plan deneyin, kredi kartı gerekmez",
         "sevenDayPlans": "Her hafta size ve ailenize özel 7 günlük öğün planları",

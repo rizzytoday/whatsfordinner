@@ -19,8 +19,8 @@
       "subtitle": "Du wirst nie wieder darüber nachdenken müssen.",
       "description": "Personalisierte Essenspläne und Einkaufslisten, direkt in Deinen Posteingang, jede Woche. Probiere einen kostenlosen 3-Tages-Plan",
       "noCreditCard": "— keine Kreditkarte nötig.",
-      "cta": "Entdecke Dein Menü",
-      "subtext": "2 Minuten. Keine Anmeldung. Keine Karte."
+      "cta": "Meinen Gratis-Plan holen",
+      "subtext": "2 Minuten. Dein Plan ist sofort fertig."
     },
     "social": {
       "mealsPlanned": "Mahlzeiten geplant",
@@ -37,6 +37,13 @@
       "step3Title": "Kochen und genießen",
       "step3Desc": "Folge einfachen, klaren Rezepten. Kein Stress, keine Verschwendung, keine Gedanken über das Dinner."
     },
+    "preview": {
+      "title": "Das bekommst Du",
+      "subtitle": "Ein personalisierter Essensplan mit Rezepten und einer fertigen Einkaufsliste.",
+      "unlock": "Hol Dir Deinen Gratis-Plan",
+      "groceryTitle": "Einkaufsliste",
+      "groceryNote": "Automatisch aus Deinen Mahlzeiten erstellt. Ausdrucken oder direkt vom Handy einkaufen."
+    },
     "pricing": {
       "title": "Einfache Preisgestaltung",
       "subtitle": "Probiere einen kostenlosen 1-Tages-Plan. Dann abonniere für die volle Woche.",
@@ -48,7 +55,7 @@
       "perMonthCalc": "$2,50/Monat",
       "billedMonthly": "Pro Monat, monatlich berechnet. Jederzeit auf jährlich wechseln.",
       "billedYearly": "Jährlich berechnet mit $29.99",
-      "tryFreeFirst": "Zuerst kostenlos testen",
+      "tryFreeFirst": "Meinen Gratis-Plan holen",
       "features": {
         "firstWeekFree": "Probiere einen kostenlosen 3-Tages-Plan, keine Kreditkarte nötig",
         "sevenDayPlans": "Frische 7-Tage-Essenspläne jede Woche, speziell für Dich und Deine Familie",

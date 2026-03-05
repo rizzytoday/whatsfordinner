@@ -19,8 +19,8 @@
       "subtitle": "You'll never have to think about it again.",
       "description": "Personalized meal plans and grocery lists, delivered to your inbox, every week. Try a free 3-day plan",
       "noCreditCard": "— no credit card required.",
-      "cta": "Plan My Meals — Free",
-      "subtext": "Takes 2 min. No signup. No credit card."
+      "cta": "Get My Free Meal Plan",
+      "subtext": "Takes 2 min. Your plan is ready instantly."
     },
     "social": {
       "mealsPlanned": "meals planned",
@@ -37,6 +37,13 @@
       "step3Title": "Cook & enjoy",
       "step3Desc": "Follow simple, clear recipes. No stress, no waste, no wondering what's for dinner."
     },
+    "preview": {
+      "title": "Here's What You'll Get",
+      "subtitle": "A personalized meal plan with recipes and a ready-to-shop grocery list.",
+      "unlock": "Get your free plan",
+      "groceryTitle": "Grocery List",
+      "groceryNote": "Auto-generated from your meals. Print or shop from your phone."
+    },
     "pricing": {
       "title": "Simple Pricing",
       "subtitle": "Try a free 3-day plan. Then subscribe for the full week.",
@@ -48,7 +55,7 @@
       "perMonthCalc": "$2.50/mo",
       "billedMonthly": "Per month, billed monthly. Switch to yearly anytime.",
       "billedYearly": "Billed yearly at $29.99",
-      "tryFreeFirst": "Try Free First",
+      "tryFreeFirst": "Get My Free Plan",
       "features": {
         "firstWeekFree": "Try a free 3-day plan, no credit card needed",
         "sevenDayPlans": "Fresh 7-day meal plans every week, made just for you and your family",

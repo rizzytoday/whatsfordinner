@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Hero } from "@/components/landing/Hero";
 import { SocialProof } from "@/components/landing/SocialProof";
 import { HowItWorks } from "@/components/landing/HowItWorks";
+import { PlanPreview } from "@/components/landing/PlanPreview";
 import { Pricing } from "@/components/landing/Pricing";
 import { FAQ } from "@/components/landing/FAQ";
 import { Footer } from "@/components/landing/Footer";
@@ -65,6 +66,7 @@ export default function Home() {
       <Hero />
       <SocialProof />
       <HowItWorks />
+      <PlanPreview />
       <Pricing />
       <FAQ />
       <Footer />
