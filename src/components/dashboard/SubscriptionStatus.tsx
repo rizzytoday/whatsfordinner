@@ -8,6 +8,8 @@ import { Button } from "@/components/ui/Button";
 interface SubscriptionStatusProps {
   status: "active" | "inactive" | "past_due" | "cancelled";
   freeUsed?: boolean;
+  hasBilling?: boolean;
+  planInterval?: string | null;
 }
 
 const statusConfig: Record<
@@ -20,7 +22,7 @@ const statusConfig: Record<
   cancelled: { label: "Cancelled", variant: "muted", color: "bg-red-400" },
 };
 
-export function SubscriptionStatus({ status, freeUsed }: SubscriptionStatusProps) {
+export function SubscriptionStatus({ status, freeUsed, hasBilling = true, planInterval }: SubscriptionStatusProps) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const config = statusConfig[status];
@@ -87,7 +89,7 @@ export function SubscriptionStatus({ status, freeUsed }: SubscriptionStatusProps
             "Your subscription has been cancelled. Resubscribe to continue."}
         </p>
 
-        {status === "active" && (
+        {status === "active" && hasBilling && (
           <>
             <Button
               variant="secondary"
@@ -102,6 +104,11 @@ export function SubscriptionStatus({ status, freeUsed }: SubscriptionStatusProps
               <p className="text-xs text-red-500 text-center">{error}</p>
             )}
           </>
+        )}
+        {status === "active" && !hasBilling && (
+          <p className="text-xs text-stone-400 text-center">
+            {planInterval === "yearly" ? "Yearly gift subscription" : "Gift subscription"} — no billing needed
+          </p>
         )}
 
         {(status === "inactive" || status === "cancelled") && (

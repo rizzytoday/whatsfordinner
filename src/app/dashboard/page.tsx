@@ -13,15 +13,12 @@ import { PromoCodeInput } from "@/components/dashboard/PromoCodeInput";
 import { ReferralCodes } from "@/components/dashboard/ReferralCodes";
 import type { MealPlanRecord, MealPlanData } from "@/types/meal-plan";
 
-function DashboardHero({ planData, isSubscribed }: { planData: MealPlanData; isSubscribed: boolean }) {
+function DashboardHero({ planData, isSubscribed, planCount }: { planData: MealPlanData; isSubscribed: boolean; planCount: number }) {
   const totalMeals = planData.days.reduce((sum, d) => sum + d.meals.length, 0);
   const totalGroceryItems = planData.groceryList.reduce((sum, c) => sum + c.items.length, 0);
   const totalCalories = planData.days.reduce((sum, d) => sum + d.totalCalories, 0);
-  const totalCookTime = planData.days.reduce(
-    (sum, d) => sum + d.meals.reduce((ms, m) => ms + m.prepTime + m.cookTime, 0),
-    0,
-  );
-  const hoursSavedYearly = Math.round((25 * 365) / 60 / 10) * 10;
+  const hoursSavedWeekly = 2.5;
+  const hoursSavedTotal = Math.round(planCount * hoursSavedWeekly * 10) / 10;
 
   return (
     <div className="border-b border-orange-100 bg-gradient-to-r from-orange-50 via-amber-50 to-orange-50">
@@ -30,9 +27,19 @@ function DashboardHero({ planData, isSubscribed }: { planData: MealPlanData; isS
           {totalMeals} meals &middot; {totalGroceryItems} grocery items &middot; {totalCalories.toLocaleString()} cal &middot; Est. {planData.estimatedWeeklyCost}
         </p>
         <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-stone-900 tracking-tight leading-[1.1]">
-          just saved <span className="text-orange-500">{hoursSavedYearly}+ hours/yr</span>
-          <br className="hidden sm:block" />
-          <span className="sm:hidden"> </span>not thinking about what to eat
+          {planCount <= 1 ? (
+            <>
+              just saved <span className="text-orange-500">2.5h</span>
+              <br className="hidden sm:block" />
+              <span className="sm:hidden"> </span>not thinking about what to eat
+            </>
+          ) : (
+            <>
+              you&apos;ve saved <span className="text-orange-500">{hoursSavedTotal}h</span>
+              <br className="hidden sm:block" />
+              <span className="sm:hidden"> </span>not thinking about what to eat
+            </>
+          )}
         </h2>
         {!isSubscribed && (
           <div className="mt-4 flex items-center gap-3">
@@ -111,7 +118,7 @@ export default async function DashboardPage() {
 
       {/* Hero stat — iconic heading */}
       {currentPlan?.plan_data && (
-        <DashboardHero planData={currentPlan.plan_data} isSubscribed={isSubscribed} />
+        <DashboardHero planData={currentPlan.plan_data} isSubscribed={isSubscribed} planCount={plans.filter((p) => p.status === "sent" || p.status === "ready").length} />
       )}
 
       {/* Content */}
@@ -182,6 +189,8 @@ export default async function DashboardPage() {
             <SubscriptionStatus
               status={userRecord?.subscription_status ?? "inactive"}
               freeUsed={freeUsed}
+              hasBilling={!!userRecord?.lemon_customer_id}
+              planInterval={userRecord?.plan_interval ?? null}
             />
 
             <Card>
