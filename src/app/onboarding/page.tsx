@@ -77,7 +77,9 @@ function OnboardingContent() {
     const supabase = createClient();
     supabase.auth.getUser().then(async ({ data: { user } }) => {
       // Anonymous user who already used their free plan — show banner but let them browse
-      if (!user && !isEdit && localStorage.getItem("wfd_free_used") === "1") {
+      // Skip block if they have a promo code (they're redeeming a gift)
+      const hasPromoCode = !!localStorage.getItem("wfd_promo_code");
+      if (!user && !isEdit && !hasPromoCode && localStorage.getItem("wfd_free_used") === "1") {
         setBlocked(true);
       }
       if (!user) return;
