@@ -128,10 +128,17 @@ export async function GET(req: NextRequest) {
           continue;
         }
 
+        // Fetch meal feedback for smarter generation
+        const { data: feedback } = await admin
+          .from("meal_feedback")
+          .select("meal_name, rating")
+          .eq("user_id", profile.user_id);
+
         // Generate the meal plan
         const planData = await generateMealPlan(
           profile as unknown as UserProfile,
-          weekOf
+          weekOf,
+          { feedback: feedback ?? [] }
         );
 
         // Save the plan
