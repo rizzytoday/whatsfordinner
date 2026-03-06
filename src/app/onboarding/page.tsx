@@ -188,7 +188,7 @@ function OnboardingContent() {
     try {
       // Edit mode: save profile and go back to dashboard
       if (isEdit && isAuthenticated) {
-        await fetch("/api/profile", {
+        const editRes = await fetch("/api/profile", {
           method: "PUT",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -197,6 +197,10 @@ function OnboardingContent() {
             onboarding_completed: true,
           }),
         });
+        if (!editRes.ok) {
+          const errData = await editRes.json().catch(() => ({ error: "Failed to save preferences" }));
+          throw new Error(errData.error || "Failed to save preferences");
+        }
         router.push("/dashboard");
         return;
       }
