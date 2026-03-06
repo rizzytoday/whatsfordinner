@@ -88,54 +88,46 @@ function OnboardingContent() {
       if (user.email) {
         setData((prev) => ({ ...prev, delivery_email: prev.delivery_email || user.email! }));
       }
-      // Signed-in user who already completed onboarding (not in edit mode) — show dashboard nudge
-      // Skip block if they have a promo code (they may need to retry after a failed attempt)
-      if (!isEdit && !hasPromoCode) {
-        try {
-          const res = await fetch("/api/profile");
-          if (res.ok) {
-            const { profile } = await res.json();
-            if (profile?.onboarding_completed) {
-              setBlocked(true);
-            }
+      // Load profile once — used for both block check and edit mode pre-fill
+      try {
+        const res = await fetch("/api/profile");
+        if (res.ok) {
+          const { profile } = await res.json();
+          // Block check: signed-in user who already completed onboarding (not in edit mode)
+          if (!isEdit && !hasPromoCode && profile?.onboarding_completed) {
+            setBlocked(true);
           }
-        } catch {}
-      }
-      // In edit mode, load existing profile
-      if (isEdit) {
-        try {
-          const res = await fetch("/api/profile");
-          if (res.ok) {
-            const { profile } = await res.json();
-            if (profile) {
-              setData((prev) => ({
-                ...prev,
-                household_size: profile.household_size ?? prev.household_size,
-                has_kids: profile.has_kids ?? prev.has_kids,
-                kids_ages: profile.kids_ages ?? prev.kids_ages,
-                weekly_budget: profile.weekly_budget ?? prev.weekly_budget,
-                age_range: profile.age_range ?? prev.age_range,
-                nutrition_goal: profile.nutrition_goal ?? prev.nutrition_goal,
-                dietary_restrictions: profile.dietary_restrictions ?? prev.dietary_restrictions,
-                allergies: profile.allergies ?? prev.allergies,
-                personal_note: profile.personal_note ?? prev.personal_note,
-                cuisine_preferences: profile.cuisine_preferences ?? prev.cuisine_preferences,
-                cooking_skill: profile.cooking_skill ?? prev.cooking_skill,
-                max_cook_time: profile.max_cook_time ?? prev.max_cook_time,
-                meals_per_day: profile.meals_per_day ?? prev.meals_per_day,
-                include_snacks: profile.include_snacks ?? prev.include_snacks,
-                servings_per_meal: profile.servings_per_meal ?? prev.servings_per_meal,
-                delivery_email: profile.delivery_email ?? user.email ?? prev.delivery_email,
-                delivery_day: profile.delivery_day ?? prev.delivery_day,
-                timezone: profile.timezone ?? prev.timezone,
-              }));
-            }
+          // Edit mode: pre-fill form with saved profile
+          if (isEdit && profile) {
+            setData((prev) => ({
+              ...prev,
+              household_size: profile.household_size ?? prev.household_size,
+              has_kids: profile.has_kids ?? prev.has_kids,
+              kids_ages: profile.kids_ages?.length ? profile.kids_ages : prev.kids_ages,
+              weekly_budget: profile.weekly_budget ?? prev.weekly_budget,
+              age_range: profile.age_range || prev.age_range,
+              nutrition_goal: profile.nutrition_goal || prev.nutrition_goal,
+              dietary_restrictions: profile.dietary_restrictions?.length ? profile.dietary_restrictions : prev.dietary_restrictions,
+              allergies: profile.allergies?.length ? profile.allergies : prev.allergies,
+              personal_note: profile.personal_note || prev.personal_note,
+              cuisine_preferences: profile.cuisine_preferences?.length ? profile.cuisine_preferences : prev.cuisine_preferences,
+              cooking_skill: profile.cooking_skill ?? prev.cooking_skill,
+              max_cook_time: profile.max_cook_time ?? prev.max_cook_time,
+              meals_per_day: profile.meals_per_day ?? prev.meals_per_day,
+              include_snacks: profile.include_snacks ?? prev.include_snacks,
+              servings_per_meal: profile.servings_per_meal ?? prev.servings_per_meal,
+              delivery_email: profile.delivery_email || user.email || prev.delivery_email,
+              delivery_day: profile.delivery_day ?? prev.delivery_day,
+              timezone: profile.timezone ?? prev.timezone,
+            }));
           }
-        } catch {
-          // Failed to load profile — continue with defaults
-        } finally {
-          setProfileLoading(false);
+        } else if (isEdit) {
+          setError("Failed to load your preferences. Please try again.");
         }
+      } catch {
+        if (isEdit) setError("Failed to load your preferences. Please try again.");
+      } finally {
+        if (isEdit) setProfileLoading(false);
       }
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
