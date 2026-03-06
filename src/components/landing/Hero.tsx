@@ -64,7 +64,7 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
         {/* Floating meal suggestion — desktop: top right, mobile: below hero text */}
         <Link
           href={isSignedIn ? "/dashboard" : "/onboarding"}
-          className="hidden lg:flex absolute top-10 right-0 xl:-right-16 items-center gap-2 px-3.5 py-2 bg-white rounded-xl border border-stone-100 shadow-sm rotate-3 hover:rotate-1 hover:shadow-md transition-all duration-300 group"
+          className="hidden lg:flex absolute top-24 right-0 xl:-right-16 items-center gap-2 px-3.5 py-2 bg-white rounded-xl border border-stone-100 shadow-sm rotate-3 hover:rotate-1 hover:shadow-md transition-all duration-300 group"
         >
           <span className={`px-2 py-0.5 rounded-full text-[10px] font-semibold shrink-0 ${MEAL_COLORS[mealType]}`}>
             {label}
