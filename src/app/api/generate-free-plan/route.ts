@@ -196,6 +196,7 @@ export async function POST(req: NextRequest) {
       delivery_day: "sunday",
       timezone: body.timezone ?? "America/New_York",
       onboarding_completed: false,
+      active_fast: null,
     };
 
     const weekOf = getWeekOf();

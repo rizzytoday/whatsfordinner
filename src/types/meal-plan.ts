@@ -76,4 +76,5 @@ export interface UserProfile {
   delivery_day: string;
   timezone: string;
   onboarding_completed: boolean;
+  active_fast: string | null;
 }

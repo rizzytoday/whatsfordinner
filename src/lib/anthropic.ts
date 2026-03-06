@@ -58,6 +58,12 @@ function buildPrompt(profile: UserProfile, days: number, feedback?: MealFeedback
     if (pills.length > 0) lines.push(`Taste: ${pills.join(", ")}`);
     if (freetext) lines.push(`Notes: "${freetext}"`);
   }
+  if (profile.active_fast) {
+    const fastMap: Record<string, string> = {
+      ramadan: "Currently observing Ramadan — no food or drink during daylight hours. Plan meals for suhoor (pre-dawn) and iftar (after sunset) only.",
+    };
+    lines.push(fastMap[profile.active_fast] ?? `Currently fasting: ${sanitizeUserText(profile.active_fast, 50)}`);
+  }
   if (profile.dietary_restrictions.length > 0) {
     lines.push(`Restrictions: ${profile.dietary_restrictions.map((r) => sanitizeUserText(r, 50)).join(", ")}`);
   }

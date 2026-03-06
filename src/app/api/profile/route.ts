@@ -22,6 +22,7 @@ const profileSchema = z.object({
   timezone: z.string().max(100).optional(),
   onboarding_completed: z.boolean().optional(),
   email_opted_out: z.boolean().optional(),
+  active_fast: z.string().max(50).optional().nullable(),
   personal_note: z.string().max(500).optional(),
   nutrition_goal: z.string().max(50).optional(),
   age_range: z.string().max(50).optional(),
