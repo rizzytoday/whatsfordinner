@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { useT } from "@/lib/i18n/context";
@@ -19,9 +20,38 @@ function getMealPeriod(): MealPeriod {
   return "dinner";
 }
 
+interface NextMeal {
+  name: string;
+  type: MealPeriod;
+  cookTime: number;
+  calories: number;
+}
+
 export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
   const { t } = useT();
   const period = getMealPeriod();
+  const [userMeal, setUserMeal] = useState<NextMeal | null>(null);
+
+  // Fetch the user's actual next meal if signed in
+  useEffect(() => {
+    if (!isSignedIn) return;
+    fetch("/api/next-meal")
+      .then((r) => r.json())
+      .then((data) => { if (data.meal) setUserMeal(data.meal); })
+      .catch(() => {});
+  }, [isSignedIn]);
+
+  // Use the user's real meal or fall back to sample
+  const mealType = userMeal?.type ?? period;
+  const mealName = userMeal
+    ? userMeal.name
+    : t(`landing.suggestion.meal${period.charAt(0).toUpperCase() + period.slice(1)}`);
+  const cookTime = userMeal
+    ? String(userMeal.cookTime)
+    : period === "breakfast" ? "5" : period === "lunch" ? "15" : "25";
+  const label = userMeal
+    ? t(`mealTypes.${mealType}`)
+    : t(`landing.suggestion.${period}`);
 
   return (
     <section className="relative overflow-hidden">
@@ -31,19 +61,19 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-50/50 rounded-full blur-3xl" />
 
       <div className="relative max-w-3xl mx-auto px-6 py-24 sm:py-40 text-center">
-        {/* Floating meal suggestion — top right, desktop only */}
+        {/* Floating meal suggestion — desktop: top right, mobile: below hero text */}
         <Link
           href={isSignedIn ? "/dashboard" : "/onboarding"}
           className="hidden lg:flex absolute top-10 right-0 xl:-right-16 items-center gap-2 px-3.5 py-2 bg-white rounded-xl border border-stone-100 shadow-sm rotate-3 hover:rotate-1 hover:shadow-md transition-all duration-300 group"
         >
-          <span className={`px-2 py-0.5 rounded-full text-[10px] font-semibold shrink-0 ${MEAL_COLORS[period]}`}>
-            {t(`landing.suggestion.${period}`)}
+          <span className={`px-2 py-0.5 rounded-full text-[10px] font-semibold shrink-0 ${MEAL_COLORS[mealType]}`}>
+            {label}
           </span>
           <span className="text-xs font-medium text-stone-700 max-w-[180px] truncate">
-            {t(`landing.suggestion.meal${period.charAt(0).toUpperCase() + period.slice(1)}`)}
+            {mealName}
           </span>
           <span className="text-[10px] text-stone-400 shrink-0">
-            {period === "breakfast" ? "5" : period === "lunch" ? "15" : "25"} {t("plan.min")}
+            {cookTime} {t("plan.min")}
           </span>
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-stone-300 group-hover:text-orange-400 transition-colors shrink-0">
             <polyline points="9 18 15 12 9 6" />
@@ -56,6 +86,25 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
         <p className="mt-3 sm:mt-4 text-base sm:text-2xl font-semibold text-orange-500">
           {t("landing.hero.subtitle")}
         </p>
+
+        {/* Mobile meal suggestion */}
+        <Link
+          href={isSignedIn ? "/dashboard" : "/onboarding"}
+          className="flex lg:hidden mx-auto mt-5 w-fit items-center gap-2 px-3.5 py-2 bg-white rounded-xl border border-stone-100 shadow-sm hover:shadow-md transition-all duration-300 group"
+        >
+          <span className={`px-2 py-0.5 rounded-full text-[10px] font-semibold shrink-0 ${MEAL_COLORS[mealType]}`}>
+            {label}
+          </span>
+          <span className="text-xs font-medium text-stone-700 max-w-[180px] truncate">
+            {mealName}
+          </span>
+          <span className="text-[10px] text-stone-400 shrink-0">
+            {cookTime} {t("plan.min")}
+          </span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-stone-300 group-hover:text-orange-400 transition-colors shrink-0">
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </Link>
 
         <p className="mt-4 sm:mt-6 text-sm sm:text-lg text-stone-600 max-w-md mx-auto leading-relaxed">
           {t("landing.hero.description")}
