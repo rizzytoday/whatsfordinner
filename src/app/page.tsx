@@ -10,7 +10,6 @@ import { PlanPreview } from "@/components/landing/PlanPreview";
 import { Pricing } from "@/components/landing/Pricing";
 import { FAQ } from "@/components/landing/FAQ";
 import { Footer } from "@/components/landing/Footer";
-import { MealSuggestion } from "@/components/landing/MealSuggestion";
 import { LanguagePicker } from "@/components/ui/LanguagePicker";
 import { useT } from "@/lib/i18n/context";
 import { createClient } from "@/lib/supabase/client";
@@ -71,7 +70,6 @@ export default function Home() {
       <Pricing isSignedIn={isSignedIn === true} />
       <FAQ />
       <Footer />
-      <MealSuggestion isSignedIn={isSignedIn === true} />
     </main>
   );
 }

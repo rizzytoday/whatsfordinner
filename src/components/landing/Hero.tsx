@@ -4,9 +4,24 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { useT } from "@/lib/i18n/context";
 
+type MealPeriod = "breakfast" | "lunch" | "dinner";
+
+const MEAL_COLORS: Record<MealPeriod, string> = {
+  breakfast: "bg-amber-50 text-amber-700",
+  lunch: "bg-sky-50 text-sky-700",
+  dinner: "bg-violet-50 text-violet-700",
+};
+
+function getMealPeriod(): MealPeriod {
+  const hour = new Date().getHours();
+  if (hour >= 5 && hour < 11) return "breakfast";
+  if (hour >= 11 && hour < 16) return "lunch";
+  return "dinner";
+}
 
 export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
   const { t } = useT();
+  const period = getMealPeriod();
 
   return (
     <section className="relative overflow-hidden">
@@ -29,7 +44,20 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
           <span className="text-orange-500 font-medium">{t("landing.hero.noCreditCard")}</span>
         </p>
 
-        <div className="mt-8 sm:mt-10 flex flex-col items-center gap-3 sm:gap-4">
+        {/* Time-based meal suggestion */}
+        <div className="mt-6 sm:mt-8 inline-flex items-center gap-3 px-4 py-2.5 bg-white/80 backdrop-blur-sm rounded-full border border-stone-100 shadow-sm">
+          <span className={`px-2 py-0.5 rounded-full text-[11px] font-semibold ${MEAL_COLORS[period]}`}>
+            {t(`landing.suggestion.${period}`)}
+          </span>
+          <span className="text-sm font-medium text-stone-800">
+            {t(`landing.suggestion.meal${period.charAt(0).toUpperCase() + period.slice(1)}`)}
+          </span>
+          <span className="text-xs text-stone-400 hidden sm:inline">
+            {period === "breakfast" ? "5" : period === "lunch" ? "15" : "25"} {t("plan.min")}
+          </span>
+        </div>
+
+        <div className="mt-5 sm:mt-6 flex flex-col items-center gap-3 sm:gap-4">
           <Link
             href={isSignedIn ? "/dashboard" : "/onboarding"}
             className="inline-flex items-center justify-center gap-2 px-10 py-4 text-lg font-semibold text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2"
