@@ -31,6 +31,25 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-50/50 rounded-full blur-3xl" />
 
       <div className="relative max-w-3xl mx-auto px-6 py-24 sm:py-40 text-center">
+        {/* Floating meal suggestion — top right, hidden on mobile */}
+        <Link
+          href={isSignedIn ? "/dashboard" : "/onboarding"}
+          className="hidden lg:flex absolute -top-2 right-0 xl:-right-16 items-center gap-2 px-3.5 py-2 bg-white rounded-xl border border-stone-100 shadow-sm rotate-3 hover:rotate-1 hover:shadow-md transition-all duration-300 group"
+        >
+          <span className={`px-2 py-0.5 rounded-full text-[10px] font-semibold shrink-0 ${MEAL_COLORS[period]}`}>
+            {t(`landing.suggestion.${period}`)}
+          </span>
+          <span className="text-xs font-medium text-stone-700">
+            {t(`landing.suggestion.meal${period.charAt(0).toUpperCase() + period.slice(1)}`)}
+          </span>
+          <span className="text-[10px] text-stone-400">
+            {period === "breakfast" ? "5" : period === "lunch" ? "15" : "25"} {t("plan.min")}
+          </span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-stone-300 group-hover:text-orange-400 transition-colors shrink-0">
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </Link>
+
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-stone-900 tracking-tight leading-[1.1]">
           {t("landing.hero.title")}
         </h1>
@@ -44,26 +63,7 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
           <span className="text-orange-500 font-medium">{t("landing.hero.noCreditCard")}</span>
         </p>
 
-        {/* Time-based meal suggestion — subtle inline pill */}
-        <Link
-          href={isSignedIn ? "/dashboard" : "/onboarding"}
-          className="mt-6 sm:mt-8 inline-flex items-center gap-2.5 px-4 py-2.5 bg-[#FFF8F2] hover:bg-orange-50 rounded-full border border-stone-100 transition-colors group"
-        >
-          <span className={`px-2 py-0.5 rounded-full text-[11px] font-semibold shrink-0 ${MEAL_COLORS[period]}`}>
-            {t(`landing.suggestion.${period}`)}
-          </span>
-          <span className="text-sm font-medium text-stone-700">
-            {t(`landing.suggestion.meal${period.charAt(0).toUpperCase() + period.slice(1)}`)}
-          </span>
-          <span className="text-xs text-stone-400 hidden sm:inline">
-            {period === "breakfast" ? "5" : period === "lunch" ? "15" : "25"} {t("plan.min")}
-          </span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-stone-300 group-hover:text-orange-400 transition-colors shrink-0">
-            <polyline points="9 18 15 12 9 6" />
-          </svg>
-        </Link>
-
-        <div className="mt-5 sm:mt-6 flex flex-col items-center gap-3 sm:gap-4">
+        <div className="mt-8 sm:mt-10 flex flex-col items-center gap-3 sm:gap-4">
           <Link
             href={isSignedIn ? "/dashboard" : "/onboarding"}
             className="inline-flex items-center justify-center gap-2 px-10 py-4 text-lg font-semibold text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2"
