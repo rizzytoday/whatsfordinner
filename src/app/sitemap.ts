@@ -11,6 +11,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { slug: "meal-plan-with-grocery-list", date: "2026-02-20" },
     { slug: "meal-planning-for-two", date: "2026-02-25" },
     { slug: "hellofresh-alternative-cheap", date: "2026-02-25" },
+    { slug: "eat-this-much-alternative", date: "2026-03-07" },
+    { slug: "mealime-alternative", date: "2026-03-07" },
+    { slug: "emeals-alternative", date: "2026-03-07" },
+    { slug: "plan-to-eat-alternative", date: "2026-03-07" },
+    { slug: "prepear-alternative", date: "2026-03-07" },
+    { slug: "paprika-alternative", date: "2026-03-07" },
+    { slug: "budget-bytes-alternative", date: "2026-03-07" },
+    { slug: "cooklist-alternative", date: "2026-03-07" },
   ];
 
   const mealPlanPages = getAllMealPlanPages();

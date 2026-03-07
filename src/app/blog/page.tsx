@@ -59,6 +59,62 @@ const posts = [
       "Same convenience, 90% less cost. Why you don't need a meal kit to eat well every week.",
     category: "Alternatives",
   },
+  {
+    slug: "eat-this-much-alternative",
+    title: "The Best Eat This Much Alternative in 2026",
+    description:
+      "Eat This Much generates meals by macros, but the recipes feel robotic. Here's a smarter AI meal planner.",
+    category: "Alternatives",
+  },
+  {
+    slug: "mealime-alternative",
+    title: "The Best Mealime Alternative in 2026",
+    description:
+      "Mealime's free tier is limited and recipes get repetitive. Here's a better AI-powered option.",
+    category: "Alternatives",
+  },
+  {
+    slug: "emeals-alternative",
+    title: "The Best eMeals Alternative in 2026",
+    description:
+      "eMeals plans feel generic and never adapt. Here's a meal planner that learns what you like.",
+    category: "Alternatives",
+  },
+  {
+    slug: "plan-to-eat-alternative",
+    title: "The Best Plan to Eat Alternative in 2026",
+    description:
+      "Plan to Eat makes you find your own recipes. Here's a meal planner that does the work for you.",
+    category: "Alternatives",
+  },
+  {
+    slug: "prepear-alternative",
+    title: "The Best Prepear Alternative in 2026",
+    description:
+      "Prepear relies on blogger recipes with inconsistent quality. Here's a more reliable alternative.",
+    category: "Alternatives",
+  },
+  {
+    slug: "paprika-alternative",
+    title: "The Best Paprika Alternative in 2026",
+    description:
+      "Paprika organizes recipes but doesn't plan meals for you. Here's an AI planner that does both.",
+    category: "Alternatives",
+  },
+  {
+    slug: "budget-bytes-alternative",
+    title: "The Best Budget Bytes Alternative in 2026",
+    description:
+      "Budget Bytes has great recipes but no meal planning. Here's budget-friendly planning on autopilot.",
+    category: "Alternatives",
+  },
+  {
+    slug: "cooklist-alternative",
+    title: "The Best Cooklist Alternative in 2026",
+    description:
+      "Cooklist tracks your pantry but doesn't plan meals. Here's an AI planner that handles everything.",
+    category: "Alternatives",
+  },
 ];
 
 export default function BlogIndex() {
