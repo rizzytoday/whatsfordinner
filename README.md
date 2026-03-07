@@ -61,6 +61,14 @@ Both plans include a free 3-day trial, regeneration (up to 2x/week), and support
 
 ---
 
+## Questions & Answers
+
+7 FAQs covering how it works, customization, cancellation, and more.
+
+![FAQ](docs/screenshots/faq.png)
+
+---
+
 ## 140 SEO pages
 
 Programmatic SEO covering every meal planning search query:
