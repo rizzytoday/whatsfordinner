@@ -1,12 +1,16 @@
 import { DIET_PAGES } from "./diets";
 import { CUISINE_PAGES } from "./cuisines";
 import { COMBO_PAGES } from "./combos";
+import { goalPages } from "./goals";
+import { householdPages } from "./households";
 import type { MealPlanPageData } from "./types";
 
 const ALL_PAGES: MealPlanPageData[] = [
   ...DIET_PAGES,
   ...CUISINE_PAGES,
   ...COMBO_PAGES,
+  ...goalPages,
+  ...householdPages,
 ];
 
 // Validate no duplicate slugs at import time

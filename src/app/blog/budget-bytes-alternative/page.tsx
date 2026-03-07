@@ -4,22 +4,23 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 
 export const metadata: Metadata = {
   title:
-    "Budget Bytes Alternative 2026 &mdash; AI Meal Plans That Do the Planning for You",
+    "Budget Bytes Alternative 2026 — AI Meal Plans That Do the Planning for You",
   description:
-    "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo &mdash; no browsing, no guesswork.",
+    "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo — no browsing, no guesswork.",
   openGraph: {
     title:
-      "Budget Bytes Alternative 2026 &mdash; AI Meal Plans That Do the Planning for You",
+      "Budget Bytes Alternative 2026 — AI Meal Plans That Do the Planning for You",
     description:
-      "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo &mdash; no browsing, no guesswork.",
+      "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo — no browsing, no guesswork.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/budget-bytes-alternative",
   },
+  alternates: { canonical: "https://whatsfordinner.fit/blog/budget-bytes-alternative" },
   twitter: {
     card: "summary_large_image",
     title:
-      "Budget Bytes Alternative 2026 &mdash; AI Meal Plans That Do the Planning for You",
+      "Budget Bytes Alternative 2026 — AI Meal Plans That Do the Planning for You",
     description:
       "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo.",
   },
@@ -30,7 +31,7 @@ export default function BudgetBytesAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best Budget Bytes Alternative in 2026"
-        description="Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo &mdash; no browsing, no guesswork."
+        description="Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo — no browsing, no guesswork."
         url="https://whatsfordinner.fit/blog/budget-bytes-alternative"
         datePublished="2026-03-07"
       />
@@ -56,7 +57,7 @@ export default function BudgetBytesAlternativePage() {
         <p>
           Budget Bytes has been a go-to for home cooks who want to eat well
           without draining their bank account. The cost-per-serving breakdowns,
-          the step-by-step photos, the massive recipe archive &mdash; it&apos;s
+          the step-by-step photos, the massive recipe archive — it&apos;s
           genuinely useful stuff. But here&apos;s the thing: it&apos;s still a
           blog. And a blog means <strong>you</strong> do all the work.
         </p>
@@ -68,7 +69,7 @@ export default function BudgetBytesAlternativePage() {
         </p>
         <p>
           <strong>What&apos;s For Dinner</strong> takes the opposite approach.
-          Tell us your diet, allergies, household size, and budget &mdash; and
+          Tell us your diet, allergies, household size, and budget — and
           our AI builds a complete personalized meal plan with a grocery list,
           delivered to your inbox every week. No browsing. No spreadsheets. No
           Sunday afternoon spent cobbling together a plan from blog posts.
@@ -83,7 +84,7 @@ export default function BudgetBytesAlternativePage() {
         <p>
           Budget Bytes is a recipe blog founded by Beth Moncel in 2009. Its
           signature feature is the cost-per-serving breakdown on every recipe
-          &mdash; showing you exactly what each meal costs to make. The site has
+          — showing you exactly what each meal costs to make. The site has
           grown into a massive archive of budget-friendly recipes organized by
           category, cuisine, and cooking method.
         </p>
@@ -97,7 +98,7 @@ export default function BudgetBytesAlternativePage() {
         <p>
           But &ldquo;browsing recipes and building your own plan&rdquo; is
           exactly where the friction lives. Budget Bytes is a library, not a
-          planner. It tells you <em>what</em> you could cook &mdash; but not
+          planner. It tells you <em>what</em> you could cook — but not
           what you <em>should</em> cook this week based on your specific needs.
         </p>
       </div>
@@ -113,24 +114,24 @@ export default function BudgetBytesAlternativePage() {
         </p>
         <ul className="list-disc list-inside space-y-2 pl-1">
           <li>
-            <strong>Cost-per-serving breakdowns</strong> &mdash; every recipe
+            <strong>Cost-per-serving breakdowns</strong> — every recipe
             shows exactly what it costs, so you can plan around a real budget
           </li>
           <li>
-            <strong>Massive recipe archive</strong> &mdash; thousands of
+            <strong>Massive recipe archive</strong> — thousands of
             recipes across every cuisine and category, all tested and
             photographed
           </li>
           <li>
-            <strong>Step-by-step photos</strong> &mdash; beginner-friendly
+            <strong>Step-by-step photos</strong> — beginner-friendly
             instructions that make even unfamiliar dishes approachable
           </li>
           <li>
-            <strong>Meal prep guides</strong> &mdash; batch cooking tips and
+            <strong>Meal prep guides</strong> — batch cooking tips and
             prep-ahead strategies for busy weeknights
           </li>
           <li>
-            <strong>It&apos;s free</strong> &mdash; no paywall for the core
+            <strong>It&apos;s free</strong> — no paywall for the core
             recipe content, which is a huge draw for budget-conscious cooks
           </li>
         </ul>
@@ -154,7 +155,7 @@ export default function BudgetBytesAlternativePage() {
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
           Budget Bytes and What&apos;s For Dinner solve the same core problem
-          &mdash; eating well on a budget &mdash; but in fundamentally different
+          — eating well on a budget — but in fundamentally different
           ways. One gives you the ingredients to plan; the other gives you the
           plan.
         </p>
@@ -233,7 +234,7 @@ export default function BudgetBytesAlternativePage() {
           your time. What&apos;s For Dinner costs <strong>$4.99/month</strong>{" "}
           but gives you that time back. If you spend even 30 minutes a week
           browsing recipes and building a grocery list, you&apos;re paying for
-          meal planning either way &mdash; just in hours instead of dollars.
+          meal planning either way — just in hours instead of dollars.
         </p>
       </div>
 
@@ -259,7 +260,7 @@ export default function BudgetBytesAlternativePage() {
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
-          You&apos;re not really &ldquo;switching&rdquo; &mdash; Budget Bytes
+          You&apos;re not really &ldquo;switching&rdquo; — Budget Bytes
           is a blog you can keep using whenever you want. Think of What&apos;s
           For Dinner as the layer that sits on top. Instead of spending your
           Sunday scrolling through recipes and assembling a plan, you let the
@@ -268,23 +269,23 @@ export default function BudgetBytesAlternativePage() {
         <p>Here&apos;s how it works:</p>
         <ol className="list-decimal list-inside space-y-2 pl-1">
           <li>
-            <strong>Tell us who you&apos;re feeding</strong> &mdash; household
+            <strong>Tell us who you&apos;re feeding</strong> — household
             size and any specific needs
           </li>
           <li>
-            <strong>Set your dietary restrictions</strong> &mdash; type anything
+            <strong>Set your dietary restrictions</strong> — type anything
             in plain English (&ldquo;no dairy, low sodium, pescatarian&rdquo;)
           </li>
           <li>
-            <strong>List your allergies</strong> &mdash; the AI will strictly
+            <strong>List your allergies</strong> — the AI will strictly
             avoid them in every recipe
           </li>
           <li>
-            <strong>Pick your cuisine preferences</strong> &mdash; love Thai and
+            <strong>Pick your cuisine preferences</strong> — love Thai and
             Italian? Hate cilantro? Just say so
           </li>
           <li>
-            <strong>Choose your budget tier</strong> &mdash; budget-friendly,
+            <strong>Choose your budget tier</strong> — budget-friendly,
             moderate, or premium ingredients
           </li>
         </ol>
@@ -298,7 +299,7 @@ export default function BudgetBytesAlternativePage() {
           </Link>{" "}
           shows up immediately. Then a new one arrives every week, perfectly
           tailored to your preferences and always different from the last. You
-          still get to cook budget-friendly meals &mdash; you just skip the
+          still get to cook budget-friendly meals — you just skip the
           hour of planning it takes to find them.
         </p>
       </div>
@@ -310,7 +311,7 @@ export default function BudgetBytesAlternativePage() {
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
           Budget Bytes is great at what it does. But what it does is give you
-          recipes &mdash; the planning is still on you. Here&apos;s where
+          recipes — the planning is still on you. Here&apos;s where
           What&apos;s For Dinner picks up where a recipe blog leaves off:
         </p>
 
@@ -319,7 +320,7 @@ export default function BudgetBytesAlternativePage() {
         </h3>
         <p>
           Budget Bytes gives you individual recipes. What&apos;s For Dinner
-          gives you a structured weekly plan &mdash; breakfast, lunch, dinner,
+          gives you a structured weekly plan — breakfast, lunch, dinner,
           and optional snacks for every day, with a consolidated grocery list.
           No assembly required. You open your email and your entire week is
           mapped out.
@@ -333,7 +334,7 @@ export default function BudgetBytesAlternativePage() {
           cooking for one person or a family of six, you&apos;re doing the math
           yourself. What&apos;s For Dinner tailors every plan to your exact
           household size, dietary needs, allergies, and cuisine preferences.
-          The AI doesn&apos;t just scale portions &mdash; it picks entirely
+          The AI doesn&apos;t just scale portions — it picks entirely
           different meals based on who&apos;s eating.
         </p>
 
@@ -343,8 +344,8 @@ export default function BudgetBytesAlternativePage() {
         <p>
           Budget Bytes shows you what each recipe costs. That&apos;s helpful,
           but you still have to filter and choose recipes that fit your weekly
-          budget. What&apos;s For Dinner lets you set a budget tier &mdash;
-          budget-friendly, moderate, or premium &mdash; and the AI builds your
+          budget. What&apos;s For Dinner lets you set a budget tier —
+          budget-friendly, moderate, or premium — and the AI builds your
           entire plan around that constraint. Every meal, every ingredient,
           every week.
         </p>
@@ -386,7 +387,7 @@ export default function BudgetBytesAlternativePage() {
           meals from blog posts, that&apos;s 2-4 hours a month of
           planning time. At <strong>$4.99/month</strong>, What&apos;s For
           Dinner gives you all of that time back. It&apos;s not replacing the
-          recipes &mdash; it&apos;s replacing the work of turning recipes into
+          recipes — it&apos;s replacing the work of turning recipes into
           a plan. And you can{" "}
           <Link
             href="/blog/hellofresh-alternative-cheap"

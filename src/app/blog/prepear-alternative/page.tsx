@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     type: "article",
     url: "https://whatsfordinner.fit/blog/prepear-alternative",
   },
+  alternates: { canonical: "https://whatsfordinner.fit/blog/prepear-alternative" },
   twitter: {
     card: "summary_large_image",
     title:

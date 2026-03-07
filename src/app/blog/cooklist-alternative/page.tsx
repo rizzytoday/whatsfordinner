@@ -4,22 +4,23 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 
 export const metadata: Metadata = {
   title:
-    "Cooklist Alternative 2026 &mdash; AI Meal Plans That Go Beyond Pantry Tracking",
+    "Cooklist Alternative 2026 — AI Meal Plans That Go Beyond Pantry Tracking",
   description:
-    "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo &mdash; no barcode scanning required.",
+    "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — no barcode scanning required.",
   openGraph: {
     title:
-      "Cooklist Alternative 2026 &mdash; AI Meal Plans That Go Beyond Pantry Tracking",
+      "Cooklist Alternative 2026 — AI Meal Plans That Go Beyond Pantry Tracking",
     description:
-      "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo &mdash; no barcode scanning required.",
+      "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — no barcode scanning required.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/cooklist-alternative",
   },
+  alternates: { canonical: "https://whatsfordinner.fit/blog/cooklist-alternative" },
   twitter: {
     card: "summary_large_image",
     title:
-      "Cooklist Alternative 2026 &mdash; AI Meal Plans That Go Beyond Pantry Tracking",
+      "Cooklist Alternative 2026 — AI Meal Plans That Go Beyond Pantry Tracking",
     description:
       "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo.",
   },
@@ -30,7 +31,7 @@ export default function CooklistAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best Cooklist Alternative in 2026"
-        description="Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo &mdash; no barcode scanning required."
+        description="Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — no barcode scanning required."
         url="https://whatsfordinner.fit/blog/cooklist-alternative"
         datePublished="2026-03-07"
       />
@@ -56,8 +57,8 @@ export default function CooklistAlternativePage() {
         <p>
           Cooklist is a solid app for tracking what&apos;s in your pantry and
           cutting down on food waste. But if what you really need is someone to
-          tell you <strong>what to cook this week</strong> &mdash; not just what
-          you already have in the fridge &mdash; you&apos;ve probably noticed
+          tell you <strong>what to cook this week</strong> — not just what
+          you already have in the fridge — you&apos;ve probably noticed
           that Cooklist&apos;s meal planning feels like an afterthought.
         </p>
         <p>
@@ -71,7 +72,7 @@ export default function CooklistAlternativePage() {
           <strong>What&apos;s For Dinner</strong> takes a completely different
           approach. Instead of asking you to scan barcodes and manually track
           every item in your kitchen, it uses AI to generate a complete,
-          personalized weekly meal plan with a grocery list &mdash; delivered
+          personalized weekly meal plan with a grocery list — delivered
           straight to your inbox. Zero maintenance, zero scanning, zero effort.
         </p>
       </div>
@@ -95,7 +96,7 @@ export default function CooklistAlternativePage() {
         <p>
           For people who are disciplined about scanning every item they bring
           home, Cooklist can be genuinely useful for reducing waste. But
-          that&apos;s the catch &mdash; it only works if you keep scanning. The
+          that&apos;s the catch — it only works if you keep scanning. The
           moment you skip a grocery trip, your pantry data goes stale and the
           recipe suggestions stop making sense.
         </p>
@@ -112,23 +113,23 @@ export default function CooklistAlternativePage() {
         </p>
         <ul className="list-disc list-inside space-y-2 pl-1">
           <li>
-            <strong>Pantry tracking</strong> &mdash; scan barcodes to know
+            <strong>Pantry tracking</strong> — scan barcodes to know
             exactly what&apos;s in your kitchen at any given time
           </li>
           <li>
-            <strong>Food waste reduction</strong> &mdash; expiration date
+            <strong>Food waste reduction</strong> — expiration date
             tracking helps you use ingredients before they go bad
           </li>
           <li>
-            <strong>Use-what-you-have recipes</strong> &mdash; recipe
+            <strong>Use-what-you-have recipes</strong> — recipe
             suggestions based on ingredients you already own
           </li>
           <li>
-            <strong>Grocery list management</strong> &mdash; build and organize
+            <strong>Grocery list management</strong> — build and organize
             shopping lists within the app
           </li>
           <li>
-            <strong>Nutritional data</strong> &mdash; automatic nutrition
+            <strong>Nutritional data</strong> — automatic nutrition
             information from scanned products
           </li>
         </ul>
@@ -143,7 +144,7 @@ export default function CooklistAlternativePage() {
             AI meal planner
           </Link>{" "}
           that tells you what to eat each day, builds a full weekly plan around
-          your dietary needs, and delivers a grocery list automatically &mdash;
+          your dietary needs, and delivers a grocery list automatically —
           that&apos;s a different job entirely.
         </p>
       </div>
@@ -230,7 +231,7 @@ export default function CooklistAlternativePage() {
         <p>
           The key distinction: Cooklist plans meals around what you{" "}
           <strong>already have</strong>. What&apos;s For Dinner plans meals
-          around what you <strong>actually want to eat</strong> &mdash; based on
+          around what you <strong>actually want to eat</strong> — based on
           your dietary needs, cuisine preferences, household size, and budget.
           Then it gives you the exact grocery list to make it happen.
         </p>
@@ -264,7 +265,7 @@ export default function CooklistAlternativePage() {
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
           If you&apos;ve been using Cooklist primarily for meal planning, the
-          switch is effortless. There&apos;s nothing to migrate &mdash; no pantry
+          switch is effortless. There&apos;s nothing to migrate — no pantry
           data to export, no recipe libraries to transfer. You start fresh with
           What&apos;s For Dinner, and our onboarding captures everything the AI
           needs in about two minutes.
@@ -272,23 +273,23 @@ export default function CooklistAlternativePage() {
         <p>Here&apos;s how it works:</p>
         <ol className="list-decimal list-inside space-y-2 pl-1">
           <li>
-            <strong>Tell us who you&apos;re feeding</strong> &mdash; household
+            <strong>Tell us who you&apos;re feeding</strong> — household
             size and any specific needs
           </li>
           <li>
-            <strong>Set your dietary restrictions</strong> &mdash; type anything
+            <strong>Set your dietary restrictions</strong> — type anything
             in plain English (&ldquo;no dairy, low sodium, pescatarian&rdquo;)
           </li>
           <li>
-            <strong>List your allergies</strong> &mdash; the AI will strictly
+            <strong>List your allergies</strong> — the AI will strictly
             avoid them in every recipe
           </li>
           <li>
-            <strong>Pick your cuisine preferences</strong> &mdash; love Thai and
+            <strong>Pick your cuisine preferences</strong> — love Thai and
             Italian? Hate cilantro? Just say so
           </li>
           <li>
-            <strong>Choose your budget tier</strong> &mdash; budget-friendly,
+            <strong>Choose your budget tier</strong> — budget-friendly,
             moderate, or premium ingredients
           </li>
         </ol>
@@ -307,7 +308,7 @@ export default function CooklistAlternativePage() {
         <p>
           If you still want to use Cooklist for pantry tracking and food waste
           reduction, you absolutely can. The two tools complement each other
-          &mdash; let What&apos;s For Dinner handle the planning, and use
+          — let What&apos;s For Dinner handle the planning, and use
           Cooklist to track what&apos;s already in your kitchen. But most people
           find that once they have a proper meal plan and grocery list, the
           pantry takes care of itself.
@@ -333,7 +334,7 @@ export default function CooklistAlternativePage() {
           Cooklist&apos;s recipe suggestions are limited by your current pantry
           inventory. If you&apos;re low on ingredients, the suggestions dry up.
           What&apos;s For Dinner generates a complete weekly plan based on your
-          preferences, dietary needs, and budget &mdash; then gives you a
+          preferences, dietary needs, and budget — then gives you a
           grocery list so you can buy exactly what you need. You&apos;re never
           stuck making do with whatever&apos;s left in the cupboard.
         </p>
@@ -343,7 +344,7 @@ export default function CooklistAlternativePage() {
         </h3>
         <p>
           Cooklist only works if you keep scanning. Every grocery trip, every
-          new item, every time you use something up &mdash; you need to update
+          new item, every time you use something up — you need to update
           the app. Miss a week, and your pantry data is wrong. Miss two weeks,
           and the whole system falls apart. What&apos;s For Dinner requires
           zero ongoing input. Set your preferences once, and a fresh meal plan
@@ -360,7 +361,7 @@ export default function CooklistAlternativePage() {
           <strong>generate completely original meal plans</strong> every week,
           tailored to your exact dietary restrictions, allergies, cuisine
           preferences, and budget. You won&apos;t see the same rotation of
-          meals on repeat &mdash; every week is genuinely new.
+          meals on repeat — every week is genuinely new.
         </p>
 
         <h3 className="text-base font-semibold text-stone-700 mt-6">
@@ -369,14 +370,14 @@ export default function CooklistAlternativePage() {
         <p>
           Cooklist offers basic dietary filters, but they&apos;re limited to
           preset categories. With What&apos;s For Dinner, you can type your
-          restrictions in plain English &mdash; &ldquo;no nightshades, high
-          protein, Mediterranean-style, under 30 minutes&rdquo; &mdash; and the
+          restrictions in plain English — &ldquo;no nightshades, high
+          protein, Mediterranean-style, under 30 minutes&rdquo; — and the
           AI understands all of it. No checkboxes. No compromises. The AI
           handles combinations that no preset filter system could cover.
         </p>
 
         <h3 className="text-base font-semibold text-stone-700 mt-6">
-          Email delivery &mdash; no app needed
+          Email delivery — no app needed
         </h3>
         <p>
           Cooklist requires you to open the app every time you want to see your

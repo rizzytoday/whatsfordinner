@@ -21,6 +21,12 @@ export function Footer() {
             {t("landing.footer.blog")}
           </Link>
           <Link
+            href="/meal-plans"
+            className="text-sm text-stone-400 hover:text-orange-600 transition-colors duration-200"
+          >
+            Meal Plans
+          </Link>
+          <Link
             href="/privacy"
             className="text-sm text-stone-400 hover:text-orange-600 transition-colors duration-200"
           >

@@ -357,6 +357,44 @@ export default function MealPlanWithGroceryList() {
           Start Your Free Week
         </Link>
       </div>
+
+      {/* Related articles + meal plans */}
+      <div className="border-t border-stone-100 mt-12 pt-8">
+        <p className="text-sm font-medium text-stone-400 mb-4">
+          Related articles
+        </p>
+        <div className="space-y-3">
+          <Link
+            href="/blog/ai-meal-planner"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            AI Meal Planner: How It Works and Why It&apos;s Better
+          </Link>
+          <Link
+            href="/blog/meal-planning-for-two"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            Meal Planning for Two: No More Waste
+          </Link>
+          <Link
+            href="/blog/hellofresh-alternative-cheap"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            The Best Cheap Alternative to HelloFresh
+          </Link>
+        </div>
+        <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
+          Browse meal plans
+        </p>
+        <div className="flex flex-wrap gap-2">
+          <Link href="/meal-plans/vegetarian" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Vegetarian</Link>
+          <Link href="/meal-plans/paleo" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Paleo</Link>
+          <Link href="/meal-plans/italian" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Italian</Link>
+          <Link href="/meal-plans/thai" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Thai</Link>
+          <Link href="/meal-plans/indian" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Indian</Link>
+          <Link href="/meal-plans" className="text-xs px-3 py-1.5 rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200 transition-colors">View all &rarr;</Link>
+        </div>
+      </div>
       </article>
     </>
   );

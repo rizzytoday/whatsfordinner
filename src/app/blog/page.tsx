@@ -18,6 +18,13 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "best-meal-planning-apps",
+    title: "10 Best Meal Planning Apps in 2026 (Compared)",
+    description:
+      "We compared every major meal planning app. Here's which ones are worth it and which ones to skip.",
+    category: "Roundup",
+  },
+  {
     slug: "platejoy-alternative",
     title: "The Best PlateJoy Alternative in 2026",
     description:
@@ -144,6 +151,22 @@ export default function BlogIndex() {
             </span>
           </Link>
         ))}
+      </div>
+
+      {/* Browse Meal Plans CTA */}
+      <div className="mt-12 rounded-2xl border border-orange-200 bg-orange-50 p-8 text-center">
+        <h2 className="text-xl font-bold text-stone-900 mb-2">
+          Browse Meal Plans by Diet &amp; Cuisine
+        </h2>
+        <p className="text-sm text-stone-500 mb-5 max-w-md mx-auto">
+          Explore personalized meal plans for keto, vegan, halal, Italian, Thai, and 30+ more combinations.
+        </p>
+        <Link
+          href="/meal-plans"
+          className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm transition-colors"
+        >
+          Browse All Meal Plans &rarr;
+        </Link>
       </div>
     </div>
   );

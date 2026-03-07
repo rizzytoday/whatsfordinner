@@ -358,6 +358,44 @@ export default function AiMealPlannerArticle() {
           Start Your Free Plan &rarr;
         </Link>
       </div>
+
+      {/* Related articles + meal plans */}
+      <div className="border-t border-stone-100 mt-12 pt-8">
+        <p className="text-sm font-medium text-stone-400 mb-4">
+          Related articles
+        </p>
+        <div className="space-y-3">
+          <Link
+            href="/blog/meal-plan-with-grocery-list"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            Meal Plan with Grocery List: The Complete Solution
+          </Link>
+          <Link
+            href="/blog/best-meal-planning-apps"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            10 Best Meal Planning Apps in 2026 (Compared)
+          </Link>
+          <Link
+            href="/blog/platejoy-alternative"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            The Best PlateJoy Alternative in 2026
+          </Link>
+        </div>
+        <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
+          Browse meal plans
+        </p>
+        <div className="flex flex-wrap gap-2">
+          <Link href="/meal-plans/keto" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Keto</Link>
+          <Link href="/meal-plans/vegan" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Vegan</Link>
+          <Link href="/meal-plans/mediterranean" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Mediterranean</Link>
+          <Link href="/meal-plans/gluten-free" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Gluten-Free</Link>
+          <Link href="/meal-plans/halal" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Halal</Link>
+          <Link href="/meal-plans" className="text-xs px-3 py-1.5 rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200 transition-colors">View all &rarr;</Link>
+        </div>
+      </div>
       </article>
     </>
   );

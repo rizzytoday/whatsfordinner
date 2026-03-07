@@ -260,6 +260,33 @@ export default function MealPlanningForTwo() {
           Get your first plan free &rarr;
         </Link>
       </div>
+
+      {/* Related */}
+      <div className="border-t border-stone-100 mt-12 pt-8">
+        <p className="text-sm font-medium text-stone-400 mb-4">
+          Related articles
+        </p>
+        <div className="space-y-3">
+          <Link href="/blog/meal-plan-with-grocery-list" className="text-orange-500 hover:text-orange-600 underline text-sm block">
+            Meal Plan with Grocery List: The Complete Solution
+          </Link>
+          <Link href="/blog/ai-meal-planner" className="text-orange-500 hover:text-orange-600 underline text-sm block">
+            AI Meal Planner: How It Works and Why It&apos;s Better
+          </Link>
+          <Link href="/blog/budget-bytes-alternative" className="text-orange-500 hover:text-orange-600 underline text-sm block">
+            The Best Budget Bytes Alternative in 2026
+          </Link>
+        </div>
+        <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
+          Browse meal plans
+        </p>
+        <div className="flex flex-wrap gap-2">
+          <Link href="/meal-plans/mediterranean" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Mediterranean</Link>
+          <Link href="/meal-plans/keto" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Keto</Link>
+          <Link href="/meal-plans/japanese" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Japanese</Link>
+          <Link href="/meal-plans" className="text-xs px-3 py-1.5 rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200 transition-colors">View all &rarr;</Link>
+        </div>
+      </div>
       </article>
     </>
   );

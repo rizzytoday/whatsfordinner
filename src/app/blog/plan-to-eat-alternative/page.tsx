@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     type: "article",
     url: "https://whatsfordinner.fit/blog/plan-to-eat-alternative",
   },
+  alternates: { canonical: "https://whatsfordinner.fit/blog/plan-to-eat-alternative" },
   twitter: {
     card: "summary_large_image",
     title:

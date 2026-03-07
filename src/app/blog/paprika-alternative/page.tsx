@@ -4,7 +4,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 
 export const metadata: Metadata = {
   title:
-    "The Best Paprika Alternative in 2026 &mdash; AI Meal Plans vs. Recipe Binders",
+    "The Best Paprika Alternative in 2026 — AI Meal Plans vs. Recipe Binders",
   description:
     "Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $4.99/mo — no recipe hunting required.",
   openGraph: {
@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     type: "article",
     url: "https://whatsfordinner.fit/blog/paprika-alternative",
   },
+  alternates: { canonical: "https://whatsfordinner.fit/blog/paprika-alternative" },
   twitter: {
     card: "summary_large_image",
     title:
@@ -60,7 +61,7 @@ export default function PaprikaAlternativePage() {
           the job well.
         </p>
         <p>
-          But here&apos;s the thing &mdash; Paprika doesn&apos;t actually
+          But here&apos;s the thing — Paprika doesn&apos;t actually
           plan your meals. It organizes the recipes <em>you</em> find. You
           still have to browse food blogs, clip recipes one by one, drag them
           onto a calendar, and figure out what to cook each week. The mental
@@ -72,7 +73,7 @@ export default function PaprikaAlternativePage() {
           <strong>What&apos;s For Dinner</strong> takes a completely different
           approach. Instead of organizing recipes you&apos;ve already found,
           it uses AI to generate a complete, personalized meal plan for you
-          every week &mdash; with a grocery list included. You open your
+          every week — with a grocery list included. You open your
           email and start cooking.
         </p>
       </div>
@@ -89,7 +90,7 @@ export default function PaprikaAlternativePage() {
           place to store their recipes.
         </p>
         <p>
-          Its standout feature is the <strong>recipe clipper</strong> &mdash;
+          Its standout feature is the <strong>recipe clipper</strong> —
           point it at any recipe URL and it pulls in the ingredients, steps,
           and photos automatically. From there you can organize recipes into
           categories, scale servings, create grocery lists, set cooking
@@ -105,7 +106,7 @@ export default function PaprikaAlternativePage() {
         </p>
         <p>
           It&apos;s a well-built tool for what it does. But what it does is
-          <em> organize</em> &mdash; it doesn&apos;t <em>think</em> for you.
+          <em> organize</em> — it doesn&apos;t <em>think</em> for you.
         </p>
       </div>
 
@@ -120,31 +121,31 @@ export default function PaprikaAlternativePage() {
         </p>
         <ul className="list-disc list-inside space-y-2 pl-1">
           <li>
-            <strong>Recipe clipper</strong> &mdash; grab any recipe from the
+            <strong>Recipe clipper</strong> — grab any recipe from the
             web in one tap, stripped of ads and pop-ups
           </li>
           <li>
-            <strong>Organization</strong> &mdash; categories, folders, and
+            <strong>Organization</strong> — categories, folders, and
             search make it easy to find recipes in a large collection
           </li>
           <li>
-            <strong>Grocery list builder</strong> &mdash; add ingredients
+            <strong>Grocery list builder</strong> — add ingredients
             from any recipe directly to your shopping list
           </li>
           <li>
-            <strong>Offline access</strong> &mdash; recipes are stored
+            <strong>Offline access</strong> — recipes are stored
             locally so you can cook without Wi-Fi
           </li>
           <li>
-            <strong>Cross-device sync</strong> &mdash; clip on your laptop,
+            <strong>Cross-device sync</strong> — clip on your laptop,
             cook from your phone
           </li>
           <li>
-            <strong>One-time purchase</strong> &mdash; no subscription, pay
+            <strong>One-time purchase</strong> — no subscription, pay
             once per platform and it&apos;s yours
           </li>
           <li>
-            <strong>Cooking timers</strong> &mdash; built-in timers attached
+            <strong>Cooking timers</strong> — built-in timers attached
             to recipe steps
           </li>
         </ul>
@@ -168,9 +169,9 @@ export default function PaprikaAlternativePage() {
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
           Paprika and What&apos;s For Dinner solve different problems. Paprika
-          is a digital recipe binder &mdash; you supply the recipes, it keeps
+          is a digital recipe binder — you supply the recipes, it keeps
           them tidy. What&apos;s For Dinner is an AI meal planning service
-          &mdash; it does the thinking, the planning, and the list-building
+          — it does the thinking, the planning, and the list-building
           for you.
         </p>
         <p>Here&apos;s how they stack up:</p>
@@ -274,7 +275,7 @@ export default function PaprikaAlternativePage() {
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
-          To be clear &mdash; you don&apos;t have to ditch Paprika entirely.
+          To be clear — you don&apos;t have to ditch Paprika entirely.
           It&apos;s a fine recipe manager, and if you enjoy collecting recipes,
           keep using it. But if your real goal is to stop spending time
           <em> deciding</em> what to cook, that&apos;s where What&apos;s For
@@ -287,23 +288,23 @@ export default function PaprikaAlternativePage() {
         <p>Getting started takes about two minutes:</p>
         <ol className="list-decimal list-inside space-y-2 pl-1">
           <li>
-            <strong>Tell us who you&apos;re feeding</strong> &mdash; household
+            <strong>Tell us who you&apos;re feeding</strong> — household
             size and any specific needs
           </li>
           <li>
-            <strong>Set your dietary restrictions</strong> &mdash; type anything
+            <strong>Set your dietary restrictions</strong> — type anything
             in plain English (&ldquo;no dairy, low sodium, pescatarian&rdquo;)
           </li>
           <li>
-            <strong>List your allergies</strong> &mdash; the AI will strictly
+            <strong>List your allergies</strong> — the AI will strictly
             avoid them in every recipe
           </li>
           <li>
-            <strong>Pick your cuisine preferences</strong> &mdash; love Thai and
+            <strong>Pick your cuisine preferences</strong> — love Thai and
             Italian? Hate cilantro? Just say so
           </li>
           <li>
-            <strong>Choose your budget tier</strong> &mdash; budget-friendly,
+            <strong>Choose your budget tier</strong> — budget-friendly,
             moderate, or premium ingredients
           </li>
         </ol>
@@ -328,7 +329,7 @@ export default function PaprikaAlternativePage() {
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
           Paprika and What&apos;s For Dinner aren&apos;t really competitors
-          &mdash; they&apos;re different categories of tool. But if you&apos;re
+          — they&apos;re different categories of tool. But if you&apos;re
           choosing where to put your time and money, here&apos;s why the AI
           approach wins for most people:
         </p>
@@ -341,8 +342,8 @@ export default function PaprikaAlternativePage() {
           through Pinterest, and clipping recipes one by one. That&apos;s fun
           if cooking is your hobby. But if you just want to eat well without
           spending hours planning, it&apos;s a chore. What&apos;s For Dinner
-          generates complete meal plans &mdash; breakfast, lunch, dinner, and
-          optional snacks &mdash; with zero effort on your part. The AI handles
+          generates complete meal plans — breakfast, lunch, dinner, and
+          optional snacks — with zero effort on your part. The AI handles
           the recipe discovery, variety, and nutritional balance.
         </p>
 
@@ -354,7 +355,7 @@ export default function PaprikaAlternativePage() {
           understand your diet. If you&apos;re pescatarian with a tree nut
           allergy who prefers Mediterranean food, you have to manually ensure
           every recipe you clip fits those constraints. Our AI takes all of
-          that into account automatically &mdash; every meal in every plan
+          that into account automatically — every meal in every plan
           respects your restrictions without you having to check.
         </p>
 
@@ -380,7 +381,7 @@ export default function PaprikaAlternativePage() {
           No app to download or update
         </h3>
         <p>
-          Paprika requires a separate purchase on every platform &mdash; $4.99
+          Paprika requires a separate purchase on every platform — $4.99
           for iOS, another $4.99 for Mac, another for Android. What&apos;s For
           Dinner is email-based. It works on every device you already own,
           requires no downloads, and never needs updating. Forward it to your
@@ -395,7 +396,7 @@ export default function PaprikaAlternativePage() {
           Paprika has no concept of cost. It stores whatever recipes you clip,
           regardless of whether the ingredients fit your budget. What&apos;s
           For Dinner lets you choose between budget-friendly, moderate, and
-          premium tiers &mdash; the AI adjusts ingredient choices so your
+          premium tiers — the AI adjusts ingredient choices so your
           weekly plan actually matches what you can spend.
         </p>
       </div>

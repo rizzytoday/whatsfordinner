@@ -32,6 +32,9 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
             <Link href="/blog" className="text-sm text-stone-400 hover:text-orange-600 transition-colors">
               Blog
             </Link>
+            <Link href="/meal-plans" className="text-sm text-stone-400 hover:text-orange-600 transition-colors">
+              Meal Plans
+            </Link>
             <Link href="/privacy" className="text-sm text-stone-400 hover:text-orange-600 transition-colors">
               Privacy
             </Link>

@@ -93,6 +93,25 @@ export default function MealPlansIndex() {
         </div>
       </section>
 
+      {/* Related reading */}
+      <section className="mb-12">
+        <h2 className="text-xl font-semibold text-stone-800 mb-5">Learn More</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <Link href="/blog/ai-meal-planner" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Guide</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">AI Meal Planner: How It Works</h3>
+          </Link>
+          <Link href="/blog/meal-plan-with-grocery-list" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Guide</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">Meal Plan with Grocery List</h3>
+          </Link>
+          <Link href="/blog/best-meal-planning-apps" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Roundup</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">Best Meal Planning Apps 2026</h3>
+          </Link>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="rounded-2xl bg-orange-500 p-8 sm:p-12 text-center">
         <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3">
