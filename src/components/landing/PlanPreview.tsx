@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { useT } from "@/lib/i18n/context";
 
@@ -43,6 +44,16 @@ const MEAL_COLORS: Record<string, string> = {
 
 export function PlanPreview({ isSignedIn }: { isSignedIn?: boolean }) {
   const { t } = useT();
+  const [checked, setChecked] = useState<Set<string>>(new Set());
+
+  const toggle = (key: string) => {
+    setChecked((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  };
 
   return (
     <section className="py-24 sm:py-32 border-t border-stone-100">
@@ -50,7 +61,7 @@ export function PlanPreview({ isSignedIn }: { isSignedIn?: boolean }) {
         <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 text-center tracking-tight">
           {t("landing.preview.title")}
         </h2>
-        <p className="mt-4 text-stone-500 text-center text-lg max-w-xl mx-auto">
+        <p className="mt-4 text-stone-500 text-center text-lg max-w-2xl mx-auto">
           {t("landing.preview.subtitle")}
         </p>
 
@@ -138,12 +149,27 @@ export function PlanPreview({ isSignedIn }: { isSignedIn?: boolean }) {
               <span className="ml-auto text-xs text-stone-400">{GROCERY_KEYS.length} {t("plan.items")}</span>
             </div>
             <ul className="space-y-1.5">
-              {GROCERY_KEYS.map((key) => (
-                <li key={key} className="flex items-center gap-2 text-sm text-stone-600">
-                  <div className="w-3.5 h-3.5 rounded border border-stone-300 shrink-0" />
-                  {t(`landing.preview.${key}`)}
-                </li>
-              ))}
+              {GROCERY_KEYS.map((key) => {
+                const isChecked = checked.has(key);
+                return (
+                  <li
+                    key={key}
+                    className="flex items-center gap-2 text-sm text-stone-600 cursor-pointer select-none"
+                    onClick={() => toggle(key)}
+                  >
+                    <div className={`w-3.5 h-3.5 rounded border shrink-0 flex items-center justify-center transition-colors duration-200 ${isChecked ? "bg-orange-500 border-orange-500" : "border-stone-300"}`}>
+                      {isChecked && (
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                          <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                      )}
+                    </div>
+                    <span className={`transition-all duration-200 ${isChecked ? "line-through text-stone-400" : ""}`}>
+                      {t(`landing.preview.${key}`)}
+                    </span>
+                  </li>
+                );
+              })}
             </ul>
             <div className="mt-4 pt-3 border-t border-stone-100 text-center">
               <p className="text-xs text-stone-400">{t("landing.preview.groceryNote")}</p>
