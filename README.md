@@ -63,6 +63,12 @@ Programmatic SEO covering every meal planning search query:
 
 All pages include JSON-LD schema, OG images, canonical URLs, and internal cross-links.
 
+![Meal plans hub](docs/screenshots/meal-plans.png)
+
+![Individual meal plan page](docs/screenshots/meal-plan-page.png)
+
+![Blog](docs/screenshots/blog.png)
+
 Browse them at [whatsfordinner.fit/meal-plans](https://whatsfordinner.fit/meal-plans)
 
 ---
