@@ -18,6 +18,27 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "meal-planning-for-beginners",
+    title: "Meal Planning for Beginners: The Complete Guide (2026)",
+    description:
+      "Everything you need to start meal planning — the 5-step method, common mistakes, and when to automate.",
+    category: "Guides",
+  },
+  {
+    slug: "how-to-meal-prep",
+    title: "How to Meal Prep for the Week in Under 2 Hours",
+    description:
+      "The 2-hour Sunday method that makes meal prep actually sustainable. Step-by-step guide.",
+    category: "Guides",
+  },
+  {
+    slug: "save-money-groceries-meal-planning",
+    title: "How to Save Money on Groceries with Meal Planning",
+    description:
+      "The average family wastes $1,500/year on food. Here's how meal planning cuts your grocery bill.",
+    category: "Guides",
+  },
+  {
     slug: "best-meal-planning-apps",
     title: "10 Best Meal Planning Apps in 2026 (Compared)",
     description:

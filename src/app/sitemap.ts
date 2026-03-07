@@ -20,6 +20,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { slug: "budget-bytes-alternative", date: "2026-03-07" },
     { slug: "cooklist-alternative", date: "2026-03-07" },
     { slug: "best-meal-planning-apps", date: "2026-03-07" },
+    { slug: "meal-planning-for-beginners", date: "2026-03-07" },
+    { slug: "how-to-meal-prep", date: "2026-03-07" },
+    { slug: "save-money-groceries-meal-planning", date: "2026-03-07" },
   ];
 
   const mealPlanPages = getAllMealPlanPages();
