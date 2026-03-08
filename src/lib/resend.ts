@@ -37,8 +37,8 @@ function buildDaysSummary(plan: MealPlanData): string {
           const badge = mealTypeBadge[m.type] || mealTypeBadge.dinner;
           const time = (m.prepTime || 0) + (m.cookTime || 0);
           return `<tr>
-            <td style="padding:6px 0;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;background:${badge.bg};color:${badge.color};font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;padding:2px 7px;border-radius:99px;">${escapeHtml(m.type)}</span></td>
-            <td style="padding:6px 0 6px 10px;vertical-align:top;"><span style="font-size:14px;font-weight:600;color:#1C1917;">${escapeHtml(m.name)}</span>${time || m.calories ? `<br><span style="font-size:11px;color:#A8A29E;">${[time ? `${time} min` : "", m.calories ? `${m.calories} cal` : ""].filter(Boolean).join(" · ")}</span>` : ""}</td>
+            <td style="padding:6px 0;vertical-align:top;white-space:nowrap;width:1px;"><span style="display:inline-block;background:${badge.bg};color:${badge.color};font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;padding:2px 7px;border-radius:99px;">${escapeHtml(m.type)}</span></td>
+            <td style="padding:6px 0 6px 8px;vertical-align:top;"><span style="font-size:14px;font-weight:600;color:#1C1917;">${escapeHtml(m.name)}</span>${time || m.calories ? `<br><span style="font-size:11px;color:#A8A29E;">${[time ? `${time} min` : "", m.calories ? `${m.calories} cal` : ""].filter(Boolean).join(" · ")}</span>` : ""}</td>
           </tr>`;
         })
         .join("");
