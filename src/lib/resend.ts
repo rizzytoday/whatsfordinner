@@ -28,45 +28,24 @@ function computeStats(plan: MealPlanData) {
   return { totalMeals, totalCalories, totalCookTime, groceryCount };
 }
 
-function buildMealRow(m: { type: string; name: string; calories?: number; prepTime?: number; cookTime?: number; servings?: number }): string {
-  const badge = mealTypeBadge[m.type] || mealTypeBadge.dinner;
-  const totalTime = (m.prepTime || 0) + (m.cookTime || 0);
-  const meta = [
-    totalTime > 0 ? `${totalTime} min` : "",
-    m.calories ? `${m.calories} cal` : "",
-    m.servings ? `${m.servings} servings` : "",
-  ].filter(Boolean).join(" &middot; ");
-
-  return `
-    <div style="background:#FFFBF5;border:1px solid #F5F5F0;border-radius:12px;padding:12px 14px;margin-bottom:8px;">
-      <table cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
-        <td style="width:auto;white-space:nowrap;vertical-align:middle;">
-          <span style="display:inline-block;background:${badge.bg};color:${badge.color};font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;padding:2px 8px;border-radius:9999px;">${escapeHtml(m.type)}</span>
-        </td>
-        <td style="padding-left:10px;font-size:14px;font-weight:600;color:#1C1917;vertical-align:middle;">
-          ${escapeHtml(m.name)}
-        </td>
-      </tr></table>
-      ${meta ? `<p style="margin:4px 0 0 0;font-size:12px;color:#A8A29E;padding-left:2px;">${meta}</p>` : ""}
-    </div>`;
-}
-
 function buildDaysSummary(plan: MealPlanData): string {
   return plan.days
     .map((day) => {
       const totalCal = day.totalCalories || day.meals.reduce((s, m) => s + (m.calories || 0), 0);
-      const meals = day.meals.map((m) => buildMealRow(m)).join("");
+      const mealRows = day.meals
+        .map((m) => {
+          const badge = mealTypeBadge[m.type] || mealTypeBadge.dinner;
+          const time = (m.prepTime || 0) + (m.cookTime || 0);
+          return `<tr>
+            <td style="padding:6px 0;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;background:${badge.bg};color:${badge.color};font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;padding:2px 7px;border-radius:99px;">${escapeHtml(m.type)}</span></td>
+            <td style="padding:6px 0 6px 10px;vertical-align:top;"><span style="font-size:14px;font-weight:600;color:#1C1917;">${escapeHtml(m.name)}</span>${time || m.calories ? `<br><span style="font-size:11px;color:#A8A29E;">${[time ? `${time} min` : "", m.calories ? `${m.calories} cal` : ""].filter(Boolean).join(" · ")}</span>` : ""}</td>
+          </tr>`;
+        })
+        .join("");
       return `
-        <div style="margin-bottom:20px;">
-          <table cellpadding="0" cellspacing="0" border="0"><tr>
-            <td style="vertical-align:middle;">
-              <h3 style="margin:0;color:#1C1917;font-size:16px;font-weight:700;">${day.day}</h3>
-            </td>
-            <td style="vertical-align:middle;padding-left:10px;">
-              <span style="display:inline-block;background:#F5F5F0;color:#78716C;font-size:12px;font-weight:500;padding:2px 10px;border-radius:9999px;">${totalCal} cal</span>
-            </td>
-          </tr></table>
-          ${meals}
+        <div style="margin-bottom:16px;${day !== plan.days[0] ? "padding-top:12px;border-top:1px solid #F5F5F0;" : ""}">
+          <p style="margin:0 0 6px;font-size:14px;font-weight:700;color:#1C1917;">${day.day} <span style="font-weight:500;color:#A8A29E;font-size:12px;">${totalCal} cal</span></p>
+          <table cellpadding="0" cellspacing="0" border="0" width="100%">${mealRows}</table>
         </div>`;
     })
     .join("");
@@ -143,10 +122,15 @@ function buildSubscriberEmail(weekOf: string, plan: MealPlanData, weekNumber: nu
       <div style="max-width:600px;margin:0 auto;padding:32px 24px;">
 
         <!-- Header -->
-        <div style="text-align:center;margin-bottom:16px;">
-          <p style="margin:0 0 2px;font-size:13px;font-weight:600;color:#1C1917;">What's For Dinner</p>
-          <p style="margin:0;color:#78716C;font-size:13px;">Week of ${weekLabel}</p>
-        </div>
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:16px;"><tr>
+          <td style="vertical-align:middle;width:32px;">
+            <img src="${appUrl}/logo.png" width="32" height="32" alt="What's For Dinner" style="display:block;border-radius:8px;" />
+          </td>
+          <td style="vertical-align:middle;padding-left:10px;">
+            <p style="margin:0;font-size:13px;font-weight:600;color:#1C1917;">What's For Dinner</p>
+            <p style="margin:0;color:#78716C;font-size:12px;">Week of ${weekLabel}</p>
+          </td>
+        </tr></table>
 
         <!-- Hero -->
         <div style="background:#FFF7ED;border-radius:16px;padding:28px 24px;margin-bottom:24px;">
@@ -230,10 +214,15 @@ function buildFreeEmail(weekOf: string, plan: MealPlanData): string {
       <div style="max-width:600px;margin:0 auto;padding:32px 24px;">
 
         <!-- Header -->
-        <div style="text-align:center;margin-bottom:16px;">
-          <p style="margin:0 0 2px;font-size:13px;font-weight:600;color:#1C1917;">What's For Dinner</p>
-          <p style="margin:0;color:#78716C;font-size:13px;">Your free ${days}-day plan &middot; ${weekLabel}</p>
-        </div>
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:16px;"><tr>
+          <td style="vertical-align:middle;width:32px;">
+            <img src="${appUrl}/logo.png" width="32" height="32" alt="What's For Dinner" style="display:block;border-radius:8px;" />
+          </td>
+          <td style="vertical-align:middle;padding-left:10px;">
+            <p style="margin:0;font-size:13px;font-weight:600;color:#1C1917;">What's For Dinner</p>
+            <p style="margin:0;color:#78716C;font-size:12px;">Your free ${days}-day plan &middot; ${weekLabel}</p>
+          </td>
+        </tr></table>
 
         <!-- Hero -->
         <div style="background:#FFF7ED;border-radius:16px;padding:28px 24px;margin-bottom:24px;">
