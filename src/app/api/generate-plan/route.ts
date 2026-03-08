@@ -189,8 +189,8 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Send email for subscribers on new plans (not regenerations)
-    if (isSubscribed && isNewPlan && !profile.email_opted_out) {
+    // Send email for subscribers on every generation (new plans + regenerations)
+    if (isSubscribed && !profile.email_opted_out) {
       try {
         const deliveryEmail = profile.delivery_email || user.email!;
 
