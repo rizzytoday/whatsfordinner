@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
@@ -32,6 +32,7 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
   const [error, setError] = useState<string | null>(null);
   const [currentPlan, setCurrentPlan] = useState(plan);
   const [selectedDay, setSelectedDay] = useState<string | null>(null);
+  const autoGenerateTriggered = useRef(false);
 
   async function handleGenerate() {
     setLoading(true);
@@ -51,8 +52,46 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
     }
   }
 
+  // Auto-generate for subscribers who don't have a plan yet (e.g. before cron fires)
+  useEffect(() => {
+    if (!currentPlan && isSubscribed && !autoGenerateTriggered.current) {
+      autoGenerateTriggered.current = true;
+      handleGenerate();
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   // No plan exists yet
   if (!currentPlan) {
+    // Subscribers: show generating state (auto-triggered above)
+    if (isSubscribed) {
+      return (
+        <Card>
+          <CardContent className="py-12 text-center">
+            {loading ? (
+              <>
+                <Spinner size="lg" className="mx-auto mb-4 text-orange-400" />
+                <h3 className="text-lg font-semibold text-stone-700 mb-1">
+                  {t("dashboard.generating")}
+                </h3>
+                <p className="text-sm text-stone-500">
+                  {t("dashboard.generatingDesc")}
+                </p>
+              </>
+            ) : error ? (
+              <>
+                <p className="text-sm text-red-500 mb-4">{error}</p>
+                <Button size="lg" loading={loading} onClick={handleGenerate}>
+                  {t("dashboard.tryAgain")}
+                </Button>
+              </>
+            ) : null}
+          </CardContent>
+        </Card>
+      );
+    }
+
+    // Free users: show the manual generate button
     return (
       <Card className="border-dashed border-2 border-stone-200 bg-[#FFFBF5]">
         <CardContent className="py-12 text-center">

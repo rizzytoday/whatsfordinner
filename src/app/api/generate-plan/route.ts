@@ -2,9 +2,10 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { generateMealPlan } from "@/lib/anthropic";
+import { sendMealPlanEmail } from "@/lib/resend";
 import { getWeekOf } from "@/lib/utils";
 import { rateLimit } from "@/lib/rate-limit";
-import type { UserProfile } from "@/types/meal-plan";
+import type { UserProfile, MealPlanData } from "@/types/meal-plan";
 
 export async function POST(req: NextRequest) {
   try {
@@ -74,6 +75,7 @@ export async function POST(req: NextRequest) {
       .single();
 
     let planId: string;
+    let isNewPlan = false;
 
     if (existingPlan) {
       // Free users can't regenerate
@@ -130,6 +132,7 @@ export async function POST(req: NextRequest) {
       }
 
       planId = newPlan.id;
+      isNewPlan = true;
     }
 
     // Generate the meal plan with one retry on failure
@@ -184,6 +187,46 @@ export async function POST(req: NextRequest) {
         { error: "Failed to save plan" },
         { status: 500 }
       );
+    }
+
+    // Send email for subscribers on new plans (not regenerations)
+    if (isSubscribed && isNewPlan && !profile.email_opted_out) {
+      try {
+        const deliveryEmail = profile.delivery_email || user.email!;
+
+        // Count plans for week number
+        const { count: planCount } = await admin
+          .from("meal_plans")
+          .select("id", { count: "exact", head: true })
+          .eq("user_id", user.id)
+          .in("status", ["sent", "ready"]);
+
+        await sendMealPlanEmail(
+          deliveryEmail,
+          weekOf,
+          planData as MealPlanData,
+          planCount || 1,
+          user.id
+        );
+
+        // Mark as sent
+        await admin
+          .from("meal_plans")
+          .update({
+            status: "sent",
+            sent_at: new Date().toISOString(),
+            updated_at: new Date().toISOString(),
+          })
+          .eq("id", planId);
+
+        // Update the returned plan object
+        if (updatedPlan) {
+          updatedPlan.status = "sent";
+        }
+      } catch (emailError) {
+        // Don't fail the whole request if email fails — plan is still saved
+        console.error("Failed to send meal plan email:", emailError);
+      }
     }
 
     // Mark free plan as used for non-subscribers
