@@ -124,7 +124,7 @@ function buildSubscriberEmail(weekOf: string, plan: MealPlanData, weekNumber: nu
         <!-- Header -->
         <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:16px;"><tr>
           <td style="vertical-align:middle;width:32px;">
-            <img src="${appUrl}/logo.png" width="32" height="32" alt="What's For Dinner" style="display:block;border-radius:8px;" />
+            <img src="${appUrl}/favicon.png" width="32" height="32" alt="What's For Dinner" style="display:block;border-radius:8px;" />
           </td>
           <td style="vertical-align:middle;padding-left:10px;">
             <p style="margin:0;font-size:13px;font-weight:600;color:#1C1917;">What's For Dinner</p>
@@ -216,7 +216,7 @@ function buildFreeEmail(weekOf: string, plan: MealPlanData): string {
         <!-- Header -->
         <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:16px;"><tr>
           <td style="vertical-align:middle;width:32px;">
-            <img src="${appUrl}/logo.png" width="32" height="32" alt="What's For Dinner" style="display:block;border-radius:8px;" />
+            <img src="${appUrl}/favicon.png" width="32" height="32" alt="What's For Dinner" style="display:block;border-radius:8px;" />
           </td>
           <td style="vertical-align:middle;padding-left:10px;">
             <p style="margin:0;font-size:13px;font-weight:600;color:#1C1917;">What's For Dinner</p>
