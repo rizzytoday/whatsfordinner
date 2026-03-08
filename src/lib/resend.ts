@@ -39,10 +39,14 @@ function buildMealRow(m: { type: string; name: string; calories?: number; prepTi
 
   return `
     <div style="background:#FFFBF5;border:1px solid #F5F5F0;border-radius:12px;padding:12px 14px;margin-bottom:8px;">
-      <div style="display:flex;align-items:center;">
-        <span style="display:inline-block;background:${badge.bg};color:${badge.color};font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;padding:2px 8px;border-radius:9999px;">${escapeHtml(m.type)}</span>
-        <span style="margin-left:10px;font-size:14px;font-weight:600;color:#1C1917;">${escapeHtml(m.name)}</span>
-      </div>
+      <table cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+        <td style="width:auto;white-space:nowrap;vertical-align:middle;">
+          <span style="display:inline-block;background:${badge.bg};color:${badge.color};font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;padding:2px 8px;border-radius:9999px;">${escapeHtml(m.type)}</span>
+        </td>
+        <td style="padding-left:10px;font-size:14px;font-weight:600;color:#1C1917;vertical-align:middle;">
+          ${escapeHtml(m.name)}
+        </td>
+      </tr></table>
       ${meta ? `<p style="margin:4px 0 0 0;font-size:12px;color:#A8A29E;padding-left:2px;">${meta}</p>` : ""}
     </div>`;
 }
@@ -54,10 +58,14 @@ function buildDaysSummary(plan: MealPlanData): string {
       const meals = day.meals.map((m) => buildMealRow(m)).join("");
       return `
         <div style="margin-bottom:20px;">
-          <div style="display:flex;align-items:center;margin-bottom:10px;">
-            <h3 style="margin:0;color:#1C1917;font-size:16px;font-weight:700;">${day.day}</h3>
-            <span style="margin-left:10px;background:#F5F5F0;color:#78716C;font-size:12px;font-weight:500;padding:2px 10px;border-radius:9999px;">${totalCal} cal</span>
-          </div>
+          <table cellpadding="0" cellspacing="0" border="0"><tr>
+            <td style="vertical-align:middle;">
+              <h3 style="margin:0;color:#1C1917;font-size:16px;font-weight:700;">${day.day}</h3>
+            </td>
+            <td style="vertical-align:middle;padding-left:10px;">
+              <span style="display:inline-block;background:#F5F5F0;color:#78716C;font-size:12px;font-weight:500;padding:2px 10px;border-radius:9999px;">${totalCal} cal</span>
+            </td>
+          </tr></table>
           ${meals}
         </div>`;
     })
@@ -107,17 +115,30 @@ function getHeroContent(weekNumber: number): { headline: string; subtext: string
 
 // --- Subscriber email ---
 
+function buildStatsPills(totalMeals: number, groceryCount: number, totalCalories: number, estimatedCost: string): string {
+  const pill = (text: string) =>
+    `<td style="padding:0 3px 6px 3px;"><span style="display:inline-block;background:#FDECD4;color:#EA580C;font-size:12px;font-weight:600;padding:4px 12px;border-radius:9999px;white-space:nowrap;">${text}</span></td>`;
+  return `
+    <table cellpadding="0" cellspacing="0" border="0"><tr>
+      ${pill(`${totalMeals} meals`)}
+      ${pill(`${groceryCount} grocery items`)}
+      ${pill(`${totalCalories.toLocaleString()} cal`)}
+      ${pill(`Est. ${estimatedCost}`)}
+    </tr></table>`;
+}
+
 function buildSubscriberEmail(weekOf: string, plan: MealPlanData, weekNumber: number, unsubscribeUrl: string): string {
   const appUrl = getAppUrl();
   const weekLabel = formatWeekOf(weekOf);
   const { totalMeals, totalCalories, totalCookTime, groceryCount } = computeStats(plan);
   const daysSummary = buildDaysSummary(plan);
   const hero = getHeroContent(weekNumber);
+  const statsPills = buildStatsPills(totalMeals, groceryCount, totalCalories, plan.estimatedWeeklyCost ?? "");
 
   return `
     <!DOCTYPE html>
     <html>
-    <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light only"><meta name="supported-color-schemes" content="light only"><style>:root{color-scheme:light only;}</style></head>
+    <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light only"><meta name="supported-color-schemes" content="light only"><style>:root{color-scheme:light only;}body{background:#FFFBF5!important;}[data-ogsc] h1,[data-ogsc] p,[data-ogsc] span,[data-ogsc] td{color:inherit!important;}</style></head>
     <body style="margin:0;padding:0;background:#FFFBF5;font-family:Inter,system-ui,sans-serif;">
       <div style="max-width:600px;margin:0 auto;padding:32px 24px;">
 
@@ -128,7 +149,7 @@ function buildSubscriberEmail(weekOf: string, plan: MealPlanData, weekNumber: nu
         </div>
 
         <!-- Hero -->
-        <div style="background:linear-gradient(135deg,#FFF7ED 0%,#FFEDD5 100%);border-radius:16px;padding:28px 24px;margin-bottom:24px;">
+        <div style="background:#FFF7ED;border-radius:16px;padding:28px 24px;margin-bottom:24px;">
           <h1 style="margin:0 0 8px;font-size:26px;font-weight:800;color:#1C1917;line-height:1.25;">
             ${hero.headline}
           </h1>
@@ -138,12 +159,7 @@ function buildSubscriberEmail(weekOf: string, plan: MealPlanData, weekNumber: nu
           <p style="margin:0 0 16px;font-size:13px;color:#78716C;">
             ${hero.savedLine}
           </p>
-          <div style="display:flex;gap:6px;flex-wrap:wrap;">
-            <span style="display:inline-block;background:rgba(249,115,22,0.1);color:#EA580C;font-size:12px;font-weight:600;padding:4px 12px;border-radius:9999px;">${totalMeals} meals</span>
-            <span style="display:inline-block;background:rgba(249,115,22,0.1);color:#EA580C;font-size:12px;font-weight:600;padding:4px 12px;border-radius:9999px;">${groceryCount} grocery items</span>
-            <span style="display:inline-block;background:rgba(249,115,22,0.1);color:#EA580C;font-size:12px;font-weight:600;padding:4px 12px;border-radius:9999px;">${totalCalories.toLocaleString()} cal</span>
-            <span style="display:inline-block;background:rgba(249,115,22,0.1);color:#EA580C;font-size:12px;font-weight:600;padding:4px 12px;border-radius:9999px;">Est. ${plan.estimatedWeeklyCost}</span>
-          </div>
+          ${statsPills}
         </div>
 
         <!-- Meals intro -->
@@ -220,7 +236,7 @@ function buildFreeEmail(weekOf: string, plan: MealPlanData): string {
         </div>
 
         <!-- Hero -->
-        <div style="background:linear-gradient(135deg,#FFF7ED 0%,#FFEDD5 100%);border-radius:16px;padding:28px 24px;margin-bottom:24px;">
+        <div style="background:#FFF7ED;border-radius:16px;padding:28px 24px;margin-bottom:24px;">
           <h1 style="margin:0 0 8px;font-size:26px;font-weight:800;color:#1C1917;line-height:1.25;">
             just saved <span style="color:#F97316;">${minutesSaved} minutes</span><br>
             not thinking about what to eat
@@ -228,12 +244,7 @@ function buildFreeEmail(weekOf: string, plan: MealPlanData): string {
           <p style="margin:0 0 16px;font-size:14px;color:#57534E;line-height:1.5;">
             That's just ${days} days. Subscribe and save <strong style="color:#1C1917;">${hoursSavedYearly}+ hours/yr</strong> across <strong style="color:#1C1917;">${mealsPerYear.toLocaleString()} meals</strong>.
           </p>
-          <div style="display:flex;gap:6px;flex-wrap:wrap;">
-            <span style="display:inline-block;background:rgba(249,115,22,0.1);color:#EA580C;font-size:12px;font-weight:600;padding:4px 12px;border-radius:9999px;">${totalMeals} meals</span>
-            <span style="display:inline-block;background:rgba(249,115,22,0.1);color:#EA580C;font-size:12px;font-weight:600;padding:4px 12px;border-radius:9999px;">${groceryCount} grocery items</span>
-            <span style="display:inline-block;background:rgba(249,115,22,0.1);color:#EA580C;font-size:12px;font-weight:600;padding:4px 12px;border-radius:9999px;">${totalCalories.toLocaleString()} cal</span>
-            <span style="display:inline-block;background:rgba(249,115,22,0.1);color:#EA580C;font-size:12px;font-weight:600;padding:4px 12px;border-radius:9999px;">Est. ${plan.estimatedWeeklyCost}</span>
-          </div>
+          ${buildStatsPills(totalMeals, groceryCount, totalCalories, plan.estimatedWeeklyCost ?? "")}
         </div>
 
         <!-- Meals intro -->
