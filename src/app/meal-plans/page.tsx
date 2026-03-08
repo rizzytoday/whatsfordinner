@@ -1,11 +1,21 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllMealPlanPages } from "@/data/meal-plans";
+import { NON_DEFAULT_LOCALES, getLocaleConfig } from "@/lib/i18n/locales";
+
+const hubLanguages: Record<string, string> = {
+  en: "https://whatsfordinner.fit/meal-plans",
+  "x-default": "https://whatsfordinner.fit/meal-plans",
+};
+for (const loc of NON_DEFAULT_LOCALES) {
+  hubLanguages[getLocaleConfig(loc).hreflang] =
+    `https://whatsfordinner.fit/${loc}/meal-plans`;
+}
 
 export const metadata: Metadata = {
   title: "Meal Plans for Every Diet and Cuisine",
   description: "Browse personalized weekly meal plans for every diet (keto, vegan, halal, gluten-free) and cuisine (Italian, Thai, Indian, and more). Free 3-day plan included.",
-  alternates: { canonical: "https://whatsfordinner.fit/meal-plans" },
+  alternates: { canonical: "https://whatsfordinner.fit/meal-plans", languages: hubLanguages },
   openGraph: {
     title: "Meal Plans for Every Diet and Cuisine",
     description: "Browse personalized weekly meal plans for every diet and cuisine. Free 3-day plan included.",

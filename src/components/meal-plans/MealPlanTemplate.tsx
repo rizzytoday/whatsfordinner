@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 import { getMealPlanBySlug } from "@/data/meal-plans";
+import { getSlugForLocale, getTranslatedMealPlan } from "@/data/meal-plans/translations";
 import type { MealPlanPageData } from "@/data/meal-plans/types";
 
 const mealTypeStyles: Record<string, string> = {
@@ -15,6 +16,157 @@ const typeLabels: Record<string, string> = {
   cuisine: "Cuisine",
   combo: "Diet + Cuisine",
 };
+
+type TemplateUI = {
+  home: string;
+  mealPlans: string;
+  howItWorks: string;
+  steps: { title: string; desc: string }[];
+  whyChoose: string;
+  sampleMeals: string;
+  faq: string;
+  related: string;
+  ctaTitle: string;
+  ctaSub: string;
+  ctaBtn: string;
+};
+
+const defaultUI: TemplateUI = {
+  home: "Home",
+  mealPlans: "Meal Plans",
+  howItWorks: "How It Works",
+  steps: [
+    { title: "Set your preferences", desc: "Tell us your diet, household size, budget, and allergies." },
+    { title: "Get your plan", desc: "Receive a personalized meal plan with recipes and grocery list." },
+    { title: "Cook & enjoy", desc: "Follow simple recipes. No stress, no waste." },
+  ],
+  whyChoose: "Why Choose This Plan",
+  sampleMeals: "Sample Meals",
+  faq: "Frequently Asked Questions",
+  related: "Related Meal Plans",
+  ctaTitle: "Your first week is free",
+  ctaSub: "Get a personalized 3-day meal plan with recipes and a grocery list. No credit card required.",
+  ctaBtn: "Start Your Free Plan",
+};
+
+const uiStrings: Record<string, TemplateUI> = {
+  en: defaultUI,
+  es: {
+    home: "Inicio", mealPlans: "Planes de Comida", howItWorks: "Cómo Funciona",
+    steps: [
+      { title: "Establece tus preferencias", desc: "Dinos tu dieta, tamaño del hogar, presupuesto y alergias." },
+      { title: "Recibe tu plan", desc: "Obtén un plan de comida personalizado con recetas y lista de compras." },
+      { title: "Cocina y disfruta", desc: "Sigue recetas simples. Sin estrés, sin desperdicio." },
+    ],
+    whyChoose: "Por Qué Elegir Este Plan", sampleMeals: "Comidas de Ejemplo", faq: "Preguntas Frecuentes",
+    related: "Planes de Comida Relacionados",
+    ctaTitle: "Tu primera semana es gratis", ctaSub: "Obtén un plan de comida personalizado de 3 días con recetas y lista de compras. Sin tarjeta de crédito.", ctaBtn: "Comienza Tu Plan Gratis",
+  },
+  fr: {
+    home: "Accueil", mealPlans: "Plans Repas", howItWorks: "Comment Ça Marche",
+    steps: [
+      { title: "Définissez vos préférences", desc: "Indiquez votre régime, taille du foyer, budget et allergies." },
+      { title: "Recevez votre plan", desc: "Obtenez un plan repas personnalisé avec recettes et liste de courses." },
+      { title: "Cuisinez et savourez", desc: "Suivez des recettes simples. Sans stress, sans gaspillage." },
+    ],
+    whyChoose: "Pourquoi Choisir Ce Plan", sampleMeals: "Exemples de Repas", faq: "Questions Fréquentes",
+    related: "Plans Repas Associés",
+    ctaTitle: "Votre première semaine est gratuite", ctaSub: "Recevez un plan repas personnalisé de 3 jours avec recettes et liste de courses. Sans carte de crédit.", ctaBtn: "Commencez Votre Plan Gratuit",
+  },
+  de: {
+    home: "Startseite", mealPlans: "Essenspläne", howItWorks: "So Funktioniert's",
+    steps: [
+      { title: "Präferenzen festlegen", desc: "Geben Sie Ihre Diät, Haushaltsgröße, Budget und Allergien an." },
+      { title: "Plan erhalten", desc: "Erhalten Sie einen personalisierten Essensplan mit Rezepten und Einkaufsliste." },
+      { title: "Kochen & genießen", desc: "Folgen Sie einfachen Rezepten. Kein Stress, keine Verschwendung." },
+    ],
+    whyChoose: "Warum Diesen Plan Wählen", sampleMeals: "Beispielgerichte", faq: "Häufig Gestellte Fragen",
+    related: "Verwandte Essenspläne",
+    ctaTitle: "Ihre erste Woche ist kostenlos", ctaSub: "Erhalten Sie einen personalisierten 3-Tage-Essensplan mit Rezepten und Einkaufsliste. Keine Kreditkarte erforderlich.", ctaBtn: "Starten Sie Ihren Kostenlosen Plan",
+  },
+  pt: {
+    home: "Início", mealPlans: "Planos de Refeição", howItWorks: "Como Funciona",
+    steps: [
+      { title: "Defina suas preferências", desc: "Diga-nos sua dieta, tamanho da família, orçamento e alergias." },
+      { title: "Receba seu plano", desc: "Receba um plano de refeição personalizado com receitas e lista de compras." },
+      { title: "Cozinhe e aproveite", desc: "Siga receitas simples. Sem estresse, sem desperdício." },
+    ],
+    whyChoose: "Por Que Escolher Este Plano", sampleMeals: "Refeições Exemplo", faq: "Perguntas Frequentes",
+    related: "Planos de Refeição Relacionados",
+    ctaTitle: "Sua primeira semana é grátis", ctaSub: "Receba um plano de refeição personalizado de 3 dias com receitas e lista de compras. Sem cartão de crédito.", ctaBtn: "Comece Seu Plano Grátis",
+  },
+  ja: {
+    home: "ホーム", mealPlans: "食事プラン", howItWorks: "使い方",
+    steps: [
+      { title: "好みを設定", desc: "食事法、世帯人数、予算、アレルギーをお知らせください。" },
+      { title: "プランを受け取る", desc: "レシピと買い物リスト付きのパーソナライズ食事プランを受け取ります。" },
+      { title: "料理を楽しむ", desc: "シンプルなレシピに従うだけ。ストレスなし、無駄なし。" },
+    ],
+    whyChoose: "このプランを選ぶ理由", sampleMeals: "サンプルメニュー", faq: "よくある質問",
+    related: "関連する食事プラン",
+    ctaTitle: "最初の1週間は無料", ctaSub: "レシピと買い物リスト付きのパーソナライズされた3日間食事プランを入手。クレジットカード不要。", ctaBtn: "無料プランを始める",
+  },
+  ko: {
+    home: "홈", mealPlans: "식사 계획", howItWorks: "이용 방법",
+    steps: [
+      { title: "선호도 설정", desc: "식단, 가구 규모, 예산, 알레르기를 알려주세요." },
+      { title: "플랜 받기", desc: "레시피와 장보기 목록이 포함된 맞춤 식사 계획을 받으세요." },
+      { title: "요리하고 즐기기", desc: "간단한 레시피를 따르세요. 스트레스 없이, 낭비 없이." },
+    ],
+    whyChoose: "이 플랜을 선택하는 이유", sampleMeals: "샘플 식사", faq: "자주 묻는 질문",
+    related: "관련 식사 계획",
+    ctaTitle: "첫 주는 무료입니다", ctaSub: "레시피와 장보기 목록이 포함된 개인 맞춤 3일 식사 계획을 받으세요. 신용카드 필요 없음.", ctaBtn: "무료 플랜 시작하기",
+  },
+  zh: {
+    home: "首页", mealPlans: "膳食计划", howItWorks: "如何使用",
+    steps: [
+      { title: "设置偏好", desc: "告诉我们您的饮食习惯、家庭人数、预算和过敏情况。" },
+      { title: "获取计划", desc: "获取包含食谱和购物清单的个性化膳食计划。" },
+      { title: "烹饪享用", desc: "按照简单食谱操作。无压力，无浪费。" },
+    ],
+    whyChoose: "为什么选择此计划", sampleMeals: "示例餐点", faq: "常见问题",
+    related: "相关膳食计划",
+    ctaTitle: "第一周免费", ctaSub: "获取包含食谱和购物清单的个性化3天膳食计划。无需信用卡。", ctaBtn: "开始免费计划",
+  },
+  ar: {
+    home: "الرئيسية", mealPlans: "خطط الوجبات", howItWorks: "كيف يعمل",
+    steps: [
+      { title: "حدد تفضيلاتك", desc: "أخبرنا عن نظامك الغذائي وحجم أسرتك وميزانيتك وحساسياتك." },
+      { title: "احصل على خطتك", desc: "احصل على خطة وجبات مخصصة مع وصفات وقائمة تسوق." },
+      { title: "اطبخ واستمتع", desc: "اتبع وصفات بسيطة. بدون توتر، بدون هدر." },
+    ],
+    whyChoose: "لماذا تختار هذه الخطة", sampleMeals: "وجبات نموذجية", faq: "الأسئلة الشائعة",
+    related: "خطط وجبات ذات صلة",
+    ctaTitle: "أسبوعك الأول مجاني", ctaSub: "احصل على خطة وجبات مخصصة لمدة 3 أيام مع وصفات وقائمة تسوق. لا حاجة لبطاقة ائتمان.", ctaBtn: "ابدأ خطتك المجانية",
+  },
+  tr: {
+    home: "Ana Sayfa", mealPlans: "Yemek Planları", howItWorks: "Nasıl Çalışır",
+    steps: [
+      { title: "Tercihlerinizi belirleyin", desc: "Diyetinizi, hane büyüklüğünüzü, bütçenizi ve alerjilerinizi bize bildirin." },
+      { title: "Planınızı alın", desc: "Tarifler ve alışveriş listesi ile kişiselleştirilmiş bir yemek planı alın." },
+      { title: "Pişirin ve tadını çıkarın", desc: "Basit tarifleri takip edin. Stres yok, israf yok." },
+    ],
+    whyChoose: "Bu Planı Neden Seçmelisiniz", sampleMeals: "Örnek Yemekler", faq: "Sık Sorulan Sorular",
+    related: "İlgili Yemek Planları",
+    ctaTitle: "İlk haftanız ücretsiz", ctaSub: "Tarifler ve alışveriş listesi ile kişiselleştirilmiş 3 günlük yemek planı alın. Kredi kartı gerekmez.", ctaBtn: "Ücretsiz Planınızı Başlatın",
+  },
+  hi: {
+    home: "होम", mealPlans: "भोजन योजनाएं", howItWorks: "कैसे काम करता है",
+    steps: [
+      { title: "अपनी प्राथमिकताएं सेट करें", desc: "अपना आहार, परिवार का आकार, बजट और एलर्जी बताएं।" },
+      { title: "अपनी योजना प्राप्त करें", desc: "व्यंजनों और किराने की सूची के साथ व्यक्तिगत भोजन योजना प्राप्त करें।" },
+      { title: "पकाएं और आनंद लें", desc: "सरल व्यंजनों का पालन करें। कोई तनाव नहीं, कोई बर्बादी नहीं।" },
+    ],
+    whyChoose: "यह योजना क्यों चुनें", sampleMeals: "नमूना भोजन", faq: "अक्सर पूछे जाने वाले प्रश्न",
+    related: "संबंधित भोजन योजनाएं",
+    ctaTitle: "आपका पहला सप्ताह मुफ्त है", ctaSub: "व्यंजनों और किराने की सूची के साथ व्यक्तिगत 3-दिन की भोजन योजना प्राप्त करें। क्रेडिट कार्ड की आवश्यकता नहीं।", ctaBtn: "अपनी मुफ्त योजना शुरू करें",
+  },
+};
+
+function getUI(locale?: string): TemplateUI {
+  if (!locale) return defaultUI;
+  return uiStrings[locale] ?? defaultUI;
+}
 
 function FAQSchema({ faqs }: { faqs: MealPlanPageData["faqs"] }) {
   const schema = {
@@ -37,14 +189,17 @@ function FAQSchema({ faqs }: { faqs: MealPlanPageData["faqs"] }) {
   );
 }
 
-export function MealPlanTemplate({ data }: { data: MealPlanPageData }) {
+export function MealPlanTemplate({ data, locale }: { data: MealPlanPageData; locale?: string }) {
+  const prefix = locale && locale !== "en" ? `/${locale}` : "";
+  const ui = getUI(locale);
+
   return (
     <>
       <BreadcrumbJsonLd
         items={[
-          { name: "Home", url: "https://whatsfordinner.fit" },
-          { name: "Meal Plans", url: "https://whatsfordinner.fit/meal-plans" },
-          { name: data.h1, url: `https://whatsfordinner.fit/meal-plans/${data.slug}` },
+          { name: ui.home, url: `https://whatsfordinner.fit${prefix || ""}` },
+          { name: ui.mealPlans, url: `https://whatsfordinner.fit${prefix}/meal-plans` },
+          { name: data.h1, url: `https://whatsfordinner.fit${prefix}/meal-plans/${data.slug}` },
         ]}
       />
       <FAQSchema faqs={data.faqs} />
@@ -52,9 +207,9 @@ export function MealPlanTemplate({ data }: { data: MealPlanPageData }) {
       <article className="py-10 sm:py-16">
         {/* Breadcrumb nav */}
         <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-6">
-          <Link href="/" className="hover:text-orange-500 transition-colors">Home</Link>
+          <Link href={prefix || "/"} className="hover:text-orange-500 transition-colors">{ui.home}</Link>
           <span>/</span>
-          <Link href="/meal-plans" className="hover:text-orange-500 transition-colors">Meal Plans</Link>
+          <Link href={`${prefix}/meal-plans`} className="hover:text-orange-500 transition-colors">{ui.mealPlans}</Link>
           <span>/</span>
           <span className="text-stone-600">{data.h1}</span>
         </nav>
@@ -76,16 +231,12 @@ export function MealPlanTemplate({ data }: { data: MealPlanPageData }) {
 
         {/* How It Works */}
         <section className="mb-12">
-          <h2 className="text-xl font-semibold text-stone-800 mb-6">How It Works</h2>
+          <h2 className="text-xl font-semibold text-stone-800 mb-6">{ui.howItWorks}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            {[
-              { step: "1", title: "Set your preferences", desc: "Tell us your diet, household size, budget, and allergies." },
-              { step: "2", title: "Get your plan", desc: "Receive a personalized meal plan with recipes and grocery list." },
-              { step: "3", title: "Cook & enjoy", desc: "Follow simple recipes. No stress, no waste." },
-            ].map((s) => (
-              <div key={s.step} className="rounded-xl border border-stone-100 bg-white p-5">
+            {ui.steps.map((s, i) => (
+              <div key={i} className="rounded-xl border border-stone-100 bg-white p-5">
                 <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-orange-500 text-white text-xs font-bold mb-3">
-                  {s.step}
+                  {i + 1}
                 </span>
                 <h3 className="text-sm font-semibold text-stone-800 mb-1">{s.title}</h3>
                 <p className="text-xs text-stone-500">{s.desc}</p>
@@ -96,7 +247,7 @@ export function MealPlanTemplate({ data }: { data: MealPlanPageData }) {
 
         {/* Value Props */}
         <section className="mb-12">
-          <h2 className="text-xl font-semibold text-stone-800 mb-6">Why Choose This Plan</h2>
+          <h2 className="text-xl font-semibold text-stone-800 mb-6">{ui.whyChoose}</h2>
           <div className="space-y-4">
             {data.valueProps.map((vp) => (
               <div key={vp.heading} className="rounded-xl border border-stone-100 bg-white p-5">
@@ -109,7 +260,7 @@ export function MealPlanTemplate({ data }: { data: MealPlanPageData }) {
 
         {/* Sample Meals */}
         <section className="mb-12">
-          <h2 className="text-xl font-semibold text-stone-800 mb-6">Sample Meals</h2>
+          <h2 className="text-xl font-semibold text-stone-800 mb-6">{ui.sampleMeals}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {data.sampleMeals.map((meal) => (
               <div key={meal.name} className="rounded-xl border border-stone-100 bg-white p-5">
@@ -135,7 +286,7 @@ export function MealPlanTemplate({ data }: { data: MealPlanPageData }) {
 
         {/* FAQ */}
         <section className="mb-12">
-          <h2 className="text-xl font-semibold text-stone-800 mb-6">Frequently Asked Questions</h2>
+          <h2 className="text-xl font-semibold text-stone-800 mb-6">{ui.faq}</h2>
           <div className="space-y-3">
             {data.faqs.map((faq) => (
               <details key={faq.question} className="rounded-xl border border-stone-100 bg-white group">
@@ -156,15 +307,20 @@ export function MealPlanTemplate({ data }: { data: MealPlanPageData }) {
         {/* Related Pages */}
         {data.relatedSlugs.length > 0 && (
           <section className="mb-12">
-            <h2 className="text-xl font-semibold text-stone-800 mb-6">Related Meal Plans</h2>
+            <h2 className="text-xl font-semibold text-stone-800 mb-6">{ui.related}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {data.relatedSlugs.map((slug) => {
-                const related = getMealPlanBySlug(slug);
+                const related = locale && locale !== "en"
+                  ? getTranslatedMealPlan(slug, locale)
+                  : getMealPlanBySlug(slug);
                 if (!related) return null;
+                const linkSlug = locale && locale !== "en"
+                  ? getSlugForLocale(slug, locale)
+                  : slug;
                 return (
                   <Link
                     key={slug}
-                    href={`/meal-plans/${slug}`}
+                    href={`${prefix}/meal-plans/${linkSlug}`}
                     className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all"
                   >
                     <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">
@@ -181,16 +337,16 @@ export function MealPlanTemplate({ data }: { data: MealPlanPageData }) {
         {/* CTA */}
         <section className="rounded-2xl bg-orange-500 p-8 sm:p-12 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3">
-            Your first week is free
+            {ui.ctaTitle}
           </h2>
           <p className="text-orange-100 text-sm sm:text-base mb-6 max-w-md mx-auto">
-            Get a personalized 3-day meal plan with recipes and a grocery list. No credit card required.
+            {ui.ctaSub}
           </p>
           <Link
             href="/onboarding"
             className="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-orange-600 bg-white hover:bg-orange-50 rounded-full shadow-md transition-colors"
           >
-            Start Your Free Plan
+            {ui.ctaBtn}
           </Link>
         </section>
       </article>

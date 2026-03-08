@@ -1,5 +1,10 @@
 import type { MetadataRoute } from "next";
 import { getAllMealPlanPages } from "@/data/meal-plans";
+import {
+  NON_DEFAULT_LOCALES,
+  getLocaleConfig,
+} from "@/lib/i18n/locales";
+import { getSlugForLocale } from "@/data/meal-plans/translations";
 
 const BASE = "https://whatsfordinner.fit";
 
@@ -27,26 +32,111 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const mealPlanPages = getAllMealPlanPages();
 
+  // Build hreflang alternates for each meal plan page
+  const mealPlanEntries: MetadataRoute.Sitemap = mealPlanPages.flatMap(
+    (page) => {
+      const languages: Record<string, string> = {
+        en: `${BASE}/meal-plans/${page.slug}`,
+        "x-default": `${BASE}/meal-plans/${page.slug}`,
+      };
+      for (const locale of NON_DEFAULT_LOCALES) {
+        const config = getLocaleConfig(locale);
+        const localizedSlug = getSlugForLocale(page.slug, locale);
+        languages[config.hreflang] =
+          `${BASE}/${locale}/meal-plans/${localizedSlug}`;
+      }
+
+      // English (canonical) entry
+      const englishEntry = {
+        url: `${BASE}/meal-plans/${page.slug}`,
+        lastModified: new Date(page.dateModified),
+        changeFrequency: "monthly" as const,
+        priority: page.type === "combo" ? 0.7 : 0.8,
+        alternates: { languages },
+      };
+
+      // Localized entries
+      const localizedEntries = NON_DEFAULT_LOCALES.map((locale) => {
+        const localizedSlug = getSlugForLocale(page.slug, locale);
+        return {
+          url: `${BASE}/${locale}/meal-plans/${localizedSlug}`,
+          lastModified: new Date(page.dateModified),
+          changeFrequency: "monthly" as const,
+          priority: page.type === "combo" ? 0.6 : 0.7,
+          alternates: { languages },
+        };
+      });
+
+      return [englishEntry, ...localizedEntries];
+    }
+  );
+
+  // Hub pages for each locale
+  const hubEntries: MetadataRoute.Sitemap = NON_DEFAULT_LOCALES.map(
+    (locale) => ({
+      url: `${BASE}/${locale}/meal-plans`,
+      lastModified: new Date("2026-03-08"),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })
+  );
+
   return [
-    { url: BASE, lastModified: new Date("2026-03-07"), changeFrequency: "weekly", priority: 1.0 },
-    { url: `${BASE}/blog`, lastModified: new Date("2026-03-07"), changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE}/meal-plans`, lastModified: new Date("2026-03-07"), changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE}/onboarding`, lastModified: new Date("2026-03-01"), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${BASE}/login`, lastModified: new Date("2026-03-01"), changeFrequency: "monthly", priority: 0.4 },
-    { url: `${BASE}/signup`, lastModified: new Date("2026-03-01"), changeFrequency: "monthly", priority: 0.4 },
-    { url: `${BASE}/privacy`, lastModified: new Date("2026-01-01"), changeFrequency: "yearly", priority: 0.3 },
-    { url: `${BASE}/terms`, lastModified: new Date("2026-01-01"), changeFrequency: "yearly", priority: 0.3 },
+    {
+      url: BASE,
+      lastModified: new Date("2026-03-07"),
+      changeFrequency: "weekly",
+      priority: 1.0,
+    },
+    {
+      url: `${BASE}/blog`,
+      lastModified: new Date("2026-03-07"),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${BASE}/meal-plans`,
+      lastModified: new Date("2026-03-07"),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${BASE}/onboarding`,
+      lastModified: new Date("2026-03-01"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE}/login`,
+      lastModified: new Date("2026-03-01"),
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
+    {
+      url: `${BASE}/signup`,
+      lastModified: new Date("2026-03-01"),
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
+    {
+      url: `${BASE}/privacy`,
+      lastModified: new Date("2026-01-01"),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${BASE}/terms`,
+      lastModified: new Date("2026-01-01"),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
     ...blogPosts.map((post) => ({
       url: `${BASE}/blog/${post.slug}`,
       lastModified: new Date(post.date),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
-    ...mealPlanPages.map((page) => ({
-      url: `${BASE}/meal-plans/${page.slug}`,
-      lastModified: new Date(page.dateModified),
-      changeFrequency: "monthly" as const,
-      priority: page.type === "combo" ? 0.7 : 0.8,
-    })),
+    ...hubEntries,
+    ...mealPlanEntries,
   ];
 }

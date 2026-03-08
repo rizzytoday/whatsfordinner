@@ -2,6 +2,11 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getAllMealPlanPages, getMealPlanBySlug } from "@/data/meal-plans";
 import { MealPlanTemplate } from "@/components/meal-plans/MealPlanTemplate";
+import {
+  NON_DEFAULT_LOCALES,
+  getLocaleConfig,
+} from "@/lib/i18n/locales";
+import { getSlugForLocale } from "@/data/meal-plans/translations";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -18,10 +23,22 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const url = `https://whatsfordinner.fit/meal-plans/${slug}`;
 
+  // Build hreflang alternates for all locales
+  const languages: Record<string, string> = {
+    en: url,
+    "x-default": url,
+  };
+  for (const loc of NON_DEFAULT_LOCALES) {
+    const config = getLocaleConfig(loc);
+    const locSlug = getSlugForLocale(slug, loc);
+    languages[config.hreflang] =
+      `https://whatsfordinner.fit/${loc}/meal-plans/${locSlug}`;
+  }
+
   return {
     title: data.title,
     description: data.metaDescription,
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages },
     openGraph: {
       title: data.title,
       description: data.metaDescription,
