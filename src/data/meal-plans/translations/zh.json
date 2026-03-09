@@ -4968,79 +4968,83 @@
     "title": "1800卡路里膳食计划",
     "metaDescription": "为活跃人士打造的1800卡路里膳食计划。附带购物清单。免费试用。",
     "h1": "为真正运动的人打造的1800卡路里膳食计划",
-    "intro": "If you're active and trying to lose weight, extreme calorie cuts backfire. An 1,800-calorie plan gives you enough fuel to power through workouts, stay sharp at work, and still create a moderate deficit that chips away at fat over time. These are real-sized meals with enough carbs for energy, enough protein for recovery, and enough flavor that you forget you're on a plan.",
+    "intro": "如果你热爱运动并希望减重，极端的热量削减只会适得其反。每日1800卡路里的计划能为你提供足够的能量，让你全力完成训练、保持工作中的专注力，同时维持适度的热量缺口，循序渐进地消耗脂肪。这些都是真实分量的餐食，含有充足的碳水化合物供能、足够的蛋白质助力恢复，以及让你忘记自己在节食的丰富口味。",
     "valueProps": [
       {
-        "heading": "Enough fuel for your life",
-        "description": "1,800 calories supports active women, moderately active men, and anyone who refuses to feel sluggish. You get proper pre- and post-workout nutrition without sacrificing your deficit."
+        "heading": "为你的生活提供充足能量",
+        "description": "1800卡路里适合活跃女性、中等活动量男性，以及任何拒绝感到疲惫迟钝的人。你可以获得适当的训练前后营养补充，同时不必牺牲热量缺口。"
       },
       {
-        "heading": "Gradual, lasting results",
-        "description": "A moderate 300-500 calorie deficit means you lose fat steadily without tanking your metabolism, losing muscle, or dealing with the brain fog that comes with aggressive dieting."
+        "heading": "循序渐进，持久见效",
+        "description": "每日300至500卡路里的温和缺口意味着你能稳定燃脂，而不会损害新陈代谢、流失肌肉，或承受激进节食带来的脑雾状态。"
       },
       {
-        "heading": "Meals that look like meals",
-        "description": "Full plates with generous portions of grains, proteins, vegetables, and healthy fats. No tiny sad salads — these are dinners you'd actually serve to company."
+        "heading": "像真正的一餐",
+        "description": "满满一盘，有充足的谷物、蛋白质、蔬菜和健康脂肪。没有可怜巴巴的小份沙拉——这些晚餐甚至可以端上桌招待客人。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Avocado Toast with Poached Eggs",
-        "description": "Sourdough toast topped with smashed avocado, two poached eggs, everything seasoning, and a side of mixed fruit. 420 calories with 20g protein.",
+        "name": "牛油果吐司配水波蛋",
+        "description": "酸面包吐司上铺满碾碎的牛油果、两个水波蛋、综合调味料，搭配一份什锦水果。含420卡路里，蛋白质20克。",
         "tags": [
           "high-protein",
           "quick"
         ]
       },
       {
-        "name": "Chicken Shawarma Bowl",
-        "description": "Spiced chicken thigh over basmati rice with hummus, pickled turnips, cucumber-tomato salad, and a drizzle of tahini sauce.",
+        "name": "鸡肉沙瓦尔玛饭碗",
+        "description": "香料腌制的鸡腿肉铺在印度香米饭上，搭配鹰嘴豆泥、腌芜菁、黄瓜番茄沙拉，最后淋上芝麻酱。",
         "tags": [
           "high-protein",
           "meal-prep"
         ]
       },
       {
-        "name": "Pesto Pasta with Sausage & Broccolini",
-        "description": "Whole wheat penne tossed with basil pesto, sliced chicken sausage, roasted broccolini, and a squeeze of lemon. Hearty but balanced.",
+        "name": "香蒜意面配香肠与嫩茎西兰花",
+        "description": "全麦笔管面拌入罗勒青酱、切片鸡肉香肠、烤嫩茎西兰花，挤入少许柠檬汁。丰盛而均衡。",
         "tags": [
           "quick",
           "high-protein"
         ]
       },
       {
-        "name": "Beef & Vegetable Stew",
-        "description": "Tender beef chuck simmered with potatoes, carrots, celery, and thyme in a rich broth. Served with a slice of crusty bread.",
+        "name": "牛肉蔬菜炖汤",
+        "description": "嫩滑的牛肩肉与土豆、胡萝卜、芹菜、百里香一同在浓郁高汤中慢炖。搭配一片脆皮面包享用。",
         "tags": [
           "high-protein",
           "comfort-food"
         ]
       },
       {
-        "name": "Trail Mix & String Cheese",
-        "description": "A quarter cup of homemade trail mix (almonds, cashews, dark chocolate chips, dried cranberries) with a stick of part-skim mozzarella. 250 calories.",
+        "name": "什锦坚果与奶酪条",
+        "description": "一把混合坚果干果与一根奶酪条，提供持续的能量与蛋白质，轻松满足两餐之间的饥饿感。",
         "tags": [
-          "no-cook",
-          "portable"
+          "quick",
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Will I lose weight on 1800 calories a day?",
-        "answer": "It depends on your total daily energy expenditure (TDEE). For most active women (burning 2,100-2,400 calories/day) and moderately active men (burning 2,300-2,600), 1,800 calories creates a meaningful deficit that leads to 0.5-1 pound of fat loss per week. It's slower than aggressive cuts, but you keep more muscle, maintain energy, and are far more likely to stick with it."
+        "question": "1800卡路里的饮食计划适合我吗？",
+        "answer": "这取决于你的身高、体重、年龄和活动水平。一般来说，1800卡路里适合希望缓慢减重的活跃女性，以及希望维持体重或轻度减重的中等活动量男性。如有特殊健康状况，请咨询注册营养师。"
       },
       {
-        "question": "Is 1800 calories enough for someone who works out daily?",
-        "answer": "For moderate workouts (45-60 minutes of strength training or cardio), 1,800 calories is typically sufficient. If you're doing intense two-a-day sessions or training for endurance events, you may need 2,000-2,500 calories. Pay attention to performance — if your lifts are dropping or runs feel significantly harder, it's a signal to eat more."
+        "question": "1800卡路里的计划能让我有饱腹感吗？",
+        "answer": "可以——只要食物选择得当。富含蛋白质、纤维和健康脂肪的餐食能让你长时间保持饱腹感。我们的计划避免空热量，优先选择营养密度高的食物，让每一卡路里都物超所值。"
       },
       {
-        "question": "What's the difference between 1500 and 1800 calorie plans?",
-        "answer": "About one extra snack and slightly larger portions at meals. The 1,800-calorie plan includes more complex carbohydrates (rice, pasta, bread) and allows for larger protein portions. It's better for active people because the extra 300 calories of carbs and protein directly support workout performance and recovery."
+        "question": "我需要计算每一餐的热量吗？",
+        "answer": "不需要。我们为你做好了全部计划。每份餐食计划都已精心设计，使全天总热量接近目标值，你只需按计划准备和享用即可。"
       },
       {
-        "question": "Can I build muscle on 1800 calories?",
-        "answer": "If you're new to strength training (first 6-12 months), you can build muscle and lose fat simultaneously at 1,800 calories as long as protein is high enough (130-150g/day). Experienced lifters typically need a calorie surplus to add muscle. Our plans can be adjusted to prioritize protein if muscle preservation is your main concern."
+        "question": "1800卡路里计划能否适应我的饮食偏好？",
+        "answer": "可以。在生成计划时，你可以指定饮食限制，例如无麸质、纯素、不含乳制品或其他偏好，我们会在1800卡路里框架内为你量身定制。"
+      },
+      {
+        "question": "每周计划中宏量营养素如何分配？",
+        "answer": "我们的1800卡路里计划通常遵循均衡的宏量营养素比例：约40%碳水化合物、30%蛋白质、30%脂肪，但具体比例会因你的个人目标和偏好而有所调整。"
       }
     ]
   },
@@ -5048,79 +5052,83 @@
     "title": "2000卡路里膳食计划",
     "metaDescription": "均衡日常饮食的2000卡路里膳食计划。附带购物清单。免费试用。",
     "h1": "均衡日常饮食的2000卡路里膳食计划",
-    "intro": "2,000 calories is the standard benchmark for a reason — it works for a huge range of adults looking to maintain their weight and eat well. Whether you're done dieting and want to hold your results, or you just want a structured plan that keeps nutrition on track without overthinking it, this is your baseline. Balanced macros, diverse ingredients, and meals that feel completely normal.",
+    "intro": "2000卡路里是许多营养标准的基准，但并不是一成不变的法则。对于中等活动量的成年人来说，这是维持体重、支撑日常能量需求的理想区间。我们的计划以充实的正餐和令人满意的零食构建你的每一天，让你无需精确计算热量，也能自然而然地保持在目标范围内。",
     "valueProps": [
       {
-        "heading": "The gold standard baseline",
-        "description": "Aligned with USDA dietary guidelines, a 2,000-calorie plan covers most adults' nutritional needs. It's the foundation that food labels are based on — and the easiest target to plan around."
+        "heading": "经典的维持热量",
+        "description": "2000卡路里是大多数成年人维持体重的合理起点——活动量越大，所需热量越多。这是一个让你既有饱腹感又不会过量的舒适区间。"
       },
       {
-        "heading": "Maintenance made simple",
-        "description": "Already at your goal weight? A 2,000-calorie plan keeps you there without the mental overhead of constant tracking. We handle the math so you can just cook and eat."
+        "heading": "真正的食物，真实的分量",
+        "description": "不再是鸟食分量。这些餐食包含完整的蛋白质、充足的碳水化合物和健康脂肪，让你整天精力充沛，不必在两餐之间偷吃零食。"
       },
       {
-        "heading": "Genuinely balanced meals",
-        "description": "No macronutrient is demonized. You get whole grains, lean and fatty proteins, plenty of produce, dairy if you want it, and enough flexibility for a dessert or glass of wine without guilt."
+        "heading": "每周自动规划",
+        "description": "每周你都会收到全新的7日计划，包含多样化的菜肴，避免饮食单调乏味。无需手动计划，直接开始烹饪即可。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Spinach & Feta Scramble with Toast",
-        "description": "Three scrambled eggs with fresh spinach and crumbled feta cheese, served alongside whole grain toast with butter and a small orange. 480 calories.",
+        "name": "燕麦粥配香蕉与花生酱",
+        "description": "奶油燕麦粥上放切片香蕉、一勺花生酱，撒上肉桂和蜂蜜，提供持久的早晨能量。",
         "tags": [
-          "high-protein",
+          "vegetarian",
           "quick"
         ]
       },
       {
-        "name": "Chicken Caesar Wrap",
-        "description": "Grilled chicken breast, romaine, shaved parmesan, and light Caesar dressing wrapped in a whole wheat tortilla with a side of grapes.",
+        "name": "火鸡肉末塔可饭碗",
+        "description": "香料炒火鸡肉配墨西哥香米、黑豆、玉米、莎莎酱和少许酸奶油，营养均衡又美味。",
         "tags": [
           "high-protein",
-          "portable"
+          "meal-prep"
         ]
       },
       {
-        "name": "Salmon Teriyaki with Jasmine Rice & Bok Choy",
-        "description": "Glazed salmon fillet over jasmine rice with sauteed bok choy and toasted sesame seeds. A restaurant-quality dinner at home.",
+        "name": "三文鱼配烤蔬菜与藜麦",
+        "description": "橄榄油香草烤三文鱼片，搭配彩色烤蔬菜和松软藜麦，营养丰富、色彩诱人。",
         "tags": [
           "high-protein",
-          "omega-3"
+          "gluten-free"
         ]
       },
       {
-        "name": "Turkey Bolognese with Spaghetti",
-        "description": "Lean ground turkey simmered in a rich tomato sauce with garlic, basil, and a touch of red wine, served over whole wheat spaghetti with grated parmesan.",
+        "name": "鹰嘴豆蔬菜咖喱",
+        "description": "番茄椰奶咖喱底料中炖入鹰嘴豆、菠菜和地瓜，搭配糙米饭，温暖又令人满足。",
         "tags": [
-          "high-protein",
-          "comfort-food"
+          "vegan",
+          "meal-prep"
         ]
       },
       {
-        "name": "Hummus & Veggie Plate",
-        "description": "A generous scoop of hummus with carrot sticks, cucumber rounds, bell pepper strips, and a handful of whole grain crackers. 240 calories.",
+        "name": "希腊酸奶配莓果与格兰诺拉麦片",
+        "description": "浓稠希腊酸奶上放新鲜混合莓果和一把格兰诺拉麦片，蛋白质丰富，是完美的零食或早餐。",
         "tags": [
           "vegetarian",
-          "no-cook"
+          "quick"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Is 2000 calories right for me?",
-        "answer": "2,000 calories is a good maintenance target for most moderately active adult women and sedentary to lightly active men. Your exact needs depend on age, height, weight, and activity level. If you're maintaining your weight without trying at 2,000 calories, it's the right number. If you're slowly gaining, you may need to drop to 1,800. Our plans adapt to your preferences and goals."
+        "question": "2000卡路里的饮食计划适合所有人吗？",
+        "answer": "并非完全适合所有人，但这是一个广泛适用的起点。体型较小或活动量较少的人可能需要稍少的热量，而体型较大或非常活跃的人可能需要更多。2000卡路里是营养标签的参考值，对大多数成年人来说是合理的基准。"
       },
       {
-        "question": "Can I lose weight on 2000 calories?",
-        "answer": "Yes — if your TDEE is above 2,000. Active men burning 2,500+ calories daily will lose about a pound a week at 2,000 calories. Taller, more active women may also see weight loss. For most average-height, moderately active women, 2,000 calories is closer to maintenance. It depends entirely on your individual energy expenditure."
+        "question": "这个计划能帮助我减重吗？",
+        "answer": "这取决于你目前的热量消耗。如果你通常摄入超过2000卡路里，那么这个计划可能会带来温和的热量缺口。如果你的维持热量低于2000，则可能需要调整目标。"
       },
       {
-        "question": "How are the 2000 calories distributed across meals?",
-        "answer": "Our standard split is roughly 450-500 calories for breakfast, 500-550 for lunch, 600-650 for dinner, and 300-400 across 1-2 snacks. This keeps energy steady throughout the day. You can adjust this distribution in your profile — some people prefer a lighter breakfast and larger dinner, and we'll accommodate that."
+        "question": "2000卡路里计划中包含哪些类型的食物？",
+        "answer": "我们注重食物多样性：瘦肉蛋白、全谷物、大量蔬菜、健康脂肪以及适量天然糖分的水果。不会有极端的食物限制，只是营养均衡的真实饮食。"
       },
       {
-        "question": "What macros should I aim for at 2000 calories?",
-        "answer": "A solid general target is 50% carbohydrates (250g), 25% protein (125g), and 25% fat (56g). Our plans hit close to these ratios while prioritizing whole food sources. If you have specific goals like higher protein for muscle maintenance, you can set that in your preferences and we'll adjust the recipes accordingly."
+        "question": "我可以自定义这个计划吗？",
+        "answer": "可以。在设置饮食偏好时，你可以指定过敏原、饮食模式（如纯素、无麸质等）以及不喜欢的食物，我们会在2000卡路里框架内为你量身规划。"
+      },
+      {
+        "question": "这个计划包含零食吗？",
+        "answer": "包含。大多数计划包含每日一到两份零食，合理分配在正餐之间，帮助你保持血糖稳定，避免暴饮暴食。"
       }
     ]
   },
@@ -5128,83 +5136,83 @@
     "title": "2500卡路里膳食计划",
     "metaDescription": "为高性能表现打造的2500卡路里膳食计划。附带购物清单。免费试用。",
     "h1": "为高性能表现打造的2500卡路里膳食计划",
-    "intro": "If you're training hard, building muscle, or just have an active job that burns through fuel, 2,000 calories isn't going to cut it. A 2,500-calorie plan gives you the energy to perform, the protein to recover, and the carbs to keep glycogen topped off — all from real food, not shakes and bars. We plan your week with hearty meals that support your goals without resorting to junk.",
+    "intro": "2500卡路里是认真对待增肌或高强度训练者的理想热量区间。无论你是举铁、进行耐力训练，还是体力劳动繁重，这个计划都能确保你的身体获得足够的燃料，支撑表现、促进恢复，并在需要时实现增肌目标。",
     "valueProps": [
       {
-        "heading": "Protein for progress",
-        "description": "Every day includes 150-180g of protein spread across meals to support muscle protein synthesis. We use a mix of animal and plant sources so you're never choking down another dry chicken breast."
+        "heading": "支撑高强度表现",
+        "description": "2500卡路里能充分满足高强度训练者、运动员，以及工作或生活消耗大量体力的人。训练前后都有充足的营养储备。"
       },
       {
-        "heading": "Carbs for energy, not filler",
-        "description": "Complex carbs from oats, rice, sweet potatoes, and whole grains fuel your workouts and recovery. We time higher-carb meals around your activity windows for maximum benefit."
+        "heading": "增肌友好的宏量营养素",
+        "description": "计划优先保证充足的蛋白质（通常每日160克以上），搭配足够的碳水化合物为肌肉补充糖原，以及支持荷尔蒙健康的优质脂肪。"
       },
       {
-        "heading": "Clean calories, not empty ones",
-        "description": "It's easy to hit 2,500 calories with fast food. The hard part is doing it with whole, nutrient-dense ingredients. Our plans make it easy with big, satisfying meals that are still built on real food."
+        "heading": "丰盛的餐食，不必强迫进食",
+        "description": "2500卡路里用真实、美味的食物就能轻松达到，无需痛苦地灌下蛋白质奶昔或强迫自己多吃。这些是你真正想吃的大份餐食。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Loaded Breakfast Burrito",
-        "description": "Scrambled eggs with turkey sausage, black beans, cheddar, avocado, and salsa in a large flour tortilla. 580 calories with 35g protein.",
+        "name": "高蛋白早餐煎蛋卷",
+        "description": "三个鸡蛋和三个蛋清炒成蛋卷，填入火鸡火腿、菠菜和切达奶酪，搭配全麦吐司和橙汁。含45克蛋白质。",
         "tags": [
           "high-protein",
-          "portable"
+          "quick"
         ]
       },
       {
-        "name": "Grilled Chicken & Quinoa Power Bowl",
-        "description": "Grilled chicken breast over quinoa with roasted sweet potato, black beans, corn, avocado, and chipotle lime dressing.",
+        "name": "牛肉炒饭",
+        "description": "精瘦牛肉末与糙米、混合蔬菜、鸡蛋和日式酱油一同翻炒，分量十足，适合备餐。",
         "tags": [
           "high-protein",
           "meal-prep"
         ]
       },
       {
-        "name": "Steak Fajitas with Rice & Beans",
-        "description": "Seared flank steak with charred peppers and onions, served with Spanish rice, refried beans, warm tortillas, and fresh pico de gallo.",
+        "name": "鸡胸肉配红薯与蔬菜",
+        "description": "香草烤鸡胸肉搭配烤红薯和清炒四季豆，简单、营养均衡，是经典的增肌餐。",
         "tags": [
           "high-protein",
-          "high-calorie"
+          "gluten-free"
         ]
       },
       {
-        "name": "Baked Chicken Parmesan with Pasta",
-        "description": "Breaded and baked chicken breast topped with marinara and melted mozzarella, served over a generous portion of spaghetti with a side salad.",
+        "name": "意大利肉酱全麦意面",
+        "description": "精瘦牛肉末煮成浓郁番茄肉酱，拌入全麦意面，上桌前撒上帕玛森奶酪，满足又高蛋白。",
         "tags": [
           "high-protein",
           "comfort-food"
         ]
       },
       {
-        "name": "Protein Smoothie with Oats",
-        "description": "Banana, peanut butter, protein powder, rolled oats, and whole milk blended thick. 420 calories with 30g protein — the easiest clean calories you'll find.",
+        "name": "大份希腊酸奶配坚果与蜂蜜",
+        "description": "250克全脂希腊酸奶，加入一把混合坚果、蜂蜜和奇亚籽，卡路里密度高，蛋白质丰富。",
         "tags": [
-          "high-protein",
-          "quick"
+          "vegetarian",
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Who needs a 2500 calorie meal plan?",
-        "answer": "Active men (exercising 4-6 times per week), male athletes in training, tall or large-framed individuals maintaining their weight, and anyone in a lean bulk phase looking to add muscle. Some very active women — endurance athletes, manual laborers — also need this level of intake. If you're consistently hungry on 2,000 calories and not gaining weight, 2,500 is likely closer to your needs."
+        "question": "2500卡路里的计划适合增肌吗？",
+        "answer": "非常适合，尤其是配合力量训练时。热量盈余（超过你的维持热量）加上充足的蛋白质，是肌肉生长的必要条件。如果你的维持热量约为2300，那么2500卡路里能提供适度的增肌盈余。"
       },
       {
-        "question": "How much protein should I eat at 2500 calories?",
-        "answer": "For muscle building and athletic performance, aim for 150-200g of protein per day, which represents about 25-30% of your total intake. Our plans typically deliver 160-180g spread across all meals and snacks. This level supports muscle protein synthesis, recovery from training, and helps keep you lean even at a higher calorie intake."
+        "question": "我应该在训练日和休息日都吃2500卡路里吗？",
+        "answer": "很多人选择在训练日和休息日保持相同的热量摄入，以简化计划执行。如果你想精细管理，可以在休息日稍微减少碳水化合物的摄入，但对于大多数人而言并非必要。"
       },
       {
-        "question": "Will I gain fat on 2500 calories?",
-        "answer": "Only if 2,500 exceeds your TDEE. If you're burning 2,500 calories daily, this is maintenance. If you're burning 2,800+, you'll actually lose weight. For a lean bulk (gaining muscle with minimal fat), you want a modest 200-300 calorie surplus. Track your weight weekly — if you're gaining more than 0.5 lbs/week, you're likely in too large a surplus."
+        "question": "2500卡路里的计划难以坚持吗？",
+        "answer": "如果你的活动量大，其实并不难——你的身体真的需要这么多热量。如果你感觉难以吃完，可以增加更多热量密度高的食物，如坚果、牛油果、橄榄油或全脂乳制品。"
       },
       {
-        "question": "Can I hit 2500 calories without eating junk food?",
-        "answer": "Absolutely, and that's the whole point of our plans. Calorie-dense whole foods like nuts, avocados, olive oil, oats, dried fruit, whole eggs, and fatty fish make it easy to reach 2,500 without touching processed food. A tablespoon of olive oil adds 120 calories. A handful of almonds adds 170. Our plans strategically include these to hit your target from clean sources."
+        "question": "这个计划含有多少蛋白质？",
+        "answer": "我们的2500卡路里计划通常包含每日150至200克蛋白质，具体取决于你的饮食偏好。这足以支撑大多数力量运动员和健身爱好者的增肌需求。"
       },
       {
-        "question": "How do I split 2500 calories across the day?",
-        "answer": "Our standard split is roughly 550-600 calories for breakfast, 600-650 for lunch, 700-750 for dinner, and 400-500 across snacks. If you train in the morning, we can front-load more carbs at breakfast. If you train in the evening, we shift the larger meal to post-workout dinner. You can set your training schedule in your profile."
+        "question": "这个计划适合女性吗？",
+        "answer": "适合非常活跃的女性，例如专业运动员、竞技举重者，或从事高体力强度工作的人。对于大多数普通活动量的女性，2500卡路里可能超过维持热量，会导致体重缓慢增加。"
       }
     ]
   },
@@ -5212,83 +5220,83 @@
     "title": "3000卡路里膳食计划",
     "metaDescription": "全是能量、没有垃圾食品的3000卡路里膳食计划。附带购物清单。免费试用。",
     "h1": "全是燃料、没有垃圾食品的3000卡路里膳食计划",
-    "intro": "Eating 3,000 clean calories a day is harder than it sounds. Anyone can demolish a pizza and call it bulking — the challenge is getting there with meals that actually build muscle, support recovery, and keep your energy stable. We plan your week with big, nutrient-dense meals spread across the day so you never have to force-feed yourself in one sitting or rely on mass gainer shakes.",
+    "intro": "每天摄入3000卡路里并不简单——需要认真规划，才能将热量转化为表现和增肌，而非只是体重增加。这个计划专为认真训练的运动员、硬派增肌者和高代谢人群设计，将热量合理分配到充实的正餐和策略性零食中，让你每一口都物尽其用。",
     "valueProps": [
       {
-        "heading": "Mass without the mess",
-        "description": "Our plans prove you don't need dirty bulking to hit high calories. Every meal is built on whole foods — lean meats, complex carbs, healthy fats, and produce — so the weight you gain is the kind you want."
+        "heading": "专为认真训练者设计",
+        "description": "3000卡路里计划面向竞技运动员、繁重力量训练者，以及那些无论吃多少似乎都无法增重的人。这是严肃的营养支持。"
       },
       {
-        "heading": "Spread across the day",
-        "description": "Three large meals plus two substantial snacks make 3,000 calories feel manageable rather than overwhelming. No single meal exceeds 850 calories, so you're never uncomfortably stuffed."
+        "heading": "将热量转化为增肌",
+        "description": "不是所有卡路里都等效。我们用高蛋白食物、复合碳水化合物和健康脂肪来填满3000卡路里，而不是依赖加工食品或空热量垃圾。"
       },
       {
-        "heading": "Recovery-optimized nutrition",
-        "description": "High protein (180-200g/day), adequate carbs for glycogen replenishment, and anti-inflammatory foods like fatty fish, berries, and turmeric to help your body bounce back from hard training."
+        "heading": "多餐策略助力全天表现",
+        "description": "大量热量分散在4至6餐中，维持稳定的血糖和肌肉合成信号，让你在训练时保持最佳状态。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Banana Pancakes with Eggs & Turkey Bacon",
-        "description": "A stack of fluffy banana protein pancakes with maple syrup, two scrambled eggs, and three strips of turkey bacon. 650 calories with 40g protein.",
+        "name": "高蛋白煎饼配鸡蛋与培根",
+        "description": "三片全麦煎饼、三个炒蛋、两片火鸡培根，搭配新鲜浆果和少量枫糖浆。约750卡路里的丰盛早餐。",
         "tags": [
           "high-protein",
-          "high-calorie"
+          "comfort-food"
         ]
       },
       {
-        "name": "Double Chicken Burrito Bowl",
-        "description": "Double portion of grilled chicken over cilantro-lime rice with black beans, corn salsa, guacamole, sour cream, and shredded cheese.",
+        "name": "金枪鱼牛油果米饭碗",
+        "description": "大份寿司饭配罐头金枪鱼、牛油果、黄瓜、毛豆和日式蛋黄酱，简单快手却热量充足。",
         "tags": [
           "high-protein",
-          "high-calorie"
+          "quick"
         ]
       },
       {
-        "name": "Garlic Butter Ribeye with Mashed Potatoes",
-        "description": "Pan-seared ribeye basted with garlic herb butter, served with creamy mashed potatoes and roasted broccoli with parmesan.",
+        "name": "牛排配土豆泥与芦笋",
+        "description": "160克西冷牛排，搭配黄油土豆泥和柠檬蒜味芦笋，经典的高热量增肌餐。",
         "tags": [
           "high-protein",
-          "high-calorie"
+          "gluten-free"
         ]
       },
       {
-        "name": "Teriyaki Salmon Rice Bowl",
-        "description": "Generous teriyaki-glazed salmon fillet over a large bed of sticky rice with edamame, pickled ginger, avocado, and sriracha mayo.",
+        "name": "全麦意面配烤鸡与番茄罗勒酱",
+        "description": "200克全麦意面拌入自制番茄酱，搭配大份烤鸡胸肉和新鲜罗勒，是增肌期的理想碳水加蛋白质组合。",
         "tags": [
           "high-protein",
-          "omega-3"
+          "meal-prep"
         ]
       },
       {
-        "name": "PB&J Overnight Oats with Protein",
-        "description": "Rolled oats soaked in whole milk with peanut butter, strawberry jam, protein powder, and chia seeds. 520 calories with 35g protein — prep the night before.",
+        "name": "花生酱香蕉燕麦奶昔",
+        "description": "全脂牛奶、两勺花生酱、一根冻香蕉、半杯燕麦和一勺蛋白粉混合而成，热量约600卡路里。",
         "tags": [
-          "meal-prep",
-          "high-calorie"
+          "high-protein",
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Who needs to eat 3000 calories a day?",
-        "answer": "Serious athletes training 5-7 days per week, people in physically demanding jobs (construction, military, farming), tall or large-framed men maintaining their weight, and anyone in a dedicated muscle-building phase. If you're under 25 and very active, your metabolism may genuinely require this level of intake. If you're unsure, track your weight for two weeks at your current intake to establish your actual needs."
+        "question": "谁需要每天摄入3000卡路里？",
+        "answer": "竞技运动员、高强度力量训练者、体型较大且活动量大的男性，以及那些新陈代谢极快、难以增重的人。3000卡路里对于普通活动量的人来说通常过多，但对正确的人群来说是完全合理的。"
       },
       {
-        "question": "How do I eat 3000 calories without feeling sick?",
-        "answer": "Spread it out. Five eating occasions (3 meals + 2 snacks) at 500-800 calories each is far more manageable than three 1,000-calorie meals. Use calorie-dense foods strategically — nuts, nut butters, avocado, olive oil, dried fruit, and whole milk add significant calories without much volume. Our plans use these ingredients naturally so you're not forcing down enormous portions."
+        "question": "3000卡路里的饮食计划能帮助增肌吗？",
+        "answer": "可以，尤其是配合渐进性超负荷力量训练时。关键是确保足够的蛋白质摄入（通常每磅体重0.7至1克），其余热量来自碳水化合物和脂肪。"
       },
       {
-        "question": "What's the difference between clean and dirty bulking?",
-        "answer": "Dirty bulking means eating anything and everything to maximize calories — fast food, sugary snacks, processed food. You gain weight fast, but much of it is fat. Clean bulking uses whole, nutrient-dense foods at a moderate surplus (300-500 calories above maintenance). You gain muscle more slowly but stay leaner, feel better, and don't have to do an aggressive cut afterward. Our 3,000-calorie plans are designed for clean bulking."
+        "question": "一天吃3000卡路里感觉太多了怎么办？",
+        "answer": "增加热量密度高的食物：坚果、坚果酱、牛油果、橄榄油、全脂乳制品、干果和燕麦。这些食物每口提供的热量更多，不会让你感觉撑到不行。"
       },
       {
-        "question": "How much muscle can I gain on 3000 calories?",
-        "answer": "With proper training and adequate protein, most natural lifters can gain 1-2 pounds of muscle per month during a bulk. At 3,000 calories (assuming a 300-500 calorie surplus), you might gain 2-4 pounds total per month — some muscle, some fat. The cleaner your diet and the more consistent your training, the more of that gain will be lean mass. Beginners may see faster results in their first year."
+        "question": "我需要把3000卡路里分成几餐？",
+        "answer": "大多数人发现3至5餐最为可行，具体取决于你的时间安排。如果有帮助，可以在训练后加一次高热量零食。一次性吃下3000卡路里既不现实，也不理想。"
       },
       {
-        "question": "Should I eat 3000 calories on rest days?",
-        "answer": "You can slightly reduce intake on rest days (by 200-300 calories) since you're burning less, but don't slash dramatically. Muscle repair and growth happen during rest, and your body needs fuel for that process. Our plans can alternate between training and rest day calorie targets if you set your workout schedule in your profile."
+        "question": "3000卡路里计划能满足我对碳水化合物的需求吗？",
+        "answer": "可以。高强度训练需要大量碳水化合物来补充肌糖原。我们的计划包含足够的米饭、意面、土豆、燕麦和其他复合碳水化合物，为你的训练提供充足燃料。"
       }
     ]
   },
@@ -5296,79 +5304,83 @@
     "title": "3天膳食计划",
     "metaDescription": "快速启动一周的3天膳食计划。附带购物清单。免费试用。",
     "h1": "快速启动一周的3天膳食计划",
-    "intro": "Not sure if meal planning is for you? A 3-day plan is the perfect low-pressure way to find out. Cover your busiest weeknights with balanced, easy-to-cook meals and see how much time and mental energy you save. Our free trial is exactly this — three days of planned meals so you can experience the difference before committing to a full week.",
+    "intro": "有时候你不需要一整周的计划，只需一个周末、一次短途旅行，或者只是想在全面承诺之前先尝试一下。三日计划非常适合初次体验有规划饮食的感觉，或者在你只需要安排几天的时候使用。",
     "valueProps": [
       {
-        "heading": "Zero commitment, real results",
-        "description": "Three days is enough to feel the difference. No grocery waste, no 6 PM panic, no decision fatigue. Just a short test drive to see if planned meals fit your life."
+        "heading": "低门槛入门",
+        "description": "三天的计划不会让你感到不知所措。你可以一次购买少量食材，不必一下子就承诺一整周的备餐。非常适合尝试新饮食习惯。"
       },
       {
-        "heading": "Perfect for weekend prep",
-        "description": "Use a Sunday afternoon to prep three days of meals. You'll breeze through Monday to Wednesday with everything already figured out — recipes, portions, and groceries."
+        "heading": "周末备餐的理想选择",
+        "description": "从周五到周日，三日计划能覆盖你最容易饮食失调的时段，让你在放松的同时保持正轨。"
       },
       {
-        "heading": "Try it free, right now",
-        "description": "Our free plan generates exactly 3 days of personalized meals based on your dietary preferences. No credit card, no account required. Just tell us what you like and get your plan."
+        "heading": "可延伸为更长的计划",
+        "description": "喜欢这三天的安排？只需点击一下，即可生成下一周的完整七日计划。从小处开始，按需扩展。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Overnight Oats with Banana & Peanut Butter",
-        "description": "Rolled oats soaked overnight in milk with sliced banana, a swirl of peanut butter, and a drizzle of honey. Grab from the fridge and go.",
+        "name": "希腊酸奶配莓果碗",
+        "description": "浓稠希腊酸奶上放新鲜蓝莓和草莓、格兰诺拉麦片和蜂蜜。简单、令人满足的一餐，不到10分钟即可完成。",
         "tags": [
-          "meal-prep",
-          "no-cook"
+          "vegetarian",
+          "quick"
         ]
       },
       {
-        "name": "Chicken Caesar Wrap",
-        "description": "Grilled chicken strips with romaine, shaved parmesan, and light Caesar dressing rolled in a whole wheat tortilla.",
+        "name": "鸡肉与蔬菜卷",
+        "description": "烤鸡胸肉、烤甜椒、黄瓜、菠菜和鹰嘴豆泥卷入全麦薄饼，便携美味，制作快速。",
         "tags": [
-          "quick",
-          "high-protein"
+          "high-protein",
+          "quick"
         ]
       },
       {
-        "name": "One-Pot Creamy Tuscan Chicken",
-        "description": "Chicken thighs simmered with sun-dried tomatoes, spinach, and garlic in a light cream sauce. Serve over pasta or crusty bread.",
+        "name": "意式番茄鸡腿",
+        "description": "鸡腿肉在橄榄、番茄、大蒜、刺山柑和罗勒的浓郁酱汁中慢炖，搭配大蒜脆皮面包，是简单的周日晚餐。",
         "tags": [
-          "one-pot",
+          "high-protein",
           "comfort-food"
         ]
       },
       {
-        "name": "Black Bean & Sweet Potato Tacos",
-        "description": "Roasted sweet potato cubes and seasoned black beans in corn tortillas topped with avocado crema and pickled red onion.",
+        "name": "黑豆玉米莎莎沙拉",
+        "description": "黑豆、玉米、红椒、红洋葱和香菜拌入青柠孜然酱汁，清爽饱腹，完全无需烹饪。",
         "tags": [
-          "vegetarian",
-          "budget-friendly"
+          "vegan",
+          "no-cook"
         ]
       },
       {
-        "name": "Trail Mix Energy Bites",
-        "description": "No-bake bites made with oats, mini chocolate chips, peanut butter, and a touch of honey. Make a batch and snack all week.",
+        "name": "苹果配杏仁酱",
+        "description": "切片苹果搭配两汤匙杏仁酱——经典的甜咸组合，提供纤维、健康脂肪和天然甜分。",
         "tags": [
-          "meal-prep",
-          "no-cook"
+          "vegan",
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Is 3 days enough to see the benefits of meal planning?",
-        "answer": "Absolutely. Three days covers the busiest stretch of most people's weeks. You'll notice less stress around dinnertime, fewer impulse takeout orders, and a shorter grocery list. Many of our subscribers started with the free 3-day plan and upgraded once they felt the difference."
+        "question": "三日饮食计划值得尝试吗？",
+        "answer": "完全值得，尤其是你刚开始尝试有规划饮食的时候。三天足以让你体验备餐流程、感受饮食变化对精力和饱腹感的影响，并判断这种方式是否适合你。"
       },
       {
-        "question": "What does the free 3-day meal plan include?",
-        "answer": "You get 3 full days of meals — breakfast, lunch, and dinner — personalized to your dietary preferences and household size. Each meal comes with ingredients, instructions, and prep times. It's the same quality as our subscriber plans, just shorter."
+        "question": "三日计划包含购物清单吗？",
+        "answer": "包含。每份计划都附带针对这三天餐食的购物清单，按品类整理，减少不必要的浪费。"
       },
       {
-        "question": "Can I repeat the 3-day plan every week?",
-        "answer": "The free plan is a one-time trial to help you experience meal planning. If you love it, our weekly subscription generates a fresh 7-day plan every week with new recipes, so you never eat the same meals on repeat."
+        "question": "我可以重复使用这个三日计划吗？",
+        "answer": "可以，但我们建议定期生成新计划，以避免饮食单调。你可以每隔一段时间重新生成，获得全新的餐食组合。"
       },
       {
-        "question": "How do I turn my 3-day plan into a full week?",
-        "answer": "Subscribe to get a complete 7-day meal plan delivered every week. You'll also get the ability to regenerate plans, set detailed dietary preferences, and receive your plan by email each Monday."
+        "question": "三日计划可以根据饮食偏好定制吗？",
+        "answer": "可以。在生成计划时，你可以设置饮食限制、不喜欢的食物和过敏原，系统会自动为你适配，无论是纯素、无麸质还是其他需求。"
+      },
+      {
+        "question": "三天足以看到任何健康改变吗？",
+        "answer": "真正的改变需要时间，但你可能会注意到消化、精力水平或饱腹感的变化，具体取决于你之前的饮食习惯。请将三日计划视为一次探索，而非快速疗法。"
       }
     ]
   },
@@ -5376,79 +5388,83 @@
     "title": "5天膳食计划",
     "metaDescription": "周末自由享受的5天膳食计划。附带购物清单。免费试用。",
     "h1": "为热爱周末的人准备的5天膳食计划",
-    "intro": "You want structure during the week but freedom on Saturday and Sunday. A 5-day meal plan covers every weeknight dinner and workday lunch without touching your weekends. Eat out, order in, or improvise on your days off — the weekdays are handled. It's the sweet spot between full planning and total flexibility.",
+    "intro": "五日计划覆盖工作周，这恰好是饮食最容易失控的时段。当你的日程被会议、通勤和截止日期塞满时，提前规划好周一至周五的餐食，就能在最繁忙的时候保持健康饮食，周末再灵活安排。",
     "valueProps": [
       {
-        "heading": "Weeknights on autopilot",
-        "description": "Monday through Friday is where the stress lives. A 5-day plan eliminates the nightly 'what's for dinner?' spiral while keeping your weekends spontaneous and unplanned."
+        "heading": "解决工作日饮食难题",
+        "description": "周一到周五的午餐和晚餐是最难坚持健康饮食的时段。提前规划好这五天，你就消除了最容易依赖外卖的场景。"
       },
       {
-        "heading": "Smaller, smarter grocery runs",
-        "description": "A focused 5-day list means less food waste and quicker shopping trips. Buy exactly what you need for the work week — nothing sits in the fridge until it goes bad."
+        "heading": "周末保持灵活",
+        "description": "五日计划让你在工作日保持正轨，周末则可以随心享用外出就餐或休闲烹饪，不必为整整七天的安排感到压力。"
       },
       {
-        "heading": "Built for the 9-to-5 rhythm",
-        "description": "Meals are designed for real weeknight energy levels. Quick prep on Monday, batch-cook on Wednesday, leftovers repurposed on Thursday. We work with your schedule, not against it."
+        "heading": "备餐效率更高",
+        "description": "周日只需备好五天的食材，即可顺利度过整个工作周。一次采购，五天受益。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Spinach & Feta Egg Muffins",
-        "description": "Baked egg cups loaded with spinach, crumbled feta, and diced red pepper. Make a batch on Sunday, reheat all week.",
+        "name": "隔夜燕麦配奇亚籽与桃子",
+        "description": "燕麦、奇亚籽和杏仁奶前一晚混合冷藏，早上加入切片桃子和少许肉桂，无需早晨烹饪。",
         "tags": [
-          "meal-prep",
-          "high-protein"
-        ]
-      },
-      {
-        "name": "Mediterranean Grain Bowl",
-        "description": "Farro topped with cucumber, cherry tomatoes, kalamata olives, chickpeas, and a lemon-tahini dressing.",
-        "tags": [
-          "vegetarian",
+          "vegan",
           "meal-prep"
         ]
       },
       {
-        "name": "Sheet Pan Sausage & Vegetables",
-        "description": "Italian sausage links roasted with broccoli, red onion, and baby potatoes tossed in olive oil and herbs. One pan, done.",
+        "name": "地中海扁豆汤",
+        "description": "红扁豆配胡萝卜、番茄、孜然和柠檬汁，搭配皮塔饼，是高蛋白的周中午餐，备餐效果极好。",
         "tags": [
-          "one-pan",
-          "easy"
+          "vegan",
+          "meal-prep"
         ]
       },
       {
-        "name": "Teriyaki Salmon with Steamed Rice",
-        "description": "Pan-seared salmon glazed with homemade teriyaki sauce, served over jasmine rice with steamed bok choy on the side.",
+        "name": "蜂蜜蒜香三文鱼配西兰花",
+        "description": "蜂蜜蒜香腌制的三文鱼在烤盘上与西兰花一同烤制，搭配糙米饭，20分钟即可完成。",
         "tags": [
-          "quick",
-          "high-protein"
+          "high-protein",
+          "gluten-free"
         ]
       },
       {
-        "name": "Hummus & Veggie Snack Plate",
-        "description": "Creamy hummus served with carrot sticks, cucumber rounds, cherry tomatoes, and whole wheat pita triangles.",
+        "name": "虾仁炒玉米饼条",
+        "description": "大蒜黄油炒虾仁配烤玉米饼条、牛油果、莎莎酱和酸橙汁，快速完成的工作日晚餐。",
         "tags": [
-          "no-cook",
-          "vegetarian"
+          "high-protein",
+          "quick"
+        ]
+      },
+      {
+        "name": "芹菜配鹰嘴豆泥",
+        "description": "脆爽芹菜条搭配浓稠鹰嘴豆泥，简单的零食提供纤维和植物蛋白，备餐友好。",
+        "tags": [
+          "vegan",
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Why a 5-day plan instead of 7?",
-        "answer": "Many people prefer to keep weekends flexible for dining out, social meals, or cooking something spontaneous. A 5-day plan gives you weekday structure without over-scheduling your entire week. If you want full coverage, check out our 7-day plan instead."
+        "question": "五日饮食计划比七日计划更好吗？",
+        "answer": "这取决于你的生活方式。如果你喜欢在周末自由饮食，五日计划是更现实的选择。如果你希望全程有计划可循，七日计划更合适。两者各有优势。"
       },
       {
-        "question": "Which 5 days does the plan cover?",
-        "answer": "We plan Monday through Friday by default, since that's the work-week grind where meal planning saves the most time. All meals are designed for weeknight-friendly prep times of 15 to 35 minutes."
+        "question": "五日计划包含几餐？",
+        "answer": "每天通常包含早餐、午餐、晚餐以及一到两份零食，共五天。确切的餐食数量可能根据你的偏好和热量目标有所不同。"
       },
       {
-        "question": "Can I swap a weekday meal for a weekend day?",
-        "answer": "The plans are flexible — you can cook any meal on any day. If you'd rather plan Saturday and skip Wednesday, just shift the meals around. The grocery list covers everything regardless of which days you cook."
+        "question": "我可以提前备好五天所有的餐食吗？",
+        "answer": "大部分可以。汤类、炖菜、谷物和腌制蛋白质都可以提前准备，但某些新鲜食材最好临吃前再处理，以保持最佳口感。"
       },
       {
-        "question": "Do I get breakfast, lunch, and dinner for all 5 days?",
-        "answer": "Yes, each day includes all three meals plus optional snacks if you've enabled them in your preferences. That's 15 meals planned, prepped, and grocery-listed so your entire work week is covered."
+        "question": "五日计划包含购物清单吗？",
+        "answer": "包含。购物清单会按品类整理所有食材，方便你一次性高效采购完成五天所需。"
+      },
+      {
+        "question": "如果某天不按计划吃怎么办？",
+        "answer": "完全没关系。计划是工具，不是枷锁。跳过某天或做一些替换并不会让整个计划失效，只需第二天继续按计划进行即可。"
       }
     ]
   },
@@ -5456,83 +5472,83 @@
     "title": "7天膳食计划",
     "metaDescription": "整整一周全部搞定的7天膳食计划。附带购物清单。免费试用。",
     "h1": "整周搞定的7天膳食计划",
-    "intro": "A full 7-day meal plan is the gold standard of meal planning. Every breakfast, lunch, and dinner for the entire week — planned, portioned, and grocery-listed before Monday morning. No gaps, no guesswork, no wasted food. This is what our subscribers get every single week: a complete plan built around their preferences, delivered automatically.",
+    "intro": "七日饮食计划是建立真正健康饮食习惯的黄金标准。它涵盖完整的一周，包括工作日和周末，帮助你在任何情况下都能保持健康饮食。无论你的目标是减重、增肌还是维持现状，七天的完整规划都能为你消除「今天吃什么」的纠结，让健康饮食成为默认选项。",
     "valueProps": [
       {
-        "heading": "Complete weekly coverage",
-        "description": "Seven days, three meals a day, zero decisions to make. From Monday breakfast to Sunday dinner, every meal is planned so you never default to takeout out of exhaustion."
+        "heading": "覆盖完整一周",
+        "description": "工作日和周末都在计划之内。不再因为周六不知道吃什么而破功，也不再在周五筋疲力尽时随手点外卖。"
       },
       {
-        "heading": "Maximum savings, minimum waste",
-        "description": "A full-week plan lets us optimize your grocery list across all 21 meals. Ingredients get reused smartly — roast chicken on Tuesday becomes chicken salad on Thursday. Nothing goes to waste."
+        "heading": "食材利用效率最高",
+        "description": "七日计划能最大化食材的交叉使用——同一批食材在不同餐食中出现，减少浪费，让每次购物的价值最大化。"
       },
       {
-        "heading": "Fresh plans, every week",
-        "description": "Subscribers get a brand-new 7-day plan generated every Monday. No repeating the same rotation. Our AI builds variety into every week while respecting your preferences and dietary needs."
+        "heading": "建立真正的饮食习惯",
+        "description": "坚持七天的有规划饮食，能让你的身体和味蕾适应更健康的选择。这是从「尝试健康饮食」到「健康饮食成为日常」的关键一步。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Avocado Toast with Poached Eggs",
-        "description": "Sourdough toast topped with smashed avocado, two poached eggs, red pepper flakes, and a squeeze of lemon. Simple, filling, ready in minutes.",
+        "name": "蔬菜蛋卷配全麦吐司",
+        "description": "菠菜、彩椒、洋葱和山羊奶酪炒成蛋卷，搭配一片全麦吐司，是蛋白质丰富的工作日早餐。",
         "tags": [
-          "quick",
+          "vegetarian",
           "high-protein"
         ]
       },
       {
-        "name": "Thai Peanut Noodle Salad",
-        "description": "Rice noodles tossed with shredded cabbage, carrots, edamame, and cilantro in a creamy peanut-lime dressing. Served cold or at room temperature.",
+        "name": "烤鸡凯撒沙拉",
+        "description": "自制凯撒酱拌罗马生菜，配烤鸡胸肉薄片、全麦面包丁和帕玛森奶酪，经典的周中午餐。",
         "tags": [
-          "vegetarian",
+          "high-protein",
+          "quick"
+        ]
+      },
+      {
+        "name": "摩洛哥香料羊肉炖菜",
+        "description": "用孜然、肉桂、姜黄炖制的羊肩肉配鹰嘴豆和杏干，搭配蒸粗麦粉，是周末的慢煮享受。",
+        "tags": [
+          "high-protein",
           "meal-prep"
         ]
       },
       {
-        "name": "Herb-Crusted Pork Tenderloin",
-        "description": "Pork tenderloin coated in a Dijon-herb crust, roasted until golden, and sliced over mashed sweet potatoes with steamed green beans.",
+        "name": "泰式花生豆腐面",
+        "description": "米线配烤豆腐、花生酱酱汁、紫甘蓝丝、胡萝卜丝和新鲜香菜，是令人满足的无肉晚餐。",
         "tags": [
-          "high-protein",
-          "family-friendly"
+          "vegan",
+          "quick"
         ]
       },
       {
-        "name": "Shrimp & Asparagus Risotto",
-        "description": "Creamy arborio rice cooked with white wine, tender shrimp, and asparagus tips, finished with parmesan and fresh lemon zest.",
+        "name": "枣椰坚果能量球",
+        "description": "椰枣、燕麦、杏仁酱和黑巧克力碎混合制成的无烤能量球，每球约150卡路里，便于携带。",
         "tags": [
-          "comfort-food",
-          "date-night"
-        ]
-      },
-      {
-        "name": "Greek Yogurt with Walnuts & Honey",
-        "description": "Thick Greek yogurt drizzled with raw honey and topped with crushed walnuts. High protein, naturally sweet, deeply satisfying.",
-        "tags": [
-          "quick",
-          "no-cook"
+          "vegan",
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How is a 7-day meal plan different from the free trial?",
-        "answer": "The free trial gives you a 3-day plan to test the experience. A 7-day plan covers your entire week with more variety and smarter ingredient reuse across all 21 meals. Subscribers also get fresh plans every week, regeneration options, and email delivery."
+        "question": "七日饮食计划真的有效吗？",
+        "answer": "有效——前提是你真正坚持执行。规划好的饮食计划能减少随机决策，而随机决策往往导致不健康的选择。大多数坚持七日计划的人都报告说摄入了更多蔬菜，外卖次数减少，整体饮食质量有所提升。"
       },
       {
-        "question": "Can I customize which meals are included?",
-        "answer": "Yes. You can set your dietary preferences, allergies, cooking skill level, and whether to include snacks. You can also add a personal note like 'no seafood on weekdays' or 'I like batch-cooking on Sundays' and the plan adapts accordingly."
+        "question": "生成七日计划需要多少时间？",
+        "answer": "计划本身几秒钟即可生成。实际的时间投入在于采购和备餐，许多人选择在周日集中完成，通常需要1至2小时。"
       },
       {
-        "question": "What if I don't like a meal in my plan?",
-        "answer": "Subscribers can regenerate their plan up to twice per week. Each regeneration creates an entirely new set of meals while respecting your preferences. Over time, the variety keeps things fresh without repeating recipes you didn't enjoy."
+        "question": "七日计划中的餐食可以互换吗？",
+        "answer": "可以。计划是灵活的指导，不是死板的规定。如果某天不想吃计划中的餐食，可以和其他天互换，或者用类似的食材做一些替换。"
       },
       {
-        "question": "Do 7-day plans include a grocery list?",
-        "answer": "Every plan comes with a consolidated grocery list organized by category. Ingredients shared across multiple meals are combined so you buy the right amounts without doubling up. Most subscribers report their grocery trips take under 30 minutes."
+        "question": "每次都会生成不同的七日计划吗？",
+        "answer": "是的。每次生成都会产生全新的餐食组合，确保你的饮食保持多样性，避免长期坚持中的单调感。"
       },
       {
-        "question": "Is the 7-day plan the best value?",
-        "answer": "It's what our subscription is built around. For a few dollars a week, you get a complete 7-day meal plan generated fresh every Monday — that's 21 meals planned, grocery-listed, and delivered to your inbox. Most subscribers save 2-3 hours per week on meal decisions and shopping alone."
+        "question": "七日计划适合有孩子的家庭吗？",
+        "answer": "适合。在设置时说明家庭人数和孩子的年龄，系统会生成适合全家的餐食，分量和食材都会相应调整，避免挑食引发的冲突。"
       }
     ]
   },
@@ -5540,79 +5556,83 @@
     "title": "14天膳食计划",
     "metaDescription": "计划一次，吃好两周。14天膳食计划。附带购物清单。免费试用。",
     "h1": "计划一次、吃好两周的14天膳食计划",
-    "intro": "Why plan every week when you can plan every two? A 14-day meal plan gives you a full fortnight of breakfasts, lunches, and dinners in one shot. It's ideal for bulk grocery shopping, reducing your planning sessions by half, and getting enough variety that no meal feels like a repeat. Think of it as the meal planning equivalent of buying in bulk — less effort, better results.",
+    "intro": "两周的时间足以让你真正体会到有规划饮食的力量。十四日计划跨越两个完整的周，让你建立采购节奏、熟悉备餐流程，并开始感受到持续健康饮食带来的身体变化。这不是为期两周的「挑战」，而是将健康饮食融入日常生活的过渡期。",
     "valueProps": [
       {
-        "heading": "Half the planning, double the coverage",
-        "description": "One planning session covers two full weeks. That's 42 meals decided, grocery-listed, and ready to go. You'll spend less time thinking about food and more time enjoying it."
+        "heading": "建立真正的饮食节奏",
+        "description": "第一周你在适应，第二周你开始自动化。两周计划帮助你从「按计划执行」过渡到「这已经是我的生活方式」。"
       },
       {
-        "heading": "Built for bulk shopping",
-        "description": "A two-week plan lets you make fewer, larger grocery runs. Buy proteins in bulk, stock up on pantry staples, and save money with warehouse-store quantities that actually get used."
+        "heading": "多样性避免单调",
+        "description": "十四天包含丰富的餐食轮换，确保你在任何一天都不会吃到完全相同的东西，保持新鲜感。"
       },
       {
-        "heading": "Better variety over 14 days",
-        "description": "Two weeks gives us room to introduce more cuisines, cooking methods, and ingredients without repeating. Week one might lean Mediterranean while week two explores Asian-inspired dishes."
+        "heading": "更清晰地看到效果",
+        "description": "两周时间足以让你注意到精力、睡眠、消化或体重方面的变化，为你提供继续前进的动力。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Blueberry Banana Smoothie Bowl",
-        "description": "Thick blended smoothie base of frozen blueberries, banana, and Greek yogurt, topped with granola, chia seeds, and sliced almonds.",
+        "name": "奇亚籽布丁配芒果",
+        "description": "椰奶奇亚籽布丁前一晚制作，早上放上新鲜芒果丁和烤椰丝，是清爽的热带早餐，完全无需烹饪。",
         "tags": [
-          "quick",
-          "vegetarian"
-        ]
-      },
-      {
-        "name": "Roasted Cauliflower & Chickpea Wrap",
-        "description": "Spiced roasted cauliflower and chickpeas tucked into a warm tortilla with pickled onions, arugula, and garlic yogurt sauce.",
-        "tags": [
-          "vegetarian",
-          "budget-friendly"
-        ]
-      },
-      {
-        "name": "Slow Cooker Beef Stew",
-        "description": "Tender beef chunks simmered for hours with potatoes, carrots, celery, and a rich tomato-red wine broth. Set it and forget it.",
-        "tags": [
-          "slow-cooker",
+          "vegan",
           "meal-prep"
         ]
       },
       {
-        "name": "Lemon Garlic Chicken Thighs with Orzo",
-        "description": "Crispy-skinned chicken thighs braised with lemon, garlic, and olives over herbed orzo pasta. One skillet, restaurant-quality results.",
+        "name": "虾仁牛油果沙拉",
+        "description": "煮熟虾仁搭配牛油果、菊苣、葡萄柚和柠檬调味汁，清爽高蛋白，是第二周的午餐亮点。",
         "tags": [
-          "one-pan",
+          "high-protein",
+          "gluten-free"
+        ]
+      },
+      {
+        "name": "蔬菜咖喱配印度烤饼",
+        "description": "菠菜、鹰嘴豆和番茄椰奶咖喱，搭配全麦印度烤饼，是令人满足的素食晚餐。",
+        "tags": [
+          "vegan",
           "comfort-food"
         ]
       },
       {
-        "name": "Dark Chocolate & Almond Clusters",
-        "description": "Melted dark chocolate mixed with roasted almonds and a pinch of sea salt, dropped into clusters and chilled until set.",
+        "name": "烤鸡翅配凉拌卷心菜",
+        "description": "香料腌制的烤鸡翅搭配清爽的苹果醋凉拌卷心菜，是周末的轻松晚餐。",
         "tags": [
-          "meal-prep",
-          "treat"
+          "high-protein",
+          "gluten-free"
+        ]
+      },
+      {
+        "name": "混合坚果与黑巧克力",
+        "description": "一小把混合坚果搭配两到三小块黑巧克力——满足下午零食需求，同时提供抗氧化剂和健康脂肪。",
+        "tags": [
+          "vegan",
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How does a 14-day meal plan work with grocery shopping?",
-        "answer": "You can do one large shop at the start and a smaller mid-point run for fresh produce and perishables. The plan is structured so shelf-stable and frozen ingredients are used throughout, while fresh items cluster in the first few days of each week."
+        "question": "十四日计划是一次性生成的吗？",
+        "answer": "是的。你会一次收到完整的两周计划，包含所有餐食、购物清单和备餐提示。"
       },
       {
-        "question": "Won't food go bad over two weeks?",
-        "answer": "The plan is designed with food freshness in mind. Perishable ingredients like fresh fish and leafy greens appear in the first half of each week. Heartier vegetables, frozen proteins, and pantry staples are scheduled for later days. A quick mid-week produce run keeps everything fresh."
+        "question": "两周后我应该继续使用饮食计划吗？",
+        "answer": "这取决于你的目标。许多人发现两周后他们已经建立了足够的习惯，不再需要严格遵循计划。其他人则选择继续订阅，让系统持续为他们规划，减少决策负担。"
       },
       {
-        "question": "Can I mix and match days between the two weeks?",
-        "answer": "Absolutely. The meals are independent — you can swap any day from week one with week two. The grocery list covers everything, so rearranging days won't leave you missing ingredients."
+        "question": "十四日计划中购物清单如何安排？",
+        "answer": "通常会提供两份独立的购物清单，每周一份，方便你按周采购新鲜食材，而不是一次性购买两周的量。"
       },
       {
-        "question": "Is a 14-day plan more cost-effective than weekly planning?",
-        "answer": "It can be. Buying in bulk reduces per-unit costs, and a two-week view lets us reuse ingredients more efficiently. Many families find they save 15-20% on groceries compared to shopping without a plan, and the savings compound over a longer planning window."
+        "question": "我可以在十四天中途更改计划吗？",
+        "answer": "可以随时调整。如果你想在第二周更换某些餐食，可以重新生成或手动替换。计划是为你服务的，而不是相反。"
+      },
+      {
+        "question": "十四日计划适合减重目标吗？",
+        "answer": "非常适合。两周的时间足以看到体重的初步变化，同时建立起长期坚持的健康饮食习惯，而不仅仅是短期冲刺。"
       }
     ]
   },
@@ -5620,83 +5640,83 @@
     "title": "21天膳食计划",
     "metaDescription": "三周改变你的饮食习惯。21天膳食计划。附带购物清单。免费试用。",
     "h1": "三周改变饮食习惯的21天膳食计划",
-    "intro": "It takes about 21 days to build a new habit, and meal planning is no exception. A 21-day plan gives you three full weeks of structured, balanced meals — enough time for home cooking to feel automatic instead of aspirational. By day 21, you'll have a stocked pantry, a faster grocery routine, and the confidence that you can actually do this every week.",
+    "intro": "二十一天——这正是习惯养成研究中常被提及的时间节点。三周的有规划饮食不仅仅是遵循一份菜单，而是重塑你与食物的关系：你开始自动化地做出更好的选择，购物变得得心应手，备餐感觉不再是负担，而是理所当然的事情。",
     "valueProps": [
       {
-        "heading": "The science of habit formation",
-        "description": "Research suggests 21 days is the sweet spot for building new routines. Three weeks of planned meals creates muscle memory — checking the plan, prepping ingredients, and cooking on schedule starts to feel natural, not forced."
+        "heading": "习惯养成的黄金期",
+        "description": "研究表明，重复行为在三周左右开始变得自动化。二十一日计划让你在这个关键窗口内坚持足够长的时间，让健康饮食成为第二天性。"
       },
       {
-        "heading": "Progressive complexity",
-        "description": "Week one starts simple with quick, foolproof recipes. Week two introduces slightly more involved dishes. By week three, you're cooking with confidence and variety. It's a gentle on-ramp, not a cold plunge."
+        "heading": "可见的身体变化",
+        "description": "三周的健康饮食通常会带来可量化的改变：体重、精力水平、消化状况或睡眠质量。这些早期成果是继续坚持的最好动力。"
       },
       {
-        "heading": "Measurable results",
-        "description": "Three weeks is enough to see real changes: lower grocery bills, less food waste, more energy from balanced nutrition, and the satisfaction of knowing exactly what you're eating every day."
+        "heading": "丰富的餐食多样性",
+        "description": "二十一天包含数十种不同的餐食，确保你永远不会感到单调乏味，同时摄入广泛的营养素。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Peanut Butter & Banana Overnight Oats",
-        "description": "Oats soaked overnight with milk, a spoonful of peanut butter, sliced banana, and a dash of cinnamon. Ready when you wake up.",
+        "name": "斯堪的纳维亚黑麦面包配三文鱼",
+        "description": "黑麦面包上铺奶油奶酪、烟熏三文鱼、酸豆和红洋葱薄片，搭配新鲜莳萝，是北欧风格的早餐。",
         "tags": [
-          "meal-prep",
-          "no-cook"
+          "high-protein",
+          "quick"
         ]
       },
       {
-        "name": "Southwest Black Bean Soup",
-        "description": "Smoky black bean soup with corn, diced tomatoes, cumin, and a squeeze of lime. Top with avocado and tortilla strips.",
+        "name": "韩式拌饭",
+        "description": "糙米饭上铺多彩炒蔬菜、牛肉末和荷包蛋，淋上辣椒酱，拌匀享用，鲜艳又营养均衡。",
         "tags": [
-          "vegetarian",
-          "budget-friendly"
+          "high-protein",
+          "meal-prep"
         ]
       },
       {
-        "name": "Honey Mustard Chicken with Roasted Broccoli",
-        "description": "Chicken breasts glazed with honey-Dijon mustard and baked alongside broccoli florets until caramelized and tender.",
+        "name": "柠檬香草烤鸡配根茎蔬菜",
+        "description": "柠檬迷迭香腌制的烤鸡腿配胡萝卜、欧防风和红薯，一锅完成的轻松晚餐。",
         "tags": [
-          "one-pan",
-          "family-friendly"
+          "high-protein",
+          "gluten-free"
         ]
       },
       {
-        "name": "Beef & Broccoli Stir-Fry",
-        "description": "Thinly sliced flank steak stir-fried with broccoli and garlic in a savory soy-ginger sauce, served over steamed jasmine rice.",
+        "name": "扁豆蔬菜汤",
+        "description": "法式绿扁豆配芹菜、胡萝卜、番茄和百里香，清炖成暖心浓汤，搭配脆皮黑麦面包。",
         "tags": [
-          "quick",
-          "high-protein"
+          "vegan",
+          "meal-prep"
         ]
       },
       {
-        "name": "Cottage Cheese with Pineapple",
-        "description": "A bowl of creamy cottage cheese topped with fresh pineapple chunks. High protein, naturally sweet, and incredibly simple.",
+        "name": "蔬菜棒配白豆蘸酱",
+        "description": "胡萝卜、黄瓜、甜椒条搭配自制白豆大蒜蘸酱，清爽零食，高纤维且富含植物蛋白。",
         "tags": [
-          "quick",
-          "no-cook"
+          "vegan",
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Why 21 days specifically?",
-        "answer": "The 21-day habit formation concept comes from behavioral psychology — it's roughly how long it takes for a new behavior to start feeling automatic. Three weeks of meal planning is enough to build the routine of checking your plan, shopping with a list, and prepping ahead. After 21 days, most people find they can't go back to winging it."
+        "question": "坚持二十一天真的能改变饮食习惯吗？",
+        "answer": "对大多数人而言，是的。虽然21天并不是一个神奇数字——习惯养成因人而异——但三周的持续重复足以让新的饮食模式开始感觉自然，而不是强迫自己去做的事情。"
       },
       {
-        "question": "Is a 21-day plan good for a diet reset?",
-        "answer": "It's excellent for a reset. Three weeks is long enough to break old patterns like relying on takeout or skipping meals, but short enough to feel achievable. The structured plan removes willpower from the equation — you just follow the meals and let the habit build itself."
+        "question": "二十一日计划会不会太难坚持？",
+        "answer": "关键是计划要足够灵活，允许偶尔的变化。我们的计划包含多种餐食选项，你可以根据实际情况做替换，而不必觉得一次失误就前功尽弃。"
       },
       {
-        "question": "How do I handle grocery shopping for 21 days?",
-        "answer": "We recommend shopping weekly within the 21-day plan. Each week's grocery list is separate, so you're buying fresh produce every 7 days rather than trying to stock up for the entire stretch. Think of it as three connected weekly plans rather than one massive haul."
+        "question": "二十一天的购物如何安排？",
+        "answer": "我们建议按周采购，提供三份独立的购物清单。这样可以确保食材新鲜，也避免冰箱里堆满三周的食物。"
       },
       {
-        "question": "What happens after the 21 days are over?",
-        "answer": "By then, meal planning should feel like second nature. Our weekly subscription keeps the momentum going with a fresh 7-day plan every Monday. You've built the habit — we keep fueling it with new recipes and variety so you never plateau."
+        "question": "二十一日计划适合哪种减重节奏？",
+        "answer": "适合稳定健康的减重节奏——通常每周0.5至1公斤，具体取决于你的热量设置。我们不鼓励极速减重，因为那往往难以持续。"
       },
       {
-        "question": "Can I do a 21-day plan with dietary restrictions?",
-        "answer": "Absolutely. Set your preferences — vegetarian, gluten-free, dairy-free, low-carb, or any combination — and every meal across all 21 days will respect those restrictions. You can also note allergies and ingredients you dislike."
+        "question": "二十一天结束后该怎么做？",
+        "answer": "继续前进。你可以重新生成新的计划，或者利用在这三周中积累的知识和习惯，自行做出更健康的饮食决策。大多数人会选择继续使用，因为省去了每天「吃什么」的烦恼。"
       }
     ]
   },
@@ -5704,83 +5724,83 @@
     "title": "30天膳食计划",
     "metaDescription": "一个月打造全新饮食习惯。30天膳食计划。附带购物清单。免费试用。",
     "h1": "一个月打造全新饮食习惯的30天膳食计划",
-    "intro": "A 30-day meal plan is a full reset. Four weeks of planned breakfasts, lunches, and dinners that take the guesswork out of eating well for an entire month. Whether you're starting a new diet, recovering from a season of takeout, or just want to prove to yourself that consistent home cooking is possible — 30 days gives you the time and structure to make it happen and see real, noticeable results.",
+    "intro": "三十天是一个月——足以让你真正看到持续健康饮食带来的变化。无论你的目标是减重、提升精力、改善消化还是单纯地吃得更好，三十日计划都能提供足够长的时间让身体作出反应，同时建立起你可以长期维持的饮食习惯。",
     "valueProps": [
       {
-        "heading": "A full month of momentum",
-        "description": "Thirty days is enough to move past the novelty phase and into genuine lifestyle change. By week four, meal planning isn't something you're 'trying' — it's just how you eat."
+        "heading": "足以改变身体的时间长度",
+        "description": "一个月的持续健康饮食能让你看到真实的变化：体重、体脂、精力水平、皮肤状态和消化功能都可能有所改善。这不是快速解决方案，而是真正的转变。"
       },
       {
-        "heading": "Noticeable results",
-        "description": "A month of balanced, home-cooked meals shows up everywhere: more energy, lower grocery bills, better sleep, and the quiet confidence that comes from knowing exactly what you're putting into your body."
+        "heading": "极致的餐食多样性",
+        "description": "三十天包含数十种不同的餐食，确保你在整个月中保持饮食的多样性和趣味性，不会因单调而放弃。"
       },
       {
-        "heading": "Maximum variety across four weeks",
-        "description": "With 90 dinners, lunches, and breakfasts to fill, we pull from every cuisine and cooking method. Italian one night, Thai the next, sheet-pan meals midweek, slow cooker on Sunday. No meal fatigue, guaranteed."
+        "heading": "建立终身受益的饮食框架",
+        "description": "三十天结束后，你不仅仅完成了一个计划，你已经建立了一套关于饮食规划、采购和备餐的系统，可以在未来长期复用。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Shakshuka with Crusty Bread",
-        "description": "Eggs poached in a spiced tomato-pepper sauce with cumin, paprika, and a touch of harissa. Scoop up with warm crusty bread.",
+        "name": "土耳其风味炒蛋配菲达奶酪",
+        "description": "橄榄油炒鸡蛋配番茄、彩椒、孜然和菲达奶酪，搭配皮塔饼，是充满地中海风情的早餐。",
         "tags": [
           "vegetarian",
-          "one-pan"
-        ]
-      },
-      {
-        "name": "Asian Chicken Lettuce Cups",
-        "description": "Ground chicken sauteed with water chestnuts, ginger, and hoisin sauce, spooned into crisp butter lettuce cups with a sriracha drizzle.",
-        "tags": [
-          "low-carb",
           "quick"
         ]
       },
       {
-        "name": "Baked Cod with Mango Salsa",
-        "description": "Flaky cod fillets baked with lime and chili, topped with a fresh mango-red onion-cilantro salsa. Light, bright, and ready in under 30 minutes.",
+        "name": "泰式椰奶鸡汤",
+        "description": "鸡胸肉在椰奶、香茅、南姜和泰国辣椒汤底中慢煮，挤入青柠汁，撒上新鲜香菜，清香馥郁。",
         "tags": [
-          "quick",
-          "healthy"
+          "high-protein",
+          "gluten-free"
         ]
       },
       {
-        "name": "Eggplant Parmesan",
-        "description": "Breaded eggplant rounds baked until crispy, layered with marinara and melted mozzarella. Comfort food that happens to be vegetarian.",
+        "name": "烤茄子配鹰嘴豆泥与石榴",
+        "description": "烤至焦香的茄子铺在鹰嘴豆泥上，撒石榴籽、松子和新鲜薄荷，是精彩的中东素食菜肴。",
         "tags": [
-          "vegetarian",
-          "comfort-food"
+          "vegan",
+          "gluten-free"
         ]
       },
       {
-        "name": "Frozen Yogurt Bark",
-        "description": "Greek yogurt spread thin, studded with berries, pistachios, and a drizzle of dark chocolate, then frozen and snapped into pieces.",
+        "name": "猪里脊配苹果酱与红薯泥",
+        "description": "香草腌制的猪里脊烤至完美，搭配自制苹果酱和奶油红薯泥，是第四周值得期待的周末晚餐。",
         "tags": [
-          "meal-prep",
-          "treat"
+          "high-protein",
+          "gluten-free"
+        ]
+      },
+      {
+        "name": "绿色冰沙碗",
+        "description": "菠菜、香蕉、杏仁奶和亚麻籽打成浓稠冰沙碗底，配切片香蕉、蓝莓和格兰诺拉麦片，美味又营养。",
+        "tags": [
+          "vegan",
+          "quick"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How is a 30-day plan structured?",
-        "answer": "Think of it as four connected weekly plans. Each week has its own grocery list so you're shopping fresh every 7 days. The meals are varied across the full month — we avoid repeating recipes and intentionally rotate cuisines, proteins, and cooking methods so week four feels as fresh as week one."
+        "question": "三十日饮食计划是一次性生成的吗？",
+        "answer": "是的，你会一次性收到完整的三十天计划，包含所有餐食安排和购物指导，但我们建议按周分批采购食材。"
       },
       {
-        "question": "Can I use a 30-day plan for a specific diet challenge?",
-        "answer": "Yes. Set your dietary preferences to match your challenge — whether that's Whole30-style, plant-based, low-carb, or calorie-controlled — and every meal across all 30 days will align. Having a structured plan removes the temptation to break your challenge because you always know what's next."
+        "question": "三十天能帮助我达到减重目标吗？",
+        "answer": "可以为你打下良好基础。三十天的健康饮食通常能带来2至5公斤的初步减重（取决于你的起点和热量设置），更重要的是建立起可持续的饮食习惯。"
       },
       {
-        "question": "Will I get bored eating planned meals for a full month?",
-        "answer": "The opposite, actually. Without a plan, most people rotate through the same 5-7 meals. Our 30-day plans introduce 60-90 unique recipes spanning multiple cuisines and cooking styles. You'll eat more variety in one planned month than most people eat in three unplanned months."
+        "question": "如果中途某几天没有按计划执行怎么办？",
+        "answer": "没关系，这很正常。计划不是全有或全无的游戏。跳过的几天不会让整个月的努力白费，只需从下一餐开始恢复即可。"
       },
       {
-        "question": "How much money can I save with a 30-day meal plan?",
-        "answer": "Most families save 20-30% on food costs when following a meal plan versus shopping without one. Over 30 days, that adds up fast — less impulse buying, less food waste, and fewer takeout orders. Many subscribers report saving $200-400 per month after switching to planned meals."
+        "question": "三十日计划适合初次尝试健康饮食的人吗？",
+        "answer": "适合，但可能需要一些适应期。如果你是完全的新手，可以考虑先从七日计划开始，熟悉流程后再尝试三十天的版本。"
       },
       {
-        "question": "What if my schedule changes mid-month?",
-        "answer": "Plans are flexible. Swap days around, skip a meal and use leftovers, or regenerate a week's plan if your preferences change. The structure is there to support you, not box you in. Life happens — the plan adapts."
+        "question": "三十天结束后应该继续吗？",
+        "answer": "如果你享受这个过程并看到了效果，绝对值得继续。订阅用户每周都会自动收到新计划，让健康饮食在不额外费心的情况下持续下去。"
       }
     ]
   },
@@ -5788,25 +5808,25 @@
     "title": "夏季膳食计划",
     "metaDescription": "炎热天气也能吃得清爽的夏季膳食计划。附带购物清单。免费试用。",
     "h1": "保持清爽、吃好喝好的夏季膳食计划",
-    "intro": "Nobody wants to spend an hour over a hot stove when it's scorching outside. A great summer meal plan leans into fresh produce, quick grilling, and no-cook options that come together fast. We build you a weekly plan packed with seasonal fruits, crisp salads, and light proteins so you eat well without heating up the house.",
+    "intro": "当外面热浪滚滚时，没有人想在炉子旁守上一个小时。好的夏季饮食计划充分利用新鲜食材、快速烧烤和无需烹饪的选择，快速组合成美味一餐。我们为你打造每周计划，装满应季水果、爽脆沙拉和清淡蛋白质，让你吃得好，又不用把厨房变成桑拿房。",
     "valueProps": [
       {
-        "heading": "Minimal cooking, maximum flavor",
-        "description": "Most meals take under 20 minutes or skip the stove entirely. Think chilled soups, grain bowls, and quick grill sessions so your kitchen stays cool."
+        "heading": "少烹饪，多滋味",
+        "description": "大多数餐食在20分钟内完成，或完全不需要开炉灶。冷汤、谷物碗、快手烧烤——让你的厨房保持凉爽。"
       },
       {
-        "heading": "Peak-season produce",
-        "description": "Plans feature summer staples like tomatoes, stone fruits, zucchini, corn, and fresh herbs when they're at their cheapest and most flavorful."
+        "heading": "应季食材，鲜味十足",
+        "description": "计划精选夏季明星食材：番茄、石果、西葫芦、玉米和新鲜香草，价格实惠，风味最佳。"
       },
       {
-        "heading": "Hydration built in",
-        "description": "Water-rich ingredients like cucumber, watermelon, and citrus are woven into meals and snacks to help you stay hydrated in the heat."
+        "heading": "补水饮食，内外兼顾",
+        "description": "黄瓜、西瓜、柑橘等富含水分的食材贯穿餐食和零食，帮助你在炎热天气中保持水分充足。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Watermelon Feta Salad with Mint",
-        "description": "Juicy watermelon cubes tossed with crumbled feta, fresh mint, and a lime vinaigrette over arugula. Refreshing and ready in minutes.",
+        "name": "西瓜菲达沙拉配薄荷",
+        "description": "多汁西瓜丁与菲达奶酪碎、新鲜薄荷和青柠调味汁混合，铺在芝麻菜上。清爽无比，几分钟内即可完成。",
         "tags": [
           "no-cook",
           "quick",
@@ -5814,56 +5834,62 @@
         ]
       },
       {
-        "name": "Grilled Chicken Souvlaki Bowls",
-        "description": "Herb-marinated chicken skewers over fluffy rice with cucumber-tomato salad, hummus, and a drizzle of tzatziki.",
+        "name": "烤鸡肉串配酸奶蘸酱",
+        "description": "柠檬香草腌制的鸡肉串搭配番茄、彩椒和红洋葱，配上薄荷希腊酸奶蘸酱，夏日烧烤的经典之选。",
         "tags": [
-          "grilling",
-          "high-protein"
+          "high-protein",
+          "gluten-free",
+          "seasonal"
         ]
       },
       {
-        "name": "Overnight Oats with Peaches & Chia",
-        "description": "Creamy oats soaked overnight with almond milk, topped with sliced ripe peaches and a sprinkle of chia seeds. Grab from the fridge and go.",
+        "name": "冷泡玉米黄瓜汤",
+        "description": "新鲜玉米粒、黄瓜、青柠汁和少许辣椒打成冷汤，无需加热，是最清凉的夏日开胃前菜。",
         "tags": [
+          "vegan",
           "no-cook",
-          "meal-prep",
-          "quick"
+          "seasonal"
         ]
       },
       {
-        "name": "Grilled Shrimp Tacos with Mango Salsa",
-        "description": "Smoky grilled shrimp in warm corn tortillas with fresh mango-jalapeño salsa and a squeeze of lime.",
+        "name": "烤桃子沙拉配芝麻菜与蓝奶酪",
+        "description": "烤桃子配新鲜芝麻菜、蓝纹奶酪碎和蜂蜜核桃仁，淋上意大利黑醋，甜咸交织的夏日沙拉。",
         "tags": [
-          "grilling",
+          "vegetarian",
           "quick",
           "seasonal"
         ]
       },
       {
-        "name": "Frozen Banana Nice Cream",
-        "description": "Blended frozen bananas with a splash of vanilla and topped with berries. Creamy, sweet, and completely fruit-based.",
+        "name": "鸡尾酒虾配牛油果莎莎",
+        "description": "冰镇煮熟虾仁搭配牛油果、番茄、红洋葱、香菜和青柠汁做成的新鲜莎莎酱，无需烹饪，开胃又满足。",
         "tags": [
+          "high-protein",
           "no-cook",
-          "quick"
+          "seasonal"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Are summer meal plans lower in calories?",
-        "answer": "Not necessarily. While summer meals tend to be lighter, we make sure every plan hits proper nutrition targets. If you're active during summer, the plan accounts for that. You can set your calorie preferences in your profile and the plan adjusts portions accordingly."
+        "question": "夏季饮食计划与普通计划有什么不同？",
+        "answer": "夏季计划优先选择应季食材，强调无需烹饪或快速烹饪的方式，并减少使用烤箱的机会。目标是让你在夏天保持厨房凉爽，同时享用当季最美味的食材。"
       },
       {
-        "question": "How do you handle grilling if I don't have an outdoor grill?",
-        "answer": "Every grilled recipe works just as well on a stovetop grill pan or under the broiler. We note alternatives in the recipe instructions so apartment dwellers are covered too."
+        "question": "夏季计划适合在户外烧烤吗？",
+        "answer": "非常适合。许多夏季餐食都针对烧烤进行了优化，包括腌制方法、烧烤时间和配菜建议，让你的室外烹饪更轻松愉快。"
       },
       {
-        "question": "Can I meal prep summer meals ahead of time?",
-        "answer": "Absolutely. Most summer recipes are built for meal prep — grain bowls, overnight oats, and marinated proteins all improve with a day in the fridge. We flag which meals prep well and which are best made fresh."
+        "question": "夏季计划能帮助我在炎热天气中保持水分吗？",
+        "answer": "可以。我们有意在餐食和零食中加入大量富含水分的食材，如黄瓜、西瓜、番茄和柑橘，帮助你通过饮食补充水分。"
       },
       {
-        "question": "Do summer plans include kid-friendly options?",
-        "answer": "Yes. Grilled proteins, fresh fruit, and simple salads are naturally kid-friendly. You can note dietary preferences for your household in your profile and we'll adjust accordingly."
+        "question": "如果夏季某些食材在我所在地区买不到怎么办？",
+        "answer": "系统会根据你填写的地区偏好推荐应季食材，但你也可以在生成计划时说明食材限制，我们会相应调整。"
+      },
+      {
+        "question": "夏季计划适合带去野餐或户外活动吗？",
+        "answer": "非常适合。许多夏季餐食本身就是便携设计——沙拉罐头、卷饼、串烧——让你可以轻松打包带走，在任何地方享用。"
       }
     ]
   },
@@ -5871,81 +5897,83 @@
     "title": "冬季膳食计划",
     "metaDescription": "寒冷夜晚的温暖丰盛冬季膳食计划。附带购物清单。免费试用。",
     "h1": "寒冷夜晚温暖丰盛的冬季膳食计划",
-    "intro": "When the temperature drops, your meals should rise to the occasion. A well-built winter meal plan means coming home to simmering stews, golden roasted vegetables, and one-pot meals that warm you from the inside out. We plan your week around seasonal winter produce like root vegetables, squash, and citrus so every meal feels cozy, nourishing, and worth the effort.",
+    "intro": "冬天是慢炖锅和烤箱大显身手的季节。好的冬季饮食计划围绕温暖、滋养的食材展开：根茎蔬菜、炖汤、烩菜和烤肉，这些食物不仅驱寒暖身，还常常可以提前大量制作，冷冻保存，随时取用。我们的冬季计划让你用当季最丰盛的食材，在寒冷的月份吃得既舒适又营养。",
     "valueProps": [
       {
-        "heading": "Soups and stews on autopilot",
-        "description": "Slow cooker and one-pot recipes that cook while you go about your day. Come home to a ready meal without the fuss."
+        "heading": "暖心炖汤与烩菜",
+        "description": "冬季计划以适合慢炖和一锅料理的食谱为核心，让你可以一次大量制作，全周受益。"
       },
       {
-        "heading": "Seasonal winter produce",
-        "description": "Plans built around what's actually in season — butternut squash, sweet potatoes, kale, Brussels sprouts, pears, and citrus at their peak flavor and lowest price."
+        "heading": "应季根茎蔬菜",
+        "description": "胡萝卜、欧防风、红薯、芜菁和土豆在冬季达到最佳状态，是价格实惠、营养丰富的主角食材。"
       },
       {
-        "heading": "Comfort food, balanced",
-        "description": "Hearty doesn't have to mean heavy. We keep the warmth and satisfaction of comfort food while balancing macros so you feel energized, not sluggish."
+        "heading": "备餐友好，忙季无忧",
+        "description": "大多数冬季餐食在冰箱中保存良好，甚至冷冻后风味更佳，非常适合节假日繁忙时期的提前备餐。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Butternut Squash Soup with Crusty Bread",
-        "description": "Velvety roasted butternut squash blended with warming spices and a swirl of cream, served with a thick slice of sourdough.",
+        "name": "奶油南瓜浓汤",
+        "description": "烤奶油南瓜与洋葱、大蒜、椰奶和肉豆蔻一同打成顺滑浓汤，撒上南瓜籽，是温暖的冬日午餐。",
         "tags": [
-          "one-pot",
-          "seasonal",
-          "comfort"
+          "vegan",
+          "meal-prep"
         ]
       },
       {
-        "name": "Beef & Root Vegetable Stew",
-        "description": "Tender beef chuck slow-cooked with carrots, parsnips, and potatoes in a rich herb-infused broth. The kind of meal that makes the whole house smell amazing.",
+        "name": "红酒炖牛肉",
+        "description": "牛肩肉与红酒、百里香、月桂叶、珍珠洋葱和蘑菇慢炖数小时，搭配土豆泥，是终极冬日慰籍料理。",
         "tags": [
-          "slow-cooker",
           "high-protein",
-          "comfort"
+          "comfort-food"
         ]
       },
       {
-        "name": "Baked Oatmeal with Cinnamon Apples",
-        "description": "Warm baked oats studded with cinnamon-spiced apple chunks, walnuts, and a drizzle of maple syrup. Slice and reheat all week.",
+        "name": "烤根茎蔬菜配鹰嘴豆与塔希尼酱",
+        "description": "胡萝卜、欧防风、甜菜根和红薯烤至焦糖化，配上脆烤鹰嘴豆和柠檬塔希尼酱，丰盛的素食盘。",
         "tags": [
-          "meal-prep",
-          "seasonal"
+          "vegan",
+          "gluten-free"
         ]
       },
       {
-        "name": "Chicken Pot Pie with Flaky Pastry",
-        "description": "Creamy chicken and vegetable filling under a golden puff pastry lid. Classic comfort food with balanced portions.",
+        "name": "白豆香肠卡苏来砂锅",
+        "description": "白豆、烟熏香肠、番茄和百里香在砂锅中慢炖，是法国乡村风味的冬日暖心菜。",
         "tags": [
-          "comfort",
-          "family-friendly"
+          "high-protein",
+          "comfort-food"
         ]
       },
       {
-        "name": "Roasted Pear with Yogurt & Honey",
-        "description": "Halved pears roasted until caramelized, topped with a dollop of Greek yogurt and a drizzle of raw honey.",
+        "name": "热可可燕麦粥",
+        "description": "燕麦用牛奶煮制，加入可可粉、香蕉和少许肉桂，顶部放迷你棉花糖，是冬日早晨的温暖起点。",
         "tags": [
-          "seasonal",
-          "quick"
+          "vegetarian",
+          "comfort-food"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Are winter meal plans higher in calories?",
-        "answer": "They can be slightly more substantial to match the body's natural tendency toward heartier food in cold weather, but every plan respects your calorie preferences. If you're targeting weight loss during winter, just set that in your profile and we'll adjust portions while keeping meals warm and satisfying."
+        "question": "冬季饮食计划与夏季计划有什么主要区别？",
+        "answer": "冬季计划更偏向温热食物、慢炖烹饪方法和高热量密度的根茎蔬菜，而夏季计划则强调清爽、快速和无需烹饪的选项。两者都根据应季食材进行优化。"
       },
       {
-        "question": "Do you include slow cooker and Instant Pot recipes?",
-        "answer": "Yes. Many winter meals are designed for slow cookers or pressure cookers since they're perfect for stews, soups, and braised meats. We always include stovetop alternatives if you don't have either appliance."
+        "question": "冬季计划适合节日聚餐备餐吗？",
+        "answer": "非常适合。许多冬季食谱本身就是大份量设计，适合家庭聚会。你也可以将计划中的单人份食谱按比例放大，用于节日招待客人。"
       },
       {
-        "question": "What winter vegetables do the plans focus on?",
-        "answer": "We prioritize what's in season and affordable: butternut squash, sweet potatoes, parsnips, turnips, kale, Brussels sprouts, cabbage, beets, and citrus fruits. These are at their peak flavor and lowest price during winter months."
+        "question": "冬季计划中的食物可以冷冻吗？",
+        "answer": "大部分可以。汤类、炖菜、砂锅和谷物都是优秀的冷冻食品，这使得冬季计划非常适合批量备餐和冷冻储存。"
       },
       {
-        "question": "Can I freeze winter meal prep?",
-        "answer": "Most soups, stews, and casseroles freeze beautifully for 2-3 months. We flag which recipes are freezer-friendly so you can batch cook on the weekend and have quick weeknight meals ready to reheat."
+        "question": "冬季计划会让我摄入过多热量吗？",
+        "answer": "不会，除非你希望如此。我们的冬季计划虽然以暖心食物为主，但仍然根据你设定的热量目标进行平衡，不会因为舒适食物而超出范围。"
+      },
+      {
+        "question": "冬季计划包含哪些典型食材？",
+        "answer": "根茎蔬菜（胡萝卜、欧防风、红薯）、十字花科蔬菜（西兰花、抱子甘蓝、羽衣甘蓝）、豆类、全谷物以及牛肉、猪肉、鸡肉等适合慢炖的蛋白质。"
       }
     ]
   },
@@ -5953,88 +5981,84 @@
     "title": "斋月膳食计划",
     "metaDescription": "为每日封斋饭和开斋饭准备的斋月膳食计划。附带购物清单。免费试用。",
     "h1": "为每日封斋饭和开斋饭准备的斋月膳食计划",
-    "intro": "Eating well during Ramadan means making every meal count. With only two eating windows, your suhoor needs to sustain you through a full day of fasting, and your iftar should replenish without overwhelming your system. We build weekly Ramadan plans with slow-releasing energy at suhoor, gentle iftar starters, and satisfying main meals — all halal, hydration-conscious, and designed to keep your energy steady from dawn to dusk.",
+    "intro": "斋月的饮食节奏与平时截然不同：从日落到日出之间的进食窗口，意味着每一餐都需要精心设计，既能支撑长达16小时的封斋，又能在开斋时迅速补充能量，同时在封斋前的苏胡尔餐中提供持久的饱腹感。我们的斋月计划充分尊重这一神圣传统，同时确保你的身体在整个月中保持充足的营养。",
     "valueProps": [
       {
-        "heading": "Suhoor that sustains",
-        "description": "Pre-dawn meals built around complex carbs, protein, and healthy fats — oats, eggs, whole grains, and dates — so you stay energized and full through the fasting hours."
+        "heading": "专为封斋节奏设计",
+        "description": "每日两餐——开斋饭（Iftar）和封斋前餐（Suhoor）——经过精心平衡，确保你在封斋期间保持精力充沛，不会感到极度疲惫或饥饿。"
       },
       {
-        "heading": "Iftar in stages",
-        "description": "Plans follow the traditional practice of breaking fast gently with dates and water, then a light soup or salad, followed by a balanced main course to ease your digestive system back in."
+        "heading": "传统食材，现代营养学",
+        "description": "计划融入斋月的传统食物如椰枣、扁豆汤和慢炖菜肴，同时确保宏量营养素的均衡分配，支撑身体在封斋期间的正常运作。"
       },
       {
-        "heading": "Hydration-focused",
-        "description": "Water-rich foods like cucumbers, soups, and fresh fruits are woven throughout iftar and suhoor to help you rehydrate during the eating window and reduce thirst during the day."
+        "heading": "补水策略贯穿全程",
+        "description": "开斋后到封斋前的进食窗口内，补水同样重要。我们在餐食和零食中融入富含水分的食物，帮助你在第二天封斋期间维持水分平衡。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Overnight Oats with Dates, Banana & Almonds",
-        "description": "Creamy oats soaked in milk with chopped dates, sliced banana, and crushed almonds. High in slow-releasing carbs and healthy fats to carry you through the fast.",
+        "name": "椰枣与杏仁奶开斋",
+        "description": "用三颗椰枣和一杯杏仁奶开斋，遵循圣训传统，快速补充血糖，为接下来的晚餐做好准备。",
         "tags": [
-          "suhoor",
-          "meal-prep",
-          "no-cook"
+          "vegan",
+          "traditional"
         ]
       },
       {
-        "name": "Red Lentil Soup with Lemon",
-        "description": "A silky, warming lentil soup seasoned with cumin and finished with a squeeze of lemon. A traditional and gentle way to begin iftar after dates and water.",
+        "name": "哈里拉汤（传统摩洛哥开斋汤）",
+        "description": "番茄、扁豆、鹰嘴豆、芹菜和多种香料熬制的传统摩洛哥汤，是斋月最经典的开斋第一道菜。",
         "tags": [
-          "iftar",
-          "one-pot",
-          "hydrating"
+          "vegan",
+          "traditional",
+          "comfort-food"
         ]
       },
       {
-        "name": "Chicken Shawarma Rice Bowls",
-        "description": "Spiced chicken thighs over fragrant basmati rice with garlic sauce, pickled turnips, and a fresh cucumber-tomato salad.",
+        "name": "羊肉手抓饭",
+        "description": "嫩滑羊肉与香料大米、葡萄干和坚果一同焖制，是节日感十足的开斋主菜，适合全家共享。",
         "tags": [
-          "iftar",
           "high-protein",
-          "halal"
+          "traditional"
         ]
       },
       {
-        "name": "Scrambled Eggs with Labneh & Za'atar Flatbread",
-        "description": "Fluffy scrambled eggs served alongside creamy labneh drizzled with olive oil and za'atar, with warm flatbread for scooping.",
+        "name": "苏胡尔燕麦粥配坚果与蜂蜜",
+        "description": "全脂牛奶燕麦粥配核桃、杏仁、蜂蜜和一撮肉桂，缓慢释放能量，帮助你撑过一整天的封斋。",
         "tags": [
-          "suhoor",
-          "high-protein",
-          "quick"
+          "vegetarian",
+          "meal-prep"
         ]
       },
       {
-        "name": "Fresh Fruit Platter with Rosewater Yogurt",
-        "description": "Sliced watermelon, grapes, and orange segments served with chilled yogurt lightly perfumed with rosewater and a sprinkle of pistachios.",
+        "name": "苏胡尔鸡蛋与蔬菜卷",
+        "description": "炒蛋、菠菜、番茄和奶酪卷入全麦薄饼，是封斋前的高蛋白饱腹餐，简单快速。",
         "tags": [
-          "iftar",
-          "hydrating",
-          "no-cook"
+          "vegetarian",
+          "high-protein"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How does the meal plan handle the two-meal structure of Ramadan?",
-        "answer": "Each day includes a suhoor (pre-dawn) meal and a multi-part iftar (post-sunset). Suhoor focuses on sustained energy with complex carbs and protein. Iftar begins with dates and water, moves to a light soup or salad, then a balanced main dish. Portions are calibrated so you get full daily nutrition within these two windows."
+        "question": "斋月饮食计划如何平衡营养与封斋要求？",
+        "answer": "关键在于将一天的营养需求集中在两个主要进食时段。苏胡尔餐注重缓慢释放能量的复合碳水化合物和蛋白质，开斋饭则先补充快速能量（椰枣），再进食均衡的主餐。"
       },
       {
-        "question": "Are all the meals halal?",
-        "answer": "Yes. Every recipe in the Ramadan plan uses halal ingredients. We avoid pork, alcohol-based sauces, and non-halal gelatin. When sourcing meat, we recommend purchasing from a halal butcher or using certified halal brands."
+        "question": "斋月期间如何避免过度进食？",
+        "answer": "开斋时先用椰枣和水或汤开胃，让胃部缓慢适应进食。之后再享用主餐，而不是立即大量进食。我们的计划设计了合理的餐食顺序，帮助你避免暴饮暴食。"
       },
       {
-        "question": "How do I stay hydrated while fasting?",
-        "answer": "The plan includes water-rich foods like soups, cucumbers, watermelon, and yogurt at both suhoor and iftar. We recommend drinking water steadily between iftar and suhoor rather than all at once. Limiting caffeine and very salty foods also helps reduce daytime thirst."
+        "question": "斋月计划适合非穆斯林进行间歇性断食吗？",
+        "answer": "从技术角度看是可以的——这是一个结构化的两餐制间歇性断食计划，但它是专为斋月文化背景设计的，包含传统食材和开斋习俗。"
       },
       {
-        "question": "Can I meal prep during Ramadan?",
-        "answer": "Absolutely, and we encourage it. Many iftar mains and soups can be prepped on the weekend and reheated during the week. Suhoor items like overnight oats take 5 minutes the night before. Meal prep means less cooking when you're fasting and more time for worship and rest."
+        "question": "封斋期间感到头晕或虚弱怎么办？",
+        "answer": "确保苏胡尔餐中摄入足够的蛋白质、健康脂肪和复合碳水化合物，并在进食窗口内充分补水。如果症状持续，请咨询医生。"
       },
       {
-        "question": "What if I'm also trying to maintain or lose weight during Ramadan?",
-        "answer": "You can set a calorie target in your profile and the plan will adjust portions accordingly. Fasting naturally reduces your eating window, but calorie-dense iftar meals can offset that. Our plans balance nutrition so you're properly fueled without overeating at iftar."
+        "question": "斋月计划是否考虑了各地不同的斋戒时长？",
+        "answer": "我们提供通用的斋月计划框架，适合不同地区的斋戒时长。苏胡尔餐始终注重持久饱腹感，开斋饭则优先快速补充能量。"
       }
     ]
   },
@@ -6042,81 +6066,84 @@
     "title": "四旬期膳食计划",
     "metaDescription": "无肉星期五和健康日常餐的四旬期膳食计划。附带购物清单。免费试用。",
     "h1": "无肉星期五和健康日常餐的四旬期膳食计划",
-    "intro": "Observing Lent doesn't mean eating plain pasta for 40 days. A thoughtful Lent meal plan gives you satisfying meatless Fridays with fish, legumes, and vegetable-forward dishes while keeping the rest of the week balanced and nourishing. We plan around the fasting and abstinence traditions so you can focus on the spiritual side of the season without stressing about what to cook.",
+    "intro": "大斋期的无肉饮食要求并不意味着你必须忍受乏味的食物。事实上，这是一个探索海鲜、豆类、全谷物和蔬菜的绝佳机会，这些食材在正确的烹调下同样令人满足、风味十足。我们的大斋期计划在你的宗教饮食要求范围内，为你规划出真正美味的每周餐食。",
     "valueProps": [
       {
-        "heading": "Meatless Fridays, handled",
-        "description": "Every Friday features flavorful fish or vegetarian dishes that fully satisfy. No sad salads — think baked salmon, shrimp pasta, and hearty bean stews."
+        "heading": "无肉不等于无味",
+        "description": "我们的大斋期计划包含丰富的海鲜菜肴、创意豆类料理和令人满足的素食选项，让你不会感到自己在「凑合」度过这段时期。"
       },
       {
-        "heading": "Simple and intentional",
-        "description": "Lent is a season of simplicity. Meals use straightforward ingredients and uncomplicated techniques, making cooking feel less like a chore and more like a mindful practice."
+        "heading": "星期五专属无肉餐",
+        "description": "每个星期五都有特别设计的无肉餐食，符合天主教大斋期的传统要求，同时保证营养均衡和口味出色。"
       },
       {
-        "heading": "Nutritionally complete",
-        "description": "Reducing meat doesn't mean reducing nutrition. Plans ensure you get enough protein, iron, and B vitamins through fish, eggs, legumes, and dairy throughout the week."
+        "heading": "简单易行，不增加烦恼",
+        "description": "大斋期已经是一段需要自律的时期，你的饮食计划不应该增加额外的压力。我们让计划保持简单、可执行，食材易于采购。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Lemon-Herb Baked Salmon with Asparagus",
-        "description": "Salmon fillet baked with fresh herbs and lemon slices alongside roasted asparagus. A simple, elegant Friday dinner ready in 25 minutes.",
+        "name": "大蒜黄油烤虾意面",
+        "description": "鲜虾在大蒜黄油白葡萄酒酱中炒熟，拌入意面，撒上香芹和帕玛森奶酪，是星期五的快手美味。",
         "tags": [
-          "meatless-friday",
           "high-protein",
-          "one-pan"
-        ]
-      },
-      {
-        "name": "White Bean & Kale Soup",
-        "description": "A rustic Italian-inspired soup with cannellini beans, Tuscan kale, garlic, and a Parmesan rind simmered until rich and comforting.",
-        "tags": [
-          "meatless-friday",
-          "one-pot",
-          "comfort"
-        ]
-      },
-      {
-        "name": "Egg & Cheese Breakfast Wrap",
-        "description": "Scrambled eggs with sharp cheddar and sautéed peppers wrapped in a warm whole wheat tortilla. Quick, filling, protein-packed.",
-        "tags": [
-          "quick",
-          "high-protein"
-        ]
-      },
-      {
-        "name": "Shrimp Scampi with Linguine",
-        "description": "Garlicky shrimp sautéed in white wine and butter, tossed with linguine, cherry tomatoes, and fresh parsley.",
-        "tags": [
-          "meatless-friday",
           "quick"
         ]
       },
       {
-        "name": "Apple & Peanut Butter Rice Cakes",
-        "description": "Crunchy rice cakes topped with peanut butter and thinly sliced apple. A satisfying afternoon snack with fiber and protein.",
+        "name": "鳕鱼塔可配芒果莎莎",
+        "description": "香煎鳕鱼配玉米饼、紫甘蓝丝、芒果莎莎和酸橙汁蛋黄酱，是大斋期的轻盈活泼晚餐。",
         "tags": [
-          "quick",
-          "no-cook"
+          "high-protein",
+          "quick"
+        ]
+      },
+      {
+        "name": "素食意式千层面",
+        "description": "千层面夹入菠菜里科塔奶酪馅和浓郁番茄酱，烤至顶部金黄冒泡，是可以提前制作的丰盛主菜。",
+        "tags": [
+          "vegetarian",
+          "comfort-food",
+          "meal-prep"
+        ]
+      },
+      {
+        "name": "地中海金枪鱼沙拉三明治",
+        "description": "罐头金枪鱼配橄榄、番茄干、红洋葱和柠檬橄榄油调味，夹入全麦面包，是快速的大斋期午餐。",
+        "tags": [
+          "high-protein",
+          "quick"
+        ]
+      },
+      {
+        "name": "扁豆素肉酱意面",
+        "description": "红扁豆煮成浓郁的「肉酱」风格番茄酱汁，拌意面享用，完全素食但口感饱满，令人满足。",
+        "tags": [
+          "vegan",
+          "comfort-food"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Does the plan follow Catholic Lenten rules?",
-        "answer": "Yes. The plan observes the standard Catholic practice: no meat on Fridays during Lent, and reduced portions on Ash Wednesday and Good Friday. Fish, eggs, and dairy are permitted on abstinence days. If your tradition has different rules (such as Eastern Orthodox fasting), you can adjust preferences in your profile."
+        "question": "大斋期饮食计划是否仅限于星期五戒肉？",
+        "answer": "这取决于你的宗教实践。我们提供两种选项：仅星期五无肉，或整个大斋期（40天）全程无肉。你可以在设置时指定你的要求。"
       },
       {
-        "question": "What counts as 'meat' during Lent?",
-        "answer": "In the Catholic tradition, meat refers to the flesh of warm-blooded animals — beef, pork, chicken, and lamb. Fish and shellfish are not considered meat and are permitted on Fridays. Our Friday meals always use fish, seafood, or fully vegetarian ingredients."
+        "question": "大斋期计划包含哪些类型的蛋白质来源？",
+        "answer": "包括各种海鲜（虾、鱼、蛤蜊）、鸡蛋、乳制品、豆类（扁豆、鹰嘴豆、黑豆）和豆腐。这些食材提供充足的蛋白质，无需食用肉类。"
       },
       {
-        "question": "Are the non-Friday meals regular meals with meat?",
-        "answer": "Yes. Monday through Thursday and on weekends, the plan includes balanced meals with whatever proteins you prefer, including poultry, beef, and pork. The meatless restriction only applies to Fridays (and optionally Ash Wednesday and Good Friday)."
+        "question": "大斋期计划对不喜欢海鲜的人有何建议？",
+        "answer": "完全可以定制为无海鲜版本。在设置偏好时标注不喜欢海鲜，系统会将蛋白质来源调整为鸡蛋、乳制品和豆类，同样满足大斋期要求。"
       },
       {
-        "question": "Can I make the entire plan vegetarian for all of Lent?",
-        "answer": "Absolutely. Some people choose to abstain from meat for the full 40 days as a more intentional practice. Set your profile to vegetarian and the plan will use fish, eggs, dairy, and plant proteins for every meal throughout the season."
+        "question": "大斋期的饮食计划能保证充足的营养吗？",
+        "answer": "可以。我们确保每日餐食包含完整的蛋白质、复合碳水化合物、健康脂肪和丰富的蔬菜，即使不吃肉类，也能满足全面的营养需求。"
+      },
+      {
+        "question": "大斋期计划是否也适合普通的无肉饮食？",
+        "answer": "完全适合。大斋期计划本质上是一份高质量的无肉饮食计划，即使你没有宗教原因，也可以将其作为减少肉类摄入的健康饮食方案使用。"
       }
     ]
   },
@@ -6124,84 +6151,83 @@
     "title": "开学季膳食计划",
     "metaDescription": "为忙碌家庭准备的开学季膳食计划。附带购物清单。免费试用。",
     "h1": "忙碌家庭的开学季膳食计划",
-    "intro": "The school year brings a tidal wave of early mornings, packed schedules, and the eternal question: what's for lunch tomorrow? A back-to-school meal plan takes the chaos out of feeding your family by giving you quick breakfasts kids will actually eat, lunches that survive a backpack, and dinners the whole table enjoys. Every recipe is designed for speed, simplicity, and real-kid approval.",
+    "intro": "开学季带来了一种特殊的混乱：清晨的匆忙、午餐盒的烦恼和放学后疲惫的孩子（和家长）。好的开学季饮食计划能将这种混乱转化为顺畅的日常流程——提前备好早餐，准备好可以轻松打包的午餐，以及让全家都满意的晚餐，不会因为挑食而引发战争。",
     "valueProps": [
       {
-        "heading": "5-minute breakfasts",
-        "description": "No-fuss morning meals that fuel kids for the school day — overnight oats, smoothies, egg muffins, and grab-and-go options that don't require a sit-down meal."
+        "heading": "快手早餐，告别早晨混乱",
+        "description": "可以提前准备的早餐——隔夜燕麦、蛋饼卷、烤薄饼——让繁忙的早晨不再是每天的噩梦。"
       },
       {
-        "heading": "Packable lunches that hold up",
-        "description": "Lunches designed to taste good at room temperature and survive hours in a lunchbox. Wraps, pasta salads, and bento-style boxes that kids actually open and eat."
+        "heading": "孩子爱吃的午餐盒",
+        "description": "实际上会被吃掉的午餐，而不是被原封不动地带回家。我们专注于孩子喜欢的食物，同时保证营养均衡。"
       },
       {
-        "heading": "30-minute family dinners",
-        "description": "Simple weeknight dinners that everyone at the table can enjoy. One meal, no short-order cooking, plenty of hidden vegetables, done in 30 minutes or less."
+        "heading": "简单的工作日晚餐",
+        "description": "30分钟以内完成的晚餐，避免在疲惫了一天之后还要在厨房奋战一小时。周末的菜肴可以稍微精心一些。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Egg Muffin Cups with Cheese & Spinach",
-        "description": "Baked egg cups with cheddar and spinach, made in a batch on Sunday and reheated in 30 seconds each morning. High protein, zero weekday effort.",
+        "name": "隔夜燕麦配香蕉与花生酱",
+        "description": "前一晚5分钟备好，早上直接从冰箱取出即可享用。加入香蕉片和花生酱，孩子和大人都喜欢。",
         "tags": [
-          "meal-prep",
-          "kid-friendly",
-          "high-protein"
+          "vegetarian",
+          "meal-prep"
         ]
       },
       {
-        "name": "Turkey & Cheese Pinwheel Wraps",
-        "description": "Sliced turkey and cream cheese rolled in a flour tortilla with shredded carrots. Sliced into pinwheels that are fun to eat and easy to pack.",
+        "name": "鸡肉奶酪全麦卷饼午餐盒",
+        "description": "烤鸡胸肉、切达奶酪、生菜和番茄卷入全麦薄饼，搭配胡萝卜条、苹果和一小袋饼干，完整的午餐盒。",
         "tags": [
-          "kid-friendly",
-          "no-cook",
-          "packable"
+          "high-protein",
+          "meal-prep"
         ]
       },
       {
-        "name": "One-Pot Mac & Cheese with Hidden Cauliflower",
-        "description": "Creamy stovetop mac and cheese with steamed cauliflower blended right into the cheese sauce. Kids taste cheese, parents see vegetables.",
+        "name": "简易意大利肉酱面",
+        "description": "精瘦牛肉末加罐头番茄酱，10分钟煮好意面，撒上帕玛森奶酪——挑食孩子和疲惫家长的救星。",
         "tags": [
-          "kid-friendly",
-          "one-pot",
+          "high-protein",
           "quick"
         ]
       },
       {
-        "name": "Sheet Pan Chicken Drumsticks & Sweet Potatoes",
-        "description": "Seasoned chicken drumsticks roasted alongside cubed sweet potatoes and green beans on a single sheet pan. Minimal prep, minimal cleanup.",
+        "name": "烤鸡翅配薯条与西兰花",
+        "description": "烤箱烤制的香酥鸡翅配薯条和烤西兰花，是孩子爱不释手的周五晚餐，比外卖更健康。",
         "tags": [
-          "one-pan",
-          "family-friendly",
-          "high-protein"
+          "high-protein",
+          "comfort-food"
         ]
       },
       {
-        "name": "Banana & Granola Yogurt Cups",
-        "description": "Individual cups of vanilla yogurt layered with banana slices and crunchy granola. Perfect for after-school snacking.",
+        "name": "苹果切片配焦糖蘸酱",
+        "description": "新鲜苹果切片搭配少量焦糖蘸酱——放学后的经典零食，孩子开心，家长也放心。",
         "tags": [
-          "kid-friendly",
-          "quick",
-          "no-cook"
+          "vegetarian",
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Are these meals suitable for picky eaters?",
-        "answer": "Yes. We focus on familiar flavors and textures that most kids enjoy, with vegetables worked in naturally rather than placed front and center. You can note picky eaters in your profile and we'll lean toward milder flavors and recognizable dishes."
+        "question": "开学季饮食计划如何适应不同年龄段的孩子？",
+        "answer": "在设置时填写孩子的年龄，系统会相应调整分量大小、食物质地和复杂程度，确保从幼儿到青少年都能获得合适的餐食。"
       },
       {
-        "question": "How do I handle different dietary needs in the same family?",
-        "answer": "Set household preferences in your profile — allergies, vegetarian kids, etc. — and the plan adapts. Most dinners are designed as a single base recipe with optional add-ons or simple swaps so you're not cooking multiple meals."
+        "question": "如何处理挑食的孩子？",
+        "answer": "在偏好设置中列出孩子不喜欢的食物，系统会自动排除这些食材。我们也建议从孩子已知喜爱的食物出发，逐渐引入新食材。"
       },
       {
-        "question": "Can I batch prep lunches for the whole week?",
-        "answer": "Absolutely. Most lunch items are designed for Sunday batch prep. Pinwheel wraps, pasta salads, and muffin cups all keep well for 4-5 days in the fridge. We mark which items prep well and give storage tips."
+        "question": "午餐盒食物可以提前多久准备？",
+        "answer": "大多数午餐盒食物可以在周日提前准备好3至4天的量，储存在冰箱中。需要注意的是，某些食材（如牛油果）应临时添加以保持新鲜。"
       },
       {
-        "question": "My kids have food allergies — can the plan accommodate that?",
-        "answer": "Yes. Note any allergies (nut-free, dairy-free, gluten-free, etc.) in your profile and the plan will exclude those ingredients entirely. School-safe options avoid common allergens like tree nuts and peanuts by default when you flag a school allergy policy."
+        "question": "开学季计划如何应对课外活动和时间紧张的情况？",
+        "answer": "我们特意将工作日晚餐设计为30分钟以内完成，并在计划中标注哪些餐食可以提前备好，让你在最忙碌的日子也能轻松上桌。"
+      },
+      {
+        "question": "这个计划能满足对坚果过敏孩子的需求吗？",
+        "answer": "可以。在设置过敏原时选择坚果过敏，系统会完全排除所有坚果及坚果制品，确保计划对你的孩子安全可食。"
       }
     ]
   },
@@ -6209,83 +6235,87 @@
     "title": "生酮减重膳食计划",
     "metaDescription": "真正好吃的生酮减重膳食计划。附带购物清单。免费试用。",
     "h1": "真正好吃的生酮减重膳食计划",
-    "intro": "Keto works for weight loss because it shifts your body into fat-burning mode — but only if you do it right. A sloppy keto diet full of bacon and butter bombs stalls progress fast. Our keto weight loss plans hit the right macros (70% fat, 25% protein, 5% carbs) while keeping calories in a sustainable deficit so you burn fat without feeling deprived or running on fumes.",
+    "intro": "生酮饮食的减重逻辑很清晰：极低碳水化合物迫使身体进入酮症状态，开始燃烧脂肪作为主要能量来源。但真正做到这一点——同时保持饮食的美味和可持续性——需要认真的规划。我们的生酮减重计划为你计算好一切，确保你的宏量营养素在正确区间，同时餐食足够令人满足，让你不会在第三天就崩溃放弃。",
     "valueProps": [
       {
-        "heading": "Proper keto macros, not guesswork",
-        "description": "Every meal is calculated to keep you under 25g net carbs per day while hitting adequate protein to preserve muscle during your deficit. No macro tracking required on your end."
+        "heading": "精确的宏量营养素控制",
+        "description": "每日净碳水化合物控制在20至25克以下，脂肪占总热量70%至75%，蛋白质20%至25%——这是维持酮症的关键比例，我们为你全程把关。"
       },
       {
-        "heading": "Calorie deficit built in",
-        "description": "Being in ketosis doesn't guarantee weight loss — calories still matter. Our plans combine keto macros with a moderate calorie deficit so you're burning fat from two angles."
+        "heading": "真正令人满足的餐食",
+        "description": "生酮不等于只吃沙拉和鸡胸肉。牛油果、奶酪、培根、坚果黄油和奶油酱汁都在计划之内——高脂肪让你真正感到饱腹。"
       },
       {
-        "heading": "Satisfying, real food",
-        "description": "Avocados, salmon, olive oil, cheese, nuts, and quality meats. These plans prove keto doesn't have to mean sad bunless burgers over a sink."
+        "heading": "避免生酮流感的营养设计",
+        "description": "计划特别注意电解质补充（钠、钾、镁），帮助你在过渡期减少头痛、疲劳和其他生酮流感症状。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Avocado & Bacon Egg Cups",
-        "description": "Halved avocados filled with an egg and topped with crumbled bacon, baked until set. High fat, high protein, virtually zero carbs.",
+        "name": "培根奶酪炒蛋配牛油果",
+        "description": "三个鸡蛋与培根碎炒制，加入切达奶酪融化，搭配半个牛油果，含约5克净碳水化合物。",
         "tags": [
-          "keto",
-          "high-fat",
-          "high-protein"
-        ]
-      },
-      {
-        "name": "Grilled Salmon over Cauliflower Mash",
-        "description": "Pan-seared salmon fillet on a bed of buttery garlic cauliflower mash with steamed broccolini on the side.",
-        "tags": [
-          "keto",
           "high-protein",
-          "low-carb"
-        ]
-      },
-      {
-        "name": "Cobb Salad with Ranch Dressing",
-        "description": "Chopped romaine with grilled chicken, hard-boiled egg, avocado, bacon, blue cheese, and a creamy full-fat ranch dressing.",
-        "tags": [
           "keto",
-          "no-cook",
-          "high-protein"
-        ]
-      },
-      {
-        "name": "Zucchini Noodle Bolognese",
-        "description": "Spiralized zucchini topped with a rich ground beef and tomato sauce cooked low and slow with Italian herbs.",
-        "tags": [
-          "keto",
-          "low-carb"
-        ]
-      },
-      {
-        "name": "Fat Bombs — Chocolate Peanut Butter",
-        "description": "Bite-sized treats made with coconut oil, cocoa powder, and natural peanut butter. 2g net carbs per piece, satisfies sweet cravings instantly.",
-        "tags": [
-          "keto",
-          "meal-prep",
           "quick"
+        ]
+      },
+      {
+        "name": "凯撒沙拉配烤鸡胸肉",
+        "description": "罗马生菜配大量凯撒酱、帕玛森奶酪和烤鸡胸肉，不加面包丁以保持低碳，是高蛋白的生酮午餐。",
+        "tags": [
+          "high-protein",
+          "keto",
+          "gluten-free"
+        ]
+      },
+      {
+        "name": "奶油蘑菇烤三文鱼",
+        "description": "烤三文鱼配大蒜奶油蘑菇酱和清炒菠菜，omega-3丰富，脂肪充足，是典型的生酮晚餐。",
+        "tags": [
+          "high-protein",
+          "keto",
+          "gluten-free"
+        ]
+      },
+      {
+        "name": "生酮椰子粉松饼",
+        "description": "椰子粉、鸡蛋、奶油奶酪和少许甜菊糖制成的低碳松饼，配黄油享用，是生酮早餐的甜蜜选择。",
+        "tags": [
+          "vegetarian",
+          "keto"
+        ]
+      },
+      {
+        "name": "奶酪与坚果拼盘",
+        "description": "切达奶酪块、高达奶酪片配澳洲坚果、杏仁和核桃，是完美的生酮零食，零碳水，高脂肪。",
+        "tags": [
+          "vegetarian",
+          "keto",
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How fast can I expect to lose weight on a keto meal plan?",
-        "answer": "Most people see 2-5 pounds of water weight drop in the first week as glycogen stores deplete. After that, expect 1-2 pounds per week of actual fat loss with a proper calorie deficit. Results vary based on starting weight, activity level, and consistency."
+        "question": "生酮饮食真的能帮助减重吗？",
+        "answer": "对许多人来说是有效的，尤其是短期内。酮症状态下的食欲抑制和水分减少通常会带来快速的初期体重下降。长期来看，生酮饮食的减重效果与其他热量限制饮食相当，关键在于能否长期坚持。"
       },
       {
-        "question": "Will I experience the 'keto flu'?",
-        "answer": "Some people feel foggy or tired during the first 3-5 days as their body adapts to burning fat instead of carbs. Our plans include electrolyte-rich foods (avocado, leafy greens, bone broth) to minimize these symptoms. Staying hydrated and getting enough sodium helps significantly."
+        "question": "进入酮症需要多长时间？",
+        "answer": "通常在严格控制碳水化合物（每日低于20至25克净碳水）后2至4天内进入酮症。影响因素包括你之前的饮食习惯、活动水平和个人代谢率。"
       },
       {
-        "question": "How do I know if I'm in ketosis?",
-        "answer": "Common signs include reduced appetite, increased energy after the adaptation period, and a slight metallic taste. Urine test strips are cheap and easy if you want confirmation. Our plans are designed to get you into ketosis within 2-4 days if you follow them consistently."
+        "question": "生酮流感是什么，如何应对？",
+        "answer": "生酮流感是指进入酮症初期出现的头痛、疲劳、易怒和脑雾症状，通常持续3至7天。通过补充足够的电解质（钠、钾、镁）和水分，以及保证足够的脂肪摄入，可以显著减轻症状。"
       },
       {
-        "question": "Can I do keto long-term for weight loss?",
-        "answer": "Many people cycle in and out of keto — strict keto for weight loss, then a relaxed low-carb maintenance phase. Our plans support both. Once you hit your goal weight, we can transition you to a sustainable low-carb plan that's easier to maintain."
+        "question": "生酮饮食计划中可以有作弊日吗？",
+        "answer": "技术上可以，但需要注意的是，作弊日会让你退出酮症状态，可能需要再次花2至3天重新进入酮症。如果你选择偶尔「退出」，要做好重新适应期的准备。"
+      },
+      {
+        "question": "生酮饮食对所有人都安全吗？",
+        "answer": "对大多数健康成年人来说是安全的，但糖尿病患者（尤其是1型）、肾脏疾病患者、孕妇和哺乳期女性在开始生酮饮食前应咨询医生。"
       }
     ]
   },
@@ -6293,25 +6323,25 @@
     "title": "纯素增肌膳食计划",
     "metaDescription": "植物也能增肌的证明。纯素增肌膳食计划。附带购物清单。免费试用。",
     "h1": "植物也能增肌的证明——纯素增肌膳食计划",
-    "intro": "You don't need chicken breast and whey shakes to build muscle. A well-designed vegan muscle gain plan delivers 120g+ of protein per day through smart combinations of tofu, tempeh, legumes, seitan, and whole grains. We plan your calories in a slight surplus with enough protein at every meal to maximize muscle protein synthesis — all from plants, all delicious, all without the bro-science.",
+    "intro": "纯素食能增肌吗？完全可以——只要你认真对待蛋白质的摄入。植物性蛋白质（豆腐、天贝、豆类、藜麦、豌豆蛋白粉）完全可以支撑肌肉生长，关键在于摄入足够的总量，同时搭配足够的热量盈余来支持增肌。我们的纯素增肌计划为你处理好复杂的部分。",
     "valueProps": [
       {
-        "heading": "120g+ protein per day, fully plant-based",
-        "description": "Every meal is engineered to hit serious protein numbers through strategic combinations — rice and beans, tofu stir-fries, tempeh bowls, and protein-packed smoothies."
+        "heading": "充足的植物蛋白",
+        "description": "每日160至180克蛋白质，完全来自植物来源。豆腐、天贝、豆类、藜麦和豌豆蛋白粉组合使用，覆盖所有必需氨基酸。"
       },
       {
-        "heading": "Caloric surplus without junk",
-        "description": "Building muscle requires extra calories. We add them through nutrient-dense sources like nuts, avocado, whole grains, and coconut — not processed vegan junk food."
+        "heading": "足够的热量支撑增肌",
+        "description": "增肌需要热量盈余。我们确保计划提供足够的总热量，而不仅仅是蛋白质，因为热量不足同样会阻碍肌肉生长。"
       },
       {
-        "heading": "Complete amino acid profiles",
-        "description": "Plant proteins are combined across meals to ensure you get all essential amino acids. No single meal needs to be 'complete' — the day as a whole covers every base."
+        "heading": "真正美味的纯素食物",
+        "description": "不是乏味的沙拉配额外的豆腐。我们的纯素增肌餐食包括创意的天贝料理、丰盛的谷物碗和令人满足的豆类菜肴。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Tofu Scramble with Black Beans & Sweet Potato",
-        "description": "Crumbled firm tofu sautéed with turmeric, black beans, and roasted sweet potato cubes. 35g protein to start the day strong.",
+        "name": "豌豆蛋白冰沙配燕麦与花生酱",
+        "description": "豌豆蛋白粉、香蕉、花生酱、燕麦和燕麦奶打成浓稠冰沙，训练后补充约40克蛋白质和充足碳水化合物。",
         "tags": [
           "vegan",
           "high-protein",
@@ -6319,8 +6349,8 @@
         ]
       },
       {
-        "name": "Tempeh Buddha Bowl with Tahini Dressing",
-        "description": "Marinated baked tempeh over quinoa with roasted chickpeas, shredded cabbage, pickled onions, and a creamy tahini drizzle.",
+        "name": "天贝炒饭配毛豆",
+        "description": "香煎天贝碎、糙米、毛豆、胡萝卜和日式酱油翻炒，单份含约35克蛋白质的增肌主食。",
         "tags": [
           "vegan",
           "high-protein",
@@ -6328,53 +6358,52 @@
         ]
       },
       {
-        "name": "Seitan Stir-Fry with Peanut Sauce",
-        "description": "Sliced seitan wok-fried with broccoli, bell peppers, and snap peas in a spicy peanut sauce over brown rice. 40g protein per serving.",
+        "name": "红扁豆鹰嘴豆咖喱饭",
+        "description": "红扁豆和鹰嘴豆的番茄椰奶双豆咖喱，搭配糙米饭，丰盛的植物蛋白来源，备餐效果极佳。",
         "tags": [
           "vegan",
           "high-protein",
-          "quick"
+          "meal-prep"
         ]
       },
       {
-        "name": "Lentil & Vegetable Curry",
-        "description": "Red lentils simmered in a rich coconut-tomato curry with spinach and chickpeas. Served over basmati rice with naan on the side.",
+        "name": "黑豆墨西哥卷饼",
+        "description": "全麦玉米饼卷入黑豆泥、香米、牛油果、玉米莎莎和新鲜香菜，热量和蛋白质双高，满足增肌需求。",
         "tags": [
           "vegan",
-          "one-pot",
           "high-protein"
         ]
       },
       {
-        "name": "Protein Smoothie with Peanut Butter & Banana",
-        "description": "Frozen banana, peanut butter, soy milk, and a scoop of pea protein blended until thick. 30g protein in a glass.",
+        "name": "烤鹰嘴豆配坚果酱",
+        "description": "香料烤鹰嘴豆配杏仁酱和苹果片，高蛋白零食组合，为训练前后提供持续能量。",
         "tags": [
           "vegan",
           "high-protein",
-          "quick"
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Can you really build muscle on a vegan diet?",
-        "answer": "Absolutely. Muscle growth requires adequate protein, caloric surplus, and resistance training — none of which require animal products. Studies show that plant protein is equally effective for muscle synthesis when total daily intake is sufficient and amino acids are balanced across meals."
+        "question": "纯素饮食真的能支撑肌肉增长吗？",
+        "answer": "可以，只要蛋白质和热量摄入足够。植物蛋白与动物蛋白在支撑肌肉合成方面的差异远比人们想象的要小，关键在于每日总蛋白质摄入量和配合适当的力量训练。"
       },
       {
-        "question": "How much protein do I need for muscle gain?",
-        "answer": "The standard recommendation is 1.6-2.2g of protein per kg of body weight. Our plans target the higher end at roughly 2g/kg since plant proteins are slightly less bioavailable than animal proteins. For a 75kg person, that's about 150g per day, which is very achievable with whole foods."
+        "question": "纯素增肌计划中每日蛋白质目标是多少？",
+        "answer": "我们的计划目标是每磅体重0.7至1克蛋白质（每公斤1.5至2.2克），具体取决于你的训练强度。这与非素食增肌计划的目标相同。"
       },
       {
-        "question": "Do I need vegan protein powder?",
-        "answer": "It's helpful but not required. Our plans can hit protein targets through whole foods alone — tofu, tempeh, seitan, legumes, and grains. Protein powder (pea, soy, or rice-based) simply makes it more convenient, especially for post-workout shakes."
+        "question": "纯素食中哪些食物的蛋白质含量最高？",
+        "answer": "天贝（每100克约19克蛋白质）、豆腐（每100克约8至15克）、豆类（每杯约15至18克）、藜麦（每杯约8克）、豌豆蛋白粉（每勺约20至25克）。合理搭配这些食材可以轻松达到每日蛋白质目标。"
       },
       {
-        "question": "What about B12 and other nutrients vegans miss?",
-        "answer": "We recommend supplementing B12 (2,500mcg weekly) and vitamin D regardless. Our plans are rich in iron (lentils, spinach), calcium (fortified plant milk, tofu), and omega-3s (flax, chia, walnuts). We also flag when a recipe contains key micronutrients so you can track coverage."
+        "question": "纯素增肌饮食需要补充哪些营养素？",
+        "answer": "纯素食增肌者通常需要特别关注维生素B12（必须补充）、维生素D、Omega-3脂肪酸（藻类来源）、铁和锌。我们建议在咨询营养师后使用针对性的营养补充剂。"
       },
       {
-        "question": "Will I need to eat huge volumes of food?",
-        "answer": "Plant foods are generally less calorie-dense, so yes, meals can be larger. We offset this by including calorie-dense staples like nuts, nut butter, avocado, coconut milk, and whole grains. The plan is designed so you're comfortably full, not painfully stuffed."
+        "question": "纯素增肌饮食费用高吗？",
+        "answer": "不一定。豆类、扁豆、豆腐和谷物都是价格实惠的蛋白质来源。主要的额外费用可能来自蛋白粉和天贝，但整体来说纯素饮食通常比以肉类为主的饮食更经济实惠。"
       }
     ]
   },
@@ -6382,86 +6411,85 @@
     "title": "新手无麸质膳食计划",
     "metaDescription": "无压力开始的新手无麸质膳食计划。附带购物清单。免费试用。",
     "h1": "无压力开始的新手无麸质膳食计划",
-    "intro": "Going gluten-free can feel overwhelming when you're reading every label and second-guessing every ingredient. The easiest way to start is with meals that are naturally gluten-free — no specialty products, no weird flour blends, just real food that happens to have zero gluten. Our beginner plans focus on whole foods you already know and love, with clear guidance on hidden gluten traps so you build confidence fast.",
+    "intro": "刚开始无麸质饮食时，最大的挑战不是找到可以吃什么，而是弄清楚什么地方潜藏着麸质。它藏在酱油里、藏在薯片的调味料里、藏在某些燕麦里。我们的初学者无麸质计划消除了这种猜测——每一餐都经过精心筛选，完全不含麸质，让你安心专注于新的饮食节奏。",
     "valueProps": [
       {
-        "heading": "Naturally gluten-free, not substituted",
-        "description": "Instead of replacing bread with expensive GF bread, we build meals around foods that never had gluten — rice, potatoes, corn, quinoa, oats (certified GF), and plenty of whole proteins and vegetables."
+        "heading": "消除麸质侦探工作",
+        "description": "每一道餐食都已经过验证，完全不含小麦、大麦、黑麦和其他麸质来源。你不需要自己研究每一种成分。"
       },
       {
-        "heading": "Hidden gluten, uncovered",
-        "description": "Soy sauce, salad dressings, marinades, and even some spice blends contain hidden gluten. Our recipes use safe alternatives and each plan includes a quick-reference guide to common gluten traps."
+        "heading": "天然无麸质，而非替代品",
+        "description": "我们优先使用天然无麸质食材（米饭、土豆、玉米、藜麦、肉类、蔬菜），而非过度依赖昂贵且口感欠佳的无麸质替代品。"
       },
       {
-        "heading": "Gradual and forgiving",
-        "description": "Beginner plans start with simple swaps you barely notice — tamari for soy sauce, corn tortillas for flour — so the transition feels natural instead of restrictive."
+        "heading": "帮助你识别隐性麸质来源",
+        "description": "通过使用这个计划，你会逐渐了解哪些食物通常含有隐性麸质，建立起长期的无麸质饮食直觉。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Sweet Potato & Black Bean Breakfast Hash",
-        "description": "Cubed sweet potato pan-fried with black beans, peppers, and a fried egg on top. Naturally GF, high in fiber, and filling enough to last until lunch.",
+        "name": "炒蛋配红薯煎饼",
+        "description": "用磨碎红薯做成天然无麸质煎饼，搭配炒蛋和新鲜莎莎酱，是丰盛的无麸质早餐。",
         "tags": [
           "gluten-free",
-          "high-protein",
-          "beginner"
+          "vegetarian",
+          "quick"
         ]
       },
       {
-        "name": "Chicken & Rice Soup",
-        "description": "Classic chicken soup made with rice instead of noodles, loaded with carrots, celery, and fresh dill. Comfort food that happens to be naturally gluten-free.",
-        "tags": [
-          "gluten-free",
-          "one-pot",
-          "comfort"
-        ]
-      },
-      {
-        "name": "Grilled Steak with Baked Potato & Salad",
-        "description": "Seasoned ribeye steak with a loaded baked potato (butter, sour cream, chives) and a simple green salad. A dinner you'd never guess is 'gluten-free.'",
+        "name": "泰式花生牛肉米粉",
+        "description": "米粉配精瘦牛肉片、花生酱椰奶酱汁、豆芽和新鲜香菜，完全无麸质的亚洲风味面条料理。",
         "tags": [
           "gluten-free",
           "high-protein"
         ]
       },
       {
-        "name": "Shrimp Taco Bowl with Corn Salsa",
-        "description": "Seasoned shrimp over cilantro-lime rice with black beans, corn salsa, avocado, and a squeeze of lime. Corn tortilla chips on the side for crunch.",
+        "name": "烤鸡配藜麦沙拉",
+        "description": "柠檬香草烤鸡胸肉配藜麦、黄瓜、番茄、菲达奶酪和橄榄油柠檬汁，地中海风味的无麸质午餐。",
         "tags": [
           "gluten-free",
-          "quick"
+          "high-protein"
         ]
       },
       {
-        "name": "Apple Slices with Cheese & Almonds",
-        "description": "Crisp apple slices paired with sharp cheddar cubes and a handful of roasted almonds. Simple, naturally GF, and perfectly balanced.",
+        "name": "椰子咖喱虾配茉莉香米",
+        "description": "椰奶、番茄、姜黄和香草制成咖喱底料，加入鲜虾烹制，搭配茉莉香米，无麸质的丰盛晚餐。",
         "tags": [
           "gluten-free",
-          "no-cook",
-          "quick"
+          "high-protein"
+        ]
+      },
+      {
+        "name": "米饼配鳄梨酱",
+        "description": "无麸质米饼搭配新鲜牛油果捣制的鳄梨酱，清爽的零食，适合初学者的无麸质饮食。",
+        "tags": [
+          "gluten-free",
+          "vegan",
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Is this plan suitable for celiac disease?",
-        "answer": "Our recipes use naturally gluten-free ingredients and flag common cross-contamination risks. However, if you have celiac disease, you'll need to ensure your kitchen, cookware, and ingredient sourcing are also cross-contamination-free. We recommend consulting your doctor for personalized medical advice."
+        "question": "无麸质饮食对没有乳糜泻的人有益吗？",
+        "answer": "这因人而异。对于确诊乳糜泻或非乳糜泻麸质敏感的人，无麸质饮食是必要的医疗需求。对于其他人，是否有益取决于个人情况。如果你怀疑对麸质敏感，建议在尝试无麸质饮食前先咨询医生进行检测。"
       },
       {
-        "question": "Do I need to buy specialty gluten-free products?",
-        "answer": "Not for our beginner plans. We focus on foods that are naturally GF — rice, potatoes, corn, quinoa, meat, fish, eggs, fruits, and vegetables. You'll only need tamari (GF soy sauce) and certified GF oats as specialty items, both of which are widely available at regular grocery stores."
+        "question": "无麸质饮食计划费用会比普通计划高很多吗？",
+        "answer": "不一定，取决于你如何规划。天然无麸质食材（米饭、土豆、肉类、蔬菜、豆类）通常不比普通食材贵。主要的额外费用来自购买专门的无麸质替代品，如无麸质面包或面食，但这些并非必需品。"
       },
       {
-        "question": "Where does gluten hide that I might not expect?",
-        "answer": "Common culprits include soy sauce (contains wheat), many salad dressings, canned soups, deli meats (fillers), seasoning blends, beer, and some medications. Our plans avoid all hidden sources and we include a cheat sheet of safe swaps with every weekly plan."
+        "question": "无麸质燕麦可以出现在计划中吗？",
+        "answer": "可以，如果你选择的话。普通燕麦通常存在交叉污染风险，而标有「认证无麸质」的燕麦则经过特殊处理，大多数对麸质敏感的人可以食用。但对于乳糜泻患者，应在医生建议下使用。"
       },
       {
-        "question": "Will I lose weight going gluten-free?",
-        "answer": "Not automatically. Cutting gluten removes some processed carbs, which can lead to initial weight loss, but GF packaged foods are often higher in calories and sugar. Our plans focus on whole foods rather than GF substitutes, which naturally supports healthy weight management."
+        "question": "外出就餐时如何坚持无麸质饮食？",
+        "answer": "我们的计划重点在于家庭用餐，但在计划说明中会提供一些外出就餐的指导建议，帮助你在餐厅也能做出安全的选择。"
       },
       {
-        "question": "Are oats gluten-free?",
-        "answer": "Oats are naturally gluten-free but are often processed in facilities that also handle wheat. Look for 'certified gluten-free' oats to be safe. Our plans specify certified GF oats whenever oats appear in a recipe."
+        "question": "无麸质饮食计划也适用于对小麦过敏的人吗？",
+        "answer": "适用，但需要注意小麦过敏与乳糜泻的区别。小麦过敏需要避开小麦，而乳糜泻则需要避开所有麸质来源（包括大麦和黑麦）。我们的计划排除所有麸质来源，因此对两种情况都适用。"
       }
     ]
   },
@@ -6469,88 +6497,88 @@
     "title": "心脏健康地中海膳食计划",
     "metaDescription": "吃得美味、保护心脏的地中海膳食计划。附带购物清单。免费试用。",
     "h1": "吃好饭、护心脏的地中海膳食计划",
-    "intro": "The Mediterranean diet isn't a fad — it's the most studied dietary pattern in the world for cardiovascular health, with decades of research showing reduced risk of heart disease, stroke, and high blood pressure. Our heart-focused Mediterranean plans emphasize extra-virgin olive oil, fatty fish, whole grains, legumes, and abundant vegetables while minimizing red meat, processed foods, and added sugars. It tastes like a vacation and works like medicine.",
+    "intro": "地中海饮食是目前研究最充分的心脏健康饮食模式之一，数十年的研究证实它能降低心脏病、中风和高血压的风险。但它之所以有效，并不仅仅是因为它「健康」——而是因为它真的非常美味。橄榄油、新鲜草药、海鲜、豆类和时令蔬菜构成的饮食，是人们真正愿意长期坚持的生活方式。",
     "valueProps": [
       {
-        "heading": "Research-backed for heart health",
-        "description": "The PREDIMED trial and countless studies confirm that Mediterranean eating reduces cardiovascular events by up to 30%. These aren't theoretical benefits — this is one of the most evidence-backed dietary patterns that exists."
+        "heading": "经科学验证的心脏保护",
+        "description": "地中海饮食在多项大型研究中被证明能显著降低心血管疾病风险，减少炎症，并改善胆固醇和血压水平。"
       },
       {
-        "heading": "Healthy fats, front and center",
-        "description": "Extra-virgin olive oil, fatty fish (salmon, sardines, mackerel), nuts, and avocado provide the omega-3s and monounsaturated fats that actively improve cholesterol ratios and reduce inflammation."
+        "heading": "以植物为中心，以快乐为导向",
+        "description": "大量蔬菜、豆类、全谷物和健康脂肪，搭配适量海鲜和禽肉，偶尔享用红肉——这是一种以享受为核心的饮食哲学。"
       },
       {
-        "heading": "Delicious enough to sustain",
-        "description": "The reason the Mediterranean diet works long-term is that it tastes incredible. Fresh herbs, garlic, lemon, quality olive oil, and seasonal produce make every meal something to look forward to."
+        "heading": "橄榄油是主角，而非配角",
+        "description": "橄榄油不仅仅是烹饪油，它是地中海饮食的核心风味来源。我们的计划充分利用这一富含单不饱和脂肪的液体黄金。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Shakshuka with Crusty Whole Grain Bread",
-        "description": "Eggs poached in a spiced tomato and pepper sauce with cumin, paprika, and fresh herbs. Served with whole grain bread for dipping.",
+        "name": "希腊式烤海鲈鱼",
+        "description": "新鲜海鲈鱼配橄榄油、柠檬汁、大蒜、番茄和卡拉马塔橄榄烤制，搭配烤土豆和绿叶沙拉，是经典的地中海主菜。",
         "tags": [
-          "mediterranean",
-          "one-pan",
+          "high-protein",
+          "gluten-free",
           "heart-healthy"
         ]
       },
       {
-        "name": "Grilled Sardines with Lemon & Herb Salad",
-        "description": "Whole sardines grilled until crispy, served over a bed of mixed greens, cherry tomatoes, and cucumbers with a lemon-EVOO dressing. Omega-3 powerhouse.",
+        "name": "法式尼斯沙拉",
+        "description": "金枪鱼、水煮蛋、四季豆、番茄、黑橄榄和土豆组成的经典尼斯沙拉，用第戎芥末油醋汁调味，地中海风情十足。",
         "tags": [
-          "mediterranean",
-          "heart-healthy",
-          "high-protein"
-        ]
-      },
-      {
-        "name": "Baked Salmon with Olive Tapenade & Quinoa",
-        "description": "Salmon fillet topped with a briny olive-caper tapenade, baked and served over fluffy quinoa with roasted Mediterranean vegetables.",
-        "tags": [
-          "mediterranean",
-          "heart-healthy",
-          "high-protein"
-        ]
-      },
-      {
-        "name": "Chickpea & Vegetable Stew",
-        "description": "Chickpeas simmered with zucchini, tomatoes, onions, and garlic in a fragrant broth with oregano and a generous pour of olive oil.",
-        "tags": [
-          "mediterranean",
-          "one-pot",
+          "high-protein",
+          "gluten-free",
           "heart-healthy"
         ]
       },
       {
-        "name": "Mixed Nuts & Dried Figs",
-        "description": "A handful of raw almonds, walnuts, and pistachios with a few dried figs. The classic Mediterranean snack — heart-healthy fats and natural sweetness.",
+        "name": "摩洛哥鹰嘴豆炖菜",
+        "description": "鹰嘴豆、胡萝卜、西葫芦和番茄用孜然、肉桂、姜黄和蜂蜜调味炖制，搭配蒸粗麦粉，心脏友好的素食主菜。",
         "tags": [
-          "mediterranean",
+          "vegan",
+          "heart-healthy",
+          "meal-prep"
+        ]
+      },
+      {
+        "name": "西班牙番茄冷汤",
+        "description": "成熟番茄、黄瓜、彩椒、大蒜和橄榄油打成的冷汤，淋上特级初榨橄榄油，是夏季的地中海开胃菜。",
+        "tags": [
+          "vegan",
           "no-cook",
           "heart-healthy"
+        ]
+      },
+      {
+        "name": "坚果与橄榄混合零食",
+        "description": "一把核桃和杏仁搭配绿橄榄，简单的地中海风格零食，提供心脏健康的不饱和脂肪和抗氧化剂。",
+        "tags": [
+          "vegan",
+          "heart-healthy",
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How does the Mediterranean diet improve heart health?",
-        "answer": "It works through multiple mechanisms: olive oil and fish reduce inflammation and improve cholesterol ratios, fiber from whole grains and legumes lowers LDL cholesterol, antioxidants from fruits and vegetables protect blood vessels, and the overall pattern reduces blood pressure. The PREDIMED study showed a 30% reduction in major cardiovascular events."
+        "question": "地中海饮食真的对心脏健康有帮助吗？",
+        "answer": "是的，这是营养科学中证据最充分的结论之一。PREDIMED研究等大型临床试验证明，地中海饮食能将主要心血管事件的风险降低约30%，并有助于降低LDL胆固醇、血压和炎症标志物。"
       },
       {
-        "question": "How much fish should I eat per week?",
-        "answer": "Our plans include fish 2-3 times per week, in line with American Heart Association recommendations. We emphasize fatty fish like salmon, mackerel, and sardines for their high omega-3 content. If you don't eat fish, we include plant-based omega-3 sources like walnuts, flaxseed, and chia."
+        "question": "地中海饮食需要完全戒掉红肉吗？",
+        "answer": "不需要完全戒掉，但传统地中海饮食将红肉定位为偶尔享用的食物（每月数次），而不是日常蛋白质来源。禽肉和海鲜是更常见的动物蛋白选择。"
       },
       {
-        "question": "Is olive oil really that important?",
-        "answer": "Extra-virgin olive oil is the cornerstone of the Mediterranean diet's heart benefits. It's rich in polyphenols and monounsaturated fats that actively lower LDL cholesterol and reduce inflammation. Our plans use EVOO as the primary cooking fat and in dressings — typically 2-4 tablespoons per day."
+        "question": "地中海饮食计划适合高胆固醇患者吗？",
+        "answer": "非常适合。研究表明地中海饮食能有效改善血脂状况，提高HDL（好胆固醇）并降低LDL（坏胆固醇）和甘油三酯。但如果你正在服用降脂药物，请在调整饮食前咨询医生。"
       },
       {
-        "question": "Can I still eat red meat?",
-        "answer": "Yes, but sparingly — our plans include red meat about once per week at most. The emphasis shifts toward fish, poultry, legumes, and eggs as primary protein sources. When red meat does appear, it's lean cuts in moderate portions."
+        "question": "地中海饮食计划中橄榄油的用量是多少？",
+        "answer": "传统地中海饮食中橄榄油的用量相当慷慨，每天30至50毫升（2至4汤匙）用于烹饪和调味是常见的。我们的计划反映了这一传统，不会刻意限制橄榄油的使用。"
       },
       {
-        "question": "Will this help lower my cholesterol?",
-        "answer": "The Mediterranean diet is one of the most effective dietary approaches for improving cholesterol levels. The combination of olive oil, fish, nuts, and fiber-rich foods typically raises HDL (good) cholesterol and lowers LDL (bad) cholesterol. Many people see measurable improvements within 3-6 months."
+        "question": "地中海饮食计划是否允许饮酒？",
+        "answer": "传统地中海饮食包含适量红酒（通常每天一杯，与餐食同饮），但这并不是计划的必要组成部分。如果你不饮酒，计划同样有效——葡萄中的多酚也可以通过食用葡萄获得。"
       }
     ]
   },
@@ -6558,88 +6586,89 @@
     "title": "糖尿病低碳膳食计划",
     "metaDescription": "稳定血糖、真正美食的低碳糖尿病膳食计划。附带购物清单。免费试用。",
     "h1": "稳定血糖、真正美食的低碳糖尿病膳食计划",
-    "intro": "Managing diabetes through diet doesn't mean eliminating all carbs — it means choosing the right ones in the right amounts. Our low-carb diabetes plans keep net carbs moderate (50-100g per day), focus on low-glycemic ingredients, and distribute carbs evenly across meals to prevent blood sugar spikes and crashes. Every recipe is designed for steady energy, stable readings, and food you genuinely enjoy eating day after day.",
+    "intro": "对于2型糖尿病患者或前驱糖尿病患者而言，低碳水化合物饮食可能是最直接有效的血糖管理工具之一。通过减少碳水化合物的摄入，你从源头上减少了血糖的波动——这比依赖药物在饮食后被动降糖要主动得多。我们的糖尿病低碳饮食计划专为血糖稳定设计，同时确保餐食美味、营养均衡、可长期坚持。",
     "valueProps": [
       {
-        "heading": "Low glycemic, not no carb",
-        "description": "We use slow-digesting carbs — lentils, sweet potatoes, steel-cut oats, and non-starchy vegetables — that release glucose gradually instead of spiking your blood sugar all at once."
+        "heading": "从源头稳定血糖",
+        "description": "低碳水化合物饮食减少餐后血糖峰值，帮助维持全天更平稳的血糖水平。许多坚持低碳饮食的2型糖尿病患者报告血糖控制显著改善。"
       },
       {
-        "heading": "Even carb distribution",
-        "description": "Rather than loading carbs into one meal, we spread them evenly across breakfast, lunch, dinner, and snacks. Consistent carb intake helps maintain stable blood sugar levels throughout the day."
+        "heading": "注重升糖指数，而非仅仅计算碳水",
+        "description": "不是所有碳水化合物都等效。我们优先选择升糖指数低的食物——绿叶蔬菜、豆类、浆果——而不是简单地将所有碳水化合物一刀切。"
       },
       {
-        "heading": "Paired with protein and fiber",
-        "description": "Every carb-containing food is paired with protein, fat, or fiber to slow digestion and blunt glucose response. This simple pairing strategy is one of the most effective tools for blood sugar management."
+        "heading": "充足的蛋白质与健康脂肪",
+        "description": "蛋白质和健康脂肪有助于延缓血糖吸收，增加饱腹感，减少对高碳水零食的渴望。我们的计划确保每餐都有充足的蛋白质和优质脂肪。"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Veggie Omelet with Avocado",
-        "description": "Three-egg omelet stuffed with sautéed spinach, mushrooms, and bell peppers, served with half an avocado. High protein, healthy fats, minimal carb impact.",
+        "name": "菠菜蘑菇炒蛋配牛油果",
+        "description": "三个鸡蛋与菠菜和蘑菇炒制，搭配半个牛油果，低碳高蛋白的早餐，血糖友好，饱腹感持久。",
         "tags": [
           "low-carb",
           "high-protein",
-          "quick"
+          "diabetes-friendly"
         ]
       },
       {
-        "name": "Turkey & Hummus Lettuce Wraps",
-        "description": "Sliced turkey breast and a smear of hummus wrapped in crisp romaine leaves with cucumber, tomato, and a sprinkle of feta.",
-        "tags": [
-          "low-carb",
-          "no-cook",
-          "quick"
-        ]
-      },
-      {
-        "name": "Herb-Crusted Chicken with Roasted Broccoli & Quinoa",
-        "description": "Chicken breast with a Parmesan-herb crust alongside roasted broccoli and a measured half-cup of quinoa. Balanced macros with controlled carbs.",
+        "name": "烤三文鱼配芦笋与柠檬黄油",
+        "description": "橄榄油烤三文鱼配烤芦笋，淋上柠檬黄油，几乎不含碳水化合物，是omega-3丰富的糖尿病友好午餐。",
         "tags": [
           "low-carb",
           "high-protein",
-          "one-pan"
+          "diabetes-friendly"
         ]
       },
       {
-        "name": "Lentil Soup with Spinach & Lemon",
-        "description": "Green lentils simmered with spinach, garlic, and a bright squeeze of lemon. Lentils are one of the lowest glycemic legumes, making them ideal for blood sugar management.",
+        "name": "花椰菜炒饭配鸡肉",
+        "description": "花椰菜切碎代替米饭，与鸡胸肉丁、鸡蛋、蔬菜和酱油翻炒，低碳版炒饭，口感出人意料的满足。",
         "tags": [
           "low-carb",
-          "one-pot",
-          "low-glycemic"
+          "high-protein",
+          "diabetes-friendly"
         ]
       },
       {
-        "name": "Celery Sticks with Almond Butter",
-        "description": "Crisp celery filled with almond butter — nearly zero glycemic impact with satisfying crunch and healthy fats to keep you steady between meals.",
+        "name": "希腊沙拉配烤羊排",
+        "description": "传统希腊沙拉——番茄、黄瓜、橄榄、菲达奶酪——搭配香草腌制的烤羊排，高蛋白低碳的地中海晚餐。",
         "tags": [
           "low-carb",
-          "no-cook",
-          "quick"
+          "high-protein",
+          "diabetes-friendly"
+        ]
+      },
+      {
+        "name": "黄瓜圆片配奶油奶酪与三文鱼",
+        "description": "黄瓜圆片代替饼干作为底座，涂抹奶油奶酪，铺上烟熏三文鱼和酸豆，低碳零食，血糖友好。",
+        "tags": [
+          "low-carb",
+          "high-protein",
+          "diabetes-friendly",
+          "snack"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How many carbs per day are in this plan?",
-        "answer": "Our diabetes-focused plans target 50-100g of net carbs per day, distributed evenly across meals. This is moderate low-carb — restrictive enough to improve blood sugar control but flexible enough to include nutritious whole grains, legumes, and fruits in controlled portions. You can adjust the target in your profile."
+        "question": "低碳水饮食对糖尿病管理真的有效吗？",
+        "answer": "有充分的研究证据支持。多项研究表明，低碳水化合物饮食能有效降低糖化血红蛋白（HbA1c）、减少血糖波动，并在某些情况下帮助减少降糖药物的需求。但请在调整饮食前务必咨询你的医生或内分泌科医生，特别是如果你正在服用胰岛素或降糖药物。"
       },
       {
-        "question": "Is this plan suitable for Type 1 and Type 2 diabetes?",
-        "answer": "Our plans are designed primarily for Type 2 diabetes management, where diet plays a major role in blood sugar control. If you have Type 1 diabetes, low-carb eating can still be beneficial, but you should work with your endocrinologist to adjust insulin dosing as your carb intake changes. Always consult your healthcare team before making significant dietary changes."
+        "question": "糖尿病患者每日应将碳水化合物控制在多少克？",
+        "answer": "这因人而异，取决于你的血糖目标、用药情况和医生建议。一般低碳饮食通常将碳水化合物控制在每日100至150克，而严格低碳（接近生酮）则低于50克。请与你的医疗团队讨论适合你的目标。"
       },
       {
-        "question": "What fruits can I eat on a low-carb diabetes plan?",
-        "answer": "Berries (strawberries, blueberries, raspberries) are the best choice — they're low glycemic and high in fiber. We also include small portions of apples, pears, and citrus fruits. Tropical fruits like bananas and mangoes appear rarely and in controlled amounts since they have a higher glycemic impact."
+        "question": "使用这个计划时需要监测血糖吗？",
+        "answer": "强烈建议监测血糖，尤其是饮食变化初期。低碳饮食通常会显著影响血糖水平，如果你在服用降糖药物，可能需要相应调整药物剂量，这需要在医生的指导下进行。"
       },
       {
-        "question": "Will this plan help reduce my A1C?",
-        "answer": "Many people see measurable A1C improvements within 3-6 months of consistent low-carb eating. Studies show low-carb diets can reduce A1C by 0.5-1.0% on average. However, results depend on your starting point, medication, activity level, and consistency. Track your progress with your doctor."
+        "question": "低碳水饮食计划对1型糖尿病患者适用吗？",
+        "answer": "1型糖尿病患者同样可以从低碳饮食中获益，但管理更为复杂，因为胰岛素需求会随碳水化合物摄入量的变化而显著改变。1型糖尿病患者在尝试低碳饮食前应与内分泌科医生密切合作。"
       },
       {
-        "question": "Can I still eat bread and pasta?",
-        "answer": "In moderation, yes. We use controlled portions of whole grain or legume-based pasta and bread, always paired with protein and fat to slow glucose absorption. A quarter-cup of whole wheat pasta as part of a balanced meal has a very different blood sugar impact than a large bowl of white pasta on its own."
+        "question": "这个计划也能帮助前驱糖尿病患者吗？",
+        "answer": "非常有效。研究表明，低碳水饮食结合适当的体重管理，可以帮助部分前驱糖尿病患者将血糖恢复到正常范围，在某些情况下甚至可以逆转前驱糖尿病状态。"
       }
     ]
   }

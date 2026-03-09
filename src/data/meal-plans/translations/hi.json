@@ -1629,25 +1629,25 @@
     "title": "साप्ताहिक कोरियन भोजन योजनाएँ",
     "metaDescription": "बिबिम्बैप, बुलगोगी और किमची जिगे के साथ साप्ताहिक कोरियन भोजन योजनाएँ। ऑटो-जनरेटेड ग्रोसरी लिस्ट कोरियन होम कुकिंग को आसान बनाती हैं।",
     "h1": "बोल्ड, ललचाने वाली होम कुकिंग के लिए कोरियन भोजन योजनाएँ",
-    "intro": "Korean food has taken the world by storm, and for good reason — it's bold, fermented, fiery, and endlessly craveable. But Korean home cooking is more than just BBQ and fried chicken. It's banchan-laden tables, bubbling stews, and nourishing rice bowls. Our weekly plans bring this depth to your kitchen with recipes that range from quick weeknight bibimbap to slow-simmered jjigae, plus a grocery list covering your gochujang, sesame oil, and everything in between.",
+    "intro": "कोरियाई खाना पूरी दुनिया में धूम मचा रहा है, और इसकी वजह भी है — यह तीखा, किण्वित, मसालेदार और बेहद स्वादिष्ट है। लेकिन कोरियाई घरेलू खाना सिर्फ BBQ और फ्राइड चिकन तक सीमित नहीं है। इसमें बैंचान से भरी थालियाँ, उबलते स्टू और पौष्टिक राइस बाउल शामिल हैं। हमारी साप्ताहिक योजनाएँ इस गहराई को आपकी रसोई में लाती हैं — त्वरित वीकनाइट बिबिम्बाप से लेकर धीमी आँच पर पकी जिगाए तक — साथ में गोचुजांग, तिल के तेल और हर ज़रूरी सामग्री की किराने की सूची।",
     "valueProps": [
       {
-        "heading": "Banchan Game Strong",
-        "description": "Plans include easy banchan (side dishes) like quick-pickled cucumbers, seasoned spinach, and kongnamul that transform a simple main into a full Korean table spread."
+        "heading": "बैंचान का कमाल",
+        "description": "योजनाओं में आसान बैंचान (साइड डिश) शामिल हैं जैसे जल्दी से बनी अचारी खीरे, मसालेदार पालक और कोंगनामुल, जो एक साधारण मुख्य व्यंजन को पूरी कोरियाई दस्तरख्वान में बदल देते हैं।"
       },
       {
-        "heading": "Fermented Flavor Boost",
-        "description": "Kimchi, doenjang, and gochujang are probiotic-rich umami bombs that add incredible depth of flavor — and gut health benefits — to everyday meals."
+        "heading": "किण्वित स्वाद का जादू",
+        "description": "किम्ची, दोएनजांग और गोचुजांग प्रोबायोटिक से भरपूर उमामी बम हैं जो रोज़मर्रा के खाने में अद्भुत गहराई — और पेट के स्वास्थ्य के फायदे — जोड़ते हैं।"
       },
       {
-        "heading": "Meal Prep Champion",
-        "description": "Korean cooking is built for batch preparation — marinated meats, banchan, and rice all keep well for days, making it one of the most meal-prep-friendly cuisines."
+        "heading": "मील प्रेप का बादशाह",
+        "description": "कोरियाई खाना बैच तैयारी के लिए बना है — मैरिनेटेड मीट, बैंचान और चावल सभी कई दिनों तक ताज़े रहते हैं, जिससे यह सबसे मील-प्रेप-अनुकूल व्यंजनों में से एक है।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Bulgogi with Steamed Rice and Banchan",
-        "description": "Thinly sliced beef marinated in soy sauce, pear juice, garlic, and sesame, seared in a hot skillet and served with rice and three simple banchan.",
+        "name": "बुलगोगी के साथ उबले चावल और बैंचान",
+        "description": "सोया सॉस, नाशपाती के रस, लहसुन और तिल में मैरिनेट किया हुआ पतला कटा बीफ, गरम कड़ाही में सेंका गया और तीन साधारण बैंचान के साथ परोसा गया।",
         "tags": [
           "classic",
           "high-protein",
@@ -1655,8 +1655,8 @@
         ]
       },
       {
-        "name": "Gyeran-bap (Egg Rice Bowl)",
-        "description": "A steaming bowl of short-grain rice topped with a fried egg, toasted sesame oil, soy sauce, and crispy gim seaweed — Korean comfort in five minutes.",
+        "name": "ग्येरान-बाप (अंडा राइस बाउल)",
+        "description": "छोटे दाने वाले चावल का भाप से बना कटोरा, ऊपर से तला हुआ अंडा, भुना तिल का तेल, सोया सॉस और कुरकुरे गिम सीवीड — पाँच मिनट में कोरियाई आराम।",
         "tags": [
           "quick",
           "budget",
@@ -1664,16 +1664,16 @@
         ]
       },
       {
-        "name": "Japchae Glass Noodle Stir-Fry",
-        "description": "Sweet potato glass noodles stir-fried with spinach, carrots, mushrooms, and beef in a sesame-soy sauce, served warm or at room temperature.",
+        "name": "जापचे ग्लास नूडल स्टिर-फ्राय",
+        "description": "शकरकंद के काँच के नूडल, पालक, गाजर, मशरूम और बीफ के साथ तिल-सोया सॉस में भुने गए, गरम या कमरे के तापमान पर परोसे गए।",
         "tags": [
           "gluten-free",
           "meal-prep"
         ]
       },
       {
-        "name": "Kimchi Jjigae (Kimchi Stew)",
-        "description": "A fiery, bubbling stew of aged kimchi, pork belly, tofu, and scallions simmered in anchovy-kelp broth — the ultimate Korean comfort food on a cold night.",
+        "name": "किम्ची जिगाए (किम्ची स्टू)",
+        "description": "पुरानी किम्ची, पोर्क बेली, टोफू और हरे प्याज़ का तीखा, उबलता स्टू — एंकोवी-केल्प शोरबे में पकाया गया — ठंडी रात में बेहतरीन कोरियाई आराम।",
         "tags": [
           "comfort-food",
           "spicy",
@@ -1681,8 +1681,8 @@
         ]
       },
       {
-        "name": "Bibimbap with Gochujang Sauce",
-        "description": "A colorful rice bowl topped with sauteed spinach, bean sprouts, carrots, zucchini, a fried egg, and beef, mixed tableside with spicy gochujang sauce.",
+        "name": "बिबिम्बाप गोचुजांग सॉस के साथ",
+        "description": "रंग-बिरंगा राइस बाउल जिसमें भुनी पालक, अंकुरित मूँग, गाजर, तोरी, तला अंडा और बीफ डला हो, मेज़ पर तीखी गोचुजांग सॉस के साथ मिलाया जाता है।",
         "tags": [
           "classic",
           "balanced",
@@ -1692,20 +1692,20 @@
     ],
     "faqs": [
       {
-        "question": "What Korean ingredients do I need to start?",
-        "answer": "The essential five are gochujang (red pepper paste), gochugaru (red pepper flakes), soy sauce, sesame oil, and rice vinegar. Add a jar of kimchi and you can make dozens of Korean dishes. These are available at most supermarkets now, and our grocery list includes specific brand recommendations."
+        "question": "कोरियाई खाना शुरू करने के लिए कौन-सी सामग्री चाहिए?",
+        "answer": "पाँच ज़रूरी चीज़ें हैं: गोचुजांग (लाल मिर्च का पेस्ट), गोचुगारू (लाल मिर्च के गुच्छे), सोया सॉस, तिल का तेल और चावल का सिरका। एक जार किम्ची जोड़ें और आप दर्जनों कोरियाई व्यंजन बना सकते हैं। ये अब ज़्यादातर सुपरमार्केट में मिलते हैं, और हमारी किराने की सूची में विशेष ब्रांड सुझाव भी शामिल हैं।"
       },
       {
-        "question": "Is Korean food very spicy?",
-        "answer": "Some dishes are fiery (kimchi jjigae, tteokbokki), but many are mild — bulgogi, japchae, and galbi are savory-sweet without much heat. Our planner balances spicy and non-spicy dishes throughout the week and lets you set your heat preference. You can always reduce gochugaru or skip the chili flakes."
+        "question": "क्या कोरियाई खाना बहुत तीखा होता है?",
+        "answer": "कुछ व्यंजन काफी तीखे होते हैं (किम्ची जिगाए, तेओकबोक्की), लेकिन कई हल्के होते हैं — बुलगोगी, जापचे और गालबी बिना अधिक मसाले के नमकीन-मीठे होते हैं। हमारा प्लानर पूरे सप्ताह तीखे और हल्के व्यंजनों का संतुलन बनाता है और आपको अपनी पसंद का मसाला स्तर चुनने देता है।"
       },
       {
-        "question": "How do I make banchan (Korean side dishes)?",
-        "answer": "Banchan are designed to be simple and batch-made. Seasoned spinach takes 5 minutes, pickled radish takes 10, and kimchi lasts weeks in the fridge. Our plans include 2-3 banchan per week with a batch-cook session — make them on Sunday and they're ready for every dinner."
+        "question": "बैंचान (कोरियाई साइड डिश) कैसे बनाएँ?",
+        "answer": "बैंचान सरल और बैच में बनाने के लिए डिज़ाइन किए गए हैं। मसालेदार पालक 5 मिनट में बनती है, अचारी मूली 10 में, और किम्ची फ्रिज में हफ्तों तक चलती है। हमारी योजनाओं में प्रति सप्ताह 2-3 बैंचान शामिल हैं — रविवार को बनाएँ और पूरे सप्ताह के डिनर के लिए तैयार रहें।"
       },
       {
-        "question": "Can I meal prep Korean food for the whole week?",
-        "answer": "Korean cuisine might be the single best cuisine for meal prep. Marinated meats keep 3-5 days in the fridge and actually improve as they sit. Banchan are designed to last a week. Rice freezes perfectly. The planner builds in a prep session that sets up components you'll mix and match all week."
+        "question": "क्या मैं पूरे हफ्ते के लिए कोरियाई खाना मील प्रेप कर सकता हूँ?",
+        "answer": "कोरियाई व्यंजन शायद मील प्रेप के लिए सबसे बेहतरीन है। मैरिनेटेड मीट फ्रिज में 3-5 दिन तक रहती है और रखने से और बेहतर हो जाती है। बैंचान एक हफ्ते तक चलने के लिए बने हैं। चावल को फ्रीज़ किया जा सकता है। प्लानर में एक प्रेप सेशन शामिल है जो पूरे हफ्ते मिलाने-जोड़ने के लिए घटक तैयार करता है।"
       }
     ]
   },
@@ -1713,41 +1713,41 @@
     "title": "साप्ताहिक सदर्न भोजन योजनाएँ",
     "metaDescription": "फ्राइड चिकन, बिस्कुट और क्लासिक कम्फ़र्ट फ़ूड के साथ साप्ताहिक सदर्न भोजन योजनाएँ। व्यवस्थित ग्रोसरी लिस्ट से किसी भी रात सदर्न डिनर आसान।",
     "h1": "असली घर के बने आराम के लिए सदर्न भोजन योजनाएँ",
-    "intro": "Southern cooking is the definition of soul food — dishes passed down through generations, built on cast-iron skillets, slow braises, and a whole lot of love. From fluffy buttermilk biscuits to smoky collard greens and crispy fried chicken, these are the meals that bring people to the table. Our weekly plans deliver that warmth and tradition with organized recipes and a grocery list so you can focus on cooking, not planning.",
+    "intro": "दक्षिणी खाना सोल फूड की परिभाषा है — पीढ़ियों से चले आ रहे व्यंजन, कास्ट आयरन की कड़ाहियों, धीमी आँच पर पकी चीज़ों और बहुत प्यार से बने। मुलायम बटरमिल्क बिस्किट से लेकर धुएँदार कोलार्ड ग्रीन्स और कुरकुरे फ्राइड चिकन तक — ये वो खाने हैं जो लोगों को दस्तरख्वान पर लाते हैं। हमारी साप्ताहिक योजनाएँ संगठित रेसिपी और किराने की सूची के साथ वह गर्मजोशी और परंपरा देती हैं ताकि आप सिर्फ पकाने पर ध्यान दें।",
     "valueProps": [
       {
-        "heading": "Cast-Iron Classics",
-        "description": "Plans are built around the one tool every Southern cook swears by — your cast-iron skillet — for cornbread, fried chicken, and pan-seared pork chops with crackly crust."
+        "heading": "कास्ट आयरन के क्लासिक",
+        "description": "योजनाएँ उस एक औज़ार के इर्द-गिर्द बनी हैं जिसकी हर दक्षिणी रसोइया कसम खाता है — कास्ट आयरन स्किलेट — कॉर्नब्रेड, फ्राइड चिकन और कुरकुरी परत वाले पैन-सियर्ड पोर्क चॉप्स के लिए।"
       },
       {
-        "heading": "Low and Slow Staples",
-        "description": "Southern cooking excels at slow braises and smoky meats that fill the house with aroma — pulled pork, braised short ribs, and stewed greens that taste better the longer they cook."
+        "heading": "धीमी आँच के स्टेपल",
+        "description": "दक्षिणी खाना धीमी ब्रेज़ और धुएँदार मीट में माहिर है जो घर को खुशबू से भर देता है — पुल्ड पोर्क, ब्रेज़ेड शॉर्ट रिब्स और उबली हुई ग्रीन्स जो जितनी देर पकें उतनी स्वादिष्ट होती हैं।"
       },
       {
-        "heading": "Sides That Steal the Show",
-        "description": "In Southern cooking, sides aren't an afterthought — mac and cheese, coleslaw, baked beans, and cornbread are the reason people come back for seconds."
+        "heading": "साइड डिश जो शो चुरा लेते हैं",
+        "description": "दक्षिणी खाने में साइड डिश बाद की सोच नहीं है — मैक एंड चीज़, कोलस्लॉ, बेक्ड बीन्स और कॉर्नब्रेड वो कारण हैं जिनके लिए लोग दूसरी बार थाली माँगते हैं।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Buttermilk Fried Chicken with Honey Drizzle",
-        "description": "Bone-in chicken pieces soaked in seasoned buttermilk, dredged in seasoned flour, and fried until shatteringly crispy, finished with a light honey-hot sauce drizzle.",
+        "name": "बटरमिल्क फ्राइड चिकन शहद की बूँदों के साथ",
+        "description": "मसाले वाले बटरमिल्क में भिगोए हड्डी वाले चिकन के टुकड़े, मसाले वाले आटे में लपेटकर कुरकुरे तले गए और हल्की शहद-हॉट सॉस की बूँदों से सजाए गए।",
         "tags": [
           "classic",
           "crowd-pleaser"
         ]
       },
       {
-        "name": "Biscuits and Sausage Gravy",
-        "description": "Flaky, buttery buttermilk biscuits split open and smothered in a creamy, peppery sausage gravy made from scratch in one skillet.",
+        "name": "बिस्किट और सॉसेज ग्रेवी",
+        "description": "परतदार, मक्खनी बटरमिल्क बिस्किट को चीर कर एक कड़ाही में खरोंच से बनाई मलाईदार, कालीमिर्चवाली सॉसेज ग्रेवी से ढका गया।",
         "tags": [
           "comfort-food",
           "cast-iron"
         ]
       },
       {
-        "name": "Pimento Cheese Sandwich with Pickled Okra",
-        "description": "Tangy homemade pimento cheese spread thick on soft white bread with crisp lettuce, served alongside crunchy pickled okra spears.",
+        "name": "पिमेंटो चीज़ सैंडविच अचारी ओकरा के साथ",
+        "description": "घर की बनी तीखी पिमेंटो चीज़ को मुलायम सफेद ब्रेड पर मोटी परत लगाकर, कुरकुरे लेटस के साथ परोसा गया और साथ में कुरकुरी अचारी ओकरा।",
         "tags": [
           "quick",
           "no-cook",
@@ -1755,8 +1755,8 @@
         ]
       },
       {
-        "name": "Shrimp and Grits",
-        "description": "Plump Gulf shrimp sauteed with andouille sausage, bell pepper, and a splash of chicken stock, ladled over creamy stone-ground cheddar grits.",
+        "name": "श्रिम्प एंड ग्रिट्स",
+        "description": "मोटे गल्फ झींगे को एंड्यूले सॉसेज, बेल पेपर और चिकन स्टॉक के साथ भूनकर मलाईदार पत्थर-पिसी चेडर ग्रिट्स पर डाला गया।",
         "tags": [
           "gluten-free",
           "classic",
@@ -1764,8 +1764,8 @@
         ]
       },
       {
-        "name": "Smoked Pork Ribs with Coleslaw and Cornbread",
-        "description": "Fall-off-the-bone pork ribs rubbed with brown sugar and smoked paprika, slow-roasted until glazed, served with tangy vinegar coleslaw and skillet cornbread.",
+        "name": "स्मोक्ड पोर्क रिब्स कोलस्लॉ और कॉर्नब्रेड के साथ",
+        "description": "ब्राउन शुगर और स्मोक्ड पपरिका से रगड़ी हड्डी से अलग होती पोर्क रिब्स, धीरे-धीरे भुनी और ग्लेज़ की गई, तीखे सिरके वाले कोलस्लॉ और स्किलेट कॉर्नब्रेड के साथ परोसी गई।",
         "tags": [
           "slow-cook",
           "crowd-pleaser",
@@ -1775,20 +1775,20 @@
     ],
     "faqs": [
       {
-        "question": "What makes Southern cooking different from American cooking?",
-        "answer": "Southern cooking is a regional tradition within American cuisine with its own distinct identity — it's rooted in African American, Creole, Cajun, and Appalachian food traditions. The techniques (frying, braising, smoking), ingredients (buttermilk, cornmeal, collard greens), and philosophy (generous, communal, slow) set it apart from broader American cooking."
+        "question": "दक्षिणी खाना अमेरिकी खाने से कैसे अलग है?",
+        "answer": "दक्षिणी खाना अमेरिकी व्यंजन के भीतर एक क्षेत्रीय परंपरा है जिसकी अपनी अलग पहचान है — यह अफ्रीकी अमेरिकी, क्रेओल, केजुन और अप्पालेशियन खाद्य परंपराओं में जड़ा है। तकनीक (तलना, ब्रेज़ करना, धूम्रपान), सामग्री (बटरमिल्क, कॉर्नमील, कोलार्ड ग्रीन्स) और दर्शन (उदार, सामूहिक, धीमा) इसे व्यापक अमेरिकी खाने से अलग करते हैं।"
       },
       {
-        "question": "Can Southern meal plans be made healthier?",
-        "answer": "Absolutely. Our plans balance indulgent classics with lighter preparations — oven-fried chicken instead of deep-fried, collard greens with smoked turkey instead of ham hocks, and cauliflower mash alongside the mac and cheese. The soul stays the same, but the nutritional profile gets a modern update."
+        "question": "क्या दक्षिणी मील प्लान को स्वस्थ बनाया जा सकता है?",
+        "answer": "बिल्कुल। हमारी योजनाएँ भोगयुक्त क्लासिक्स को हल्की तैयारियों के साथ संतुलित करती हैं — डीप-फ्राइड के बजाय ओवन-फ्राइड चिकन, हैम होक्स की बजाय स्मोक्ड टर्की के साथ कोलार्ड ग्रीन्स, और मैक एंड चीज़ के साथ फूलगोभी मैश। आत्मा वही रहती है, लेकिन पोषण प्रोफाइल आधुनिक हो जाती है।"
       },
       {
-        "question": "Do I need special equipment for Southern cooking?",
-        "answer": "A 10-inch cast-iron skillet is the only essential — it handles cornbread, fried chicken, and pan sauces all in one. A Dutch oven helps for stews and braises. Our recipes are designed for standard home kitchens and don't require a smoker, deep fryer, or any specialty equipment."
+        "question": "क्या दक्षिणी खाने के लिए विशेष उपकरण चाहिए?",
+        "answer": "10-इंच का कास्ट आयरन स्किलेट ही एकमात्र ज़रूरी चीज़ है — यह एक ही में कॉर्नब्रेड, फ्राइड चिकन और पैन सॉस संभाल लेता है। स्टू और ब्रेज़ के लिए डच ओवन मददगार है। हमारी रेसिपी मानक घरेलू रसोई के लिए बनाई गई हैं और किसी स्मोकर, डीप फ्रायर या विशेष उपकरण की ज़रूरत नहीं।"
       },
       {
-        "question": "Is Southern food good for meal prepping?",
-        "answer": "Southern food was built for leftovers. Stews, braises, and beans all taste better the next day. Fried chicken is excellent cold. Cornbread freezes well. Our plans strategically schedule big-batch cooking days — a Sunday pot of red beans and rice feeds you through Tuesday, and weekend ribs become Monday's BBQ sandwiches."
+        "question": "क्या दक्षिणी खाना मील प्रेप के लिए अच्छा है?",
+        "answer": "दक्षिणी खाना बचे हुए खाने के लिए बना था। स्टू, ब्रेज़ और बीन्स अगले दिन और बेहतर स्वाद देते हैं। फ्राइड चिकन ठंडा भी उत्कृष्ट है। कॉर्नब्रेड को फ्रीज़ किया जा सकता है। हमारी योजनाएँ रणनीतिक रूप से बड़े-बैच कुकिंग दिन शेड्यूल करती हैं।"
       }
     ]
   },
@@ -1796,25 +1796,25 @@
     "title": "साप्ताहिक वीगन थाई भोजन योजनाएँ",
     "metaDescription": "कोकोनट करी, पैड थाई और फ्रेश रोल्स के साथ साप्ताहिक वीगन थाई भोजन योजनाएँ। कोई पशु उत्पाद नहीं, सभी बोल्ड थाई फ़्लेवर।",
     "h1": "वीगन थाई भोजन योजनाएँ जो सच में थाईलैंड जैसी लगती हैं",
-    "intro": "Thai cuisine is a natural fit for vegan eating — coconut milk, lemongrass, galangal, and fresh herbs do the heavy lifting. But navigating fish sauce, shrimp paste, and oyster sauce takes know-how. Our vegan Thai meal plans swap those out with smart substitutes while keeping every dish unmistakably Thai.",
+    "intro": "थाई व्यंजन शाकाहारी खाने के लिए स्वाभाविक रूप से उपयुक्त है — नारियल का दूध, लेमनग्रास, गलांगल और ताज़ी जड़ी-बूटियाँ मुख्य काम करती हैं। लेकिन मछली सॉस, झींगे के पेस्ट और ऑयस्टर सॉस से बचना जानकारी माँगता है। हमारी वीगन थाई मील योजनाएँ इन्हें स्मार्ट विकल्पों से बदलती हैं और हर व्यंजन को असली थाई रखती हैं।",
     "valueProps": [
       {
-        "heading": "Fish Sauce-Free, Flavor-Full",
-        "description": "Every recipe uses soy sauce, mushroom sauce, or seaweed-based alternatives so you get that umami depth without any fish products."
+        "heading": "मछली सॉस-मुक्त, स्वाद-भरपूर",
+        "description": "हर रेसिपी में सोया सॉस, मशरूम सॉस या सीवीड आधारित विकल्प इस्तेमाल होते हैं ताकि बिना किसी मछली उत्पाद के वही उमामी गहराई मिले।"
       },
       {
-        "heading": "Coconut Milk Is Your Best Friend",
-        "description": "Thai curries, soups, and desserts naturally revolve around coconut milk — no dairy substitutions needed."
+        "heading": "नारियल का दूध आपका सबसे अच्छा दोस्त है",
+        "description": "थाई करी, सूप और मिठाइयाँ स्वाभाविक रूप से नारियल के दूध के इर्द-गिर्द घूमती हैं — किसी डेयरी विकल्प की ज़रूरत नहीं।"
       },
       {
-        "heading": "Protein-Rich Without Tofu Overload",
-        "description": "We rotate through tofu, tempeh, edamame, chickpeas, and mushrooms so your weekly plan never feels repetitive."
+        "heading": "टोफू के बिना भी प्रोटीन से भरपूर",
+        "description": "हम टोफू, टेम्पेह, एडामामे, चने और मशरूम के बीच रोटेशन करते हैं ताकि आपकी साप्ताहिक योजना कभी दोहराव न लगे।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Green Curry with Tofu and Thai Eggplant",
-        "description": "Rich coconut green curry loaded with crispy tofu, Thai eggplant, bamboo shoots, and fresh basil over jasmine rice.",
+        "name": "टोफू और थाई बैंगन के साथ ग्रीन करी",
+        "description": "नारियल की हरी करी में कुरकुरा टोफू, थाई बैंगन, बाँस की टहनियाँ और ताज़ा तुलसी, चमेली चावल पर परोसी गई।",
         "tags": [
           "vegan",
           "thai",
@@ -1823,8 +1823,8 @@
         ]
       },
       {
-        "name": "Vegan Pad Thai with Tamarind Sauce",
-        "description": "Rice noodles tossed with pressed tofu, bean sprouts, scallions, and crushed peanuts in a tangy tamarind sauce.",
+        "name": "इमली सॉस के साथ वीगन पैड थाई",
+        "description": "चावल के नूडल, दबाए हुए टोफू, अंकुरित मूँग, हरे प्याज़ और पिसे मूँगफली के साथ तीखी इमली की चटनी में भुने गए।",
         "tags": [
           "vegan",
           "thai",
@@ -1832,8 +1832,8 @@
         ]
       },
       {
-        "name": "Tom Kha Mushroom Soup",
-        "description": "Creamy coconut soup with mixed mushrooms, galangal, lemongrass, kaffir lime leaves, and a squeeze of lime.",
+        "name": "टॉम खा मशरूम सूप",
+        "description": "नारियल का मलाईदार सूप जिसमें मिश्रित मशरूम, गलांगल, लेमनग्रास, काफ़िर नींबू के पत्ते और नींबू का रस हो।",
         "tags": [
           "vegan",
           "thai",
@@ -1842,8 +1842,8 @@
         ]
       },
       {
-        "name": "Thai Mango Sticky Rice",
-        "description": "Sweet sticky rice cooked in coconut milk, served with fresh mango slices and a drizzle of coconut cream.",
+        "name": "थाई मैंगो स्टिकी राइस",
+        "description": "नारियल के दूध में पकाया मीठा चिपचिपा चावल, ताज़े आम के टुकड़ों और नारियल क्रीम की बूँदों के साथ परोसा गया।",
         "tags": [
           "vegan",
           "thai",
@@ -1852,8 +1852,8 @@
         ]
       },
       {
-        "name": "Fresh Vietnamese-Thai Spring Rolls",
-        "description": "Rice paper rolls stuffed with vermicelli, mint, Thai basil, mango, and avocado with a sweet chili dipping sauce.",
+        "name": "ताज़े वियतनामी-थाई स्प्रिंग रोल",
+        "description": "चावल के कागज़ में वर्मिसेली, पुदीना, थाई तुलसी, आम और एवोकाडो भरे गए, मीठी मिर्च की चटनी के साथ।",
         "tags": [
           "vegan",
           "thai",
@@ -1864,20 +1864,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Thai food naturally vegan?",
-        "answer": "Many Thai dishes use coconut milk and vegetables as a base, which is great. However, most traditional Thai cooking relies on fish sauce, shrimp paste, and oyster sauce for umami. Vegan Thai cooking swaps these with soy sauce, mushroom sauce, or fermented bean paste to achieve the same depth of flavor."
+        "question": "क्या थाई खाना स्वाभाविक रूप से वीगन है?",
+        "answer": "कई थाई व्यंजनों में नारियल का दूध और सब्ज़ियाँ आधार होती हैं, जो बढ़िया है। हालाँकि, अधिकांश पारंपरिक थाई खाना उमामी के लिए मछली सॉस, झींगे के पेस्ट और ऑयस्टर सॉस पर निर्भर करता है। वीगन थाई खाना इन्हें सोया सॉस, मशरूम सॉस या किण्वित बीन पेस्ट से बदलता है।"
       },
       {
-        "question": "What replaces fish sauce in vegan Thai cooking?",
-        "answer": "The best substitutes are mushroom soy sauce, seaweed-infused soy sauce, or a mix of soy sauce with a dash of rice vinegar and a pinch of salt. Some cooks also use fermented soybean paste for that funky depth."
+        "question": "वीगन थाई खाने में मछली सॉस का विकल्प क्या है?",
+        "answer": "सबसे अच्छे विकल्प हैं मशरूम सोया सॉस, सीवीड-मिश्रित सोया सॉस, या सोया सॉस में चावल का सिरका और थोड़ा नमक मिलाना। कुछ रसोइये उस गहरे स्वाद के लिए किण्वित सोयाबीन पेस्ट भी इस्तेमाल करते हैं।"
       },
       {
-        "question": "Can I get enough protein from vegan Thai meals?",
-        "answer": "Absolutely. Thai cuisine features tofu, tempeh, edamame, peanuts, cashews, and a variety of legumes. A well-planned vegan Thai meal plan easily hits 50-70g of protein per day."
+        "question": "क्या वीगन थाई भोजन से पर्याप्त प्रोटीन मिल सकता है?",
+        "answer": "बिल्कुल। थाई व्यंजन में टोफू, टेम्पेह, एडामामे, मूँगफली, काजू और विभिन्न फलियाँ शामिल हैं। एक अच्छी तरह से योजनाबद्ध वीगन थाई मील प्लान आसानी से प्रति दिन 50-70 ग्राम प्रोटीन देती है।"
       },
       {
-        "question": "Are vegan Thai meal plans good for weight loss?",
-        "answer": "Thai cuisine tends to be lighter than many Western diets, with lots of vegetables, herbs, and broth-based soups. Combined with a vegan approach, you naturally reduce calorie density while keeping meals satisfying and flavorful."
+        "question": "क्या वीगन थाई मील प्लान वज़न कम करने के लिए अच्छी हैं?",
+        "answer": "थाई व्यंजन अधिकांश पश्चिमी आहार से हल्का होता है, जिसमें बहुत सारी सब्ज़ियाँ, जड़ी-बूटियाँ और शोरबा-आधारित सूप होते हैं। वीगन दृष्टिकोण के साथ मिलाकर, आप स्वाभाविक रूप से कैलोरी घनत्व कम करते हैं।"
       }
     ]
   },
@@ -1885,25 +1885,25 @@
     "title": "साप्ताहिक वीगन भारतीय भोजन योजनाएँ",
     "metaDescription": "दाल, छोले मसाला और सब्ज़ी करी के साथ साप्ताहिक वीगन भारतीय भोजन योजनाएँ। डेयरी नहीं, घी नहीं — 100% प्लांट-बेस्ड प्रामाणिक भारतीय स्वाद।",
     "h1": "वीगन भारतीय भोजन योजनाएँ — बोल्ड मसाले, ज़ीरो डेयरी",
-    "intro": "Indian cuisine already has one of the richest vegetarian traditions on earth. Going fully vegan means swapping out ghee, paneer, and yogurt — but the spice-forward cooking style means you barely notice. Our vegan Indian meal plans draw from regional traditions across India to keep your week packed with flavor.",
+    "intro": "भारतीय व्यंजन में पहले से ही दुनिया की सबसे समृद्ध शाकाहारी परंपराओं में से एक है। पूरी तरह वीगन होने का मतलब है घी, पनीर और दही को हटाना — लेकिन मसाले-प्रधान खाने की शैली से आप मुश्किल से फर्क महसूस करते हैं। हमारी वीगन भारतीय मील योजनाएँ भारत भर की क्षेत्रीय परंपराओं से प्रेरित हैं।",
     "valueProps": [
       {
-        "heading": "Beyond Dal and Rice",
-        "description": "We pull from South Indian dosas, Punjabi chole, Rajasthani curries, and Bengali stews so your meals span the full breadth of Indian cooking."
+        "heading": "दाल-चावल से आगे",
+        "description": "हम दक्षिण भारतीय डोसा, पंजाबी छोले, राजस्थानी करी और बंगाली स्टू से प्रेरणा लेते हैं ताकि आपके भोजन में भारतीय पाक कला का पूरा विस्तार हो।"
       },
       {
-        "heading": "Ghee-Free, Still Rich",
-        "description": "Coconut oil, mustard oil, and sesame oil replace ghee without losing that characteristic richness Indian food is known for."
+        "heading": "घी-मुक्त, फिर भी समृद्ध",
+        "description": "नारियल तेल, सरसों का तेल और तिल का तेल घी की जगह लेते हैं बिना उस विशेष समृद्धि को खोए जिसके लिए भारतीय खाना जाना जाता है।"
       },
       {
-        "heading": "Spice Blends That Do the Work",
-        "description": "Garam masala, chaat masala, and curry leaves create layers of flavor that make dairy completely unnecessary."
+        "heading": "मसाले के मिश्रण जो काम करते हैं",
+        "description": "गरम मसाला, चाट मसाला और करी पत्ते स्वाद की परतें बनाते हैं जो डेयरी को पूरी तरह अनावश्यक बना देते हैं।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Chana Masala with Basmati Rice",
-        "description": "Chickpeas simmered in a spiced tomato-onion gravy with cumin, coriander, and garam masala, served over fluffy basmati.",
+        "name": "छोले मसाला बासमती चावल के साथ",
+        "description": "जीरा, धनिया और गरम मसाले के साथ मसालेदार टमाटर-प्याज़ ग्रेवी में पके चने, फूले हुए बासमती चावल के साथ परोसे गए।",
         "tags": [
           "vegan",
           "indian",
@@ -1912,8 +1912,8 @@
         ]
       },
       {
-        "name": "Masala Dosa with Coconut Chutney",
-        "description": "Crispy fermented rice-and-lentil crepe filled with spiced potato, served with coconut chutney and sambar.",
+        "name": "मसाला डोसा नारियल की चटनी के साथ",
+        "description": "किण्वित चावल-दाल का कुरकुरा क्रेप, मसालेदार आलू से भरा, नारियल की चटनी और सांबर के साथ परोसा गया।",
         "tags": [
           "vegan",
           "indian",
@@ -1922,8 +1922,8 @@
         ]
       },
       {
-        "name": "Aloo Gobi with Roti",
-        "description": "Dry-roasted cauliflower and potato with turmeric, cumin seeds, and fresh cilantro, paired with whole wheat roti.",
+        "name": "आलू गोभी रोटी के साथ",
+        "description": "हल्दी, जीरे और ताज़े धनिए के साथ सूखी भुनी फूलगोभी और आलू, साबुत गेहूँ की रोटी के साथ।",
         "tags": [
           "vegan",
           "indian",
@@ -1931,8 +1931,8 @@
         ]
       },
       {
-        "name": "Dal Tadka",
-        "description": "Yellow lentils slow-cooked with turmeric, then finished with a sizzling tempering of mustard seeds, cumin, garlic, and dried red chilies in oil.",
+        "name": "दाल तड़का",
+        "description": "हल्दी के साथ धीमी आँच पर पकी पीली दाल, फिर तेल में सरसों के दाने, जीरा, लहसुन और सूखी लाल मिर्च के छनकते तड़के से सजाई गई।",
         "tags": [
           "vegan",
           "indian",
@@ -1941,8 +1941,8 @@
         ]
       },
       {
-        "name": "Vegetable Biryani",
-        "description": "Fragrant basmati rice layered with spiced mixed vegetables, saffron, fried onions, and fresh mint, slow-cooked in a sealed pot.",
+        "name": "वेजिटेबल बिरयानी",
+        "description": "मसालेदार मिश्रित सब्ज़ियों, केसर, तले प्याज़ और ताज़े पुदीने के साथ परतों में सजाया सुगंधित बासमती चावल, बंद बर्तन में धीमी आँच पर पकाया गया।",
         "tags": [
           "vegan",
           "indian",
@@ -1953,20 +1953,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Indian food easy to make vegan?",
-        "answer": "Yes — Indian cuisine has the largest vegetarian tradition in the world. The main adjustments are replacing ghee with oil, skipping paneer, and using coconut cream instead of dairy cream. Most spice blends, lentil dishes, and vegetable curries are already naturally vegan."
+        "question": "क्या भारतीय खाने को वीगन बनाना आसान है?",
+        "answer": "हाँ — भारतीय व्यंजन में दुनिया की सबसे बड़ी शाकाहारी परंपरा है। मुख्य बदलाव हैं घी की जगह तेल, पनीर छोड़ना और डेयरी क्रीम की जगह नारियल क्रीम। अधिकांश मसाले के मिश्रण, दाल और सब्ज़ी करी पहले से ही स्वाभाविक रूप से वीगन हैं।"
       },
       {
-        "question": "What replaces paneer in vegan Indian cooking?",
-        "answer": "Extra-firm tofu pressed and cubed works well in dishes like palak paneer (becomes palak tofu). Cashew-based paneer is another option. For texture, some cooks use chickpea flour blocks (Burmese tofu)."
+        "question": "वीगन भारतीय खाने में पनीर का विकल्प क्या है?",
+        "answer": "अच्छी तरह दबाया और काटा हुआ एक्स्ट्रा-फर्म टोफू पालक पनीर जैसे व्यंजनों में अच्छा काम करता है (पालक टोफू बन जाता है)। काजू-आधारित पनीर एक और विकल्प है। बनावट के लिए, कुछ रसोइये चने के आटे के ब्लॉक (बर्मी टोफू) इस्तेमाल करते हैं।"
       },
       {
-        "question": "How do I get enough protein on a vegan Indian diet?",
-        "answer": "Indian cuisine is naturally protein-rich thanks to lentils (dal), chickpeas (chole), kidney beans (rajma), black-eyed peas (lobia), and soy products. A typical day of Indian vegan eating can easily provide 60-80g of protein."
+        "question": "वीगन भारतीय आहार में पर्याप्त प्रोटीन कैसे मिलेगा?",
+        "answer": "भारतीय व्यंजन स्वाभाविक रूप से प्रोटीन-समृद्ध है — दाल, चने (छोले), राजमा, लोबिया और सोया उत्पादों की बदौलत। भारतीय वीगन खाने का एक सामान्य दिन आसानी से 60-80 ग्राम प्रोटीन दे सकता है।"
       },
       {
-        "question": "Are vegan Indian meal plans budget-friendly?",
-        "answer": "Very much so. Lentils, rice, chickpeas, and seasonal vegetables are among the most affordable foods globally. Indian spices last for months, and a well-stocked spice cabinet means you can make dozens of different dishes from pantry staples."
+        "question": "क्या वीगन भारतीय मील योजनाएँ बजट-अनुकूल हैं?",
+        "answer": "बहुत। दाल, चावल, चने और मौसमी सब्ज़ियाँ दुनिया के सबसे किफायती खाद्य पदार्थों में से हैं। भारतीय मसाले महीनों तक चलते हैं, और एक अच्छे मसाले के डिब्बे से आप रसोई की चीज़ों से दर्जनों अलग-अलग व्यंजन बना सकते हैं।"
       }
     ]
   },
@@ -1974,25 +1974,25 @@
     "title": "वीगन मेडिटेरेनियन भोजन योजनाएँ",
     "metaDescription": "हम्मस, फ़लाफ़ेल, ग्रेन बाउल और भुनी सब्ज़ियों के साथ साप्ताहिक वीगन मेडिटेरेनियन भोजन योजनाएँ। दिल के लिए स्वस्थ, प्लांट-बेस्ड और स्वादिष्ट।",
     "h1": "वीगन मेडिटेरेनियन भोजन योजनाएँ — धूप से भरी, प्लांट-पावर्ड",
-    "intro": "The Mediterranean diet is already celebrated as one of the healthiest in the world. Remove the dairy and seafood, and you still have a treasure trove of olive oil, legumes, whole grains, nuts, and seasonal produce. Our vegan Mediterranean plans make every week feel like a slow lunch on the Amalfi Coast.",
+    "intro": "भूमध्यसागरीय आहार को पहले से ही दुनिया के सबसे स्वस्थ आहारों में से एक माना जाता है। डेयरी और समुद्री भोजन हटाने के बाद भी जैतून का तेल, फलियाँ, साबुत अनाज, मेवे और मौसमी उपज का खज़ाना बचा रहता है। हमारी वीगन भूमध्यसागरीय योजनाएँ हर सप्ताह अमाल्फी तट पर धीमे दोपहर के भोजन जैसा एहसास देती हैं।",
     "valueProps": [
       {
-        "heading": "Olive Oil Is the Star",
-        "description": "Heart-healthy fats from extra virgin olive oil, tahini, and nuts replace butter and cheese without any sacrifice in richness."
+        "heading": "जैतून का तेल है सितारा",
+        "description": "एक्स्ट्रा वर्जिन जैतून तेल, ताहिनी और मेवों से मिलने वाले हृदय-स्वस्थ वसा मक्खन और पनीर की जगह लेते हैं बिना किसी समृद्धि की कुर्बानी के।"
       },
       {
-        "heading": "Legume-Powered Protein",
-        "description": "Chickpeas, lentils, cannellini beans, and fava beans are Mediterranean staples that keep you full and fueled."
+        "heading": "फलियों से मिलती है ताकत",
+        "description": "चने, मसूर, कैनेलिनी बीन्स और फावा बीन्स भूमध्यसागरीय मुख्य सामग्री हैं जो आपको भरा-पूरा और ऊर्जावान रखते हैं।"
       },
       {
-        "heading": "Seasonal and Simple",
-        "description": "Mediterranean cooking celebrates ingredients at their peak — ripe tomatoes, fresh herbs, and quality olive oil do most of the work."
+        "heading": "मौसमी और सरल",
+        "description": "भूमध्यसागरीय खाना सामग्री को उनके चरम पर मनाता है — पके टमाटर, ताज़ी जड़ी-बूटियाँ और गुणवत्तापूर्ण जैतून तेल अधिकांश काम करते हैं।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Falafel Bowl with Tahini Dressing",
-        "description": "Crispy baked falafel over mixed greens, cucumber, tomato, pickled red onion, and a generous drizzle of lemon-tahini dressing.",
+        "name": "ताहिनी ड्रेसिंग के साथ फलाफेल बाउल",
+        "description": "मिश्रित हरी सब्ज़ियों, खीरे, टमाटर, अचारी लाल प्याज़ और नींबू-ताहिनी ड्रेसिंग की उदार बूँदों के साथ बेक्ड कुरकुरे फलाफेल।",
         "tags": [
           "vegan",
           "mediterranean",
@@ -2000,8 +2000,8 @@
         ]
       },
       {
-        "name": "Roasted Eggplant with Pomegranate and Mint",
-        "description": "Slow-roasted eggplant halves topped with pomegranate seeds, toasted pine nuts, fresh mint, and a balsamic reduction.",
+        "name": "अनार और पुदीने के साथ भुना बैंगन",
+        "description": "धीरे-धीरे भुने बैंगन के आधे टुकड़े, ऊपर से अनार के दाने, भुने हुए पाइन नट्स, ताज़ा पुदीना और बाल्सामिक रिडक्शन।",
         "tags": [
           "vegan",
           "mediterranean",
@@ -2010,8 +2010,8 @@
         ]
       },
       {
-        "name": "Shakshuka-Style Chickpeas (No Eggs)",
-        "description": "Chickpeas simmered in a spiced tomato sauce with cumin, paprika, and bell peppers, served with crusty sourdough.",
+        "name": "शक्शुका-स्टाइल चने (बिना अंडे)",
+        "description": "जीरा, पपरिका और बेल पेपर के साथ मसालेदार टमाटर सॉस में पकाए चने, कुरकुरी साउरडो ब्रेड के साथ।",
         "tags": [
           "vegan",
           "mediterranean",
@@ -2019,8 +2019,8 @@
         ]
       },
       {
-        "name": "Greek-Style Grain Bowl",
-        "description": "Farro topped with marinated white beans, cherry tomatoes, kalamata olives, cucumber, and oregano vinaigrette.",
+        "name": "ग्रीक-स्टाइल ग्रेन बाउल",
+        "description": "फैरो के ऊपर मैरिनेटेड सफेद बीन्स, चेरी टमाटर, कालामाता जैतून, खीरा और ओरेगानो विनेगरेट।",
         "tags": [
           "vegan",
           "mediterranean",
@@ -2028,8 +2028,8 @@
         ]
       },
       {
-        "name": "Lentil and Roasted Vegetable Soup",
-        "description": "Red lentils simmered with roasted carrots, zucchini, garlic, and rosemary in a tomato broth, finished with olive oil.",
+        "name": "मसूर और भुनी सब्ज़ियों का सूप",
+        "description": "भुनी गाजर, तोरी, लहसुन और रोज़मेरी के साथ टमाटर के शोरबे में पकी लाल मसूर, जैतून तेल की बूँदों से सजाई गई।",
         "tags": [
           "vegan",
           "mediterranean",
@@ -2040,20 +2040,20 @@
     ],
     "faqs": [
       {
-        "question": "Can you follow a Mediterranean diet as a vegan?",
-        "answer": "Absolutely. The Mediterranean diet is built on vegetables, legumes, whole grains, olive oil, nuts, and fruit — all plant-based. Fish and dairy are traditional but not essential. Many nutrition researchers consider a vegan Mediterranean diet one of the healthiest eating patterns possible."
+        "question": "क्या आप वीगन होकर भूमध्यसागरीय आहार अपना सकते हैं?",
+        "answer": "बिल्कुल। भूमध्यसागरीय आहार सब्ज़ियों, फलियों, साबुत अनाज, जैतून तेल, मेवों और फलों पर आधारित है — सब पौधे-आधारित। मछली और डेयरी पारंपरिक हैं लेकिन आवश्यक नहीं। कई पोषण शोधकर्ता वीगन भूमध्यसागरीय आहार को सबसे स्वस्थ खाद्य पैटर्नों में से एक मानते हैं।"
       },
       {
-        "question": "What do vegan Mediterranean meals use instead of cheese?",
-        "answer": "Nutritional yeast, cashew-based feta, and tofu ricotta are common swaps. But many Mediterranean dishes don't need cheese at all — tahini, olive oil, and fresh herbs provide plenty of richness and flavor."
+        "question": "वीगन भूमध्यसागरीय भोजन में पनीर की जगह क्या होता है?",
+        "answer": "न्यूट्रिशनल यीस्ट, काजू-आधारित फेटा और टोफू रिकोटा सामान्य विकल्प हैं। लेकिन कई भूमध्यसागरीय व्यंजनों को पनीर की ज़रूरत ही नहीं — ताहिनी, जैतून तेल और ताज़ी जड़ी-बूटियाँ भरपूर समृद्धि और स्वाद देती हैं।"
       },
       {
-        "question": "Is a vegan Mediterranean diet good for heart health?",
-        "answer": "Yes. The Mediterranean diet is the most-studied diet for cardiovascular health, and removing animal products further reduces saturated fat intake. The emphasis on olive oil, nuts, legumes, and whole grains supports healthy cholesterol and blood pressure."
+        "question": "क्या वीगन भूमध्यसागरीय आहार हृदय स्वास्थ्य के लिए अच्छा है?",
+        "answer": "हाँ। भूमध्यसागरीय आहार हृदय स्वास्थ्य के लिए सबसे अध्ययन किया गया आहार है, और पशु उत्पाद हटाने से संतृप्त वसा का सेवन और कम होता है। जैतून तेल, मेवे, फलियाँ और साबुत अनाज पर जोर स्वस्थ कोलेस्ट्रॉल और रक्तचाप को बनाए रखता है।"
       },
       {
-        "question": "How much does a vegan Mediterranean meal plan cost per week?",
-        "answer": "It is one of the most affordable healthy diets. Staples like lentils, chickpeas, rice, seasonal vegetables, and olive oil are inexpensive. A week of vegan Mediterranean eating typically costs $40-60 for one person."
+        "question": "एक सप्ताह की वीगन भूमध्यसागरीय मील योजना में कितना खर्च आता है?",
+        "answer": "यह सबसे किफायती स्वस्थ आहारों में से एक है। मसूर, चने, चावल, मौसमी सब्ज़ियाँ और जैतून तेल सस्ते हैं। एक व्यक्ति के लिए वीगन भूमध्यसागरीय खाने का एक सप्ताह आमतौर पर 40-60 डॉलर खर्च होता है।"
       }
     ]
   },
@@ -2061,25 +2061,25 @@
     "title": "कीटो मेडिटेरेनियन भोजन योजनाएँ",
     "metaDescription": "स्वस्थ वसा, ताज़ी सब्ज़ियों और लो-कार्ब रेसिपी के साथ साप्ताहिक कीटो मेडिटेरेनियन भोजन योजनाएँ। जैतून के तेल से भरपूर, अनाज-मुक्त और संतोषजनक।",
     "h1": "कीटो मेडिटेरेनियन भोजन योजनाएँ — स्वस्थ वसा, ज़ीरो अनाज",
-    "intro": "The Mediterranean diet and keto share a love of healthy fats — olive oil, avocado, nuts, and fatty fish. The main adjustment is dropping bread, pasta, and grains. What remains is arguably the most nutritious version of keto: rich in omega-3s, antioxidants, and flavor without the typical keto reliance on processed meats and cheese.",
+    "intro": "भूमध्यसागरीय आहार और कीटो दोनों स्वस्थ वसा से प्यार करते हैं — जैतून का तेल, एवोकाडो, मेवे और चर्बीदार मछली। मुख्य समायोजन रोटी, पास्ता और अनाज छोड़ना है। जो बचता है वह कीटो का संभवतः सबसे पौष्टिक संस्करण है: ओमेगा-3, एंटीऑक्सीडेंट और स्वाद से भरपूर, बिना प्रसंस्कृत मांस और पनीर पर निर्भरता के।",
     "valueProps": [
       {
-        "heading": "The Healthiest Version of Keto",
-        "description": "Instead of bacon-and-butter keto, you get olive oil, fresh fish, leafy greens, and nuts — all the fats your body actually thrives on."
+        "heading": "कीटो का सबसे स्वस्थ संस्करण",
+        "description": "बेकन-और-मक्खन कीटो की जगह आपको जैतून तेल, ताज़ी मछली, हरी पत्तेदार सब्ज़ियाँ और मेवे मिलते हैं — वे सभी वसा जिन पर आपका शरीर वास्तव में पनपता है।"
       },
       {
-        "heading": "Naturally Low-Carb Staples",
-        "description": "Grilled fish, roasted vegetables, olives, and nuts are already keto-friendly without any modification."
+        "heading": "स्वाभाविक रूप से कम-कार्ब स्टेपल",
+        "description": "ग्रिल्ड मछली, भुनी सब्ज़ियाँ, जैतून और मेवे बिना किसी बदलाव के पहले से कीटो-अनुकूल हैं।"
       },
       {
-        "heading": "Sustainable Long-Term",
-        "description": "This combination avoids the burnout of strict keto by keeping meals varied, fresh, and genuinely enjoyable."
+        "heading": "दीर्घकालिक रूप से टिकाऊ",
+        "description": "यह संयोजन सख्त कीटो की थकान से बचाता है क्योंकि भोजन विविध, ताज़ा और वास्तव में आनंददायक रहता है।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Grilled Salmon with Olive Tapenade",
-        "description": "Pan-seared salmon fillet topped with a kalamata olive and caper tapenade, served with roasted asparagus drizzled in olive oil.",
+        "name": "जैतून टेपेनेड के साथ ग्रिल्ड सैल्मन",
+        "description": "पैन में सेंके सैल्मन फिलेट के ऊपर कालामाता जैतून और केपर का टेपेनेड, जैतून तेल से सजी भुनी शतावरी के साथ।",
         "tags": [
           "keto",
           "mediterranean",
@@ -2088,8 +2088,8 @@
         ]
       },
       {
-        "name": "Greek Salad with Grilled Halloumi",
-        "description": "Crispy grilled halloumi over cucumber, tomato, red onion, and olives with a red wine vinaigrette and dried oregano.",
+        "name": "ग्रिल्ड हलौमी के साथ ग्रीक सलाद",
+        "description": "खीरे, टमाटर, लाल प्याज़ और जैतून के ऊपर कुरकुरा ग्रिल्ड हलौमी, रेड वाइन विनेगरेट और सूखे ओरेगानो के साथ।",
         "tags": [
           "keto",
           "mediterranean",
@@ -2098,8 +2098,8 @@
         ]
       },
       {
-        "name": "Eggs Baked in Tomato Sauce (Shakshuka)",
-        "description": "Two eggs poached in a spiced tomato and bell pepper sauce with cumin, paprika, and crumbled feta.",
+        "name": "टमाटर सॉस में बेक्ड अंडे (शक्शुका)",
+        "description": "जीरा, पपरिका और क्रम्बल्ड फेटा के साथ मसालेदार टमाटर और बेल पेपर सॉस में पोच किए दो अंडे।",
         "tags": [
           "keto",
           "mediterranean",
@@ -2108,8 +2108,8 @@
         ]
       },
       {
-        "name": "Lamb Kofta with Tzatziki",
-        "description": "Spiced ground lamb skewers with cumin and mint, served with a cucumber-yogurt tzatziki and a side of grilled zucchini.",
+        "name": "त्ज़ात्ज़िकी के साथ लैंब कोफ्ता",
+        "description": "जीरा और पुदीने के साथ मसालेदार पिसे मेमने की सीखें, खीरा-दही त्ज़ात्ज़िकी और ग्रिल्ड तोरी के साथ।",
         "tags": [
           "keto",
           "mediterranean",
@@ -2118,8 +2118,8 @@
         ]
       },
       {
-        "name": "Stuffed Bell Peppers with Ground Turkey and Feta",
-        "description": "Bell peppers filled with seasoned ground turkey, sun-dried tomatoes, spinach, and feta, baked until golden.",
+        "name": "पिसे टर्की और फेटा से भरे शिमला मिर्च",
+        "description": "मसालेदार पिसे टर्की, सन-ड्राइड टमाटर, पालक और फेटा से भरी शिमला मिर्च, सुनहरी होने तक बेक की गई।",
         "tags": [
           "keto",
           "mediterranean",
@@ -2129,20 +2129,20 @@
     ],
     "faqs": [
       {
-        "question": "Can you combine keto and Mediterranean diets?",
-        "answer": "Yes, and many nutritionists consider it the ideal combination. Both diets emphasize healthy fats, and the Mediterranean approach adds variety, vegetables, and fish that typical keto plans often lack. You just skip the bread, pasta, rice, and legumes."
+        "question": "क्या आप कीटो और भूमध्यसागरीय आहार को जोड़ सकते हैं?",
+        "answer": "हाँ, और कई पोषणविद् इसे आदर्श संयोजन मानते हैं। दोनों आहार स्वस्थ वसा पर जोर देते हैं, और भूमध्यसागरीय दृष्टिकोण विविधता, सब्ज़ियाँ और मछली जोड़ता है जिनकी अक्सर सामान्य कीटो योजनाओं में कमी होती है। बस रोटी, पास्ता, चावल और फलियाँ छोड़ें।"
       },
       {
-        "question": "What carbs do you cut on a keto Mediterranean diet?",
-        "answer": "Bread, pasta, rice, couscous, potatoes, and legumes (chickpeas, lentils) are removed. You keep low-carb vegetables like leafy greens, zucchini, bell peppers, tomatoes, and eggplant, plus nuts and seeds."
+        "question": "कीटो भूमध्यसागरीय आहार में कौन से कार्ब कटते हैं?",
+        "answer": "रोटी, पास्ता, चावल, कुसकुस, आलू और फलियाँ (चने, मसूर) हटाई जाती हैं। आप हरी पत्तेदार सब्ज़ियाँ, तोरी, बेल पेपर, टमाटर और बैंगन जैसी कम-कार्ब सब्ज़ियाँ रख सकते हैं।"
       },
       {
-        "question": "Is keto Mediterranean better than regular keto?",
-        "answer": "For most people, yes. Regular keto can lean heavily on processed meats, cheese, and butter. Keto Mediterranean emphasizes olive oil, fish, and vegetables, which research links to better heart health and more sustainable weight loss."
+        "question": "क्या कीटो मेडिटेरेनियन सामान्य कीटो से बेहतर है?",
+        "answer": "अधिकांश लोगों के लिए, हाँ। सामान्य कीटो अक्सर प्रसंस्कृत मांस, पनीर और मक्खन पर निर्भर करता है। कीटो मेडिटेरेनियन जैतून तेल, मछली और सब्ज़ियों पर जोर देता है, जो शोध के अनुसार बेहतर हृदय स्वास्थ्य और अधिक टिकाऊ वज़न घटाने से जुड़ा है।"
       },
       {
-        "question": "How many carbs per day on a keto Mediterranean plan?",
-        "answer": "Typically 20-30g net carbs per day, which is standard keto. The difference is that your carbs come from nutrient-dense vegetables, olives, and nuts rather than from processed low-carb products."
+        "question": "कीटो मेडिटेरेनियन योजना में प्रतिदिन कितने कार्ब खाएँ?",
+        "answer": "आमतौर पर 20-30 ग्राम नेट कार्ब प्रति दिन, जो मानक कीटो है। अंतर यह है कि आपके कार्ब पोषक तत्व-घने सब्ज़ियों, जैतून और मेवों से आते हैं न कि प्रसंस्कृत कम-कार्ब उत्पादों से।"
       }
     ]
   },
@@ -2150,25 +2150,25 @@
     "title": "साप्ताहिक कीटो एशियन भोजन योजनाएँ",
     "metaDescription": "स्टर-फ्राई, सूप और ग्रिल्ड मीट के साथ साप्ताहिक कीटो एशियन भोजन योजनाएँ। चावल या नूडल्स नहीं — सारा उमामी, कोई कार्ब्स नहीं।",
     "h1": "कीटो एशियन भोजन योजनाएँ — सारा उमामी, चावल नहीं",
-    "intro": "Asian cuisine is built on bold flavors — soy, ginger, garlic, sesame, chili — that work perfectly without carbs. The challenge is replacing rice, noodles, and sweet sauces. Our keto Asian meal plans use cauliflower rice, shirataki noodles, and sugar-free sauces to keep every meal under 30g net carbs while tasting authentically Asian.",
+    "intro": "एशियाई व्यंजन तीखे स्वादों पर आधारित है — सोया, अदरक, लहसुन, तिल, मिर्च — जो बिना कार्ब के भी बखूबी काम करते हैं। चुनौती है चावल, नूडल और मीठी चटनियों को बदलना। हमारी कीटो एशियाई मील योजनाएँ फूलगोभी चावल, शिरातकी नूडल और शुगर-फ्री सॉस का उपयोग करती हैं ताकि हर भोजन 30 ग्राम नेट कार्ब से कम रहे और असली एशियाई स्वाद बरकरार रहे।",
     "valueProps": [
       {
-        "heading": "Smart Rice and Noodle Swaps",
-        "description": "Cauliflower rice, shirataki noodles, and zucchini noodles replace traditional starches without changing the dish's identity."
+        "heading": "चावल और नूडल के स्मार्ट विकल्प",
+        "description": "फूलगोभी चावल, शिरातकी नूडल और ज़ुचिनी नूडल पारंपरिक स्टार्च की जगह लेते हैं बिना व्यंजन की पहचान बदले।"
       },
       {
-        "heading": "Naturally Keto Ingredients",
-        "description": "Fatty cuts of meat, coconut milk, sesame oil, and egg-based dishes are already staples in Asian cooking and fit keto perfectly."
+        "heading": "स्वाभाविक रूप से कीटो सामग्री",
+        "description": "चर्बीदार मांस के टुकड़े, नारियल का दूध, तिल का तेल और अंडे-आधारित व्यंजन पहले से ही एशियाई खाने के मुख्य हिस्से हैं और कीटो के लिए एकदम उपयुक्त हैं।"
       },
       {
-        "heading": "Hidden Sugar Alerts",
-        "description": "We flag and fix the hidden sugars in hoisin, teriyaki, and sweet chili sauces so you stay in ketosis without bland food."
+        "heading": "छिपी चीनी की चेतावनी",
+        "description": "हम होइसिन, टेरियाकी और मीठी मिर्च सॉस में छिपी चीनी को पहचान कर उसे ठीक करते हैं ताकि आप बेस्वाद खाने के बिना कीटोसिस में रहें।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Beef and Broccoli Stir-Fry",
-        "description": "Thinly sliced beef stir-fried with broccoli florets in a garlic-ginger soy sauce, served over cauliflower rice.",
+        "name": "बीफ और ब्रोकोली स्टिर-फ्राय",
+        "description": "लहसुन-अदरक सोया सॉस में पतला कटा बीफ और ब्रोकोली के फूल भुने गए, फूलगोभी चावल पर परोसे गए।",
         "tags": [
           "keto",
           "asian",
@@ -2177,8 +2177,8 @@
         ]
       },
       {
-        "name": "Egg Drop Soup with Sesame",
-        "description": "Silky chicken broth with ribbons of beaten egg, white pepper, scallions, and a drizzle of toasted sesame oil.",
+        "name": "तिल के साथ एग ड्रॉप सूप",
+        "description": "पीटे अंडे की रिबन, सफेद काली मिर्च, हरे प्याज़ और भुने तिल के तेल की बूँदों के साथ मलाईदार चिकन शोरबा।",
         "tags": [
           "keto",
           "asian",
@@ -2188,8 +2188,8 @@
         ]
       },
       {
-        "name": "Korean Lettuce Wraps with Bulgogi",
-        "description": "Sugar-free marinated beef bulgogi wrapped in crisp butter lettuce with kimchi, sesame seeds, and gochugaru.",
+        "name": "बुलगोगी के साथ कोरियाई लेटस रैप",
+        "description": "शुगर-फ्री मैरिनेटेड बीफ बुलगोगी को कुरकुरे बटर लेटस में किम्ची, तिल के बीज और गोचुगारू के साथ लपेटा गया।",
         "tags": [
           "keto",
           "asian",
@@ -2198,8 +2198,8 @@
         ]
       },
       {
-        "name": "Thai Coconut Chicken Soup (Tom Kha Gai)",
-        "description": "Chicken simmered in coconut milk with galangal, lemongrass, mushrooms, and lime juice — naturally low-carb.",
+        "name": "थाई नारियल चिकन सूप (टॉम खा गई)",
+        "description": "नारियल के दूध में गलांगल, लेमनग्रास, मशरूम और नींबू के रस के साथ पका चिकन — स्वाभाविक रूप से कम-कार्ब।",
         "tags": [
           "keto",
           "asian",
@@ -2209,8 +2209,8 @@
         ]
       },
       {
-        "name": "Japanese Tamagoyaki (Rolled Omelette)",
-        "description": "Sweet-savory rolled omelette made with eggs, dashi, and a touch of mirin substitute, sliced into rounds.",
+        "name": "जापानी तमागोयाकी (रोल्ड ऑमलेट)",
+        "description": "अंडे, दशी और मिरिन के विकल्प के साथ बना मीठा-नमकीन रोल्ड ऑमलेट, गोल टुकड़ों में काटा गया।",
         "tags": [
           "keto",
           "asian",
@@ -2222,20 +2222,20 @@
     ],
     "faqs": [
       {
-        "question": "Can you eat Asian food on keto?",
-        "answer": "Yes, with some modifications. The flavors of Asian cooking — soy, ginger, garlic, chili, sesame — are all zero or very low carb. The challenge is replacing rice, noodles, and sugary sauces. Cauliflower rice, shirataki noodles, and sugar-free sauce alternatives solve this."
+        "question": "क्या आप कीटो पर एशियाई खाना खा सकते हैं?",
+        "answer": "हाँ, कुछ बदलावों के साथ। एशियाई खाने के स्वाद — सोया, अदरक, लहसुन, मिर्च, तिल — सब शून्य या बहुत कम कार्ब वाले हैं। चुनौती चावल, नूडल और मीठी सॉस को बदलना है। फूलगोभी चावल, शिरातकी नूडल और शुगर-फ्री सॉस विकल्प इसका समाधान करते हैं।"
       },
       {
-        "question": "Is soy sauce keto-friendly?",
-        "answer": "Regular soy sauce has about 1g carb per tablespoon, so it is keto-friendly in normal amounts. Tamari (gluten-free soy sauce) and coconut aminos are also good options, though coconut aminos has slightly more sugar."
+        "question": "क्या सोया सॉस कीटो-अनुकूल है?",
+        "answer": "सामान्य सोया सॉस में प्रति चम्मच लगभग 1 ग्राम कार्ब होता है, इसलिए सामान्य मात्रा में यह कीटो-अनुकूल है। तमारी (ग्लूटन-मुक्त सोया सॉस) और नारियल अमीनोस भी अच्छे विकल्प हैं।"
       },
       {
-        "question": "What Asian dishes are naturally keto?",
-        "answer": "Many Asian dishes are naturally low-carb: sashimi, egg drop soup, stir-fried vegetables with meat, grilled satay, Thai coconut soups, and Korean BBQ lettuce wraps. Just skip the rice on the side."
+        "question": "कौन से एशियाई व्यंजन स्वाभाविक रूप से कीटो हैं?",
+        "answer": "कई एशियाई व्यंजन स्वाभाविक रूप से कम-कार्ब हैं: साशिमी, एग ड्रॉप सूप, सब्ज़ी और मांस का स्टिर-फ्राय, ग्रिल्ड सताय, थाई नारियल सूप और कोरियाई BBQ लेटस रैप। बस साथ में चावल न लें।"
       },
       {
-        "question": "How do I replace rice in Asian keto meals?",
-        "answer": "Cauliflower rice is the most popular swap — it absorbs sauces well and has the right texture. You can also use finely diced mushrooms, hemp hearts, or simply serve dishes over a bed of stir-fried cabbage."
+        "question": "एशियाई कीटो भोजन में चावल की जगह क्या लें?",
+        "answer": "फूलगोभी चावल सबसे लोकप्रिय विकल्प है — यह सॉस अच्छी तरह सोखता है और सही बनावट देता है। आप बारीक कटे मशरूम, हेम्प हार्ट्स भी इस्तेमाल कर सकते हैं, या व्यंजनों को भुनी गोभी के बिस्तर पर परोस सकते हैं।"
       }
     ]
   },
@@ -2243,25 +2243,25 @@
     "title": "साप्ताहिक कीटो मैक्सिकन भोजन योजनाएँ",
     "metaDescription": "टॉर्टिला या बीन्स के बिना साप्ताहिक कीटो मैक्सिकन भोजन योजनाएँ। फ़ाहिता, कार्ने असाडा और गुआकामोले रोज़ाना 30g कार्ब्स से नीचे।",
     "h1": "कीटो मैक्सिकन भोजन योजनाएँ — बोल्ड फ़्लेवर, टॉर्टिला की ज़रूरत नहीं",
-    "intro": "Mexican cuisine brings heat, depth, and soul to every meal — and most of that magic comes from chiles, lime, cilantro, and slow-cooked meats, not from the tortillas wrapping them. Our keto Mexican meal plans strip out the corn, beans, and rice while keeping the flavors that make Mexican food one of the most beloved cuisines on earth.",
+    "intro": "मैक्सिकन व्यंजन हर भोजन में गर्मी, गहराई और आत्मा लाता है — और उस जादू का अधिकांश हिस्सा मिर्च, नींबू, धनिए और धीमी आँच पर पके मांस से आता है, न कि उन्हें लपेटने वाली टॉर्टिला से। हमारी कीटो मैक्सिकन मील योजनाएँ मकई, बीन्स और चावल को हटाती हैं लेकिन वे स्वाद बरकरार रखती हैं जो मैक्सिकन खाने को दुनिया में सबसे पसंदीदा बनाते हैं।",
     "valueProps": [
       {
-        "heading": "Lettuce Wraps and Cheese Shells",
-        "description": "Crispy cheese taco shells and butter lettuce cups replace tortillas, giving you the handheld experience without the carbs."
+        "heading": "लेटस रैप और चीज़ शेल",
+        "description": "कुरकुरे चीज़ टैको शेल और बटर लेटस कप टॉर्टिला की जगह लेते हैं, बिना कार्ब के हाथ में पकड़ने का अनुभव देते हैं।"
       },
       {
-        "heading": "Fat-Rich by Nature",
-        "description": "Avocado, sour cream, cheese, and slow-braised meats make Mexican cuisine one of the easiest to adapt to keto."
+        "heading": "स्वाभाविक रूप से वसा-समृद्ध",
+        "description": "एवोकाडो, खट्टी क्रीम, पनीर और धीमी आँच पर पका मांस मैक्सिकन व्यंजन को कीटो के लिए सबसे आसान अनुकूलित करने वालों में से एक बनाते हैं।"
       },
       {
-        "heading": "Spice Without Sugar",
-        "description": "Authentic Mexican spice blends — cumin, chili powder, oregano, smoked paprika — are naturally sugar-free and keto-perfect."
+        "heading": "बिना चीनी के मसाला",
+        "description": "असली मैक्सिकन मसाले के मिश्रण — जीरा, मिर्च पाउडर, ओरेगानो, स्मोक्ड पपरिका — स्वाभाविक रूप से शुगर-फ्री और कीटो-परफेक्ट हैं।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Carne Asada with Guacamole and Grilled Peppers",
-        "description": "Marinated and grilled flank steak sliced thin, served with fresh guacamole, charred poblano peppers, and lime wedges.",
+        "name": "ग्वाकामोले और ग्रिल्ड मिर्च के साथ कार्ने असाडा",
+        "description": "मैरिनेट किया और ग्रिल्ड फ्लैंक स्टेक पतले कटा, ताज़े ग्वाकामोले, भुनी पोब्लानो मिर्च और नींबू के टुकड़ों के साथ।",
         "tags": [
           "keto",
           "mexican",
@@ -2270,8 +2270,8 @@
         ]
       },
       {
-        "name": "Cheese Shell Tacos with Carnitas",
-        "description": "Crispy baked cheddar shells filled with slow-cooked pulled pork, pickled red onion, cilantro, and a squeeze of lime.",
+        "name": "कार्निटास के साथ चीज़ शेल टैको",
+        "description": "बेक्ड कुरकुरे चेडर शेल में धीमी आँच पर पके खींचे हुए पोर्क, अचारी लाल प्याज़, धनिया और नींबू।",
         "tags": [
           "keto",
           "mexican",
@@ -2280,8 +2280,8 @@
         ]
       },
       {
-        "name": "Huevos Rancheros (No Tortilla)",
-        "description": "Fried eggs over a bed of ranchero salsa with avocado slices, cotija cheese, and a side of Mexican-style sauteed greens.",
+        "name": "हुएवोस रांचेरोस (बिना टॉर्टिला)",
+        "description": "रांचेरो सालसा के बिस्तर पर तले अंडे, एवोकाडो के टुकड़े, कोटिजा पनीर और मैक्सिकन-स्टाइल भुनी हरी सब्ज़ियाँ।",
         "tags": [
           "keto",
           "mexican",
@@ -2290,8 +2290,8 @@
         ]
       },
       {
-        "name": "Chicken Fajita Lettuce Wraps",
-        "description": "Sizzling chicken breast with bell peppers and onions, wrapped in butter lettuce with sour cream and pico de gallo.",
+        "name": "चिकन फाजिता लेटस रैप",
+        "description": "बेल पेपर और प्याज़ के साथ सिज़लिंग चिकन ब्रेस्ट, बटर लेटस में खट्टी क्रीम और पिको डे गैलो के साथ लपेटा गया।",
         "tags": [
           "keto",
           "mexican",
@@ -2300,8 +2300,8 @@
         ]
       },
       {
-        "name": "Chorizo and Egg Scramble",
-        "description": "Crumbled Mexican chorizo scrambled with eggs, jalapenos, and queso fresco, served with sliced avocado.",
+        "name": "चोरिज़ो और अंडा स्क्रैम्बल",
+        "description": "मैक्सिकन चोरिज़ो अंडे, हलापेनो और केसो फ्रेस्को के साथ मिलाया गया, एवोकाडो के टुकड़ों के साथ परोसा गया।",
         "tags": [
           "keto",
           "mexican",
@@ -2312,20 +2312,20 @@
     ],
     "faqs": [
       {
-        "question": "Can you eat Mexican food on keto?",
-        "answer": "Yes. The core flavors of Mexican cuisine — chiles, cumin, lime, cilantro, garlic — are all zero-carb. The main adjustments are removing tortillas, rice, and beans. Cheese shell tacos, lettuce wraps, and cauliflower rice make great substitutes."
+        "question": "क्या आप कीटो पर मैक्सिकन खाना खा सकते हैं?",
+        "answer": "हाँ। मैक्सिकन व्यंजन के मूल स्वाद — मिर्च, जीरा, नींबू, धनिया, लहसुन — सब शून्य-कार्ब हैं। मुख्य समायोजन टॉर्टिला, चावल और बीन्स हटाना है। चीज़ शेल टैको, लेटस रैप और फूलगोभी चावल बढ़िया विकल्प हैं।"
       },
       {
-        "question": "Are beans keto-friendly?",
-        "answer": "Traditional beans (black, pinto, kidney) are too high in carbs for strict keto — about 20-25g net carbs per half cup. Small amounts can fit a more liberal low-carb approach, but our keto Mexican plans use alternatives or skip them."
+        "question": "क्या बीन्स कीटो-अनुकूल हैं?",
+        "answer": "पारंपरिक बीन्स (काली, पिंटो, किडनी) सख्त कीटो के लिए बहुत अधिक कार्ब वाली हैं — लगभग 20-25 ग्राम नेट कार्ब प्रति आधा कप। थोड़ी मात्रा अधिक उदार कम-कार्ब दृष्टिकोण में फिट हो सकती है, लेकिन हमारी कीटो मैक्सिकन योजनाएँ विकल्प इस्तेमाल करती हैं।"
       },
       {
-        "question": "What Mexican sauces are keto-safe?",
-        "answer": "Salsa verde, pico de gallo, guacamole, and most hot sauces are naturally low-carb. Watch out for mole (contains sugar and chocolate), sweetened marinades, and store-bought salsas with added sugar."
+        "question": "कौन सी मैक्सिकन चटनियाँ कीटो-सुरक्षित हैं?",
+        "answer": "साल्सा वर्डे, पिको डे गैलो, ग्वाकामोले और अधिकांश हॉट सॉस स्वाभाविक रूप से कम-कार्ब हैं। मोले (चीनी और चॉकलेट होती है), मीठे मैरिनेड और अतिरिक्त चीनी वाले जार बंद सालसा से बचें।"
       },
       {
-        "question": "How do I make keto tortillas?",
-        "answer": "The most popular options are almond flour tortillas, cheese crisps (baked shredded cheese), and coconut flour wraps. For a zero-effort swap, large butter lettuce leaves work perfectly as taco shells."
+        "question": "कीटो टॉर्टिला कैसे बनाएँ?",
+        "answer": "सबसे लोकप्रिय विकल्प हैं बादाम के आटे की टॉर्टिला, चीज़ क्रिस्प (बेक्ड कसा हुआ पनीर) और नारियल आटे के रैप। आसान विकल्प के लिए बड़े बटर लेटस के पत्ते टैको शेल की तरह एकदम काम करते हैं।"
       }
     ]
   },
@@ -2333,25 +2333,25 @@
     "title": "शाकाहारी इतालवी भोजन योजनाएँ",
     "metaDescription": "पास्ता, रिज़ोट्टो और कैप्रीस के साथ साप्ताहिक शाकाहारी इतालवी भोजन योजनाएँ। मांस के बिना क्लासिक इतालवी कम्फ़र्ट फ़ूड।",
     "h1": "शाकाहारी इतालवी भोजन योजनाएँ — ला डोल्चे वीटा, मांस-मुक्त",
-    "intro": "Italian cooking has always celebrated vegetables, cheese, pasta, and olive oil. Some of the most iconic Italian dishes — margherita pizza, cacio e pepe, risotto — are already vegetarian. Our meal plans lean into this tradition, giving you a week of Italian comfort food that never feels like it is missing anything.",
+    "intro": "इतालवी खाना हमेशा से सब्ज़ियों, पनीर, पास्ता और जैतून तेल का जश्न मनाता आया है। कुछ सबसे प्रतिष्ठित इतालवी व्यंजन — मार्गेरिटा पिज़्ज़ा, काचो ए पेपे, रिसोटो — पहले से ही शाकाहारी हैं। हमारी मील योजनाएँ इस परंपरा का सहारा लेती हैं और आपको एक हफ्ते का इतालवी आरामदायक खाना देती हैं जिसमें कुछ भी गायब नहीं लगता।",
     "valueProps": [
       {
-        "heading": "Pasta Done Right",
-        "description": "From aglio e olio to penne arrabbiata, Italian pasta is at its best when it lets simple ingredients shine — no meat required."
+        "heading": "पास्ता सही तरीके से",
+        "description": "एग्लियो ए ओलियो से पेने अरब्बियाटा तक, इतालवी पास्ता तब सबसे अच्छा होता है जब सरल सामग्री चमकती है — मांस की ज़रूरत नहीं।"
       },
       {
-        "heading": "Cheese as a Main Event",
-        "description": "Mozzarella, parmesan, ricotta, and burrata take center stage in dishes designed around their flavors and textures."
+        "heading": "पनीर एक मुख्य आकर्षण के रूप में",
+        "description": "मोज़ेरेला, परमेसन, रिकोटा और बुरेटा उन व्यंजनों में केंद्र में होते हैं जो उनके स्वाद और बनावट के इर्द-गिर्द डिज़ाइन किए गए हैं।"
       },
       {
-        "heading": "Seasonal Italian Tradition",
-        "description": "Italian nonnas have been cooking vegetarian for centuries — we follow their lead with recipes rooted in regional tradition."
+        "heading": "मौसमी इतालवी परंपरा",
+        "description": "इतालवी दादी-नानी सदियों से शाकाहारी बनाती आई हैं — हम क्षेत्रीय परंपरा में जड़ी रेसिपी के साथ उनका अनुसरण करते हैं।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Mushroom Risotto with Truffle Oil",
-        "description": "Creamy arborio rice slowly stirred with porcini and cremini mushrooms, finished with parmesan and a drizzle of truffle oil.",
+        "name": "ट्रफल ऑयल के साथ मशरूम रिसोटो",
+        "description": "पोर्चिनी और क्रेमिनी मशरूम के साथ धीरे-धीरे हिलाया गया मलाईदार आर्बोरियो चावल, परमेसन और ट्रफल ऑयल की बूँदों से सजाया गया।",
         "tags": [
           "vegetarian",
           "italian",
@@ -2360,8 +2360,8 @@
         ]
       },
       {
-        "name": "Caprese Panini with Pesto",
-        "description": "Fresh mozzarella, ripe tomato slices, and basil pesto pressed in ciabatta until golden and melty.",
+        "name": "पेस्टो के साथ कैप्रेसे पनिनी",
+        "description": "ताज़ी मोज़ेरेला, पके टमाटर के टुकड़े और तुलसी पेस्टो को चियाबाटा में सुनहरा और पिघलता होने तक दबाया गया।",
         "tags": [
           "vegetarian",
           "italian",
@@ -2369,8 +2369,8 @@
         ]
       },
       {
-        "name": "Spinach and Ricotta Stuffed Shells",
-        "description": "Jumbo pasta shells filled with ricotta, spinach, and nutmeg, baked in marinara sauce and topped with melted mozzarella.",
+        "name": "पालक और रिकोटा स्टफ्ड शेल्स",
+        "description": "रिकोटा, पालक और जायफल से भरे बड़े पास्ता शेल, मैरिनारा सॉस में बेक किए और पिघली मोज़ेरेला से ढके गए।",
         "tags": [
           "vegetarian",
           "italian",
@@ -2378,8 +2378,8 @@
         ]
       },
       {
-        "name": "Italian Frittata with Zucchini and Herbs",
-        "description": "Eggs baked with sliced zucchini, fresh basil, sun-dried tomatoes, and pecorino cheese until set and golden.",
+        "name": "तोरी और जड़ी-बूटियों के साथ इतालवी फ्रिटाटा",
+        "description": "कटी तोरी, ताज़ी तुलसी, सन-ड्राइड टमाटर और पेकोरिनो पनीर के साथ अंडे बेक किए गए।",
         "tags": [
           "vegetarian",
           "italian",
@@ -2388,8 +2388,8 @@
         ]
       },
       {
-        "name": "Penne Arrabbiata",
-        "description": "Penne pasta tossed in a fiery tomato sauce with garlic, red chili flakes, and fresh parsley.",
+        "name": "पेने अरब्बियाटा",
+        "description": "पेने पास्ता को लहसुन, लाल मिर्च के गुच्छे और ताज़े अजमोद के साथ तीखी टमाटर सॉस में डाला गया।",
         "tags": [
           "vegetarian",
           "italian",
@@ -2400,20 +2400,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Italian food good for vegetarians?",
-        "answer": "Italian cuisine is one of the most vegetarian-friendly in the world. Pasta, risotto, pizza, bruschetta, minestrone, and countless antipasti are traditionally meatless. Many Italian regions have deep vegetable-forward cooking traditions."
+        "question": "क्या इतालवी खाना शाकाहारियों के लिए अच्छा है?",
+        "answer": "इतालवी व्यंजन दुनिया में सबसे शाकाहारी-अनुकूल में से एक है। पास्ता, रिसोटो, पिज़्ज़ा, ब्रुशेटा, मिनेस्ट्रोन और अनगिनत एंटीपास्ती पारंपरिक रूप से मांस-मुक्त हैं। कई इतालवी क्षेत्रों में सब्ज़ी-आधारित खाने की गहरी परंपराएँ हैं।"
       },
       {
-        "question": "What protein sources are in vegetarian Italian cooking?",
-        "answer": "Eggs, cheese (parmesan, ricotta, mozzarella), beans (cannellini, borlotti), lentils, and nuts. Italian cuisine also uses chickpea flour (farinata) and plenty of legume-based soups."
+        "question": "शाकाहारी इतालवी खाने में प्रोटीन के स्रोत क्या हैं?",
+        "answer": "अंडे, पनीर (परमेसन, रिकोटा, मोज़ेरेला), बीन्स (कैनेलिनी, बोरलोटी), मसूर और मेवे। इतालवी व्यंजन में चने का आटा (फ़ारिनाटा) और कई फलियों पर आधारित सूप भी होते हैं।"
       },
       {
-        "question": "Is parmesan cheese vegetarian?",
-        "answer": "Traditional Parmigiano-Reggiano uses animal rennet and is not technically vegetarian. However, many brands make vegetarian parmesan with microbial rennet. Our recipes work with either — just check the label if this matters to you."
+        "question": "क्या परमेसन पनीर शाकाहारी है?",
+        "answer": "पारंपरिक परमिजानो-रेजियानो पशु रेनेट का उपयोग करता है और तकनीकी रूप से शाकाहारी नहीं है। हालाँकि, कई ब्रांड माइक्रोबियल रेनेट से शाकाहारी परमेसन बनाते हैं। हमारी रेसिपी दोनों के साथ काम करती हैं — बस लेबल जाँचें।"
       },
       {
-        "question": "Can vegetarian Italian food be healthy?",
-        "answer": "Absolutely. While pasta and cheese can be heavy, Italian cooking also features grilled vegetables, bean soups, fresh salads, and olive oil-based dishes. A balanced vegetarian Italian plan includes both comfort classics and lighter fare."
+        "question": "क्या शाकाहारी इतालवी खाना स्वस्थ हो सकता है?",
+        "answer": "बिल्कुल। जबकि पास्ता और पनीर भारी हो सकते हैं, इतालवी खाने में ग्रिल्ड सब्ज़ियाँ, बीन सूप, ताज़े सलाद और जैतून तेल-आधारित व्यंजन भी हैं। एक संतुलित शाकाहारी इतालवी योजना में क्लासिक आरामदायक व्यंजन और हल्के भोजन दोनों शामिल हैं।"
       }
     ]
   },
@@ -2421,25 +2421,25 @@
     "title": "शाकाहारी भारतीय भोजन योजनाएँ",
     "metaDescription": "पनीर, दाल और सब्ज़ी करी के साथ साप्ताहिक शाकाहारी भारतीय भोजन योजनाएँ। पूरे हफ़्ते के लिए प्रामाणिक भारतीय रेसिपी, मांस की ज़रूरत नहीं।",
     "h1": "शाकाहारी भारतीय भोजन योजनाएँ — सदियों पुरानी परंपरा",
-    "intro": "India is home to the world's largest vegetarian population, and its cuisine reflects centuries of meatless innovation. From creamy paneer dishes to fiery lentil dals and crispy dosas, vegetarian Indian food is never an afterthought — it is the main event. Our weekly plans draw from North, South, East, and West Indian traditions.",
+    "intro": "भारत दुनिया की सबसे बड़ी शाकाहारी आबादी का घर है, और इसका व्यंजन सदियों के मांस-मुक्त नवाचार को दर्शाता है। मलाईदार पनीर व्यंजनों से लेकर तीखे दाल और कुरकुरे डोसा तक, शाकाहारी भारतीय खाना कभी बाद की सोच नहीं है — यह मुख्य आकर्षण है। हमारी साप्ताहिक योजनाएँ उत्तर, दक्षिण, पूर्व और पश्चिम भारतीय परंपराओं से प्रेरणा लेती हैं।",
     "valueProps": [
       {
-        "heading": "Paneer, Dal, and Beyond",
-        "description": "Rich paneer curries, hearty lentil dals, and crispy snacks like samosas and pakoras keep your week exciting and filling."
+        "heading": "पनीर, दाल और इससे भी आगे",
+        "description": "समृद्ध पनीर करी, हार्दिक दाल और कुरकुरे स्नैक जैसे समोसे और पकौड़े आपके सप्ताह को रोमांचक और भरपूर बनाते हैं।"
       },
       {
-        "heading": "Regional Diversity",
-        "description": "We rotate through Punjabi, South Indian, Gujarati, Bengali, and Rajasthani cooking so you experience the full spectrum of Indian vegetarian food."
+        "heading": "क्षेत्रीय विविधता",
+        "description": "हम पंजाबी, दक्षिण भारतीय, गुजराती, बंगाली और राजस्थानी खाने के बीच घुमाते हैं ताकि आप भारतीय शाकाहारी भोजन की पूरी श्रृंखला का अनुभव करें।"
       },
       {
-        "heading": "Spice Knowledge Built In",
-        "description": "Each recipe includes exact spice measurements and toasting tips so you build confidence with Indian spice blends."
+        "heading": "मसाले का ज्ञान अंदर से",
+        "description": "प्रत्येक रेसिपी में सटीक मसाले की मात्रा और भुनने के सुझाव शामिल हैं ताकि आप भारतीय मसाले के मिश्रणों में आत्मविश्वास बनाएँ।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Palak Paneer with Naan",
-        "description": "Cubes of paneer in a creamy spinach sauce with garlic, ginger, and garam masala, served with warm garlic naan.",
+        "name": "नान के साथ पालक पनीर",
+        "description": "लहसुन, अदरक और गरम मसाले के साथ मलाईदार पालक सॉस में पनीर के टुकड़े, गरम लहसुन नान के साथ।",
         "tags": [
           "vegetarian",
           "indian",
@@ -2447,8 +2447,8 @@
         ]
       },
       {
-        "name": "Idli with Sambar and Chutney",
-        "description": "Steamed rice-and-lentil cakes served with a spiced vegetable sambar and coconut chutney.",
+        "name": "सांबर और चटनी के साथ इडली",
+        "description": "मसालेदार सब्ज़ी सांबर और नारियल की चटनी के साथ भाप से बने चावल-दाल के केक।",
         "tags": [
           "vegetarian",
           "indian",
@@ -2457,8 +2457,8 @@
         ]
       },
       {
-        "name": "Rajma Curry (Kidney Bean Stew)",
-        "description": "Red kidney beans slow-cooked in a thick tomato-onion gravy with cumin, coriander, and kashmiri chili, served over rice.",
+        "name": "राजमा करी (किडनी बीन स्टू)",
+        "description": "जीरा, धनिया और कश्मीरी मिर्च के साथ गाढ़ी टमाटर-प्याज़ ग्रेवी में धीमी आँच पर पके लाल राजमे, चावल के साथ।",
         "tags": [
           "vegetarian",
           "indian",
@@ -2467,8 +2467,8 @@
         ]
       },
       {
-        "name": "Paneer Tikka Masala",
-        "description": "Charred paneer cubes in a rich, creamy tomato-cashew sauce with fenugreek leaves, served with jeera rice.",
+        "name": "पनीर टिक्का मसाला",
+        "description": "मेथी के पत्तों के साथ समृद्ध, मलाईदार टमाटर-काजू सॉस में जले पनीर के टुकड़े, जीरा चावल के साथ।",
         "tags": [
           "vegetarian",
           "indian",
@@ -2477,8 +2477,8 @@
         ]
       },
       {
-        "name": "Gujarati Dal with Rice",
-        "description": "Sweet-and-sour toor dal with jaggery and tamarind, tempered with mustard seeds and curry leaves, over steamed rice.",
+        "name": "गुजराती दाल चावल के साथ",
+        "description": "गुड़ और इमली के साथ मीठी-खट्टी तुअर दाल, सरसों के दाने और करी पत्ते के तड़के के साथ, भाप के चावल पर।",
         "tags": [
           "vegetarian",
           "indian",
@@ -2489,20 +2489,20 @@
     ],
     "faqs": [
       {
-        "question": "Is most Indian food vegetarian?",
-        "answer": "A significant portion is. Around 30-40% of India's population is vegetarian, and Indian cuisine has the world's most developed vegetarian cooking tradition. Most Indian restaurants offer extensive vegetarian menus, and many regional cuisines are predominantly meatless."
+        "question": "क्या अधिकांश भारतीय खाना शाकाहारी है?",
+        "answer": "एक महत्वपूर्ण हिस्सा है। भारत की लगभग 30-40% आबादी शाकाहारी है, और भारतीय व्यंजन में दुनिया की सबसे विकसित शाकाहारी पाक परंपरा है। अधिकांश भारतीय रेस्तराँ व्यापक शाकाहारी मेनू प्रदान करते हैं।"
       },
       {
-        "question": "What are the best protein sources in vegetarian Indian food?",
-        "answer": "Paneer (Indian cottage cheese), lentils (dal), chickpeas, kidney beans, yogurt, and milk-based sweets. Indian cuisine uses a wide variety of legumes — toor, moong, masoor, chana, urad — each with distinct flavors and textures."
+        "question": "शाकाहारी भारतीय खाने में प्रोटीन के सबसे अच्छे स्रोत क्या हैं?",
+        "answer": "पनीर, दाल (दाल), चने, राजमा, दही और दूध-आधारित मिठाइयाँ। भारतीय व्यंजन में कई प्रकार की फलियाँ हैं — तुअर, मूँग, मसूर, चना, उड़द — प्रत्येक के अलग स्वाद और बनावट हैं।"
       },
       {
-        "question": "Is vegetarian Indian food spicy?",
-        "answer": "It ranges widely. South Indian food tends to be spicier, while Gujarati and Bengali cuisines are milder and often sweet. Our meal plans indicate spice levels and always include instructions for adjusting heat up or down."
+        "question": "क्या शाकाहारी भारतीय खाना तीखा होता है?",
+        "answer": "यह काफी भिन्न होता है। दक्षिण भारतीय खाना अधिक तीखा होता है, जबकि गुजराती और बंगाली व्यंजन हल्के और अक्सर मीठे होते हैं। हमारी मील योजनाएँ मसाले के स्तर बताती हैं और हमेशा गर्मी बढ़ाने या घटाने के निर्देश शामिल करती हैं।"
       },
       {
-        "question": "Can I meal prep Indian food for the week?",
-        "answer": "Absolutely. Dals, curries, and rice dishes reheat beautifully and often taste better the next day as flavors develop. Roti and paratha can be made in batches and frozen. Indian food is one of the best cuisines for meal prepping."
+        "question": "क्या मैं पूरे हफ्ते के लिए भारतीय खाना मील प्रेप कर सकता हूँ?",
+        "answer": "बिल्कुल। दाल, करी और चावल के व्यंजन अच्छी तरह गरम होते हैं और अक्सर अगले दिन और बेहतर स्वाद देते हैं। रोटी और परांठे बैच में बनाए और फ्रीज़ किए जा सकते हैं। भारतीय खाना मील प्रेप के लिए सबसे अच्छे व्यंजनों में से एक है।"
       }
     ]
   },
@@ -2510,25 +2510,25 @@
     "title": "शाकाहारी मेडिटेरेनियन भोजन योजनाएँ",
     "metaDescription": "फ़ेटा, हम्मस, ग्रेन बाउल और भुनी सब्ज़ियों के साथ साप्ताहिक शाकाहारी मेडिटेरेनियन भोजन योजनाएँ। मांस के बिना दिल के लिए स्वस्थ खाना।",
     "h1": "शाकाहारी मेडिटेरेनियन भोजन योजनाएँ — ताज़ी, सरल, संतोषजनक",
-    "intro": "The Mediterranean diet already puts vegetables, grains, and legumes at its center — removing meat just brings those ingredients further into the spotlight. Our vegetarian Mediterranean plans pair eggs, cheese, and yogurt with the olive oil, fresh herbs, and seasonal produce that define this world-renowned eating style.",
+    "intro": "भूमध्यसागरीय आहार पहले से ही सब्ज़ियों, अनाज और फलियों को केंद्र में रखता है — मांस हटाने से वे सामग्री और भी उजागर होती हैं। हमारी शाकाहारी भूमध्यसागरीय योजनाएँ अंडे, पनीर और दही को जैतून के तेल, ताज़ी जड़ी-बूटियों और मौसमी उपज के साथ जोड़ती हैं।",
     "valueProps": [
       {
-        "heading": "Eggs and Cheese Add Richness",
-        "description": "Feta, halloumi, ricotta, and eggs provide satisfying protein and flavor that keep vegetarian Mediterranean meals from feeling light on substance."
+        "heading": "अंडे और पनीर समृद्धि जोड़ते हैं",
+        "description": "फेटा, हलौमी, रिकोटा और अंडे संतोषजनक प्रोटीन और स्वाद देते हैं जो शाकाहारी भूमध्यसागरीय भोजन को हल्का महसूस होने से रोकते हैं।"
       },
       {
-        "heading": "Grain Bowls and Salads That Fill You Up",
-        "description": "Farro, quinoa, bulgur, and freekeh make hearty bases that keep you full, paired with roasted vegetables and tangy dressings."
+        "heading": "ग्रेन बाउल और सलाद जो पेट भरते हैं",
+        "description": "फैरो, क्विनोआ, बुलगुर और फ्रीके मज़बूत आधार बनाते हैं जो आपको भरे रखते हैं, भुनी सब्ज़ियों और तीखी ड्रेसिंग के साथ।"
       },
       {
-        "heading": "Heart-Healthy by Design",
-        "description": "The Mediterranean eating pattern is the most-studied diet for cardiovascular health, and the vegetarian version amplifies those benefits."
+        "heading": "हृदय-स्वस्थ, डिज़ाइन से",
+        "description": "भूमध्यसागरीय खाने का पैटर्न हृदय स्वास्थ्य के लिए सबसे अधिक अध्ययन किया गया आहार है, और शाकाहारी संस्करण उन लाभों को और बढ़ाता है।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Spanakopita (Greek Spinach Pie)",
-        "description": "Flaky phyllo dough filled with spinach, feta, dill, and scallions, baked until golden and crispy.",
+        "name": "स्पानाकोपिता (ग्रीक पालक पाई)",
+        "description": "पालक, फेटा, डिल और हरे प्याज़ से भरा परतदार फिलो आटा, सुनहरा और कुरकुरा होने तक बेक किया गया।",
         "tags": [
           "vegetarian",
           "mediterranean",
@@ -2536,8 +2536,8 @@
         ]
       },
       {
-        "name": "Shakshuka with Crusty Bread",
-        "description": "Eggs poached in a spiced tomato and pepper sauce with cumin, paprika, and a crumble of feta, served with sourdough.",
+        "name": "कुरकुरी ब्रेड के साथ शक्शुका",
+        "description": "जीरा, पपरिका और फेटा के टुकड़ों के साथ मसालेदार टमाटर और बेल पेपर सॉस में पोच किए अंडे, साउरडो के साथ।",
         "tags": [
           "vegetarian",
           "mediterranean",
@@ -2545,8 +2545,8 @@
         ]
       },
       {
-        "name": "Grilled Halloumi and Roasted Vegetable Platter",
-        "description": "Slabs of grilled halloumi alongside roasted eggplant, zucchini, bell peppers, and cherry tomatoes with a lemon-herb drizzle.",
+        "name": "ग्रिल्ड हलौमी और भुनी सब्ज़ी प्लेट",
+        "description": "ग्रिल्ड हलौमी के टुकड़े भुने बैंगन, तोरी, बेल पेपर और चेरी टमाटर के साथ नींबू-जड़ी बूटी की बूँदों सहित।",
         "tags": [
           "vegetarian",
           "mediterranean",
@@ -2555,8 +2555,8 @@
         ]
       },
       {
-        "name": "Freekeh Tabbouleh with Pomegranate",
-        "description": "Smoky freekeh mixed with parsley, mint, tomato, cucumber, and pomegranate seeds in a lemon-olive oil dressing.",
+        "name": "अनार के साथ फ्रीके तब्बौलेह",
+        "description": "धुएँदार फ्रीके को अजमोद, पुदीना, टमाटर, खीरा और अनार के दानों के साथ नींबू-जैतून तेल की ड्रेसिंग में मिलाया गया।",
         "tags": [
           "vegetarian",
           "mediterranean",
@@ -2564,8 +2564,8 @@
         ]
       },
       {
-        "name": "Stuffed Grape Leaves with Rice and Herbs",
-        "description": "Tender grape leaves rolled around seasoned rice with dill, mint, and pine nuts, braised in olive oil and lemon juice.",
+        "name": "चावल और जड़ी-बूटियों से भरे अंगूर के पत्ते",
+        "description": "डिल, पुदीना और पाइन नट्स के साथ मसालेदार चावल के चारों ओर लिपटे कोमल अंगूर के पत्ते, जैतून तेल और नींबू के रस में ब्रेज़ किए गए।",
         "tags": [
           "vegetarian",
           "mediterranean",
@@ -2575,20 +2575,20 @@
     ],
     "faqs": [
       {
-        "question": "Is the Mediterranean diet good for vegetarians?",
-        "answer": "It is one of the best diets for vegetarians. The Mediterranean eating pattern is already plant-forward, with vegetables, legumes, grains, and olive oil at its core. Adding eggs and dairy provides complete protein without relying on meat or processed substitutes."
+        "question": "क्या भूमध्यसागरीय आहार शाकाहारियों के लिए अच्छा है?",
+        "answer": "यह शाकाहारियों के लिए सबसे अच्छे आहारों में से एक है। भूमध्यसागरीय खाने का पैटर्न पहले से ही पौधे-आधारित है, जिसमें सब्ज़ियाँ, फलियाँ, अनाज और जैतून तेल मुख्य हैं। अंडे और डेयरी जोड़ने से मांस या प्रसंस्कृत विकल्पों पर निर्भर हुए बिना पूर्ण प्रोटीन मिलता है।"
       },
       {
-        "question": "What do vegetarian Mediterranean meals look like for a week?",
-        "answer": "A typical week includes shakshuka for breakfast, grain bowls and salads for lunch, and dishes like spanakopita, stuffed peppers, or risotto for dinner. Snacks are hummus with vegetables, olives, nuts, and fresh fruit."
+        "question": "एक सप्ताह के लिए शाकाहारी भूमध्यसागरीय भोजन कैसा दिखता है?",
+        "answer": "एक सामान्य सप्ताह में नाश्ते में शक्शुका, दोपहर में ग्रेन बाउल और सलाद, और रात के खाने में स्पानाकोपिता, भरी शिमला मिर्च या रिसोटो शामिल हैं। स्नैक्स में सब्ज़ियों के साथ हुम्मस, जैतून, मेवे और ताज़े फल होते हैं।"
       },
       {
-        "question": "Can I lose weight on a vegetarian Mediterranean diet?",
-        "answer": "Yes. The Mediterranean diet is associated with sustainable weight management. The emphasis on fiber-rich vegetables, whole grains, and healthy fats promotes satiety. Removing meat naturally reduces calorie-dense options."
+        "question": "क्या मैं शाकाहारी भूमध्यसागरीय आहार से वज़न कम कर सकता हूँ?",
+        "answer": "हाँ। भूमध्यसागरीय आहार टिकाऊ वज़न प्रबंधन से जुड़ा है। फाइबर-समृद्ध सब्ज़ियों, साबुत अनाज और स्वस्थ वसा पर जोर तृप्ति को बढ़ावा देता है। मांस हटाने से स्वाभाविक रूप से कैलोरी-घने विकल्प कम होते हैं।"
       },
       {
-        "question": "How is vegetarian Mediterranean different from vegan Mediterranean?",
-        "answer": "Vegetarian Mediterranean includes eggs, cheese (feta, halloumi, ricotta), yogurt, and honey. Vegan Mediterranean excludes all animal products. The vegetarian version is easier to follow for most people due to the added protein and flavor from dairy and eggs."
+        "question": "शाकाहारी भूमध्यसागरीय और वीगन भूमध्यसागरीय में क्या अंतर है?",
+        "answer": "शाकाहारी भूमध्यसागरीय में अंडे, पनीर (फेटा, हलौमी, रिकोटा), दही और शहद शामिल हैं। वीगन भूमध्यसागरीय सभी पशु उत्पादों को बाहर करता है। डेयरी और अंडों से मिलने वाले अतिरिक्त प्रोटीन और स्वाद के कारण शाकाहारी संस्करण अधिकांश लोगों के लिए पालन करना आसान है।"
       }
     ]
   },
@@ -2596,25 +2596,25 @@
     "title": "ग्लूटेन-फ्री एशियन भोजन योजनाएँ",
     "metaDescription": "चावल-आधारित व्यंजन, स्टर-फ्राई और सूप के साथ साप्ताहिक ग्लूटेन-फ्री एशियन भोजन योजनाएँ। सोया सॉस ट्रैप और छिपे ग्लूटेन से आत्मविश्वास से बचें।",
     "h1": "ग्लूटेन-फ्री एशियन भोजन योजनाएँ — छिपे ग्लूटेन को प्रो की तरह नेविगेट करें",
-    "intro": "Asian cuisine offers incredible variety for gluten-free eaters — rice is the default starch in most of Asia, and many dishes are naturally wheat-free. The tricky part is soy sauce (which contains wheat), some noodles, and hidden thickeners. Our gluten-free Asian plans handle all of that, so you can enjoy bold Asian flavors without the worry.",
+    "intro": "एशियाई व्यंजन ग्लूटन-मुक्त खाने वालों के लिए अविश्वसनीय विविधता प्रदान करता है — अधिकांश एशिया में चावल डिफ़ॉल्ट स्टार्च है, और कई व्यंजन स्वाभाविक रूप से गेहूँ-मुक्त हैं। मुश्किल हिस्सा है सोया सॉस (जिसमें गेहूँ होता है), कुछ नूडल और छिपे हुए गाढ़ेपन वाले पदार्थ। हमारी ग्लूटन-मुक्त एशियाई योजनाएँ यह सब संभाल लेती हैं।",
     "valueProps": [
       {
-        "heading": "Soy Sauce Solved",
-        "description": "Every recipe uses tamari or coconut aminos instead of regular soy sauce, so you get the umami without any wheat."
+        "heading": "सोया सॉस का समाधान",
+        "description": "हर रेसिपी में सामान्य सोया सॉस की जगह तमारी या नारियल अमीनोस का उपयोग होता है, ताकि बिना गेहूँ के उमामी मिले।"
       },
       {
-        "heading": "Rice-Based by Default",
-        "description": "Most Asian cuisines center on rice, rice noodles, or rice paper — all naturally gluten-free. We lean into this advantage."
+        "heading": "चावल-आधारित, डिफ़ॉल्ट रूप से",
+        "description": "अधिकांश एशियाई व्यंजन चावल, राइस नूडल या राइस पेपर पर केंद्रित हैं — सभी स्वाभाविक रूप से ग्लूटन-मुक्त। हम इस फायदे का पूरा उपयोग करते हैं।"
       },
       {
-        "heading": "Hidden Gluten Flagged",
-        "description": "We call out and replace hidden gluten sources like oyster sauce, hoisin, and wheat-based dumpling wrappers."
+        "heading": "छिपा ग्लूटन पहचाना गया",
+        "description": "हम ऑयस्टर सॉस, होइसिन और गेहूँ-आधारित डम्पलिंग रैपर जैसे छिपे ग्लूटन स्रोतों को पहचानते और बदलते हैं।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Chicken Pad See Ew with Rice Noodles",
-        "description": "Wide rice noodles stir-fried with chicken, Chinese broccoli, egg, and a sweet-savory tamari-based sauce.",
+        "name": "राइस नूडल के साथ चिकन पैड सी ईव",
+        "description": "चौड़े राइस नूडल को चिकन, चाइनीज़ ब्रोकोली, अंडे और मीठी-नमकीन तमारी-आधारित सॉस के साथ भुना गया।",
         "tags": [
           "gluten-free",
           "asian",
@@ -2623,8 +2623,8 @@
         ]
       },
       {
-        "name": "Vietnamese Pho with Beef",
-        "description": "Rich beef bone broth ladled over rice noodles with thinly sliced beef, bean sprouts, Thai basil, and lime.",
+        "name": "बीफ के साथ वियतनामी फो",
+        "description": "राइस नूडल पर डाला गया समृद्ध बीफ बोन शोरबा, पतले कटे बीफ, अंकुरित मूँग, थाई तुलसी और नींबू के साथ।",
         "tags": [
           "gluten-free",
           "asian",
@@ -2633,8 +2633,8 @@
         ]
       },
       {
-        "name": "Japanese Onigiri (Rice Balls)",
-        "description": "Seasoned sushi rice shaped into triangles, filled with salmon and wrapped in nori, with tamari for dipping.",
+        "name": "जापानी ओनिगिरी (राइस बॉल)",
+        "description": "तिकोने आकार में बना मसालेदार सुशी चावल, सैल्मन से भरा और नोरी में लपेटा गया, डुबोने के लिए तमारी के साथ।",
         "tags": [
           "gluten-free",
           "asian",
@@ -2643,8 +2643,8 @@
         ]
       },
       {
-        "name": "Korean Bibimbap",
-        "description": "Rice bowl topped with seasoned vegetables, a fried egg, beef, and gochujang (verified gluten-free), mixed tableside.",
+        "name": "कोरियाई बिबिम्बाप",
+        "description": "राइस बाउल जिसमें मसालेदार सब्ज़ियाँ, तला अंडा, बीफ और गोचुजांग (ग्लूटन-मुक्त सत्यापित) डला हो, मेज़ पर मिलाया जाता है।",
         "tags": [
           "gluten-free",
           "asian",
@@ -2653,8 +2653,8 @@
         ]
       },
       {
-        "name": "Thai Green Papaya Salad (Som Tum)",
-        "description": "Shredded green papaya pounded with tomatoes, green beans, peanuts, lime, chili, and a tamari-based dressing.",
+        "name": "थाई ग्रीन पपीता सलाद (सोम तुम)",
+        "description": "हरे पपीते को टमाटर, हरी फलियाँ, मूँगफली, नींबू, मिर्च और तमारी-आधारित ड्रेसिंग के साथ कूटा गया।",
         "tags": [
           "gluten-free",
           "asian",
@@ -2665,20 +2665,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Asian food gluten-free?",
-        "answer": "Many Asian dishes are naturally gluten-free since rice (not wheat) is the primary starch across most of Asia. However, soy sauce contains wheat, and many sauces, noodles, and coatings use wheat flour. The key is knowing what to swap and what to avoid."
+        "question": "क्या एशियाई खाना ग्लूटन-मुक्त है?",
+        "answer": "कई एशियाई व्यंजन स्वाभाविक रूप से ग्लूटन-मुक्त हैं क्योंकि अधिकांश एशिया में चावल (गेहूँ नहीं) मुख्य स्टार्च है। हालाँकि, सोया सॉस में गेहूँ होता है, और कई सॉस, नूडल और कोटिंग में गेहूँ का आटा होता है। मुख्य बात यह जानना है कि क्या बदलें और क्या से बचें।"
       },
       {
-        "question": "Is soy sauce gluten-free?",
-        "answer": "Regular soy sauce (like Kikkoman) contains wheat and is not gluten-free. Tamari is a Japanese soy sauce traditionally made without wheat — always check the label for 'gluten-free' certification. Coconut aminos are another safe alternative."
+        "question": "क्या सोया सॉस ग्लूटन-मुक्त है?",
+        "answer": "सामान्य सोया सॉस (जैसे किक्कोमन) में गेहूँ होता है और ग्लूटन-मुक्त नहीं है। तमारी एक जापानी सोया सॉस है जो पारंपरिक रूप से बिना गेहूँ के बनाई जाती है — हमेशा 'ग्लूटन-फ्री' प्रमाणन के लिए लेबल जाँचें। नारियल अमीनोस एक और सुरक्षित विकल्प है।"
       },
       {
-        "question": "What Asian noodles are gluten-free?",
-        "answer": "Rice noodles (pad thai, pho, rice vermicelli), glass noodles (mung bean), shirataki noodles (konjac), and sweet potato noodles (japchae) are all gluten-free. Avoid ramen, udon, soba (unless 100% buckwheat), and egg noodles."
+        "question": "कौन से एशियाई नूडल ग्लूटन-मुक्त हैं?",
+        "answer": "राइस नूडल (पैड थाई, फो, राइस वर्मिसेली), ग्लास नूडल (मूँग बीन), शिरातकी नूडल (कोनजैक) और शकरकंद नूडल (जापचे) सभी ग्लूटन-मुक्त हैं। रामेन, उडोन, सोबा (जब तक 100% बकव्हीट न हो) और एग नूडल से बचें।"
       },
       {
-        "question": "Can I eat sushi if I am gluten-free?",
-        "answer": "Yes, with precautions. Sushi rice, fish, and nori are gluten-free. Use tamari instead of soy sauce, avoid tempura rolls, and ask about imitation crab (which often contains wheat). Sashimi is the safest option."
+        "question": "क्या मैं ग्लूटन-मुक्त होकर सुशी खा सकता हूँ?",
+        "answer": "हाँ, सावधानी के साथ। सुशी चावल, मछली और नोरी ग्लूटन-मुक्त हैं। सोया सॉस की जगह तमारी इस्तेमाल करें, टेम्पुरा रोल से बचें, और इमिटेशन क्रैब के बारे में पूछें (जिसमें अक्सर गेहूँ होता है)। साशिमी सबसे सुरक्षित विकल्प है।"
       }
     ]
   },
@@ -2686,25 +2686,25 @@
     "title": "ग्लूटेन-फ्री इतालवी भोजन योजनाएँ",
     "metaDescription": "GF पास्ता, रिज़ोट्टो और पोलेंटा के साथ साप्ताहिक ग्लूटेन-फ्री इतालवी भोजन योजनाएँ। गेहूँ के बिना इतालवी कम्फ़र्ट फ़ूड का आनंद लें।",
     "h1": "ग्लूटेन-फ्री इतालवी भोजन योजनाएँ — हाँ, आप अभी भी पास्ता खा सकते हैं",
-    "intro": "Italian food and gluten seem inseparable — until you discover risotto, polenta, GF pasta, and the countless Italian dishes that never needed wheat in the first place. Our gluten-free Italian plans prove you can eat like you are in Rome without a single grain of wheat touching your plate.",
+    "intro": "इतालवी खाना और ग्लूटन अलग नहीं लगते — जब तक आप रिसोटो, पोलेंटा, GF पास्ता और अनगिनत इतालवी व्यंजन नहीं खोजते जिन्हें कभी गेहूँ की ज़रूरत नहीं थी। हमारी ग्लूटन-मुक्त इतालवी योजनाएँ साबित करती हैं कि आप रोम में होने जैसा खा सकते हैं बिना आपकी थाली में गेहूँ के एक दाने के।",
     "valueProps": [
       {
-        "heading": "GF Pasta That Actually Works",
-        "description": "We use top-quality rice, corn, and legume-based pastas that hold their shape and sauce — no mushy disappointments."
+        "heading": "GF पास्ता जो वास्तव में काम करता है",
+        "description": "हम उच्च-गुणवत्ता वाले चावल, मकई और फलियों पर आधारित पास्ता का उपयोग करते हैं जो अपना आकार और सॉस बनाए रखता है — कोई गीली निराशा नहीं।"
       },
       {
-        "heading": "Risotto and Polenta Are Your Friends",
-        "description": "Two of Italy's greatest comfort foods are naturally gluten-free. We feature them heavily so you never feel limited."
+        "heading": "रिसोटो और पोलेंटा आपके दोस्त हैं",
+        "description": "इटली के दो सबसे बड़े आरामदायक खाने स्वाभाविक रूप से ग्लूटन-मुक्त हैं। हम उन्हें भरपूर रखते हैं ताकि आप कभी सीमित महसूस न करें।"
       },
       {
-        "heading": "Beyond Pasta Substitutes",
-        "description": "Many iconic Italian dishes — osso buco, chicken cacciatore, caprese — never needed wheat. We highlight these hidden gems."
+        "heading": "पास्ता विकल्पों से परे",
+        "description": "कई प्रतिष्ठित इतालवी व्यंजन — ओस्सो बुको, चिकन कैचियाटोर, कैप्रेसे — को कभी गेहूँ की ज़रूरत नहीं थी। हम इन छिपे रत्नों को उजागर करते हैं।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "GF Penne with Roasted Tomato and Basil Sauce",
-        "description": "Brown rice penne tossed with slow-roasted cherry tomatoes, garlic, fresh basil, and a glug of extra virgin olive oil.",
+        "name": "भुने टमाटर और तुलसी सॉस के साथ GF पेने",
+        "description": "ब्राउन राइस पेने को धीरे-धीरे भुनी चेरी टमाटर, लहसुन, ताज़ी तुलसी और एक्स्ट्रा वर्जिन जैतून तेल के साथ मिलाया गया।",
         "tags": [
           "gluten-free",
           "italian",
@@ -2712,8 +2712,8 @@
         ]
       },
       {
-        "name": "Creamy Polenta with Mushroom Ragu",
-        "description": "Soft, buttery polenta topped with a slow-simmered mushroom and tomato ragu with rosemary and thyme.",
+        "name": "मशरूम रागू के साथ मलाईदार पोलेंटा",
+        "description": "मुलायम, मक्खनी पोलेंटा के ऊपर रोज़मेरी और थाइम के साथ धीरे-धीरे पकाए मशरूम और टमाटर रागू।",
         "tags": [
           "gluten-free",
           "italian",
@@ -2722,8 +2722,8 @@
         ]
       },
       {
-        "name": "Italian Egg Muffins with Sun-Dried Tomato",
-        "description": "Baked egg cups with sun-dried tomatoes, mozzarella, and fresh basil — portable and perfectly Italian.",
+        "name": "सन-ड्राइड टमाटर के साथ इतालवी एग मफिन",
+        "description": "सन-ड्राइड टमाटर, मोज़ेरेला और ताज़ी तुलसी के साथ बेक किए अंडे के कप — पोर्टेबल और एकदम इतालवी।",
         "tags": [
           "gluten-free",
           "italian",
@@ -2731,8 +2731,8 @@
         ]
       },
       {
-        "name": "Caprese Salad with Burrata",
-        "description": "Creamy burrata over heirloom tomatoes with fresh basil, flaky salt, cracked pepper, and aged balsamic.",
+        "name": "बुरेटा के साथ कैप्रेसे सलाद",
+        "description": "हेरलूम टमाटर के ऊपर मलाईदार बुरेटा, ताज़ी तुलसी, परतदार नमक, कुटी काली मिर्च और पुराने बाल्सामिक के साथ।",
         "tags": [
           "gluten-free",
           "italian",
@@ -2741,8 +2741,8 @@
         ]
       },
       {
-        "name": "Chicken Piccata with Lemon-Caper Sauce",
-        "description": "Pan-seared chicken cutlets dredged in rice flour, finished with a bright lemon, butter, and caper pan sauce.",
+        "name": "नींबू-केपर सॉस के साथ चिकन पिकाटा",
+        "description": "राइस आटे में डुबोए पैन-सियर्ड चिकन कटलेट, चमकदार नींबू, मक्खन और केपर पैन सॉस के साथ।",
         "tags": [
           "gluten-free",
           "italian",
@@ -2752,20 +2752,20 @@
     ],
     "faqs": [
       {
-        "question": "Can you eat Italian food if you are gluten-free?",
-        "answer": "Absolutely. While pasta and bread are Italian staples, the cuisine also offers risotto, polenta, grilled meats, seafood, salads, and vegetable dishes that are naturally gluten-free. Plus, high-quality GF pasta has gotten remarkably good."
+        "question": "क्या आप ग्लूटन-मुक्त होकर इतालवी खाना खा सकते हैं?",
+        "answer": "बिल्कुल। जबकि पास्ता और रोटी इतालवी मुख्य सामग्री हैं, व्यंजन में रिसोटो, पोलेंटा, ग्रिल्ड मांस, समुद्री भोजन, सलाद और सब्ज़ी व्यंजन भी हैं जो स्वाभाविक रूप से ग्लूटन-मुक्त हैं। साथ ही, उच्च-गुणवत्ता GF पास्ता काफी अच्छा हो गया है।"
       },
       {
-        "question": "What is the best gluten-free pasta for Italian recipes?",
-        "answer": "Brown rice pasta and corn-rice blends hold up best. Brands like Jovial, Barilla GF, and Banza (chickpea) are widely available. The key is cooking al dente and rinsing briefly — overcooking is the main reason GF pasta turns mushy."
+        "question": "इतालवी रेसिपी के लिए सबसे अच्छा ग्लूटन-मुक्त पास्ता कौन सा है?",
+        "answer": "ब्राउन राइस पास्ता और कॉर्न-राइस मिश्रण सबसे अच्छे होते हैं। जोवियल, बारिला GF और बान्ज़ा (चने) जैसे ब्रांड व्यापक रूप से उपलब्ध हैं। मुख्य बात है अल डेंते पकाना और संक्षेप में धोना — अधिक पकाना GF पास्ता के गीले होने का मुख्य कारण है।"
       },
       {
-        "question": "Is risotto gluten-free?",
-        "answer": "Yes. Risotto is made with arborio or carnaroli rice, broth, butter, and parmesan — all naturally gluten-free. Just ensure your broth is GF (some commercial broths contain wheat-based additives)."
+        "question": "क्या रिसोटो ग्लूटन-मुक्त है?",
+        "answer": "हाँ। रिसोटो आर्बोरियो या कार्नारोली चावल, शोरबा, मक्खन और परमेसन से बना होता है — सभी स्वाभाविक रूप से ग्लूटन-मुक्त। बस सुनिश्चित करें कि आपका शोरबा GF हो (कुछ व्यावसायिक शोरबे में गेहूँ-आधारित एडिटिव होते हैं)।"
       },
       {
-        "question": "Is Italian bread available gluten-free?",
-        "answer": "GF focaccia and ciabatta are available from specialty bakeries and can be made at home with rice flour and tapioca starch. They are not identical to wheat bread but pair well with soups, salads, and dipping oils."
+        "question": "क्या ग्लूटन-मुक्त इतालवी ब्रेड उपलब्ध है?",
+        "answer": "GF फोकाचिया और चियाबाटा विशेष बेकरी से उपलब्ध हैं और घर पर राइस आटे और टेपियोका स्टार्च से बनाई जा सकती हैं। ये गेहूँ की ब्रेड जैसी नहीं होतीं लेकिन सूप, सलाद और डिपिंग ऑयल के साथ अच्छी तरह जाती हैं।"
       }
     ]
   },
@@ -2773,25 +2773,25 @@
     "title": "ग्लूटेन-फ्री मैक्सिकन भोजन योजनाएँ",
     "metaDescription": "कॉर्न टॉर्टिला, टैको और ताज़ी साल्सा के साथ साप्ताहिक ग्लूटेन-फ्री मैक्सिकन भोजन योजनाएँ। प्राकृतिक रूप से गेहूँ-मुक्त प्रामाणिक मैक्सिकन स्वाद।",
     "h1": "ग्लूटेन-फ्री मैक्सिकन भोजन योजनाएँ — मक्का ही राजा है",
-    "intro": "Here is the good news: traditional Mexican cuisine is built on corn, not wheat. Corn tortillas, tamales, tostadas, and sopes are all naturally gluten-free. The pitfalls are flour tortillas, beer-battered items, and some store-bought spice mixes. Our plans stick to authentic corn-based Mexican cooking and flag every hidden gluten source.",
+    "intro": "यहाँ अच्छी खबर है: पारंपरिक मैक्सिकन व्यंजन गेहूँ पर नहीं, मकई पर आधारित है। कॉर्न टॉर्टिला, तमाले, तोस्टाडा और सोप सभी स्वाभाविक रूप से ग्लूटन-मुक्त हैं। समस्या है आटे की टॉर्टिला, बियर-बेटर वाली चीज़ें और कुछ बाज़ार में मिलने वाले मसाले मिश्रण। हमारी योजनाएँ असली मकई-आधारित मैक्सिकन खाने पर टिकी हैं और हर छिपे ग्लूटन स्रोत को चिह्नित करती हैं।",
     "valueProps": [
       {
-        "heading": "Corn Tortillas Are the Real Deal",
-        "description": "Authentic Mexican food uses corn masa, not wheat flour. Our plans center on corn tortillas, tostadas, and tamales — the way it was always meant to be."
+        "heading": "कॉर्न टॉर्टिला असली चीज़ है",
+        "description": "असली मैक्सिकन खाना गेहूँ के आटे से नहीं, मकई मासा से बनता है। हमारी योजनाएँ कॉर्न टॉर्टिला, तोस्टाडा और तमाले पर केंद्रित हैं — जैसा हमेशा से होना चाहिए था।"
       },
       {
-        "heading": "Naturally GF Cuisine",
-        "description": "Rice, beans, grilled meats, salsas, guacamole, and most Mexican staples are inherently wheat-free. Very few swaps needed."
+        "heading": "स्वाभाविक रूप से GF व्यंजन",
+        "description": "चावल, बीन्स, ग्रिल्ड मांस, सालसा, ग्वाकामोले और अधिकांश मैक्सिकन मुख्य सामग्री स्वाभाविक रूप से गेहूँ-मुक्त हैं। बहुत कम बदलाव चाहिए।"
       },
       {
-        "heading": "Cross-Contamination Awareness",
-        "description": "We flag common sources of hidden gluten in Mexican cooking: flour tortillas at taquerias, beer batters, and packaged seasoning mixes."
+        "heading": "क्रॉस-कंटेमिनेशन जागरूकता",
+        "description": "हम मैक्सिकन खाने में ग्लूटन के सामान्य छिपे स्रोतों को चिह्नित करते हैं: तकेरिया की आटे की टॉर्टिला, बियर बेटर और पैकेज्ड सीज़निंग मिश्रण।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Street-Style Corn Tortilla Tacos",
-        "description": "Double-stacked corn tortillas with grilled chicken, diced white onion, cilantro, lime, and salsa verde.",
+        "name": "स्ट्रीट-स्टाइल कॉर्न टॉर्टिला टैको",
+        "description": "दोहरी कॉर्न टॉर्टिला में ग्रिल्ड चिकन, बारीक कटा सफेद प्याज़, धनिया, नींबू और साल्सा वर्डे।",
         "tags": [
           "gluten-free",
           "mexican",
@@ -2799,8 +2799,8 @@
         ]
       },
       {
-        "name": "Chilaquiles with Fried Eggs",
-        "description": "Crispy corn tortilla chips simmered in red salsa, topped with fried eggs, crema, queso fresco, and sliced avocado.",
+        "name": "तले अंडों के साथ चिलाकिलेस",
+        "description": "लाल सालसा में उबाले कुरकुरे कॉर्न टॉर्टिला चिप्स, ऊपर से तले अंडे, क्रेमा, केसो फ्रेस्को और एवोकाडो के टुकड़े।",
         "tags": [
           "gluten-free",
           "mexican",
@@ -2808,8 +2808,8 @@
         ]
       },
       {
-        "name": "Black Bean and Sweet Potato Enchiladas",
-        "description": "Corn tortillas rolled with mashed black beans and roasted sweet potato, covered in enchilada sauce and melted cheese.",
+        "name": "काली बीन और शकरकंद एनचिलाडा",
+        "description": "मसले काली बीन्स और भुने शकरकंद से भरी कॉर्न टॉर्टिला, एनचिलाडा सॉस से ढकी और पिघले पनीर के साथ।",
         "tags": [
           "gluten-free",
           "mexican",
@@ -2817,8 +2817,8 @@
         ]
       },
       {
-        "name": "Ceviche Tostadas",
-        "description": "Crispy corn tostadas topped with lime-cured shrimp, avocado, red onion, cucumber, and serrano chili.",
+        "name": "सेविचे तोस्टाडा",
+        "description": "कुरकुरी कॉर्न तोस्टाडा पर नींबू से पकाई झींगे, एवोकाडो, लाल प्याज़, खीरा और सेरानो मिर्च।",
         "tags": [
           "gluten-free",
           "mexican",
@@ -2826,8 +2826,8 @@
         ]
       },
       {
-        "name": "Mexican Rice and Bean Bowl",
-        "description": "Cilantro-lime rice with seasoned pinto beans, grilled peppers, corn, pico de gallo, and a drizzle of crema.",
+        "name": "मैक्सिकन राइस और बीन बाउल",
+        "description": "धनिया-नींबू चावल के साथ मसालेदार पिंटो बीन्स, ग्रिल्ड मिर्च, मकई, पिको डे गैलो और क्रेमा की बूँद।",
         "tags": [
           "gluten-free",
           "mexican",
@@ -2838,20 +2838,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Mexican food gluten-free?",
-        "answer": "Traditional Mexican food is largely gluten-free. Corn tortillas, rice, beans, salsas, and grilled meats are all wheat-free. The main items to avoid are flour tortillas, beer-battered items (like fish tacos with tempura), and some packaged seasonings that contain wheat fillers."
+        "question": "क्या मैक्सिकन खाना ग्लूटन-मुक्त है?",
+        "answer": "पारंपरिक मैक्सिकन खाना काफी हद तक ग्लूटन-मुक्त है। कॉर्न टॉर्टिला, चावल, बीन्स, सालसा और ग्रिल्ड मांस सभी गेहूँ-मुक्त हैं। मुख्य चीज़ें जिनसे बचना है वे हैं आटे की टॉर्टिला, बियर-बेटर वाली चीज़ें (जैसे टेम्पुरा के साथ फिश टैको) और कुछ पैकेज्ड मसाले जिनमें गेहूँ भराव होता है।"
       },
       {
-        "question": "Are corn tortillas always gluten-free?",
-        "answer": "Pure corn tortillas made from masa harina and water are gluten-free. However, some commercial brands add wheat flour for flexibility. Always check the label, or buy from a tortilleria that uses 100% corn masa."
+        "question": "क्या कॉर्न टॉर्टिला हमेशा ग्लूटन-मुक्त होती है?",
+        "answer": "मासा हारिना और पानी से बनी शुद्ध कॉर्न टॉर्टिला ग्लूटन-मुक्त होती है। हालाँकि, कुछ व्यावसायिक ब्रांड लचीलेपन के लिए गेहूँ का आटा मिलाते हैं। हमेशा लेबल जाँचें, या किसी टॉर्टिलेरिया से खरीदें जो 100% कॉर्न मासा इस्तेमाल करती है।"
       },
       {
-        "question": "Is queso dip gluten-free?",
-        "answer": "Homemade queso made from melted cheese is naturally gluten-free. Restaurant and jarred versions sometimes use wheat flour as a thickener. Ask about ingredients or make your own with real cheese, peppers, and a splash of milk."
+        "question": "क्या केसो डिप ग्लूटन-मुक्त है?",
+        "answer": "पिघले पनीर से बना घर का केसो स्वाभाविक रूप से ग्लूटन-मुक्त है। रेस्तराँ और जार बंद संस्करणों में कभी-कभी गेहूँ का आटा गाढ़ेपन के लिए होता है। सामग्री के बारे में पूछें या असली पनीर, मिर्च और दूध की छींट से खुद बनाएँ।"
       },
       {
-        "question": "Can celiacs eat at Mexican restaurants?",
-        "answer": "Yes, with caution. Stick to corn tortilla dishes, grilled meats, rice, beans, and fresh salsas. Ask about shared fryers (flour tortillas may be fried in the same oil) and confirm that no flour thickeners are used in sauces."
+        "question": "क्या सीलिएक रोगी मैक्सिकन रेस्तराँ में खा सकते हैं?",
+        "answer": "हाँ, सावधानी के साथ। कॉर्न टॉर्टिला व्यंजन, ग्रिल्ड मांस, चावल, बीन्स और ताज़ी सालसा लें। साझा फ्रायर के बारे में पूछें (आटे की टॉर्टिला उसी तेल में तली जा सकती हैं) और पुष्टि करें कि सॉस में आटे के गाढ़ेपन का उपयोग नहीं हुआ।"
       }
     ]
   },
@@ -2859,25 +2859,25 @@
     "title": "हलाल मेडिटेरेनियन भोजन योजनाएँ",
     "metaDescription": "ग्रिल्ड मीट, हम्मस और ताज़ी सलाद के साथ साप्ताहिक हलाल मेडिटेरेनियन भोजन योजनाएँ। मेडिटेरेनियन तट से प्रेरित हलाल-प्रमाणित रेसिपी।",
     "h1": "हलाल मेडिटेरेनियन भोजन योजनाएँ — लेवांत से आपकी मेज़ तक",
-    "intro": "Mediterranean and halal cooking share deep roots — much of the eastern Mediterranean coast is historically Muslim, and dishes like shawarma, fattoush, and kibbeh are both Mediterranean and halal by nature. Our plans bring together the best of both worlds: heart-healthy Mediterranean eating with strict halal compliance.",
+    "intro": "भूमध्यसागरीय और हलाल खाने की गहरी जड़ें हैं — पूर्वी भूमध्यसागरीय तट का अधिकांश हिस्सा ऐतिहासिक रूप से मुस्लिम है, और शावर्मा, फतूश और किब्बे जैसे व्यंजन स्वभाव से ही भूमध्यसागरीय और हलाल दोनों हैं। हमारी योजनाएँ दोनों दुनियाओं का सर्वश्रेष्ठ लाती हैं: हृदय-स्वस्थ भूमध्यसागरीय खाना और सख्त हलाल अनुपालन।",
     "valueProps": [
       {
-        "heading": "Naturally Halal Overlap",
-        "description": "Levantine, Turkish, and North African cuisines are simultaneously Mediterranean and halal — no awkward substitutions needed."
+        "heading": "स्वाभाविक रूप से हलाल ओवरलैप",
+        "description": "लेवेंटाइन, तुर्की और उत्तर अफ्रीकी व्यंजन एक साथ भूमध्यसागरीय और हलाल दोनों हैं — कोई अजीब विकल्प की ज़रूरत नहीं।"
       },
       {
-        "heading": "No Alcohol in Cooking",
-        "description": "We replace wine-based sauces and deglazing with pomegranate molasses, vinegar, and citrus for the same depth of flavor."
+        "heading": "खाने में कोई शराब नहीं",
+        "description": "हम वाइन-आधारित सॉस और डिग्लेज़िंग को अनार के गुड़, सिरके और खट्टे फलों से बदलते हैं ताकि वही गहराई का स्वाद मिले।"
       },
       {
-        "heading": "Halal Meat Done Right",
-        "description": "Our recipes specify cuts and preparation methods that work with halal butcher shops, including proper marination times for tougher cuts."
+        "heading": "हलाल मांस सही तरीके से",
+        "description": "हमारी रेसिपी हलाल कसाई की दुकानों के लिए काम करने वाले कट और तैयारी के तरीके बताती हैं, जिसमें कठिन कट के लिए उचित मैरिनेशन समय शामिल है।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Chicken Shawarma Plate",
-        "description": "Thinly sliced halal chicken shawarma with garlic sauce, pickled turnips, hummus, and warm pita bread.",
+        "name": "चिकन शावर्मा प्लेट",
+        "description": "लहसुन सॉस, अचारी शलजम, हुम्मस और गरम पिटा ब्रेड के साथ पतला कटा हलाल चिकन शावर्मा।",
         "tags": [
           "halal",
           "mediterranean",
@@ -2885,8 +2885,8 @@
         ]
       },
       {
-        "name": "Lamb Kofta with Tabbouleh",
-        "description": "Grilled halal lamb kofta skewers seasoned with cumin and parsley, served alongside fresh parsley-bulgur tabbouleh.",
+        "name": "तब्बौलेह के साथ लैंब कोफ्ता",
+        "description": "जीरे और अजमोद से भुनी हलाल मेमने की कोफ्ता सीखें, ताज़े अजमोद-बुलगुर तब्बौलेह के साथ।",
         "tags": [
           "halal",
           "mediterranean",
@@ -2894,8 +2894,8 @@
         ]
       },
       {
-        "name": "Ful Medames (Fava Bean Breakfast)",
-        "description": "Slow-cooked fava beans mashed with olive oil, lemon, cumin, and garlic, topped with a boiled egg and served with flatbread.",
+        "name": "फूल मेदम्स (फवा बीन नाश्ता)",
+        "description": "जैतून तेल, नींबू, जीरे और लहसुन के साथ मसले धीमी आँच पर पके फवा बीन्स, उबले अंडे के साथ और फ्लैटब्रेड के साथ।",
         "tags": [
           "halal",
           "mediterranean",
@@ -2903,8 +2903,8 @@
         ]
       },
       {
-        "name": "Grilled Sea Bass with Chermoula",
-        "description": "Whole grilled sea bass marinated in a North African chermoula of cilantro, cumin, paprika, lemon, and olive oil.",
+        "name": "चर्मोला के साथ ग्रिल्ड सी बास",
+        "description": "धनिया, जीरा, पपरिका, नींबू और जैतून तेल की उत्तर अफ्रीकी चर्मोला में मैरिनेट किया पूरा ग्रिल्ड सी बास।",
         "tags": [
           "halal",
           "mediterranean",
@@ -2913,8 +2913,8 @@
         ]
       },
       {
-        "name": "Fattoush Salad with Sumac Dressing",
-        "description": "Crispy pita chips tossed with romaine, tomatoes, radishes, cucumber, and mint in a tangy sumac-lemon dressing.",
+        "name": "सुमाक ड्रेसिंग के साथ फतूश सलाद",
+        "description": "तीखी सुमाक-नींबू ड्रेसिंग में रोमेन, टमाटर, मूली, खीरे और पुदीने के साथ टॉस किए कुरकुरे पिटा चिप्स।",
         "tags": [
           "halal",
           "mediterranean",
@@ -2924,20 +2924,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Mediterranean food halal?",
-        "answer": "Much of it naturally is. Eastern Mediterranean cuisines (Lebanese, Turkish, Egyptian, Moroccan) are traditionally halal. Western Mediterranean food (Italian, French, Spanish) may include pork and alcohol in cooking, which need to be substituted."
+        "question": "क्या भूमध्यसागरीय खाना हलाल है?",
+        "answer": "इसका अधिकांश हिस्सा स्वाभाविक रूप से है। पूर्वी भूमध्यसागरीय व्यंजन (लेबनानी, तुर्की, मिस्री, मोरक्कन) पारंपरिक रूप से हलाल हैं। पश्चिमी भूमध्यसागरीय खाने (इतालवी, फ्रेंच, स्पेनिश) में सूअर का मांस और खाने में शराब हो सकती है जिसे बदलना होगा।"
       },
       {
-        "question": "What replaces wine in halal Mediterranean cooking?",
-        "answer": "Pomegranate molasses, red grape juice, balsamic vinegar, and lemon juice are excellent substitutes. For deglazing pans, chicken broth with a splash of vinegar works perfectly."
+        "question": "हलाल भूमध्यसागरीय खाने में शराब का विकल्प क्या है?",
+        "answer": "अनार का गुड़, लाल अंगूर का रस, बाल्सामिक सिरका और नींबू का रस बेहतरीन विकल्प हैं। पैन डिग्लेज़ करने के लिए, सिरके की छींट के साथ चिकन शोरबा एकदम काम करता है।"
       },
       {
-        "question": "Where do I find halal meat for Mediterranean recipes?",
-        "answer": "Halal butcher shops, many Middle Eastern grocery stores, and online halal meat delivery services carry the cuts you need. Lamb, chicken, and beef are most common. Look for halal certification labels."
+        "question": "भूमध्यसागरीय रेसिपी के लिए हलाल मांस कहाँ मिलेगा?",
+        "answer": "हलाल कसाई की दुकानें, कई मध्य पूर्वी किराने की दुकानें और ऑनलाइन हलाल मांस डिलीवरी सेवाएँ ज़रूरी कट उपलब्ध कराती हैं। मेमना, चिकन और बीफ सबसे सामान्य हैं। हलाल प्रमाणन लेबल देखें।"
       },
       {
-        "question": "Is hummus halal?",
-        "answer": "Yes. Hummus is made from chickpeas, tahini, olive oil, lemon, and garlic — all plant-based and inherently halal. It is a staple in halal Mediterranean eating."
+        "question": "क्या हुम्मस हलाल है?",
+        "answer": "हाँ। हुम्मस चने, ताहिनी, जैतून तेल, नींबू और लहसुन से बना होता है — सभी पौधे-आधारित और स्वाभाविक रूप से हलाल। यह हलाल भूमध्यसागरीय खाने में एक मुख्य व्यंजन है।"
       }
     ]
   },
@@ -2945,25 +2945,25 @@
     "title": "साप्ताहिक हलाल भारतीय भोजन योजनाएँ",
     "metaDescription": "बिरयानी, बटर चिकन और कबाब के साथ साप्ताहिक हलाल भारतीय भोजन योजनाएँ। हर रेसिपी में हलाल-प्रमाणित मांस के साथ प्रामाणिक भारतीय स्वाद।",
     "h1": "हलाल भारतीय भोजन योजनाएँ — मुग़लई दावतें, रोज़मर्रा की आसानी",
-    "intro": "India has one of the world's largest Muslim populations, and its halal culinary tradition is extraordinary — from Lucknowi biryani to Hyderabadi haleem, from Mughlai kebabs to Kerala fish curry. Our halal Indian meal plans draw from these rich traditions, using halal meat and avoiding alcohol-based ingredients entirely.",
+    "intro": "भारत में दुनिया की सबसे बड़ी मुस्लिम आबादियों में से एक है, और इसकी हलाल पाक परंपरा असाधारण है — लखनवी बिरयानी से हैदराबादी हलीम तक, मुगलई कबाब से केरला फिश करी तक। हमारी हलाल भारतीय मील योजनाएँ इन समृद्ध परंपराओं से प्रेरणा लेती हैं, हलाल मांस का उपयोग करती हैं और शराब-आधारित सामग्री से पूरी तरह बचती हैं।",
     "valueProps": [
       {
-        "heading": "Mughlai and Hyderabadi Specialties",
-        "description": "Rich biryanis, creamy kormas, and charcoal-grilled kebabs from India's most celebrated halal cooking traditions."
+        "heading": "मुगलई और हैदराबादी विशेषताएँ",
+        "description": "भारत की सबसे प्रसिद्ध हलाल पाक परंपराओं से समृद्ध बिरयानी, मलाईदार कोर्मा और कोयले पर भुने कबाब।"
       },
       {
-        "heading": "Halal Meat, Indian Spices",
-        "description": "Every recipe is built for halal-certified chicken, lamb, goat, and beef, with marinades and spice blends that maximize flavor."
+        "heading": "हलाल मांस, भारतीय मसाले",
+        "description": "हर रेसिपी हलाल-प्रमाणित चिकन, मेमना, बकरी और बीफ के लिए बनाई गई है, मैरिनेड और मसाले के मिश्रण के साथ जो स्वाद को अधिकतम करते हैं।"
       },
       {
-        "heading": "No Alcohol, Full Flavor",
-        "description": "Indian cooking rarely uses alcohol anyway, making it one of the easiest cuisines to keep fully halal without any compromises."
+        "heading": "कोई शराब नहीं, पूरा स्वाद",
+        "description": "भारतीय खाने में वैसे ही शायद ही शराब का उपयोग होता है, जिससे यह किसी समझौते के बिना पूरी तरह हलाल रखना सबसे आसान व्यंजनों में से एक है।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Chicken Biryani",
-        "description": "Layers of saffron-scented basmati rice and spiced halal chicken, slow-cooked in a sealed pot with fried onions, mint, and whole spices.",
+        "name": "चिकन बिरयानी",
+        "description": "केसर-सुगंधित बासमती चावल और मसालेदार हलाल चिकन की परतें, तले प्याज़, पुदीने और साबुत मसालों के साथ बंद बर्तन में धीमी आँच पर पकाई गई।",
         "tags": [
           "halal",
           "indian",
@@ -2972,8 +2972,8 @@
         ]
       },
       {
-        "name": "Seekh Kebab with Mint Chutney",
-        "description": "Grilled halal lamb mince kebabs seasoned with ginger, green chili, and garam masala, served with fresh mint-cilantro chutney.",
+        "name": "पुदीने की चटनी के साथ सीख कबाब",
+        "description": "अदरक, हरी मिर्च और गरम मसाले से भुनी हलाल मेमने के कीमे की सीखें, ताज़े पुदीना-धनिया चटनी के साथ।",
         "tags": [
           "halal",
           "indian",
@@ -2982,8 +2982,8 @@
         ]
       },
       {
-        "name": "Haleem (Wheat and Meat Porridge)",
-        "description": "Slow-cooked halal beef with cracked wheat, lentils, and aromatic spices, garnished with fried onions, lime, and ginger.",
+        "name": "हलीम (गेहूँ और मांस की दलिया)",
+        "description": "दरदरे गेहूँ, दाल और सुगंधित मसालों के साथ धीरे-धीरे पका हलाल बीफ, तले प्याज़, नींबू और अदरक से सजाया गया।",
         "tags": [
           "halal",
           "indian",
@@ -2991,8 +2991,8 @@
         ]
       },
       {
-        "name": "Egg Paratha",
-        "description": "Flaky whole wheat flatbread stuffed with spiced scrambled egg, pan-fried until golden, served with yogurt and pickle.",
+        "name": "अंडा पराठा",
+        "description": "मसालेदार भुने अंडे से भरी परतदार साबुत गेहूँ की फ्लैटब्रेड, सुनहरी होने तक तली गई, दही और अचार के साथ।",
         "tags": [
           "halal",
           "indian",
@@ -3001,8 +3001,8 @@
         ]
       },
       {
-        "name": "Butter Chicken with Naan",
-        "description": "Tandoori-marinated halal chicken pieces in a velvety tomato-cream sauce with fenugreek, served with warm naan.",
+        "name": "नान के साथ बटर चिकन",
+        "description": "तंदूरी-मैरिनेटेड हलाल चिकन के टुकड़े मेथी के साथ मखमली टमाटर-क्रीम सॉस में, गरम नान के साथ।",
         "tags": [
           "halal",
           "indian",
@@ -3012,20 +3012,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Indian food halal?",
-        "answer": "Much of Indian cuisine is naturally halal or vegetarian. Indian Muslim cooking traditions (Mughlai, Hyderabadi, Lucknowi, Malabar) are inherently halal. The key is ensuring meat is halal-certified and avoiding dishes cooked with alcohol (rare in Indian cuisine)."
+        "question": "क्या भारतीय खाना हलाल है?",
+        "answer": "भारतीय व्यंजन का अधिकांश हिस्सा स्वाभाविक रूप से हलाल या शाकाहारी है। भारतीय मुस्लिम खाने की परंपराएँ (मुगलई, हैदराबादी, लखनवी, मालाबार) स्वाभाविक रूप से हलाल हैं। मुख्य बात यह सुनिश्चित करना है कि मांस हलाल-प्रमाणित हो और शराब के साथ पके व्यंजनों से बचा जाए (भारतीय व्यंजन में दुर्लभ)।"
       },
       {
-        "question": "What is the difference between halal Indian and regular Indian food?",
-        "answer": "The main difference is the meat sourcing — halal Indian food uses halal-slaughtered meat. Indian cooking rarely uses alcohol or pork, so most spice blends, cooking methods, and vegetable dishes are identical."
+        "question": "हलाल भारतीय और सामान्य भारतीय खाने में क्या अंतर है?",
+        "answer": "मुख्य अंतर मांस के स्रोत का है — हलाल भारतीय खाने में हलाल-वध किया मांस होता है। भारतीय खाने में शायद ही शराब या सूअर का मांस होता है, इसलिए अधिकांश मसाले के मिश्रण, खाना पकाने के तरीके और सब्ज़ी व्यंजन एक जैसे हैं।"
       },
       {
-        "question": "Where can I buy halal Indian spices?",
-        "answer": "All common Indian spices (cumin, coriander, turmeric, garam masala, etc.) are inherently halal — they are plant-based. You can buy them at any Indian grocery store, spice shop, or online retailer."
+        "question": "हलाल भारतीय मसाले कहाँ मिलेंगे?",
+        "answer": "सभी सामान्य भारतीय मसाले (जीरा, धनिया, हल्दी, गरम मसाला आदि) स्वाभाविक रूप से हलाल हैं — ये पौधे-आधारित हैं। आप इन्हें किसी भी भारतीय किराने की दुकान, मसाले की दुकान या ऑनलाइन खुदरा विक्रेता पर खरीद सकते हैं।"
       },
       {
-        "question": "Is ghee halal?",
-        "answer": "Yes. Ghee is clarified butter made from cow's milk and is halal. It is a staple fat in Indian cooking and is used in both halal and vegetarian Indian traditions."
+        "question": "क्या घी हलाल है?",
+        "answer": "हाँ। घी गाय के दूध से बना स्पष्ट मक्खन है और हलाल है। यह भारतीय खाने में एक मुख्य वसा है और हलाल और शाकाहारी दोनों भारतीय परंपराओं में उपयोग किया जाता है।"
       }
     ]
   },
@@ -3033,25 +3033,25 @@
     "title": "हलाल मध्य पूर्वी भोजन योजनाएँ",
     "metaDescription": "शावरमा, मंसफ़ और मेज़े के साथ साप्ताहिक हलाल मध्य पूर्वी भोजन योजनाएँ। परंपरा से हलाल प्रामाणिक अरब व्यंजन, व्यस्त हफ़्तों के लिए।",
     "h1": "हलाल मध्य पूर्वी भोजन योजनाएँ — परंपरा आपके साप्ताहिक मेनू से मिलती है",
-    "intro": "Middle Eastern cuisine is halal at its core — these recipes have been passed down through generations of Muslim families across the Levant, Arabian Peninsula, and North Africa. Our meal plans bring that heritage to your kitchen with authentic recipes for shawarma, mansaf, maqluba, and the mezze spreads that make Middle Eastern dining legendary.",
+    "intro": "मध्य पूर्वी व्यंजन अपने मूल में हलाल है — ये रेसिपी लेवेंट, अरबी प्रायद्वीप और उत्तर अफ्रीका के मुस्लिम परिवारों की पीढ़ियों से चली आ रही हैं। हमारी मील योजनाएँ शावर्मा, मंसफ, मक्लोबे और मेज़े फैलाव के लिए असली रेसिपी के साथ उस विरासत को आपकी रसोई में लाती हैं।",
     "valueProps": [
       {
-        "heading": "Halal by Heritage",
-        "description": "Unlike cuisines that need halal adaptation, Middle Eastern food is traditionally prepared halal — these are recipes passed down through Muslim households for centuries."
+        "heading": "विरासत से हलाल",
+        "description": "उन व्यंजनों के विपरीत जिन्हें हलाल अनुकूलन की ज़रूरत होती है, मध्य पूर्वी खाना पारंपरिक रूप से हलाल तैयार होता है — ये सदियों से मुस्लिम घरों में पीढ़ी-दर-पीढ़ी चली आ रही रेसिपी हैं।"
       },
       {
-        "heading": "Mezze Culture Built In",
-        "description": "Hummus, baba ganoush, tabbouleh, and labneh give you built-in variety and make entertaining effortless."
+        "heading": "मेज़े संस्कृति अंदर से",
+        "description": "हुम्मस, बाबा गनौश, तब्बौलेह और लबनेह मनोरंजन को आसान बनाते हुए अंतर्निहित विविधता देते हैं।"
       },
       {
-        "heading": "Weeknight-Friendly Classics",
-        "description": "We streamline traditional recipes that usually take hours into 30-45 minute versions without sacrificing authenticity."
+        "heading": "वीकनाइट-अनुकूल क्लासिक",
+        "description": "हम पारंपरिक रेसिपी को जो आमतौर पर घंटों लेती हैं, प्रामाणिकता से समझौता किए बिना 30-45 मिनट के संस्करणों में बदलते हैं।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Chicken Mansaf",
-        "description": "Halal chicken braised in a tangy jameed (dried yogurt) sauce, served over spiced rice with toasted almonds and pine nuts.",
+        "name": "चिकन मंसफ",
+        "description": "जमीद (सूखे दही) सॉस में पका हलाल चिकन, भुने बादाम और पाइन नट्स के साथ मसालेदार चावल पर परोसा गया।",
         "tags": [
           "halal",
           "middle-eastern",
@@ -3060,8 +3060,8 @@
         ]
       },
       {
-        "name": "Foul Mudammas with Olive Oil",
-        "description": "Mashed fava beans with garlic, lemon juice, cumin, and a generous pour of olive oil, served with warm pita.",
+        "name": "जैतून तेल के साथ फूल मुदम्मस",
+        "description": "लहसुन, नींबू के रस, जीरे और उदार जैतून तेल के साथ मसले फवा बीन्स, गरम पिटा के साथ।",
         "tags": [
           "halal",
           "middle-eastern",
@@ -3069,8 +3069,8 @@
         ]
       },
       {
-        "name": "Lamb Shawarma Wrap",
-        "description": "Thinly sliced halal lamb shawarma in warm pita with tahini, pickled vegetables, tomato, and fresh parsley.",
+        "name": "लैंब शावर्मा रैप",
+        "description": "गरम पिटा में ताहिनी, अचारी सब्ज़ियाँ, टमाटर और ताज़े अजमोद के साथ पतला कटा हलाल मेमना शावर्मा।",
         "tags": [
           "halal",
           "middle-eastern",
@@ -3078,8 +3078,8 @@
         ]
       },
       {
-        "name": "Maqluba (Upside-Down Rice and Chicken)",
-        "description": "Layers of spiced halal chicken, fried eggplant, and basmati rice cooked in one pot and dramatically flipped onto a platter.",
+        "name": "मक्लोबे (उल्टा चावल और चिकन)",
+        "description": "मसालेदार हलाल चिकन, तले बैंगन और बासमती चावल की परतें एक बर्तन में पकाई गई और नाटकीय ढंग से थाली पर पलटी गई।",
         "tags": [
           "halal",
           "middle-eastern",
@@ -3088,8 +3088,8 @@
         ]
       },
       {
-        "name": "Fattoush with Grilled Halloumi",
-        "description": "Crispy pita chip salad with mixed greens, radishes, sumac dressing, and slabs of grilled halloumi cheese.",
+        "name": "ग्रिल्ड हलौमी के साथ फतूश",
+        "description": "मिश्रित हरी सब्ज़ियों, मूली, सुमाक ड्रेसिंग और ग्रिल्ड हलौमी पनीर के टुकड़ों के साथ कुरकुरे पिटा चिप सलाद।",
         "tags": [
           "halal",
           "middle-eastern",
@@ -3100,20 +3100,20 @@
     ],
     "faqs": [
       {
-        "question": "Is all Middle Eastern food halal?",
-        "answer": "The vast majority of traditional Middle Eastern recipes are halal, as the cuisine developed within Muslim cultures. Pork is not used, and alcohol in cooking is extremely rare. The main consideration is ensuring meat is sourced from a halal-certified supplier."
+        "question": "क्या सभी मध्य पूर्वी खाना हलाल है?",
+        "answer": "पारंपरिक मध्य पूर्वी रेसिपी का विशाल बहुमत हलाल है, क्योंकि व्यंजन मुस्लिम संस्कृतियों के भीतर विकसित हुआ। सूअर का मांस उपयोग नहीं होता, और खाने में शराब बेहद दुर्लभ है। मुख्य विचार यह सुनिश्चित करना है कि मांस हलाल-प्रमाणित आपूर्तिकर्ता से हो।"
       },
       {
-        "question": "What meats are used in halal Middle Eastern cooking?",
-        "answer": "Lamb, chicken, beef, and goat are the primary meats. Lamb is the most traditional and prized. Seafood is also widely used, especially in coastal regions. All meat should be halal-certified."
+        "question": "हलाल मध्य पूर्वी खाने में कौन से मांस का उपयोग होता है?",
+        "answer": "मेमना, चिकन, बीफ और बकरी मुख्य मांस हैं। मेमना सबसे पारंपरिक और प्रतिष्ठित है। समुद्री भोजन भी व्यापक रूप से उपयोग होता है, विशेष रूप से तटीय क्षेत्रों में। सभी मांस हलाल-प्रमाणित होनी चाहिए।"
       },
       {
-        "question": "What is a typical Middle Eastern meal structure?",
-        "answer": "A traditional meal starts with mezze (hummus, baba ganoush, salads, pickles), followed by a main dish of grilled or braised meat with rice, and often ends with fresh fruit, baklava, or knafeh. Tea is served throughout."
+        "question": "पारंपरिक मध्य पूर्वी भोजन की संरचना क्या होती है?",
+        "answer": "एक पारंपरिक भोजन मेज़े (हुम्मस, बाबा गनौश, सलाद, अचार) से शुरू होता है, फिर चावल के साथ ग्रिल्ड या ब्रेज़्ड मांस का मुख्य व्यंजन होता है, और अक्सर ताज़े फल, बकलावा या कनाफेह से समाप्त होता है। पूरे भोजन में चाय परोसी जाती है।"
       },
       {
-        "question": "Can I meal prep Middle Eastern food?",
-        "answer": "Absolutely. Hummus, baba ganoush, and dips keep for 5+ days. Rice dishes and stews reheat beautifully. Marinated meats can be prepped days ahead. Mezze-style meals are among the most meal-prep-friendly formats."
+        "question": "क्या मैं मध्य पूर्वी खाने को मील प्रेप कर सकता हूँ?",
+        "answer": "बिल्कुल। हुम्मस, बाबा गनौश और डिप 5+ दिनों तक रहते हैं। चावल व्यंजन और स्टू अच्छी तरह गरम होते हैं। मैरिनेटेड मांस दिनों पहले तैयार की जा सकती है। मेज़े-स्टाइल भोजन मील-प्रेप के लिए सबसे अनुकूल प्रारूपों में से एक है।"
       }
     ]
   },
@@ -3121,25 +3121,25 @@
     "title": "पेस्केटेरियन जापानी भोजन योजनाएँ",
     "metaDescription": "सुशी, मिसो सूप और ग्रिल्ड मछली के साथ साप्ताहिक पेस्केटेरियन जापानी भोजन योजनाएँ। सीफ़ूड और सब्ज़ियों पर केंद्रित प्रामाणिक जापानी व्यंजन।",
     "h1": "पेस्केटेरियन जापानी भोजन योजनाएँ — एक द्वीप राष्ट्र का प्राकृतिक आहार",
-    "intro": "Japan is an island nation, and its cuisine reflects that — seafood and vegetables have always been at the heart of Japanese cooking. A pescatarian Japanese diet is barely a restriction at all; it is closer to how most Japanese people actually eat. Our weekly plans cover sushi, ramen, donburi, and izakaya favorites, all centered on fish and plant-based ingredients.",
+    "intro": "जापान एक द्वीप राष्ट्र है, और इसका व्यंजन उसे दर्शाता है — समुद्री भोजन और सब्ज़ियाँ हमेशा से जापानी खाने के केंद्र में रही हैं। पेस्केटेरियन जापानी आहार शायद ही कोई प्रतिबंध है; यह उस तरह के करीब है जैसे अधिकांश जापानी वास्तव में खाते हैं। हमारी साप्ताहिक योजनाएँ सुशी, रामेन, दोनबुरी और इज़ाकाया फेवरिट को कवर करती हैं।",
     "valueProps": [
       {
-        "heading": "Seafood Is the Default",
-        "description": "Japanese cuisine uses more varieties of seafood than almost any other — salmon, tuna, mackerel, shrimp, squid, seaweed, and dozens more."
+        "heading": "समुद्री भोजन डिफ़ॉल्ट है",
+        "description": "जापानी व्यंजन लगभग किसी भी अन्य से अधिक प्रकार के समुद्री भोजन का उपयोग करता है — सैल्मन, टूना, मैकेरल, झींगा, स्क्विड, सीवीड और दर्जनों और।"
       },
       {
-        "heading": "Umami Without Meat",
-        "description": "Dashi (kelp and bonito broth), miso, soy sauce, and fermented foods provide deep umami flavors without any land-animal products."
+        "heading": "बिना मांस के उमामी",
+        "description": "दशी (केल्प और बोनिटो शोरबा), मिसो, सोया सॉस और किण्वित खाद्य पदार्थ बिना किसी भूमि-पशु उत्पाद के गहरे उमामी स्वाद देते हैं।"
       },
       {
-        "heading": "Balanced and Light",
-        "description": "Japanese meals follow the ichiju-sansai structure — one soup, three sides — which naturally creates balanced, portion-controlled eating."
+        "heading": "संतुलित और हल्का",
+        "description": "जापानी भोजन इचिजु-सनसाई संरचना का पालन करता है — एक सूप, तीन साइड — जो स्वाभाविक रूप से संतुलित, भाग-नियंत्रित खाने का निर्माण करता है।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Salmon Donburi (Rice Bowl)",
-        "description": "Sushi rice topped with fresh salmon sashimi, avocado, edamame, pickled ginger, and a soy-sesame dressing.",
+        "name": "सैल्मन दोनबुरी (राइस बाउल)",
+        "description": "सुशी चावल के ऊपर ताज़ा सैल्मन साशिमी, एवोकाडो, एडामामे, अचारी अदरक और सोया-तिल ड्रेसिंग।",
         "tags": [
           "pescatarian",
           "japanese",
@@ -3148,8 +3148,8 @@
         ]
       },
       {
-        "name": "Miso Soup with Tofu and Wakame",
-        "description": "Classic dashi-based miso soup with silken tofu, wakame seaweed, and thinly sliced scallions.",
+        "name": "टोफू और वकामे के साथ मिसो सूप",
+        "description": "क्लासिक दशी-आधारित मिसो सूप जिसमें रेशमी टोफू, वकामे सीवीड और पतले कटे हरे प्याज़ हों।",
         "tags": [
           "pescatarian",
           "japanese",
@@ -3158,8 +3158,8 @@
         ]
       },
       {
-        "name": "Grilled Mackerel (Saba Shioyaki)",
-        "description": "Salt-grilled mackerel fillet served with steamed rice, pickled daikon, and a side of blanched spinach with sesame.",
+        "name": "ग्रिल्ड मैकेरल (सबा शियोयाकी)",
+        "description": "नमक से ग्रिल्ड मैकेरल फिलेट, उबले चावल, अचारी डाइकोन और तिल के साथ ब्लांच पालक के साथ।",
         "tags": [
           "pescatarian",
           "japanese",
@@ -3168,8 +3168,8 @@
         ]
       },
       {
-        "name": "Vegetable Tempura with Dipping Sauce",
-        "description": "Lightly battered and fried sweet potato, shiso leaf, lotus root, and shrimp served with tentsuyu dipping sauce.",
+        "name": "डिपिंग सॉस के साथ वेजिटेबल टेम्पुरा",
+        "description": "हल्के बेटर में तला शकरकंद, शिसो पत्ता, कमल मूल और झींगा, टेंट्सुयू डिपिंग सॉस के साथ।",
         "tags": [
           "pescatarian",
           "japanese",
@@ -3177,8 +3177,8 @@
         ]
       },
       {
-        "name": "Hand-Rolled Sushi (Temaki)",
-        "description": "DIY nori cones filled with sushi rice, fresh tuna, cucumber, avocado, and spicy mayo — fun and interactive.",
+        "name": "हैंड-रोल्ड सुशी (तेमाकी)",
+        "description": "DIY नोरी कोन जिसमें सुशी चावल, ताज़ा टूना, खीरा, एवोकाडो और मसालेदार मेयो — मज़ेदार और इंटरेक्टिव।",
         "tags": [
           "pescatarian",
           "japanese",
@@ -3188,20 +3188,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Japanese food good for pescatarians?",
-        "answer": "Japanese cuisine is arguably the best cuisine in the world for pescatarians. Seafood is the primary protein, and the traditional diet is built on fish, rice, vegetables, tofu, and fermented foods. Meat-heavy dishes are a relatively modern addition to Japanese cooking."
+        "question": "क्या जापानी खाना पेस्केटेरियन के लिए अच्छा है?",
+        "answer": "जापानी व्यंजन तर्कसंगत रूप से पेस्केटेरियन के लिए दुनिया का सबसे अच्छा व्यंजन है। समुद्री भोजन प्राथमिक प्रोटीन है, और पारंपरिक आहार मछली, चावल, सब्ज़ियों, टोफू और किण्वित खाद्य पदार्थों पर आधारित है। मांस-भारी व्यंजन जापानी खाने में अपेक्षाकृत आधुनिक हैं।"
       },
       {
-        "question": "What Japanese dishes are naturally pescatarian?",
-        "answer": "Sushi, sashimi, miso soup, tempura (vegetable and shrimp), donburi with seafood, ramen with seafood broth, edamame, agedashi tofu, and most izakaya small plates. The majority of traditional Japanese food is already pescatarian."
+        "question": "कौन से जापानी व्यंजन स्वाभाविक रूप से पेस्केटेरियन हैं?",
+        "answer": "सुशी, साशिमी, मिसो सूप, टेम्पुरा (सब्ज़ी और झींगा), समुद्री भोजन दोनबुरी, समुद्री भोजन शोरबे वाला रामेन, एडामामे, अगेदाशी टोफू और अधिकांश इज़ाकाया छोटे व्यंजन। अधिकांश पारंपरिक जापानी खाना पहले से ही पेस्केटेरियन है।"
       },
       {
-        "question": "Is dashi broth pescatarian?",
-        "answer": "Traditional dashi is made from kombu (kelp) and katsuobushi (dried bonito fish flakes), making it pescatarian but not vegetarian. Kombu-only dashi is available for vegetarians."
+        "question": "क्या दशी शोरबा पेस्केटेरियन है?",
+        "answer": "पारंपरिक दशी कोम्बू (केल्प) और काटसुओबुशी (सूखे बोनिटो मछली के गुच्छे) से बना होता है, जो इसे पेस्केटेरियन लेकिन शाकाहारी नहीं बनाता। शाकाहारियों के लिए केवल कोम्बू से बना दशी उपलब्ध है।"
       },
       {
-        "question": "How healthy is a pescatarian Japanese diet?",
-        "answer": "Extremely healthy. Japan has one of the highest life expectancies in the world, attributed partly to a diet rich in fish, vegetables, fermented foods, and minimal processed ingredients. The combination of omega-3 fatty acids from fish and antioxidants from green tea and vegetables is hard to beat."
+        "question": "पेस्केटेरियन जापानी आहार कितना स्वस्थ है?",
+        "answer": "अत्यंत स्वस्थ। जापान में दुनिया की सबसे अधिक जीवन प्रत्याशाओं में से एक है, जो आंशिक रूप से मछली, सब्ज़ियों, किण्वित खाद्य पदार्थों और न्यूनतम प्रसंस्कृत सामग्री से समृद्ध आहार को जिम्मेदार ठहराया जाता है।"
       }
     ]
   },
@@ -3209,25 +3209,25 @@
     "title": "पेस्केटेरियन मेडिटेरेनियन भोजन योजनाएँ",
     "metaDescription": "ग्रिल्ड मछली, सीफ़ूड पास्ता और ताज़ी सलाद के साथ साप्ताहिक पेस्केटेरियन मेडिटेरेनियन भोजन योजनाएँ। दिल के लिए स्वस्थ मेडिटेरेनियन डाइट।",
     "h1": "पेस्केटेरियन मेडिटेरेनियन भोजन योजनाएँ — तटवासियों के खाने का तरीका",
-    "intro": "The traditional Mediterranean diet was always a pescatarian diet — coastal communities in Greece, Italy, Spain, and North Africa ate fish daily and meat rarely. Our pescatarian Mediterranean plans return to those roots with grilled fish, seafood stews, olive oil, fresh vegetables, and the simple preparations that make this eating style the gold standard for health.",
+    "intro": "पारंपरिक भूमध्यसागरीय आहार हमेशा से पेस्केटेरियन आहार था — ग्रीस, इटली, स्पेन और उत्तर अफ्रीका के तटीय समुदाय रोज़ मछली खाते थे और मांस कभी-कभार। हमारी पेस्केटेरियन भूमध्यसागरीय योजनाएँ ग्रिल्ड मछली, समुद्री भोजन स्टू, जैतून तेल, ताज़ी सब्ज़ियों और सरल तैयारियों के साथ उन जड़ों पर वापस जाती हैं।",
     "valueProps": [
       {
-        "heading": "The Original Mediterranean Diet",
-        "description": "Before the modern interpretation added chicken and red meat, the Mediterranean diet was fish, vegetables, olive oil, and wine. We return to that original vision."
+        "heading": "मूल भूमध्यसागरीय आहार",
+        "description": "आधुनिक व्याख्या में चिकन और लाल मांस जोड़ने से पहले, भूमध्यसागरीय आहार मछली, सब्ज़ियाँ, जैतून तेल और वाइन था। हम उस मूल दृष्टि पर वापस जाते हैं।"
       },
       {
-        "heading": "Omega-3 Rich Every Day",
-        "description": "Salmon, sardines, mackerel, and anchovies provide the omega-3 fatty acids that make the Mediterranean diet famous for heart and brain health."
+        "heading": "हर दिन ओमेगा-3 से भरपूर",
+        "description": "सैल्मन, सार्डिन, मैकेरल और एंकोवी ओमेगा-3 फैटी एसिड प्रदान करते हैं जो भूमध्यसागरीय आहार को हृदय और मस्तिष्क स्वास्थ्य के लिए प्रसिद्ध बनाते हैं।"
       },
       {
-        "heading": "Coastal Recipes from Five Countries",
-        "description": "We draw from Greek, Italian, Spanish, Turkish, and Moroccan coastal cooking traditions for maximum variety."
+        "heading": "पाँच देशों की तटीय रेसिपी",
+        "description": "हम अधिकतम विविधता के लिए ग्रीक, इतालवी, स्पेनिश, तुर्की और मोरक्कन तटीय खाने की परंपराओं से प्रेरणा लेते हैं।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Grilled Branzino with Lemon and Herbs",
-        "description": "Whole branzino stuffed with lemon slices, rosemary, and thyme, grilled until the skin is crispy, served with roasted potatoes.",
+        "name": "नींबू और जड़ी-बूटियों के साथ ग्रिल्ड ब्रैन्ज़िनो",
+        "description": "नींबू के टुकड़े, रोज़मेरी और थाइम से भरा पूरा ब्रैन्ज़िनो, त्वचा कुरकुरी होने तक ग्रिल किया गया, भुने आलू के साथ।",
         "tags": [
           "pescatarian",
           "mediterranean",
@@ -3236,8 +3236,8 @@
         ]
       },
       {
-        "name": "Shrimp and White Bean Stew",
-        "description": "Shrimp sauteed with garlic, cherry tomatoes, and cannellini beans in a white wine and olive oil broth with crusty bread.",
+        "name": "झींगे और सफेद बीन स्टू",
+        "description": "लहसुन, चेरी टमाटर और कैनेलिनी बीन्स के साथ सोटे झींगे, वाइट वाइन और जैतून तेल के शोरबे में कुरकुरी ब्रेड के साथ।",
         "tags": [
           "pescatarian",
           "mediterranean",
@@ -3245,8 +3245,8 @@
         ]
       },
       {
-        "name": "Greek Yogurt with Honey, Walnuts, and Figs",
-        "description": "Thick Greek yogurt drizzled with raw honey, topped with toasted walnuts and sliced fresh figs.",
+        "name": "शहद, अखरोट और अंजीर के साथ ग्रीक दही",
+        "description": "कच्चे शहद से सजा गाढ़ा ग्रीक दही, भुने अखरोट और ताज़े कटे अंजीर से सजाया गया।",
         "tags": [
           "pescatarian",
           "mediterranean",
@@ -3255,8 +3255,8 @@
         ]
       },
       {
-        "name": "Sardine and Arugula Toast",
-        "description": "Whole sardines on toasted sourdough with peppery arugula, shaved parmesan, lemon zest, and a drizzle of olive oil.",
+        "name": "सार्डिन और अरुगुला टोस्ट",
+        "description": "टोस्ट किए साउरडो पर पूरी सार्डिन, तीखे अरुगुला, शेव्ड परमेसन, नींबू के छिलके और जैतून तेल की बूँद के साथ।",
         "tags": [
           "pescatarian",
           "mediterranean",
@@ -3264,8 +3264,8 @@
         ]
       },
       {
-        "name": "Seafood Paella",
-        "description": "Saffron-infused rice with shrimp, mussels, calamari, peas, and roasted red peppers, cooked in a wide pan for a crispy socarrat.",
+        "name": "सीफूड पाएला",
+        "description": "केसर-युक्त चावल झींगे, मसल्स, कलमारी, मटर और भुनी लाल मिर्च के साथ, कुरकुरे सोकारेट के लिए चौड़े पैन में पकाया गया।",
         "tags": [
           "pescatarian",
           "mediterranean",
@@ -3276,20 +3276,20 @@
     ],
     "faqs": [
       {
-        "question": "Is the Mediterranean diet pescatarian?",
-        "answer": "The traditional Mediterranean diet is very close to pescatarian. Coastal populations in Greece, Italy, and Spain historically ate fish several times per week and red meat only a few times per month. The modern version includes more meat, but the original is fish-forward."
+        "question": "क्या भूमध्यसागरीय आहार पेस्केटेरियन है?",
+        "answer": "पारंपरिक भूमध्यसागरीय आहार पेस्केटेरियन के बहुत करीब है। ग्रीस, इटली और स्पेन की तटीय आबादी ऐतिहासिक रूप से सप्ताह में कई बार मछली खाती थी और महीने में कुछ ही बार लाल मांस। आधुनिक संस्करण में अधिक मांस है, लेकिन मूल मछली-प्रधान है।"
       },
       {
-        "question": "What fish is best for a Mediterranean diet?",
-        "answer": "Fatty fish like salmon, sardines, mackerel, and anchovies are ideal for their omega-3 content. White fish like branzino, sea bass, and cod are also staples. The key is variety — eating different types of seafood throughout the week."
+        "question": "भूमध्यसागरीय आहार के लिए कौन सी मछली सबसे अच्छी है?",
+        "answer": "ओमेगा-3 सामग्री के लिए सैल्मन, सार्डिन, मैकेरल और एंकोवी जैसी चर्बीदार मछलियाँ आदर्श हैं। ब्रैन्ज़िनो, सी बास और कॉड जैसी सफेद मछलियाँ भी मुख्य हैं। मुख्य बात विविधता है — सप्ताह भर विभिन्न प्रकार के समुद्री भोजन खाना।"
       },
       {
-        "question": "How much fish should I eat per week on this plan?",
-        "answer": "Our plans include fish or seafood 4-5 times per week, with the remaining meals being vegetarian (eggs, cheese, legumes). This aligns with recommendations from cardiologists and the original Mediterranean diet research."
+        "question": "इस योजना में प्रति सप्ताह कितनी बार मछली खानी चाहिए?",
+        "answer": "हमारी योजनाओं में प्रति सप्ताह 4-5 बार मछली या समुद्री भोजन शामिल है, शेष भोजन शाकाहारी (अंडे, पनीर, फलियाँ) होते हैं। यह हृदय रोग विशेषज्ञों और मूल भूमध्यसागरीय आहार शोध की सिफारिशों के अनुरूप है।"
       },
       {
-        "question": "Is canned fish okay for Mediterranean cooking?",
-        "answer": "Absolutely. Canned sardines, tuna, and anchovies are Mediterranean pantry staples. They are affordable, convenient, and nutritionally equivalent to fresh. Look for fish packed in olive oil for the most authentic flavor."
+        "question": "क्या भूमध्यसागरीय खाने के लिए डिब्बाबंद मछली ठीक है?",
+        "answer": "बिल्कुल। डिब्बाबंद सार्डिन, टूना और एंकोवी भूमध्यसागरीय पेंट्री के मुख्य सामग्री हैं। ये किफायती, सुविधाजनक और ताज़े के बराबर पौष्टिक हैं। सबसे प्रामाणिक स्वाद के लिए जैतून तेल में पैक मछली देखें।"
       }
     ]
   },
@@ -3297,25 +3297,25 @@
     "title": "डेयरी-फ्री थाई भोजन योजनाएँ",
     "metaDescription": "करी, स्टर-फ्राई और नूडल डिश के साथ साप्ताहिक डेयरी-फ्री थाई भोजन योजनाएँ। थाई व्यंजन प्राकृतिक रूप से डेयरी-फ्री हैं — हम इसे वैसे ही रखते हैं।",
     "h1": "डेयरी-फ्री थाई भोजन योजनाएँ — प्राकृतिक रूप से डेयरी-फ्री, सहज रूप से स्वादिष्ट",
-    "intro": "Thai cuisine is one of the most naturally dairy-free cuisines on the planet. Coconut milk replaces cream, fish sauce replaces butter, and the bold flavors of lemongrass, galangal, and chili mean you never miss cheese for a second. Our dairy-free Thai plans require almost zero substitutions — this is how Thai food was always meant to be eaten.",
+    "intro": "थाई व्यंजन दुनिया के सबसे स्वाभाविक रूप से डेयरी-मुक्त व्यंजनों में से एक है। नारियल का दूध क्रीम की जगह लेता है, मछली सॉस मक्खन की जगह लेता है, और लेमनग्रास, गलांगल और मिर्च के तीखे स्वाद का मतलब है कि आप एक पल के लिए भी पनीर को याद नहीं करते। हमारी डेयरी-मुक्त थाई योजनाओं में लगभग शून्य विकल्प की आवश्यकता है — थाई खाना हमेशा इसी तरह खाया जाना था।",
     "valueProps": [
       {
-        "heading": "Zero Substitutions Needed",
-        "description": "Unlike adapting Western cuisines, Thai food is already dairy-free by tradition. Coconut milk, coconut cream, and oils are the natural fats."
+        "heading": "शून्य विकल्प की ज़रूरत",
+        "description": "पश्चिमी व्यंजनों को अनुकूलित करने के विपरीत, थाई खाना पहले से ही परंपरा से डेयरी-मुक्त है। नारियल का दूध, नारियल क्रीम और तेल स्वाभाविक वसा हैं।"
       },
       {
-        "heading": "Coconut Milk Does Everything",
-        "description": "Curries, soups, desserts, and drinks all use coconut milk as their creamy base — it is more versatile than dairy ever was."
+        "heading": "नारियल का दूध सब कुछ करता है",
+        "description": "करी, सूप, मिठाइयाँ और पेय सभी नारियल के दूध को मलाईदार आधार के रूप में उपयोग करते हैं — यह डेयरी से कहीं अधिक बहुमुखी है।"
       },
       {
-        "heading": "Bold Flavors, No Blandness",
-        "description": "Thai cooking relies on aromatics (lemongrass, galangal, kaffir lime), not dairy, for flavor — so removing dairy changes nothing."
+        "heading": "तीखे स्वाद, कोई बेस्वादपन नहीं",
+        "description": "थाई खाना स्वाद के लिए डेयरी पर नहीं, सुगंधित पदार्थों (लेमनग्रास, गलांगल, काफ़िर नींबू) पर निर्भर करता है — इसलिए डेयरी हटाने से कुछ नहीं बदलता।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Massaman Curry with Potatoes and Peanuts",
-        "description": "Rich coconut milk curry with tender chicken, potatoes, onions, and roasted peanuts in a warm spice blend of cinnamon and cardamom.",
+        "name": "आलू और मूँगफली के साथ मसमन करी",
+        "description": "नारियल दूध की करी में कोमल चिकन, आलू, प्याज़ और भुनी मूँगफली, दालचीनी और इलायची के मसाले के साथ।",
         "tags": [
           "dairy-free",
           "thai",
@@ -3324,8 +3324,8 @@
         ]
       },
       {
-        "name": "Pad Thai with Shrimp",
-        "description": "Classic rice noodles stir-fried with shrimp, egg, bean sprouts, and crushed peanuts in a tamarind-palm sugar sauce.",
+        "name": "झींगे के साथ पैड थाई",
+        "description": "इमली-पाम शुगर सॉस में झींगे, अंडे, अंकुरित मूँग और पिसी मूँगफली के साथ क्लासिक राइस नूडल।",
         "tags": [
           "dairy-free",
           "thai",
@@ -3334,8 +3334,8 @@
         ]
       },
       {
-        "name": "Thai Basil Chicken (Pad Krapow Gai)",
-        "description": "Ground chicken stir-fried with holy basil, garlic, chilies, and fish sauce, served over jasmine rice with a fried egg.",
+        "name": "थाई तुलसी चिकन (पैड क्राउ गई)",
+        "description": "पवित्र तुलसी, लहसुन, मिर्च और मछली सॉस के साथ पिसा चिकन, चमेली चावल और तले अंडे के साथ।",
         "tags": [
           "dairy-free",
           "thai",
@@ -3344,8 +3344,8 @@
         ]
       },
       {
-        "name": "Congee with Ginger and Scallions",
-        "description": "Silky rice porridge slow-cooked with ginger, topped with a soft-boiled egg, crispy shallots, and a splash of soy sauce.",
+        "name": "अदरक और हरे प्याज़ के साथ कोंजी",
+        "description": "अदरक के साथ धीमी आँच पर पकाया रेशमी चावल का दलिया, ऊपर से अधपका अंडा, कुरकुरे शलोट्स और सोया सॉस की छींट।",
         "tags": [
           "dairy-free",
           "thai",
@@ -3354,8 +3354,8 @@
         ]
       },
       {
-        "name": "Green Papaya Salad with Dried Shrimp",
-        "description": "Crunchy shredded green papaya with dried shrimp, tomatoes, long beans, peanuts, lime, and bird's eye chili.",
+        "name": "सूखे झींगे के साथ ग्रीन पपीता सलाद",
+        "description": "सूखे झींगे, टमाटर, लम्बी फलियाँ, मूँगफली, नींबू और बर्ड्स आई मिर्च के साथ कुरकुरा कटा हरा पपीता।",
         "tags": [
           "dairy-free",
           "thai",
@@ -3366,20 +3366,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Thai food dairy-free?",
-        "answer": "Yes, traditional Thai food is almost entirely dairy-free. Thai cuisine uses coconut milk instead of cream, and butter and cheese are not part of the cooking tradition. The only exception is some modern Thai-fusion restaurants that add butter or cream to sauces."
+        "question": "क्या थाई खाना डेयरी-मुक्त है?",
+        "answer": "हाँ, पारंपरिक थाई खाना लगभग पूरी तरह डेयरी-मुक्त है। थाई व्यंजन क्रीम की बजाय नारियल के दूध का उपयोग करता है, और मक्खन और पनीर खाने की परंपरा का हिस्सा नहीं हैं। एकमात्र अपवाद कुछ आधुनिक थाई-फ्यूज़न रेस्तराँ हैं जो सॉस में मक्खन या क्रीम मिलाते हैं।"
       },
       {
-        "question": "Does Thai curry contain dairy?",
-        "answer": "Authentic Thai curries use coconut milk, not dairy cream. Green, red, yellow, massaman, and panang curries are all made with coconut milk and curry paste. Always check at restaurants, as some Western-adapted versions may add cream."
+        "question": "क्या थाई करी में डेयरी होती है?",
+        "answer": "असली थाई करी में डेयरी क्रीम नहीं, नारियल का दूध होता है। हरी, लाल, पीली, मसमन और पनंग करी सभी नारियल के दूध और करी पेस्ट से बनाई जाती हैं। रेस्तराँ में हमेशा जाँचें, क्योंकि कुछ पश्चिमी-अनुकूलित संस्करणों में क्रीम मिलाई जाती है।"
       },
       {
-        "question": "Is coconut milk a good dairy substitute?",
-        "answer": "For Thai cooking, coconut milk is not a substitute — it is the original ingredient. It provides richness, body, and a subtle sweetness that complements Thai spices perfectly. Full-fat coconut milk works best for curries and soups."
+        "question": "क्या नारियल का दूध डेयरी का अच्छा विकल्प है?",
+        "answer": "थाई खाने के लिए, नारियल का दूध विकल्प नहीं है — यह मूल सामग्री है। यह समृद्धि, बनावट और हल्की मिठास देता है जो थाई मसालों के साथ एकदम मेल खाती है। करी और सूप के लिए पूर्ण वसा वाला नारियल का दूध सबसे अच्छा काम करता है।"
       },
       {
-        "question": "What about Thai iced tea — is it dairy-free?",
-        "answer": "Traditional Thai iced tea is made with condensed milk or evaporated milk, which contains dairy. For a dairy-free version, use coconut cream or oat milk. Many Thai restaurants now offer dairy-free options if you ask."
+        "question": "थाई आइस्ड टी के बारे में क्या — क्या यह डेयरी-मुक्त है?",
+        "answer": "पारंपरिक थाई आइस्ड टी में कंडेंस्ड मिल्क या एवेपोरेटेड मिल्क होता है, जिसमें डेयरी होती है। डेयरी-मुक्त संस्करण के लिए नारियल क्रीम या ओट मिल्क इस्तेमाल करें। कई थाई रेस्तराँ अब पूछने पर डेयरी-मुक्त विकल्प देते हैं।"
       }
     ]
   },
@@ -4871,57 +4871,57 @@
     "title": "1200 कैलोरी भोजन योजना",
     "metaDescription": "पोषक तत्वों से भरपूर, संतोषजनक रेसिपी के साथ साप्ताहिक 1200 कैलोरी भोजन योजना। भूखे नहीं, बेस्वाद नहीं — स्मार्ट पोर्शन स्वचालित।",
     "h1": "1200 कैलोरी भोजन योजना जो सच में पेट भरती है",
-    "intro": "Eating 1,200 calories a day doesn't have to mean feeling hungry all the time. The trick is choosing foods that pack maximum nutrition into every bite — high-fiber vegetables, lean proteins, and healthy fats that keep you satisfied for hours. We build you a fresh 1200-calorie plan each week with meals that are flavorful, filling, and designed so you never feel like you're white-knuckling through a diet.",
+    "intro": "रोज़ 1,200 कैलोरी खाने का मतलब यह नहीं कि आप हमेशा भूखे रहें। असल तरकीब यह है कि हर निवाले में अधिकतम पोषण पैक किया जाए — उच्च-फाइबर सब्ज़ियाँ, कम वसा वाले प्रोटीन, और स्वस्थ वसा जो घंटों तक पेट भरा रखती है। हम हर हफ्ते आपके लिए एक ताज़ा 1200 कैलोरी का प्लान बनाते हैं जिसमें स्वादिष्ट, पेट भरने वाले भोजन होते हैं — ऐसे भोजन जिन्हें खाते हुए आपको लगे ही नहीं कि आप डाइट पर हैं।",
     "valueProps": [
       {
-        "heading": "Every calorie earns its place",
-        "description": "At 1,200 calories, there's no room for empty filler. Every meal is built around nutrient-dense ingredients — leafy greens, lean proteins, eggs, and whole grains — so you hit your vitamin and mineral targets despite the low intake."
+        "heading": "हर कैलोरी का सही उपयोग",
+        "description": "1,200 कैलोरी में फालतू भोजन की कोई जगह नहीं। हर भोजन पोषण से भरपूर सामग्री से बना होता है — हरी पत्तेदार सब्ज़ियाँ, कम वसा वाले प्रोटीन, अंडे, और साबुत अनाज — ताकि कम सेवन के बावजूद आपकी विटामिन और खनिज की ज़रूरत पूरी हो।"
       },
       {
-        "heading": "Satiety-first design",
-        "description": "We prioritize high-volume, low-calorie foods like zucchini, cauliflower, berries, and broth-based soups that fill your plate and your stomach without blowing your budget."
+        "heading": "तृप्ति को प्राथमिकता",
+        "description": "हम ज़्यादा मात्रा वाले, कम कैलोरी के खाद्य पदार्थों को प्राथमिकता देते हैं — जैसे तोरई, फूलगोभी, जामुन, और शोरबे वाले सूप — जो आपकी थाली और पेट दोनों भरते हैं, बिना कैलोरी बजट बिगाड़े।"
       },
       {
-        "heading": "Not a crash diet",
-        "description": "This is a structured, sustainable approach — not starvation. Meals include adequate protein (80g+ daily) to preserve muscle mass, and enough healthy fats to keep hormones and energy in check."
+        "heading": "यह क्रैश डाइट नहीं है",
+        "description": "यह एक संरचित, टिकाऊ तरीका है — भूखा रहना नहीं। भोजन में पर्याप्त प्रोटीन (रोज़ 80 ग्राम से अधिक) शामिल है ताकि मांसपेशियाँ बनी रहें, और पर्याप्त स्वस्थ वसा हार्मोन और ऊर्जा को संतुलित रखे।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Veggie-Packed Egg White Omelette",
-        "description": "Fluffy egg white omelette stuffed with spinach, mushrooms, and cherry tomatoes with a side of fresh berries. 220 calories, 18g protein.",
+        "name": "सब्ज़ियों से भरा एग व्हाइट ऑमलेट",
+        "description": "पालक, मशरूम और चेरी टमाटर से भरा फूला हुआ एग व्हाइट ऑमलेट, साथ में ताज़े जामुन। 220 कैलोरी, 18 ग्राम प्रोटीन।",
         "tags": [
           "high-protein",
           "low-calorie"
         ]
       },
       {
-        "name": "Asian Chicken Lettuce Cups",
-        "description": "Ground chicken sauteed with water chestnuts, ginger, and tamari, served in crisp butter lettuce cups with shredded carrots and a squeeze of lime.",
+        "name": "एशियाई चिकन लेट्यूस कप",
+        "description": "पानी की सिंघाड़ी, अदरक और तमारी के साथ भुना चिकन कीमा, कुरकुरे बटर लेट्यूस कप में परोसा गया, कद्दूकस की गाजर और नींबू के रस के साथ।",
         "tags": [
           "low-carb",
           "high-protein"
         ]
       },
       {
-        "name": "Cod with Roasted Asparagus & Tomatoes",
-        "description": "Baked cod fillet seasoned with lemon and herbs alongside roasted asparagus and grape tomatoes. Light, satisfying, and under 320 calories.",
+        "name": "भुनी हुई शतावरी और टमाटर के साथ कॉड",
+        "description": "नींबू और जड़ी-बूटियों से सीज़न की गई बेक्ड कॉड फिलेट, भुनी शतावरी और अंगूर टमाटर के साथ। हल्का, संतोषजनक और 320 कैलोरी से कम।",
         "tags": [
           "high-protein",
           "one-pan"
         ]
       },
       {
-        "name": "Zucchini Noodle Shrimp Scampi",
-        "description": "Garlic shrimp tossed with spiralized zucchini noodles in a light white wine and lemon butter sauce with red pepper flakes.",
+        "name": "तोरई नूडल झींगा स्कैम्पी",
+        "description": "लहसुन झींगा को सर्पिलीकृत तोरई नूडल्स के साथ हल्की व्हाइट वाइन और नींबू मक्खन सॉस में लाल मिर्च के साथ मिलाया गया।",
         "tags": [
           "low-carb",
           "quick"
         ]
       },
       {
-        "name": "Cucumber & Cottage Cheese Bites",
-        "description": "Thick cucumber rounds topped with low-fat cottage cheese, everything bagel seasoning, and a pinch of dill. 90 calories with 10g protein.",
+        "name": "खीरा और कॉटेज चीज़ बाइट्स",
+        "description": "मोटे खीरे के टुकड़ों पर कम वसा वाला कॉटेज चीज़, बैगल सीज़निंग और डिल के साथ। 90 कैलोरी और 10 ग्राम प्रोटीन।",
         "tags": [
           "high-protein",
           "no-cook"
@@ -4930,24 +4930,24 @@
     ],
     "faqs": [
       {
-        "question": "Is 1200 calories a day safe?",
-        "answer": "For many small-framed or sedentary adults, 1,200 calories can be an appropriate target for weight loss when the meals are nutrient-dense. However, it's not suitable for everyone — taller individuals, active people, and those with certain medical conditions may need more. We recommend consulting your doctor before committing to a 1,200-calorie plan long-term. Our plans prioritize protein, fiber, and micronutrients to keep you nourished even at lower intake."
+        "question": "क्या रोज़ 1200 कैलोरी लेना सुरक्षित है?",
+        "answer": "कई छोटे आकार के या कम सक्रिय वयस्कों के लिए, पोषण से भरपूर भोजन के साथ 1,200 कैलोरी वज़न घटाने का उचित लक्ष्य हो सकता है। हालाँकि, यह सबके लिए उपयुक्त नहीं है — लंबे कद के लोग, सक्रिय व्यक्ति और कुछ बीमारियों वाले लोगों को अधिक कैलोरी की ज़रूरत हो सकती है। हम लंबे समय तक 1,200 कैलोरी प्लान शुरू करने से पहले अपने डॉक्टर से परामर्श करने की सलाह देते हैं।"
       },
       {
-        "question": "How do I avoid feeling hungry on 1200 calories?",
-        "answer": "The key is volume and satiety. Our plans emphasize high-volume foods like leafy greens, cruciferous vegetables, and broth-based soups that physically fill your stomach. We also include adequate protein at every meal (which slows digestion) and strategic healthy fats to keep you satisfied between meals. Drinking enough water and spacing meals 3-4 hours apart also helps tremendously."
+        "question": "1200 कैलोरी पर भूख से कैसे बचें?",
+        "answer": "चाबी मात्रा और तृप्ति में है। हमारे प्लान में हरी पत्तेदार सब्ज़ियाँ, क्रूसीफेरस सब्ज़ियाँ, और शोरबे वाले सूप जैसे अधिक मात्रा वाले खाद्य पदार्थ शामिल हैं जो पेट भर देते हैं। हर भोजन में पर्याप्त प्रोटीन (जो पाचन धीमा करता है) और रणनीतिक स्वस्थ वसा भी शामिल है। पर्याप्त पानी पीना और भोजन को 3-4 घंटे के अंतराल पर रखना भी बहुत मदद करता है।"
       },
       {
-        "question": "Will I lose muscle on a 1200 calorie diet?",
-        "answer": "Muscle loss is a real concern at any calorie deficit, which is why our 1,200-calorie plans include 80-100g of protein per day. Combined with basic resistance exercise, this level of protein intake helps preserve lean muscle mass while you lose fat. We spread protein across all meals rather than loading it into one."
+        "question": "क्या 1200 कैलोरी डाइट पर मांसपेशियाँ कम होंगी?",
+        "answer": "किसी भी कैलोरी की कमी में मांसपेशियों का नुकसान एक वास्तविक चिंता है, इसीलिए हमारे 1,200 कैलोरी प्लान में रोज़ 80-100 ग्राम प्रोटीन शामिल है। बुनियादी शक्ति व्यायाम के साथ, प्रोटीन की यह मात्रा वसा घटाते हुए दुबली मांसपेशियों को संरक्षित रखने में मदद करती है।"
       },
       {
-        "question": "Can I exercise on 1200 calories?",
-        "answer": "Light to moderate exercise like walking, yoga, or light strength training is generally fine. However, intense cardio or heavy lifting may require more fuel. If you're regularly exercising hard, consider our 1,500 or 1,800 calorie plans instead. Listen to your body — if you feel dizzy or exhausted during workouts, it's a sign you need more calories."
+        "question": "क्या मैं 1200 कैलोरी पर व्यायाम कर सकता/सकती हूँ?",
+        "answer": "चलना, योग, या हल्की शक्ति ट्रेनिंग जैसे हल्के से मध्यम व्यायाम आमतौर पर ठीक हैं। हालाँकि, तीव्र कार्डियो या भारी वजन उठाने के लिए अधिक ऊर्जा की ज़रूरत हो सकती है। अगर आप नियमित रूप से कठिन व्यायाम करते हैं, तो इसके बजाय हमारे 1,500 या 1,800 कैलोरी प्लान पर विचार करें। अपने शरीर की सुनें — अगर व्यायाम के दौरान चक्कर या थकान महसूस हो, तो अधिक कैलोरी की ज़रूरत है।"
       },
       {
-        "question": "How much weight can I lose on 1200 calories a day?",
-        "answer": "Results vary based on your starting weight, activity level, and metabolism. Most people see 1-2 pounds per week on a 1,200-calorie plan, which is a healthy and sustainable rate. Faster loss is possible early on (often water weight), but steady progress is what leads to lasting results. Our weekly plans keep meals varied so you can stick with it long enough to see real change."
+        "question": "1200 कैलोरी पर कितना वज़न घट सकता है?",
+        "answer": "परिणाम आपके शुरुआती वज़न, गतिविधि स्तर और चयापचय पर निर्भर करते हैं। अधिकांश लोग 1,200 कैलोरी प्लान पर हफ्ते में 500-900 ग्राम वज़न घटाते हैं, जो एक स्वस्थ और टिकाऊ दर है। शुरू में तेज़ कमी संभव है (अक्सर पानी का वज़न), लेकिन स्थिर प्रगति ही स्थायी परिणाम देती है।"
       }
     ]
   },
@@ -4955,57 +4955,57 @@
     "title": "1500 कैलोरी भोजन योजना",
     "metaDescription": "संतुलित मैक्रो और संतोषजनक रेसिपी के साथ साप्ताहिक 1500 कैलोरी भोजन योजना। प्रतिबंधक न लगने वाला टिकाऊ डेफ़िसिट। मुफ़्त आज़माएँ।",
     "h1": "1500 कैलोरी भोजन योजना जो वज़न घटाना टिकाऊ बनाती है",
-    "intro": "1,500 calories hits the sweet spot for most people looking to lose weight without feeling miserable. It's enough to include real portions, diverse ingredients, and even the occasional treat — but still low enough to create a meaningful calorie deficit. We plan your week with balanced macros, plenty of flavor, and meals that take 30 minutes or less so the plan actually fits your life.",
+    "intro": "1,500 कैलोरी उन अधिकांश लोगों के लिए सबसे उपयुक्त है जो बिना परेशानी के वज़न घटाना चाहते हैं। इसमें असली हिस्से, विविध सामग्री और कभी-कभी कुछ मनपसंद खाने की भी जगह है — फिर भी कैलोरी की कमी काफी होती है। हम आपके हफ्ते को संतुलित पोषण, भरपूर स्वाद और 30 मिनट से कम समय में बनने वाले भोजन के साथ प्लान करते हैं — ताकि यह प्लान आपकी जिंदगी में सच में फिट हो सके।",
     "valueProps": [
       {
-        "heading": "The sustainable middle ground",
-        "description": "Not so low that you're counting every almond, not so high that the scale doesn't move. 1,500 calories gives most sedentary to lightly active adults a 500-750 calorie deficit — the range where consistent, lasting weight loss happens."
+        "heading": "टिकाऊ मध्यमार्ग",
+        "description": "न इतना कम कि हर बादाम गिनना पड़े, न इतना ज़्यादा कि तराज़ू हिले ही नहीं। 1,500 कैलोरी अधिकांश कम सक्रिय से सामान्य सक्रिय वयस्कों को 500-750 कैलोरी की कमी देता है — वह दायरा जहाँ लगातार, स्थायी वज़न घटाव होता है।"
       },
       {
-        "heading": "Balanced macros, not just low calories",
-        "description": "We don't just cut calories — we balance them. Each day includes roughly 40% carbs, 30% protein, and 30% fat so you have energy, preserve muscle, and stay satisfied without blood sugar crashes."
+        "heading": "सिर्फ कम कैलोरी नहीं, संतुलित पोषण",
+        "description": "हम सिर्फ कैलोरी नहीं काटते — उन्हें संतुलित करते हैं। हर दिन में लगभग 40% कार्बोहाइड्रेट, 30% प्रोटीन और 30% वसा होती है ताकि आपके पास ऊर्जा हो, मांसपेशियाँ बनी रहें, और ब्लड शुगर के उतार-चढ़ाव के बिना पेट भरा रहे।"
       },
       {
-        "heading": "Room for real food",
-        "description": "At 1,500 calories you can still enjoy whole grain pasta, fruit, cheese, and even dark chocolate. Our plans use smart portions rather than elimination, so nothing feels off-limits."
+        "heading": "असली खाने की जगह",
+        "description": "1,500 कैलोरी में आप साबुत अनाज का पास्ता, फल, पनीर और यहाँ तक कि डार्क चॉकलेट भी खा सकते हैं। हमारे प्लान में परहेज़ की जगह स्मार्ट हिस्से हैं — ताकि कुछ भी निषिद्ध न लगे।"
       }
     ],
     "sampleMeals": [
       {
-        "name": "Overnight Oats with Banana & Walnuts",
-        "description": "Rolled oats soaked in almond milk with chia seeds, topped with sliced banana, crushed walnuts, and a drizzle of honey. 340 calories with 12g protein and 6g fiber.",
+        "name": "केला और अखरोट के साथ ओवरनाइट ओट्स",
+        "description": "बादाम दूध में चिया बीज के साथ भिगोए हुए ओट्स, ऊपर से कटा केला, कुचले अखरोट और शहद की बूँदें। 340 कैलोरी, 12 ग्राम प्रोटीन और 6 ग्राम फाइबर।",
         "tags": [
           "meal-prep",
           "no-cook"
         ]
       },
       {
-        "name": "Mediterranean Grain Bowl",
-        "description": "Farro tossed with cucumber, cherry tomatoes, kalamata olives, red onion, and crumbled feta with a lemon-oregano vinaigrette.",
+        "name": "मेडिटेरेनियन ग्रेन बाउल",
+        "description": "फैरो को खीरे, चेरी टमाटर, करमाटा जैतून, लाल प्याज़ और क्रम्बल्ड फेटा के साथ नींबू-अजवायन विनेग्रेट में मिलाया गया।",
         "tags": [
           "vegetarian",
           "meal-prep"
         ]
       },
       {
-        "name": "Honey Garlic Chicken Thighs with Green Beans",
-        "description": "Boneless chicken thighs glazed with honey, garlic, and soy sauce, pan-seared and served with sauteed green beans and brown rice.",
+        "name": "हनी गार्लिक चिकन थाइज़ हरी बीन्स के साथ",
+        "description": "हड्डी रहित चिकन जाँघें शहद, लहसुन और सोया सॉस से ग्लेज़ की हुईं, पैन में पकाई गई और भुनी हरी बीन्स व ब्राउन राइस के साथ परोसी गई।",
         "tags": [
           "high-protein",
           "one-pan"
         ]
       },
       {
-        "name": "Black Bean & Sweet Potato Tacos",
-        "description": "Roasted sweet potato and seasoned black beans in corn tortillas with avocado crema, pickled red onion, and fresh cilantro.",
+        "name": "ब्लैक बीन और शकरकंद टाको",
+        "description": "मकई की टॉर्टिला में भुना शकरकंद और सीज़न्ड ब्लैक बीन्स, एवोकाडो क्रेमा, पिकल्ड लाल प्याज़ और ताज़े धनिये के साथ।",
         "tags": [
           "vegetarian",
           "high-fiber"
         ]
       },
       {
-        "name": "Apple & Peanut Butter Rice Cake",
-        "description": "A lightly salted rice cake spread with natural peanut butter and topped with thin apple slices and a dash of cinnamon. 190 calories.",
+        "name": "सेब और पीनट बटर राइस केक",
+        "description": "हल्के नमकीन राइस केक पर नेचुरल पीनट बटर और पतले सेब के टुकड़े, ऊपर से दालचीनी छिड़की। 190 कैलोरी।",
         "tags": [
           "quick",
           "no-cook"
@@ -5014,20 +5014,20 @@
     ],
     "faqs": [
       {
-        "question": "Who should follow a 1500 calorie meal plan?",
-        "answer": "A 1,500-calorie plan works well for most sedentary to moderately active adults looking to lose weight. It's particularly effective for women with desk jobs and shorter men. If you're very active or have a physically demanding job, you may need 1,800-2,000 calories instead. As always, check with your doctor if you're unsure about the right target for your body."
+        "question": "1500 कैलोरी मील प्लान किसके लिए है?",
+        "answer": "1,500 कैलोरी का प्लान अधिकांश कम सक्रिय से मध्यम सक्रिय वयस्कों के लिए अच्छा काम करता है जो वज़न घटाना चाहते हैं। यह डेस्क जॉब वाली महिलाओं और छोटे कद के पुरुषों के लिए खासतौर पर प्रभावी है। अगर आप बहुत सक्रिय हैं या शारीरिक रूप से माँगलिक काम करते हैं, तो 1,800-2,000 कैलोरी की ज़रूरत हो सकती है।"
       },
       {
-        "question": "How long does it take to see results on 1500 calories?",
-        "answer": "Most people notice changes within 2-3 weeks. The first week often shows a larger drop (partly water weight), then you can expect a steady 1-1.5 pounds per week. Visible body composition changes typically appear around weeks 4-6. Consistency matters more than perfection — hitting your target most days is far better than alternating between 1,200 and 2,500."
+        "question": "1500 कैलोरी पर परिणाम कब दिखेंगे?",
+        "answer": "अधिकांश लोग 2-3 हफ्तों में बदलाव महसूस करते हैं। पहले हफ्ते में अधिक कमी दिख सकती है (आंशिक रूप से पानी का वज़न), फिर हफ्ते में 500-700 ग्राम की स्थिर कमी होती है। शरीर की बनावट में दिखने वाले बदलाव आमतौर पर 4-6 हफ्तों में आते हैं। निरंतरता पूर्णता से ज़्यादा मायने रखती है।"
       },
       {
-        "question": "Can I eat out while following a 1500 calorie plan?",
-        "answer": "Absolutely. Restaurant meals tend to run 600-900 calories, so plan lighter meals around them. A light breakfast and protein-focused lunch can leave 600-700 calories for dinner out. Most restaurants now list calories on menus, and grilled proteins with vegetables are almost always a reliable option. Our plans are designed so you can swap one meal without derailing your whole day."
+        "question": "क्या 1500 कैलोरी प्लान पर बाहर खाना सकते हैं?",
+        "answer": "बिल्कुल। रेस्तरां के भोजन में आमतौर पर 600-900 कैलोरी होती हैं, इसलिए उनके आसपास हल्का खाने की योजना बनाएँ। हल्का नाश्ता और प्रोटीन-केंद्रित दोपहर का खाना रात के खाने के लिए 600-700 कैलोरी छोड़ सकता है। ग्रिल्ड प्रोटीन और सब्ज़ियाँ लगभग हमेशा एक विश्वसनीय विकल्प हैं।"
       },
       {
-        "question": "Should I eat 1500 calories on days I exercise?",
-        "answer": "For moderate exercise (30-45 minute walks, light strength training), 1,500 calories is usually fine. For intense workouts — long runs, heavy lifting, HIIT sessions — you may want to add 200-300 calories on those days, preferably from protein and complex carbs. The goal is to fuel performance without eliminating your deficit entirely."
+        "question": "क्या व्यायाम के दिनों में भी 1500 कैलोरी लेनी चाहिए?",
+        "answer": "मध्यम व्यायाम (30-45 मिनट चलना, हल्की शक्ति ट्रेनिंग) के लिए 1,500 कैलोरी आमतौर पर पर्याप्त है। तीव्र वर्कआउट — लंबी दौड़, भारी वज़न उठाना, HIIT — के लिए उन दिनों 200-300 कैलोरी अतिरिक्त लेना बेहतर हो सकता है, अधिमानतः प्रोटीन और जटिल कार्बोहाइड्रेट से।"
       }
     ]
   },

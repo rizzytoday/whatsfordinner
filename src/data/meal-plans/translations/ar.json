@@ -1610,25 +1610,25 @@
     "title": "خطط وجبات كورية أسبوعية",
     "metaDescription": "خطط أسبوعية لوجبات كورية مع بيبيمباب وبولغوغي وكيمتشي جيغيه. قوائم تسوق تجعل الطبخ الكوري سهلاً ولذيذاً.",
     "h1": "خطط وجبات كورية لطبخ منزلي جريء ومغرٍ",
-    "intro": "Korean food has taken the world by storm, and for good reason — it's bold, fermented, fiery, and endlessly craveable. But Korean home cooking is more than just BBQ and fried chicken. It's banchan-laden tables, bubbling stews, and nourishing rice bowls. Our weekly plans bring this depth to your kitchen with recipes that range from quick weeknight bibimbap to slow-simmered jjigae, plus a grocery list covering your gochujang, sesame oil, and everything in between.",
+    "intro": "اجتاح الطعام الكوري العالم بأسره، وليس ذلك مستغرباً — فهو جريء وحافل بالتخمير وحارّ ولا يُقاوَم. لكن الطبخ المنزلي الكوري أبعد من مجرد شواء وقطع دجاج مقلية. إنه موائد البانشان، والحساءات المتبعثرة بخارها، وأطباق الأرز المغذية. تقدم لك خططنا الأسبوعية هذا العمق داخل مطبخك بوصفات تتراوح بين البيبيمباب السريع لأمسيات الأسبوع وحساء الجيجي البطيء، مع قائمة تسوق شاملة لكل شيء بدءاً من الغوتشوجانغ وزيت السمسم وما بينهما.",
     "valueProps": [
       {
-        "heading": "Banchan Game Strong",
-        "description": "Plans include easy banchan (side dishes) like quick-pickled cucumbers, seasoned spinach, and kongnamul that transform a simple main into a full Korean table spread."
+        "heading": "البانشان بكل قوته",
+        "description": "تتضمن الخطط بانشان (أطباقاً جانبية) سهلة كالخيار المخلل سريعاً والسبانخ المتبلة والكونغنامول التي تحوّل الطبق الرئيسي البسيط إلى مائدة كورية متكاملة."
       },
       {
-        "heading": "Fermented Flavor Boost",
-        "description": "Kimchi, doenjang, and gochujang are probiotic-rich umami bombs that add incredible depth of flavor — and gut health benefits — to everyday meals."
+        "heading": "نكهة التخمير المعززة",
+        "description": "الكيمشي والدوينجانغ والغوتشوجانغ قنابل أومامي غنية بالبروبيوتيك تضيف عمقاً استثنائياً في النكهة — وفوائد لصحة الجهاز الهضمي — إلى الوجبات اليومية."
       },
       {
-        "heading": "Meal Prep Champion",
-        "description": "Korean cooking is built for batch preparation — marinated meats, banchan, and rice all keep well for days, making it one of the most meal-prep-friendly cuisines."
+        "heading": "بطل التحضير المسبق للوجبات",
+        "description": "يُبنى الطبخ الكوري على التحضير الجماعي — فالشرائح اللحمية المتبلة والبانشان والأرز تحتفظ بجودتها لأيام، مما يجعله من أكثر المطابخ ملاءمةً للتحضير المسبق."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Bulgogi with Steamed Rice and Banchan",
-        "description": "Thinly sliced beef marinated in soy sauce, pear juice, garlic, and sesame, seared in a hot skillet and served with rice and three simple banchan.",
+        "name": "بولغوغي مع الأرز المطهو على البخار والبانشان",
+        "description": "شرائح لحم بقري رفيعة متبلة بصلصة الصويا وعصير الكمثرى والثوم والسمسم، تُحمر في مقلاة ساخنة وتُقدم مع الأرز وثلاثة أطباق بانشان بسيطة.",
         "tags": [
           "classic",
           "high-protein",
@@ -1636,8 +1636,8 @@
         ]
       },
       {
-        "name": "Gyeran-bap (Egg Rice Bowl)",
-        "description": "A steaming bowl of short-grain rice topped with a fried egg, toasted sesame oil, soy sauce, and crispy gim seaweed — Korean comfort in five minutes.",
+        "name": "غيران-باب (طبق أرز بالبيض)",
+        "description": "طبق أرز حبوب قصيرة دافئ يُتوَج بيبضة مقلية وزيت سمسم محمص وصلصة صويا وأعشاب جيم مقرمشة — راحة كورية في خمس دقائق.",
         "tags": [
           "quick",
           "budget",
@@ -1645,16 +1645,16 @@
         ]
       },
       {
-        "name": "Japchae Glass Noodle Stir-Fry",
-        "description": "Sweet potato glass noodles stir-fried with spinach, carrots, mushrooms, and beef in a sesame-soy sauce, served warm or at room temperature.",
+        "name": "شعيرية جاباشي المقلية مع الخضروات",
+        "description": "شعيرية زجاجية من البطاطا الحلوة تُقلى مع السبانخ والجزر والمشروم واللحم في صلصة سمسم وصويا، تُقدم دافئة أو بدرجة حرارة الغرفة.",
         "tags": [
           "gluten-free",
           "meal-prep"
         ]
       },
       {
-        "name": "Kimchi Jjigae (Kimchi Stew)",
-        "description": "A fiery, bubbling stew of aged kimchi, pork belly, tofu, and scallions simmered in anchovy-kelp broth — the ultimate Korean comfort food on a cold night.",
+        "name": "كيمشي جيجي (حساء الكيمشي)",
+        "description": "حساء متقد مسلوق يجمع الكيمشي العتيق ولحم الخنزير المشوح والتوفو والبصل الأخضر في مرق الأنشوجة والعشب البحري — غذاء الراحة الكوري الأمثل في ليلة باردة.",
         "tags": [
           "comfort-food",
           "spicy",
@@ -1662,8 +1662,8 @@
         ]
       },
       {
-        "name": "Bibimbap with Gochujang Sauce",
-        "description": "A colorful rice bowl topped with sauteed spinach, bean sprouts, carrots, zucchini, a fried egg, and beef, mixed tableside with spicy gochujang sauce.",
+        "name": "بيبيمباب مع صلصة الغوتشوجانغ",
+        "description": "طبق أرز ملوّن يُعلوه سبانخ مقلية وبراعم فول وجزر وكوسا وبيضة مقلية ولحم، يُخلط على المائدة مع صلصة الغوتشوجانغ الحارة.",
         "tags": [
           "classic",
           "balanced",
@@ -1673,20 +1673,20 @@
     ],
     "faqs": [
       {
-        "question": "What Korean ingredients do I need to start?",
-        "answer": "The essential five are gochujang (red pepper paste), gochugaru (red pepper flakes), soy sauce, sesame oil, and rice vinegar. Add a jar of kimchi and you can make dozens of Korean dishes. These are available at most supermarkets now, and our grocery list includes specific brand recommendations."
+        "question": "ما المكونات الكورية الأساسية التي أحتاجها للبدء؟",
+        "answer": "المكونات الخمسة الأساسية هي: الغوتشوجانغ (معجون الفلفل الأحمر)، والغوتشوغارو (رقائق الفلفل الأحمر)، وصلصة الصويا، وزيت السمسم، وخل الأرز. أضف إليها برطمانًا من الكيمشي وستتمكن من صنع عشرات الأطباق الكورية. هذه المواد متوفرة في معظم السوبرماركت، وتتضمن قائمة التسوق توصيات لعلامات تجارية بعينها."
       },
       {
-        "question": "Is Korean food very spicy?",
-        "answer": "Some dishes are fiery (kimchi jjigae, tteokbokki), but many are mild — bulgogi, japchae, and galbi are savory-sweet without much heat. Our planner balances spicy and non-spicy dishes throughout the week and lets you set your heat preference. You can always reduce gochugaru or skip the chili flakes."
+        "question": "هل الطعام الكوري حار جداً؟",
+        "answer": "بعض الأطباق حارة جداً (كيمشي جيجي وتيوكبوكي)، لكن كثيراً منها خفيفة — البولغوغي والجاباشي والغالبي أطباق لذيذة حلوة ومالحة دون حرارة تُذكر. تحرص خططنا على التوازن بين الأطباق الحارة وغير الحارة على مدار الأسبوع، كما تتيح لك ضبط تفضيل الحرارة. يمكنك دائماً تقليل الغوتشوغارو أو حذف رقائق الفلفل."
       },
       {
-        "question": "How do I make banchan (Korean side dishes)?",
-        "answer": "Banchan are designed to be simple and batch-made. Seasoned spinach takes 5 minutes, pickled radish takes 10, and kimchi lasts weeks in the fridge. Our plans include 2-3 banchan per week with a batch-cook session — make them on Sunday and they're ready for every dinner."
+        "question": "كيف أُعدّ البانشان (الأطباق الجانبية الكورية)؟",
+        "answer": "البانشان مصمم ليكون بسيطاً ويُحضَّر دفعةً واحدة. السبانخ المتبل يستغرق 5 دقائق، والفجل المخلل 10 دقائق، والكيمشي يبقى في الثلاجة أسابيع. تتضمن خططنا 2-3 أطباق بانشان أسبوعياً مع جلسة طبخ جماعي — احضّرها يوم الأحد وستكون جاهزة لكل عشاء."
       },
       {
-        "question": "Can I meal prep Korean food for the whole week?",
-        "answer": "Korean cuisine might be the single best cuisine for meal prep. Marinated meats keep 3-5 days in the fridge and actually improve as they sit. Banchan are designed to last a week. Rice freezes perfectly. The planner builds in a prep session that sets up components you'll mix and match all week."
+        "question": "هل يمكنني تحضير الطعام الكوري مسبقاً لكامل الأسبوع؟",
+        "answer": "المطبخ الكوري ربما يكون الأفضل مطلقاً للتحضير المسبق. اللحوم المتبلة تُحفظ 3-5 أيام في الثلاجة وتزداد نكهة مع مرور الوقت. البانشان مُصمم ليدوم أسبوعاً. الأرز يتجمد بشكل مثالي. يبني التطبيق جلسة تحضير تُهيئ لك مكونات تتنوع في تناولها طوال الأسبوع."
       }
     ]
   },
@@ -1694,41 +1694,41 @@
     "title": "خطط وجبات جنوبية أسبوعية",
     "metaDescription": "خطط وجبات جنوبية أسبوعية مع دجاج مقلي وبسكويت وأطباق مريحة كلاسيكية. قوائم تسوق تسهّل عشاء جنوبي أي ليلة.",
     "h1": "خطط وجبات جنوبية لراحة الطبخ المنزلي الحقيقي",
-    "intro": "Southern cooking is the definition of soul food — dishes passed down through generations, built on cast-iron skillets, slow braises, and a whole lot of love. From fluffy buttermilk biscuits to smoky collard greens and crispy fried chicken, these are the meals that bring people to the table. Our weekly plans deliver that warmth and tradition with organized recipes and a grocery list so you can focus on cooking, not planning.",
+    "intro": "الطبخ الجنوبي هو تعريف طعام الروح — أطباق متوارثة عبر الأجيال، مبنية على مقالي الحديد الزهر، والطهي البطيء، وقدر كبير من الحب. من البسكويت الورقي بالبترمِلك إلى الخضروات الورقية المدخنة والدجاج المقلي المقرمش، هذه هي الوجبات التي تجمع الناس حول المائدة. تقدم خططنا الأسبوعية تلك الدفء والموروث مع وصفات منظمة وقائمة تسوق حتى تتفرغ للطبخ لا للتخطيط.",
     "valueProps": [
       {
-        "heading": "Cast-Iron Classics",
-        "description": "Plans are built around the one tool every Southern cook swears by — your cast-iron skillet — for cornbread, fried chicken, and pan-seared pork chops with crackly crust."
+        "heading": "كلاسيكيات الحديد الزهر",
+        "description": "تُبنى الخطط حول الأداة الوحيدة التي يُقسم عليها كل طاهٍ جنوبي — مقلاة الحديد الزهر — لخبز الكورنبريد ودجاج مقلي وشرائح لحم خنزير محمرة بقشرة مقرمشة."
       },
       {
-        "heading": "Low and Slow Staples",
-        "description": "Southern cooking excels at slow braises and smoky meats that fill the house with aroma — pulled pork, braised short ribs, and stewed greens that taste better the longer they cook."
+        "heading": "الطهي البطيء والمنخفض الحرارة",
+        "description": "يتميز الطبخ الجنوبي بالطهي البطيء واللحوم المدخنة التي تملأ البيت بالعطر — لحم خنزير مسحوب وضلوع بقري مطهية وخضروات ورقية تطيب كلما طال طهيها."
       },
       {
-        "heading": "Sides That Steal the Show",
-        "description": "In Southern cooking, sides aren't an afterthought — mac and cheese, coleslaw, baked beans, and cornbread are the reason people come back for seconds."
+        "heading": "أطباق جانبية تسرق الأضواء",
+        "description": "في الطبخ الجنوبي، الأطباق الجانبية ليست إضافة — المكرونة بالجبن وسلطة الكولسلو والفاصوليا المخبوزة والكورنبريد هي السبب الذي يجعل الناس يعودون للمزيد."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Buttermilk Fried Chicken with Honey Drizzle",
-        "description": "Bone-in chicken pieces soaked in seasoned buttermilk, dredged in seasoned flour, and fried until shatteringly crispy, finished with a light honey-hot sauce drizzle.",
+        "name": "دجاج مقلي بالبترمِلك مع رذاذ العسل",
+        "description": "قطع دجاج بالعظم تُنقع في بترمِلك متبل، تُغمس في دقيق متبل وتُقلى حتى تصبح مقرمشة تماماً، مع لمسة نهائية من رذاذ العسل والصلصة الحارة.",
         "tags": [
           "classic",
           "crowd-pleaser"
         ]
       },
       {
-        "name": "Biscuits and Sausage Gravy",
-        "description": "Flaky, buttery buttermilk biscuits split open and smothered in a creamy, peppery sausage gravy made from scratch in one skillet.",
+        "name": "بسكويت ومرق نقانق",
+        "description": "بسكويت بترمِلك ورقي ومتزبد يُشق ويُغرق في مرق نقانق كريمي وفلفلي محضَّر من الصفر في مقلاة واحدة.",
         "tags": [
           "comfort-food",
           "cast-iron"
         ]
       },
       {
-        "name": "Pimento Cheese Sandwich with Pickled Okra",
-        "description": "Tangy homemade pimento cheese spread thick on soft white bread with crisp lettuce, served alongside crunchy pickled okra spears.",
+        "name": "ساندويش جبن البيمنتو مع البامية المخللة",
+        "description": "جبن بيمنتو منزلي الصنع لاذع النكهة يُفرد بسخاء على الخبز الأبيض الطري مع خس طازج، يُقدم جانبه قضبان بامية مخللة مقرمشة.",
         "tags": [
           "quick",
           "no-cook",
@@ -1736,8 +1736,8 @@
         ]
       },
       {
-        "name": "Shrimp and Grits",
-        "description": "Plump Gulf shrimp sauteed with andouille sausage, bell pepper, and a splash of chicken stock, ladled over creamy stone-ground cheddar grits.",
+        "name": "روبيان مع العصيدة",
+        "description": "روبيان خليجي طازج يُقلى مع نقانق الأندوي والفلفل الحلو ورشة من مرق الدجاج، يُسكب فوق عصيدة حجر ناعمة بالشيدر.",
         "tags": [
           "gluten-free",
           "classic",
@@ -1745,8 +1745,8 @@
         ]
       },
       {
-        "name": "Smoked Pork Ribs with Coleslaw and Cornbread",
-        "description": "Fall-off-the-bone pork ribs rubbed with brown sugar and smoked paprika, slow-roasted until glazed, served with tangy vinegar coleslaw and skillet cornbread.",
+        "name": "ضلوع خنزير مدخنة مع كولسلو وكورنبريد",
+        "description": "ضلوع خنزير تسقط عن العظم بذاتها، متبلة بالسكر البني والبابريكا المدخنة، تُطهى ببطء حتى تتزجج، تُقدم مع كولسلو بالخل وكورنبريد المقلاة.",
         "tags": [
           "slow-cook",
           "crowd-pleaser",
@@ -1756,20 +1756,20 @@
     ],
     "faqs": [
       {
-        "question": "What makes Southern cooking different from American cooking?",
-        "answer": "Southern cooking is a regional tradition within American cuisine with its own distinct identity — it's rooted in African American, Creole, Cajun, and Appalachian food traditions. The techniques (frying, braising, smoking), ingredients (buttermilk, cornmeal, collard greens), and philosophy (generous, communal, slow) set it apart from broader American cooking."
+        "question": "ما الذي يميز الطبخ الجنوبي عن الطبخ الأمريكي عموماً؟",
+        "answer": "الطبخ الجنوبي تقليد إقليمي ضمن المطبخ الأمريكي بهويته المتميزة — فهو متجذر في التقاليد الغذائية للأمريكيين من أصل أفريقي والكريول والكاجون وجبال الأبالاش. الأساليب (القلي والطهي البطيء والتدخين) والمكونات (البترمِلك ودقيق الذرة والخضروات الورقية) والفلسفة (سخية ومجتمعية وبطيئة) تميزه عن الطبخ الأمريكي الأشمل."
       },
       {
-        "question": "Can Southern meal plans be made healthier?",
-        "answer": "Absolutely. Our plans balance indulgent classics with lighter preparations — oven-fried chicken instead of deep-fried, collard greens with smoked turkey instead of ham hocks, and cauliflower mash alongside the mac and cheese. The soul stays the same, but the nutritional profile gets a modern update."
+        "question": "هل يمكن أن تكون خطط الوجبات الجنوبية أكثر صحية؟",
+        "answer": "بالتأكيد. تُوازن خططنا بين الكلاسيكيات المنغمسة والتحضيرات الأخف — دجاج مشوي بدل مقلي، وخضروات ورقية مع ديك رومي مدخن بدل عُرقوب الخنزير، وهريس القرنبيط جانباً من المكرونة بالجبن. تبقى الروح كما هي لكن المحتوى الغذائي يحظى بتحديث عصري."
       },
       {
-        "question": "Do I need special equipment for Southern cooking?",
-        "answer": "A 10-inch cast-iron skillet is the only essential — it handles cornbread, fried chicken, and pan sauces all in one. A Dutch oven helps for stews and braises. Our recipes are designed for standard home kitchens and don't require a smoker, deep fryer, or any specialty equipment."
+        "question": "هل أحتاج معدات خاصة للطبخ الجنوبي؟",
+        "answer": "مقلاة حديد زهر بقطر 10 بوصات هي الشيء الوحيد الضروري — فهي تتولى الكورنبريد والدجاج المقلي وصلصات المقلاة في آنٍ واحد. يُفيد كذلك وجود قدر هولندي للشوربات والطهي البطيء. صُممت وصفاتنا للمطابخ المنزلية العادية ولا تتطلب مدخنة أو مقلاة عميقة أو أي معدات متخصصة."
       },
       {
-        "question": "Is Southern food good for meal prepping?",
-        "answer": "Southern food was built for leftovers. Stews, braises, and beans all taste better the next day. Fried chicken is excellent cold. Cornbread freezes well. Our plans strategically schedule big-batch cooking days — a Sunday pot of red beans and rice feeds you through Tuesday, and weekend ribs become Monday's BBQ sandwiches."
+        "question": "هل الطعام الجنوبي مناسب للتحضير المسبق؟",
+        "answer": "الطعام الجنوبي بُني أصلاً للبقايا. الحساءات والطهي البطيء والفاصوليا كلها تطيب في اليوم التالي. الدجاج المقلي ممتاز بارداً. الكورنبريد يتجمد بشكل جيد. تُجدوِل خططنا بذكاء أيام الطبخ الجماعي — قدر الفاصوليا الحمراء مع الأرز يوم الأحد يكفيك حتى الثلاثاء، والضلوع في عطلة الأسبوع تصبح ساندويشات شواء يوم الاثنين."
       }
     ]
   },
@@ -1777,25 +1777,25 @@
     "title": "خطط وجبات تايلاندية نباتية صرفة أسبوعية",
     "metaDescription": "خطط وجبات تايلاندية نباتية صرفة مع كاري جوز الهند وباد تاي ولفائف طازجة. بدون منتجات حيوانية مع كل النكهات التايلاندية.",
     "h1": "خطط وجبات تايلاندية نباتية صرفة بطعم تايلاند الحقيقي",
-    "intro": "Thai cuisine is a natural fit for vegan eating — coconut milk, lemongrass, galangal, and fresh herbs do the heavy lifting. But navigating fish sauce, shrimp paste, and oyster sauce takes know-how. Our vegan Thai meal plans swap those out with smart substitutes while keeping every dish unmistakably Thai.",
+    "intro": "المطبخ التايلاندي منسجم بطبيعته مع النظام النباتي — حليب جوز الهند وعشبة الليمون والغالانجال والأعشاب الطازجة هي العماد. لكن تجنب صلصة السمك ومعجون الروبيان وصلصة المحار يستلزم معرفة ودراية. تستبدل خطط الوجبات التايلاندية النباتية لدينا تلك المكونات ببدائل ذكية مع إبقاء كل طبق تايلاندياً بلا شك.",
     "valueProps": [
       {
-        "heading": "Fish Sauce-Free, Flavor-Full",
-        "description": "Every recipe uses soy sauce, mushroom sauce, or seaweed-based alternatives so you get that umami depth without any fish products."
+        "heading": "خالٍ من صلصة السمك ومليء بالنكهة",
+        "description": "تستخدم كل وصفة صلصة الصويا أو صلصة المشروم أو بدائل مستخلصة من الأعشاب البحرية لتحقيق عمق الأومامي دون أي منتجات سمكية."
       },
       {
-        "heading": "Coconut Milk Is Your Best Friend",
-        "description": "Thai curries, soups, and desserts naturally revolve around coconut milk — no dairy substitutions needed."
+        "heading": "حليب جوز الهند هو صديقك الأفضل",
+        "description": "المقبلات والحساءات والحلويات التايلاندية تدور بطبيعتها حول حليب جوز الهند — لا حاجة إلى بدائل الألبان."
       },
       {
-        "heading": "Protein-Rich Without Tofu Overload",
-        "description": "We rotate through tofu, tempeh, edamame, chickpeas, and mushrooms so your weekly plan never feels repetitive."
+        "heading": "بروتين غني دون إفراط في التوفو",
+        "description": "نتناوب بين التوفو والتمبيه والإدامامي والحمص والمشروم حتى لا تشعر بالتكرار في خطتك الأسبوعية."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Green Curry with Tofu and Thai Eggplant",
-        "description": "Rich coconut green curry loaded with crispy tofu, Thai eggplant, bamboo shoots, and fresh basil over jasmine rice.",
+        "name": "كاري أخضر بالتوفو والباذنجان التايلاندي",
+        "description": "كاري أخضر بحليب جوز الهند محمّل بالتوفو المقرمش والباذنجان التايلاندي وبراعم الخيزران والريحان الطازج فوق أرز الياسمين.",
         "tags": [
           "vegan",
           "thai",
@@ -1804,8 +1804,8 @@
         ]
       },
       {
-        "name": "Vegan Pad Thai with Tamarind Sauce",
-        "description": "Rice noodles tossed with pressed tofu, bean sprouts, scallions, and crushed peanuts in a tangy tamarind sauce.",
+        "name": "باد تاي نباتي بصلصة التمر هندي",
+        "description": "شعيرية أرز مقلية مع التوفو المعصور وبراعم الفول وبصل أخضر وفول سوداني مطحون في صلصة تمر هندي لاذعة.",
         "tags": [
           "vegan",
           "thai",
@@ -1813,8 +1813,8 @@
         ]
       },
       {
-        "name": "Tom Kha Mushroom Soup",
-        "description": "Creamy coconut soup with mixed mushrooms, galangal, lemongrass, kaffir lime leaves, and a squeeze of lime.",
+        "name": "حساء توم خا بالمشروم",
+        "description": "حساء كريمي بحليب جوز الهند مع المشروم المشكل والغالانجال وعشبة الليمون وأوراق الليمون الكافير وعصرة ليمون.",
         "tags": [
           "vegan",
           "thai",
@@ -1823,8 +1823,8 @@
         ]
       },
       {
-        "name": "Thai Mango Sticky Rice",
-        "description": "Sweet sticky rice cooked in coconut milk, served with fresh mango slices and a drizzle of coconut cream.",
+        "name": "أرز لزج بالمانجا التايلاندي",
+        "description": "أرز لزج حلو مطهو بحليب جوز الهند، يُقدم مع شرائح مانجو طازجة ورذاذ كريم جوز الهند.",
         "tags": [
           "vegan",
           "thai",
@@ -1833,8 +1833,8 @@
         ]
       },
       {
-        "name": "Fresh Vietnamese-Thai Spring Rolls",
-        "description": "Rice paper rolls stuffed with vermicelli, mint, Thai basil, mango, and avocado with a sweet chili dipping sauce.",
+        "name": "لفائف ربيع طازجة تايلاندية-فيتنامية",
+        "description": "لفائف ورق الأرز محشوة بالشعيرية والنعناع وريحان تايلاندي والمانجا والأفوكادو مع صلصة الفلفل الحلو للتغميس.",
         "tags": [
           "vegan",
           "thai",
@@ -1845,20 +1845,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Thai food naturally vegan?",
-        "answer": "Many Thai dishes use coconut milk and vegetables as a base, which is great. However, most traditional Thai cooking relies on fish sauce, shrimp paste, and oyster sauce for umami. Vegan Thai cooking swaps these with soy sauce, mushroom sauce, or fermented bean paste to achieve the same depth of flavor."
+        "question": "هل الطعام التايلاندي نباتي بطبيعته؟",
+        "answer": "كثير من الأطباق التايلاندية تعتمد حليب جوز الهند والخضروات أساساً، وهذا رائع. غير أن الطبخ التايلاندي التقليدي يعتمد في معظمه على صلصة السمك ومعجون الروبيان وصلصة المحار لإضفاء نكهة الأومامي. يستعيض الطبخ التايلاندي النباتي عنها بصلصة الصويا والمشروم أو معجون فول الصويا المخمر للحصول على الغنى ذاته."
       },
       {
-        "question": "What replaces fish sauce in vegan Thai cooking?",
-        "answer": "The best substitutes are mushroom soy sauce, seaweed-infused soy sauce, or a mix of soy sauce with a dash of rice vinegar and a pinch of salt. Some cooks also use fermented soybean paste for that funky depth."
+        "question": "بم تُستبدل صلصة السمك في الطبخ التايلاندي النباتي؟",
+        "answer": "أفضل البدائل هي صلصة الصويا بالمشروم، أو صلصة الصويا المنقوعة بالأعشاب البحرية، أو مزيج من صلصة الصويا مع رشة خل الأرز وقليل من الملح. يستخدم بعض الطهاة معجون فول الصويا المخمر للحصول على ذلك العمق القوي."
       },
       {
-        "question": "Can I get enough protein from vegan Thai meals?",
-        "answer": "Absolutely. Thai cuisine features tofu, tempeh, edamame, peanuts, cashews, and a variety of legumes. A well-planned vegan Thai meal plan easily hits 50-70g of protein per day."
+        "question": "هل يمكنني الحصول على بروتين كافٍ من الوجبات التايلاندية النباتية؟",
+        "answer": "بالتأكيد. يضم المطبخ التايلاندي التوفو والتمبيه والإدامامي والفول السوداني والكاجو وأنواعاً متعددة من البقوليات. تصل خطة الوجبات النباتية التايلاندية المتوازنة بسهولة إلى 50-70 غراماً من البروتين يومياً."
       },
       {
-        "question": "Are vegan Thai meal plans good for weight loss?",
-        "answer": "Thai cuisine tends to be lighter than many Western diets, with lots of vegetables, herbs, and broth-based soups. Combined with a vegan approach, you naturally reduce calorie density while keeping meals satisfying and flavorful."
+        "question": "هل خطط الوجبات التايلاندية النباتية مفيدة لفقدان الوزن؟",
+        "answer": "المطبخ التايلاندي أخف عموماً من كثير من الأنظمة الغذائية الغربية، إذ يزخر بالخضروات والأعشاب والحساءات ذات الأساس المائي. مع اعتماد الأسلوب النباتي، تنخفض كثافة السعرات الحرارية تلقائياً مع الإبقاء على وجبات مُشبِعة وممتعة."
       }
     ]
   },
@@ -1866,25 +1866,25 @@
     "title": "خطط وجبات هندية نباتية صرفة أسبوعية",
     "metaDescription": "خطط وجبات هندية نباتية صرفة مع دال وتشانا ماسالا وكاري خضار. بدون ألبان أو سمن — نكهات هندية أصيلة 100% نباتية.",
     "h1": "خطط وجبات هندية نباتية صرفة — توابل جريئة بدون ألبان",
-    "intro": "Indian cuisine already has one of the richest vegetarian traditions on earth. Going fully vegan means swapping out ghee, paneer, and yogurt — but the spice-forward cooking style means you barely notice. Our vegan Indian meal plans draw from regional traditions across India to keep your week packed with flavor.",
+    "intro": "يمتلك المطبخ الهندي أغنى تقليد نباتي في العالم. التحول إلى النباتية الصارمة يعني الاستغناء عن السمن والبانير والزبادي — لكن أسلوب الطبخ القائم على التوابل يجعلك تكاد لا تلحظ الفرق. تستقي خطط الوجبات الهندية النباتية لدينا من التقاليد الإقليمية عبر الهند لتبقى أسبوعك حافلاً بالنكهات.",
     "valueProps": [
       {
-        "heading": "Beyond Dal and Rice",
-        "description": "We pull from South Indian dosas, Punjabi chole, Rajasthani curries, and Bengali stews so your meals span the full breadth of Indian cooking."
+        "heading": "أبعد من الدال والأرز",
+        "description": "نستلهم من الدوسا الجنوبية الهندية وتشولي البنجابي وكاريات راجاستان وحساءات البنغال لتمتد وجباتك عبر رحابة المطبخ الهندي."
       },
       {
-        "heading": "Ghee-Free, Still Rich",
-        "description": "Coconut oil, mustard oil, and sesame oil replace ghee without losing that characteristic richness Indian food is known for."
+        "heading": "بلا سمن، بكل الغنى",
+        "description": "زيت جوز الهند وزيت الخردل وزيت السمسم تحل محل السمن دون خسارة تلك الثراء المميز الذي يُعرف به الطعام الهندي."
       },
       {
-        "heading": "Spice Blends That Do the Work",
-        "description": "Garam masala, chaat masala, and curry leaves create layers of flavor that make dairy completely unnecessary."
+        "heading": "خلطات التوابل التي تتولى المهمة",
+        "description": "الغارام ماسالا وشات ماسالا وأوراق الكاري تبني طبقات من النكهة تجعل منتجات الألبان غير ضرورية تماماً."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Chana Masala with Basmati Rice",
-        "description": "Chickpeas simmered in a spiced tomato-onion gravy with cumin, coriander, and garam masala, served over fluffy basmati.",
+        "name": "تشانا ماسالا مع أرز بسمتي",
+        "description": "حمص يُطهى في صلصة طماطم وبصل متبلة بالكمون والكزبرة والغارام ماسالا، يُقدم فوق أرز بسمتي هش.",
         "tags": [
           "vegan",
           "indian",
@@ -1893,8 +1893,8 @@
         ]
       },
       {
-        "name": "Masala Dosa with Coconut Chutney",
-        "description": "Crispy fermented rice-and-lentil crepe filled with spiced potato, served with coconut chutney and sambar.",
+        "name": "ماسالا دوسا مع صلصة جوز الهند",
+        "description": "فطيرة أرز وعدس مخمرة مقرمشة محشوة بالبطاطس المتبلة، تُقدم مع صلصة جوز الهند والسامبار.",
         "tags": [
           "vegan",
           "indian",
@@ -1903,8 +1903,8 @@
         ]
       },
       {
-        "name": "Aloo Gobi with Roti",
-        "description": "Dry-roasted cauliflower and potato with turmeric, cumin seeds, and fresh cilantro, paired with whole wheat roti.",
+        "name": "ألو غوبي مع الروتي",
+        "description": "قرنبيط وبطاطس محمصة جافة مع الكركم وبذور الكمون والكزبرة الطازجة، تُقدم مع روتي القمح الكامل.",
         "tags": [
           "vegan",
           "indian",
@@ -1912,8 +1912,8 @@
         ]
       },
       {
-        "name": "Dal Tadka",
-        "description": "Yellow lentils slow-cooked with turmeric, then finished with a sizzling tempering of mustard seeds, cumin, garlic, and dried red chilies in oil.",
+        "name": "دال تادكا",
+        "description": "عدس أصفر مطهو ببطء مع الكركم، ثم يُتوَج بتحميرة مُفعَمة من بذور الخردل والكمون والثوم والفلفل الحار الجاف في الزيت.",
         "tags": [
           "vegan",
           "indian",
@@ -1922,8 +1922,8 @@
         ]
       },
       {
-        "name": "Vegetable Biryani",
-        "description": "Fragrant basmati rice layered with spiced mixed vegetables, saffron, fried onions, and fresh mint, slow-cooked in a sealed pot.",
+        "name": "بريياني خضروات",
+        "description": "أرز بسمتي عطر مُقسَّم طبقات مع خضروات مشكلة متبلة وزعفران وبصل مقلي ونعناع طازج، يُطهى ببطء في قدر محكم الإغلاق.",
         "tags": [
           "vegan",
           "indian",
@@ -1934,20 +1934,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Indian food easy to make vegan?",
-        "answer": "Yes — Indian cuisine has the largest vegetarian tradition in the world. The main adjustments are replacing ghee with oil, skipping paneer, and using coconut cream instead of dairy cream. Most spice blends, lentil dishes, and vegetable curries are already naturally vegan."
+        "question": "هل من السهل جعل الطعام الهندي نباتياً صارماً؟",
+        "answer": "نعم — يمتلك المطبخ الهندي أكبر تقليد نباتي في العالم. التعديلات الرئيسية هي استبدال السمن بالزيت، وتجنب البانير، واستخدام كريم جوز الهند بدلاً من كريم الألبان. معظم خلطات التوابل وأطباق العدس وكاريات الخضروات نباتية صارمة بطبيعتها."
       },
       {
-        "question": "What replaces paneer in vegan Indian cooking?",
-        "answer": "Extra-firm tofu pressed and cubed works well in dishes like palak paneer (becomes palak tofu). Cashew-based paneer is another option. For texture, some cooks use chickpea flour blocks (Burmese tofu)."
+        "question": "بم يُستبدل البانير في الطبخ الهندي النباتي الصارم؟",
+        "answer": "التوفو الصلب جداً المعصور والمقطع مكعبات يناسب الأطباق مثل بالاك بانير (يصبح بالاك توفو). البانير المصنوع من الكاجو خيار آخر. للحصول على القوام، يستخدم بعض الطهاة كتل دقيق الحمص (توفو بورمي)."
       },
       {
-        "question": "How do I get enough protein on a vegan Indian diet?",
-        "answer": "Indian cuisine is naturally protein-rich thanks to lentils (dal), chickpeas (chole), kidney beans (rajma), black-eyed peas (lobia), and soy products. A typical day of Indian vegan eating can easily provide 60-80g of protein."
+        "question": "كيف أحصل على بروتين كافٍ في النظام الغذائي الهندي النباتي الصارم؟",
+        "answer": "المطبخ الهندي غني بالبروتين بطبيعته بفضل العدس (دال) والحمص (تشولي) والفاصوليا الحمراء (راجما) ولوبيا البقر (لوبيا) ومنتجات الصويا. يوم هندي نباتي صارم نموذجي يوفر بسهولة 60-80 غراماً من البروتين."
       },
       {
-        "question": "Are vegan Indian meal plans budget-friendly?",
-        "answer": "Very much so. Lentils, rice, chickpeas, and seasonal vegetables are among the most affordable foods globally. Indian spices last for months, and a well-stocked spice cabinet means you can make dozens of different dishes from pantry staples."
+        "question": "هل خطط الوجبات الهندية النباتية الصارمة مقتصدة في التكلفة؟",
+        "answer": "بالتأكيد. العدس والأرز والحمص والخضروات الموسمية من أرخص الأطعمة على مستوى العالم. التوابل الهندية تدوم أشهراً، وخزانة توابل مكتملة تمكنك من صنع عشرات الأطباق المختلفة من المخزون."
       }
     ]
   },
@@ -1955,25 +1955,25 @@
     "title": "خطط وجبات متوسطية نباتية صرفة",
     "metaDescription": "خطط وجبات متوسطية نباتية صرفة مع حمص وفلافل وأوعية حبوب وخضروات مشوية. صحية للقلب ونباتية ولذيذة.",
     "h1": "خطط وجبات متوسطية نباتية صرفة — مشمسة ونباتية القوة",
-    "intro": "The Mediterranean diet is already celebrated as one of the healthiest in the world. Remove the dairy and seafood, and you still have a treasure trove of olive oil, legumes, whole grains, nuts, and seasonal produce. Our vegan Mediterranean plans make every week feel like a slow lunch on the Amalfi Coast.",
+    "intro": "يُحتفى بالنظام الغذائي المتوسطي باعتباره من أصح الأنظمة الغذائية في العالم. اطرح منه الألبان والمأكولات البحرية، ولا يزال أمامك كنز من زيت الزيتون والبقوليات والحبوب الكاملة والمكسرات والمنتجات الموسمية. تجعل خطط الوجبات المتوسطية النباتية لدينا كل أسبوع يبدو كغداء هادئ على ساحل أمالفي.",
     "valueProps": [
       {
-        "heading": "Olive Oil Is the Star",
-        "description": "Heart-healthy fats from extra virgin olive oil, tahini, and nuts replace butter and cheese without any sacrifice in richness."
+        "heading": "زيت الزيتون هو النجم",
+        "description": "الدهون الصحية لقلب الزيتون البكر الممتاز والطحينة والمكسرات تحل محل الزبدة والجبن دون أي تضحية بالغنى."
       },
       {
-        "heading": "Legume-Powered Protein",
-        "description": "Chickpeas, lentils, cannellini beans, and fava beans are Mediterranean staples that keep you full and fueled."
+        "heading": "بروتين من البقوليات",
+        "description": "الحمص والعدس وفاصوليا كانيليني والفول المدمس من أبرز المكونات المتوسطية التي تُشبعك وتمدك بالطاقة."
       },
       {
-        "heading": "Seasonal and Simple",
-        "description": "Mediterranean cooking celebrates ingredients at their peak — ripe tomatoes, fresh herbs, and quality olive oil do most of the work."
+        "heading": "موسمي وبسيط",
+        "description": "يحتفل الطبخ المتوسطي بالمكونات في ذروة نضجها — الطماطم الناضجة والأعشاب الطازجة وزيت الزيتون الجيد تؤدي معظم العمل."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Falafel Bowl with Tahini Dressing",
-        "description": "Crispy baked falafel over mixed greens, cucumber, tomato, pickled red onion, and a generous drizzle of lemon-tahini dressing.",
+        "name": "طبق فلافل مع صلصة الطحينة",
+        "description": "فلافل مخبوز مقرمش فوق خضار مشكلة وخيار وطماطم وبصل أحمر مخلل ورذاذ سخي من صلصة الطحينة بالليمون.",
         "tags": [
           "vegan",
           "mediterranean",
@@ -1981,8 +1981,8 @@
         ]
       },
       {
-        "name": "Roasted Eggplant with Pomegranate and Mint",
-        "description": "Slow-roasted eggplant halves topped with pomegranate seeds, toasted pine nuts, fresh mint, and a balsamic reduction.",
+        "name": "باذنجان مشوي مع الرمان والنعناع",
+        "description": "نصفا باذنجان مشويان ببطء يُعلوهما بذور الرمان والصنوبر المحمص والنعناع الطازج وتخفيض البلسميك.",
         "tags": [
           "vegan",
           "mediterranean",
@@ -1991,8 +1991,8 @@
         ]
       },
       {
-        "name": "Shakshuka-Style Chickpeas (No Eggs)",
-        "description": "Chickpeas simmered in a spiced tomato sauce with cumin, paprika, and bell peppers, served with crusty sourdough.",
+        "name": "حمص بالبندورة على طريقة الشكشوكة (بلا بيض)",
+        "description": "حمص مطهو في صلصة طماطم متبلة بالكمون والبابريكا والفلفل الأحمر، يُقدم مع خبز محمص.",
         "tags": [
           "vegan",
           "mediterranean",
@@ -2000,8 +2000,8 @@
         ]
       },
       {
-        "name": "Greek-Style Grain Bowl",
-        "description": "Farro topped with marinated white beans, cherry tomatoes, kalamata olives, cucumber, and oregano vinaigrette.",
+        "name": "طبق حبوب على الطريقة الإغريقية",
+        "description": "فارو مُعلاه فاصوليا بيضاء متبلة وطماطم كرزية وزيتون كالاماتا وخيار وصلصة خل الأوريغانو.",
         "tags": [
           "vegan",
           "mediterranean",
@@ -2009,8 +2009,8 @@
         ]
       },
       {
-        "name": "Lentil and Roasted Vegetable Soup",
-        "description": "Red lentils simmered with roasted carrots, zucchini, garlic, and rosemary in a tomato broth, finished with olive oil.",
+        "name": "شوربة عدس وخضروات مشوية",
+        "description": "عدس أحمر مطهو مع جزر مشوي وكوسا وثوم وإكليل الجبل في مرق طماطم، تُنهى برشة زيت زيتون.",
         "tags": [
           "vegan",
           "mediterranean",
@@ -2021,20 +2021,20 @@
     ],
     "faqs": [
       {
-        "question": "Can you follow a Mediterranean diet as a vegan?",
-        "answer": "Absolutely. The Mediterranean diet is built on vegetables, legumes, whole grains, olive oil, nuts, and fruit — all plant-based. Fish and dairy are traditional but not essential. Many nutrition researchers consider a vegan Mediterranean diet one of the healthiest eating patterns possible."
+        "question": "هل يمكن اتباع النظام الغذائي المتوسطي نباتياً صارماً؟",
+        "answer": "بالتأكيد. النظام الغذائي المتوسطي مبني على الخضروات والبقوليات والحبوب الكاملة وزيت الزيتون والمكسرات والفواكه — وكلها نباتية. السمك ومنتجات الألبان تقليديان لكنهما ليسا أساسيين. يعتبر كثير من باحثي التغذية أن النظام المتوسطي النباتي الصارم من أصح أنماط الأكل الممكنة."
       },
       {
-        "question": "What do vegan Mediterranean meals use instead of cheese?",
-        "answer": "Nutritional yeast, cashew-based feta, and tofu ricotta are common swaps. But many Mediterranean dishes don't need cheese at all — tahini, olive oil, and fresh herbs provide plenty of richness and flavor."
+        "question": "بم تستعيض وجبات البحر المتوسط النباتية الصارمة عن الجبن؟",
+        "answer": "الخميرة الغذائية وجبن الفيتا المصنوع من الكاجو والريكوتا بالتوفو من الخيارات الشائعة. لكن كثيراً من أطباق البحر المتوسط لا تحتاج الجبن أصلاً — فالطحينة وزيت الزيتون والأعشاب الطازجة توفر غنى ونكهة وافيين."
       },
       {
-        "question": "Is a vegan Mediterranean diet good for heart health?",
-        "answer": "Yes. The Mediterranean diet is the most-studied diet for cardiovascular health, and removing animal products further reduces saturated fat intake. The emphasis on olive oil, nuts, legumes, and whole grains supports healthy cholesterol and blood pressure."
+        "question": "هل النظام المتوسطي النباتي الصارم جيد لصحة القلب؟",
+        "answer": "نعم. النظام الغذائي المتوسطي هو الأكثر دراسةً فيما يخص صحة القلب والأوعية الدموية، وحذف المنتجات الحيوانية يقلل الدهون المشبعة أكثر. التركيز على زيت الزيتون والمكسرات والبقوليات والحبوب الكاملة يدعم مستويات الكوليسترول الصحية وضغط الدم."
       },
       {
-        "question": "How much does a vegan Mediterranean meal plan cost per week?",
-        "answer": "It is one of the most affordable healthy diets. Staples like lentils, chickpeas, rice, seasonal vegetables, and olive oil are inexpensive. A week of vegan Mediterranean eating typically costs $40-60 for one person."
+        "question": "ما تكلفة خطة الوجبات المتوسطية النباتية الصارمة أسبوعياً؟",
+        "answer": "إنها من أنظمة الأكل الصحية الأكثر توفراً. المكونات الأساسية كالعدس والحمص والأرز والخضروات الموسمية وزيت الزيتون ليست مكلفة. يتراوح إنفاق أسبوع واحد من الأكل المتوسطي النباتي عادةً بين 40-60 دولاراً للشخص الواحد."
       }
     ]
   },
@@ -2042,25 +2042,25 @@
     "title": "خطط وجبات كيتو متوسطية",
     "metaDescription": "خطط وجبات كيتو متوسطية أسبوعية تجمع الدهون الصحية والخضروات الطازجة ووصفات منخفضة الكربوهيدرات. غنية بزيت الزيتون وبدون حبوب.",
     "h1": "خطط وجبات كيتو متوسطية — دهون صحية بدون حبوب",
-    "intro": "The Mediterranean diet and keto share a love of healthy fats — olive oil, avocado, nuts, and fatty fish. The main adjustment is dropping bread, pasta, and grains. What remains is arguably the most nutritious version of keto: rich in omega-3s, antioxidants, and flavor without the typical keto reliance on processed meats and cheese.",
+    "intro": "يتشارك النظام الغذائي المتوسطي والكيتو حبَّهما للدهون الصحية — زيت الزيتون والأفوكادو والمكسرات والأسماك الدهنية. التعديل الرئيسي هو التخلي عن الخبز والمعكرونة والحبوب. ما يبقى هو النسخة الأكثر غذائية من الكيتو على الأرجح: غنية بالأوميغا-3 ومضادات الأكسدة والنكهة، دون الاعتماد المعتاد في الكيتو على اللحوم المصنعة والجبن.",
     "valueProps": [
       {
-        "heading": "The Healthiest Version of Keto",
-        "description": "Instead of bacon-and-butter keto, you get olive oil, fresh fish, leafy greens, and nuts — all the fats your body actually thrives on."
+        "heading": "النسخة الأصح من الكيتو",
+        "description": "بدلاً من كيتو اللحم المقدد والزبدة، تحصل على زيت الزيتون والسمك الطازج والخضروات الورقية والمكسرات — الدهون التي يزدهر عليها جسمك حقاً."
       },
       {
-        "heading": "Naturally Low-Carb Staples",
-        "description": "Grilled fish, roasted vegetables, olives, and nuts are already keto-friendly without any modification."
+        "heading": "أساسيات منخفضة الكربوهيدرات بطبيعتها",
+        "description": "السمك المشوي والخضروات المحمصة والزيتون والمكسرات كلها مناسبة للكيتو دون أي تعديل."
       },
       {
-        "heading": "Sustainable Long-Term",
-        "description": "This combination avoids the burnout of strict keto by keeping meals varied, fresh, and genuinely enjoyable."
+        "heading": "مستدام على المدى البعيد",
+        "description": "يتجنب هذا المزيج الإرهاق الناجم عن الكيتو الصارم بإبقاء الوجبات متنوعة وطازجة وممتعة حقاً."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Grilled Salmon with Olive Tapenade",
-        "description": "Pan-seared salmon fillet topped with a kalamata olive and caper tapenade, served with roasted asparagus drizzled in olive oil.",
+        "name": "سمك سلمون مشوي مع تاباناد الزيتون",
+        "description": "فيليه سلمون محمر في المقلاة يُعلوه تاباناد زيتون كالاماتا وكبر، يُقدم مع هليون مشوي برذاذ زيت الزيتون.",
         "tags": [
           "keto",
           "mediterranean",
@@ -2069,8 +2069,8 @@
         ]
       },
       {
-        "name": "Greek Salad with Grilled Halloumi",
-        "description": "Crispy grilled halloumi over cucumber, tomato, red onion, and olives with a red wine vinaigrette and dried oregano.",
+        "name": "سلطة إغريقية مع هالومي مشوي",
+        "description": "هالومي مشوي مقرمش فوق خيار وطماطم وبصل أحمر وزيتون مع صلصة خل النبيذ الأحمر والأوريغانو المجفف.",
         "tags": [
           "keto",
           "mediterranean",
@@ -2079,8 +2079,8 @@
         ]
       },
       {
-        "name": "Eggs Baked in Tomato Sauce (Shakshuka)",
-        "description": "Two eggs poached in a spiced tomato and bell pepper sauce with cumin, paprika, and crumbled feta.",
+        "name": "بيض مخبوز في صلصة الطماطم (شكشوكة)",
+        "description": "بيضتان مطهوتان في صلصة طماطم وفلفل متبلة بالكمون والبابريكا وفيتا مفتتة.",
         "tags": [
           "keto",
           "mediterranean",
@@ -2089,8 +2089,8 @@
         ]
       },
       {
-        "name": "Lamb Kofta with Tzatziki",
-        "description": "Spiced ground lamb skewers with cumin and mint, served with a cucumber-yogurt tzatziki and a side of grilled zucchini.",
+        "name": "كفتة ضأن مع تزاتزيكي",
+        "description": "أسياخ لحم ضأن مفروم متبل بالكمون والنعناع، تُقدم مع تزاتزيكي الخيار والزبادي وجانب من الكوسا المشوية.",
         "tags": [
           "keto",
           "mediterranean",
@@ -2099,8 +2099,8 @@
         ]
       },
       {
-        "name": "Stuffed Bell Peppers with Ground Turkey and Feta",
-        "description": "Bell peppers filled with seasoned ground turkey, sun-dried tomatoes, spinach, and feta, baked until golden.",
+        "name": "فلفل حلو محشو بالديك الرومي والفيتا",
+        "description": "حبات فلفل حلو محشوة بديك رومي مفروم متبل وطماطم مجففة وسبانخ وفيتا، تُخبز حتى تتحول ذهبية.",
         "tags": [
           "keto",
           "mediterranean",
@@ -2110,20 +2110,20 @@
     ],
     "faqs": [
       {
-        "question": "Can you combine keto and Mediterranean diets?",
-        "answer": "Yes, and many nutritionists consider it the ideal combination. Both diets emphasize healthy fats, and the Mediterranean approach adds variety, vegetables, and fish that typical keto plans often lack. You just skip the bread, pasta, rice, and legumes."
+        "question": "هل يمكن الجمع بين الكيتو والنظام المتوسطي؟",
+        "answer": "نعم، ويعتبر كثير من خبراء التغذية هذا المزيج الجمع المثالي. يُركز كلا النظامين على الدهون الصحية، والنهج المتوسطي يضيف التنوع والخضروات والسمك التي تفتقرها خطط الكيتو المعتادة. ما عليك سوى تجنب الخبز والمعكرونة والأرز والبقوليات."
       },
       {
-        "question": "What carbs do you cut on a keto Mediterranean diet?",
-        "answer": "Bread, pasta, rice, couscous, potatoes, and legumes (chickpeas, lentils) are removed. You keep low-carb vegetables like leafy greens, zucchini, bell peppers, tomatoes, and eggplant, plus nuts and seeds."
+        "question": "ما الكربوهيدرات التي تُحذف في الكيتو المتوسطي؟",
+        "answer": "يُحذف الخبز والمعكرونة والأرز والكسكس والبطاطس والبقوليات (الحمص والعدس). تبقى الخضروات منخفضة الكربوهيدرات كالخضروات الورقية والكوسا والفلفل الحلو والطماطم والباذنجان، إضافةً إلى المكسرات والبذور."
       },
       {
-        "question": "Is keto Mediterranean better than regular keto?",
-        "answer": "For most people, yes. Regular keto can lean heavily on processed meats, cheese, and butter. Keto Mediterranean emphasizes olive oil, fish, and vegetables, which research links to better heart health and more sustainable weight loss."
+        "question": "هل الكيتو المتوسطي أفضل من الكيتو العادي؟",
+        "answer": "في الغالب نعم. يعتمد الكيتو العادي كثيراً على اللحوم المصنعة والجبن والزبدة. يُركز الكيتو المتوسطي على زيت الزيتون والسمك والخضروات، وهو ما تربطه الدراسات بصحة قلبية أفضل وإنقاص وزن أكثر استدامة."
       },
       {
-        "question": "How many carbs per day on a keto Mediterranean plan?",
-        "answer": "Typically 20-30g net carbs per day, which is standard keto. The difference is that your carbs come from nutrient-dense vegetables, olives, and nuts rather than from processed low-carb products."
+        "question": "كم عدد الكربوهيدرات اليومية في خطة الكيتو المتوسطي؟",
+        "answer": "عادةً 20-30 غراماً صافياً يومياً، وهو معدل الكيتو الاعتيادي. الفرق أن كربوهيدراتك تأتي من خضروات غنية بالمغذيات والزيتون والمكسرات لا من منتجات الكيتو المصنعة."
       }
     ]
   },
@@ -2131,25 +2131,25 @@
     "title": "خطط وجبات كيتو آسيوية أسبوعية",
     "metaDescription": "خطط وجبات كيتو آسيوية مع أطباق مقلية وشوربات ولحوم مشوية. بدون أرز أو نودلز — كل الأومامي بدون كربوهيدرات.",
     "h1": "خطط وجبات كيتو آسيوية — كل الأومامي بدون الأرز",
-    "intro": "Asian cuisine is built on bold flavors — soy, ginger, garlic, sesame, chili — that work perfectly without carbs. The challenge is replacing rice, noodles, and sweet sauces. Our keto Asian meal plans use cauliflower rice, shirataki noodles, and sugar-free sauces to keep every meal under 30g net carbs while tasting authentically Asian.",
+    "intro": "يُبنى المطبخ الآسيوي على نكهات جريئة — صويا وزنجبيل وثوم وسمسم وفلفل حار — تعمل بكمالها دون الكربوهيدرات. التحدي يكمن في استبدال الأرز والشعيرية والصلصات السكرية. تستخدم خطط الوجبات الكيتو الآسيوية لدينا أرز القرنبيط وشعيرية شيراتاكي وصلصات خالية من السكر لإبقاء كل وجبة تحت 30 غراماً صافياً من الكربوهيدرات مع طعم آسيوي أصيل.",
     "valueProps": [
       {
-        "heading": "Smart Rice and Noodle Swaps",
-        "description": "Cauliflower rice, shirataki noodles, and zucchini noodles replace traditional starches without changing the dish's identity."
+        "heading": "بدائل ذكية للأرز والشعيرية",
+        "description": "أرز القرنبيط وشعيرية شيراتاكي وشعيرية الكوسا تحل محل النشويات التقليدية دون تغيير هوية الطبق."
       },
       {
-        "heading": "Naturally Keto Ingredients",
-        "description": "Fatty cuts of meat, coconut milk, sesame oil, and egg-based dishes are already staples in Asian cooking and fit keto perfectly."
+        "heading": "مكونات كيتو بطبيعتها",
+        "description": "قطع اللحم الدهنية وحليب جوز الهند وزيت السمسم والأطباق القائمة على البيض هي بالفعل ثوابت في الطبخ الآسيوي وتتلاءم تماماً مع الكيتو."
       },
       {
-        "heading": "Hidden Sugar Alerts",
-        "description": "We flag and fix the hidden sugars in hoisin, teriyaki, and sweet chili sauces so you stay in ketosis without bland food."
+        "heading": "تنبيهات السكر المخفي",
+        "description": "نكشف عن السكريات المخفية في صلصات الهويسن والتيرياكي والفلفل الحلو ونستبدلها حتى تبقى في حالة الكيتوسيس دون أن تعاني من طعام ممل."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Beef and Broccoli Stir-Fry",
-        "description": "Thinly sliced beef stir-fried with broccoli florets in a garlic-ginger soy sauce, served over cauliflower rice.",
+        "name": "مقلي لحم بقري وبروكلي",
+        "description": "شرائح لحم بقري رفيعة تُقلى مع قرنبيط أخضر في صلصة صويا بالثوم والزنجبيل، تُقدم فوق أرز القرنبيط.",
         "tags": [
           "keto",
           "asian",
@@ -2158,8 +2158,8 @@
         ]
       },
       {
-        "name": "Egg Drop Soup with Sesame",
-        "description": "Silky chicken broth with ribbons of beaten egg, white pepper, scallions, and a drizzle of toasted sesame oil.",
+        "name": "حساء البيض المسكوب بالسمسم",
+        "description": "مرق دجاج حريري مع خيوط بيض مخفوق وفلفل أبيض وبصل أخضر ورذاذ زيت سمسم محمص.",
         "tags": [
           "keto",
           "asian",
@@ -2169,8 +2169,8 @@
         ]
       },
       {
-        "name": "Korean Lettuce Wraps with Bulgogi",
-        "description": "Sugar-free marinated beef bulgogi wrapped in crisp butter lettuce with kimchi, sesame seeds, and gochugaru.",
+        "name": "لفائف خس كورية بالبولغوغي",
+        "description": "لحم بقري بولغوغي متبل خالٍ من السكر ملفوف في خس طازج مقرمش مع كيمشي وبذور سمسم وغوتشوغارو.",
         "tags": [
           "keto",
           "asian",
@@ -2179,8 +2179,8 @@
         ]
       },
       {
-        "name": "Thai Coconut Chicken Soup (Tom Kha Gai)",
-        "description": "Chicken simmered in coconut milk with galangal, lemongrass, mushrooms, and lime juice — naturally low-carb.",
+        "name": "حساء دجاج جوز الهند التايلاندي (توم خا غاي)",
+        "description": "دجاج مطهو بحليب جوز الهند مع الغالانجال وعشبة الليمون والمشروم وعصير الليمون — منخفض الكربوهيدرات بطبيعته.",
         "tags": [
           "keto",
           "asian",
@@ -2190,8 +2190,8 @@
         ]
       },
       {
-        "name": "Japanese Tamagoyaki (Rolled Omelette)",
-        "description": "Sweet-savory rolled omelette made with eggs, dashi, and a touch of mirin substitute, sliced into rounds.",
+        "name": "تاماغويياكي ياباني (أومليت ملفوف)",
+        "description": "أومليت ملفوف حلو ومالح محضَّر بالبيض وداشي وبديل الميرين، يُقطع إلى دوائر.",
         "tags": [
           "keto",
           "asian",
@@ -2203,20 +2203,20 @@
     ],
     "faqs": [
       {
-        "question": "Can you eat Asian food on keto?",
-        "answer": "Yes, with some modifications. The flavors of Asian cooking — soy, ginger, garlic, chili, sesame — are all zero or very low carb. The challenge is replacing rice, noodles, and sugary sauces. Cauliflower rice, shirataki noodles, and sugar-free sauce alternatives solve this."
+        "question": "هل يمكن تناول الطعام الآسيوي في الكيتو؟",
+        "answer": "نعم، مع بعض التعديلات. نكهات الطبخ الآسيوي — الصويا والزنجبيل والثوم والفلفل الحار والسمسم — كلها صفرية أو منخفضة الكربوهيدرات. التحدي هو استبدال الأرز والشعيرية والصلصات السكرية. أرز القرنبيط وشعيرية شيراتاكي وبدائل الصلصات الخالية من السكر تحل هذه المعادلة."
       },
       {
-        "question": "Is soy sauce keto-friendly?",
-        "answer": "Regular soy sauce has about 1g carb per tablespoon, so it is keto-friendly in normal amounts. Tamari (gluten-free soy sauce) and coconut aminos are also good options, though coconut aminos has slightly more sugar."
+        "question": "هل صلصة الصويا مناسبة للكيتو؟",
+        "answer": "تحتوي صلصة الصويا العادية على نحو غرام واحد من الكربوهيدرات لكل ملعقة كبيرة، فهي مناسبة للكيتو بالكميات المعتادة. التاماري (صلصة الصويا الخالية من الغلوتين) وأمينو جوز الهند خياران جيدان أيضاً، وإن كان أمينو جوز الهند يحتوي على سكر أكثر قليلاً."
       },
       {
-        "question": "What Asian dishes are naturally keto?",
-        "answer": "Many Asian dishes are naturally low-carb: sashimi, egg drop soup, stir-fried vegetables with meat, grilled satay, Thai coconut soups, and Korean BBQ lettuce wraps. Just skip the rice on the side."
+        "question": "ما الأطباق الآسيوية المناسبة للكيتو بطبيعتها؟",
+        "answer": "كثير من الأطباق الآسيوية منخفضة الكربوهيدرات بطبيعتها: السشيمي وحساء البيض المسكوب والخضروات المقلية مع اللحم والساتاي المشوي وحساءات جوز الهند التايلاندية ولفائف خس الشواء الكوري. فقط تجنب الأرز جانباً."
       },
       {
-        "question": "How do I replace rice in Asian keto meals?",
-        "answer": "Cauliflower rice is the most popular swap — it absorbs sauces well and has the right texture. You can also use finely diced mushrooms, hemp hearts, or simply serve dishes over a bed of stir-fried cabbage."
+        "question": "كيف أستبدل الأرز في وجبات الكيتو الآسيوية؟",
+        "answer": "أرز القرنبيط هو الأكثر شيوعاً — يمتص الصلصات جيداً وله القوام المناسب. يمكنك أيضاً استخدام المشروم المفروم ناعماً، أو بذور القنب، أو تقديم الأطباق فوق قاعدة من الملفوف المقلي."
       }
     ]
   },
@@ -2224,25 +2224,25 @@
     "title": "خطط وجبات كيتو مكسيكية أسبوعية",
     "metaDescription": "خطط وجبات كيتو مكسيكية بدون تورتيلا أو فاصوليا. استمتع بالفاهيتا وكارني أسادا والغواكامولي تحت 30غ كربوهيدرات يومياً.",
     "h1": "خطط وجبات كيتو مكسيكية — نكهات جريئة بدون تورتيلا",
-    "intro": "Mexican cuisine brings heat, depth, and soul to every meal — and most of that magic comes from chiles, lime, cilantro, and slow-cooked meats, not from the tortillas wrapping them. Our keto Mexican meal plans strip out the corn, beans, and rice while keeping the flavors that make Mexican food one of the most beloved cuisines on earth.",
+    "intro": "يضخ المطبخ المكسيكي حرارةً وعمقاً وروحاً في كل وجبة — ومعظم تلك السحرية تأتي من الفلفل الحار والليمون والكزبرة والطمان البطيء، لا من التورتيا التي تلفها. تُزيل خطط الوجبات الكيتو المكسيكية لدينا الذرة والفاصوليا والأرز مع الإبقاء على النكهات التي تجعل المطبخ المكسيكي من أكثر المطابخ محبوبة في العالم.",
     "valueProps": [
       {
-        "heading": "Lettuce Wraps and Cheese Shells",
-        "description": "Crispy cheese taco shells and butter lettuce cups replace tortillas, giving you the handheld experience without the carbs."
+        "heading": "لفائف الخس وأصداف الجبن",
+        "description": "أصداف التاكو المقرمشة من الجبن وكؤوس الخس المطري تحل محل التورتيا، مانحةً إياك تجربة التناول باليد دون الكربوهيدرات."
       },
       {
-        "heading": "Fat-Rich by Nature",
-        "description": "Avocado, sour cream, cheese, and slow-braised meats make Mexican cuisine one of the easiest to adapt to keto."
+        "heading": "غني بالدهون بطبيعته",
+        "description": "الأفوكادو والقشدة الحامضة والجبن واللحوم المطهية ببطء تجعل المطبخ المكسيكي من أسهل المطابخ تكيفاً مع الكيتو."
       },
       {
-        "heading": "Spice Without Sugar",
-        "description": "Authentic Mexican spice blends — cumin, chili powder, oregano, smoked paprika — are naturally sugar-free and keto-perfect."
+        "heading": "توابل دون سكر",
+        "description": "خلطات البهارات المكسيكية الأصيلة — الكمون ومسحوق الفلفل والأوريغانو والبابريكا المدخنة — خالية من السكر بطبيعتها ومثالية للكيتو."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Carne Asada with Guacamole and Grilled Peppers",
-        "description": "Marinated and grilled flank steak sliced thin, served with fresh guacamole, charred poblano peppers, and lime wedges.",
+        "name": "كارني أساد مع غواكامولي وفلفل مشوي",
+        "description": "سريعة شريحة لحم بقري متبلة ومشوية مقطعة رفيعة، تُقدم مع غواكامولي طازج وفلفل بوبلانو محروق وشرائح ليمون.",
         "tags": [
           "keto",
           "mexican",
@@ -2251,8 +2251,8 @@
         ]
       },
       {
-        "name": "Cheese Shell Tacos with Carnitas",
-        "description": "Crispy baked cheddar shells filled with slow-cooked pulled pork, pickled red onion, cilantro, and a squeeze of lime.",
+        "name": "تاكو بأصداف الجبن والكارنيتاس",
+        "description": "أصداف شيدر مخبوزة ومقرمشة محشوة بلحم خنزير مسحوب مطهو ببطء وبصل أحمر مخلل وكزبرة وعصرة ليمون.",
         "tags": [
           "keto",
           "mexican",
@@ -2261,8 +2261,8 @@
         ]
       },
       {
-        "name": "Huevos Rancheros (No Tortilla)",
-        "description": "Fried eggs over a bed of ranchero salsa with avocado slices, cotija cheese, and a side of Mexican-style sauteed greens.",
+        "name": "هويفوس رانشيروس (بلا تورتيا)",
+        "description": "بيض مقلي فوق قاعدة صلصة رانشيرو مع شرائح أفوكادو وجبن كوتيخا وجانب من الخضروات الورقية المقلية على الطريقة المكسيكية.",
         "tags": [
           "keto",
           "mexican",
@@ -2271,8 +2271,8 @@
         ]
       },
       {
-        "name": "Chicken Fajita Lettuce Wraps",
-        "description": "Sizzling chicken breast with bell peppers and onions, wrapped in butter lettuce with sour cream and pico de gallo.",
+        "name": "لفائف خس دجاج فاهيتا",
+        "description": "صدر دجاج مُشهى مع فلفل حلو وبصل، يُلف في خس مطري مع قشدة حامضة وبيكو دي غايو.",
         "tags": [
           "keto",
           "mexican",
@@ -2281,8 +2281,8 @@
         ]
       },
       {
-        "name": "Chorizo and Egg Scramble",
-        "description": "Crumbled Mexican chorizo scrambled with eggs, jalapenos, and queso fresco, served with sliced avocado.",
+        "name": "خليط شوريزو وبيض",
+        "description": "شوريزو مكسيكي مفتت يُخفق مع البيض والخالاbaniero وجبن كيسو فريسكو، يُقدم مع شرائح أفوكادو.",
         "tags": [
           "keto",
           "mexican",
@@ -2293,20 +2293,20 @@
     ],
     "faqs": [
       {
-        "question": "Can you eat Mexican food on keto?",
-        "answer": "Yes. The core flavors of Mexican cuisine — chiles, cumin, lime, cilantro, garlic — are all zero-carb. The main adjustments are removing tortillas, rice, and beans. Cheese shell tacos, lettuce wraps, and cauliflower rice make great substitutes."
+        "question": "هل يمكن تناول الطعام المكسيكي في الكيتو؟",
+        "answer": "نعم. النكهات الجوهرية للمطبخ المكسيكي — الفلفل الحار والكمون والليمون والكزبرة والثوم — كلها خالية من الكربوهيدرات. التعديلات الرئيسية هي حذف التورتيا والأرز والفاصوليا. أصداف تاكو الجبن ولفائف الخس وأرز القرنبيط بدائل رائعة."
       },
       {
-        "question": "Are beans keto-friendly?",
-        "answer": "Traditional beans (black, pinto, kidney) are too high in carbs for strict keto — about 20-25g net carbs per half cup. Small amounts can fit a more liberal low-carb approach, but our keto Mexican plans use alternatives or skip them."
+        "question": "هل الفاصوليا مناسبة للكيتو؟",
+        "answer": "الفاصوليا التقليدية (السوداء والبينتو والكيدني) عالية الكربوهيدرات جداً للكيتو الصارم — نحو 20-25 غراماً صافياً لكل نصف كوب. كميات صغيرة قد تناسب نهجاً منخفض الكربوهيدرات بشكل أكثر مرونة، لكن خطط الكيتو المكسيكية لدينا تستخدم بدائل أو تتجنبها."
       },
       {
-        "question": "What Mexican sauces are keto-safe?",
-        "answer": "Salsa verde, pico de gallo, guacamole, and most hot sauces are naturally low-carb. Watch out for mole (contains sugar and chocolate), sweetened marinades, and store-bought salsas with added sugar."
+        "question": "ما الصلصات المكسيكية المناسبة للكيتو؟",
+        "answer": "صلصة خضراء وبيكو دي غايو وغواكامولي ومعظم الصلصات الحارة منخفضة الكربوهيدرات بطبيعتها. احذر المولي (يحتوي سكراً وشوكولاتة) والمتبلات المحلاة وصلصات السوبرماركت المضاف إليها سكر."
       },
       {
-        "question": "How do I make keto tortillas?",
-        "answer": "The most popular options are almond flour tortillas, cheese crisps (baked shredded cheese), and coconut flour wraps. For a zero-effort swap, large butter lettuce leaves work perfectly as taco shells."
+        "question": "كيف أصنع تورتيا للكيتو؟",
+        "answer": "أكثر الخيارات شيوعاً هي تورتيا دقيق اللوز وقرص الجبن المقرمش (جبن مبشور مخبوز) ولفائف دقيق جوز الهند. وللاستبدال الفوري بلا جهد، تعمل أوراق الخس المطري الكبيرة بشكل مثالي كأصداف للتاكو."
       }
     ]
   },
@@ -2314,25 +2314,25 @@
     "title": "خطط وجبات إيطالية نباتية",
     "metaDescription": "خطط وجبات إيطالية نباتية أسبوعية مع باستا وريزوتو وكابريزي. أطباق إيطالية مريحة كلاسيكية بدون لحوم.",
     "h1": "خطط وجبات إيطالية نباتية — لا دولتشي فيتا بدون لحوم",
-    "intro": "Italian cooking has always celebrated vegetables, cheese, pasta, and olive oil. Some of the most iconic Italian dishes — margherita pizza, cacio e pepe, risotto — are already vegetarian. Our meal plans lean into this tradition, giving you a week of Italian comfort food that never feels like it is missing anything.",
+    "intro": "احتفل الطبخ الإيطالي دائماً بالخضروات والجبن والمعكرونة وزيت الزيتون. بعض أشهر الأطباق الإيطالية — بيتزا مارغريتا وكاتشيو إي بيبي والريزوتو — نباتية بالفعل. تنحاز خططنا إلى هذا الإرث مانحةً إياك أسبوعاً من راحة المطبخ الإيطالي لا يفتقر إلى شيء.",
     "valueProps": [
       {
-        "heading": "Pasta Done Right",
-        "description": "From aglio e olio to penne arrabbiata, Italian pasta is at its best when it lets simple ingredients shine — no meat required."
+        "heading": "المعكرونة على أكمل وجه",
+        "description": "من أغليو إي أوليو إلى بيني أرابياتا، المعكرونة الإيطالية في أفضل حالاتها حين تسمح للمكونات البسيطة بالتألق — لا حاجة للحم."
       },
       {
-        "heading": "Cheese as a Main Event",
-        "description": "Mozzarella, parmesan, ricotta, and burrata take center stage in dishes designed around their flavors and textures."
+        "heading": "الجبن كحدث رئيسي",
+        "description": "الموزاريلا والبارميزان والريكوتا والبوراتا تتصدر الأطباق المصممة حول نكهاتها وقوامها."
       },
       {
-        "heading": "Seasonal Italian Tradition",
-        "description": "Italian nonnas have been cooking vegetarian for centuries — we follow their lead with recipes rooted in regional tradition."
+        "heading": "التقليد الإيطالي الموسمي",
+        "description": "الجدات الإيطاليات يطبخن نباتياً منذ قرون — نقتفي أثرهن بوصفات متجذرة في التقليد الإقليمي."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Mushroom Risotto with Truffle Oil",
-        "description": "Creamy arborio rice slowly stirred with porcini and cremini mushrooms, finished with parmesan and a drizzle of truffle oil.",
+        "name": "ريزوتو المشروم مع زيت الكمأة",
+        "description": "أرز أربوريو كريمي يُحرَّك ببطء مع مشروم بورتشيني وكريميني، يُنهى بالبارميزان ورذاذ زيت الكمأة.",
         "tags": [
           "vegetarian",
           "italian",
@@ -2341,8 +2341,8 @@
         ]
       },
       {
-        "name": "Caprese Panini with Pesto",
-        "description": "Fresh mozzarella, ripe tomato slices, and basil pesto pressed in ciabatta until golden and melty.",
+        "name": "باتشياتو كابريزي بالبيستو",
+        "description": "موزاريلا طازجة وشرائح طماطم ناضجة وبيستو الريحان في خبز تشياباتا محمص حتى يذوب الجبن.",
         "tags": [
           "vegetarian",
           "italian",
@@ -2350,8 +2350,8 @@
         ]
       },
       {
-        "name": "Spinach and Ricotta Stuffed Shells",
-        "description": "Jumbo pasta shells filled with ricotta, spinach, and nutmeg, baked in marinara sauce and topped with melted mozzarella.",
+        "name": "قواقع معكرونة محشوة بالسبانخ والريكوتا",
+        "description": "قواقع معكرونة كبيرة محشوة بالريكوتا والسبانخ وجوزة الطيب، مخبوزة في صلصة مارينارا ومغطاة بموزاريلا مذابة.",
         "tags": [
           "vegetarian",
           "italian",
@@ -2359,8 +2359,8 @@
         ]
       },
       {
-        "name": "Italian Frittata with Zucchini and Herbs",
-        "description": "Eggs baked with sliced zucchini, fresh basil, sun-dried tomatoes, and pecorino cheese until set and golden.",
+        "name": "فريتاتا إيطالية بالكوسا والأعشاب",
+        "description": "أومليت إيطالي سميك بالكوسا والبيض والأعشاب الطازجة، مطهو في المقلاة ثم مُنهى في الفرن.",
         "tags": [
           "vegetarian",
           "italian",
@@ -2369,32 +2369,30 @@
         ]
       },
       {
-        "name": "Penne Arrabbiata",
-        "description": "Penne pasta tossed in a fiery tomato sauce with garlic, red chili flakes, and fresh parsley.",
+        "name": "بيتزا مارغريتا منزلية الصنع",
+        "description": "قاعدة عجين رفيعة مغطاة بطماطم كريمة وموزاريلا طازجة وريحان، مخبوزة على حجر بيتزا ساخن.",
         "tags": [
           "vegetarian",
-          "italian",
-          "pasta",
-          "vegan"
+          "italian"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Is Italian food good for vegetarians?",
-        "answer": "Italian cuisine is one of the most vegetarian-friendly in the world. Pasta, risotto, pizza, bruschetta, minestrone, and countless antipasti are traditionally meatless. Many Italian regions have deep vegetable-forward cooking traditions."
+        "question": "هل المعكرونة الإيطالية نباتية؟",
+        "answer": "معظم المعكرونة مصنوعة من القمح والبيض أو القمح فقط — كلاهما مناسب للنباتيين. الصلصات الخضراء كالبيستو ومارينارا وكاتشيو إي بيبي نباتية. تحقق فقط من عدم وجود مرق لحم في الصلصات."
       },
       {
-        "question": "What protein sources are in vegetarian Italian cooking?",
-        "answer": "Eggs, cheese (parmesan, ricotta, mozzarella), beans (cannellini, borlotti), lentils, and nuts. Italian cuisine also uses chickpea flour (farinata) and plenty of legume-based soups."
+        "question": "ما أفضل الأجبان الإيطالية للطبخ النباتي؟",
+        "answer": "البارميزان والريكوتا والموزاريلا الطازجة والبيكورينو رومانو هي أفضل خياراتك. احرص على أن البارميزان والبيكورينو مصنوعان بإنفحة نباتية إن كنت صارماً في هذه النقطة — الأنواع التقليدية تستخدم إنفحة حيوانية."
       },
       {
-        "question": "Is parmesan cheese vegetarian?",
-        "answer": "Traditional Parmigiano-Reggiano uses animal rennet and is not technically vegetarian. However, many brands make vegetarian parmesan with microbial rennet. Our recipes work with either — just check the label if this matters to you."
+        "question": "هل الريزوتو صعب الصنع؟",
+        "answer": "سمعته أصعب مما هو في الواقع. الفارق الوحيد هو التحريك المستمر — 20 دقيقة على موقد متوسط الحرارة مع إضافة المرق تدريجياً. لا مشكلة في تحريك الريزوتو أو تذوقه أثناء الطهي؛ الكمال لا يُشترط هنا."
       },
       {
-        "question": "Can vegetarian Italian food be healthy?",
-        "answer": "Absolutely. While pasta and cheese can be heavy, Italian cooking also features grilled vegetables, bean soups, fresh salads, and olive oil-based dishes. A balanced vegetarian Italian plan includes both comfort classics and lighter fare."
+        "question": "كيف أجعل وجبات إيطالية بدون بيض نباتية صارمة؟",
+        "answer": "استبدل الموزاريلا والريكوتا بنظيراتهما من الكاجو، والبارميزان بالخميرة الغذائية، والبيض في الفريتاتا بالتوفو الحريري. ثمة ثروة من المعكرونة الإيطالية الكلاسيكية — أغليو إي أوليو وأرابياتا وبوتانيسكا — نباتية صارمة بطبيعتها."
       }
     ]
   },
@@ -2402,34 +2400,35 @@
     "title": "خطط وجبات هندية نباتية",
     "metaDescription": "خطط وجبات هندية نباتية أسبوعية مع بانير ودال وكاري خضار. وصفات هندية أصيلة مخططة لأسبوعك بدون لحوم.",
     "h1": "خطط وجبات هندية نباتية — تقليد عمره قرون",
-    "intro": "India is home to the world's largest vegetarian population, and its cuisine reflects centuries of meatless innovation. From creamy paneer dishes to fiery lentil dals and crispy dosas, vegetarian Indian food is never an afterthought — it is the main event. Our weekly plans draw from North, South, East, and West Indian traditions.",
+    "intro": "تعني الهند منذ قرون لا تعني اللحم — فالنباتية ليست مجرد خيار غذائي هناك، بل تقليد ثقافي وروحي متجذر. تستلهم خططنا الأسبوعية من إرث هذا الطبخ النباتي الغني بالتوابل والمكوّن لمئات السنين، فتقدم وجبات متنوعة ومُشبِعة تثبت أن القوة والنكهة لا تحتاجان إلى لحم.",
     "valueProps": [
       {
-        "heading": "Paneer, Dal, and Beyond",
-        "description": "Rich paneer curries, hearty lentil dals, and crispy snacks like samosas and pakoras keep your week exciting and filling."
+        "heading": "بروتين حقيقي من النبات",
+        "description": "العدس والفاصوليا والحمص والتوفو والمكسرات تمنحك البروتين الكافي في كل وجبة دون الحاجة إلى لحم أو دواجن."
       },
       {
-        "heading": "Regional Diversity",
-        "description": "We rotate through Punjabi, South Indian, Gujarati, Bengali, and Rajasthani cooking so you experience the full spectrum of Indian vegetarian food."
+        "heading": "تنوع لا ينتهي",
+        "description": "المطبخ الهندي النباتي يضم مئات الوصفات المتنوعة من أقاليم مختلفة — لن تشعر بالملل أبداً."
       },
       {
-        "heading": "Spice Knowledge Built In",
-        "description": "Each recipe includes exact spice measurements and toasting tips so you build confidence with Indian spice blends."
+        "heading": "توابل تصنع الفارق",
+        "description": "الكركم والكمون والكزبرة وأوراق الكاري والغارام ماسالا تُحوّل البقوليات البسيطة والخضروات إلى أطباق بالغة العمق والثراء."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Palak Paneer with Naan",
-        "description": "Cubes of paneer in a creamy spinach sauce with garlic, ginger, and garam masala, served with warm garlic naan.",
+        "name": "بالاك بانير (سبانخ بالجبن الهندي)",
+        "description": "قطع جبن بانير طري في صلصة سبانخ كريمية متبلة بالكمون والكزبرة والغارام ماسالا.",
         "tags": [
           "vegetarian",
           "indian",
-          "paneer"
+          "cheese",
+          "gluten-free"
         ]
       },
       {
-        "name": "Idli with Sambar and Chutney",
-        "description": "Steamed rice-and-lentil cakes served with a spiced vegetable sambar and coconut chutney.",
+        "name": "سامبار مع إدلي",
+        "description": "حساء عدس وتمر هندي لاذع متبل بأوراق الكاري والطماطم والخضروات، يُقدم مع كعكات إدلي المطهوة على البخار.",
         "tags": [
           "vegetarian",
           "indian",
@@ -2438,8 +2437,8 @@
         ]
       },
       {
-        "name": "Rajma Curry (Kidney Bean Stew)",
-        "description": "Red kidney beans slow-cooked in a thick tomato-onion gravy with cumin, coriander, and kashmiri chili, served over rice.",
+        "name": "راجما (فاصوليا حمراء هندية)",
+        "description": "فاصوليا حمراء كيدني مطهوة ببطء في صلصة طماطم وبصل غنية ومتبلة، تُقدم مع أرز بسمتي.",
         "tags": [
           "vegetarian",
           "indian",
@@ -2448,42 +2447,41 @@
         ]
       },
       {
-        "name": "Paneer Tikka Masala",
-        "description": "Charred paneer cubes in a rich, creamy tomato-cashew sauce with fenugreek leaves, served with jeera rice.",
+        "name": "باراتا جبن بانير",
+        "description": "خبز قمح كامل ورقي محشو بالبانير المتبل والأعشاب، محمر في الغي حتى يصبح ذهبياً.",
         "tags": [
           "vegetarian",
           "indian",
-          "paneer",
-          "gluten-free"
+          "bread"
         ]
       },
       {
-        "name": "Gujarati Dal with Rice",
-        "description": "Sweet-and-sour toor dal with jaggery and tamarind, tempered with mustard seeds and curry leaves, over steamed rice.",
+        "name": "خيتشاري (أرز وعدس)",
+        "description": "عصيدة أرز وعدس أصفر تُطهى ببطء مع الكركم وبذور الكمون والغي، طعام الراحة الهندي الأكثر تغذيةً.",
         "tags": [
           "vegetarian",
           "indian",
-          "lentils",
+          "rice",
           "gluten-free"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Is most Indian food vegetarian?",
-        "answer": "A significant portion is. Around 30-40% of India's population is vegetarian, and Indian cuisine has the world's most developed vegetarian cooking tradition. Most Indian restaurants offer extensive vegetarian menus, and many regional cuisines are predominantly meatless."
+        "question": "هل المطبخ الهندي النباتي مُشبِع بما يكفي؟",
+        "answer": "تماماً. البقوليات والجبن والمكسرات والحبوب الكاملة في المطبخ الهندي توفر بروتيناً وألياف ودهوناً صحية تجعلك ممتلئاً لساعات. أطباق كالداهل تادكا والراجما وبالاك بانير وفيرة بالبروتين وعالية التشبع."
       },
       {
-        "question": "What are the best protein sources in vegetarian Indian food?",
-        "answer": "Paneer (Indian cottage cheese), lentils (dal), chickpeas, kidney beans, yogurt, and milk-based sweets. Indian cuisine uses a wide variety of legumes — toor, moong, masoor, chana, urad — each with distinct flavors and textures."
+        "question": "ما الفرق بين النباتية الهندية والنباتية الغربية؟",
+        "answer": "النباتية الهندية متجذرة في تقاليد ثقافية وروحية يمتد تاريخها لآلاف السنين. والأهم أنها مبنية على البقوليات والحبوب الكاملة والتوابل — لا على بدائل اللحم أو الأطعمة المصنعة. المطبخ النباتي الهندي الحقيقي غني بالمغذيات ومتوازن بطبيعته."
       },
       {
-        "question": "Is vegetarian Indian food spicy?",
-        "answer": "It ranges widely. South Indian food tends to be spicier, while Gujarati and Bengali cuisines are milder and often sweet. Our meal plans indicate spice levels and always include instructions for adjusting heat up or down."
+        "question": "هل يحتوي الطبخ الهندي النباتي على البيض؟",
+        "answer": "يختلف ذلك بحسب المنطقة والمعتقد. النباتيون الهنود التقليديون (لا كتاريون) يتناولون منتجات الألبان كالغي والحليب والزبادي والجبن، لكنهم يمتنعون عن البيض. خططنا تتضمن الألبان ولكن ليس البيض، إلا إن حددت خلاف ذلك."
       },
       {
-        "question": "Can I meal prep Indian food for the week?",
-        "answer": "Absolutely. Dals, curries, and rice dishes reheat beautifully and often taste better the next day as flavors develop. Roti and paratha can be made in batches and frozen. Indian food is one of the best cuisines for meal prepping."
+        "question": "كيف أُضيف التنوع إلى الوجبات النباتية الهندية؟",
+        "answer": "يكمن مفتاح التنوع في الأقاليم: تناول سامبار ودوسا من جنوب الهند، وتشانا ماسالا وبانير من الشمال، ودال باتي تشورما من راجاستان، ومورشا من الغرب. مع أكثر من 20 مطبخاً إقليمياً متميزاً، يكاد التكرار يستحيل."
       }
     ]
   },
@@ -2491,25 +2489,25 @@
     "title": "خطط وجبات متوسطية نباتية",
     "metaDescription": "خطط وجبات متوسطية نباتية أسبوعية مع فيتا وحمص وأوعية حبوب وخضروات مشوية. أكل صحي للقلب بدون لحوم.",
     "h1": "خطط وجبات متوسطية نباتية — طازجة وبسيطة ومشبعة",
-    "intro": "The Mediterranean diet already puts vegetables, grains, and legumes at its center — removing meat just brings those ingredients further into the spotlight. Our vegetarian Mediterranean plans pair eggs, cheese, and yogurt with the olive oil, fresh herbs, and seasonal produce that define this world-renowned eating style.",
+    "intro": "يضع النظام الغذائي المتوسطي بالفعل الخضروات والحبوب والبقوليات في مركزه — إزالة اللحم فحسب تُبرز تلك المكونات أكثر. تُزاوج خططنا المتوسطية النباتية بين البيض والجبن والزبادي ومع زيت الزيتون والأعشاب الطازجة والمنتجات الموسمية التي تُعرَّف بها هذه الطريقة الغذائية الشهيرة عالمياً.",
     "valueProps": [
       {
-        "heading": "Eggs and Cheese Add Richness",
-        "description": "Feta, halloumi, ricotta, and eggs provide satisfying protein and flavor that keep vegetarian Mediterranean meals from feeling light on substance."
+        "heading": "البيض والجبن يُضيفان الثراء",
+        "description": "الفيتا والهالومي والريكوتا والبيض توفر بروتيناً مُشبِعاً ونكهة تمنع الوجبات المتوسطية النباتية من الشعور بالخفة."
       },
       {
-        "heading": "Grain Bowls and Salads That Fill You Up",
-        "description": "Farro, quinoa, bulgur, and freekeh make hearty bases that keep you full, paired with roasted vegetables and tangy dressings."
+        "heading": "أطباق حبوب وسلطات تُشبع",
+        "description": "الفارو والكينوا والبرغل والفريكة قواعد دسمة تُبقيك ممتلئاً، مقترنةً بالخضروات المشوية والصلصات اللاذعة."
       },
       {
-        "heading": "Heart-Healthy by Design",
-        "description": "The Mediterranean eating pattern is the most-studied diet for cardiovascular health, and the vegetarian version amplifies those benefits."
+        "heading": "صحة القلب بتصميم قصدي",
+        "description": "نمط الأكل المتوسطي هو الأكثر دراسةً لصحة القلب والأوعية الدموية، والنسخة النباتية تُعزز تلك الفوائد."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Spanakopita (Greek Spinach Pie)",
-        "description": "Flaky phyllo dough filled with spinach, feta, dill, and scallions, baked until golden and crispy.",
+        "name": "سبانكوبيتا (فطيرة السبانخ الإغريقية)",
+        "description": "عجين فيلو ورقي محشو بالسبانخ والفيتا والشبت والبصل الأخضر، مخبوز حتى يصبح ذهبياً مقرمشاً.",
         "tags": [
           "vegetarian",
           "mediterranean",
@@ -2517,8 +2515,8 @@
         ]
       },
       {
-        "name": "Shakshuka with Crusty Bread",
-        "description": "Eggs poached in a spiced tomato and pepper sauce with cumin, paprika, and a crumble of feta, served with sourdough.",
+        "name": "شكشوكة مع خبز مقرمش",
+        "description": "بيض مطهو في صلصة طماطم وفلفل متبلة بالكمون والبابريكا مع فتات فيتا، تُقدم مع خبز محمص.",
         "tags": [
           "vegetarian",
           "mediterranean",
@@ -2526,8 +2524,8 @@
         ]
       },
       {
-        "name": "Grilled Halloumi and Roasted Vegetable Platter",
-        "description": "Slabs of grilled halloumi alongside roasted eggplant, zucchini, bell peppers, and cherry tomatoes with a lemon-herb drizzle.",
+        "name": "طبق هالومي مشوي مع خضروات محمصة",
+        "description": "قطع هالومي مشوية جانب باذنجان وكوسا وفلفل حلو وطماطم كرزية محمصة مع رذاذ الأعشاب والليمون.",
         "tags": [
           "vegetarian",
           "mediterranean",
@@ -2536,8 +2534,8 @@
         ]
       },
       {
-        "name": "Freekeh Tabbouleh with Pomegranate",
-        "description": "Smoky freekeh mixed with parsley, mint, tomato, cucumber, and pomegranate seeds in a lemon-olive oil dressing.",
+        "name": "تبولة الفريكة بالرمان",
+        "description": "فريكة مدخنة مخلوطة بالبقدونس والنعناع والطماطم والخيار وبذور الرمان في تتبيلة زيت زيتون وليمون.",
         "tags": [
           "vegetarian",
           "mediterranean",
@@ -2545,8 +2543,8 @@
         ]
       },
       {
-        "name": "Stuffed Grape Leaves with Rice and Herbs",
-        "description": "Tender grape leaves rolled around seasoned rice with dill, mint, and pine nuts, braised in olive oil and lemon juice.",
+        "name": "ورق عنب محشو بالأرز والأعشاب",
+        "description": "أوراق عنب طرية ملفوفة حول أرز متبل بالشبت والنعناع وحبات الصنوبر، مطهوة بزيت الزيتون وعصير الليمون.",
         "tags": [
           "vegetarian",
           "mediterranean",
@@ -2556,20 +2554,20 @@
     ],
     "faqs": [
       {
-        "question": "Is the Mediterranean diet good for vegetarians?",
-        "answer": "It is one of the best diets for vegetarians. The Mediterranean eating pattern is already plant-forward, with vegetables, legumes, grains, and olive oil at its core. Adding eggs and dairy provides complete protein without relying on meat or processed substitutes."
+        "question": "هل النظام المتوسطي جيد للنباتيين؟",
+        "answer": "هو من أفضل الأنظمة الغذائية للنباتيين. نمط الأكل المتوسطي نباتي التوجه أصلاً، إذ تتصدره الخضروات والبقوليات والحبوب وزيت الزيتون. إضافة البيض ومنتجات الألبان يوفر بروتيناً كاملاً دون الحاجة إلى لحم أو بدائل مصنعة."
       },
       {
-        "question": "What do vegetarian Mediterranean meals look like for a week?",
-        "answer": "A typical week includes shakshuka for breakfast, grain bowls and salads for lunch, and dishes like spanakopita, stuffed peppers, or risotto for dinner. Snacks are hummus with vegetables, olives, nuts, and fresh fruit."
+        "question": "كيف تبدو الوجبات المتوسطية النباتية على مدى أسبوع؟",
+        "answer": "أسبوع نموذجي يتضمن شكشوكة للإفطار، وأطباق حبوب وسلطات للغداء، وأطباق كسبانكوبيتا وفلفل محشو أو ريزوتو للعشاء. الوجبات الخفيفة هي حمص مع خضروات وزيتون ومكسرات وفواكه طازجة."
       },
       {
-        "question": "Can I lose weight on a vegetarian Mediterranean diet?",
-        "answer": "Yes. The Mediterranean diet is associated with sustainable weight management. The emphasis on fiber-rich vegetables, whole grains, and healthy fats promotes satiety. Removing meat naturally reduces calorie-dense options."
+        "question": "هل يمكنني إنقاص الوزن باتباع نظام البحر المتوسط النباتي؟",
+        "answer": "نعم. يرتبط النظام المتوسطي بإدارة الوزن بصورة مستدامة. التركيز على الخضروات الغنية بالألياف والحبوب الكاملة والدهون الصحية يُعزز الشبع. الاستغناء عن اللحم يُقلل تلقائياً من الخيارات الغنية بالسعرات."
       },
       {
-        "question": "How is vegetarian Mediterranean different from vegan Mediterranean?",
-        "answer": "Vegetarian Mediterranean includes eggs, cheese (feta, halloumi, ricotta), yogurt, and honey. Vegan Mediterranean excludes all animal products. The vegetarian version is easier to follow for most people due to the added protein and flavor from dairy and eggs."
+        "question": "ما الفرق بين المتوسطي النباتي والمتوسطي النباتي الصارم؟",
+        "answer": "المتوسطي النباتي يتضمن البيض والجبن (الفيتا والهالومي والريكوتا) والزبادي والعسل. المتوسطي النباتي الصارم يستبعد جميع المنتجات الحيوانية. النسخة النباتية أسهل في الاتباع لمعظم الناس بفضل البروتين الإضافي والنكهة من منتجات الألبان والبيض."
       }
     ]
   },
@@ -2577,25 +2575,25 @@
     "title": "خطط وجبات آسيوية خالية من الغلوتين",
     "metaDescription": "خطط وجبات آسيوية خالية من الغلوتين مع أطباق أرز ومقليات وشوربات. تجنّب فخاخ صلصة الصويا والغلوتين الخفي بثقة.",
     "h1": "خطط وجبات آسيوية خالية من الغلوتين — تجنّب الغلوتين الخفي كمحترف",
-    "intro": "Asian cuisine offers incredible variety for gluten-free eaters — rice is the default starch in most of Asia, and many dishes are naturally wheat-free. The tricky part is soy sauce (which contains wheat), some noodles, and hidden thickeners. Our gluten-free Asian plans handle all of that, so you can enjoy bold Asian flavors without the worry.",
+    "intro": "يوفر المطبخ الآسيوي تنوعاً هائلاً لمن يتجنب الغلوتين — الأرز هو النشا الافتراضي في معظم دول آسيا، وكثير من الأطباق خالية من القمح بطبيعتها. المعضلة تكمن في صلصة الصويا (التي تحتوي على قمح) وبعض أنواع الشعيرية والمكثفات المخفية. خططنا الآسيوية الخالية من الغلوتين تتولى كل ذلك لتتمتع بنكهات آسيوية جريئة دون قلق.",
     "valueProps": [
       {
-        "heading": "Soy Sauce Solved",
-        "description": "Every recipe uses tamari or coconut aminos instead of regular soy sauce, so you get the umami without any wheat."
+        "heading": "حُلَّت مشكلة صلصة الصويا",
+        "description": "تستخدم كل وصفة التاماري أو أمينو جوز الهند بدلاً من صلصة الصويا العادية، لتحصل على الأومامي دون أي قمح."
       },
       {
-        "heading": "Rice-Based by Default",
-        "description": "Most Asian cuisines center on rice, rice noodles, or rice paper — all naturally gluten-free. We lean into this advantage."
+        "heading": "الأرز الأساس دائماً",
+        "description": "تعتمد معظم المطابخ الآسيوية على الأرز وشعيرية الأرز وورق الأرز — وكلها خالية من الغلوتين بطبيعتها. نستثمر هذه الميزة."
       },
       {
-        "heading": "Hidden Gluten Flagged",
-        "description": "We call out and replace hidden gluten sources like oyster sauce, hoisin, and wheat-based dumpling wrappers."
+        "heading": "الغلوتين المخفي تحت الضوء",
+        "description": "نكشف ونستبدل مصادر الغلوتين المخفية كصلصة المحار والهويسن وأغلفة الزلابية القائمة على القمح."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Chicken Pad See Ew with Rice Noodles",
-        "description": "Wide rice noodles stir-fried with chicken, Chinese broccoli, egg, and a sweet-savory tamari-based sauce.",
+        "name": "دجاج باد سي يو بشعيرية الأرز",
+        "description": "شعيرية أرز عريضة مقلية مع الدجاج والقرنبيط الصيني والبيض وصلصة تاماري حلوة مالحة.",
         "tags": [
           "gluten-free",
           "asian",
@@ -2604,8 +2602,8 @@
         ]
       },
       {
-        "name": "Vietnamese Pho with Beef",
-        "description": "Rich beef bone broth ladled over rice noodles with thinly sliced beef, bean sprouts, Thai basil, and lime.",
+        "name": "فو بقري فيتنامي",
+        "description": "مرق عظام بقري دسم يُسكب فوق شعيرية أرز مع شرائح لحم رفيعة وبراعم فول وريحان تايلاندي وليمون.",
         "tags": [
           "gluten-free",
           "asian",
@@ -2614,8 +2612,8 @@
         ]
       },
       {
-        "name": "Japanese Onigiri (Rice Balls)",
-        "description": "Seasoned sushi rice shaped into triangles, filled with salmon and wrapped in nori, with tamari for dipping.",
+        "name": "أونيغيري ياباني (كرات الأرز)",
+        "description": "أرز سوشي متبل ومُشكَّل مثلثات، محشو بالسلمون ومغلف بالنوري، مع تاماري للتغميس.",
         "tags": [
           "gluten-free",
           "asian",
@@ -2624,8 +2622,8 @@
         ]
       },
       {
-        "name": "Korean Bibimbap",
-        "description": "Rice bowl topped with seasoned vegetables, a fried egg, beef, and gochujang (verified gluten-free), mixed tableside.",
+        "name": "بيبيمباب كوري",
+        "description": "طبق أرز مُعلاه خضروات متبلة وبيضة مقلية ولحم وغوتشوجانغ (خالٍ من الغلوتين موثق)، يُخلط على المائدة.",
         "tags": [
           "gluten-free",
           "asian",
@@ -2634,8 +2632,8 @@
         ]
       },
       {
-        "name": "Thai Green Papaya Salad (Som Tum)",
-        "description": "Shredded green papaya pounded with tomatoes, green beans, peanuts, lime, chili, and a tamari-based dressing.",
+        "name": "سلطة البابايا الخضراء التايلاندية (سوم توم)",
+        "description": "بابايا خضراء مقطعة تُدق مع طماطم وفاصوليا خضراء وفول سوداني وليمون وفلفل حار وصلصة تاماري.",
         "tags": [
           "gluten-free",
           "asian",
@@ -2646,20 +2644,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Asian food gluten-free?",
-        "answer": "Many Asian dishes are naturally gluten-free since rice (not wheat) is the primary starch across most of Asia. However, soy sauce contains wheat, and many sauces, noodles, and coatings use wheat flour. The key is knowing what to swap and what to avoid."
+        "question": "هل الطعام الآسيوي خالٍ من الغلوتين؟",
+        "answer": "كثير من الأطباق الآسيوية خالية من الغلوتين بطبيعتها إذ يعتمد الأرز (لا القمح) على النشا الرئيسي في معظم دول آسيا. غير أن صلصة الصويا تحتوي على قمح، وكثير من الصلصات والشعيرية وطبقات التغليف تستخدم دقيق القمح. المفتاح هو معرفة ما يُستبدل وما يُتجنب."
       },
       {
-        "question": "Is soy sauce gluten-free?",
-        "answer": "Regular soy sauce (like Kikkoman) contains wheat and is not gluten-free. Tamari is a Japanese soy sauce traditionally made without wheat — always check the label for 'gluten-free' certification. Coconut aminos are another safe alternative."
+        "question": "هل صلصة الصويا خالية من الغلوتين؟",
+        "answer": "صلصة الصويا العادية (كيكومان) تحتوي على قمح وليست خالية من الغلوتين. التاماري صلصة صويا يابانية مصنوعة تقليدياً بلا قمح — تحقق دائماً من ملصق 'خالٍ من الغلوتين'. أمينو جوز الهند بديل آمن آخر."
       },
       {
-        "question": "What Asian noodles are gluten-free?",
-        "answer": "Rice noodles (pad thai, pho, rice vermicelli), glass noodles (mung bean), shirataki noodles (konjac), and sweet potato noodles (japchae) are all gluten-free. Avoid ramen, udon, soba (unless 100% buckwheat), and egg noodles."
+        "question": "ما شعيرية الأرز الخالية من الغلوتين؟",
+        "answer": "شعيرية الأرز (باد تاي وفو وشعيرية الأرز الرفيعة) والشعيرية الزجاجية (فول ماش) وشعيرية شيراتاكي (كونجاك) وشعيرية البطاطا الحلوة (جابتشيه) كلها خالية من الغلوتين. تجنب الرامن والأودون والسوبا (إلا إذا كانت 100% حنطة سوداء) وشعيرية البيض."
       },
       {
-        "question": "Can I eat sushi if I am gluten-free?",
-        "answer": "Yes, with precautions. Sushi rice, fish, and nori are gluten-free. Use tamari instead of soy sauce, avoid tempura rolls, and ask about imitation crab (which often contains wheat). Sashimi is the safest option."
+        "question": "هل يمكنني تناول السوشي وأنا أتجنب الغلوتين؟",
+        "answer": "نعم، مع بعض الاحتياطات. أرز السوشي والسمك والنوري خالية من الغلوتين. استخدم التاماري بدلاً من صلصة الصويا، وتجنب لفائف التمبورا، واستفسر عن السرطان الاصطناعي (الذي كثيراً ما يحتوي على قمح). السشيمي الخيار الأأمن."
       }
     ]
   },
@@ -2667,25 +2665,25 @@
     "title": "خطط وجبات إيطالية خالية من الغلوتين",
     "metaDescription": "خطط وجبات إيطالية خالية من الغلوتين مع باستا خالية من الغلوتين وريزوتو وبولنتا. استمتع بالأطباق الإيطالية بدون قمح.",
     "h1": "خطط وجبات إيطالية خالية من الغلوتين — نعم يمكنك أكل الباستا",
-    "intro": "Italian food and gluten seem inseparable — until you discover risotto, polenta, GF pasta, and the countless Italian dishes that never needed wheat in the first place. Our gluten-free Italian plans prove you can eat like you are in Rome without a single grain of wheat touching your plate.",
+    "intro": "يبدو الطعام الإيطالي والغلوتين لازمَين لبعضهما — حتى تكتشف الريزوتو والبوليندا ومعكرونة خالية من الغلوتين والأطباق الإيطالية العديدة التي لم تحتج القمح أصلاً. تُثبت خططنا الإيطالية الخالية من الغلوتين أنك تستطيع الأكل كأنك في روما دون أن تمس حبة قمح واحدة.",
     "valueProps": [
       {
-        "heading": "GF Pasta That Actually Works",
-        "description": "We use top-quality rice, corn, and legume-based pastas that hold their shape and sauce — no mushy disappointments."
+        "heading": "معكرونة خالية من الغلوتين تعمل فعلاً",
+        "description": "نستخدم أفضل معكروناتٍ الأرز والذرة والبقوليات عالية الجودة التي تحتفظ بشكلها وصلصتها — لا خيبات أمل هشة."
       },
       {
-        "heading": "Risotto and Polenta Are Your Friends",
-        "description": "Two of Italy's greatest comfort foods are naturally gluten-free. We feature them heavily so you never feel limited."
+        "heading": "الريزوتو والبوليندا أصدقاؤك",
+        "description": "طعامان من أعظم أطباق الراحة الإيطالية خاليان من الغلوتين بطبيعتهما. نُبرزهما بشدة حتى لا تشعر بأي قيود."
       },
       {
-        "heading": "Beyond Pasta Substitutes",
-        "description": "Many iconic Italian dishes — osso buco, chicken cacciatore, caprese — never needed wheat. We highlight these hidden gems."
+        "heading": "أبعد من بدائل المعكرونة",
+        "description": "أطباق إيطالية أيقونية كثيرة — أوسو بوكو ودجاج كاتشاتوري وكابريزي — لم تحتج إلى القمح أصلاً. نُسلط الضوء على هذه الجواهر المخفية."
       }
     ],
     "sampleMeals": [
       {
-        "name": "GF Penne with Roasted Tomato and Basil Sauce",
-        "description": "Brown rice penne tossed with slow-roasted cherry tomatoes, garlic, fresh basil, and a glug of extra virgin olive oil.",
+        "name": "بيني أرز بصلصة الطماطم الكرزية المحمصة والريحان",
+        "description": "بيني أرز بني يُقلب مع طماطم كرزية محمصة ببطء وثوم وريحان طازج ورشة زيت زيتون بكر ممتاز.",
         "tags": [
           "gluten-free",
           "italian",
@@ -2693,8 +2691,8 @@
         ]
       },
       {
-        "name": "Creamy Polenta with Mushroom Ragu",
-        "description": "Soft, buttery polenta topped with a slow-simmered mushroom and tomato ragu with rosemary and thyme.",
+        "name": "بوليندا كريمية مع راغو المشروم",
+        "description": "بوليندا ناعمة زبدية مُعلاها راغو مشروم وطماطم بطيء الطهي مع إكليل الجبل والزعتر.",
         "tags": [
           "gluten-free",
           "italian",
@@ -2703,8 +2701,8 @@
         ]
       },
       {
-        "name": "Italian Egg Muffins with Sun-Dried Tomato",
-        "description": "Baked egg cups with sun-dried tomatoes, mozzarella, and fresh basil — portable and perfectly Italian.",
+        "name": "مافن بيض إيطالي بالطماطم المجففة",
+        "description": "كوبات بيض مخبوزة بالطماطم المجففة والموزاريلا والريحان الطازج — محمولة وبنكهة إيطالية مثالية.",
         "tags": [
           "gluten-free",
           "italian",
@@ -2712,8 +2710,8 @@
         ]
       },
       {
-        "name": "Caprese Salad with Burrata",
-        "description": "Creamy burrata over heirloom tomatoes with fresh basil, flaky salt, cracked pepper, and aged balsamic.",
+        "name": "سلطة كابريزي بالبوراتا",
+        "description": "بوراتا كريمية فوق طماطم هيرلووم مع ريحان طازج وملح رقيق وفلفل مطحون وخل بلسمي معتق.",
         "tags": [
           "gluten-free",
           "italian",
@@ -2722,8 +2720,8 @@
         ]
       },
       {
-        "name": "Chicken Piccata with Lemon-Caper Sauce",
-        "description": "Pan-seared chicken cutlets dredged in rice flour, finished with a bright lemon, butter, and caper pan sauce.",
+        "name": "دجاج بيكاتا بصلصة الليمون والكبر",
+        "description": "شرائح دجاج محمرة مغمسة في دقيق أرز، تُنهى بصلصة مقلاة مشرقة من الليمون والزبدة والكبر.",
         "tags": [
           "gluten-free",
           "italian",
@@ -2733,20 +2731,20 @@
     ],
     "faqs": [
       {
-        "question": "Can you eat Italian food if you are gluten-free?",
-        "answer": "Absolutely. While pasta and bread are Italian staples, the cuisine also offers risotto, polenta, grilled meats, seafood, salads, and vegetable dishes that are naturally gluten-free. Plus, high-quality GF pasta has gotten remarkably good."
+        "question": "هل يمكنك تناول الطعام الإيطالي وأنت تتجنب الغلوتين؟",
+        "answer": "بالتأكيد. بينما المعكرونة والخبز من الأساسيات الإيطالية، تُقدم هذه المطبخ أيضاً الريزوتو والبوليندا واللحوم المشوية والمأكولات البحرية والسلطات والأطباق النباتية الخالية من الغلوتين بطبيعتها. فضلاً عن ذلك، أصبحت معكرونة الغلوتين المجانية عالية الجودة جيدة بشكل لافت."
       },
       {
-        "question": "What is the best gluten-free pasta for Italian recipes?",
-        "answer": "Brown rice pasta and corn-rice blends hold up best. Brands like Jovial, Barilla GF, and Banza (chickpea) are widely available. The key is cooking al dente and rinsing briefly — overcooking is the main reason GF pasta turns mushy."
+        "question": "ما أفضل معكرونة خالية من الغلوتين للوصفات الإيطالية؟",
+        "answer": "معكرونة الأرز البني ومزج الذرة والأرز هي الأفضل تماسكاً. ماركات مثل جوفيال وباريلا GF وبانزا (الحمص) متوفرة على نطاق واسع. المفتاح هو الطهي حتى مرحلة الألدنتي والشطف السريع — الإفراط في الطهي هو السبب الرئيسي لتحول المعكرونة الخالية من الغلوتين إلى هريسة."
       },
       {
-        "question": "Is risotto gluten-free?",
-        "answer": "Yes. Risotto is made with arborio or carnaroli rice, broth, butter, and parmesan — all naturally gluten-free. Just ensure your broth is GF (some commercial broths contain wheat-based additives)."
+        "question": "هل الريزوتو خالٍ من الغلوتين؟",
+        "answer": "نعم. يُصنع الريزوتو من أرز أربوريو أو كارناروللي والمرق والزبدة والبارميزان — وكلها خالية من الغلوتين بطبيعتها. تأكد فقط من أن مرقك خالٍ من الغلوتين (بعض المراق التجارية تحتوي على مضافات من القمح)."
       },
       {
-        "question": "Is Italian bread available gluten-free?",
-        "answer": "GF focaccia and ciabatta are available from specialty bakeries and can be made at home with rice flour and tapioca starch. They are not identical to wheat bread but pair well with soups, salads, and dipping oils."
+        "question": "هل الخبز الإيطالي متاح بلا غلوتين؟",
+        "answer": "الفوكاتشا والتشياباتا الخاليتان من الغلوتين متوفرتان في المخابز المتخصصة ويمكن صنعهما منزلياً بدقيق الأرز ونشا التابيوكا. ليستا مطابقتين لخبز القمح لكنهما تتناسبان جيداً مع الحساءات والسلطات وزيوت التغميس."
       }
     ]
   },
@@ -2754,25 +2752,25 @@
     "title": "خطط وجبات مكسيكية خالية من الغلوتين",
     "metaDescription": "خطط وجبات مكسيكية خالية من الغلوتين مع تورتيلا ذرة وتاكو وصلصات طازجة. نكهات مكسيكية أصيلة خالية طبيعياً من القمح.",
     "h1": "خطط وجبات مكسيكية خالية من الغلوتين — الذرة هي الملك",
-    "intro": "Here is the good news: traditional Mexican cuisine is built on corn, not wheat. Corn tortillas, tamales, tostadas, and sopes are all naturally gluten-free. The pitfalls are flour tortillas, beer-battered items, and some store-bought spice mixes. Our plans stick to authentic corn-based Mexican cooking and flag every hidden gluten source.",
+    "intro": "هذه هي البشرى الطيبة: المطبخ المكسيكي التقليدي مبني على الذرة لا القمح. التورتيا الذرة والتامالي والتوستادا والسوبيس كلها خالية من الغلوتين بطبيعتها. المزالق هي تورتيا الطحين والأطعمة المُغمسة في العجين وبعض خلطات التوابل التجارية. تتمسك خططنا بالطبخ المكسيكي الأصيل القائم على الذرة وترصد كل مصدر خفي للغلوتين.",
     "valueProps": [
       {
-        "heading": "Corn Tortillas Are the Real Deal",
-        "description": "Authentic Mexican food uses corn masa, not wheat flour. Our plans center on corn tortillas, tostadas, and tamales — the way it was always meant to be."
+        "heading": "تورتيا الذرة هي الأصل",
+        "description": "الطعام المكسيكي الأصيل يستخدم عجين الذرة (ماسا) لا دقيق القمح. تتمحور خططنا حول تورتيا الذرة والتوستادا والتامالي — كما كان دائماً."
       },
       {
-        "heading": "Naturally GF Cuisine",
-        "description": "Rice, beans, grilled meats, salsas, guacamole, and most Mexican staples are inherently wheat-free. Very few swaps needed."
+        "heading": "مطبخ خالٍ من الغلوتين بطبيعته",
+        "description": "الأرز والفاصوليا واللحوم المشوية والصلصات والغواكامولي ومعظم الأساسيات المكسيكية خالية من القمح بطبيعتها. تكاد الاستبدالات لا تُذكر."
       },
       {
-        "heading": "Cross-Contamination Awareness",
-        "description": "We flag common sources of hidden gluten in Mexican cooking: flour tortillas at taquerias, beer batters, and packaged seasoning mixes."
+        "heading": "الوعي بالتلوث التبادلي",
+        "description": "نرصد المصادر الشائعة للغلوتين المخفي في الطبخ المكسيكي: تورتيا الطحين في المطاعم وعجين الجعة وخلطات البهارات المعبأة."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Street-Style Corn Tortilla Tacos",
-        "description": "Double-stacked corn tortillas with grilled chicken, diced white onion, cilantro, lime, and salsa verde.",
+        "name": "تاكو تورتيا ذرة على الطريقة الشعبية",
+        "description": "تورتيا ذرة مزدوجة مع دجاج مشوي وبصل أبيض مفروم وكزبرة وليمون وصلصة خضراء.",
         "tags": [
           "gluten-free",
           "mexican",
@@ -2780,8 +2778,8 @@
         ]
       },
       {
-        "name": "Chilaquiles with Fried Eggs",
-        "description": "Crispy corn tortilla chips simmered in red salsa, topped with fried eggs, crema, queso fresco, and sliced avocado.",
+        "name": "تشيلاكيلس مع بيض مقلي",
+        "description": "رقائق تورتيا ذرة مقرمشة مُغمَّرة في صلصة حمراء ومُعلاها بيض مقلي وقشدة وجبن فريسكو وشرائح أفوكادو.",
         "tags": [
           "gluten-free",
           "mexican",
@@ -2789,8 +2787,8 @@
         ]
       },
       {
-        "name": "Black Bean and Sweet Potato Enchiladas",
-        "description": "Corn tortillas rolled with mashed black beans and roasted sweet potato, covered in enchilada sauce and melted cheese.",
+        "name": "إنشيلادا فاصوليا سوداء وبطاطا حلوة",
+        "description": "تورتيا ذرة ملفوفة بهريس الفاصوليا السوداء والبطاطا الحلوة المحمصة، مغطاة بصلصة إنشيلادا وجبن مذاب.",
         "tags": [
           "gluten-free",
           "mexican",
@@ -2798,8 +2796,8 @@
         ]
       },
       {
-        "name": "Ceviche Tostadas",
-        "description": "Crispy corn tostadas topped with lime-cured shrimp, avocado, red onion, cucumber, and serrano chili.",
+        "name": "توستادا السيفيتشي",
+        "description": "توستادا ذرة مقرمشة مُعلاها روبيان متبل بالليمون وأفوكادو وبصل أحمر وخيار وفلفل سيرانو.",
         "tags": [
           "gluten-free",
           "mexican",
@@ -2807,8 +2805,8 @@
         ]
       },
       {
-        "name": "Mexican Rice and Bean Bowl",
-        "description": "Cilantro-lime rice with seasoned pinto beans, grilled peppers, corn, pico de gallo, and a drizzle of crema.",
+        "name": "طبق أرز وفاصوليا مكسيكي",
+        "description": "أرز بالكزبرة والليمون مع فاصوليا بينتو متبلة وفلفل مشوي وذرة وبيكو دي غايو ورذاذ قشدة.",
         "tags": [
           "gluten-free",
           "mexican",
@@ -2819,20 +2817,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Mexican food gluten-free?",
-        "answer": "Traditional Mexican food is largely gluten-free. Corn tortillas, rice, beans, salsas, and grilled meats are all wheat-free. The main items to avoid are flour tortillas, beer-battered items (like fish tacos with tempura), and some packaged seasonings that contain wheat fillers."
+        "question": "هل الطعام المكسيكي خالٍ من الغلوتين؟",
+        "answer": "الطعام المكسيكي التقليدي خالٍ من الغلوتين في معظمه. تورتيا الذرة والأرز والفاصوليا والصلصات واللحوم المشوية كلها خالية من القمح. الأصناف الرئيسية التي يجب تجنبها هي تورتيا الطحين والأطعمة المغمسة في عجين الجعة (كتاكو السمك بالتمبورا) وبعض البهارات المعبأة التي تحتوي على حشو من القمح."
       },
       {
-        "question": "Are corn tortillas always gluten-free?",
-        "answer": "Pure corn tortillas made from masa harina and water are gluten-free. However, some commercial brands add wheat flour for flexibility. Always check the label, or buy from a tortilleria that uses 100% corn masa."
+        "question": "هل تورتيا الذرة دائماً خالية من الغلوتين؟",
+        "answer": "تورتيا الذرة النقية المصنوعة من ماسا هارينا والماء خالية من الغلوتين. غير أن بعض الماركات التجارية تضيف دقيق القمح لزيادة المرونة. تحقق دائماً من الملصق، أو اشترِ من مصنع تورتيا يستخدم 100% ذرة."
       },
       {
-        "question": "Is queso dip gluten-free?",
-        "answer": "Homemade queso made from melted cheese is naturally gluten-free. Restaurant and jarred versions sometimes use wheat flour as a thickener. Ask about ingredients or make your own with real cheese, peppers, and a splash of milk."
+        "question": "هل صلصة الجبن (كيسو) خالية من الغلوتين؟",
+        "answer": "كيسو منزلي الصنع من الجبن المذاب خالٍ من الغلوتين بطبيعته. الإصدارات التجارية والمطاعم تستخدم أحياناً دقيق القمح كمكثف. استفسر عن المكونات أو اصنعه بنفسك بجبن حقيقي وفلفل ورشة حليب."
       },
       {
-        "question": "Can celiacs eat at Mexican restaurants?",
-        "answer": "Yes, with caution. Stick to corn tortilla dishes, grilled meats, rice, beans, and fresh salsas. Ask about shared fryers (flour tortillas may be fried in the same oil) and confirm that no flour thickeners are used in sauces."
+        "question": "هل يستطيع مرضى الداء الزلاقي تناول الطعام في مطاعم مكسيكية؟",
+        "answer": "نعم، بحذر. التزم بأطباق التورتيا الذرة واللحوم المشوية والأرز والفاصوليا والصلصات الطازجة. اسأل عن المقالي المشتركة (قد تُقلى تورتيا الطحين في نفس الزيت) وتأكد من عدم استخدام مكثفات من الدقيق في الصلصات."
       }
     ]
   },
@@ -2840,25 +2838,25 @@
     "title": "خطط وجبات متوسطية حلال",
     "metaDescription": "خطط وجبات متوسطية حلال أسبوعية مع لحوم مشوية وحمص وسلطات طازجة. وصفات حلال مستوحاة من ساحل المتوسط.",
     "h1": "خطط وجبات متوسطية حلال — من المشرق إلى مائدتك",
-    "intro": "Mediterranean and halal cooking share deep roots — much of the eastern Mediterranean coast is historically Muslim, and dishes like shawarma, fattoush, and kibbeh are both Mediterranean and halal by nature. Our plans bring together the best of both worlds: heart-healthy Mediterranean eating with strict halal compliance.",
+    "intro": "يتشارك الطبخ المتوسطي والحلال جذوراً عميقة — فمعظم الساحل الشرقي للبحر المتوسط إسلامي تاريخياً، وأطباق كالشاورما والفتوش والكبة متوسطية وحلال في آنٍ واحد بطبيعتها. تجمع خططنا بين أفضل العالمين: الأكل الصحي المتوسطي مع الالتزام الكامل بالحلال.",
     "valueProps": [
       {
-        "heading": "Naturally Halal Overlap",
-        "description": "Levantine, Turkish, and North African cuisines are simultaneously Mediterranean and halal — no awkward substitutions needed."
+        "heading": "تداخل حلال بطبيعته",
+        "description": "المطابخ الشامية والتركية والشمال أفريقية متوسطية وحلال في آنٍ واحد — لا حاجة لاستبدالات محرجة."
       },
       {
-        "heading": "No Alcohol in Cooking",
-        "description": "We replace wine-based sauces and deglazing with pomegranate molasses, vinegar, and citrus for the same depth of flavor."
+        "heading": "لا كحول في الطبخ",
+        "description": "نستبدل صلصات النبيذ ورفع الترسبات بدبس الرمان والخل وعصير الحمضيات للحصول على الغنى ذاته في النكهة."
       },
       {
-        "heading": "Halal Meat Done Right",
-        "description": "Our recipes specify cuts and preparation methods that work with halal butcher shops, including proper marination times for tougher cuts."
+        "heading": "اللحم الحلال بأفضل تقنيات الطهي",
+        "description": "تحدد وصفاتنا القطع وأساليب التحضير التي تناسب محلات اللحوم الحلال، بما في ذلك أوقات التتبيل المناسبة للقطع الأصعب."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Chicken Shawarma Plate",
-        "description": "Thinly sliced halal chicken shawarma with garlic sauce, pickled turnips, hummus, and warm pita bread.",
+        "name": "طبق شاورما دجاج",
+        "description": "شاورما دجاج حلال مقطع بتشكيلة رقيقة مع صلصة ثوم وفجل مخلل وحمص وخبز بيتا دافئ.",
         "tags": [
           "halal",
           "mediterranean",
@@ -2866,8 +2864,8 @@
         ]
       },
       {
-        "name": "Lamb Kofta with Tabbouleh",
-        "description": "Grilled halal lamb kofta skewers seasoned with cumin and parsley, served alongside fresh parsley-bulgur tabbouleh.",
+        "name": "كفتة ضأن مع التبولة",
+        "description": "أسياخ كفتة لحم ضأن حلال متبل بالكمون والبقدونس، يُقدم مع تبولة بالبرغل والبقدونس الطازج.",
         "tags": [
           "halal",
           "mediterranean",
@@ -2875,8 +2873,8 @@
         ]
       },
       {
-        "name": "Ful Medames (Fava Bean Breakfast)",
-        "description": "Slow-cooked fava beans mashed with olive oil, lemon, cumin, and garlic, topped with a boiled egg and served with flatbread.",
+        "name": "فول مدمس (إفطار الفول)",
+        "description": "فول مدمس مطهو ببطء مهروس بزيت الزيتون والليمون والكمون والثوم، مُعلاه بيضة مسلوقة مع الخبز.",
         "tags": [
           "halal",
           "mediterranean",
@@ -2884,8 +2882,8 @@
         ]
       },
       {
-        "name": "Grilled Sea Bass with Chermoula",
-        "description": "Whole grilled sea bass marinated in a North African chermoula of cilantro, cumin, paprika, lemon, and olive oil.",
+        "name": "سمك البحر (قاروص) مشوي بالشيرمولا",
+        "description": "سمك قاروص كامل متبل بالشيرمولا الشمال أفريقية من الكزبرة والكمون والبابريكا والليمون وزيت الزيتون، مشوي على الجمر.",
         "tags": [
           "halal",
           "mediterranean",
@@ -2894,8 +2892,8 @@
         ]
       },
       {
-        "name": "Fattoush Salad with Sumac Dressing",
-        "description": "Crispy pita chips tossed with romaine, tomatoes, radishes, cucumber, and mint in a tangy sumac-lemon dressing.",
+        "name": "سلطة فتوش بصلصة الصماق",
+        "description": "رقائق خبز بيتا مقرمشة مع رومان وطماطم وفجل وخيار ونعناع في صلصة صماق وليمون لاذعة.",
         "tags": [
           "halal",
           "mediterranean",
@@ -2905,20 +2903,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Mediterranean food halal?",
-        "answer": "Much of it naturally is. Eastern Mediterranean cuisines (Lebanese, Turkish, Egyptian, Moroccan) are traditionally halal. Western Mediterranean food (Italian, French, Spanish) may include pork and alcohol in cooking, which need to be substituted."
+        "question": "هل الطعام المتوسطي حلال؟",
+        "answer": "كثير منه حلال بطبيعته. المطابخ الشرق متوسطية (اللبنانية والتركية والمصرية والمغربية) حلال بطبيعتها. الطعام الغرب متوسطي (الإيطالي والفرنسي والإسباني) قد يتضمن لحم خنزير وكحول في الطبخ يحتاجان إلى استبدال."
       },
       {
-        "question": "What replaces wine in halal Mediterranean cooking?",
-        "answer": "Pomegranate molasses, red grape juice, balsamic vinegar, and lemon juice are excellent substitutes. For deglazing pans, chicken broth with a splash of vinegar works perfectly."
+        "question": "بم يُستبدل النبيذ في الطبخ المتوسطي الحلال؟",
+        "answer": "دبس الرمان وعصير العنب الأحمر وخل البلسميك وعصير الليمون بدائل ممتازة. لرفع الترسبات في المقلاة، يعمل مرق الدجاج مع رشة خل بشكل مثالي."
       },
       {
-        "question": "Where do I find halal meat for Mediterranean recipes?",
-        "answer": "Halal butcher shops, many Middle Eastern grocery stores, and online halal meat delivery services carry the cuts you need. Lamb, chicken, and beef are most common. Look for halal certification labels."
+        "question": "أين أجد اللحم الحلال لوصفات البحر المتوسط؟",
+        "answer": "محلات اللحوم الحلال وكثير من متاجر البقالة الشرق الأوسطية وخدمات توصيل اللحم الحلال عبر الإنترنت تحمل القطع التي تحتاجها. الضأن والدجاج واللحم البقري الأكثر شيوعاً. ابحث عن ملصقات شهادة الحلال."
       },
       {
-        "question": "Is hummus halal?",
-        "answer": "Yes. Hummus is made from chickpeas, tahini, olive oil, lemon, and garlic — all plant-based and inherently halal. It is a staple in halal Mediterranean eating."
+        "question": "هل الحمص حلال؟",
+        "answer": "نعم. يُصنع الحمص من الحمص والطحينة وزيت الزيتون والليمون والثوم — وكلها نباتية وحلال بطبيعتها. وهو من أبرز أطباق الأكل المتوسطي الحلال."
       }
     ]
   },
@@ -2926,25 +2924,25 @@
     "title": "خطط وجبات هندية حلال أسبوعية",
     "metaDescription": "خطط وجبات هندية حلال أسبوعية مع برياني ودجاج بالزبدة وكباب. نكهات هندية أصيلة بلحوم حلال في كل وصفة.",
     "h1": "خطط وجبات هندية حلال — ولائم مغولية بسهولة يومية",
-    "intro": "India has one of the world's largest Muslim populations, and its halal culinary tradition is extraordinary — from Lucknowi biryani to Hyderabadi haleem, from Mughlai kebabs to Kerala fish curry. Our halal Indian meal plans draw from these rich traditions, using halal meat and avoiding alcohol-based ingredients entirely.",
+    "intro": "تمتلك الهند من أكبر التجمعات المسلمة في العالم، وتقليدها الطهوي الحلال استثنائي — من بريياني لكناوي إلى حليم حيدرآبادي، ومن كباب مغولي إلى كاري سمك كيرالا. تستلهم خطط الوجبات الهندية الحلال لدينا من هذه التقاليد الغنية، مستخدمةً لحوماً حلالاً وتجنبةً المكونات القائمة على الكحول تماماً.",
     "valueProps": [
       {
-        "heading": "Mughlai and Hyderabadi Specialties",
-        "description": "Rich biryanis, creamy kormas, and charcoal-grilled kebabs from India's most celebrated halal cooking traditions."
+        "heading": "تخصصات مغولية وحيدرآبادية",
+        "description": "بريياني فاخر وكورما كريمي وكباب مشوي على الفحم من أبرز تقاليد الطبخ الحلال الهندي الأكثر احتفاءً."
       },
       {
-        "heading": "Halal Meat, Indian Spices",
-        "description": "Every recipe is built for halal-certified chicken, lamb, goat, and beef, with marinades and spice blends that maximize flavor."
+        "heading": "لحم حلال وتوابل هندية",
+        "description": "تُبنى كل وصفة على دجاج وضأن وماعز ولحم بقري مُعتمَد حلالاً، مع خلطات تتبيل وتوابل تُعظِّم النكهة."
       },
       {
-        "heading": "No Alcohol, Full Flavor",
-        "description": "Indian cooking rarely uses alcohol anyway, making it one of the easiest cuisines to keep fully halal without any compromises."
+        "heading": "لا كحول، نكهة كاملة",
+        "description": "نادراً ما يستخدم الطبخ الهندي الكحول أصلاً، مما يجعله من أسهل المطابخ للالتزام الكامل بالحلال دون أي تنازلات."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Chicken Biryani",
-        "description": "Layers of saffron-scented basmati rice and spiced halal chicken, slow-cooked in a sealed pot with fried onions, mint, and whole spices.",
+        "name": "دجاج بريياني",
+        "description": "طبقات من أرز بسمتي معطر بالزعفران ودجاج حلال متبل، مطهوة ببطء في قدر مغلق مع البصل المقلي والنعناع والبهارات الكاملة.",
         "tags": [
           "halal",
           "indian",
@@ -2953,8 +2951,8 @@
         ]
       },
       {
-        "name": "Seekh Kebab with Mint Chutney",
-        "description": "Grilled halal lamb mince kebabs seasoned with ginger, green chili, and garam masala, served with fresh mint-cilantro chutney.",
+        "name": "سيخ كباب مع صلصة النعناع",
+        "description": "كباب لحم ضأن حلال مفروم مشوي ومتبل بالزنجبيل والفلفل الأخضر والغارام ماسالا، يُقدم مع صلصة النعناع والكزبرة الطازجة.",
         "tags": [
           "halal",
           "indian",
@@ -2963,8 +2961,8 @@
         ]
       },
       {
-        "name": "Haleem (Wheat and Meat Porridge)",
-        "description": "Slow-cooked halal beef with cracked wheat, lentils, and aromatic spices, garnished with fried onions, lime, and ginger.",
+        "name": "حليم (عصيدة القمح واللحم)",
+        "description": "لحم بقري حلال مطهو ببطء مع القمح المكسور والعدس والتوابل العطرية، مُزيَّن بالبصل المقلي والليمون والزنجبيل.",
         "tags": [
           "halal",
           "indian",
@@ -2972,8 +2970,8 @@
         ]
       },
       {
-        "name": "Egg Paratha",
-        "description": "Flaky whole wheat flatbread stuffed with spiced scrambled egg, pan-fried until golden, served with yogurt and pickle.",
+        "name": "باراتا البيض",
+        "description": "خبز قمح كامل ورقي محشو ببيض مخفوق متبل، محمر حتى يصبح ذهبياً، يُقدم مع الزبادي والمخلل.",
         "tags": [
           "halal",
           "indian",
@@ -2982,8 +2980,8 @@
         ]
       },
       {
-        "name": "Butter Chicken with Naan",
-        "description": "Tandoori-marinated halal chicken pieces in a velvety tomato-cream sauce with fenugreek, served with warm naan.",
+        "name": "دجاج بالزبدة مع النان",
+        "description": "قطع دجاج حلال متبلة بأسلوب التاندوري في صلصة طماطم وكريم مخملية مع الحلبة، تُقدم مع خبز النان الدافئ.",
         "tags": [
           "halal",
           "indian",
@@ -2993,20 +2991,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Indian food halal?",
-        "answer": "Much of Indian cuisine is naturally halal or vegetarian. Indian Muslim cooking traditions (Mughlai, Hyderabadi, Lucknowi, Malabar) are inherently halal. The key is ensuring meat is halal-certified and avoiding dishes cooked with alcohol (rare in Indian cuisine)."
+        "question": "هل الطعام الهندي حلال؟",
+        "answer": "كثير من المطبخ الهندي حلال أو نباتي بطبيعته. التقاليد الطهوية للمسلمين الهنود (المغولية والحيدرآبادية واللكناوية والملابارية) حلال بطبيعتها. المفتاح هو التأكد من أن اللحم مُعتمَد حلالاً وتجنب الأطباق المطهوة بالكحول (وهو نادر في المطبخ الهندي)."
       },
       {
-        "question": "What is the difference between halal Indian and regular Indian food?",
-        "answer": "The main difference is the meat sourcing — halal Indian food uses halal-slaughtered meat. Indian cooking rarely uses alcohol or pork, so most spice blends, cooking methods, and vegetable dishes are identical."
+        "question": "ما الفرق بين الطعام الهندي الحلال والطعام الهندي العادي؟",
+        "answer": "الفرق الرئيسي هو مصدر اللحم — الطعام الهندي الحلال يستخدم لحماً مذبوحاً على الطريقة الحلالية. نادراً ما يستخدم الطبخ الهندي الكحول أو لحم الخنزير، لذا فإن معظم خلطات التوابل وأساليب الطبخ والأطباق النباتية متطابقة."
       },
       {
-        "question": "Where can I buy halal Indian spices?",
-        "answer": "All common Indian spices (cumin, coriander, turmeric, garam masala, etc.) are inherently halal — they are plant-based. You can buy them at any Indian grocery store, spice shop, or online retailer."
+        "question": "أين أشتري توابل هندية حلال؟",
+        "answer": "جميع التوابل الهندية الشائعة (الكمون والكزبرة والكركم والغارام ماسالا وغيرها) حلال بطبيعتها — فهي نباتية. يمكنك شراؤها من أي متجر هندي للبقالة أو محل التوابل أو بائع التجزئة عبر الإنترنت."
       },
       {
-        "question": "Is ghee halal?",
-        "answer": "Yes. Ghee is clarified butter made from cow's milk and is halal. It is a staple fat in Indian cooking and is used in both halal and vegetarian Indian traditions."
+        "question": "هل السمن حلال؟",
+        "answer": "نعم. السمن هو زبدة مصفاة مستخلصة من حليب البقر وهو حلال. وهو دهن أساسي في الطبخ الهندي ويُستخدم في التقاليد الهندية الحلالية والنباتية على حد سواء."
       }
     ]
   },
@@ -3014,25 +3012,25 @@
     "title": "خطط وجبات شرق أوسطية حلال",
     "metaDescription": "خطط وجبات شرق أوسطية حلال أسبوعية مع شاورما ومنسف ومزة. مطبخ عربي أصيل حلال بطبيعته ومصمم للأسابيع المشغولة.",
     "h1": "خطط وجبات شرق أوسطية حلال — التقليد يلتقي بقائمتك الأسبوعية",
-    "intro": "Middle Eastern cuisine is halal at its core — these recipes have been passed down through generations of Muslim families across the Levant, Arabian Peninsula, and North Africa. Our meal plans bring that heritage to your kitchen with authentic recipes for shawarma, mansaf, maqluba, and the mezze spreads that make Middle Eastern dining legendary.",
+    "intro": "المطبخ الشرق أوسطي حلال في جوهره — هذه الوصفات توارثتها أجيال من العائلات المسلمة عبر بلاد الشام وشبه الجزيرة العربية وشمال أفريقيا. تُحضر خططنا ذلك الإرث إلى مطبخك بوصفات أصيلة للشاورما والمنسف والمقلوبة وطاولات المزة التي تجعل المائدة الشرق أوسطية أسطورية.",
     "valueProps": [
       {
-        "heading": "Halal by Heritage",
-        "description": "Unlike cuisines that need halal adaptation, Middle Eastern food is traditionally prepared halal — these are recipes passed down through Muslim households for centuries."
+        "heading": "حلال بالفطرة والإرث",
+        "description": "على خلاف المطابخ التي تحتاج تكييفاً للحلال، يُعدّ الطعام الشرق أوسطي حلالاً بطبيعته تقليدياً — وصفات متوارثة في البيوت المسلمة لقرون."
       },
       {
-        "heading": "Mezze Culture Built In",
-        "description": "Hummus, baba ganoush, tabbouleh, and labneh give you built-in variety and make entertaining effortless."
+        "heading": "ثقافة المزة متجذرة",
+        "description": "الحمص والبابا غنوج والتبولة واللبنة تمنحك تنوعاً مدمجاً وتجعل الضيافة سهلة بلا تعقيد."
       },
       {
-        "heading": "Weeknight-Friendly Classics",
-        "description": "We streamline traditional recipes that usually take hours into 30-45 minute versions without sacrificing authenticity."
+        "heading": "كلاسيكيات مناسبة لأمسيات الأسبوع",
+        "description": "نُبسِّط الوصفات التقليدية التي تستغرق عادةً ساعات إلى نسخ تُنجز في 30-45 دقيقة دون التضحية بالأصالة."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Chicken Mansaf",
-        "description": "Halal chicken braised in a tangy jameed (dried yogurt) sauce, served over spiced rice with toasted almonds and pine nuts.",
+        "name": "دجاج منسف",
+        "description": "دجاج حلال مطهو في صلصة جميد (زبادي مجفف) لاذعة، يُقدم فوق أرز متبل مع لوز وصنوبر محمصَين.",
         "tags": [
           "halal",
           "middle-eastern",
@@ -3041,8 +3039,8 @@
         ]
       },
       {
-        "name": "Foul Mudammas with Olive Oil",
-        "description": "Mashed fava beans with garlic, lemon juice, cumin, and a generous pour of olive oil, served with warm pita.",
+        "name": "فول مدمس بزيت الزيتون",
+        "description": "فول مدمس مهروس بالثوم وعصير الليمون والكمون ورشة سخية من زيت الزيتون، يُقدم مع الخبز الدافئ.",
         "tags": [
           "halal",
           "middle-eastern",
@@ -3050,8 +3048,8 @@
         ]
       },
       {
-        "name": "Lamb Shawarma Wrap",
-        "description": "Thinly sliced halal lamb shawarma in warm pita with tahini, pickled vegetables, tomato, and fresh parsley.",
+        "name": "لفة شاورما ضأن",
+        "description": "شاورما لحم ضأن حلال مقطع رفيعاً في بيتا دافئ مع طحينة وخضروات مخللة وطماطم وبقدونس طازج.",
         "tags": [
           "halal",
           "middle-eastern",
@@ -3059,8 +3057,8 @@
         ]
       },
       {
-        "name": "Maqluba (Upside-Down Rice and Chicken)",
-        "description": "Layers of spiced halal chicken, fried eggplant, and basmati rice cooked in one pot and dramatically flipped onto a platter.",
+        "name": "مقلوبة (أرز ودجاج مقلوب)",
+        "description": "طبقات من دجاج حلال متبل وباذنجان مقلي وأرز بسمتي مطهوة في قدر واحد تُقلب بشكل درامي على صينية.",
         "tags": [
           "halal",
           "middle-eastern",
@@ -3069,8 +3067,8 @@
         ]
       },
       {
-        "name": "Fattoush with Grilled Halloumi",
-        "description": "Crispy pita chip salad with mixed greens, radishes, sumac dressing, and slabs of grilled halloumi cheese.",
+        "name": "فتوش مع هالومي مشوي",
+        "description": "سلطة رقائق بيتا مع خضروات مشكلة وفجل وصلصة صماق وقطع هالومي مشوية.",
         "tags": [
           "halal",
           "middle-eastern",
@@ -3081,20 +3079,20 @@
     ],
     "faqs": [
       {
-        "question": "Is all Middle Eastern food halal?",
-        "answer": "The vast majority of traditional Middle Eastern recipes are halal, as the cuisine developed within Muslim cultures. Pork is not used, and alcohol in cooking is extremely rare. The main consideration is ensuring meat is sourced from a halal-certified supplier."
+        "question": "هل الطعام الشرق أوسطي كله حلال؟",
+        "answer": "الغالبية العظمى من الوصفات الشرق أوسطية التقليدية حلال، إذ نشأ هذا المطبخ في ظل الثقافات الإسلامية. لا يُستخدم لحم الخنزير، والكحول في الطبخ نادر للغاية. الاعتبار الرئيسي هو التأكد من أن اللحم مصدره مورد مُعتمَد حلالاً."
       },
       {
-        "question": "What meats are used in halal Middle Eastern cooking?",
-        "answer": "Lamb, chicken, beef, and goat are the primary meats. Lamb is the most traditional and prized. Seafood is also widely used, especially in coastal regions. All meat should be halal-certified."
+        "question": "ما اللحوم المستخدمة في الطبخ الشرق أوسطي الحلال؟",
+        "answer": "الضأن والدجاج واللحم البقري والماعز هي اللحوم الرئيسية. الضأن الأكثر تقليدية والأعلى قيمة. تُستخدم المأكولات البحرية على نطاق واسع أيضاً، خاصةً في المناطق الساحلية. يجب أن يكون كل اللحم مُعتمَداً حلالاً."
       },
       {
-        "question": "What is a typical Middle Eastern meal structure?",
-        "answer": "A traditional meal starts with mezze (hummus, baba ganoush, salads, pickles), followed by a main dish of grilled or braised meat with rice, and often ends with fresh fruit, baklava, or knafeh. Tea is served throughout."
+        "question": "ما هيكل الوجبة الشرق أوسطية النموذجية؟",
+        "answer": "تبدأ الوجبة التقليدية بالمزة (حمص وبابا غنوج وسلطات ومخللات)، يعقبها طبق رئيسي من اللحم المشوي أو المطهو مع الأرز، وكثيراً ما تُختم بفواكه طازجة أو بقلاوة أو كنافة. يُقدَّم الشاي طوال الوجبة."
       },
       {
-        "question": "Can I meal prep Middle Eastern food?",
-        "answer": "Absolutely. Hummus, baba ganoush, and dips keep for 5+ days. Rice dishes and stews reheat beautifully. Marinated meats can be prepped days ahead. Mezze-style meals are among the most meal-prep-friendly formats."
+        "question": "هل يمكن تحضير الطعام الشرق أوسطي مسبقاً؟",
+        "answer": "بالتأكيد. الحمص والبابا غنوج والمتبلات تُحفظ لأكثر من 5 أيام. أطباق الأرز والحساءات تُسخَّن بروعة. اللحوم المتبلة يمكن تحضيرها قبل أيام. الوجبات بأسلوب المزة من أكثر الأنواع ملاءمةً للتحضير المسبق."
       }
     ]
   },
@@ -3102,25 +3100,25 @@
     "title": "خطط وجبات يابانية بيسكاتارية",
     "metaDescription": "خطط وجبات يابانية بيسكاتارية أسبوعية مع سوشي وشوربة ميسو وسمك مشوي. مطبخ ياباني أصيل يتمحور حول المأكولات البحرية.",
     "h1": "خطط وجبات يابانية بيسكاتارية — النظام الغذائي الطبيعي لأمة جزرية",
-    "intro": "Japan is an island nation, and its cuisine reflects that — seafood and vegetables have always been at the heart of Japanese cooking. A pescatarian Japanese diet is barely a restriction at all; it is closer to how most Japanese people actually eat. Our weekly plans cover sushi, ramen, donburi, and izakaya favorites, all centered on fish and plant-based ingredients.",
+    "intro": "اليابان دولة جزيرة، ويعكس مطبخها ذلك — المأكولات البحرية والخضروات دائماً في قلب الطبخ الياباني. اتباع نظام غذائي ياباني للبيسكيتاري ليس تقييداً بالكاد؛ بل هو أقرب إلى طريقة تناول الطعام الفعلية للغالبية اليابانية. تغطي خططنا الأسبوعية السوشي والرامن والدونبوري وأبرز أطباق الإيزاكايا، كلها مُحضَّرة من السمك والمكونات النباتية.",
     "valueProps": [
       {
-        "heading": "Seafood Is the Default",
-        "description": "Japanese cuisine uses more varieties of seafood than almost any other — salmon, tuna, mackerel, shrimp, squid, seaweed, and dozens more."
+        "heading": "المأكولات البحرية هي الأساس",
+        "description": "يستخدم المطبخ الياباني أنواعاً من المأكولات البحرية أكثر من أي مطبخ آخر تقريباً — سلمون وتونة وماكريل وروبيان وحبار وأعشاب بحرية ودزينات أخرى."
       },
       {
-        "heading": "Umami Without Meat",
-        "description": "Dashi (kelp and bonito broth), miso, soy sauce, and fermented foods provide deep umami flavors without any land-animal products."
+        "heading": "أومامي بلا لحم",
+        "description": "الداشي (مرق عشب البحر وأسماك الكاتسوبوشي) والميسو وصلصة الصويا والأطعمة المخمرة توفر نكهات أومامي عميقة دون أي منتجات من حيوانات برية."
       },
       {
-        "heading": "Balanced and Light",
-        "description": "Japanese meals follow the ichiju-sansai structure — one soup, three sides — which naturally creates balanced, portion-controlled eating."
+        "heading": "متوازن وخفيف",
+        "description": "تتبع الوجبات اليابانية هيكل إيتشيجو سانساي — حساء واحد وثلاثة أطباق جانبية — مما يخلق بطبيعته أكلاً متوازناً ومنضبطاً في الحجم."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Salmon Donburi (Rice Bowl)",
-        "description": "Sushi rice topped with fresh salmon sashimi, avocado, edamame, pickled ginger, and a soy-sesame dressing.",
+        "name": "دونبوري السلمون (طبق أرز)",
+        "description": "أرز سوشي مُعلاه سلمون سشيمي طازج وأفوكادو وإدامامي وزنجبيل مخلل وصلصة سمسم وصويا.",
         "tags": [
           "pescatarian",
           "japanese",
@@ -3129,8 +3127,8 @@
         ]
       },
       {
-        "name": "Miso Soup with Tofu and Wakame",
-        "description": "Classic dashi-based miso soup with silken tofu, wakame seaweed, and thinly sliced scallions.",
+        "name": "شوربة ميسو بالتوفو والواكامي",
+        "description": "شوربة ميسو كلاسيكية بمرق الداشي مع التوفو الحريري وأعشاب الواكامي وشرائح رفيعة من البصل الأخضر.",
         "tags": [
           "pescatarian",
           "japanese",
@@ -3139,8 +3137,8 @@
         ]
       },
       {
-        "name": "Grilled Mackerel (Saba Shioyaki)",
-        "description": "Salt-grilled mackerel fillet served with steamed rice, pickled daikon, and a side of blanched spinach with sesame.",
+        "name": "ماكريل مشوي (سابا شيوياكي)",
+        "description": "فيليه ماكريل مشوي بالملح يُقدم مع أرز مطهو على البخار وفجل مخلل وجانب من السبانخ المسلوقة بالسمسم.",
         "tags": [
           "pescatarian",
           "japanese",
@@ -3149,8 +3147,8 @@
         ]
       },
       {
-        "name": "Vegetable Tempura with Dipping Sauce",
-        "description": "Lightly battered and fried sweet potato, shiso leaf, lotus root, and shrimp served with tentsuyu dipping sauce.",
+        "name": "تمبورا خضروات مع صلصة التغميس",
+        "description": "بطاطا حلوة وشيسو ولوتس وروبيان مغمسة بعجين خفيف ومقلية، تُقدم مع صلصة تنتسويو للتغميس.",
         "tags": [
           "pescatarian",
           "japanese",
@@ -3158,8 +3156,8 @@
         ]
       },
       {
-        "name": "Hand-Rolled Sushi (Temaki)",
-        "description": "DIY nori cones filled with sushi rice, fresh tuna, cucumber, avocado, and spicy mayo — fun and interactive.",
+        "name": "سوشي ملفوف باليد (تيماكي)",
+        "description": "مخاريط نوري يصنعها الجميع بأنفسهم، محشوة بأرز السوشي والتونة الطازجة والخيار والأفوكادو ومايونيز الحار — ممتعة وتفاعلية.",
         "tags": [
           "pescatarian",
           "japanese",
@@ -3169,20 +3167,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Japanese food good for pescatarians?",
-        "answer": "Japanese cuisine is arguably the best cuisine in the world for pescatarians. Seafood is the primary protein, and the traditional diet is built on fish, rice, vegetables, tofu, and fermented foods. Meat-heavy dishes are a relatively modern addition to Japanese cooking."
+        "question": "هل الطعام الياباني جيد لمتبعي نظام البيسكيتاري؟",
+        "answer": "المطبخ الياباني هو يُرجَّح أفضل مطبخ في العالم لمتبعي نظام البيسكيتاري. المأكولات البحرية هي البروتين الأساسي، والنظام الغذائي التقليدي مبني على السمك والأرز والخضروات والتوفو والأطعمة المخمرة. الأطباق الغنية باللحوم إضافة حديثة نسبياً إلى الطبخ الياباني."
       },
       {
-        "question": "What Japanese dishes are naturally pescatarian?",
-        "answer": "Sushi, sashimi, miso soup, tempura (vegetable and shrimp), donburi with seafood, ramen with seafood broth, edamame, agedashi tofu, and most izakaya small plates. The majority of traditional Japanese food is already pescatarian."
+        "question": "ما الأطباق اليابانية البيسكيتارية بطبيعتها؟",
+        "answer": "السوشي والسشيمي وشوربة الميسو وتمبورا الخضروات والروبيان ودونبوري بالمأكولات البحرية والرامن بمرق بحري والإدامامي وتوفو أغيداشي ومعظم الأطباق الصغيرة في الإيزاكايا. معظم الطعام الياباني التقليدي بيسكيتاري بالفعل."
       },
       {
-        "question": "Is dashi broth pescatarian?",
-        "answer": "Traditional dashi is made from kombu (kelp) and katsuobushi (dried bonito fish flakes), making it pescatarian but not vegetarian. Kombu-only dashi is available for vegetarians."
+        "question": "هل مرق الداشي بيسكيتاري؟",
+        "answer": "الداشي التقليدي مصنوع من الكومبو (عشب البحر) والكاتسوبوشي (رقائق سمك البونيتو المجفف)، مما يجعله بيسكيتارياً لكن ليس نباتياً. الداشي المصنوع من الكومبو فقط متاح للنباتيين."
       },
       {
-        "question": "How healthy is a pescatarian Japanese diet?",
-        "answer": "Extremely healthy. Japan has one of the highest life expectancies in the world, attributed partly to a diet rich in fish, vegetables, fermented foods, and minimal processed ingredients. The combination of omega-3 fatty acids from fish and antioxidants from green tea and vegetables is hard to beat."
+        "question": "ما مدى صحة النظام الغذائي الياباني البيسكيتاري؟",
+        "answer": "صحته استثنائية. تحتل اليابان مرتبة من بين أعلى دول العالم في متوسط العمر المتوقع، ويُعزى ذلك جزئياً إلى نظام غذائي غني بالسمك والخضروات والأطعمة المخمرة ومنخفض المكونات المصنعة. التوليف بين أحماض أوميغا-3 من السمك ومضادات الأكسدة من الشاي الأخضر والخضروات يصعب التفوق عليه."
       }
     ]
   },
@@ -3190,25 +3188,25 @@
     "title": "خطط وجبات متوسطية بيسكاتارية",
     "metaDescription": "خطط وجبات متوسطية بيسكاتارية أسبوعية مع سمك مشوي وباستا بحرية وسلطات طازجة. حمية البحر المتوسط الصحية في أفضل حالاتها.",
     "h1": "خطط وجبات متوسطية بيسكاتارية — كما يأكل أهل الساحل",
-    "intro": "The traditional Mediterranean diet was always a pescatarian diet — coastal communities in Greece, Italy, Spain, and North Africa ate fish daily and meat rarely. Our pescatarian Mediterranean plans return to those roots with grilled fish, seafood stews, olive oil, fresh vegetables, and the simple preparations that make this eating style the gold standard for health.",
+    "intro": "كان النظام الغذائي المتوسطي التقليدي دائماً نظاماً بيسكيتارياً — المجتمعات الساحلية في اليونان وإيطاليا وإسبانيا وشمال أفريقيا تناولت السمك يومياً واللحم نادراً. تعود خططنا المتوسطية البيسكيتارية إلى تلك الجذور مع السمك المشوي وحساءات المأكولات البحرية وزيت الزيتون والخضروات الطازجة والتحضيرات البسيطة التي جعلت هذا الأسلوب الغذائي المعيار الذهبي للصحة.",
     "valueProps": [
       {
-        "heading": "The Original Mediterranean Diet",
-        "description": "Before the modern interpretation added chicken and red meat, the Mediterranean diet was fish, vegetables, olive oil, and wine. We return to that original vision."
+        "heading": "النظام المتوسطي الأصلي",
+        "description": "قبل أن تُضاف الدجاج واللحوم الحمراء إلى التفسير الحديث، كان النظام المتوسطي مكوناً من السمك والخضروات وزيت الزيتون والنبيذ. نعود إلى تلك الرؤية الأصلية."
       },
       {
-        "heading": "Omega-3 Rich Every Day",
-        "description": "Salmon, sardines, mackerel, and anchovies provide the omega-3 fatty acids that make the Mediterranean diet famous for heart and brain health."
+        "heading": "غني بالأوميغا-3 يومياً",
+        "description": "السلمون والسردين والماكريل والأنشوجة توفر أحماض أوميغا-3 الدهنية التي تجعل النظام المتوسطي مشهوراً بصحة القلب والدماغ."
       },
       {
-        "heading": "Coastal Recipes from Five Countries",
-        "description": "We draw from Greek, Italian, Spanish, Turkish, and Moroccan coastal cooking traditions for maximum variety."
+        "heading": "وصفات ساحلية من خمس دول",
+        "description": "نستلهم من تقاليد الطبخ الساحلي الإغريقي والإيطالي والإسباني والتركي والمغربي لتحقيق أقصى قدر من التنوع."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Grilled Branzino with Lemon and Herbs",
-        "description": "Whole branzino stuffed with lemon slices, rosemary, and thyme, grilled until the skin is crispy, served with roasted potatoes.",
+        "name": "سمك قاروص مشوي بالليمون والأعشاب",
+        "description": "قاروص كامل محشو بشرائح ليمون وإكليل الجبل والزعتر، مشوي حتى تصبح الجلدة مقرمشة، يُقدم مع بطاطس محمصة.",
         "tags": [
           "pescatarian",
           "mediterranean",
@@ -3217,8 +3215,8 @@
         ]
       },
       {
-        "name": "Shrimp and White Bean Stew",
-        "description": "Shrimp sauteed with garlic, cherry tomatoes, and cannellini beans in a white wine and olive oil broth with crusty bread.",
+        "name": "حساء الروبيان والفاصوليا البيضاء",
+        "description": "روبيان يُقلى مع ثوم وطماطم كرزية وفاصوليا كانيليني في مرق نبيذ أبيض وزيت زيتون مع خبز مقرمش.",
         "tags": [
           "pescatarian",
           "mediterranean",
@@ -3226,8 +3224,8 @@
         ]
       },
       {
-        "name": "Greek Yogurt with Honey, Walnuts, and Figs",
-        "description": "Thick Greek yogurt drizzled with raw honey, topped with toasted walnuts and sliced fresh figs.",
+        "name": "زبادي يوناني بالعسل والجوز والتين",
+        "description": "زبادي يوناني ثقيل القوام مع رذاذ عسل طبيعي وجوز محمص وتين طازج مقطع.",
         "tags": [
           "pescatarian",
           "mediterranean",
@@ -3236,8 +3234,8 @@
         ]
       },
       {
-        "name": "Sardine and Arugula Toast",
-        "description": "Whole sardines on toasted sourdough with peppery arugula, shaved parmesan, lemon zest, and a drizzle of olive oil.",
+        "name": "توست سردين وجرجير",
+        "description": "سردين كامل على خبز محمص مع جرجير حار وبارميزان مقشر وقشر ليمون ورذاذ زيت زيتون.",
         "tags": [
           "pescatarian",
           "mediterranean",
@@ -3245,8 +3243,8 @@
         ]
       },
       {
-        "name": "Seafood Paella",
-        "description": "Saffron-infused rice with shrimp, mussels, calamari, peas, and roasted red peppers, cooked in a wide pan for a crispy socarrat.",
+        "name": "بايلا مأكولات بحرية",
+        "description": "أرز معطر بالزعفران مع روبيان وبلح البحر وحبار وبازيلاء وفلفل أحمر محمص، يُطهى في مقلاة عريضة لقشرة سوكاراتٍ مقرمشة.",
         "tags": [
           "pescatarian",
           "mediterranean",
@@ -3257,20 +3255,20 @@
     ],
     "faqs": [
       {
-        "question": "Is the Mediterranean diet pescatarian?",
-        "answer": "The traditional Mediterranean diet is very close to pescatarian. Coastal populations in Greece, Italy, and Spain historically ate fish several times per week and red meat only a few times per month. The modern version includes more meat, but the original is fish-forward."
+        "question": "هل النظام الغذائي المتوسطي بيسكيتاري؟",
+        "answer": "النظام الغذائي المتوسطي التقليدي قريب جداً من البيسكيتاري. السكان الساحليون في اليونان وإيطاليا وإسبانيا تناولوا تاريخياً السمك عدة مرات أسبوعياً واللحوم الحمراء بضع مرات شهرياً. النسخة الحديثة تتضمن لحوماً أكثر، لكن الأصل يُعلي من السمك."
       },
       {
-        "question": "What fish is best for a Mediterranean diet?",
-        "answer": "Fatty fish like salmon, sardines, mackerel, and anchovies are ideal for their omega-3 content. White fish like branzino, sea bass, and cod are also staples. The key is variety — eating different types of seafood throughout the week."
+        "question": "ما أفضل الأسماك للنظام الغذائي المتوسطي؟",
+        "answer": "الأسماك الدهنية كالسلمون والسردين والماكريل والأنشوجة مثالية لمحتواها من الأوميغا-3. الأسماك البيضاء كالقاروص والبحر والقد أيضاً من الأساسيات. المفتاح هو التنوع — تناول أنواع مختلفة من المأكولات البحرية طوال الأسبوع."
       },
       {
-        "question": "How much fish should I eat per week on this plan?",
-        "answer": "Our plans include fish or seafood 4-5 times per week, with the remaining meals being vegetarian (eggs, cheese, legumes). This aligns with recommendations from cardiologists and the original Mediterranean diet research."
+        "question": "كم مرة يجب أن أتناول السمك أسبوعياً في هذه الخطة؟",
+        "answer": "تتضمن خططنا السمك أو المأكولات البحرية 4-5 مرات أسبوعياً، مع بقية الوجبات نباتية (بيض وجبن وبقوليات). يتوافق هذا مع توصيات أطباء القلب وأبحاث النظام الغذائي المتوسطي الأصلية."
       },
       {
-        "question": "Is canned fish okay for Mediterranean cooking?",
-        "answer": "Absolutely. Canned sardines, tuna, and anchovies are Mediterranean pantry staples. They are affordable, convenient, and nutritionally equivalent to fresh. Look for fish packed in olive oil for the most authentic flavor."
+        "question": "هل الأسماك المعلبة مناسبة للطبخ المتوسطي؟",
+        "answer": "بالتأكيد. السردين والتونة والأنشوجة المعلبة من أساسيات مؤونة البحر المتوسط. فهي اقتصادية ومريحة وتعادل الأسماك الطازجة غذائياً. ابحث عن الأسماك المعبأة بزيت الزيتون للحصول على النكهة الأكثر أصالة."
       }
     ]
   },
@@ -3278,25 +3276,25 @@
     "title": "خطط وجبات تايلاندية خالية من الألبان",
     "metaDescription": "خطط وجبات تايلاندية خالية من الألبان مع كاري ومقليات وأطباق نودلز. المطبخ التايلاندي خالٍ من الألبان طبيعياً — نحافظ عليه كذلك.",
     "h1": "خطط وجبات تايلاندية خالية من الألبان — خالية طبيعياً ولذيذة بلا جهد",
-    "intro": "Thai cuisine is one of the most naturally dairy-free cuisines on the planet. Coconut milk replaces cream, fish sauce replaces butter, and the bold flavors of lemongrass, galangal, and chili mean you never miss cheese for a second. Our dairy-free Thai plans require almost zero substitutions — this is how Thai food was always meant to be eaten.",
+    "intro": "المطبخ التايلاندي من أكثر المطابخ الخالية من منتجات الألبان بطبيعتها على وجه الأرض. حليب جوز الهند يحل محل الكريم، وصلصة السمك تحل محل الزبدة، والنكهات الجريئة لعشبة الليمون والغالانجال والفلفل الحار تجعلك لا تفتقد الجبن لثانية واحدة. لا تتطلب خططنا التايلاندية الخالية من منتجات الألبان تقريباً أي استبدالات — هذه هي الطريقة التي أُريد دائماً لها أن تُؤكل.",
     "valueProps": [
       {
-        "heading": "Zero Substitutions Needed",
-        "description": "Unlike adapting Western cuisines, Thai food is already dairy-free by tradition. Coconut milk, coconut cream, and oils are the natural fats."
+        "heading": "لا استبدالات مطلوبة",
+        "description": "على خلاف تكييف المطابخ الغربية، الطعام التايلاندي خالٍ من منتجات الألبان بالتقليد. حليب جوز الهند وكريم جوز الهند والزيوت هي الدهون الطبيعية."
       },
       {
-        "heading": "Coconut Milk Does Everything",
-        "description": "Curries, soups, desserts, and drinks all use coconut milk as their creamy base — it is more versatile than dairy ever was."
+        "heading": "حليب جوز الهند يفعل كل شيء",
+        "description": "المقبلات والحساءات والحلويات والمشروبات كلها تستخدم حليب جوز الهند كقاعدة كريمية — وهو أكثر تعدداً من منتجات الألبان بكثير."
       },
       {
-        "heading": "Bold Flavors, No Blandness",
-        "description": "Thai cooking relies on aromatics (lemongrass, galangal, kaffir lime), not dairy, for flavor — so removing dairy changes nothing."
+        "heading": "نكهات جريئة، لا فتور",
+        "description": "يعتمد الطبخ التايلاندي على المواد العطرية (عشبة الليمون والغالانجال وأوراق الليمون الكافير)، لا منتجات الألبان، في النكهة — لذا لا يغير حذف الألبان شيئاً."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Massaman Curry with Potatoes and Peanuts",
-        "description": "Rich coconut milk curry with tender chicken, potatoes, onions, and roasted peanuts in a warm spice blend of cinnamon and cardamom.",
+        "name": "كاري ماسامان بالبطاطس والفول السوداني",
+        "description": "كاري حليب جوز الهند الثري مع دجاج طري وبطاطس وبصل وفول سوداني محمص في خلطة توابل دافئة من القرفة والهيل.",
         "tags": [
           "dairy-free",
           "thai",
@@ -3305,8 +3303,8 @@
         ]
       },
       {
-        "name": "Pad Thai with Shrimp",
-        "description": "Classic rice noodles stir-fried with shrimp, egg, bean sprouts, and crushed peanuts in a tamarind-palm sugar sauce.",
+        "name": "باد تاي بالروبيان",
+        "description": "شعيرية أرز كلاسيكية مقلية مع الروبيان والبيض وبراعم الفول وفول سوداني مطحون في صلصة تمر هندي وسكر نخيل.",
         "tags": [
           "dairy-free",
           "thai",
@@ -3315,8 +3313,8 @@
         ]
       },
       {
-        "name": "Thai Basil Chicken (Pad Krapow Gai)",
-        "description": "Ground chicken stir-fried with holy basil, garlic, chilies, and fish sauce, served over jasmine rice with a fried egg.",
+        "name": "دجاج ريحان تايلاندي (باد كراباو غاي)",
+        "description": "دجاج مفروم مقلي مع الريحان المقدس والثوم والفلفل الحار وصلصة السمك، يُقدم فوق أرز الياسمين مع بيضة مقلية.",
         "tags": [
           "dairy-free",
           "thai",
@@ -3325,8 +3323,8 @@
         ]
       },
       {
-        "name": "Congee with Ginger and Scallions",
-        "description": "Silky rice porridge slow-cooked with ginger, topped with a soft-boiled egg, crispy shallots, and a splash of soy sauce.",
+        "name": "كونجي بالزنجبيل والبصل الأخضر",
+        "description": "عصيدة أرز حريرية مطهوة ببطء بالزنجبيل، مُعلاها بيضة مسلوقة برفق وبصل مقرمش ورشة صلصة الصويا.",
         "tags": [
           "dairy-free",
           "thai",
@@ -3335,8 +3333,8 @@
         ]
       },
       {
-        "name": "Green Papaya Salad with Dried Shrimp",
-        "description": "Crunchy shredded green papaya with dried shrimp, tomatoes, long beans, peanuts, lime, and bird's eye chili.",
+        "name": "سلطة البابايا الخضراء بالروبيان المجفف",
+        "description": "بابايا خضراء مقرمشة مقطعة مع روبيان مجفف وطماطم وفاصوليا طويلة وفول سوداني وليمون وفلفل طائر.",
         "tags": [
           "dairy-free",
           "thai",
@@ -3347,20 +3345,20 @@
     ],
     "faqs": [
       {
-        "question": "Is Thai food dairy-free?",
-        "answer": "Yes, traditional Thai food is almost entirely dairy-free. Thai cuisine uses coconut milk instead of cream, and butter and cheese are not part of the cooking tradition. The only exception is some modern Thai-fusion restaurants that add butter or cream to sauces."
+        "question": "هل الطعام التايلاندي خالٍ من منتجات الألبان؟",
+        "answer": "نعم، الطعام التايلاندي التقليدي خالٍ من منتجات الألبان في معظمه. يستخدم المطبخ التايلاندي حليب جوز الهند بدلاً من الكريم، والزبدة والجبن ليسا جزءاً من التقليد الطهوي. الاستثناء الوحيد هو بعض مطاعم الفيوجن التايلاندي الحديثة التي تضيف الزبدة أو الكريم للصلصات."
       },
       {
-        "question": "Does Thai curry contain dairy?",
-        "answer": "Authentic Thai curries use coconut milk, not dairy cream. Green, red, yellow, massaman, and panang curries are all made with coconut milk and curry paste. Always check at restaurants, as some Western-adapted versions may add cream."
+        "question": "هل كاري التايلاندي يحتوي على منتجات ألبان؟",
+        "answer": "الكاريات التايلاندية الأصيلة تستخدم حليب جوز الهند لا كريم الألبان. الكاري الأخضر والأحمر والأصفر والماسامان والبانانج كلها مصنوعة بحليب جوز الهند ومعجون الكاري. تحقق دائماً في المطاعم، إذ قد تضيف بعض النسخ المُكيَّفة غربياً الكريم."
       },
       {
-        "question": "Is coconut milk a good dairy substitute?",
-        "answer": "For Thai cooking, coconut milk is not a substitute — it is the original ingredient. It provides richness, body, and a subtle sweetness that complements Thai spices perfectly. Full-fat coconut milk works best for curries and soups."
+        "question": "هل حليب جوز الهند بديل جيد لمنتجات الألبان؟",
+        "answer": "في الطبخ التايلاندي، حليب جوز الهند ليس بديلاً — بل هو المكون الأصلي. يوفر الغنى والقوام والحلاوة الخفيفة التي تُكمل توابل التايلاندية بشكل مثالي. حليب جوز الهند كامل الدسم الأفضل للكاريات والحساءات."
       },
       {
-        "question": "What about Thai iced tea — is it dairy-free?",
-        "answer": "Traditional Thai iced tea is made with condensed milk or evaporated milk, which contains dairy. For a dairy-free version, use coconut cream or oat milk. Many Thai restaurants now offer dairy-free options if you ask."
+        "question": "وماذا عن الشاي التايلاندي المثلج — هل خالٍ من منتجات الألبان؟",
+        "answer": "الشاي التايلاندي المثلج التقليدي مصنوع من الحليب المكثف أو الحليب المبخر اللذين يحتويان على منتجات ألبان. للحصول على نسخة خالية من الألبان، استخدم كريم جوز الهند أو حليب الشوفان. كثير من المطاعم التايلاندية تقدم الآن خيارات خالية من الألبان إن طلبت."
       }
     ]
   },
