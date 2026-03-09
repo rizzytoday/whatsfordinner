@@ -46,6 +46,7 @@ function CheckoutRedirect() {
   return (
     <div className="min-h-screen bg-[#FFFBF5] flex items-center justify-center">
       <div className="text-center">
+        <h1 className="sr-only">Checkout – What&apos;s For Dinner</h1>
         {error ? (
           <p className="text-sm text-stone-500">{error}</p>
         ) : (
