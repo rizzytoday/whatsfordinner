@@ -4,7 +4,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 
 export const metadata: Metadata = {
   title:
-    "The Best eMeals Alternative in 2026 — AI Meal Plans That Actually Learn What You Like",
+    "Best eMeals Alternative 2026 | AI Meal Plans",
   description:
     "Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $4.99/mo — smarter recipes, real customization, and plans that adapt to your feedback.",
   openGraph: {

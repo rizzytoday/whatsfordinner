@@ -4,7 +4,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 
 export const metadata: Metadata = {
   title:
-    "Plan to Eat Alternative 2026 — AI Meal Plans Without the Recipe Hunting",
+    "Best Plan to Eat Alternative 2026 | AI Plans",
   description:
     "Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing, no manual planning. $4.99/mo.",
   openGraph: {

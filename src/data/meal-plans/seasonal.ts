@@ -808,7 +808,6 @@ export const seasonalPages: MealPlanPageData[] = [
     relatedSlugs: [
       "gluten-free",
       "meal-plan-for-beginners",
-      "paleo",
       "meal-plan-for-weight-loss",
     ],
     datePublished: "2026-03-07",

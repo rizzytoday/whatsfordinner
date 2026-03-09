@@ -4,7 +4,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 
 export const metadata: Metadata = {
   title:
-    "The Best Paprika Alternative in 2026 — AI Meal Plans vs. Recipe Binders",
+    "Best Paprika Alternative 2026 | AI Meal Plans",
   description:
     "Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $4.99/mo — no recipe hunting required.",
   openGraph: {

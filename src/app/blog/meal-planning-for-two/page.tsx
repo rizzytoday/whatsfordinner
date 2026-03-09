@@ -4,7 +4,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 
 export const metadata: Metadata = {
   title:
-    "Meal Planning for Two — Perfectly Portioned Plans for Couples & Roommates",
+    "Meal Planning for Two | Plans for Couples",
   description:
     "Meal planning for two doesn't have to mean food waste or boring leftovers. Get AI-generated, perfectly portioned weekly meal plans and grocery lists for couples and roommates — just $4.99/mo.",
   openGraph: {

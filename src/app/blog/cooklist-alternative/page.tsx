@@ -4,7 +4,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 
 export const metadata: Metadata = {
   title:
-    "Cooklist Alternative 2026 — AI Meal Plans That Go Beyond Pantry Tracking",
+    "Best Cooklist Alternative 2026 | AI Meal Plans",
   description:
     "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — no barcode scanning required.",
   openGraph: {

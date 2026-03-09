@@ -4,7 +4,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 
 export const metadata: Metadata = {
   title:
-    "Prepear Alternative 2026 — AI Meal Plans That Go Beyond Blogger Recipes",
+    "Best Prepear Alternative 2026 | AI Meal Plans",
   description:
     "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $4.99/mo with a free trial, no signup required.",
   openGraph: {

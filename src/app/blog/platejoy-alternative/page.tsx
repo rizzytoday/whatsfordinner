@@ -4,7 +4,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 
 export const metadata: Metadata = {
   title:
-    "PlateJoy Alternative 2026 — AI Meal Plans That Pick Up Where PlateJoy Left Off",
+    "Best PlateJoy Alternative 2026 | AI Meal Plans",
   description:
     "Looking for a PlateJoy alternative? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — cheaper, smarter, and built for the post-PlateJoy era.",
   openGraph: {

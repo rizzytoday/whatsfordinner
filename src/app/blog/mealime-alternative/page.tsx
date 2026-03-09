@@ -4,7 +4,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 
 export const metadata: Metadata = {
   title:
-    "Best Mealime Alternative 2026 — AI Meal Plans That Never Repeat",
+    "Best Mealime Alternative 2026 | AI Meal Plans",
   description:
     "Looking for a Mealime alternative? What's For Dinner uses AI to generate unique personalized meal plans every week — no static recipe database, no repetition. $4.99/mo with a free trial, no signup required.",
   openGraph: {

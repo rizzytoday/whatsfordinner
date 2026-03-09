@@ -4,7 +4,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 
 export const metadata: Metadata = {
   title:
-    "Budget Bytes Alternative 2026 — AI Meal Plans That Do the Planning for You",
+    "Best Budget Bytes Alternative 2026 | AI Plans",
   description:
     "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo — no browsing, no guesswork.",
   openGraph: {
