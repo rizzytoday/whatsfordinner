@@ -1,13 +1,17 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { getWeekOf } from "@/lib/utils";
+import { rateLimit } from "@/lib/rate-limit";
 import type { MealPlanData } from "@/types/meal-plan";
 
 /**
  * Returns the user's next meal based on current time of day.
  * Light endpoint for the landing page hero suggestion.
  */
-export async function GET() {
+export async function GET(req: NextRequest) {
+  const limited = rateLimit(req, "next-meal", 30, 60_000);
+  if (limited) return limited;
+
   try {
     const supabase = await createClient();
     const { data: { user } } = await supabase.auth.getUser();

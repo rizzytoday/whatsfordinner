@@ -247,13 +247,18 @@ function OnboardingContent() {
         const promoCode = localStorage.getItem("wfd_promo_code");
         if (promoCode) {
           try {
-            await fetch("/api/promo/redeem", {
+            const promoRes = await fetch("/api/promo/redeem", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({ code: promoCode }),
             });
+            if (!promoRes.ok) {
+              const promoErr = await promoRes.json().catch(() => ({}));
+              console.warn("Promo redemption failed:", promoErr.error || promoRes.status);
+              setError(promoErr.error || "Promo code could not be redeemed. You can try again from the dashboard.");
+            }
           } catch {
-            // Non-critical — they can redeem manually on dashboard
+            console.warn("Promo redemption network error");
           } finally {
             localStorage.removeItem("wfd_promo_code");
           }

@@ -28,8 +28,11 @@ const profileSchema = z.object({
   age_range: z.string().max(50).optional(),
 }).strict();
 
-export async function GET() {
+export async function GET(req: NextRequest) {
   try {
+    const limited = rateLimit(req, "profile-get", 30, 60_000);
+    if (limited) return limited;
+
     const supabase = await createClient();
     const {
       data: { user },

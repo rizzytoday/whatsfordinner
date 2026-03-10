@@ -2,6 +2,14 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createPromoCode, listPromoCodes } from "@/lib/promo";
 import { rateLimit } from "@/lib/rate-limit";
+import { z } from "zod";
+
+const createPromoSchema = z.object({
+  code: z.string().min(1),
+  duration_months: z.number().int().positive().default(1),
+  max_uses: z.number().int().positive().default(1),
+  expires_at: z.string().optional(),
+});
 
 const ADMIN_USER_ID = process.env.ADMIN_USER_ID;
 
@@ -44,12 +52,16 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const {
-      duration_months = 1,
-      max_uses = 1,
-      code,
-      expires_at,
-    } = body;
+    const parsed = createPromoSchema.safeParse(body);
+
+    if (!parsed.success) {
+      return NextResponse.json(
+        { error: "Invalid request body", details: parsed.error.flatten().fieldErrors },
+        { status: 400 }
+      );
+    }
+
+    const { code, duration_months, max_uses, expires_at } = parsed.data;
 
     const result = await createPromoCode({
       durationMonths: duration_months,
@@ -61,8 +73,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true, ...result });
   } catch (error) {
-    const message = error instanceof Error ? error.message : "Unknown error";
-    console.error("Admin promo create error:", message);
-    return NextResponse.json({ error: message }, { status: 500 });
+    console.error("Admin promo create error:", error);
+    return NextResponse.json({ error: "Failed to create promo code" }, { status: 500 });
   }
 }

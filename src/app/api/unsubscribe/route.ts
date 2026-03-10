@@ -6,20 +6,26 @@ import {
 } from "@/lib/unsubscribe";
 import { rateLimit } from "@/lib/rate-limit";
 
+function escapeHtml(str: string): string {
+  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+}
+
 function htmlResponse(title: string, message: string, status = 200) {
+  const safeTitle = escapeHtml(title);
+  const safeMessage = escapeHtml(message);
   const html = `<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>${title} - What's For Dinner</title>
+  <title>${safeTitle} - What's For Dinner</title>
 </head>
 <body style="margin:0;padding:0;background:#FFFBF5;font-family:Inter,system-ui,sans-serif;">
   <div style="max-width:480px;margin:0 auto;padding:60px 24px;text-align:center;">
     <p style="margin:0 0 8px;font-size:14px;font-weight:600;color:#1C1917;">What's For Dinner</p>
     <div style="background:#FFFFFF;border-radius:16px;padding:32px 24px;border:1px solid #E7E5E4;margin-top:16px;">
-      <h1 style="margin:0 0 12px;font-size:22px;font-weight:700;color:#1C1917;">${title}</h1>
-      <p style="margin:0;font-size:14px;color:#57534E;line-height:1.6;">${message}</p>
+      <h1 style="margin:0 0 12px;font-size:22px;font-weight:700;color:#1C1917;">${safeTitle}</h1>
+      <p style="margin:0;font-size:14px;color:#57534E;line-height:1.6;">${safeMessage}</p>
     </div>
     <p style="margin:20px 0 0;font-size:11px;color:#D6D3D1;">whatsfordinner.fit</p>
   </div>

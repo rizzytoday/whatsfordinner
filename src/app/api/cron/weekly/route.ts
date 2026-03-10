@@ -83,12 +83,9 @@ export async function GET(req: NextRequest) {
     // Build lookup maps
     const userMap = new Map(users.map((u) => [u.id, u]));
 
-    // Filter out users who opted out of emails
-    const activeProfiles = profiles.filter((p) => !p.email_opted_out);
+    total = profiles.length;
 
-    total = activeProfiles.length;
-
-    for (const profile of activeProfiles) {
+    for (const profile of profiles) {
       const user = userMap.get(profile.user_id);
       if (!user) continue;
 
@@ -160,26 +157,36 @@ export async function GET(req: NextRequest) {
 
         const weekNumber = (previousPlanCount || 0);
 
-        // Send the email
-        const deliveryEmail = profile.delivery_email || user.email;
+        // Send the email (skip if user opted out)
+        if (!profile.email_opted_out) {
+          try {
+            const deliveryEmail = profile.delivery_email || user.email;
 
-        await sendMealPlanEmail(
-          deliveryEmail,
-          weekOf,
-          planData as MealPlanData,
-          weekNumber,
-          profile.user_id
-        );
+            await sendMealPlanEmail(
+              deliveryEmail,
+              weekOf,
+              planData as MealPlanData,
+              weekNumber,
+              profile.user_id
+            );
 
-        // Mark as sent
-        await admin
-          .from("meal_plans")
-          .update({
-            status: "sent",
-            sent_at: new Date().toISOString(),
-            updated_at: new Date().toISOString(),
-          })
-          .eq("id", planRecord.id);
+            // Mark as sent
+            await admin
+              .from("meal_plans")
+              .update({
+                status: "sent",
+                sent_at: new Date().toISOString(),
+                updated_at: new Date().toISOString(),
+              })
+              .eq("id", planRecord.id);
+          } catch (emailError) {
+            console.error(
+              `Failed to send email for user ${profile.user_id}:`,
+              emailError
+            );
+            // Plan is already saved as "ready" — don't mark as failed
+          }
+        }
 
         success++;
       } catch (error) {

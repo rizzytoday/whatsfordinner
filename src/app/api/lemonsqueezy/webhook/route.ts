@@ -33,6 +33,7 @@ interface WebhookEvent {
       store_id: number;
       customer_id: number;
       status: string;
+      user_email: string;
       first_subscription_item?: {
         id: number;
       };
@@ -87,8 +88,28 @@ export async function POST(req: NextRequest) {
   try {
     switch (eventName) {
       case "subscription_created": {
-        if (!userId) {
-          console.error("No supabase_user_id in subscription_created");
+        // Resolve user ID: prefer custom_data, fall back to email lookup
+        let resolvedUserId = userId;
+        if (!resolvedUserId) {
+          const customerEmail = event.data.attributes.user_email;
+          if (customerEmail) {
+            const { data: userByEmail } = await admin
+              .from("users")
+              .select("id")
+              .eq("email", customerEmail)
+              .single();
+            if (userByEmail) {
+              resolvedUserId = userByEmail.id;
+              console.log("Resolved user by email fallback:", customerEmail);
+            }
+          }
+        }
+
+        if (!resolvedUserId) {
+          console.error("subscription_created: could not resolve user. No supabase_user_id and email lookup failed.", {
+            customer_email: event.data.attributes.user_email,
+            customer_id: event.data.attributes.customer_id,
+          });
           break;
         }
 
@@ -100,19 +121,37 @@ export async function POST(req: NextRequest) {
         if (itemId && variantMonthly && String(itemId) === variantMonthly) planInterval = "monthly";
         if (itemId && variantYearly && String(itemId) === variantYearly) planInterval = "yearly";
 
-        const { error } = await admin
+        const subscriptionData = {
+          lemon_customer_id: String(event.data.attributes.customer_id),
+          lemon_subscription_id: event.data.id,
+          subscription_status: "active",
+          subscription_source: "lemonsqueezy",
+          plan_interval: planInterval,
+        };
+
+        const { data: updateResult, error } = await admin
           .from("users")
-          .update({
-            lemon_customer_id: String(event.data.attributes.customer_id),
-            lemon_subscription_id: event.data.id,
-            subscription_status: "active",
-            subscription_source: "lemonsqueezy",
-            plan_interval: planInterval,
-          })
-          .eq("id", userId);
+          .update(subscriptionData)
+          .eq("id", resolvedUserId)
+          .select("id");
 
         if (error) {
           console.error("Failed to activate subscription:", error);
+        } else if (!updateResult || updateResult.length === 0) {
+          // User row doesn't exist yet (race condition with auth trigger)
+          console.warn("subscription_created: user row not found, retrying with upsert.", {
+            userId: resolvedUserId,
+          });
+          const { error: upsertError } = await admin
+            .from("users")
+            .upsert({
+              id: resolvedUserId,
+              email: event.data.attributes.user_email,
+              ...subscriptionData,
+            });
+          if (upsertError) {
+            console.error("Failed to upsert subscription:", upsertError);
+          }
         }
         break;
       }

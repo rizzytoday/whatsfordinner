@@ -7,6 +7,8 @@ import { getWeekOf } from "@/lib/utils";
 import { rateLimit } from "@/lib/rate-limit";
 import type { UserProfile, MealPlanData } from "@/types/meal-plan";
 
+export const maxDuration = 120;
+
 export async function POST(req: NextRequest) {
   try {
     const supabase = await createClient();

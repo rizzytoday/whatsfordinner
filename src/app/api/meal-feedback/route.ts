@@ -12,8 +12,11 @@ const feedbackSchema = z.object({
 /**
  * GET — fetch all feedback for the current user
  */
-export async function GET() {
+export async function GET(req: NextRequest) {
   try {
+    const limited = rateLimit(req, "meal-feedback-get", 30, 60_000);
+    if (limited) return limited;
+
     const supabase = await createClient();
     const { data: { user } } = await supabase.auth.getUser();
     if (!user) {

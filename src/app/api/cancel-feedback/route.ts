@@ -2,12 +2,16 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { rateLimit } from "@/lib/rate-limit";
 
 const Body = z.object({
   reason: z.enum(["price", "not_using", "missing_feature", "found_alternative", "temporary", "other"]),
 });
 
 export async function POST(req: NextRequest) {
+  const limited = rateLimit(req, "cancel-feedback", 10, 60_000);
+  if (limited) return limited;
+
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return NextResponse.json({ ok: true }); // silent — don't block cancel flow

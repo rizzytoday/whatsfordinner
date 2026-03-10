@@ -2,8 +2,14 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { sendMealPlanEmail } from "@/lib/resend";
+import { rateLimit } from "@/lib/rate-limit";
 import type { MealPlanData } from "@/types/meal-plan";
 import crypto from "crypto";
+import { z } from "zod";
+
+const sendPlanSchema = z.object({
+  planId: z.string().min(1),
+});
 
 const CRON_SECRET = process.env.CRON_SECRET?.trim();
 
@@ -26,6 +32,9 @@ export async function POST(req: NextRequest) {
     let userId: string | null = null;
 
     if (!isCron) {
+      const limited = rateLimit(req, "send-plan", 5, 60_000);
+      if (limited) return limited;
+
       const supabase = await createClient();
       const {
         data: { user },
@@ -38,14 +47,17 @@ export async function POST(req: NextRequest) {
       userId = user.id;
     }
 
-    const { planId } = (await req.json()) as { planId: string };
+    const body = await req.json();
+    const parsed = sendPlanSchema.safeParse(body);
 
-    if (!planId) {
+    if (!parsed.success) {
       return NextResponse.json(
         { error: "planId is required" },
         { status: 400 }
       );
     }
+
+    const { planId } = parsed.data;
 
     const admin = createAdminClient();
 
