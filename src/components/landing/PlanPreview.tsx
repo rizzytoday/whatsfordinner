@@ -61,7 +61,7 @@ export function PlanPreview({ isSignedIn }: { isSignedIn?: boolean }) {
         <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 text-center tracking-tight">
           {t("landing.preview.title")}
         </h2>
-        <p className="mt-4 text-stone-500 text-center text-lg max-w-2xl mx-auto">
+        <p className="mt-4 text-stone-500 text-center text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
           {t("landing.preview.subtitle")}
         </p>
 

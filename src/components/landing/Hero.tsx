@@ -60,7 +60,7 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
       <div className="absolute bottom-10 -right-24 w-80 h-80 bg-orange-100/40 rounded-full blur-3xl" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-50/50 rounded-full blur-3xl" />
 
-      <div className="relative max-w-3xl mx-auto px-6 py-24 sm:py-40 text-center">
+      <div className="relative max-w-4xl mx-auto px-6 py-24 sm:py-40 text-center">
         {/* Floating meal suggestion — desktop: top right, mobile: below hero text */}
         <Link
           href={isSignedIn ? "/dashboard" : "/onboarding"}
@@ -80,17 +80,18 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
           </svg>
         </Link>
 
-        <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-stone-900 tracking-tight leading-[1.1]">
+        <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-stone-900 tracking-tight leading-[1.1] whitespace-pre-line">
           {t("landing.hero.title")}
         </h1>
-        <p className="mt-3 sm:mt-4 text-base sm:text-2xl font-semibold text-orange-500">
+        <p className="mt-3 sm:mt-4 text-lg sm:text-2xl font-semibold text-orange-500 max-w-xl mx-auto">
           {t("landing.hero.subtitle")}
         </p>
 
-        <p className="mt-4 sm:mt-6 text-sm sm:text-lg text-stone-600 max-w-lg mx-auto leading-relaxed">
+        <p className="mt-5 sm:mt-7 text-sm sm:text-lg text-stone-600 max-w-lg mx-auto leading-relaxed">
           {t("landing.hero.description")}
-          <br className="sm:hidden" />
-          {" "}{t("landing.hero.tryCta")} <span className="text-orange-500 font-medium">{t("landing.hero.noCreditCard")}</span>
+        </p>
+        <p className="mt-3 text-sm text-stone-500">
+          {t("landing.hero.tryCta")} <span className="text-orange-500 font-medium">{t("landing.hero.noCreditCard")}</span>
         </p>
 
         <div className="mt-8 sm:mt-10 flex flex-col items-center gap-3 sm:gap-4">
