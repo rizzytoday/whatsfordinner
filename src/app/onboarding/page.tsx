@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { LanguagePicker } from "@/components/ui/LanguagePicker";
 import { cn } from "@/lib/utils";
-import { useT } from "@/lib/i18n/context";
+import { useT, LANGUAGES, type Locale } from "@/lib/i18n/context";
 import { generateFingerprint } from "@/lib/fingerprint";
 import { createClient } from "@/lib/supabase/client";
 import { track } from "@vercel/analytics";
@@ -60,7 +60,15 @@ function OnboardingContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const isEdit = searchParams.get("edit") === "1";
-  const { t } = useT();
+  const { t, setLocale } = useT();
+
+  // Apply language from URL param (e.g. /onboarding?lang=tr from pSEO pages)
+  const langParam = searchParams.get("lang");
+  useEffect(() => {
+    if (langParam && langParam in LANGUAGES) {
+      setLocale(langParam as Locale);
+    }
+  }, [langParam, setLocale]);
   const [currentStep, setCurrentStep] = useState(0);
   const [data, setData] = useState<OnboardingFormData>(INITIAL_DATA);
   const [loading, setLoading] = useState(false);
