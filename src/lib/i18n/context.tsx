@@ -59,8 +59,15 @@ async function loadTranslation(locale: Locale): Promise<TranslationDict> {
 }
 
 function detectLocale(): Locale {
-  // Check localStorage first (user's explicit choice)
   if (typeof window !== "undefined") {
+    // Check URL param first (from translated pSEO pages)
+    const urlLang = new URLSearchParams(window.location.search).get("lang") as Locale;
+    if (urlLang && urlLang in LANGUAGES) {
+      localStorage.setItem("wfd_lang", urlLang);
+      return urlLang;
+    }
+
+    // Check localStorage (user's explicit choice)
     const saved = localStorage.getItem("wfd_lang") as Locale;
     if (saved && saved in LANGUAGES) return saved;
   }

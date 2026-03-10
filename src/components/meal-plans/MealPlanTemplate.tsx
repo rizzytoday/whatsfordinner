@@ -343,7 +343,7 @@ export function MealPlanTemplate({ data, locale }: { data: MealPlanPageData; loc
             {ui.ctaSub}
           </p>
           <Link
-            href="/onboarding"
+            href={locale && locale !== "en" ? `/onboarding?lang=${locale}` : "/onboarding"}
             className="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-orange-600 bg-white hover:bg-orange-50 rounded-full shadow-md transition-colors"
           >
             {ui.ctaBtn}
