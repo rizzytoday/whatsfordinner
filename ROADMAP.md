@@ -1,118 +1,116 @@
 # What's For Dinner - Roadmap
 
-## Launch Status: LAUNCHED
+## Status: LAUNCHED & LIVE
 Last audit: March 10, 2026
+First payment received. Product Hunt scheduled.
 
 ---
 
-## PHASE 0: Launch Day ✅ DONE
-- [x] Core flows working (free plan, signup, checkout, dashboard, emails)
-- [x] SEO: structured data, sitemap, Google Search Console submitted
-- [x] Social proof stats (honest, dynamic, grows with usage)
-- [x] Print-friendly plan + grocery list
-- [x] Unsubscribe link in emails (CAN-SPAM)
-- [x] Referral codes for yearly subs (3 codes, shows usage)
-- [x] Promo/gift code system working
-- [x] Error handling on all user-facing actions
-- [x] Test purchase (monthly + yearly) — first real payment received
-- [x] Product Hunt submitted and scheduled
-- [x] 920+ indexed pages (80 pSEO + 800 translated across 10 locales + 18 blog)
-- [x] Bing Webmaster Tools — sitemap fetched, site scan 787/790 pages clean
-- [x] CLAUDE.md, FORZEN.md, skills added
-
----
-
-## PHASE 1: First Week Polish (NOW)
-Priority fixes based on real user feedback.
-
-### Reliability
-- [ ] Webhook idempotency — dedupe LemonSqueezy webhooks using event ID
-- [ ] Cron timeout — add 90s timeout per user on plan generation so one slow user doesn't block others
-- [ ] Promo code race condition — make increment atomic (Supabase RPC or row-level lock)
-
-### UX Quick Wins
-- [ ] Dedicated unsubscribe page (currently links to dashboard)
-- [ ] Quick "change delivery email" in dashboard sidebar (skip full onboarding)
-- [ ] Show "plan generating..." state on dashboard when cron is running
-- [ ] Checkout return page — poll subscription status for 30s before showing dashboard
-
-### Email
-- [ ] Track email opens/clicks via Resend webhooks
-- [ ] Welcome email on signup (before first plan)
-- [ ] "Your plan is ready" push notification (if they enabled it)
-
----
-
-## PHASE 2: Growth (Week 2-4)
-Features that drive retention and acquisition.
-
-### Retention
-- [ ] Pause/skip week — let subscribers skip a single week without cancelling
-- [ ] Favorite meals — save meals they liked, bias future plans toward them
-- [ ] Swap single meal — replace one meal without regenerating entire plan
-- [ ] Recipe ratings — thumbs up/down on individual recipes
-
-### Acquisition
-- [ ] Blog SEO — publish 2 more comparison posts (EveryPlate, Mealime alternatives)
-- [ ] Free plan email capture — ask for email before showing preview (soft gate)
-- [ ] Social sharing — "Share your meal plan" card for Twitter/Instagram
-- [ ] Referral landing page — dedicated page explaining the referral program
-
-### Analytics
-- [ ] Track funnel: landing -> onboarding -> free plan -> signup -> paid
-- [ ] Churn analysis: why do people cancel? (cancellation survey)
-- [ ] Weekly email open rates and click-through
-
----
-
-## PHASE 3: Product-Market Fit (Month 2-3)
-Deepen the product based on data.
+## What's Already Shipped
 
 ### Core Product
-- [ ] Mobile-responsive plan view improvements
-- [ ] Grocery list integration (Instacart, AnyList, Apple Reminders)
-- [ ] Leftover tracking — mark what you didn't use, reduce next week's list
-- [ ] Family profiles — different dietary needs per household member
-- [ ] Seasonal/holiday meal plans (Thanksgiving, Christmas specials)
+- [x] AI meal plan generation with recipes + grocery list (3-day free, 7-day paid)
+- [x] 5-step onboarding (household, budget, diet, preferences, delivery)
+- [x] Dashboard with plan view, past plans, regeneration (2x/week)
+- [x] Grocery list with category grouping + checkboxes
+- [x] Print-friendly plan view
+- [x] Meal feedback (like/dislike — influences future AI generations)
+- [x] Mock plan mode for dev (USE_MOCK_PLAN env var)
 
-### Monetization
-- [ ] Annual plan discount messaging on dashboard ("save 50%, switch to yearly")
-- [ ] Gift subscriptions as a product (buy for someone, not just referral codes)
-- [ ] Premium tier ($9.99/mo) — unlimited regenerations, recipe videos, nutritionist notes
+### Subscriptions & Payments
+- [x] LemonSqueezy checkout (monthly + yearly)
+- [x] Full webhook handler (created, updated, cancelled, expired, payment_failed, resumed)
+- [x] Customer portal (manage billing)
+- [x] Promo/gift code system with atomic redemption + admin panel
+- [x] Referral codes for yearly subscribers (3 codes each, DINNER-XXXX-XXXX format)
+- [x] Gifted subscription expiry via cron
 
-### Technical Debt
-- [ ] Test suite — unit tests for promo system, cron, webhook handling
-- [ ] Error monitoring (Sentry or similar)
-- [ ] Database indexes audit for query performance
-- [ ] Rate limiting on all public API endpoints
+### Emails (Resend)
+- [x] Weekly meal plan email (dynamic hero based on week number, day-by-day meals)
+- [x] Free plan delivery email with upsell nudge
+- [x] Nurture sequence for free users (Day 3 → monthly CTA, Day 7 → yearly CTA)
+- [x] Unsubscribe flow (HMAC token, RFC 8058 List-Unsubscribe, email_opted_out flag)
+- [x] Supabase auth emails via Resend SMTP (confirmation, password reset)
+- [x] HTML-safe email templates (no flexbox, no gradients, color-scheme:light forced)
+
+### Auth
+- [x] Email/password signup with confirmation
+- [x] Google OAuth
+- [x] Protected routes via middleware
+- [x] Promo code survival across auth redirects (localStorage)
+- [x] Callback route with plan/redirect param handling
+
+### SEO — 920+ Pages
+- [x] 80 pSEO meal plan pages with FAQPage + BreadcrumbList schema
+- [x] 18 blog articles (10 alternatives + 4 guides + roundup + for couples)
+- [x] 800 translated pages across 10 locales (es, fr, de, pt, tr, ja, ko, zh, ar, hi)
+- [x] hreflang on all pages (sitemap + metadata)
+- [x] Multi-sitemap index (12 sub-sitemaps)
+- [x] Dynamic OG images per meal plan page + blog
+- [x] WebSite + SoftwareApplication + FAQPage schema in root layout
+- [x] robots.txt, IndexNow key, Google Search Console + Bing Webmaster Tools
+- [x] Custom 404 page
+
+### Security
+- [x] 3-layer free plan abuse prevention (fingerprint + IP + timing + honeypot + UA filter)
+- [x] Rate limiting on all public API routes
+- [x] HMAC-SHA256 webhook verification
+- [x] CRON_SECRET timing-safe auth
+- [x] Unsubscribe tokens with 90-day expiry
+- [x] Zod strict validation on all API inputs
+- [x] Claude prompt injection sanitization
+- [x] HTML escaping in email templates
+- [x] PII masking in error logs
 
 ---
 
-## PHASE 4: Scale (Month 4+)
-If we have strong retention and growing paid base.
+## What's Next
 
-- [x] Multi-language meal plans — 800 translated pages live across 10 locales
-- [ ] Dietary specialist plans (keto meal planner, vegan meal planner as separate landing pages)
-- [ ] API for third-party integrations
-- [ ] iOS app (plan viewer + grocery list with offline support)
-- [ ] Affiliate program (bloggers/influencers earn commission)
+### High Impact — Do Soon
+
+- [ ] **Funnel analytics** — track landing → onboarding → free plan → signup → paid. Vercel Analytics alone isn't enough. Add Posthog or Plausible with custom events.
+- [ ] **Welcome email** — new signups should get an email before their first plan lands. Introduce the product, set expectations, drive them back to dashboard.
+- [ ] **Email open/click tracking** — Resend supports webhooks. Knowing which emails convert tells you what to double down on.
+- [ ] **Swap single meal** — most requested feature. Let users replace one meal without regenerating the whole week.
+- [ ] **Checkout return page** — after LemonSqueezy redirects back, poll subscription status for 30s before showing dashboard. Currently the user lands before the webhook fires.
+
+### Growth
+
+- [ ] **Free plan soft email gate** — ask for email before showing the free plan preview. Biggest acquisition lever sitting on the table. Even 20% opt-in = huge nurture list.
+- [ ] **Social sharing card** — "My meal plan for the week" shareable image for Twitter/Instagram. Free distribution.
+- [ ] **Pause/skip week** — subscribers want to skip without cancelling. High retention value.
+- [ ] **Cancellation survey** — ask why before they cancel. Churn insight + last-chance save.
+- [ ] **Annual upsell nudge** — show "switch to yearly, save 50%" banner on dashboard for monthly subscribers.
+
+### SEO Expansion
+
+- [ ] **Blog translations** — 18 articles × 10 locales. Same pattern as meal plans. Big long-term SEO value.
+- [ ] **Language switcher** — translated pages need a way to navigate between locales. Currently no UI for this.
+- [ ] **More pSEO categories** — specific health conditions (IBS, PCOS, thyroid), meal prep focused pages, budget cooking pages.
+
+### Product Depth
+
+- [ ] **Favorite meals** — save meals you loved, bias future plans toward them (feedback table exists, just needs UI).
+- [ ] **Recipe ratings** (thumbs up/down) — `meal_feedback` table already exists, just needs proper UI.
+- [ ] **Grocery delivery integration** — Instacart or AnyList. High value for conversion.
+- [ ] **Leftover tracking** — mark unused ingredients, reduce next week's list.
+
+### Technical Health
+
+- [ ] **Webhook idempotency** — dedupe LemonSqueezy retries using event ID. Low effort, high safety.
+- [ ] **Cron per-user timeout** — 90s timeout per user so one slow Claude call doesn't block everyone.
+- [ ] **Error monitoring** — Sentry or similar. Flying blind on production errors right now.
+- [ ] **Test suite** — promo system, cron, webhook handling at minimum.
 
 ---
 
 ## Metrics to Track
-| Metric | Target (Month 1) | Target (Month 3) |
-|--------|------------------|-------------------|
-| Free plans generated | 100+ | 500+ |
-| Paid subscribers | 10+ | 50+ |
-| Monthly churn | <15% | <10% |
-| Email open rate | >40% | >40% |
-| Free -> paid conversion | >5% | >8% |
 
----
-
-## Known Technical Debt
-- Webhook idempotency missing (LemonSqueezy retry could double-process)
-- Promo code RPC fallback not atomic (race condition on concurrent redemption)
-- No test suite
-- Free plan fingerprint guard is bypassable by determined users
-- Cron has no per-user timeout (one slow generation blocks the queue)
+| Metric | Now | Month 1 Target | Month 3 Target |
+|--------|-----|----------------|----------------|
+| Free plans generated | — | 100+ | 500+ |
+| Paid subscribers | 1 | 10+ | 50+ |
+| Free → paid conversion | — | >5% | >8% |
+| Monthly churn | — | <15% | <10% |
+| Email open rate | — | >40% | >40% |
+| Organic search clicks | — | 100+/mo | 1000+/mo |
