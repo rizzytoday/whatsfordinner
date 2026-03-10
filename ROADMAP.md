@@ -66,42 +66,52 @@ First payment received. Product Hunt scheduled.
 
 ## What's Next
 
-### High Impact — Do Soon
+### Shipped This Session (March 10)
+- [x] **Meal swap** — refresh icon on every meal card. Claude Haiku generates replacement, patches DB, updates UI instantly.
+- [x] **Required delivery email** — onboarding email field now required. Nurture sequence always has an address.
+- [x] **Funnel analytics** — Vercel Analytics events: onboarding_step_completed + onboarding_completed.
+- [x] **Welcome email** — fires non-blocking when first plan starts generating. Arrives while user waits.
+- [x] **Checkout return page** — polls subscription status every 2s, redirects to dashboard when webhook fires. No more "did my payment work?" confusion.
+- [x] **Yearly upsell card** — orange nudge for monthly subscribers. Save $29/yr + 3 invite links callout.
+- [x] **Resend webhooks** — bounces/complaints auto-opt-out (sender reputation). Opens/clicks logged.
 
-- [x] **Funnel analytics** — Vercel Analytics track() on each onboarding step + completion. onboarding_step_completed + onboarding_completed events live.
-- [x] **Swap single meal** — refresh icon on every meal card, Claude Haiku generates replacement respecting diet/allergies/cuisine, patches DB, updates UI instantly.
-- [x] **Required delivery email** — email field now required in onboarding for both free and paid users. Nurture sequence now always has an address to hit.
-- [ ] **Welcome email** — new signups should get an email before their first plan lands. Introduce the product, set expectations, drive them back to dashboard.
-- [ ] **Email open/click tracking** — Resend supports webhooks. Knowing which emails convert tells you what to double down on.
-- [ ] **Checkout return page** — after LemonSqueezy redirects back, poll subscription status for 30s before showing dashboard. Currently the user lands before the webhook fires.
+---
 
-### Growth
+### High Impact — Do Next
 
-- [ ] **Free plan soft email gate** — ask for email before showing the free plan preview. Biggest acquisition lever sitting on the table. Even 20% opt-in = huge nurture list.
-- [ ] **Social sharing card** — "My meal plan for the week" shareable image for Twitter/Instagram. Free distribution.
-- [ ] **Pause/skip week** — subscribers want to skip without cancelling. High retention value.
-- [ ] **Cancellation survey** — ask why before they cancel. Churn insight + last-chance save.
-- [ ] **Annual upsell nudge** — show "switch to yearly, save 50%" banner on dashboard for monthly subscribers.
+- [ ] **Cancellation survey** — intercept before they cancel via LemonSqueezy. One question: "Why are you leaving?" Last-chance save + churn data. Could reduce churn 10-20%.
+- [ ] **Pause/skip week** — "skip this week" button on dashboard. High retention value. Beats cancelling.
+- [ ] **Social sharing** — "My meal plan this week" OG image generator. One click → Twitter/Instagram card. Free distribution every Sunday from every subscriber.
+- [ ] **Checkout return nudge for non-subscribers** — users who land on `/checkout/return` without a subscription (abandoned) → retarget with a follow-up email.
 
 ### SEO Expansion
 
-- [ ] **Blog translations** — 18 articles × 10 locales. Same pattern as meal plans. Big long-term SEO value.
-- [ ] **Language switcher** — translated pages need a way to navigate between locales. Currently no UI for this.
-- [ ] **More pSEO categories** — specific health conditions (IBS, PCOS, thyroid), meal prep focused pages, budget cooking pages.
+- [ ] **Blog translations** — 18 articles × 10 locales. Same pipeline as meal plan pages. Massive long-tail traffic.
+- [ ] **Language switcher** — translated pages need locale nav UI. Hreflang is set, just no way to switch in UI.
+- [ ] **More pSEO categories** — IBS-friendly, PCOS diet, thyroid-friendly, meal prep, budget cooking. Each = 10 new locales × 10 = 100 pages.
+- [ ] **Recipe pages** — individual SEO pages per recipe ("easy keto chicken thigh recipe"). High search volume, direct product funnel.
+
+### Growth Levers
+
+- [ ] **Referral incentive for free users** — "refer a friend, get 1 month free" instead of just yearly subscribers. Viral loop.
+- [ ] **"Share your plan" page** — public read-only version of a week's plan. Users share it, it drives signups.
+- [ ] **Email nurture for subscribers who churn** — when subscription cancels, trigger a 2-email re-engagement sequence (day 7, day 30).
+- [ ] **Seasonal meal plan pushes** — Ramadan, Christmas, Thanksgiving, summer BBQ. Timely content + email campaigns.
 
 ### Product Depth
 
-- [ ] **Favorite meals** — save meals you loved, bias future plans toward them (feedback table exists, just needs UI).
-- [ ] **Recipe ratings** (thumbs up/down) — `meal_feedback` table already exists, just needs proper UI.
-- [ ] **Grocery delivery integration** — Instacart or AnyList. High value for conversion.
-- [ ] **Leftover tracking** — mark unused ingredients, reduce next week's list.
+- [ ] **Favorite meals** — heart icon on meal cards, saves to `meal_feedback` table, biases future plans. Table already exists.
+- [ ] **Shopping list export** — export grocery list as PDF or share to AnyList/Apple Reminders.
+- [ ] **Nutrition summary** — weekly macro breakdown (protein/carbs/fat totals). Visible on plan page.
+- [ ] **Leftover tracking** — mark ingredients as "still have this", reduce next week's list.
+- [ ] **Grocery delivery** — Instacart deep link from grocery list. One click to cart.
 
 ### Technical Health
 
-- [ ] **Webhook idempotency** — dedupe LemonSqueezy retries using event ID. Low effort, high safety.
-- [ ] **Cron per-user timeout** — 90s timeout per user so one slow Claude call doesn't block everyone.
-- [ ] **Error monitoring** — Sentry or similar. Flying blind on production errors right now.
-- [ ] **Test suite** — promo system, cron, webhook handling at minimum.
+- [ ] **Webhook idempotency** — dedupe LemonSqueezy retries by event ID.
+- [ ] **Cron per-user timeout** — 90s cap per user so one slow Claude call doesn't block everyone.
+- [ ] **Error monitoring** — Sentry. Flying blind on production errors right now.
+- [ ] **Email open rate visibility** — build a simple `/admin/email-stats` page reading Vercel logs or Resend API.
 
 ---
 
