@@ -121,7 +121,7 @@ export function PlanView({ planData, weekOf, formattedWeek, initialFeedback }: P
 
       {/* Hero stat */}
       <div className="border-b border-orange-100 bg-gradient-to-r from-orange-50 via-amber-50 to-orange-50 print:hidden">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-6 sm:pt-10 pb-8 sm:pb-14">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-6 sm:pt-10 pb-8 sm:pb-14">
           <p className="text-xs sm:text-sm text-stone-500 mb-1">
             {t("plan.planned", { meals: String(totalMeals) })} &middot; {t("dashboard.heroGroceryItems", { items: String(totalGroceryItems) })} &middot; {totalCalories.toLocaleString()} {t("plan.cal")}
           </p>
