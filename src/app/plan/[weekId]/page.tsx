@@ -21,7 +21,7 @@ export default async function PlanPage({ params }: PlanPageProps) {
     redirect("/login");
   }
 
-  const [{ data: planRow }, { data: feedback }] = await Promise.all([
+  const [{ data: planRow }, { data: feedback }, { data: pantryRows }] = await Promise.all([
     supabase
       .from("meal_plans")
       .select("*")
@@ -31,6 +31,10 @@ export default async function PlanPage({ params }: PlanPageProps) {
     supabase
       .from("meal_feedback")
       .select("meal_name, rating")
+      .eq("user_id", user.id),
+    supabase
+      .from("pantry_items")
+      .select("name")
       .eq("user_id", user.id),
   ]);
 
@@ -47,12 +51,15 @@ export default async function PlanPage({ params }: PlanPageProps) {
   const planData = plan.plan_data as MealPlanData;
   const formattedWeek = formatWeekOf(weekId);
 
+  const userPantryItems = (pantryRows ?? []).map((r: { name: string }) => r.name);
+
   return (
     <PlanView
       planData={planData}
       weekOf={weekId}
       formattedWeek={formattedWeek}
       initialFeedback={feedback as { meal_name: string; rating: "liked" | "disliked" }[] ?? []}
+      userPantryItems={userPantryItems}
     />
   );
 }

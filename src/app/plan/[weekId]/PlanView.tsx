@@ -15,11 +15,12 @@ interface PlanViewProps {
   weekOf: string;
   formattedWeek: string;
   initialFeedback?: { meal_name: string; rating: "liked" | "disliked" }[];
+  userPantryItems?: string[];
 }
 
 type ViewMode = "cards" | "table";
 
-export function PlanView({ planData, weekOf, formattedWeek, initialFeedback }: PlanViewProps) {
+export function PlanView({ planData, weekOf, formattedWeek, initialFeedback, userPantryItems }: PlanViewProps) {
   const { t } = useT();
   const [viewMode, setViewMode] = useState<ViewMode>("cards");
   const [planDays, setPlanDays] = useState(planData.days);
@@ -210,6 +211,7 @@ export function PlanView({ planData, weekOf, formattedWeek, initialFeedback }: P
             onFeedback={handleFeedback}
             onSwap={handleSwap}
             swappingKey={swappingKey}
+            userPantryItems={userPantryItems}
           />
         </div>
 
@@ -222,6 +224,7 @@ export function PlanView({ planData, weekOf, formattedWeek, initialFeedback }: P
                 categories={planData.groceryList}
                 estimatedCost={planData.estimatedWeeklyCost}
                 columns
+                userPantryItems={userPantryItems}
               />
             </div>
           ) : (
@@ -245,6 +248,7 @@ export function PlanView({ planData, weekOf, formattedWeek, initialFeedback }: P
                   <GroceryList
                     categories={planData.groceryList}
                     estimatedCost={planData.estimatedWeeklyCost}
+                    userPantryItems={userPantryItems}
                   />
                 </div>
               </div>

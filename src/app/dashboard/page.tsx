@@ -18,6 +18,7 @@ import {
   SettingsCard,
 } from "@/components/dashboard/DashboardContent";
 import { FastingToggle } from "@/components/dashboard/FastingToggle";
+import { PantrySettings } from "@/components/dashboard/PantrySettings";
 import type { MealPlanRecord } from "@/types/meal-plan";
 
 export default async function DashboardPage() {
@@ -113,6 +114,9 @@ export default async function DashboardPage() {
             />
 
             <SettingsCard hasProfile={hasProfile} isSubscribed={isSubscribed} freeUsed={freeUsed} />
+
+            {/* Pantry settings — subscriber feature */}
+            {hasProfile && isSubscribed && <PantrySettings />}
 
             {/* Ramadan fasting toggle — only for Halal users */}
             {profile?.dietary_restrictions?.includes("Halal") && (

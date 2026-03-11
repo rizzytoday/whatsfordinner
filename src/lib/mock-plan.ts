@@ -89,6 +89,10 @@ export const MOCK_PLAN: MealPlanData = {
       category: "Pantry",
       items: [
         { name: "Honey", amount: "1", unit: "tbsp" },
+        { name: "Olive oil", amount: "2", unit: "tbsp" },
+        { name: "Salt", amount: "1", unit: "tsp" },
+        { name: "Black pepper", amount: "1", unit: "tsp" },
+        { name: "Garlic powder", amount: "1", unit: "tsp" },
       ],
     },
   ],

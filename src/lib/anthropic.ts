@@ -1,6 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import type { UserProfile } from "@/types/meal-plan";
 import type { MealPlanData } from "@/types/meal-plan";
+import { classifyGroceryItems } from "@/lib/staple-classifier";
 
 const anthropic = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY!,
@@ -20,7 +21,7 @@ interface MealFeedback {
   rating: "liked" | "disliked";
 }
 
-function buildPrompt(profile: UserProfile, days: number, feedback?: MealFeedback[]): string {
+function buildPrompt(profile: UserProfile, days: number, feedback?: MealFeedback[], pantryItems?: string[]): string {
   const dayLabel = days === 7 ? "7-day" : `${days}-day`;
   const dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"].slice(0, days);
 
@@ -78,6 +79,10 @@ function buildPrompt(profile: UserProfile, days: number, feedback?: MealFeedback
     if (disliked.length > 0) lines.push(`Disliked meals (AVOID similar): ${disliked.slice(0, 10).join(", ")}`);
   }
 
+  if (pantryItems && pantryItems.length > 0) {
+    lines.push(`Always has at home: ${pantryItems.slice(0, 50).join(", ")}`);
+  }
+
   if (profile.cuisine_preferences.length > 0) {
     // Cap cuisines for shorter plans to keep response compact
     const maxCuisines = days <= 1 ? 3 : days <= 3 ? 5 : Infinity;
@@ -90,18 +95,18 @@ function buildPrompt(profile: UserProfile, days: number, feedback?: MealFeedback
   if (days <= 1) {
     lines.push(
       ``,
-      `RULES: Be VERY concise. 2-3 ingredients per meal max. 2 instruction steps max. Short names. Skip pantry staples. Respect restrictions/allergies.`,
+      `RULES: Be VERY concise. 2-3 ingredients per meal max. 2 instruction steps max. Short names. Respect restrictions/allergies. In groceryList, include ALL items including pantry staples but mark isStaple:true for salt, oil, basic spices, flour, sugar, common condiments, and items where only a tiny amount is needed (1 tbsp or less). Mark isStaple:false for fresh produce, proteins, dairy, and specific ingredients.`,
       ``,
       `Respond with ONLY valid JSON (no markdown):`,
-      `{"weekOf":"YYYY-MM-DD","days":[{"day":"Monday","meals":[{"name":"Name","type":"breakfast","prepTime":5,"cookTime":10,"calories":400,"servings":2,"ingredients":[{"name":"item","amount":"1","unit":"cup"}],"instructions":["Step"],"tags":["quick"]}],"totalCalories":1800}],"groceryList":[{"category":"Produce","items":[{"name":"Tomatoes","amount":"4","unit":"whole"}]}],"estimatedWeeklyCost":"$15","notes":"Tip"}`
+      `{"weekOf":"YYYY-MM-DD","days":[{"day":"Monday","meals":[{"name":"Name","type":"breakfast","prepTime":5,"cookTime":10,"calories":400,"servings":2,"ingredients":[{"name":"item","amount":"1","unit":"cup"}],"instructions":["Step"],"tags":["quick"]}],"totalCalories":1800}],"groceryList":[{"category":"Produce","items":[{"name":"Tomatoes","amount":"4","unit":"whole","isStaple":false}]},{"category":"Pantry","items":[{"name":"Olive oil","amount":"2","unit":"tbsp","isStaple":true}]}],"estimatedWeeklyCost":"$15","notes":"Tip"}`
     );
   } else {
     lines.push(
       ``,
-      `RULES: Balanced nutrition daily (veggies, protein, grains). Respect all restrictions/allergies. Variety in proteins. Concise instructions (3-4 steps max). Skip pantry staples in ingredients.`,
+      `RULES: Balanced nutrition daily (veggies, protein, grains). Respect all restrictions/allergies. Variety in proteins. Concise instructions (3-4 steps max). In groceryList, include ALL items including pantry staples but mark isStaple:true for salt, oil, basic spices, flour, sugar, common condiments, and items where only a tiny amount is needed (1 tbsp or less). Mark isStaple:false for fresh produce, proteins, dairy, and specific ingredients.`,
       ``,
       `Respond with ONLY valid JSON (no markdown):`,
-      `{"weekOf":"YYYY-MM-DD","days":[{"day":"Monday","meals":[{"name":"Name","type":"breakfast|lunch|dinner|snack","prepTime":10,"cookTime":20,"calories":450,"servings":2,"ingredients":[{"name":"item","amount":"1","unit":"cup"}],"instructions":["Step 1"],"tags":["quick"]}],"totalCalories":1800}],"groceryList":[{"category":"Produce","items":[{"name":"Tomatoes","amount":"4","unit":"whole"}]}],"estimatedWeeklyCost":"$85-95","notes":"Brief tips"}`
+      `{"weekOf":"YYYY-MM-DD","days":[{"day":"Monday","meals":[{"name":"Name","type":"breakfast|lunch|dinner|snack","prepTime":10,"cookTime":20,"calories":450,"servings":2,"ingredients":[{"name":"item","amount":"1","unit":"cup"}],"instructions":["Step 1"],"tags":["quick"]}],"totalCalories":1800}],"groceryList":[{"category":"Produce","items":[{"name":"Tomatoes","amount":"4","unit":"whole","isStaple":false}]},{"category":"Pantry","items":[{"name":"Olive oil","amount":"2","unit":"tbsp","isStaple":true}]}],"estimatedWeeklyCost":"$85-95","notes":"Brief tips"}`
     );
   }
 
@@ -111,11 +116,11 @@ function buildPrompt(profile: UserProfile, days: number, feedback?: MealFeedback
 export async function generateMealPlan(
   profile: UserProfile,
   weekOf: string,
-  options?: { days?: number; feedback?: MealFeedback[] }
+  options?: { days?: number; feedback?: MealFeedback[]; pantryItems?: string[] }
 ): Promise<MealPlanData> {
   const days = options?.days ?? 7;
   const systemPrompt = `You are a meal planner. Respond with valid JSON only — no markdown, no explanation. Just the JSON object.`;
-  const userPrompt = buildPrompt(profile, days, options?.feedback);
+  const userPrompt = buildPrompt(profile, days, options?.feedback, options?.pantryItems);
 
   // Haiku 4.5 — cheapest model, handles structured JSON well
   const message = await anthropic.messages.create({
@@ -155,6 +160,17 @@ export async function generateMealPlan(
   }
   if (!plan.groceryList || plan.groceryList.length === 0) {
     throw new Error("Missing grocery list");
+  }
+
+  // Post-process: ensure isStaple flags are set via deterministic classifier
+  // This is the safety net — Claude may not reliably set isStaple
+  const { stapleItems } = classifyGroceryItems(plan.groceryList, options?.pantryItems);
+  // Rebuild grocery list with isStaple flags for downstream consumers
+  const stapleNames = new Set(stapleItems.map((s) => s.name.toLowerCase()));
+  for (const cat of plan.groceryList) {
+    for (const item of cat.items) {
+      item.isStaple = stapleNames.has(item.name.toLowerCase());
+    }
   }
 
   return plan;

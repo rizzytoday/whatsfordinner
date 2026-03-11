@@ -27,6 +27,15 @@ export interface GroceryItem {
   amount: string;
   unit: string;
   checked?: boolean;
+  isStaple?: boolean;
+}
+
+export interface PantryItem {
+  id: string;
+  user_id: string;
+  name: string;
+  category: string;
+  created_at: string;
 }
 
 export interface GroceryCategory {

@@ -15,11 +15,12 @@ interface MobileTabsProps {
   onFeedback?: (mealName: string, rating: "liked" | "disliked") => void;
   onSwap?: (dayIndex: number, mealIndex: number) => void;
   swappingKey?: string | null;
+  userPantryItems?: string[];
 }
 
 type Tab = "meals" | "grocery";
 
-export function MobileTabs({ days, groceryCategories, estimatedCost, feedbackMap, onFeedback, onSwap, swappingKey }: MobileTabsProps) {
+export function MobileTabs({ days, groceryCategories, estimatedCost, feedbackMap, onFeedback, onSwap, swappingKey, userPantryItems }: MobileTabsProps) {
   const { t } = useT();
   const [active, setActive] = useState<Tab>("meals");
 
@@ -71,7 +72,7 @@ export function MobileTabs({ days, groceryCategories, estimatedCost, feedbackMap
           ))}
         </div>
       ) : (
-        <GroceryList categories={groceryCategories} estimatedCost={estimatedCost} />
+        <GroceryList categories={groceryCategories} estimatedCost={estimatedCost} userPantryItems={userPantryItems} />
       )}
     </div>
   );

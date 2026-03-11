@@ -1,31 +1,36 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n/context";
+import { classifyGroceryItems } from "@/lib/staple-classifier";
 import type { GroceryCategory } from "@/types/meal-plan";
 
 interface GroceryListProps {
   categories: GroceryCategory[];
   estimatedCost?: string;
   columns?: boolean;
+  userPantryItems?: string[];
 }
 
-export function GroceryList({ categories, estimatedCost, columns = false }: GroceryListProps) {
+export function GroceryList({ categories, estimatedCost, columns = false, userPantryItems }: GroceryListProps) {
   const { t } = useT();
   const [checked, setChecked] = useState<Record<string, boolean>>({});
+  const [staplesExpanded, setStaplesExpanded] = useState(false);
 
-  function toggleItem(categoryIdx: number, itemIdx: number) {
-    const key = `${categoryIdx}-${itemIdx}`;
+  const { keyCategories, stapleItems } = useMemo(
+    () => classifyGroceryItems(categories, userPantryItems),
+    [categories, userPantryItems],
+  );
+
+  function toggleItem(key: string) {
     setChecked((prev) => ({ ...prev, [key]: !prev[key] }));
   }
 
-  const totalItems = categories.reduce(
-    (sum, cat) => sum + cat.items.length,
-    0,
-  );
+  const totalKeyItems = keyCategories.reduce((sum, cat) => sum + cat.items.length, 0);
+  const totalItems = totalKeyItems + stapleItems.length;
   const checkedCount = Object.values(checked).filter(Boolean).length;
 
   return (
@@ -45,6 +50,9 @@ export function GroceryList({ categories, estimatedCost, columns = false }: Groc
             </div>
             <p className="text-xs text-stone-400 mt-0.5">
               {t("plan.itemsChecked", { checked: String(checkedCount), total: String(totalItems) })}
+              {stapleItems.length > 0 && (
+                <span className="text-stone-300"> &middot; {stapleItems.length} {t("plan.pantryStaples")}</span>
+              )}
             </p>
           </div>
           <div className="flex flex-col items-end gap-0.5">
@@ -76,21 +84,90 @@ export function GroceryList({ categories, estimatedCost, columns = false }: Groc
       </CardHeader>
 
       <CardContent className={cn("print:space-y-3", columns ? "" : "space-y-5")}>
-        <div className={cn(columns && "columns-2 xl:columns-3 gap-8")}>
-          {categories.map((cat, catIdx) => (
-            <div key={cat.category} className={cn(columns ? "break-inside-avoid mb-5" : "mb-5 last:mb-0")}>
-              <div className="flex items-center justify-between mb-2">
-                <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-wide">
-                  {cat.category}
-                </h4>
-                <span className="text-[10px] text-stone-400">
-                  {cat.items.length} {t("plan.items")}
-                </span>
-              </div>
+        {/* KEY ITEMS — what you actually need to buy */}
+        {keyCategories.length > 0 && (
+          <div className={cn(columns && "columns-2 xl:columns-3 gap-8")}>
+            {keyCategories.map((cat, catIdx) => (
+              <div key={cat.category} className={cn(columns ? "break-inside-avoid mb-5" : "mb-5 last:mb-0")}>
+                <div className="flex items-center justify-between mb-2">
+                  <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-wide">
+                    {cat.category}
+                  </h4>
+                  <span className="text-[10px] text-stone-400">
+                    {cat.items.length} {t("plan.items")}
+                  </span>
+                </div>
 
-              <ul className="space-y-1.5">
-                {cat.items.map((item, itemIdx) => {
-                  const key = `${catIdx}-${itemIdx}`;
+                <ul className="space-y-1.5">
+                  {cat.items.map((item, itemIdx) => {
+                    const key = `key-${catIdx}-${itemIdx}`;
+                    const isChecked = !!checked[key];
+
+                    return (
+                      <li key={key}>
+                        <label className="flex items-center gap-3 cursor-pointer group">
+                          <input
+                            type="checkbox"
+                            checked={isChecked}
+                            onChange={() => toggleItem(key)}
+                            className="w-4 h-4 rounded border-stone-300 text-orange-500 focus:ring-orange-400 focus:ring-offset-0 cursor-pointer"
+                          />
+                          <span
+                            className={cn(
+                              "text-sm transition-all duration-200",
+                              isChecked
+                                ? "line-through text-stone-400"
+                                : "text-stone-600 group-hover:text-stone-800",
+                            )}
+                          >
+                            {item.amount} {item.unit} {item.name}
+                          </span>
+                        </label>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* STAPLE ITEMS — likely already in your kitchen */}
+        {stapleItems.length > 0 && (
+          <div className="pt-4 border-t border-stone-100">
+            <button
+              type="button"
+              onClick={() => setStaplesExpanded(!staplesExpanded)}
+              className="flex items-center gap-2 w-full text-left mb-3 group print:pointer-events-none"
+            >
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                className={cn(
+                  "text-stone-300 transition-transform duration-200 print:hidden",
+                  staplesExpanded && "rotate-90",
+                )}
+              >
+                <path d="M4 2L8 6L4 10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <span className="text-xs font-medium text-stone-400 group-hover:text-stone-500 transition-colors">
+                {t("plan.likelyAtHome")}
+              </span>
+              <span className="text-[10px] text-stone-300">
+                {stapleItems.length} {t("plan.items")}
+              </span>
+            </button>
+
+            {/* Always show in print, toggle on screen */}
+            <div className={cn(
+              "print:!block",
+              staplesExpanded ? "block" : "hidden sm:block",
+            )}>
+              <ul className="space-y-1">
+                {stapleItems.map((item, idx) => {
+                  const key = `staple-${idx}`;
                   const isChecked = !!checked[key];
 
                   return (
@@ -99,18 +176,23 @@ export function GroceryList({ categories, estimatedCost, columns = false }: Groc
                         <input
                           type="checkbox"
                           checked={isChecked}
-                          onChange={() => toggleItem(catIdx, itemIdx)}
-                          className="w-4 h-4 rounded border-stone-300 text-orange-500 focus:ring-orange-400 focus:ring-offset-0 cursor-pointer"
+                          onChange={() => toggleItem(key)}
+                          className="w-3.5 h-3.5 rounded border-stone-200 text-stone-400 focus:ring-stone-300 focus:ring-offset-0 cursor-pointer"
                         />
                         <span
                           className={cn(
-                            "text-sm transition-all duration-200",
+                            "text-xs transition-all duration-200",
                             isChecked
-                              ? "line-through text-stone-400"
-                              : "text-stone-600 group-hover:text-stone-800",
+                              ? "line-through text-stone-300"
+                              : "text-stone-400",
                           )}
                         >
                           {item.amount} {item.unit} {item.name}
+                          {idx === 0 && (
+                            <span className="text-[10px] text-stone-300 italic ml-2 print:hidden">
+                              {t("plan.likelyAtHomeNote")}
+                            </span>
+                          )}
                         </span>
                       </label>
                     </li>
@@ -118,8 +200,8 @@ export function GroceryList({ categories, estimatedCost, columns = false }: Groc
                 })}
               </ul>
             </div>
-          ))}
-        </div>
+          </div>
+        )}
       </CardContent>
     </Card>
   );

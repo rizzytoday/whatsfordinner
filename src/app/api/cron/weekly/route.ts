@@ -125,17 +125,18 @@ export async function GET(req: NextRequest) {
           continue;
         }
 
-        // Fetch meal feedback for smarter generation
-        const { data: feedback } = await admin
-          .from("meal_feedback")
-          .select("meal_name, rating")
-          .eq("user_id", profile.user_id);
+        // Fetch meal feedback and pantry items for smarter generation
+        const [{ data: feedback }, { data: pantryRows }] = await Promise.all([
+          admin.from("meal_feedback").select("meal_name, rating").eq("user_id", profile.user_id),
+          admin.from("pantry_items").select("name").eq("user_id", profile.user_id),
+        ]);
+        const pantryItems = (pantryRows ?? []).map((r: { name: string }) => r.name);
 
         // Generate the meal plan
         const planData = await generateMealPlan(
           profile as unknown as UserProfile,
           weekOf,
-          { feedback: feedback ?? [] }
+          { feedback: feedback ?? [], pantryItems }
         );
 
         // Save the plan

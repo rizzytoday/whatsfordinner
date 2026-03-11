@@ -382,7 +382,10 @@
     "statusGenerating": "Generating",
     "statusReady": "Ready",
     "statusSent": "Sent",
-    "statusFailed": "Failed"
+    "statusFailed": "Failed",
+    "pantryTitle": "My Pantry",
+    "pantrySubtitle": "Items you always have at home — dimmed on your grocery list",
+    "pantrySaved": "Saved"
   },
   "mealTypes": {
     "breakfast": "Breakfast",
@@ -445,6 +448,9 @@
     "print": "Print",
     "fridgeNote": "Stick it on your fridge!",
     "itemsChecked": "{checked}/{total} items checked",
-    "items": "items"
+    "items": "items",
+    "pantryStaples": "pantry staples",
+    "likelyAtHome": "Likely already in your kitchen",
+    "likelyAtHomeNote": "assuming you might have this"
   }
 }

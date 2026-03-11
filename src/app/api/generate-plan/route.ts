@@ -60,11 +60,12 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Fetch meal feedback for smarter generation
-    const { data: feedback } = await admin
-      .from("meal_feedback")
-      .select("meal_name, rating")
-      .eq("user_id", user.id);
+    // Fetch meal feedback and pantry items for smarter generation
+    const [{ data: feedback }, { data: pantryRows }] = await Promise.all([
+      admin.from("meal_feedback").select("meal_name, rating").eq("user_id", user.id),
+      admin.from("pantry_items").select("name").eq("user_id", user.id),
+    ]);
+    const pantryItems = (pantryRows ?? []).map((r: { name: string }) => r.name);
 
     const weekOf = getWeekOf();
 
@@ -154,12 +155,12 @@ export async function POST(req: NextRequest) {
       const { MOCK_PLAN } = await import("@/lib/mock-plan");
       planData = { ...MOCK_PLAN, weekOf };
     } else try {
-      planData = await generateMealPlan(profile as UserProfile, weekOf, { days, feedback: feedback ?? [] });
+      planData = await generateMealPlan(profile as UserProfile, weekOf, { days, feedback: feedback ?? [], pantryItems });
     } catch (firstError) {
       console.error("First generation attempt failed:", firstError);
 
       try {
-        planData = await generateMealPlan(profile as UserProfile, weekOf, { days, feedback: feedback ?? [] });
+        planData = await generateMealPlan(profile as UserProfile, weekOf, { days, feedback: feedback ?? [], pantryItems });
       } catch (retryError) {
         console.error("Retry generation failed:", retryError);
 
