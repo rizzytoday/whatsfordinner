@@ -382,7 +382,10 @@
     "statusGenerating": "Gerando",
     "statusReady": "Pronto",
     "statusSent": "Enviado",
-    "statusFailed": "Falhou"
+    "statusFailed": "Falhou",
+    "pantryTitle": "Minha Despensa",
+    "pantrySubtitle": "O que você sempre tem em casa — aparece esmaecido na lista",
+    "pantrySaved": "Salvo"
   },
   "mealTypes": {
     "breakfast": "Café da Manhã",
@@ -445,6 +448,9 @@
     "print": "Imprimir",
     "fridgeNote": "Cole na sua geladeira!",
     "itemsChecked": "{checked}/{total} itens marcados",
-    "items": "itens"
+    "items": "itens",
+    "pantryStaples": "itens básicos",
+    "likelyAtHome": "Provavelmente já tem na sua cozinha",
+    "likelyAtHomeNote": "assumindo que já tem"
   }
 }

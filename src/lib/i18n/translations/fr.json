@@ -382,7 +382,10 @@
     "statusGenerating": "En cours",
     "statusReady": "Prêt",
     "statusSent": "Envoyé",
-    "statusFailed": "Échoué"
+    "statusFailed": "Échoué",
+    "pantryTitle": "Mon Garde-manger",
+    "pantrySubtitle": "Ce que vous avez toujours chez vous — grisé sur votre liste",
+    "pantrySaved": "Enregistré"
   },
   "mealTypes": {
     "breakfast": "Petit-déjeuner",
@@ -445,6 +448,9 @@
     "print": "Imprimer",
     "fridgeNote": "Collez-le sur votre frigo !",
     "itemsChecked": "{checked}/{total} articles cochés",
-    "items": "articles"
+    "items": "articles",
+    "pantryStaples": "produits de base",
+    "likelyAtHome": "Probablement déjà dans votre cuisine",
+    "likelyAtHomeNote": "en supposant que vous l'avez"
   }
 }

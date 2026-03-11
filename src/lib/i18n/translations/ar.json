@@ -382,7 +382,10 @@
     "statusGenerating": "جاري الإنشاء",
     "statusReady": "جاهزة",
     "statusSent": "مُرسلة",
-    "statusFailed": "فشلت"
+    "statusFailed": "فشلت",
+    "pantryTitle": "مخزني",
+    "pantrySubtitle": "الأشياء التي تتوفر دائماً في منزلك — تظهر باهتة في قائمتك",
+    "pantrySaved": "تم الحفظ"
   },
   "mealTypes": {
     "breakfast": "الإفطار",
@@ -445,6 +448,9 @@
     "print": "طباعة",
     "fridgeNote": "علّقها على ثلاجتك!",
     "itemsChecked": "{checked}/{total} عناصر محددة",
-    "items": "عناصر"
+    "items": "عناصر",
+    "pantryStaples": "أساسيات المطبخ",
+    "likelyAtHome": "على الأرجح موجودة في مطبخك",
+    "likelyAtHomeNote": "بافتراض أنها متوفرة لديك"
   }
 }

@@ -382,7 +382,10 @@
     "statusGenerating": "생성 중",
     "statusReady": "준비됨",
     "statusSent": "전송됨",
-    "statusFailed": "실패"
+    "statusFailed": "실패",
+    "pantryTitle": "나의 식료품 저장고",
+    "pantrySubtitle": "항상 집에 있는 것들 — 장보기 목록에서 흐리게 표시됩니다",
+    "pantrySaved": "저장됨"
   },
   "mealTypes": {
     "breakfast": "아침",
@@ -445,6 +448,9 @@
     "print": "인쇄",
     "fridgeNote": "냉장고에 붙이세요!",
     "itemsChecked": "{checked}/{total} 항목 체크됨",
-    "items": "항목"
+    "items": "항목",
+    "pantryStaples": "기본 식재료",
+    "likelyAtHome": "아마 이미 부엌에 있을 거예요",
+    "likelyAtHomeNote": "이미 있다고 가정"
   }
 }

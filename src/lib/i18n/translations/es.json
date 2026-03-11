@@ -382,7 +382,10 @@
     "statusGenerating": "Generando",
     "statusReady": "Listo",
     "statusSent": "Enviado",
-    "statusFailed": "Fallido"
+    "statusFailed": "Fallido",
+    "pantryTitle": "Mi Despensa",
+    "pantrySubtitle": "Lo que siempre tienes en casa — aparecerá atenuado en tu lista",
+    "pantrySaved": "Guardado"
   },
   "mealTypes": {
     "breakfast": "Desayuno",
@@ -445,6 +448,9 @@
     "print": "Imprimir",
     "fridgeNote": "¡Pégalo en tu refrigerador!",
     "itemsChecked": "{checked}/{total} artículos marcados",
-    "items": "artículos"
+    "items": "artículos",
+    "pantryStaples": "básicos de despensa",
+    "likelyAtHome": "Probablemente ya los tienes en casa",
+    "likelyAtHomeNote": "asumiendo que ya lo tienes"
   }
 }

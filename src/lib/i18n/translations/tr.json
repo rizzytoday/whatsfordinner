@@ -382,7 +382,10 @@
     "statusGenerating": "Oluşturuluyor",
     "statusReady": "Hazır",
     "statusSent": "Gönderildi",
-    "statusFailed": "Başarısız"
+    "statusFailed": "Başarısız",
+    "pantryTitle": "Kilerim",
+    "pantrySubtitle": "Her zaman evinizde olan malzemeler — listenizde soluk görünür",
+    "pantrySaved": "Kaydedildi"
   },
   "mealTypes": {
     "breakfast": "Kahvaltı",
@@ -445,6 +448,9 @@
     "print": "Yazdır",
     "fridgeNote": "Buzdolabına asın!",
     "itemsChecked": "{checked}/{total} ürün işaretlendi",
-    "items": "ürün"
+    "items": "ürün",
+    "pantryStaples": "mutfak malzemeleri",
+    "likelyAtHome": "Muhtemelen mutfağınızda var",
+    "likelyAtHomeNote": "zaten evinizde olduğunu varsayarak"
   }
 }

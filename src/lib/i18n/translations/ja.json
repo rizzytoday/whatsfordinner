@@ -382,7 +382,10 @@
     "statusGenerating": "作成中",
     "statusReady": "準備完了",
     "statusSent": "送信済み",
-    "statusFailed": "失敗"
+    "statusFailed": "失敗",
+    "pantryTitle": "マイパントリー",
+    "pantrySubtitle": "いつも家にあるもの — 買い物リストでは薄く表示されます",
+    "pantrySaved": "保存しました"
   },
   "mealTypes": {
     "breakfast": "朝食",
@@ -445,6 +448,9 @@
     "print": "印刷",
     "fridgeNote": "冷蔵庫に貼ってください！",
     "itemsChecked": "{checked}/{total} アイテムをチェック済み",
-    "items": "アイテム"
+    "items": "アイテム",
+    "pantryStaples": "常備品",
+    "likelyAtHome": "おそらくキッチンにあるもの",
+    "likelyAtHomeNote": "すでにお持ちと想定"
   }
 }

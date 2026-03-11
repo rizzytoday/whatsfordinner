@@ -382,7 +382,10 @@
     "statusGenerating": "बनाया जा रहा है",
     "statusReady": "तैयार",
     "statusSent": "भेजा गया",
-    "statusFailed": "विफल"
+    "statusFailed": "विफल",
+    "pantryTitle": "मेरी रसोई",
+    "pantrySubtitle": "जो चीज़ें हमेशा घर में होती हैं — आपकी सूची में हल्के रंग में दिखेंगी",
+    "pantrySaved": "सहेजा गया"
   },
   "mealTypes": {
     "breakfast": "नाश्ता",
@@ -445,6 +448,9 @@
     "print": "प्रिंट करें",
     "fridgeNote": "अपने फ्रिज पर चिपकाएँ!",
     "itemsChecked": "{checked}/{total} वस्तुएँ चेक की गईं",
-    "items": "वस्तुएँ"
+    "items": "वस्तुएँ",
+    "pantryStaples": "रसोई की बुनियादी चीज़ें",
+    "likelyAtHome": "शायद आपकी रसोई में पहले से है",
+    "likelyAtHomeNote": "मानते हैं कि ये आपके पास है"
   }
 }

@@ -382,7 +382,10 @@
     "statusGenerating": "Wird erstellt",
     "statusReady": "Fertig",
     "statusSent": "Gesendet",
-    "statusFailed": "Fehlgeschlagen"
+    "statusFailed": "Fehlgeschlagen",
+    "pantryTitle": "Meine Vorratskammer",
+    "pantrySubtitle": "Was du immer zu Hause hast — wird auf deiner Liste abgeblendet",
+    "pantrySaved": "Gespeichert"
   },
   "mealTypes": {
     "breakfast": "Frühstück",
@@ -445,6 +448,9 @@
     "print": "Drucken",
     "fridgeNote": "Häng es an Deinen Kühlschrank!",
     "itemsChecked": "{checked}/{total} Artikel abgehakt",
-    "items": "Artikel"
+    "items": "Artikel",
+    "pantryStaples": "Vorrats-Basics",
+    "likelyAtHome": "Wahrscheinlich schon in deiner Küche",
+    "likelyAtHomeNote": "vermutlich schon vorhanden"
   }
 }

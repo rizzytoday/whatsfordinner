@@ -382,7 +382,10 @@
     "statusGenerating": "生成中",
     "statusReady": "就绪",
     "statusSent": "已发送",
-    "statusFailed": "失败"
+    "statusFailed": "失败",
+    "pantryTitle": "我的储藏室",
+    "pantrySubtitle": "家里常备的东西 — 会在购物清单中淡化显示",
+    "pantrySaved": "已保存"
   },
   "mealTypes": {
     "breakfast": "早餐",
@@ -445,6 +448,9 @@
     "print": "打印",
     "fridgeNote": "贴在冰箱上！",
     "itemsChecked": "已勾选 {checked}/{total} 项",
-    "items": "项"
+    "items": "项",
+    "pantryStaples": "厨房常备品",
+    "likelyAtHome": "可能已经在你的厨房里",
+    "likelyAtHomeNote": "假设您已有此物品"
   }
 }
