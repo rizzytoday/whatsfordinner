@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: "/((?!sitemap\\.xml|robots\\.txt).*)",
+        source: "/((?!sitemap\\.xml|sitemap/.*|robots\\.txt).*)",
         headers: [
           { key: "X-Frame-Options", value: "DENY" },
           { key: "X-Content-Type-Options", value: "nosniff" },
