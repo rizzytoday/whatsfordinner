@@ -3,7 +3,7 @@ import type { MealPlanPageData } from "./types";
 export const methodsExtendedPages: MealPlanPageData[] = [
   {
     slug: "instant-pot-meal-plan",
-    type: "diet",
+    type: "method",
     title: "Instant Pot Meal Plan — Pressure Cooker Meals in Half the Time",
     metaDescription:
       "Get a personalized weekly Instant Pot meal plan with pressure cooker recipes and a grocery list. Hands-off cooking, faster than the oven. Try free.",
@@ -97,7 +97,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "sheet-pan-meal-plan",
-    type: "diet",
+    type: "method",
     title: "Sheet Pan Meal Plan — One Pan, Complete Dinner, Easy Cleanup",
     metaDescription:
       "Get a personalized weekly sheet pan meal plan with one-pan dinner recipes and a grocery list. Everything roasts together on one tray. Minimal cleanup. Try free.",
@@ -191,7 +191,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "freezer-meal-plan",
-    type: "diet",
+    type: "method",
     title: "Freezer Meal Plan — Prep Now, Eat Later, Always Ready",
     metaDescription:
       "Get a personalized weekly freezer meal plan with make-ahead recipes and a grocery list. Prep everything on the weekend, pull and cook all week. Try free.",
@@ -285,7 +285,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "5-ingredient-meal-plan",
-    type: "diet",
+    type: "method",
     title: "5-Ingredient Meal Plan — Simple Recipes, Big Flavor",
     metaDescription:
       "Get a personalized weekly 5-ingredient meal plan with simple recipes and a grocery list. Just 5 main ingredients per recipe — minimal shopping, maximum taste. Try free.",
@@ -379,7 +379,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "under-20-minute-meal-plan",
-    type: "diet",
+    type: "method",
     title: "20-Minute Meal Plan — Ultra-Quick Dinners, No Shortcuts on Taste",
     metaDescription:
       "Get a personalized weekly 20-minute meal plan with ultra-quick recipes and a grocery list. Every meal from fridge to table in under 20 minutes. Try free.",
@@ -473,7 +473,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "batch-cooking-meal-plan",
-    type: "diet",
+    type: "method",
     title: "Batch Cooking Meal Plan — Cook Once, Eat All Week",
     metaDescription:
       "Get a personalized weekly batch cooking meal plan with big-batch recipes and a grocery list. One cooking session fuels your entire week. Try free.",
@@ -567,7 +567,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "one-pan-keto-meal-plan",
-    type: "combo",
+    type: "method",
     title: "One-Pan Keto Meal Plan — Low-Carb Dinners, One Pan Cleanup",
     metaDescription:
       "Get a personalized weekly one-pan keto meal plan with low-carb recipes and a grocery list. Stay in ketosis with minimal cooking and zero dish pileup. Try free.",
@@ -661,7 +661,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "instant-pot-family-meal-plan",
-    type: "combo",
+    type: "method",
     title: "Instant Pot Family Meal Plan — Pressure Cooker Meals for 4+",
     metaDescription:
       "Get a personalized weekly Instant Pot family meal plan with kid-friendly pressure cooker recipes and a grocery list. Feeds 4-6, hands-off cooking. Try free.",

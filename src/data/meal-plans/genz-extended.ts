@@ -3,7 +3,7 @@ import type { MealPlanPageData } from "./types";
 export const genzExtendedPages: MealPlanPageData[] = [
   {
     slug: "dorm-room-meal-plan",
-    type: "diet",
+    type: "genz",
     title: "Dorm Room Meal Plan",
     metaDescription:
       "Get a weekly meal plan you can make with just a microwave and mini fridge. No kitchen needed. Real meals, real nutrition, dorm-room friendly. Try it free.",
@@ -101,7 +101,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-broke-college-kids",
-    type: "diet",
+    type: "genz",
     title: "Meal Plan for Broke College Kids",
     metaDescription:
       "Eat real meals on under $25/week. Budget meal plans for college students with minimal ingredients and maximum flavor. No dining hall required. Try it free.",
@@ -200,7 +200,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "post-graduation-meal-plan",
-    type: "diet",
+    type: "genz",
     title: "Post-Graduation Meal Plan",
     metaDescription:
       "Just graduated? Learn to cook real meals in your first kitchen. Easy recipes for new adults with grocery lists and zero assumed skill. Try it free today.",
@@ -298,7 +298,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-night-shift",
-    type: "diet",
+    type: "genz",
     title: "Night Shift Meal Plan",
     metaDescription:
       "Meal plan designed for night shift workers. Pre-made meals, smart energy management, and recipes that work on a flipped schedule. Try your free plan today.",
@@ -396,7 +396,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-remote-workers",
-    type: "diet",
+    type: "genz",
     title: "Remote Worker Meal Plan",
     metaDescription:
       "Stop ordering UberEats for lunch. Get a WFH meal plan with quick lunches, desk-friendly snacks, and dinners that don't take all evening. Try it free today.",
@@ -494,7 +494,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "5-dollar-meal-plan",
-    type: "diet",
+    type: "genz",
     title: "$5 Meal Plan",
     metaDescription:
       "Every meal under $5 per serving. Budget meal plans with real recipes, real portions, and a grocery list that won't break the bank. Try your free plan today.",
@@ -592,7 +592,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "microwave-meal-plan",
-    type: "diet",
+    type: "genz",
     title: "Microwave Meal Plan",
     metaDescription:
       "A full weekly meal plan where every recipe is made in the microwave. Perfect for dorms, offices, or kitchens without a stove. Try your free plan today.",
@@ -690,7 +690,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-depression",
-    type: "diet",
+    type: "genz",
     title: "Meal Plan for When You're Not Doing Great",
     metaDescription:
       "Ultra-low effort meals for days when cooking feels impossible. No judgment, no complicated recipes. Just gentle, nourishing food. Try your free plan today.",
@@ -788,7 +788,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-adhd",
-    type: "diet",
+    type: "genz",
     title: "ADHD-Friendly Meal Plan",
     metaDescription:
       "Meal plans for when focus is tough. Simple recipes, forgiving timing, hard to mess up, easy to remember. No 20-step recipes. Try your free plan today.",
@@ -886,7 +886,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "social-media-detox-meal-plan",
-    type: "diet",
+    type: "genz",
     title: "Social Media Detox Meal Plan",
     metaDescription:
       "Cook instead of scroll. A meal plan designed for mindful eating, phone-free dinners, and recipes that keep your hands busy. Try your free plan today.",

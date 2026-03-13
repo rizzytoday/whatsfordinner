@@ -3,7 +3,7 @@ import type { MealPlanPageData } from "./types";
 export const lifestagePages: MealPlanPageData[] = [
   {
     slug: "meal-plan-for-toddlers",
-    type: "diet",
+    type: "lifestyle",
     title: "Meal Plan for Toddlers (Ages 1-3)",
     metaDescription:
       "Get a personalized toddler meal plan with finger foods, hidden veggies, and picky eater strategies. Age-appropriate portions and balanced nutrition, planned weekly.",
@@ -103,7 +103,7 @@ export const lifestagePages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-seniors",
-    type: "diet",
+    type: "lifestyle",
     title: "Meal Plan for Seniors (65+)",
     metaDescription:
       "Personalized weekly meal plans for seniors with easy-to-chew meals, bone-health nutrients, and simple prep. Nutrient-dense recipes with grocery lists. Try free.",
@@ -208,7 +208,7 @@ export const lifestagePages: MealPlanPageData[] = [
   },
   {
     slug: "postpartum-meal-plan",
-    type: "diet",
+    type: "lifestyle",
     title: "Postpartum Meal Plan for New Moms",
     metaDescription:
       "Nourishing postpartum meal plans with iron-rich foods, breastfeeding support, and one-hand meals. Evidence-based recovery nutrition planned weekly. Try free.",
@@ -313,7 +313,7 @@ export const lifestagePages: MealPlanPageData[] = [
   },
   {
     slug: "anti-inflammatory-mediterranean",
-    type: "combo",
+    type: "lifestyle",
     title: "Anti-Inflammatory Mediterranean Meal Plan",
     metaDescription:
       "Combine the anti-inflammatory diet with Mediterranean cuisine for the most evidence-backed eating pattern. Personalized weekly plans with recipes and grocery lists.",
@@ -413,7 +413,7 @@ export const lifestagePages: MealPlanPageData[] = [
   },
   {
     slug: "high-protein-vegetarian",
-    type: "combo",
+    type: "lifestyle",
     title: "High-Protein Vegetarian Meal Plan",
     metaDescription:
       "Get 100g+ protein daily on a vegetarian diet. Personalized weekly meal plans with complete protein combos, recipes, and grocery lists. No protein powder required.",

@@ -3,7 +3,7 @@ import type { MealPlanPageData } from "./types";
 export const durationPages: MealPlanPageData[] = [
   {
     slug: "3-day-meal-plan",
-    type: "diet",
+    type: "duration",
     title: "3-Day Meal Plan",
     metaDescription:
       "Try a free 3-day meal plan with balanced recipes and a grocery list. Low commitment, zero stress. See if meal planning works for you before subscribing.",
@@ -101,7 +101,7 @@ export const durationPages: MealPlanPageData[] = [
   },
   {
     slug: "5-day-meal-plan",
-    type: "diet",
+    type: "duration",
     title: "5-Day Meal Plan",
     metaDescription:
       "Get a 5-day meal plan covering Monday to Friday with easy recipes and a focused grocery list. Eat out on weekends guilt-free. Try meal planning today.",
@@ -200,7 +200,7 @@ export const durationPages: MealPlanPageData[] = [
   },
   {
     slug: "7-day-meal-plan",
-    type: "diet",
+    type: "duration",
     title: "7-Day Meal Plan",
     metaDescription:
       "Get a complete 7-day meal plan with breakfast, lunch, and dinner recipes plus a grocery list. Fresh plans every week, personalized to your diet. Subscribe now.",
@@ -304,7 +304,7 @@ export const durationPages: MealPlanPageData[] = [
   },
   {
     slug: "14-day-meal-plan",
-    type: "diet",
+    type: "duration",
     title: "14-Day Meal Plan",
     metaDescription:
       "Plan 14 days of meals at once with a complete two-week meal plan. Less frequent shopping, better variety, and zero daily decision-making. Start planning today.",
@@ -403,7 +403,7 @@ export const durationPages: MealPlanPageData[] = [
   },
   {
     slug: "21-day-meal-plan",
-    type: "diet",
+    type: "duration",
     title: "21-Day Meal Plan",
     metaDescription:
       "Start a 21-day meal plan to build lasting healthy eating habits. Three weeks of balanced recipes designed to transform how you cook, eat, and shop. Try it now.",
@@ -507,7 +507,7 @@ export const durationPages: MealPlanPageData[] = [
   },
   {
     slug: "30-day-meal-plan",
-    type: "diet",
+    type: "duration",
     title: "30-Day Meal Plan",
     metaDescription:
       "Get a complete 30-day meal plan with four weeks of balanced recipes, grocery lists, and zero guesswork. Transform your eating habits in one month. Start today.",

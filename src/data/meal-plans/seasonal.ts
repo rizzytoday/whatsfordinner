@@ -6,7 +6,7 @@ export const seasonalPages: MealPlanPageData[] = [
   // ──────────────────────────────────────────────
   {
     slug: "summer-meal-plan",
-    type: "diet",
+    type: "seasonal",
     title: "Summer Meal Plan",
     metaDescription:
       "Get a weekly summer meal plan with light salads, grilled mains, and no-cook recipes. Stay cool and nourished all season with minimal time in a hot kitchen.",
@@ -104,7 +104,7 @@ export const seasonalPages: MealPlanPageData[] = [
   },
   {
     slug: "winter-meal-plan",
-    type: "diet",
+    type: "seasonal",
     title: "Winter Meal Plan",
     metaDescription:
       "Get a weekly winter meal plan full of soups, stews, and warm comfort meals using seasonal produce. Nourishing recipes that make cold weather something to look forward to.",
@@ -203,7 +203,7 @@ export const seasonalPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-ramadan",
-    type: "diet",
+    type: "seasonal",
     title: "Meal Plan for Ramadan",
     metaDescription:
       "Get a weekly Ramadan meal plan with balanced suhoor and iftar meals. Energy-sustaining, hydrating, halal recipes designed for fasting days. Try it free.",
@@ -307,7 +307,7 @@ export const seasonalPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-lent",
-    type: "diet",
+    type: "seasonal",
     title: "Meal Plan for Lent",
     metaDescription:
       "Get a weekly Lent meal plan with meatless Friday recipes, fish-based dinners, and simple wholesome meals. Observe Lent without sacrificing flavor or nutrition.",
@@ -406,7 +406,7 @@ export const seasonalPages: MealPlanPageData[] = [
   },
   {
     slug: "back-to-school-meal-plan",
-    type: "diet",
+    type: "seasonal",
     title: "Back to School Meal Plan",
     metaDescription:
       "Get a weekly back-to-school meal plan with fast breakfasts, kid-friendly packed lunches, and easy family dinners. Save time during the busiest season of the year.",
@@ -509,7 +509,7 @@ export const seasonalPages: MealPlanPageData[] = [
   // ──────────────────────────────────────────────
   {
     slug: "keto-meal-plan-for-weight-loss",
-    type: "combo",
+    type: "seasonal",
     title: "Keto Meal Plan for Weight Loss",
     metaDescription:
       "Get a weekly keto meal plan designed for weight loss with high-fat, low-carb recipes under 25g net carbs per day. Real food, no gimmicks. Try it free.",
@@ -608,7 +608,7 @@ export const seasonalPages: MealPlanPageData[] = [
   },
   {
     slug: "vegan-meal-plan-for-muscle-gain",
-    type: "combo",
+    type: "seasonal",
     title: "Vegan Meal Plan for Muscle Gain",
     metaDescription:
       "Get a weekly vegan meal plan for building muscle with 120g+ plant protein per day. Tofu, tempeh, legumes, and smart combos. No animal products needed.",
@@ -712,7 +712,7 @@ export const seasonalPages: MealPlanPageData[] = [
   },
   {
     slug: "gluten-free-meal-plan-for-beginners",
-    type: "combo",
+    type: "seasonal",
     title: "Gluten-Free Meal Plan for Beginners",
     metaDescription:
       "Get a beginner-friendly gluten-free meal plan with naturally GF recipes and tips for avoiding hidden gluten. Simple, delicious, stress-free. Try it free.",
@@ -815,7 +815,7 @@ export const seasonalPages: MealPlanPageData[] = [
   },
   {
     slug: "mediterranean-meal-plan-for-heart-health",
-    type: "combo",
+    type: "seasonal",
     title: "Mediterranean Meal Plan for Heart Health",
     metaDescription:
       "Get a weekly Mediterranean meal plan for heart health with olive oil, fish, and whole grains. Based on research-backed dietary patterns. Try it free.",
@@ -919,7 +919,7 @@ export const seasonalPages: MealPlanPageData[] = [
   },
   {
     slug: "low-carb-meal-plan-for-diabetes",
-    type: "combo",
+    type: "seasonal",
     title: "Low-Carb Meal Plan for Diabetes",
     metaDescription:
       "Get a weekly low-carb meal plan for diabetes with blood sugar-friendly recipes and low glycemic ingredients. Steady energy, no spikes. Try it free.",

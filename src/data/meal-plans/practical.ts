@@ -3,7 +3,7 @@ import type { MealPlanPageData } from "./types";
 export const practicalPages: MealPlanPageData[] = [
   {
     slug: "meal-prep-meal-plan",
-    type: "diet",
+    type: "practical",
     title: "Meal Prep Meal Plan — Weekly Batch Cooking Made Easy",
     metaDescription:
       "Get a personalized weekly meal prep plan with batch cooking instructions, container portions, and a grocery list. Prep Sunday, eat all week. Try free.",
@@ -102,7 +102,7 @@ export const practicalPages: MealPlanPageData[] = [
   },
   {
     slug: "slow-cooker-meal-plan",
-    type: "diet",
+    type: "practical",
     title: "Slow Cooker Meal Plan — Dump, Set, Forget",
     metaDescription:
       "Get a personalized weekly slow cooker meal plan with crockpot recipes, prep guides, and a grocery list. Dump it in the morning, dinner's ready by evening. Try free.",
@@ -196,7 +196,7 @@ export const practicalPages: MealPlanPageData[] = [
   },
   {
     slug: "air-fryer-meal-plan",
-    type: "diet",
+    type: "practical",
     title: "Air Fryer Meal Plan — Crispy Meals, Less Oil",
     metaDescription:
       "Get a personalized weekly air fryer meal plan with crispy, quick recipes and a grocery list. Faster than your oven, healthier than deep frying. Try free.",
@@ -295,7 +295,7 @@ export const practicalPages: MealPlanPageData[] = [
   },
   {
     slug: "one-pot-meal-plan",
-    type: "diet",
+    type: "practical",
     title: "One-Pot Meal Plan — Minimal Cooking, Minimal Cleanup",
     metaDescription:
       "Get a personalized weekly one-pot meal plan with easy recipes and a grocery list. One pot, one pan, one dish to wash. Delicious dinners, minimal cleanup. Try free.",
@@ -389,7 +389,7 @@ export const practicalPages: MealPlanPageData[] = [
   },
   {
     slug: "no-cook-meal-plan",
-    type: "diet",
+    type: "practical",
     title: "No-Cook Meal Plan — Fresh Meals, No Stove Required",
     metaDescription:
       "Get a personalized weekly no-cook meal plan with fresh recipes and a grocery list. No stove, no oven, no microwave needed. Perfect for summer, dorms, and offices. Try free.",
@@ -488,7 +488,7 @@ export const practicalPages: MealPlanPageData[] = [
   },
   {
     slug: "under-50-dollar-meal-plan",
-    type: "diet",
+    type: "practical",
     title: "Under $50/Week Meal Plan — Cheap, Nutritious, Never Boring",
     metaDescription:
       "Get a personalized weekly meal plan under $50 in groceries with recipes and a grocery list. Budget-friendly meals that are actually nutritious and delicious. Try free.",

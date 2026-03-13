@@ -6,7 +6,7 @@ export const occasionPages: MealPlanPageData[] = [
   // ──────────────────────────────────────────────
   {
     slug: "spring-meal-plan",
-    type: "diet",
+    type: "occasion",
     title: "Spring Meal Plan",
     metaDescription:
       "Get a weekly spring meal plan featuring fresh seasonal produce, lighter meals, and vibrant flavors. Make the most of asparagus, peas, and spring greens.",
@@ -105,7 +105,7 @@ export const occasionPages: MealPlanPageData[] = [
 
   {
     slug: "fall-meal-plan",
-    type: "diet",
+    type: "occasion",
     title: "Fall Meal Plan",
     metaDescription:
       "Get a weekly fall meal plan with comfort food, warming soups, roasted squash, and apple recipes. Cozy seasonal meals with recipes and a grocery list.",
@@ -204,7 +204,7 @@ export const occasionPages: MealPlanPageData[] = [
 
   {
     slug: "thanksgiving-meal-plan",
-    type: "diet",
+    type: "occasion",
     title: "Thanksgiving Meal Plan",
     metaDescription:
       "Get a full Thanksgiving week meal plan with recipes and a grocery list. Cover everyday meals plus the big day so nothing falls through the cracks.",
@@ -303,7 +303,7 @@ export const occasionPages: MealPlanPageData[] = [
 
   {
     slug: "christmas-meal-plan",
-    type: "diet",
+    type: "occasion",
     title: "Christmas Week Meal Plan",
     metaDescription:
       "Get a Christmas week meal plan with recipes and a grocery list. Cover everyday meals, holiday baking, and the big dinner without the stress.",
@@ -402,7 +402,7 @@ export const occasionPages: MealPlanPageData[] = [
 
   {
     slug: "new-years-healthy-meal-plan",
-    type: "diet",
+    type: "occasion",
     title: "New Year's Healthy Meal Plan",
     metaDescription:
       "Start January with a healthy meal plan that actually tastes good. Clean eating recipes with a grocery list to reset after the holidays without crash dieting.",
@@ -501,7 +501,7 @@ export const occasionPages: MealPlanPageData[] = [
 
   {
     slug: "super-bowl-meal-plan",
-    type: "diet",
+    type: "occasion",
     title: "Super Bowl Meal Plan",
     metaDescription:
       "Get a Super Bowl week meal plan with game day snacks, appetizers, and regular weeknight dinners. Recipes and a grocery list for the whole week.",
@@ -600,7 +600,7 @@ export const occasionPages: MealPlanPageData[] = [
 
   {
     slug: "bbq-summer-meal-plan",
-    type: "diet",
+    type: "occasion",
     title: "Summer BBQ Meal Plan",
     metaDescription:
       "Get a summer BBQ meal plan with grilling recipes, fresh salads, and no-cook lunches. Weekly plan with recipes and a grocery list for warm-weather eating.",
@@ -699,7 +699,7 @@ export const occasionPages: MealPlanPageData[] = [
 
   {
     slug: "meal-plan-for-entertaining",
-    type: "diet",
+    type: "occasion",
     title: "Meal Plan for Entertaining",
     metaDescription:
       "Get a weekly meal plan for entertaining with dinner party recipes, appetizers, and easy weeknight meals. Impress guests without living in the kitchen.",
@@ -798,7 +798,7 @@ export const occasionPages: MealPlanPageData[] = [
 
   {
     slug: "camping-meal-plan",
-    type: "diet",
+    type: "occasion",
     title: "Camping Meal Plan",
     metaDescription:
       "Get a camping meal plan with outdoor cooking recipes, no-fridge meals, and a packing list. Easy campfire and camp stove meals for your next trip.",
@@ -897,7 +897,7 @@ export const occasionPages: MealPlanPageData[] = [
 
   {
     slug: "road-trip-meal-plan",
-    type: "diet",
+    type: "occasion",
     title: "Road Trip Meal Plan",
     metaDescription:
       "Get a road trip meal plan with car-friendly, no-cook meals and cooler-packed snacks. Save money and eat better than fast food on your next drive.",

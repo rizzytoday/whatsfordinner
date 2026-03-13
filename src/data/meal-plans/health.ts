@@ -3,7 +3,7 @@ import type { MealPlanPageData } from "./types";
 export const healthPages: MealPlanPageData[] = [
   {
     slug: "ibs-meal-plan",
-    type: "diet",
+    type: "health",
     title: "IBS Meal Plan - Low FODMAP Weekly Meals",
     metaDescription:
       "Get a personalized low FODMAP meal plan for IBS with recipes and grocery lists. Reduce bloating, cramping, and flare-ups with meals designed around trigger avoidance. Try free.",
@@ -108,7 +108,7 @@ export const healthPages: MealPlanPageData[] = [
   },
   {
     slug: "pcos-meal-plan",
-    type: "diet",
+    type: "health",
     title: "PCOS Meal Plan - Anti-Inflammatory & Blood Sugar Friendly",
     metaDescription:
       "Get a personalized weekly PCOS meal plan with anti-inflammatory recipes and grocery lists. Manage insulin resistance and hormonal balance through food. Try free.",
@@ -212,7 +212,7 @@ export const healthPages: MealPlanPageData[] = [
   },
   {
     slug: "gerd-meal-plan",
-    type: "diet",
+    type: "health",
     title: "GERD Meal Plan - Acid Reflux Friendly Recipes",
     metaDescription:
       "Get a personalized weekly meal plan for GERD and acid reflux with trigger-free recipes and grocery lists. Eat well without the burn. Try free today.",
@@ -311,7 +311,7 @@ export const healthPages: MealPlanPageData[] = [
   },
   {
     slug: "gut-health-meal-plan",
-    type: "diet",
+    type: "health",
     title: "Gut Health Meal Plan - Probiotics, Fiber & Fermented Foods",
     metaDescription:
       "Get a personalized weekly gut health meal plan with prebiotic, probiotic, and fiber-rich recipes plus grocery lists. Build a healthier microbiome. Try free.",
@@ -416,7 +416,7 @@ export const healthPages: MealPlanPageData[] = [
   },
   {
     slug: "high-cholesterol-meal-plan",
-    type: "diet",
+    type: "health",
     title: "High Cholesterol Meal Plan - Heart-Healthy Recipes",
     metaDescription:
       "Get a personalized weekly meal plan for high cholesterol with heart-healthy recipes and grocery lists. Lower LDL naturally with the right foods. Try free.",
@@ -520,7 +520,7 @@ export const healthPages: MealPlanPageData[] = [
   },
   {
     slug: "hypothyroid-meal-plan",
-    type: "diet",
+    type: "health",
     title: "Hypothyroidism Meal Plan - Thyroid-Supporting Recipes",
     metaDescription:
       "Get a personalized weekly meal plan for hypothyroidism with selenium, iodine, and zinc-rich recipes plus grocery lists. Support thyroid function through food. Try free.",

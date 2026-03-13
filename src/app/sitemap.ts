@@ -48,6 +48,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { slug: "best-meal-delivery-alternatives", date: "2026-03-13" },
     { slug: "best-grocery-list-apps", date: "2026-03-13" },
     { slug: "best-budget-meal-plans", date: "2026-03-13" },
+    { slug: "what-to-cook-when-you-have-nothing", date: "2026-03-13" },
+    { slug: "cooking-for-one-without-wasting-food", date: "2026-03-13" },
+    { slug: "i-hate-cooking", date: "2026-03-13" },
+    { slug: "groceries-keep-going-bad", date: "2026-03-13" },
+    { slug: "cooking-for-your-partner", date: "2026-03-13" },
+    { slug: "splitting-groceries-with-roommates", date: "2026-03-13" },
+    { slug: "meal-planning-after-moving-out", date: "2026-03-13" },
+    { slug: "meal-kits-vs-meal-planning", date: "2026-03-13" },
+    { slug: "ai-vs-traditional-meal-planning", date: "2026-03-13" },
+    { slug: "meal-planning-vs-doordash", date: "2026-03-13" },
+    { slug: "meal-planning-vs-meal-prep", date: "2026-03-13" },
   ];
 
   const mealPlanPages = getAllMealPlanPages();

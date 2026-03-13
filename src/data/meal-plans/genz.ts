@@ -3,7 +3,7 @@ import type { MealPlanPageData } from "./types";
 export const genzPages: MealPlanPageData[] = [
   {
     slug: "meal-plan-for-first-apartment",
-    type: "diet",
+    type: "genz",
     title: "First Apartment Meal Plan",
     metaDescription:
       "Your first apartment meal plan with easy recipes for a basic kitchen. No fancy gear needed — just a pan, a pot, and a grocery list. Try it free today.",
@@ -97,7 +97,7 @@ export const genzPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-roommates",
-    type: "diet",
+    type: "genz",
     title: "Meal Plan for Roommates",
     metaDescription:
       "Weekly meal plan for roommates who share a kitchen. Split groceries, cook together, and actually eat real food without stepping on each other's toes.",
@@ -191,7 +191,7 @@ export const genzPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-no-cooking-experience",
-    type: "diet",
+    type: "genz",
     title: "Meal Plan for People Who Can't Cook",
     metaDescription:
       "A meal plan for people who genuinely can't cook. Assembly meals, 5 ingredients max, and zero culinary skill required. Eat real food starting today.",
@@ -285,7 +285,7 @@ export const genzPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-busy-students",
-    type: "diet",
+    type: "genz",
     title: "Meal Plan for Busy Students",
     metaDescription:
       "Meal plan for students who are too busy to cook. Dorm-friendly, ultra-cheap, and ready in 15 minutes or less. Stop skipping meals. Try it free today.",
@@ -379,7 +379,7 @@ export const genzPages: MealPlanPageData[] = [
   },
   {
     slug: "tiktok-recipes-meal-plan",
-    type: "diet",
+    type: "genz",
     title: "TikTok Recipes Meal Plan",
     metaDescription:
       "Trending TikTok recipes organized into a real weekly meal plan with a grocery list. All the viral hits, none of the chaos. Try your free plan today.",
@@ -473,7 +473,7 @@ export const genzPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-gym-beginners",
-    type: "diet",
+    type: "genz",
     title: "Meal Plan for Gym Beginners",
     metaDescription:
       "Meal plan for gym beginners who want to build muscle and eat right. High protein, simple recipes, no confusing macros. Get your free plan today.",
@@ -567,7 +567,7 @@ export const genzPages: MealPlanPageData[] = [
   },
   {
     slug: "high-protein-budget-meal-plan",
-    type: "diet",
+    type: "genz",
     title: "High Protein Meal Plan on a Budget",
     metaDescription:
       "High protein meal plan that won't empty your wallet. Chicken thighs, eggs, Greek yogurt, and beans — real protein sources, real savings. Try it free.",
@@ -661,7 +661,7 @@ export const genzPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-to-stop-ordering-takeout",
-    type: "diet",
+    type: "genz",
     title: "Meal Plan to Stop Ordering Takeout",
     metaDescription:
       "A meal plan designed to replace DoorDash. Homemade versions of your favorite takeout that are faster, cheaper, and just as satisfying. Try it free today.",

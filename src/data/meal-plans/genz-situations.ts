@@ -3,7 +3,7 @@ import type { MealPlanPageData } from "./types";
 export const genzSituationPages: MealPlanPageData[] = [
   {
     slug: "meal-plan-for-broke-20-somethings",
-    type: "diet",
+    type: "genz",
     title: "Meal Plan for Broke 20-Somethings",
     metaDescription:
       "Stop spending $200/week on DoorDash. This meal plan helps broke 20-somethings cook real food for under $35/week. The DoorDash-to-cooking pipeline starts here.",
@@ -97,7 +97,7 @@ export const genzSituationPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-picky-adults",
-    type: "diet",
+    type: "genz",
     title: "Meal Plan for Picky Adult Eaters",
     metaDescription:
       "A meal plan for adults with a limited palate. No judgment, no pressure. Familiar foods with gentle upgrades that expand what you enjoy eating. Try it free.",
@@ -191,7 +191,7 @@ export const genzSituationPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-no-oven",
-    type: "diet",
+    type: "genz",
     title: "Meal Plan Without an Oven",
     metaDescription:
       "No oven? No problem. This meal plan uses only stovetop and microwave. Perfect for apartments with broken or missing ovens. Get your free plan today.",
@@ -285,7 +285,7 @@ export const genzSituationPages: MealPlanPageData[] = [
   },
   {
     slug: "date-night-meal-plan",
-    type: "diet",
+    type: "genz",
     title: "Date Night Meal Plan",
     metaDescription:
       "Impress your date with easy dinners for two. Cooking together is the best date. Simple recipes that look and taste impressive. Get your free plan today.",
@@ -379,7 +379,7 @@ export const genzSituationPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-gamers",
-    type: "diet",
+    type: "genz",
     title: "Gamer Meal Plan",
     metaDescription:
       "A meal plan for gamers: one-handed snacks, quick between-match meals, and real energy without energy drinks. Fuel your sessions. Try it free today.",
@@ -473,7 +473,7 @@ export const genzSituationPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-content-creators",
-    type: "diet",
+    type: "genz",
     title: "Meal Plan for Content Creators",
     metaDescription:
       "Meal plan for content creators and streamers. Desk-friendly meals, camera-ready snacks, and energy for long editing sessions. Get your free plan today.",
@@ -567,7 +567,7 @@ export const genzSituationPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-minimalists",
-    type: "diet",
+    type: "genz",
     title: "Minimalist Meal Plan",
     metaDescription:
       "A minimalist meal plan using only 10 core ingredients for the entire week. Zero waste, zero stress, maximum simplicity. Get your free plan today.",
@@ -661,7 +661,7 @@ export const genzSituationPages: MealPlanPageData[] = [
   },
   {
     slug: "anti-diet-meal-plan",
-    type: "diet",
+    type: "genz",
     title: "Anti-Diet Meal Plan",
     metaDescription:
       "An anti-diet meal plan built around intuitive eating. No calorie counting, no restrictions, no guilt. Balanced meals without the stress. Try it free today.",
@@ -755,7 +755,7 @@ export const genzSituationPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-shift-workers",
-    type: "diet",
+    type: "genz",
     title: "Shift Worker Meal Plan",
     metaDescription:
       "Meal plan for shift workers with irregular hours. Pre-made, reheat-friendly, pack-and-go meals that work at 6am, 2pm, or midnight. Try it free today.",
@@ -849,7 +849,7 @@ export const genzSituationPages: MealPlanPageData[] = [
   },
   {
     slug: "lazy-meal-plan",
-    type: "diet",
+    type: "genz",
     title: "Lazy Meal Plan",
     metaDescription:
       "The laziest meal plan that still counts as cooking. Maximum ease, minimum effort, zero shame. Real food without trying hard. Get your free plan today.",

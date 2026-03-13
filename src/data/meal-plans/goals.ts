@@ -3,7 +3,7 @@ import type { MealPlanPageData } from "./types";
 export const goalPages: MealPlanPageData[] = [
   {
     slug: "meal-plan-for-weight-loss",
-    type: "diet",
+    type: "goal",
     title: "Meal Plan for Weight Loss",
     metaDescription:
       "Get a personalized weekly meal plan for weight loss with balanced macros and grocery lists. Sustainable, satisfying meals planned automatically. Try free.",
@@ -97,7 +97,7 @@ export const goalPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-muscle-gain",
-    type: "diet",
+    type: "goal",
     title: "Meal Plan for Muscle Gain",
     metaDescription:
       "Build muscle with a personalized weekly meal plan. High-protein recipes with balanced macros and grocery lists, planned automatically. Try it free today.",
@@ -196,7 +196,7 @@ export const goalPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-pregnancy",
-    type: "diet",
+    type: "goal",
     title: "Meal Plan for Pregnancy",
     metaDescription:
       "Get a pregnancy-safe weekly meal plan with folate-rich recipes, balanced nutrition, and grocery lists. Meals planned for every trimester. Try it free.",
@@ -295,7 +295,7 @@ export const goalPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-beginners",
-    type: "diet",
+    type: "goal",
     title: "Meal Plan for Beginners",
     metaDescription:
       "Start meal planning with easy, beginner-friendly recipes and weekly grocery lists. Simple ingredients, clear instructions. Try your free meal plan today.",
@@ -389,7 +389,7 @@ export const goalPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-picky-eaters",
-    type: "diet",
+    type: "goal",
     title: "Meal Plan for Picky Eaters",
     metaDescription:
       "Get a weekly meal plan designed for picky eaters. Familiar flavors, no weird ingredients, balanced nutrition. Personalized and automatic. Try it free.",
@@ -483,7 +483,7 @@ export const goalPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-on-a-budget",
-    type: "diet",
+    type: "goal",
     title: "Budget Meal Plan",
     metaDescription:
       "Eat well for less with a budget meal plan. Affordable recipes, smart grocery lists, and zero food waste. Personalized weekly plans. Try it free today.",
@@ -582,7 +582,7 @@ export const goalPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-diabetes",
-    type: "diet",
+    type: "goal",
     title: "Meal Plan for Diabetes",
     metaDescription:
       "Get a diabetes-friendly weekly meal plan with low-glycemic recipes, balanced carbs, and grocery lists. Manage blood sugar deliciously. Try it free today.",
@@ -676,7 +676,7 @@ export const goalPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-heart-health",
-    type: "diet",
+    type: "goal",
     title: "Heart-Healthy Meal Plan",
     metaDescription:
       "Protect your heart with a weekly meal plan rich in omega-3s, fiber, and lean proteins. Low sodium, balanced fats, automatic grocery lists. Try it free.",
@@ -770,7 +770,7 @@ export const goalPages: MealPlanPageData[] = [
   },
   {
     slug: "high-protein-meal-plan",
-    type: "diet",
+    type: "goal",
     title: "High Protein Meal Plan",
     metaDescription:
       "Get a personalized high protein meal plan with 100g+ protein daily. Balanced recipes, automatic grocery lists, and weekly variety. Try it free today.",
@@ -869,7 +869,7 @@ export const goalPages: MealPlanPageData[] = [
   },
   {
     slug: "anti-inflammatory-meal-plan",
-    type: "diet",
+    type: "goal",
     title: "Anti-Inflammatory Meal Plan",
     metaDescription:
       "Fight chronic inflammation with a weekly meal plan rich in omega-3s, antioxidants, and whole foods. Personalized recipes and grocery lists. Try it free.",

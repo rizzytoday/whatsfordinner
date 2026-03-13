@@ -25,83 +25,62 @@ export const metadata: Metadata = {
   },
 };
 
-const typeLabels: Record<string, string> = {
-  diet: "Diet",
-  cuisine: "Cuisine",
-  combo: "Diet + Cuisine",
-};
+const sections = [
+  { key: "diet", heading: "By Diet", label: "Diet" },
+  { key: "cuisine", heading: "By Cuisine", label: "Cuisine" },
+  { key: "health", heading: "Health Conditions", label: "Health" },
+  { key: "goal", heading: "By Goal", label: "Goal" },
+  { key: "method", heading: "Cooking Methods", label: "Method" },
+  { key: "genz", heading: "Gen Z & Young Adults", label: "Life" },
+  { key: "lifestyle", heading: "Life Stages", label: "Lifestyle" },
+  { key: "budget", heading: "Budget & Lifestyle", label: "Budget" },
+  { key: "practical", heading: "Practical Guides", label: "Practical" },
+  { key: "occasion", heading: "Seasonal & Occasions", label: "Occasion" },
+  { key: "seasonal", heading: "Seasonal Specials", label: "Seasonal" },
+  { key: "household", heading: "By Household Size", label: "Household" },
+  { key: "calorie", heading: "By Calories", label: "Calories" },
+  { key: "duration", heading: "By Duration", label: "Duration" },
+  { key: "combo", heading: "Popular Combinations", label: "Combo" },
+] as const;
 
 export default function MealPlansIndex() {
   const all = getAllMealPlanPages();
-  const diets = all.filter((p) => p.type === "diet");
-  const cuisines = all.filter((p) => p.type === "cuisine");
-  const combos = all.filter((p) => p.type === "combo");
+
+  const grouped = sections
+    .map((s) => ({
+      ...s,
+      pages: all.filter((p) => p.type === s.key),
+    }))
+    .filter((s) => s.pages.length > 0);
 
   return (
     <div className="py-10 sm:py-16">
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-stone-900 tracking-tight leading-tight mb-3">
-        Personalized Meal Plans for Every Diet and Cuisine
+        Personalized Meal Plans for Every Diet, Cuisine &amp; Lifestyle
       </h1>
       <p className="text-base sm:text-lg text-stone-500 mb-12 max-w-xl">
-        AI-powered weekly meal plans with recipes and grocery lists, tailored to your dietary needs and favorite flavors. Try free.
+        AI-powered weekly meal plans with recipes and grocery lists, tailored to your dietary needs, favorite flavors, and life stage. Try free.
       </p>
 
-      {/* Diets */}
-      <section className="mb-12">
-        <h2 className="text-xl font-semibold text-stone-800 mb-5">By Diet</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-          {diets.map((page) => (
-            <Link
-              key={page.slug}
-              href={`/meal-plans/${page.slug}`}
-              className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all"
-            >
-              <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">
-                {typeLabels[page.type]}
-              </span>
-              <h3 className="text-sm font-medium text-stone-800 mt-1">{page.h1}</h3>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* Cuisines */}
-      <section className="mb-12">
-        <h2 className="text-xl font-semibold text-stone-800 mb-5">By Cuisine</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-          {cuisines.map((page) => (
-            <Link
-              key={page.slug}
-              href={`/meal-plans/${page.slug}`}
-              className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all"
-            >
-              <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">
-                {typeLabels[page.type]}
-              </span>
-              <h3 className="text-sm font-medium text-stone-800 mt-1">{page.h1}</h3>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* Combos */}
-      <section className="mb-12">
-        <h2 className="text-xl font-semibold text-stone-800 mb-5">Popular Combinations</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-          {combos.map((page) => (
-            <Link
-              key={page.slug}
-              href={`/meal-plans/${page.slug}`}
-              className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all"
-            >
-              <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">
-                {typeLabels[page.type]}
-              </span>
-              <h3 className="text-sm font-medium text-stone-800 mt-1">{page.h1}</h3>
-            </Link>
-          ))}
-        </div>
-      </section>
+      {grouped.map((section) => (
+        <section key={section.key} className="mb-12">
+          <h2 className="text-xl font-semibold text-stone-800 mb-5">{section.heading}</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+            {section.pages.map((page) => (
+              <Link
+                key={page.slug}
+                href={`/meal-plans/${page.slug}`}
+                className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all"
+              >
+                <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">
+                  {section.label}
+                </span>
+                <h3 className="text-sm font-medium text-stone-800 mt-1">{page.h1}</h3>
+              </Link>
+            ))}
+          </div>
+        </section>
+      ))}
 
       {/* Related reading */}
       <section className="mb-12">

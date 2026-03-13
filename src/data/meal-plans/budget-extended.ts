@@ -3,7 +3,7 @@ import type { MealPlanPageData } from "./types";
 export const budgetExtendedPages: MealPlanPageData[] = [
   {
     slug: "under-30-dollar-meal-plan",
-    type: "diet",
+    type: "budget",
     title: "Meal Plan Under $30/Week",
     metaDescription:
       "Get a weekly meal plan under $30 with filling, nutritious meals built on rice, beans, eggs, and seasonal produce. Free AI-generated plan with grocery list.",
@@ -97,7 +97,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "under-75-dollar-meal-plan",
-    type: "diet",
+    type: "budget",
     title: "Meal Plan Under $75/Week",
     metaDescription:
       "Get a weekly meal plan for two under $75. Balanced dinners, smart grocery lists, and no food waste. AI-personalized to your tastes. Try it free today.",
@@ -191,7 +191,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "under-100-dollar-family-meal-plan",
-    type: "diet",
+    type: "budget",
     title: "$100/Week Family Meal Plan",
     metaDescription:
       "Feed a family of 4 for under $100/week with balanced, kid-friendly meals. Smart grocery lists, batch cooking tips, and zero food waste. Try it free.",
@@ -285,7 +285,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-couples",
-    type: "diet",
+    type: "budget",
     title: "Meal Plan for Couples",
     metaDescription:
       "Get a weekly meal plan for couples with date night dinners, easy weeknight meals, and a shared grocery list. Zero food waste, perfect portions for two.",
@@ -379,7 +379,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-athletes",
-    type: "diet",
+    type: "budget",
     title: "Meal Plan for Athletes",
     metaDescription:
       "Get an athlete meal plan with high-protein, high-calorie recipes for training and recovery. Macro-balanced meals with grocery lists. Try it free today.",
@@ -473,7 +473,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
   },
   {
     slug: "meal-plan-for-new-parents",
-    type: "diet",
+    type: "budget",
     title: "Meal Plan for New Parents",
     metaDescription:
       "Get a meal plan for new parents with one-handed meals, freezer-friendly batches, and 15-minute dinners. Eat well with a newborn. Try your free plan today.",

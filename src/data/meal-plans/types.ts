@@ -18,7 +18,7 @@ export interface FAQ {
 
 export interface MealPlanPageData {
   slug: string;
-  type: "diet" | "cuisine" | "combo";
+  type: "diet" | "cuisine" | "combo" | "goal" | "household" | "calorie" | "duration" | "health" | "lifestyle" | "method" | "budget" | "genz" | "occasion" | "seasonal" | "practical";
   title: string;
   metaDescription: string;
   h1: string;
