@@ -174,7 +174,7 @@ export default function BestMealPlanningAppsPage() {
           <tbody className="text-stone-600">
             <tr className="border-b border-stone-100 bg-orange-50/50">
               <td className="py-3 pr-4 font-medium text-stone-900">What&apos;s For Dinner</td>
-              <td className="py-3 px-4">$7.99/mo</td>
+              <td className="py-3 px-4">Free / $7.99</td>
               <td className="py-3 px-4">Yes</td>
               <td className="py-3 px-4">Yes</td>
               <td className="py-3 px-4">Yes</td>
