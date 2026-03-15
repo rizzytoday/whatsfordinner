@@ -428,6 +428,18 @@ export default function HowToMealPrepArticle() {
           >
             Meal Planning for Two: Save Money, Reduce Waste
           </Link>
+          <Link
+            href="/blog/easy-meal-prep-for-beginners"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            Easy Meal Prep for Beginners: 1 Hour, Done for the Week
+          </Link>
+          <Link
+            href="/blog/meal-planning-for-beginners"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            Meal Planning for Beginners: The Complete Guide (2026)
+          </Link>
         </div>
         <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
           Browse meal plans

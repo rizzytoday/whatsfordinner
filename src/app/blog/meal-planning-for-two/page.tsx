@@ -276,6 +276,12 @@ export default function MealPlanningForTwo() {
           <Link href="/blog/budget-bytes-alternative" className="text-orange-500 hover:text-orange-600 underline text-sm block">
             The Best Budget Bytes Alternative in 2026
           </Link>
+          <Link href="/blog/cooking-for-your-partner" className="text-orange-500 hover:text-orange-600 underline text-sm block">
+            Cooking for Your Partner: 10 Impressive Meals Anyone Can Make
+          </Link>
+          <Link href="/blog/meal-planning-for-families" className="text-orange-500 hover:text-orange-600 underline text-sm block">
+            Meal Planning for Families: The Practical Guide
+          </Link>
         </div>
         <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
           Browse meal plans

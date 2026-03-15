@@ -319,6 +319,36 @@ export default function YummlyAlternativePage() {
         </Link>
       </div>
 
+
+      {/* --- Compare more alternatives --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Looking at other options?
+        </h2>
+        <div className="space-y-3 text-stone-600 text-sm">
+          <p>
+            <Link href="/blog/platejoy-alternative" className="text-orange-500 hover:text-orange-600 underline">Best PlateJoy Alternative</Link>
+            {" "}&mdash; another shut-down meal planner. Similar situation, similar solution.
+          </p>
+          <p>
+            <Link href="/blog/mealime-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Mealime Alternative</Link>
+            {" "}&mdash; clean UI but limited recipe variety after a few weeks.
+          </p>
+          <p>
+            <Link href="/blog/eat-this-much-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Eat This Much Alternative</Link>
+            {" "}&mdash; calorie-focused planning that gets repetitive.
+          </p>
+          <p>
+            <Link href="/blog/paprika-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Paprika Alternative</Link>
+            {" "}&mdash; a recipe manager, not a planner. Different tool for a different need.
+          </p>
+          <p>
+            <Link href="/blog/best-meal-planning-apps" className="text-orange-500 hover:text-orange-600 underline">10 Best Meal Planning Apps in 2026</Link>
+            {" "}&mdash; the full ranked comparison.
+          </p>
+        </div>
+      </div>
+
       {/* --- Related reading --- */}
       <div className="mt-12 pt-8 border-t border-stone-100">
         <p className="text-sm font-medium text-stone-400 mb-3">

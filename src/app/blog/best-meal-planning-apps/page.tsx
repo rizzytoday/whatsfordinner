@@ -824,6 +824,36 @@ export default function BestMealPlanningAppsPage() {
         </Link>
       </div>
 
+
+      {/* --- Compare more alternatives --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Detailed alternative comparisons
+        </h2>
+        <div className="space-y-3 text-stone-600 text-sm">
+          <p>
+            <Link href="/blog/platejoy-alternative" className="text-orange-500 hover:text-orange-600 underline">Best PlateJoy Alternative</Link>
+            {" "}&mdash; what to use after PlateJoy&apos;s shutdown.
+          </p>
+          <p>
+            <Link href="/blog/yummly-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Yummly Alternative</Link>
+            {" "}&mdash; where Yummly users went after December 2024.
+          </p>
+          <p>
+            <Link href="/blog/factor-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Factor Alternative</Link>
+            {" "}&mdash; save $200+/month vs. pre-made meals.
+          </p>
+          <p>
+            <Link href="/blog/hungryroot-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Hungryroot Alternative</Link>
+            {" "}&mdash; AI planning without the grocery markup.
+          </p>
+          <p>
+            <Link href="/blog/best-meal-kit-alternatives" className="text-orange-500 hover:text-orange-600 underline">5 Cheap Alternatives to Meal Kits in 2026</Link>
+            {" "}&mdash; all the budget-friendly options compared.
+          </p>
+        </div>
+      </div>
+
       {/* --- Related articles --- */}
       <div className="border-t border-stone-100 mt-12 pt-8">
         <p className="text-sm font-medium text-stone-400 mb-4">

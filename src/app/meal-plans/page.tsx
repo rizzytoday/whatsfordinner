@@ -85,18 +85,60 @@ export default function MealPlansIndex() {
       {/* Related reading */}
       <section className="mb-12">
         <h2 className="text-xl font-semibold text-stone-800 mb-5">Learn More</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-          <Link href="/blog/ai-meal-planner" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+
+        <h3 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-3">Getting Started</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+          <Link href="/blog/meal-planning-for-beginners" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
             <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Guide</span>
-            <h3 className="text-sm font-medium text-stone-800 mt-1">AI Meal Planner: How It Works</h3>
-          </Link>
-          <Link href="/blog/meal-plan-with-grocery-list" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
-            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Guide</span>
-            <h3 className="text-sm font-medium text-stone-800 mt-1">Meal Plan with Grocery List</h3>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">Meal Planning for Beginners</h3>
           </Link>
           <Link href="/blog/best-meal-planning-apps" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
             <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Roundup</span>
             <h3 className="text-sm font-medium text-stone-800 mt-1">Best Meal Planning Apps 2026</h3>
+          </Link>
+          <Link href="/blog/weekly-meal-plan" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Guide</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">Plan Your Entire Week in 10 Minutes</h3>
+          </Link>
+        </div>
+
+        <h3 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-3">Save Money</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+          <Link href="/blog/eating-healthy-on-a-budget" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Guide</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">Eating Healthy on a Budget</h3>
+          </Link>
+          <Link href="/blog/cheap-meals-for-one" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Gen Z</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">15 Dinners Under $3/Serving</h3>
+          </Link>
+          <Link href="/blog/best-budget-meal-plans" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Budget</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">Best Budget Meal Plans 2026</h3>
+          </Link>
+        </div>
+
+        <h3 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-3">Life Situations</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+          <Link href="/blog/meal-planning-for-families" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Family</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">Meal Planning for Families</h3>
+          </Link>
+          <Link href="/blog/meal-planning-for-college" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Gen Z</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">Meal Planning for College Students</h3>
+          </Link>
+        </div>
+
+        <h3 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-3">vs Alternatives</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <Link href="/blog/best-meal-kit-alternatives" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Comparison</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">5 Cheap Alternatives to Meal Kits</h3>
+          </Link>
+          <Link href="/blog/how-to-stop-ordering-takeout" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Gen Z</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">How to Stop Ordering Takeout</h3>
           </Link>
         </div>
       </section>

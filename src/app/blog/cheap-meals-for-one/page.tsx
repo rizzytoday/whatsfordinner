@@ -455,6 +455,18 @@ export default function CheapMealsForOneArticle() {
           >
             10 Best Meal Planning Apps in 2026 (Compared)
           </Link>
+          <Link
+            href="/blog/eating-healthy-on-a-budget"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            Eating Healthy on a Budget: $50/Week, No Sad Salads
+          </Link>
+          <Link
+            href="/blog/cooking-for-one-without-wasting-food"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            Cooking for One Without Wasting Half Your Groceries
+          </Link>
         </div>
         <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
           Browse meal plans

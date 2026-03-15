@@ -458,6 +458,36 @@ export default function DoorDashVsCookingArticle() {
         </Link>
       </div>
 
+
+      {/* --- Compare more alternatives --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Compare specific alternatives
+        </h2>
+        <div className="space-y-3 text-stone-600 text-sm">
+          <p>
+            <Link href="/blog/factor-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Factor Alternative</Link>
+            {" "}&mdash; pre-made meals at $11-13/serving vs. AI planning.
+          </p>
+          <p>
+            <Link href="/blog/hungryroot-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Hungryroot Alternative</Link>
+            {" "}&mdash; AI-curated groceries delivered weekly.
+          </p>
+          <p>
+            <Link href="/blog/best-meal-delivery-alternatives" className="text-orange-500 hover:text-orange-600 underline">7 Best Meal Delivery Alternatives in 2026</Link>
+            {" "}&mdash; every delivery alternative ranked.
+          </p>
+          <p>
+            <Link href="/blog/best-meal-planning-apps" className="text-orange-500 hover:text-orange-600 underline">10 Best Meal Planning Apps in 2026</Link>
+            {" "}&mdash; the full ranked comparison.
+          </p>
+          <p>
+            <Link href="/blog/best-meal-kit-alternatives" className="text-orange-500 hover:text-orange-600 underline">5 Cheap Alternatives to Meal Kits in 2026</Link>
+            {" "}&mdash; all the budget-friendly options.
+          </p>
+        </div>
+      </div>
+
       {/* Related articles + meal plans */}
       <div className="border-t border-stone-100 mt-12 pt-8">
         <p className="text-sm font-medium text-stone-400 mb-4">

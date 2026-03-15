@@ -374,6 +374,12 @@ export default function EatingWellWhenYoureStrugglingArticle() {
           >
             Meal Planning for Beginners: The Complete Guide
           </Link>
+          <Link
+            href="/blog/upgrade-your-ramen"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            10 Ways to Upgrade Instant Ramen Into a Real Meal
+          </Link>
         </div>
         <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
           Browse meal plans

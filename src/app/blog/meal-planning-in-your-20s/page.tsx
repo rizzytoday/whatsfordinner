@@ -392,6 +392,18 @@ export default function MealPlanningInYour20sArticle() {
           >
             Meal Plan with Grocery List: The Complete Solution
           </Link>
+          <Link
+            href="/blog/food-budget-in-your-20s"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            How to Set a Food Budget in Your 20s
+          </Link>
+          <Link
+            href="/blog/meal-planning-for-college"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            Meal Planning for College Students
+          </Link>
         </div>
         <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
           Browse meal plans

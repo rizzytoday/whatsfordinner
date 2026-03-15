@@ -416,6 +416,36 @@ export default function BudgetBytesAlternativePage() {
         </Link>
       </div>
 
+
+      {/* --- Compare more alternatives --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Looking at other options?
+        </h2>
+        <div className="space-y-3 text-stone-600 text-sm">
+          <p>
+            <Link href="/blog/emeals-alternative" className="text-orange-500 hover:text-orange-600 underline">Best eMeals Alternative</Link>
+            {" "}&mdash; pre-made plans with grocery store integration.
+          </p>
+          <p>
+            <Link href="/blog/mealime-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Mealime Alternative</Link>
+            {" "}&mdash; free recipe selection with grocery lists.
+          </p>
+          <p>
+            <Link href="/blog/everyplate-alternative" className="text-orange-500 hover:text-orange-600 underline">Best EveryPlate Alternative</Link>
+            {" "}&mdash; the cheapest meal kit, but still pricier than groceries.
+          </p>
+          <p>
+            <Link href="/blog/dinnerly-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Dinnerly Alternative</Link>
+            {" "}&mdash; budget meal kit with simple 6-ingredient recipes.
+          </p>
+          <p>
+            <Link href="/blog/best-meal-kit-alternatives" className="text-orange-500 hover:text-orange-600 underline">5 Cheap Alternatives to Meal Kits in 2026</Link>
+            {" "}&mdash; all the budget-friendly options compared.
+          </p>
+        </div>
+      </div>
+
       {/* --- Related articles --- */}
       <div className="border-t border-stone-100 mt-12 pt-8">
         <p className="text-sm font-medium text-stone-400 mb-4">

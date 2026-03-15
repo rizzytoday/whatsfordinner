@@ -449,6 +449,12 @@ export default function BestGroceryListAppsPage() {
           >
             5 Best Budget Meal Plans in 2026
           </Link>
+          <Link
+            href="/blog/save-money-groceries-meal-planning"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            How to Save Money on Groceries with Meal Planning
+          </Link>
         </div>
         <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
           Browse meal plans

@@ -9,6 +9,8 @@ import { HowItWorks } from "@/components/landing/HowItWorks";
 import { PlanPreview } from "@/components/landing/PlanPreview";
 import { Pricing } from "@/components/landing/Pricing";
 import { FAQ } from "@/components/landing/FAQ";
+import { PopularMealPlans } from "@/components/landing/PopularMealPlans";
+import { GuidesAndTips } from "@/components/landing/GuidesAndTips";
 import { Footer } from "@/components/landing/Footer";
 import { LanguagePicker } from "@/components/ui/LanguagePicker";
 import { useT } from "@/lib/i18n/context";
@@ -69,6 +71,8 @@ export default function Home() {
       <PlanPreview isSignedIn={isSignedIn === true} />
       <Pricing isSignedIn={isSignedIn === true} />
       <FAQ />
+      <PopularMealPlans />
+      <GuidesAndTips />
       <Footer />
     </main>
   );

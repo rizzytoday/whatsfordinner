@@ -457,6 +457,18 @@ export default function SaveMoneyGroceriesMealPlanningArticle() {
           >
             The Best Cheap HelloFresh Alternative in 2026
           </Link>
+          <Link
+            href="/blog/eating-healthy-on-a-budget"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            Eating Healthy on a Budget: $50/Week, No Sad Salads
+          </Link>
+          <Link
+            href="/blog/cheap-meals-for-one"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            Cheap Meals for One: 15 Dinners Under $3/Serving
+          </Link>
         </div>
         <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
           Browse meal plans

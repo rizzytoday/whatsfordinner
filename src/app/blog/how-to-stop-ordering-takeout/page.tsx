@@ -380,6 +380,18 @@ export default function HowToStopOrderingTakeoutArticle() {
           >
             Meal Planning in Your 20s: Stop Spending $300/Month on DoorDash
           </Link>
+          <Link
+            href="/blog/doordash-vs-cooking"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            DoorDash vs. Cooking: The Real Cost Breakdown
+          </Link>
+          <Link
+            href="/blog/i-hate-cooking"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            I Hate Cooking (But I Still Need to Eat)
+          </Link>
         </div>
         <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
           Browse meal plans

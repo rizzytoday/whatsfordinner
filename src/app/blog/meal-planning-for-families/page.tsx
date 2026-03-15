@@ -507,6 +507,18 @@ export default function MealPlanningForFamiliesArticle() {
           >
             How to Save Money on Groceries with Meal Planning
           </Link>
+          <Link
+            href="/blog/cooking-for-your-partner"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            Cooking for Your Partner: 10 Impressive Meals Anyone Can Make
+          </Link>
+          <Link
+            href="/blog/meal-planning-for-two"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            Meal Planning for Two: No More Waste, No More Guessing
+          </Link>
         </div>
         <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
           Browse meal plans

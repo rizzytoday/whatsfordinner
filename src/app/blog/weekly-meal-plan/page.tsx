@@ -467,6 +467,18 @@ export default function WeeklyMealPlanArticle() {
           >
             Best Meal Planning Apps (2026)
           </Link>
+          <Link
+            href="/blog/how-to-meal-prep"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            How to Meal Prep for the Week in Under 2 Hours
+          </Link>
+          <Link
+            href="/blog/ai-meal-planner"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            AI Meal Planner: How It Works and Why It&apos;s Better
+          </Link>
         </div>
         <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
           Browse meal plans

@@ -390,6 +390,12 @@ export default function CookingForOneArticle() {
           >
             Cheap Meals for One: 15 Dinners Under $3/Serving
           </Link>
+          <Link
+            href="/blog/meal-planning-for-beginners"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            Meal Planning for Beginners: The Complete Guide (2026)
+          </Link>
         </div>
         <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
           Browse meal plans

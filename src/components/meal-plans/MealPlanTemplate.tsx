@@ -17,6 +17,127 @@ const typeLabels: Record<string, string> = {
   combo: "Diet + Cuisine",
 };
 
+type BlogLink = { slug: string; title: string };
+
+const blogPosts: Record<string, BlogLink> = {
+  "meal-planning-for-beginners": { slug: "meal-planning-for-beginners", title: "Meal Planning for Beginners: The Complete Guide" },
+  "how-to-meal-prep": { slug: "how-to-meal-prep", title: "How to Meal Prep for the Week in Under 2 Hours" },
+  "easy-meal-prep-for-beginners": { slug: "easy-meal-prep-for-beginners", title: "Easy Meal Prep for Beginners (Just 1 Hour/Week)" },
+  "eating-healthy-on-a-budget": { slug: "eating-healthy-on-a-budget", title: "Eating Healthy on a Budget: The $50/Week Plan" },
+  "cheap-meals-for-one": { slug: "cheap-meals-for-one", title: "Cheap Meals for One: 15 Dinners Under $3/Serving" },
+  "best-budget-meal-plans": { slug: "best-budget-meal-plans", title: "5 Best Budget Meal Plans in 2026" },
+  "meal-planning-for-families": { slug: "meal-planning-for-families", title: "Meal Planning for Families: Feed a Family of 4 for Under $100/Week" },
+  "meal-planning-for-two": { slug: "meal-planning-for-two", title: "Meal Planning for Two: No More Waste" },
+  "weekly-meal-plan": { slug: "weekly-meal-plan", title: "How to Plan Your Entire Week in 10 Minutes" },
+  "best-meal-planning-apps": { slug: "best-meal-planning-apps", title: "10 Best Meal Planning Apps in 2026" },
+  "ai-meal-planner": { slug: "ai-meal-planner", title: "AI Meal Planner: How It Works and Why It's Better" },
+  "meal-plan-with-grocery-list": { slug: "meal-plan-with-grocery-list", title: "Meal Plan with Grocery List: The Complete Solution" },
+  "save-money-groceries-meal-planning": { slug: "save-money-groceries-meal-planning", title: "How to Save Money on Groceries with Meal Planning" },
+  "cooking-for-one-without-wasting-food": { slug: "cooking-for-one-without-wasting-food", title: "Cooking for One Without Wasting Half Your Groceries" },
+  "meal-planning-in-your-20s": { slug: "meal-planning-in-your-20s", title: "Meal Planning in Your 20s: Stop Spending $300/Month on DoorDash" },
+  "how-to-stop-ordering-takeout": { slug: "how-to-stop-ordering-takeout", title: "How to Stop Ordering Takeout Every Night" },
+  "adhd-meal-planning": { slug: "adhd-meal-planning", title: "ADHD Meal Planning: A System That Actually Works" },
+  "meal-planning-for-college": { slug: "meal-planning-for-college", title: "Meal Planning for College Students" },
+  "food-budget-in-your-20s": { slug: "food-budget-in-your-20s", title: "How to Set a Food Budget in Your 20s" },
+  "meal-kits-vs-meal-planning": { slug: "meal-kits-vs-meal-planning", title: "Meal Kits vs. Meal Planning Apps: Which Saves More?" },
+  "first-grocery-shopping-list": { slug: "first-grocery-shopping-list", title: "Your First Real Grocery List (New Apartment Starter Kit)" },
+  "eating-well-when-youre-struggling": { slug: "eating-well-when-youre-struggling", title: "How to Eat Well When You're Going Through It" },
+  "i-hate-cooking": { slug: "i-hate-cooking", title: "I Hate Cooking (But I Still Need to Eat)" },
+  "best-grocery-list-apps": { slug: "best-grocery-list-apps", title: "5 Best Grocery List Apps in 2026" },
+  "meal-planning-after-moving-out": { slug: "meal-planning-after-moving-out", title: "Meal Planning After Moving Out: The Adulting Guide" },
+};
+
+/** Maps meal plan type + slug keywords to relevant blog post keys. Returns 2-3 posts. */
+function getRelevantBlogPosts(data: MealPlanPageData): BlogLink[] {
+  const slug = data.slug.toLowerCase();
+  const type = data.type;
+  const picks: string[] = [];
+
+  // Budget-related pages
+  if (slug.includes("budget") || slug.includes("cheap") || slug.includes("dollar") || type === "budget") {
+    picks.push("eating-healthy-on-a-budget", "best-budget-meal-plans", "save-money-groceries-meal-planning");
+  }
+
+  // Family / household pages
+  if (slug.includes("family") || slug.includes("families") || type === "household") {
+    picks.push("meal-planning-for-families", "weekly-meal-plan", "meal-plan-with-grocery-list");
+  }
+
+  // Couples / two people
+  if (slug.includes("couple") || slug.includes("for-two") || slug.includes("roommate")) {
+    picks.push("meal-planning-for-two", "cooking-for-one-without-wasting-food", "weekly-meal-plan");
+  }
+
+  // Beginner / first-time / simple
+  if (slug.includes("beginner") || slug.includes("first") || slug.includes("no-cooking") || slug.includes("easy")) {
+    picks.push("meal-planning-for-beginners", "easy-meal-prep-for-beginners", "first-grocery-shopping-list");
+  }
+
+  // Gen Z / young adult / college / student
+  if (type === "genz" || slug.includes("college") || slug.includes("student") || slug.includes("dorm") || slug.includes("apartment") || slug.includes("20s")) {
+    picks.push("meal-planning-in-your-20s", "cheap-meals-for-one", "meal-planning-for-college");
+  }
+
+  // Takeout / ordering
+  if (slug.includes("takeout") || slug.includes("doordash") || slug.includes("ordering")) {
+    picks.push("how-to-stop-ordering-takeout", "meal-planning-in-your-20s", "save-money-groceries-meal-planning");
+  }
+
+  // Meal prep / practical / methods
+  if (type === "method" || type === "practical" || slug.includes("prep") || slug.includes("slow-cooker") || slug.includes("air-fryer") || slug.includes("one-pot")) {
+    picks.push("how-to-meal-prep", "easy-meal-prep-for-beginners", "weekly-meal-plan");
+  }
+
+  // Calorie-specific
+  if (type === "calorie") {
+    picks.push("ai-meal-planner", "weekly-meal-plan", "meal-plan-with-grocery-list");
+  }
+
+  // Duration pages
+  if (type === "duration") {
+    picks.push("weekly-meal-plan", "meal-planning-for-beginners", "how-to-meal-prep");
+  }
+
+  // Health / medical
+  if (type === "health" || slug.includes("diabetes") || slug.includes("heart") || slug.includes("cholesterol") || slug.includes("inflammatory")) {
+    picks.push("ai-meal-planner", "meal-plan-with-grocery-list", "best-meal-planning-apps");
+  }
+
+  // Diet pages (keto, vegan, etc.)
+  if (type === "diet" || type === "combo") {
+    picks.push("ai-meal-planner", "weekly-meal-plan", "best-meal-planning-apps");
+  }
+
+  // Cuisine pages
+  if (type === "cuisine") {
+    picks.push("weekly-meal-plan", "meal-plan-with-grocery-list", "ai-meal-planner");
+  }
+
+  // ADHD / depression / mental health
+  if (slug.includes("adhd") || slug.includes("depression") || slug.includes("struggling")) {
+    picks.push("adhd-meal-planning", "eating-well-when-youre-struggling", "i-hate-cooking");
+  }
+
+  // Seasonal / occasion
+  if (type === "seasonal" || type === "occasion") {
+    picks.push("weekly-meal-plan", "how-to-meal-prep", "best-meal-planning-apps");
+  }
+
+  // Goal pages (weight loss, muscle, etc.)
+  if (type === "goal") {
+    picks.push("ai-meal-planner", "meal-planning-for-beginners", "weekly-meal-plan");
+  }
+
+  // Lifestyle
+  if (type === "lifestyle" || slug.includes("remote") || slug.includes("night-shift")) {
+    picks.push("how-to-meal-prep", "weekly-meal-plan", "meal-planning-in-your-20s");
+  }
+
+  // Deduplicate and limit to 3
+  const unique = [...new Set(picks)];
+  return unique.slice(0, 3).map((key) => blogPosts[key]).filter(Boolean);
+}
+
 type TemplateUI = {
   home: string;
   mealPlans: string;
@@ -26,6 +147,7 @@ type TemplateUI = {
   sampleMeals: string;
   faq: string;
   related: string;
+  guides: string;
   ctaTitle: string;
   ctaSub: string;
   ctaBtn: string;
@@ -44,6 +166,7 @@ const defaultUI: TemplateUI = {
   sampleMeals: "Sample Meals",
   faq: "Frequently Asked Questions",
   related: "Related Meal Plans",
+  guides: "Helpful Guides",
   ctaTitle: "Your first week is free",
   ctaSub: "Get a personalized 3-day meal plan with recipes and a grocery list. No credit card required.",
   ctaBtn: "Start Your Free Plan",
@@ -60,6 +183,7 @@ const uiStrings: Record<string, TemplateUI> = {
     ],
     whyChoose: "Por Qué Elegir Este Plan", sampleMeals: "Comidas de Ejemplo", faq: "Preguntas Frecuentes",
     related: "Planes de Comida Relacionados",
+    guides: "Guías Útiles",
     ctaTitle: "Tu primera semana es gratis", ctaSub: "Obtén un plan de comida personalizado de 3 días con recetas y lista de compras. Sin tarjeta de crédito.", ctaBtn: "Comienza Tu Plan Gratis",
   },
   fr: {
@@ -71,6 +195,7 @@ const uiStrings: Record<string, TemplateUI> = {
     ],
     whyChoose: "Pourquoi Choisir Ce Plan", sampleMeals: "Exemples de Repas", faq: "Questions Fréquentes",
     related: "Plans Repas Associés",
+    guides: "Guides Utiles",
     ctaTitle: "Votre première semaine est gratuite", ctaSub: "Recevez un plan repas personnalisé de 3 jours avec recettes et liste de courses. Sans carte de crédit.", ctaBtn: "Commencez Votre Plan Gratuit",
   },
   de: {
@@ -82,6 +207,7 @@ const uiStrings: Record<string, TemplateUI> = {
     ],
     whyChoose: "Warum Diesen Plan Wählen", sampleMeals: "Beispielgerichte", faq: "Häufig Gestellte Fragen",
     related: "Verwandte Essenspläne",
+    guides: "Hilfreiche Ratgeber",
     ctaTitle: "Ihre erste Woche ist kostenlos", ctaSub: "Erhalten Sie einen personalisierten 3-Tage-Essensplan mit Rezepten und Einkaufsliste. Keine Kreditkarte erforderlich.", ctaBtn: "Starten Sie Ihren Kostenlosen Plan",
   },
   pt: {
@@ -93,6 +219,7 @@ const uiStrings: Record<string, TemplateUI> = {
     ],
     whyChoose: "Por Que Escolher Este Plano", sampleMeals: "Refeições Exemplo", faq: "Perguntas Frequentes",
     related: "Planos de Refeição Relacionados",
+    guides: "Guias Úteis",
     ctaTitle: "Sua primeira semana é grátis", ctaSub: "Receba um plano de refeição personalizado de 3 dias com receitas e lista de compras. Sem cartão de crédito.", ctaBtn: "Comece Seu Plano Grátis",
   },
   ja: {
@@ -104,6 +231,7 @@ const uiStrings: Record<string, TemplateUI> = {
     ],
     whyChoose: "このプランを選ぶ理由", sampleMeals: "サンプルメニュー", faq: "よくある質問",
     related: "関連する食事プラン",
+    guides: "お役立ちガイド",
     ctaTitle: "最初の1週間は無料", ctaSub: "レシピと買い物リスト付きのパーソナライズされた3日間食事プランを入手。クレジットカード不要。", ctaBtn: "無料プランを始める",
   },
   ko: {
@@ -115,6 +243,7 @@ const uiStrings: Record<string, TemplateUI> = {
     ],
     whyChoose: "이 플랜을 선택하는 이유", sampleMeals: "샘플 식사", faq: "자주 묻는 질문",
     related: "관련 식사 계획",
+    guides: "유용한 가이드",
     ctaTitle: "첫 주는 무료입니다", ctaSub: "레시피와 장보기 목록이 포함된 개인 맞춤 3일 식사 계획을 받으세요. 신용카드 필요 없음.", ctaBtn: "무료 플랜 시작하기",
   },
   zh: {
@@ -126,6 +255,7 @@ const uiStrings: Record<string, TemplateUI> = {
     ],
     whyChoose: "为什么选择此计划", sampleMeals: "示例餐点", faq: "常见问题",
     related: "相关膳食计划",
+    guides: "实用指南",
     ctaTitle: "第一周免费", ctaSub: "获取包含食谱和购物清单的个性化3天膳食计划。无需信用卡。", ctaBtn: "开始免费计划",
   },
   ar: {
@@ -137,6 +267,7 @@ const uiStrings: Record<string, TemplateUI> = {
     ],
     whyChoose: "لماذا تختار هذه الخطة", sampleMeals: "وجبات نموذجية", faq: "الأسئلة الشائعة",
     related: "خطط وجبات ذات صلة",
+    guides: "أدلة مفيدة",
     ctaTitle: "أسبوعك الأول مجاني", ctaSub: "احصل على خطة وجبات مخصصة لمدة 3 أيام مع وصفات وقائمة تسوق. لا حاجة لبطاقة ائتمان.", ctaBtn: "ابدأ خطتك المجانية",
   },
   tr: {
@@ -148,6 +279,7 @@ const uiStrings: Record<string, TemplateUI> = {
     ],
     whyChoose: "Bu Planı Neden Seçmelisiniz", sampleMeals: "Örnek Yemekler", faq: "Sık Sorulan Sorular",
     related: "İlgili Yemek Planları",
+    guides: "Faydalı Rehberler",
     ctaTitle: "İlk haftanız ücretsiz", ctaSub: "Tarifler ve alışveriş listesi ile kişiselleştirilmiş 3 günlük yemek planı alın. Kredi kartı gerekmez.", ctaBtn: "Ücretsiz Planınızı Başlatın",
   },
   hi: {
@@ -159,6 +291,7 @@ const uiStrings: Record<string, TemplateUI> = {
     ],
     whyChoose: "यह योजना क्यों चुनें", sampleMeals: "नमूना भोजन", faq: "अक्सर पूछे जाने वाले प्रश्न",
     related: "संबंधित भोजन योजनाएं",
+    guides: "उपयोगी गाइड",
     ctaTitle: "आपका पहला सप्ताह मुफ्त है", ctaSub: "व्यंजनों और किराने की सूची के साथ व्यक्तिगत 3-दिन की भोजन योजना प्राप्त करें। क्रेडिट कार्ड की आवश्यकता नहीं।", ctaBtn: "अपनी मुफ्त योजना शुरू करें",
   },
 };
@@ -333,6 +466,33 @@ export function MealPlanTemplate({ data, locale }: { data: MealPlanPageData; loc
             </div>
           </section>
         )}
+
+        {/* Helpful Guides */}
+        {(() => {
+          const guides = getRelevantBlogPosts(data);
+          if (guides.length === 0) return null;
+          return (
+            <section className="mb-12">
+              <h2 className="text-xl font-semibold text-stone-800 mb-6">{ui.guides}</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                {guides.map((post) => (
+                  <Link
+                    key={post.slug}
+                    href={`/blog/${post.slug}`}
+                    className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all group"
+                  >
+                    <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">
+                      Blog
+                    </span>
+                    <h3 className="text-sm font-medium text-stone-800 mt-1 group-hover:text-orange-600 transition-colors">
+                      {post.title}
+                    </h3>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          );
+        })()}
 
         {/* CTA */}
         <section className="rounded-2xl bg-orange-500 p-8 sm:p-12 text-center">

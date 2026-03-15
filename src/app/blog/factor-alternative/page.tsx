@@ -335,6 +335,36 @@ export default function FactorAlternativePage() {
         </Link>
       </div>
 
+
+      {/* --- Compare more alternatives --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Compare more alternatives
+        </h2>
+        <div className="space-y-3 text-stone-600 text-sm">
+          <p>
+            <Link href="/blog/home-chef-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Home Chef Alternative</Link>
+            {" "}&mdash; oven-ready meal kits at $8-10/serving.
+          </p>
+          <p>
+            <Link href="/blog/everyplate-alternative" className="text-orange-500 hover:text-orange-600 underline">Best EveryPlate Alternative</Link>
+            {" "}&mdash; the cheapest meal kit at $5/serving.
+          </p>
+          <p>
+            <Link href="/blog/dinnerly-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Dinnerly Alternative</Link>
+            {" "}&mdash; budget meal kit with simple 6-ingredient recipes.
+          </p>
+          <p>
+            <Link href="/blog/hungryroot-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Hungryroot Alternative</Link>
+            {" "}&mdash; AI-curated groceries at a steep markup.
+          </p>
+          <p>
+            <Link href="/blog/best-meal-delivery-alternatives" className="text-orange-500 hover:text-orange-600 underline">7 Best Meal Delivery Alternatives in 2026</Link>
+            {" "}&mdash; every delivery alternative ranked.
+          </p>
+        </div>
+      </div>
+
       {/* --- Related articles --- */}
       <div className="border-t border-stone-100 pt-8 mt-12">
         <h3 className="text-sm font-semibold text-stone-400 uppercase tracking-wider mb-4">

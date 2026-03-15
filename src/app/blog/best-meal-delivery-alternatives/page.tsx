@@ -556,6 +556,36 @@ export default function BestMealDeliveryAlternativesPage() {
         </Link>
       </div>
 
+
+      {/* --- Compare more alternatives --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Compare specific alternatives
+        </h2>
+        <div className="space-y-3 text-stone-600 text-sm">
+          <p>
+            <Link href="/blog/factor-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Factor Alternative</Link>
+            {" "}&mdash; save $200+/month vs. pre-made meal delivery.
+          </p>
+          <p>
+            <Link href="/blog/home-chef-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Home Chef Alternative</Link>
+            {" "}&mdash; same recipes, 90% cheaper.
+          </p>
+          <p>
+            <Link href="/blog/hungryroot-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Hungryroot Alternative</Link>
+            {" "}&mdash; AI meal planning without the grocery markup.
+          </p>
+          <p>
+            <Link href="/blog/everyplate-alternative" className="text-orange-500 hover:text-orange-600 underline">Best EveryPlate Alternative</Link>
+            {" "}&mdash; even cheaper than the cheapest meal kit.
+          </p>
+          <p>
+            <Link href="/blog/dinnerly-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Dinnerly Alternative</Link>
+            {" "}&mdash; simple meals without the box.
+          </p>
+        </div>
+      </div>
+
       {/* --- Related articles --- */}
       <div className="border-t border-stone-100 mt-12 pt-8">
         <p className="text-sm font-medium text-stone-400 mb-4">

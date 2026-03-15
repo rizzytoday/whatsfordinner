@@ -357,6 +357,36 @@ export default function AiVsTraditionalMealPlanningPage() {
         </Link>
       </div>
 
+
+      {/* --- Compare more alternatives --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Compare specific alternatives
+        </h2>
+        <div className="space-y-3 text-stone-600 text-sm">
+          <p>
+            <Link href="/blog/mealime-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Mealime Alternative</Link>
+            {" "}&mdash; traditional app with a clean UI but limited variety.
+          </p>
+          <p>
+            <Link href="/blog/eat-this-much-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Eat This Much Alternative</Link>
+            {" "}&mdash; AI-powered but focused on macros over taste.
+          </p>
+          <p>
+            <Link href="/blog/plan-to-eat-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Plan to Eat Alternative</Link>
+            {" "}&mdash; manual recipe organizer vs. automated AI planner.
+          </p>
+          <p>
+            <Link href="/blog/emeals-alternative" className="text-orange-500 hover:text-orange-600 underline">Best eMeals Alternative</Link>
+            {" "}&mdash; traditional plans with grocery store integration.
+          </p>
+          <p>
+            <Link href="/blog/paprika-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Paprika Alternative</Link>
+            {" "}&mdash; recipe manager that doesn&apos;t plan for you.
+          </p>
+        </div>
+      </div>
+
       {/* Related articles + meal plans */}
       <div className="border-t border-stone-100 mt-12 pt-8">
         <p className="text-sm font-medium text-stone-400 mb-4">

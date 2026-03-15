@@ -420,6 +420,12 @@ export default function GroceriesKeepGoingBadArticle() {
           >
             How to Save Money on Groceries with Meal Planning
           </Link>
+          <Link
+            href="/blog/meal-plan-with-grocery-list"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            Meal Plan with Grocery List: The Complete Solution
+          </Link>
         </div>
         <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
           Browse meal plans

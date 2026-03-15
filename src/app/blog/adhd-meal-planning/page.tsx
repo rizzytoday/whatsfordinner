@@ -491,6 +491,12 @@ export default function AdhdMealPlanningArticle() {
           >
             Cheap Meals for One: Eating Well on a Tight Budget
           </Link>
+          <Link
+            href="/blog/i-hate-cooking"
+            className="text-orange-500 hover:text-orange-600 underline text-sm block"
+          >
+            I Hate Cooking (But I Still Need to Eat)
+          </Link>
         </div>
         <p className="text-sm font-medium text-stone-400 mt-6 mb-4">
           Browse meal plans

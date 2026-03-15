@@ -329,6 +329,36 @@ export default function HomeChefAlternativePage() {
         </Link>
       </div>
 
+
+      {/* --- Compare more alternatives --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Compare more alternatives
+        </h2>
+        <div className="space-y-3 text-stone-600 text-sm">
+          <p>
+            <Link href="/blog/factor-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Factor Alternative</Link>
+            {" "}&mdash; pre-made meals at $11-13/serving. Zero cooking, maximum cost.
+          </p>
+          <p>
+            <Link href="/blog/everyplate-alternative" className="text-orange-500 hover:text-orange-600 underline">Best EveryPlate Alternative</Link>
+            {" "}&mdash; HelloFresh&apos;s budget brand at $5/serving.
+          </p>
+          <p>
+            <Link href="/blog/dinnerly-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Dinnerly Alternative</Link>
+            {" "}&mdash; simple recipes, budget pricing, same box problem.
+          </p>
+          <p>
+            <Link href="/blog/hungryroot-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Hungryroot Alternative</Link>
+            {" "}&mdash; AI grocery curation with a 30-50% markup.
+          </p>
+          <p>
+            <Link href="/blog/best-meal-kit-alternatives" className="text-orange-500 hover:text-orange-600 underline">5 Cheap Alternatives to Meal Kits in 2026</Link>
+            {" "}&mdash; all the budget options compared.
+          </p>
+        </div>
+      </div>
+
       {/* --- Related articles --- */}
       <div className="border-t border-stone-100 pt-8 mt-12">
         <h3 className="text-sm font-semibold text-stone-400 uppercase tracking-wider mb-4">

@@ -415,6 +415,36 @@ export default function EatThisMuchAlternativePage() {
         </Link>
       </div>
 
+
+      {/* --- Compare more alternatives --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Looking at other options?
+        </h2>
+        <div className="space-y-3 text-stone-600 text-sm">
+          <p>
+            <Link href="/blog/mealime-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Mealime Alternative</Link>
+            {" "}&mdash; similar app, different approach to meal selection.
+          </p>
+          <p>
+            <Link href="/blog/emeals-alternative" className="text-orange-500 hover:text-orange-600 underline">Best eMeals Alternative</Link>
+            {" "}&mdash; pre-made plans with grocery store integration.
+          </p>
+          <p>
+            <Link href="/blog/plan-to-eat-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Plan to Eat Alternative</Link>
+            {" "}&mdash; recipe organizer vs. automated planner.
+          </p>
+          <p>
+            <Link href="/blog/hungryroot-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Hungryroot Alternative</Link>
+            {" "}&mdash; AI-curated groceries at a steep markup.
+          </p>
+          <p>
+            <Link href="/blog/best-meal-planning-apps" className="text-orange-500 hover:text-orange-600 underline">10 Best Meal Planning Apps in 2026</Link>
+            {" "}&mdash; the full ranked comparison.
+          </p>
+        </div>
+      </div>
+
       {/* --- Related articles --- */}
       <div className="border-t border-stone-100 mt-12 pt-8">
         <p className="text-sm font-medium text-stone-400 mb-4">

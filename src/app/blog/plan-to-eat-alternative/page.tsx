@@ -407,6 +407,36 @@ export default function PlanToEatAlternativePage() {
         </Link>
       </div>
 
+
+      {/* --- Compare more alternatives --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Looking at other options?
+        </h2>
+        <div className="space-y-3 text-stone-600 text-sm">
+          <p>
+            <Link href="/blog/paprika-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Paprika Alternative</Link>
+            {" "}&mdash; another recipe manager, same manual planning problem.
+          </p>
+          <p>
+            <Link href="/blog/prepear-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Prepear Alternative</Link>
+            {" "}&mdash; blogger recipes with drag-and-drop planning.
+          </p>
+          <p>
+            <Link href="/blog/mealime-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Mealime Alternative</Link>
+            {" "}&mdash; free recipe selection app with grocery lists.
+          </p>
+          <p>
+            <Link href="/blog/eat-this-much-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Eat This Much Alternative</Link>
+            {" "}&mdash; automated plans focused on calorie/macro targets.
+          </p>
+          <p>
+            <Link href="/blog/best-meal-planning-apps" className="text-orange-500 hover:text-orange-600 underline">10 Best Meal Planning Apps in 2026</Link>
+            {" "}&mdash; the full ranked comparison.
+          </p>
+        </div>
+      </div>
+
       {/* --- Related articles --- */}
       <div className="border-t border-stone-100 mt-12 pt-8">
         <p className="text-sm font-medium text-stone-400 mb-4">

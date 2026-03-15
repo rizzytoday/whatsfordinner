@@ -392,6 +392,36 @@ export default function MealPlanningVsMealPrepPage() {
         </Link>
       </div>
 
+
+      {/* --- Compare more alternatives --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Compare specific alternatives
+        </h2>
+        <div className="space-y-3 text-stone-600 text-sm">
+          <p>
+            <Link href="/blog/mealime-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Mealime Alternative</Link>
+            {" "}&mdash; free meal selection app with grocery lists.
+          </p>
+          <p>
+            <Link href="/blog/eat-this-much-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Eat This Much Alternative</Link>
+            {" "}&mdash; auto-generated plans focused on nutrition targets.
+          </p>
+          <p>
+            <Link href="/blog/factor-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Factor Alternative</Link>
+            {" "}&mdash; skip cooking entirely with pre-made meals.
+          </p>
+          <p>
+            <Link href="/blog/best-meal-planning-apps" className="text-orange-500 hover:text-orange-600 underline">10 Best Meal Planning Apps in 2026</Link>
+            {" "}&mdash; the full ranked comparison.
+          </p>
+          <p>
+            <Link href="/blog/best-meal-kit-alternatives" className="text-orange-500 hover:text-orange-600 underline">5 Cheap Alternatives to Meal Kits in 2026</Link>
+            {" "}&mdash; all the budget-friendly options.
+          </p>
+        </div>
+      </div>
+
       {/* Related articles + meal plans */}
       <div className="border-t border-stone-100 mt-12 pt-8">
         <p className="text-sm font-medium text-stone-400 mb-4">

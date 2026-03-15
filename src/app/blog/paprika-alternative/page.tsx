@@ -418,6 +418,36 @@ export default function PaprikaAlternativePage() {
         </Link>
       </div>
 
+
+      {/* --- Compare more alternatives --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Looking at other options?
+        </h2>
+        <div className="space-y-3 text-stone-600 text-sm">
+          <p>
+            <Link href="/blog/plan-to-eat-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Plan to Eat Alternative</Link>
+            {" "}&mdash; similar recipe organizer with drag-and-drop calendar.
+          </p>
+          <p>
+            <Link href="/blog/prepear-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Prepear Alternative</Link>
+            {" "}&mdash; blogger-sourced recipes with visual meal planning.
+          </p>
+          <p>
+            <Link href="/blog/cooklist-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Cooklist Alternative</Link>
+            {" "}&mdash; pantry tracker that suggests recipes from what you have.
+          </p>
+          <p>
+            <Link href="/blog/eat-this-much-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Eat This Much Alternative</Link>
+            {" "}&mdash; auto-generated plans based on calorie targets.
+          </p>
+          <p>
+            <Link href="/blog/best-meal-planning-apps" className="text-orange-500 hover:text-orange-600 underline">10 Best Meal Planning Apps in 2026</Link>
+            {" "}&mdash; the full ranked comparison.
+          </p>
+        </div>
+      </div>
+
       {/* --- Related articles --- */}
       <div className="border-t border-stone-100 mt-12 pt-8">
         <p className="text-sm font-medium text-stone-400 mb-4">
