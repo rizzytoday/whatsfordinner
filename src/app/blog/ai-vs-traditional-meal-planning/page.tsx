@@ -416,9 +416,9 @@ export default function AiVsTraditionalMealPlanningPage() {
           Browse meal plans
         </p>
         <div className="flex flex-wrap gap-2">
-          <Link href="/meal-plans/keto-meal-plan" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Keto</Link>
-          <Link href="/meal-plans/vegetarian-meal-plan" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Vegetarian</Link>
-          <Link href="/meal-plans/mediterranean-meal-plan" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Mediterranean</Link>
+          <Link href="/meal-plans/keto" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Keto</Link>
+          <Link href="/meal-plans/vegetarian" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Vegetarian</Link>
+          <Link href="/meal-plans/mediterranean" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Mediterranean</Link>
           <Link href="/meal-plans" className="text-xs px-3 py-1.5 rounded-full bg-stone-100 text-stone-600 hover:bg-stone-200 transition-colors">View all &rarr;</Link>
         </div>
       </div>

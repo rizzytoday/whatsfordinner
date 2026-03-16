@@ -25,6 +25,91 @@ export const metadata: Metadata = {
   },
 };
 
+const SLUG_EMOJI: Record<string, string> = {
+  // Diets
+  vegetarian: "🥬", vegan: "🌱", "gluten-free": "🌾", "dairy-free": "🥛", keto: "🥑",
+  "low-carb": "🥩", pescatarian: "🐟", halal: "☪️", kosher: "✡️", "no-meat-fridays": "🙏",
+  "whole30-meal-plan": "🔄", "paleo-meal-plan": "🦴", "fodmap-meal-plan": "🫄",
+  "dash-diet-meal-plan": "❤️", "carnivore-meal-plan": "🥓", "aip-meal-plan": "🛡️",
+  "plant-based-meal-plan": "🌿", "intermittent-fasting-meal-plan": "⏰",
+  // Cuisines
+  american: "🇺🇸", italian: "🇮🇹", mexican: "🇲🇽", asian: "🥢", mediterranean: "🫒",
+  indian: "🍛", thai: "🍜", japanese: "🍱", french: "🇫🇷", "middle-eastern": "🧆",
+  korean: "🇰🇷", southern: "🍗",
+  // Health
+  "ibs-meal-plan": "🫃", "pcos-meal-plan": "💜", "gerd-meal-plan": "🫁",
+  "gut-health-meal-plan": "🦠", "high-cholesterol-meal-plan": "🫀", "hypothyroid-meal-plan": "🦋",
+  // Goals
+  "meal-plan-for-weight-loss": "⚖️", "meal-plan-for-muscle-gain": "💪",
+  "meal-plan-for-pregnancy": "🤰", "meal-plan-for-beginners": "👋",
+  "meal-plan-for-picky-eaters": "🫣", "meal-plan-on-a-budget": "💵",
+  "meal-plan-for-diabetes": "🩸", "meal-plan-for-heart-health": "❤️‍🩹",
+  "high-protein-meal-plan": "🏋️", "anti-inflammatory-meal-plan": "🧊",
+  // Households
+  "meal-plan-for-one": "🧑", "meal-plan-for-two": "👫", "meal-plan-for-family-of-4": "👨‍👩‍👧‍👦",
+  "meal-plan-for-family-of-6": "👨‍👩‍👧‍👦", "meal-plan-for-college-students": "🎓",
+  "quick-30-minute-meal-plan": "⚡",
+  // Calories
+  "1200-calorie-meal-plan": "🔥", "1500-calorie-meal-plan": "🔥", "1800-calorie-meal-plan": "🔥",
+  "2000-calorie-meal-plan": "🔥", "2500-calorie-meal-plan": "💥", "3000-calorie-meal-plan": "💥",
+  // Durations
+  "3-day-meal-plan": "3️⃣", "5-day-meal-plan": "5️⃣", "7-day-meal-plan": "7️⃣",
+  "14-day-meal-plan": "📅", "21-day-meal-plan": "📅", "30-day-meal-plan": "🗓️",
+  // Methods
+  "meal-prep-meal-plan": "📦", "slow-cooker-meal-plan": "🫕", "air-fryer-meal-plan": "🌀",
+  "one-pot-meal-plan": "🍲", "no-cook-meal-plan": "🥗", "under-50-dollar-meal-plan": "💲",
+  "instant-pot-meal-plan": "⏲️", "sheet-pan-meal-plan": "🍳", "freezer-meal-plan": "🧊",
+  "5-ingredient-meal-plan": "🖐️", "under-20-minute-meal-plan": "⚡",
+  "batch-cooking-meal-plan": "🫙", "one-pan-keto-meal-plan": "🍳",
+  "instant-pot-family-meal-plan": "⏲️",
+  // Seasonal & Occasions
+  "summer-meal-plan": "☀️", "winter-meal-plan": "❄️", "spring-meal-plan": "🌸",
+  "fall-meal-plan": "🍂", "meal-plan-for-ramadan": "🌙", "meal-plan-for-lent": "✝️",
+  "back-to-school-meal-plan": "🎒", "thanksgiving-meal-plan": "🦃",
+  "christmas-meal-plan": "🎄", "new-years-healthy-meal-plan": "🎆",
+  "super-bowl-meal-plan": "🏈", "bbq-summer-meal-plan": "🔥",
+  "meal-plan-for-entertaining": "🥂", "camping-meal-plan": "⛺", "road-trip-meal-plan": "🚗",
+  "keto-meal-plan-for-weight-loss": "🥑", "vegan-meal-plan-for-muscle-gain": "🌱",
+  "gluten-free-meal-plan-for-beginners": "🌾", "mediterranean-meal-plan-for-heart-health": "🫒",
+  "low-carb-meal-plan-for-diabetes": "🥩",
+  // Gen Z
+  "meal-plan-for-first-apartment": "🏠", "meal-plan-for-roommates": "🤝",
+  "meal-plan-no-cooking-experience": "🔰", "meal-plan-for-busy-students": "📚",
+  "tiktok-recipes-meal-plan": "📱", "meal-plan-for-gym-beginners": "🏋️",
+  "high-protein-budget-meal-plan": "💪", "meal-plan-to-stop-ordering-takeout": "🚫",
+  "dorm-room-meal-plan": "🛏️", "meal-plan-for-broke-college-kids": "🪙",
+  "post-graduation-meal-plan": "🎓", "meal-plan-for-night-shift": "🌙",
+  "meal-plan-for-remote-workers": "💻", "5-dollar-meal-plan": "💵",
+  "microwave-meal-plan": "📡", "meal-plan-for-depression": "🤗",
+  "meal-plan-for-adhd": "🧠", "social-media-detox-meal-plan": "📵",
+  "meal-plan-for-broke-20-somethings": "🪙", "meal-plan-for-picky-adults": "🫣",
+  "meal-plan-no-oven": "🚫", "date-night-meal-plan": "💕",
+  "meal-plan-for-gamers": "🎮", "meal-plan-for-content-creators": "📸",
+  "meal-plan-for-minimalists": "🪷", "anti-diet-meal-plan": "✌️",
+  "meal-plan-for-shift-workers": "🔄", "lazy-meal-plan": "😴",
+  // Budget
+  "under-30-dollar-meal-plan": "💲", "under-75-dollar-meal-plan": "💵",
+  "under-100-dollar-family-meal-plan": "💰", "meal-plan-for-couples": "💑",
+  "meal-plan-for-athletes": "🏃", "meal-plan-for-new-parents": "👶",
+  // Lifestyle
+  "meal-plan-for-toddlers": "👶", "meal-plan-for-seniors": "👴",
+  "postpartum-meal-plan": "🤱", "anti-inflammatory-mediterranean": "🫒",
+  "high-protein-vegetarian": "💪",
+  // Combos
+  "vegan-thai": "🍜", "vegan-indian": "🍛", "vegan-mediterranean": "🫒",
+  "keto-mediterranean": "🥑", "keto-asian": "🥢", "keto-mexican": "🌮",
+  "vegetarian-italian": "🍝", "vegetarian-indian": "🍛", "vegetarian-mediterranean": "🫒",
+  "gluten-free-asian": "🥢", "gluten-free-italian": "🍝", "gluten-free-mexican": "🌮",
+  "halal-mediterranean": "🧆", "halal-indian": "🍛", "halal-middle-eastern": "🧆",
+  "pescatarian-japanese": "🍣", "pescatarian-mediterranean": "🐟",
+  "dairy-free-thai": "🍜", "dairy-free-mexican": "🌮", "low-carb-southern": "🍗",
+  "vegan-japanese-meal-plan": "🍱", "keto-indian-meal-plan": "🍛",
+  "gluten-free-korean-meal-plan": "🇰🇷", "vegetarian-mexican-meal-plan": "🌮",
+  "halal-asian-meal-plan": "🥢", "paleo-mediterranean-meal-plan": "🫒",
+  "low-carb-italian-meal-plan": "🍝", "dairy-free-indian-meal-plan": "🍛",
+  "pescatarian-korean-meal-plan": "🇰🇷", "vegan-soul-food-meal-plan": "🍗",
+};
+
 const sections = [
   { key: "diet", heading: "By Diet", label: "Diet" },
   { key: "cuisine", heading: "By Cuisine", label: "Cuisine" },
@@ -73,6 +158,7 @@ export default function MealPlansIndex() {
                 className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all"
               >
                 <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">
+                  {SLUG_EMOJI[page.slug] && <span className="mr-0.5 not-italic">{SLUG_EMOJI[page.slug]}</span>}
                   {section.label}
                 </span>
                 <h3 className="text-sm font-medium text-stone-800 mt-1">{page.h1}</h3>

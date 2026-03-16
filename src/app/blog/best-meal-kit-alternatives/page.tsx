@@ -637,11 +637,11 @@ export default function BestMealKitAlternativesPage() {
 
       {/* --- Browse meal plans --- */}
       <div className="mt-10 flex flex-wrap gap-2">
-        <Link href="/meal-plans/keto-meal-plan" className="text-xs bg-stone-100 hover:bg-stone-200 text-stone-600 rounded-full px-3 py-1.5 transition-colors">Keto Meal Plans</Link>
-        <Link href="/meal-plans/vegan-meal-plan" className="text-xs bg-stone-100 hover:bg-stone-200 text-stone-600 rounded-full px-3 py-1.5 transition-colors">Vegan Meal Plans</Link>
-        <Link href="/meal-plans/budget-meal-plan" className="text-xs bg-stone-100 hover:bg-stone-200 text-stone-600 rounded-full px-3 py-1.5 transition-colors">Budget Meal Plans</Link>
-        <Link href="/meal-plans/family-meal-plan" className="text-xs bg-stone-100 hover:bg-stone-200 text-stone-600 rounded-full px-3 py-1.5 transition-colors">Family Meal Plans</Link>
-        <Link href="/meal-plans/mediterranean-meal-plan" className="text-xs bg-stone-100 hover:bg-stone-200 text-stone-600 rounded-full px-3 py-1.5 transition-colors">Mediterranean Meal Plans</Link>
+        <Link href="/meal-plans/keto" className="text-xs bg-stone-100 hover:bg-stone-200 text-stone-600 rounded-full px-3 py-1.5 transition-colors">Keto Meal Plans</Link>
+        <Link href="/meal-plans/vegan" className="text-xs bg-stone-100 hover:bg-stone-200 text-stone-600 rounded-full px-3 py-1.5 transition-colors">Vegan Meal Plans</Link>
+        <Link href="/meal-plans/meal-plan-on-a-budget" className="text-xs bg-stone-100 hover:bg-stone-200 text-stone-600 rounded-full px-3 py-1.5 transition-colors">Budget Meal Plans</Link>
+        <Link href="/meal-plans/meal-plan-for-family-of-4" className="text-xs bg-stone-100 hover:bg-stone-200 text-stone-600 rounded-full px-3 py-1.5 transition-colors">Family Meal Plans</Link>
+        <Link href="/meal-plans/mediterranean" className="text-xs bg-stone-100 hover:bg-stone-200 text-stone-600 rounded-full px-3 py-1.5 transition-colors">Mediterranean Meal Plans</Link>
         <Link href="/meal-plans/high-protein-meal-plan" className="text-xs bg-stone-100 hover:bg-stone-200 text-stone-600 rounded-full px-3 py-1.5 transition-colors">High-Protein Meal Plans</Link>
       </div>
       </article>

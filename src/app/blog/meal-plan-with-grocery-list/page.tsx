@@ -443,7 +443,7 @@ export default function MealPlanWithGroceryList() {
         </p>
         <div className="flex flex-wrap gap-2">
           <Link href="/meal-plans/vegetarian" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Vegetarian</Link>
-          <Link href="/meal-plans/paleo" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Paleo</Link>
+          <Link href="/meal-plans/paleo-meal-plan" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Paleo</Link>
           <Link href="/meal-plans/italian" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Italian</Link>
           <Link href="/meal-plans/thai" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Thai</Link>
           <Link href="/meal-plans/indian" className="text-xs px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 hover:bg-orange-100 transition-colors">Indian</Link>

@@ -15,14 +15,14 @@
   },
   "landing": {
     "hero": {
-      "title": "what's for dinner?",
-      "subtitle": "The most stressful question of your day. Answered.",
-      "description": "You spend 3+ hours a week deciding what to eat, googling recipes, and making grocery lists. We do it all in 30 seconds.",
-      "tryCta": "See your first plan free",
-      "noCreditCard": "— no credit card, no commitment.",
-      "cta": "End the Dinner Stress",
+      "title": "Your week of meals,\nplanned in 30 seconds",
+      "subtitle": "Personalized meal plans, recipes and a grocery list, delivered to your inbox every Sunday.",
+      "description": "Tell us what your family likes. We handle the rest.\nEvery week, automatically.",
+      "tryCta": "",
+      "noCreditCard": "",
+      "cta": "Get Your First Plan Free",
       "ctaLoggedIn": "Go to Dashboard",
-      "subtext": "2 minutes to set up. Never think about meal planning again."
+      "subtext": "No credit card. Just a quick taste quiz."
     },
     "social": {
       "mealsPlanned": "meals planned",
@@ -48,7 +48,7 @@
     "preview": {
       "title": "Here's your next Monday.",
       "subtitle": "Real meals. Real recipes. A grocery list that actually matches. Personalized to your family.",
-      "unlock": "Make this yours — free",
+      "unlock": "Make this yours, free",
       "groceryTitle": "Your Grocery Run",
       "groceryNote": "Walk in, buy exactly this, walk out. No wandering, no forgetting, no overspending.",
       "recipesLink": "Recipes, grocery list",
@@ -77,19 +77,19 @@
       "perMonth": "/month",
       "perYear": "/year",
       "perMonthCalc": "$5/mo",
-      "billedMonthly": "Billed monthly. Cancel anytime — seriously.",
+      "billedMonthly": "Billed monthly. Cancel anytime.",
       "billedYearly": "Billed yearly at $59.99",
       "tryFreeFirst": "Try It Free First",
       "features": {
         "firstWeekFree": "Try a free 3-day plan, no credit card needed",
         "sevenDayPlans": "A full week of meals planned for you, every week",
-        "groceryLists": "One grocery list — no duplicates, no guessing",
+        "groceryLists": "One grocery list, no duplicates, no guessing",
         "regenerations": "Don't love something? Swap it, no questions asked",
-        "emailDelivery": "Your plan arrives Sunday morning — before you need it",
-        "dietarySupport": "Works around allergies, diets, picky eaters — all of it",
+        "emailDelivery": "Your plan arrives Sunday morning, before you need it",
+        "dietarySupport": "Works around allergies, diets, and picky eaters",
         "cancelAnytime": "Cancel in one click, keep access till your period ends",
-        "swapMeals": "Swap any meal instantly — AI picks a fresh one",
-        "learnsYourTaste": "Gets better every week — learns what your family likes",
+        "swapMeals": "Swap any meal instantly. AI picks a fresh one",
+        "learnsYourTaste": "Gets better every week. Learns what your family likes",
         "bestValue": "Save $36/year vs monthly",
         "inviteFriends": "Give 3 friends a free month",
         "prioritySupport": "Priority email support"
@@ -97,21 +97,21 @@
     },
     "faq": {
       "title": "Still thinking about it?",
-      "subtitle": "Here's everything holding you back — addressed.",
+      "subtitle": "Here's everything holding you back, addressed.",
       "q1": "How does it work?",
-      "a1": "Tell us what you eat, what you avoid, and your budget. In 30 seconds, you get a 3-day meal plan with recipes and a grocery list — free, no credit card. If it clicks, subscribe and we send you a full week, every week.",
+      "a1": "Tell us what you eat, what you avoid, and your budget. In 30 seconds, you get a 3-day meal plan with recipes and a grocery list. Free, no credit card. If it clicks, subscribe and we send you a full week, every week.",
       "q2": "Is the free plan really free?",
       "a2": "Completely. No credit card, no trial that auto-charges. You get a real 3-day plan with real recipes and a real grocery list. We think once you try it, you won't want to go back to winging it.",
       "q3": "Can I customize for allergies and dietary restrictions?",
-      "a3": "Down to the ingredient. Vegetarian, vegan, gluten-free, keto, nut allergies, shellfish — whatever it is, every meal is built around it. Your plan won't just avoid things, it'll be good despite them.",
+      "a3": "Down to the ingredient. Vegetarian, vegan, gluten-free, keto, nut allergies, shellfish, whatever it is. Every meal is built around it. Your plan won't just avoid things, it'll be good despite them.",
       "q4": "What if I don't like the plan?",
       "a4": "Hit regenerate. New plan, same preferences, zero guilt. You get 2 regenerations per week. We'd rather you love every meal than settle.",
       "q5": "Can I cancel anytime?",
       "a5": "One click from your dashboard. No phone calls, no retention emails, no guilt trip. You keep access through the end of your billing period.",
       "q6": "What kind of meals are included?",
-      "a6": "Real food you'd actually make — 15-minute weeknight dinners, weekend projects, breakfasts that aren't just cereal. Common ingredients you can find anywhere. Nothing that requires a specialty store run.",
+      "a6": "Real food you'd actually make. 15-minute weeknight dinners, weekend projects, breakfasts that aren't just cereal. Common ingredients you can find anywhere.",
       "q7": "Is this just for one person?",
-      "a7": "Works for one, works for six. You set your household size and we adjust everything — portions, grocery quantities, the whole plan. Couples, families, solo cooks — all covered."
+      "a7": "Works for one, works for six. You set your household size and we adjust portions, grocery quantities, the whole plan. Couples, families, solo cooks, all covered."
     },
     "suggestion": {
       "breakfast": "Breakfast idea",
@@ -159,7 +159,7 @@
     "blocked": {
       "title": "Your free plan has been used",
       "subtitle": "Loved the plan? Subscribe to get a fresh, personalized meal plan every single week.",
-      "monthly": "Subscribe — $7.99/mo",
+      "monthly": "Subscribe for $7.99/mo",
       "yearly": "$59.99/year (save 37%)",
       "alreadyCreatedTitle": "You already created your free meal plan",
       "alreadyCreatedSubtitle": "Your 3-day plan is waiting for you on your dashboard.",
@@ -179,7 +179,7 @@
     },
     "budget": {
       "title": "How much do you spend on groceries?",
-      "subtitle": "Weekly grocery budget — we'll match recipes to your range.",
+      "subtitle": "Weekly grocery budget. We'll match recipes to your range.",
       "budgetLabel": "Kitchen Basics",
       "budgetRange": "$50-80",
       "budgetDesc": "Pantry staples, simple recipes",
@@ -244,8 +244,8 @@
       "min45": "45 min",
       "min60": "60 min",
       "min90": "90 min",
-      "meals2": "2 — lunch & dinner",
-      "meals3": "3 — all meals"
+      "meals2": "2 (lunch & dinner)",
+      "meals3": "3 (all meals)"
     },
     "delivery": {
       "title": "When should we send it?",
@@ -275,7 +275,7 @@
     "freeBanner": "Here's your free 3-day plan. Enjoy!",
     "wantEveryWeek": "Want the full 7 days, every week?",
     "wantEveryWeekDesc": "Subscribe to get a complete 7-day meal plan and grocery list delivered to your inbox every week.",
-    "subscribeMonthly": "Subscribe — $7.99/mo",
+    "subscribeMonthly": "Subscribe for $7.99/mo",
     "subscribeYearly": "$59.99/year (save 37%)",
     "freePlanSubtitle": "Free 3-day plan",
     "ctaTagline": "Full week, every week",
@@ -292,7 +292,7 @@
     "keepPlanSuffix": "to save it.",
     "savedToAccount": "This plan is saved to your account.",
     "goToDashboard": "Go to Dashboard",
-    "stickWithIt": "That's 2.5 hours back every week — if you stick with it."
+    "stickWithIt": "That's 2.5 hours back every week, if you stick with it."
   },
   "dashboard": {
     "title": "Dashboard",
@@ -315,8 +315,8 @@
     "prefsLockedDesc": "You've used your free 3-day plan. Subscribe to edit preferences and get fresh plans every week.",
     "upgradeBanner": "Loved your free plan?",
     "upgradeDesc": "Subscribe to get a fresh meal plan every week, plus regenerations and email delivery.",
-    "subscribeCta": "Subscribe — $7.99/mo",
-    "freeNotice": "Try a free 3-day plan — generate yours below!",
+    "subscribeCta": "Subscribe for $7.99/mo",
+    "freeNotice": "Try a free 3-day plan. Generate yours below!",
     "noPlan": "No plan yet",
     "noPlanDesc": "Generate your first personalized meal plan based on your preferences.",
     "generateFirst": "Generate My First Plan",
@@ -345,7 +345,7 @@
     "heroSavedTotalPrefix": "you've saved",
     "heroSavedTotalHighlight": "{hours}h over {weeks} weeks",
     "heroNotThinking": "not thinking about what to eat",
-    "heroEveryWeek": "Get this every week — $7.99/mo",
+    "heroEveryWeek": "Get this every week for $7.99/mo",
     "subscription": "Subscription",
     "statusActive": "Active",
     "statusFree": "Free",
@@ -357,9 +357,9 @@
     "statusPastDueDesc": "Your payment is past due. Please update your billing info.",
     "statusCancelledDesc": "Your subscription has been cancelled. Resubscribe to continue.",
     "manageBilling": "Manage Billing",
-    "giftYearly": "Yearly gift subscription — no billing needed",
-    "gift": "Gift subscription — no billing needed",
-    "resubscribe": "Resubscribe — $7.99/mo",
+    "giftYearly": "Yearly gift subscription, no billing needed",
+    "gift": "Gift subscription, no billing needed",
+    "resubscribe": "Resubscribe for $7.99/mo",
     "updatePayment": "Update Payment",
     "inviteFriends": "Invite Friends",
     "inviteDesc": "Share these codes with friends. {count}/3 codes generated.",
@@ -376,7 +376,7 @@
     "apply": "Apply",
     "ramadanTitle": "Ramadan Fasting",
     "ramadanDesc": "Adjust meal plans for suhoor & iftar",
-    "ramadanActive": "Your meal plans will be adjusted for Ramadan — suhoor (pre-dawn) and iftar (after sunset) meals only.",
+    "ramadanActive": "Your meal plans will be adjusted for Ramadan: suhoor (pre-dawn) and iftar (after sunset) meals only.",
     "weekOf": "Week of {date}",
     "mealsCount": "{count} meals",
     "statusGenerating": "Generating",
@@ -384,7 +384,7 @@
     "statusSent": "Sent",
     "statusFailed": "Failed",
     "pantryTitle": "My Pantry",
-    "pantrySubtitle": "Items you always have at home — dimmed on your grocery list",
+    "pantrySubtitle": "Items you always have at home. Dimmed on your grocery list.",
     "pantrySaved": "Saved"
   },
   "mealTypes": {

@@ -6,10 +6,10 @@ const POPULAR_PLANS = [
   { slug: "vegetarian", label: "Vegetarian", emoji: "🥗" },
   { slug: "vegan", label: "Vegan", emoji: "🌱" },
   { slug: "meal-plan-on-a-budget", label: "Budget-Friendly", emoji: "💰" },
-  { slug: "high-protein", label: "High Protein", emoji: "💪" },
+  { slug: "high-protein-meal-plan", label: "High Protein", emoji: "💪" },
   { slug: "gluten-free", label: "Gluten Free", emoji: "🌾" },
   { slug: "quick-30-minute-meal-plan", label: "30-Minute Meals", emoji: "⏱️" },
-  { slug: "meal-plan-for-families", label: "For Families", emoji: "👨‍👩‍👧‍👦" },
+  { slug: "meal-plan-for-family-of-4", label: "For Families", emoji: "👨‍👩‍👧‍👦" },
 ];
 
 export function PopularMealPlans() {
