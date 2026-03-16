@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "What's For Dinner — The most stressful question of your day. Answered.";
+export const alt = "What's For Dinner — Your week of meals, planned in 30 seconds";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -89,22 +89,36 @@ export default async function OGImage() {
               display: "flex",
             }}
           >
-            what&apos;s for dinner?
+            Your week of meals,
+          </div>
+          <div
+            style={{
+              fontFamily: "Inter",
+              fontSize: 86,
+              fontWeight: 800,
+              color: "#0C0A09",
+              textAlign: "center",
+              lineHeight: 1.1,
+              letterSpacing: "-2px",
+              display: "flex",
+            }}
+          >
+            planned in 30 seconds
           </div>
 
           {/* Subheadline */}
           <div
             style={{
               fontFamily: "Inter",
-              fontSize: 34,
+              fontSize: 28,
               fontWeight: 800,
               color: "#F97316",
-              marginTop: 16,
+              marginTop: 20,
               textAlign: "center",
               display: "flex",
             }}
           >
-            The most stressful question of your day. Answered.
+            Personalized meal plans, recipes and a grocery list.
           </div>
 
           {/* Subtitle */}
@@ -113,12 +127,12 @@ export default async function OGImage() {
               fontSize: 18,
               fontWeight: 400,
               color: "#A8A29E",
-              marginTop: 24,
+              marginTop: 16,
               textAlign: "center",
               display: "flex",
             }}
           >
-            We plan your meals, recipes, and grocery list — in 30 seconds.
+            Delivered to your inbox every Sunday. Every week, automatically.
           </div>
 
           {/* CTA pill */}
@@ -134,7 +148,7 @@ export default async function OGImage() {
               display: "flex",
             }}
           >
-            End the Dinner Stress
+            Get Your First Plan Free
           </div>
         </div>
 

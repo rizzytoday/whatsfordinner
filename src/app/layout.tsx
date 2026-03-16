@@ -14,11 +14,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://whatsfordinner.fit"),
   title: {
-    default: "What's For Dinner — Weekly Meal Plans, Recipes & Grocery Lists",
+    default: "What's For Dinner — Your Week of Meals, Planned in 30 Seconds",
     template: "%s | What's For Dinner",
   },
   description:
-    "You spend 3+ hours a week deciding what to eat. We do it in 30 seconds — meal plans, recipes, and a grocery list, personalized to your family. Try free, no credit card.",
+    "Personalized meal plans, recipes, and a grocery list, delivered to your inbox every Sunday. Tell us what your family likes. We handle the rest.",
   keywords: [
     "meal planner",
     "weekly meal plan",
@@ -41,16 +41,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://whatsfordinner.fit",
-    title: "What's For Dinner — Meal Plans That End the Dinner Stress",
+    title: "What's For Dinner — Your Week of Meals, Planned in 30 Seconds",
     description:
-      "You spend 3+ hours a week deciding what to eat. We do it in 30 seconds — meal plans, recipes, and a grocery list. Try free.",
+      "Personalized meal plans, recipes, and a grocery list, delivered to your inbox every Sunday. Try free, no credit card.",
     siteName: "What's For Dinner",
   },
   twitter: {
     card: "summary_large_image",
-    title: "What's For Dinner — Meal Plans That End the Dinner Stress",
+    title: "What's For Dinner — Your Week of Meals, Planned in 30 Seconds",
     description:
-      "You spend 3+ hours a week deciding what to eat. We do it in 30 seconds — meal plans, recipes, and a grocery list. Try free.",
+      "Personalized meal plans, recipes, and a grocery list, delivered to your inbox every Sunday. Try free, no credit card.",
   },
 };
 
@@ -62,7 +62,7 @@ const jsonLd = {
       name: "What's For Dinner",
       url: "https://whatsfordinner.fit",
       description:
-        "Stop wasting 3+ hours a week deciding what to eat. We plan your meals, recipes, and grocery list in 30 seconds.",
+        "Personalized meal plans, recipes, and a grocery list, delivered to your inbox every Sunday. Your week of meals, planned in 30 seconds.",
       potentialAction: {
         "@type": "SearchAction",
         target: "https://whatsfordinner.fit/blog?q={search_term_string}",
@@ -76,7 +76,7 @@ const jsonLd = {
       operatingSystem: "Web",
       url: "https://whatsfordinner.fit",
       description:
-        "End the dinner stress. Personalized meal plans, recipes, and grocery lists — planned in 30 seconds, delivered to your inbox weekly.",
+        "Personalized meal plans, recipes, and a grocery list. Planned in 30 seconds, delivered to your inbox every Sunday.",
       offers: [
         {
           "@type": "Offer",

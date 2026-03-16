@@ -113,7 +113,7 @@ export default async function OGImage({ params }: { params: Promise<{ slug: stri
               display: "flex",
             }}
           >
-            Personalized weekly meals + grocery lists
+            Meal plans, recipes, and a grocery list
           </div>
 
           <div
