@@ -81,19 +81,19 @@ export default async function sitemap(props: { id: Promise<number> | number }): 
     return [
       {
         url: BASE,
-        lastModified: new Date("2026-03-16"),
+        lastModified: new Date("2026-03-18"),
         changeFrequency: "weekly",
         priority: 1.0,
       },
       {
         url: `${BASE}/blog`,
-        lastModified: new Date("2026-03-16"),
+        lastModified: new Date("2026-03-18"),
         changeFrequency: "weekly",
         priority: 0.9,
       },
       {
         url: `${BASE}/meal-plans`,
-        lastModified: new Date("2026-03-16"),
+        lastModified: new Date("2026-03-18"),
         changeFrequency: "weekly",
         priority: 0.9,
       },
