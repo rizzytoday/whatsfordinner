@@ -507,68 +507,110 @@ function OnboardingContent() {
               </>
             ) : (
               <>
-                <div className="flex items-center justify-center gap-2">
-                  <svg className="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
-                  </svg>
-                  <h3 className="text-sm font-bold text-stone-800">
-                    {t("onboarding.blocked.title")}
-                  </h3>
+                <div className="space-y-4">
+                  {/* Friendly headline — not a wall */}
+                  <div className="flex items-center justify-center gap-2">
+                    <span className="text-2xl">🎉</span>
+                    <h3 className="text-sm font-bold text-stone-800">
+                      You liked your free plan!
+                    </h3>
+                  </div>
+                  <p className="text-xs text-stone-500 max-w-sm mx-auto">
+                    Your 3-day plan showed you how it works. Upgrade to get a full 7-day plan with recipes and a grocery list every week.
+                  </p>
+
+                  {/* What you get — quick visual */}
+                  <div className="grid grid-cols-2 gap-2 max-w-xs mx-auto text-left">
+                    <div className="flex items-center gap-1.5 text-xs text-stone-600">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-orange-500 shrink-0"><polyline points="20 6 9 17 4 12" /></svg>
+                      7-day plans
+                    </div>
+                    <div className="flex items-center gap-1.5 text-xs text-stone-600">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-orange-500 shrink-0"><polyline points="20 6 9 17 4 12" /></svg>
+                      Full recipes
+                    </div>
+                    <div className="flex items-center gap-1.5 text-xs text-stone-600">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-orange-500 shrink-0"><polyline points="20 6 9 17 4 12" /></svg>
+                      Grocery list
+                    </div>
+                    <div className="flex items-center gap-1.5 text-xs text-stone-600">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-orange-500 shrink-0"><polyline points="20 6 9 17 4 12" /></svg>
+                      Every Sunday
+                    </div>
+                  </div>
+
+                  {/* Price comparison */}
+                  <div className="bg-white rounded-xl border border-stone-100 p-3 max-w-xs mx-auto">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-xs font-medium text-stone-500">DoorDash tonight</span>
+                      <span className="text-xs font-bold text-red-500 line-through">~$25</span>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-medium text-stone-500">Full week of meals</span>
+                      <span className="text-xs font-bold text-green-600">$7.99/mo</span>
+                    </div>
+                  </div>
+
+                  {/* CTA buttons */}
+                  <div className="flex flex-col gap-2 max-w-xs mx-auto">
+                    <Button
+                      size="sm"
+                      loading={subscribing}
+                      onClick={async () => {
+                        setSubscribing(true);
+                        try {
+                          const res = await fetch("/api/lemonsqueezy/checkout", {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({ plan: "yearly" }),
+                          });
+                          const d = await res.json();
+                          if (d.url) { window.location.href = d.url; return; }
+                        } catch {}
+                        setSubscribing(false);
+                      }}
+                    >
+                      Start for $5/mo (yearly, save 37%)
+                    </Button>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      loading={subscribing}
+                      onClick={async () => {
+                        setSubscribing(true);
+                        try {
+                          const res = await fetch("/api/lemonsqueezy/checkout", {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({ plan: "monthly" }),
+                          });
+                          const d = await res.json();
+                          if (d.url) { window.location.href = d.url; return; }
+                        } catch {}
+                        setSubscribing(false);
+                      }}
+                    >
+                      Or $7.99/mo monthly
+                    </Button>
+                  </div>
+
+                  {/* View existing plan link */}
+                  <div className="flex flex-col items-center gap-1">
+                    <Link href="/preview" className="text-xs text-orange-500 hover:text-orange-600 font-medium">
+                      View your free plan &rarr;
+                    </Link>
+                    <p className="text-[10px] text-stone-400">
+                      <Link href="/login" className="text-orange-500 hover:text-orange-600 font-medium">
+                        Sign in
+                      </Link>
+                      {" "}or{" "}
+                      <Link href="/signup" className="text-orange-500 hover:text-orange-600 font-medium">
+                        sign up
+                      </Link>
+                      {" "}to manage your account
+                    </p>
+                  </div>
                 </div>
-                <p className="text-xs text-stone-500">
-                  {t("onboarding.blocked.subtitle")}
-                </p>
-                <div className="flex flex-col sm:flex-row gap-2 justify-center">
-                  <Button
-                    size="sm"
-                    loading={subscribing}
-                    onClick={async () => {
-                      setSubscribing(true);
-                      try {
-                        const res = await fetch("/api/lemonsqueezy/checkout", {
-                          method: "POST",
-                          headers: { "Content-Type": "application/json" },
-                          body: JSON.stringify({ plan: "monthly" }),
-                        });
-                        const d = await res.json();
-                        if (d.url) { window.location.href = d.url; return; }
-                      } catch {}
-                      setSubscribing(false);
-                    }}
-                  >
-                    {t("onboarding.blocked.monthly")}
-                  </Button>
-                  <Button
-                    variant="secondary"
-                    size="sm"
-                    loading={subscribing}
-                    onClick={async () => {
-                      setSubscribing(true);
-                      try {
-                        const res = await fetch("/api/lemonsqueezy/checkout", {
-                          method: "POST",
-                          headers: { "Content-Type": "application/json" },
-                          body: JSON.stringify({ plan: "yearly" }),
-                        });
-                        const d = await res.json();
-                        if (d.url) { window.location.href = d.url; return; }
-                      } catch {}
-                      setSubscribing(false);
-                    }}
-                  >
-                    {t("onboarding.blocked.yearly")}
-                  </Button>
-                </div>
-                <p className="text-xs text-stone-400">
-                  {t("onboarding.blocked.alreadyGenerated")}{" "}
-                  <Link href="/login" className="text-orange-500 hover:text-orange-600 font-medium">
-                    {t("common.signIn")}
-                  </Link>
-                  {" "}{t("common.or")}{" "}
-                  <Link href="/signup" className="text-orange-500 hover:text-orange-600 font-medium">
-                    {t("common.signUp").toLowerCase()}
-                  </Link>
-                </p>
               </>
             )}
           </div>

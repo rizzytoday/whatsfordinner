@@ -130,7 +130,7 @@ export default function PreviewPage() {
   // 2.5h/week × 52 weeks = 130h/yr
 
   return (
-    <div className="min-h-screen bg-[#FFFBF5]">
+    <div className="min-h-screen bg-[#FFFBF5] pb-20 sm:pb-0">
       {/* Header */}
       <header className="border-b border-stone-100 bg-white/60 backdrop-blur-sm sticky top-0 z-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
@@ -306,6 +306,26 @@ export default function PreviewPage() {
 
       </main>
 
+      {/* Social proof */}
+      <div className="border-t border-stone-100 py-8 bg-white/40">
+        <div className="max-w-2xl mx-auto px-6">
+          <div className="grid grid-cols-3 gap-4 text-center">
+            <div>
+              <p className="text-2xl font-bold text-stone-800">2.5h</p>
+              <p className="text-xs text-stone-400 mt-0.5">saved per week</p>
+            </div>
+            <div>
+              <p className="text-2xl font-bold text-stone-800">$200+</p>
+              <p className="text-xs text-stone-400 mt-0.5">saved per month</p>
+            </div>
+            <div>
+              <p className="text-2xl font-bold text-stone-800">0</p>
+              <p className="text-xs text-stone-400 mt-0.5">food wasted</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* CTA section — full width, outside main container */}
       <section className="border-t border-orange-100 bg-gradient-to-b from-[#FFFBF5] to-orange-50/60 py-16 sm:py-20">
         <div className="max-w-2xl mx-auto px-6 text-center">
@@ -337,28 +357,53 @@ export default function PreviewPage() {
             </span>
           </div>
 
-          {/* Pricing buttons */}
+          {/* Urgency nudge */}
+          <p className="text-sm text-stone-600 font-medium mb-6">
+            This plan was made just for you &mdash; start cooking this week.
+          </p>
+
+          {/* What you get */}
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs text-stone-500 mb-8">
+            <span className="flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-orange-400" />
+              7-day personalized plans
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-orange-400" />
+              Complete recipes
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-orange-400" />
+              Grocery list included
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-orange-400" />
+              Delivered every Sunday
+            </span>
+          </div>
+
+          {/* Pricing buttons — yearly first (better deal) */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <button
               type="button"
               disabled={subscribing}
-              onClick={() => handleSubscribe("monthly")}
+              onClick={() => handleSubscribe("yearly")}
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-lg shadow-orange-500/20 hover:shadow-xl hover:shadow-orange-500/30 transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
             >
-              {subscribing ? t("preview.redirecting") : t("preview.subscribeMonthly")}
+              {subscribing ? t("preview.redirecting") : t("preview.yearlyPrice")}
+              {!subscribing && (
+                <span className="ml-2 inline-flex items-center px-2 py-0.5 text-xs font-semibold text-white/90 bg-white/20 rounded-full">
+                  {t("landing.pricing.save50")}
+                </span>
+              )}
             </button>
             <button
               type="button"
               disabled={subscribing}
-              onClick={() => handleSubscribe("yearly")}
+              onClick={() => handleSubscribe("monthly")}
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-stone-700 bg-white border border-stone-200 hover:border-orange-300 rounded-full shadow-sm hover:shadow-md transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
             >
-              {subscribing ? t("preview.redirecting") : t("preview.yearlyPrice")}
-              {!subscribing && (
-                <span className="ml-2 inline-flex items-center px-2 py-0.5 text-xs font-semibold text-orange-600 bg-orange-100 rounded-full">
-                  {t("landing.pricing.save50")}
-                </span>
-              )}
+              {subscribing ? t("preview.redirecting") : t("preview.subscribeMonthly")}
             </button>
           </div>
 
@@ -389,6 +434,18 @@ export default function PreviewPage() {
             </p>
           )}
         </div>
+      </div>
+
+      {/* Sticky mobile CTA */}
+      <div className="fixed bottom-0 left-0 right-0 z-40 p-3 bg-[#FFFBF5]/92 backdrop-blur-xl border-t border-stone-100 sm:hidden">
+        <button
+          type="button"
+          disabled={subscribing}
+          onClick={() => handleSubscribe("yearly")}
+          className="w-full py-3 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-lg transition-colors disabled:opacity-60"
+        >
+          {subscribing ? "Redirecting..." : "Start for $5/mo \u2014 Save 37%"}
+        </button>
       </div>
     </div>
   );
