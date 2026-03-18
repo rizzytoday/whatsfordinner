@@ -84,7 +84,7 @@ export default function HowToStopOrderingTakeoutArticle() {
           { name: "How to Stop Ordering Takeout", url: "https://whatsfordinner.fit/blog/how-to-stop-ordering-takeout" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>

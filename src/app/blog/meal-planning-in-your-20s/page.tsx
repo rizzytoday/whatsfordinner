@@ -84,7 +84,7 @@ export default function MealPlanningInYour20sArticle() {
           { name: "Meal Planning in Your 20s", url: "https://whatsfordinner.fit/blog/meal-planning-in-your-20s" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>

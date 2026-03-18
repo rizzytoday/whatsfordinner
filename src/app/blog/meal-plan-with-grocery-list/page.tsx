@@ -86,7 +86,7 @@ export default function MealPlanWithGroceryList() {
           { name: "Meal Plan with Grocery List: The Complete Solution", url: "https://whatsfordinner.fit/blog/meal-plan-with-grocery-list" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>

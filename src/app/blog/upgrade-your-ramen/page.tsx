@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
+import { MealCardGrid } from "@/components/blog/MealCard";
 
 export const metadata: Metadata = {
   title: "Upgrade Your Ramen: 10 Ways to Make Instant Noodles Actually Good",
@@ -84,7 +85,7 @@ export default function UpgradeYourRamenArticle() {
           { name: "Upgrade Your Ramen", url: "https://whatsfordinner.fit/blog/upgrade-your-ramen" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>
@@ -140,159 +141,18 @@ export default function UpgradeYourRamenArticle() {
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
         The 10 Upgrades
       </h2>
-      <div className="space-y-6 text-stone-600 leading-relaxed">
-        {/* 1 */}
-        <div>
-          <h3 className="text-lg font-semibold text-stone-800 mb-2">
-            1. The Egg Drop
-          </h3>
-          <p className="text-sm text-stone-400 mb-2">Add: 1 egg | Cost: ~$0.30 | Total: ~$0.60</p>
-          <p>
-            The classic. While your ramen is boiling, crack an egg directly into
-            the pot and stir slowly. The egg cooks in ribbons through the broth,
-            adding protein and making the whole thing feel like an actual meal.
-            Don&apos;t overthink it &mdash; crack, stir, done. This is the
-            upgrade with the highest effort-to-reward ratio in cooking history.
-          </p>
-        </div>
-        {/* 2 */}
-        <div>
-          <h3 className="text-lg font-semibold text-stone-800 mb-2">
-            2. Peanut Butter + Soy Sauce + Sriracha
-          </h3>
-          <p className="text-sm text-stone-400 mb-2">Add: 1 tbsp PB, soy sauce, sriracha | Cost: ~$0.40 | Total: ~$0.70</p>
-          <p>
-            This sounds weird until you try it, and then you make it three times
-            a week. Drain most of the water (leave about 2 tablespoons), stir in
-            a spoonful of peanut butter, a splash of soy sauce, and as much
-            sriracha as you can handle. You just made budget pad thai. The
-            peanut butter melts into a creamy sauce that coats every noodle. Life
-            changing. Under a dollar.
-          </p>
-        </div>
-        {/* 3 */}
-        <div>
-          <h3 className="text-lg font-semibold text-stone-800 mb-2">
-            3. Frozen Veggies + Sesame Oil
-          </h3>
-          <p className="text-sm text-stone-400 mb-2">Add: 1/2 cup frozen stir-fry mix, sesame oil | Cost: ~$0.50 | Total: ~$0.80</p>
-          <p>
-            Dump half a bag of frozen stir-fry vegetables into the pot 2 minutes
-            before the noodles are done. They cook right in the broth. Finish
-            with a few drops of sesame oil. Now you have vegetables in your
-            ramen, which makes this technically a balanced meal. The sesame oil
-            adds a nutty depth that makes the whole bowl smell like a real
-            restaurant.
-          </p>
-        </div>
-        {/* 4 */}
-        <div>
-          <h3 className="text-lg font-semibold text-stone-800 mb-2">
-            4. Kimchi + Soft Boiled Egg
-          </h3>
-          <p className="text-sm text-stone-400 mb-2">Add: 2 tbsp kimchi, 1 soft-boiled egg | Cost: ~$0.80 | Total: ~$1.10</p>
-          <p>
-            This is the one that makes people think you know what you&apos;re
-            doing. Boil an egg for 7 minutes (6.5 if you want it runny), peel
-            it, cut it in half, and place it on top of your ramen. Add a few
-            spoonfuls of kimchi. The fermented, spicy, tangy kimchi combined
-            with a jammy egg yolk is genuinely restaurant-level. A jar of kimchi
-            costs $5 and lasts two weeks.
-          </p>
-        </div>
-        {/* 5 */}
-        <div>
-          <h3 className="text-lg font-semibold text-stone-800 mb-2">
-            5. Canned Chicken + Lime + Cilantro
-          </h3>
-          <p className="text-sm text-stone-400 mb-2">Add: 1/2 can chicken, lime, cilantro | Cost: ~$1.00 | Total: ~$1.30</p>
-          <p>
-            Drain half a can of chicken and toss it into your ramen. Squeeze in
-            half a lime and throw in some cilantro if you have it (skip it if you
-            don&apos;t, the lime does most of the work). This turns your ramen
-            into something that tastes like a quick chicken pho. The acid from
-            the lime cuts through the sodium and makes the whole thing taste
-            fresh and bright.
-          </p>
-        </div>
-        {/* 6 */}
-        <div>
-          <h3 className="text-lg font-semibold text-stone-800 mb-2">
-            6. Cheese + Black Pepper (Cacio e Pepe Ramen)
-          </h3>
-          <p className="text-sm text-stone-400 mb-2">Add: 2 slices American cheese, black pepper | Cost: ~$0.40 | Total: ~$0.70</p>
-          <p>
-            This is a Korean internet invention and it&apos;s genius. Cook your
-            ramen, drain most of the water, lay two slices of American cheese on
-            top, and microwave for 30 seconds until melted. Crack a bunch of
-            black pepper on top. The cheese melts into a creamy, slightly tangy
-            sauce. It shouldn&apos;t work. It absolutely works. Use American
-            cheese specifically &mdash; it melts smoother than anything else.
-          </p>
-        </div>
-        {/* 7 */}
-        <div>
-          <h3 className="text-lg font-semibold text-stone-800 mb-2">
-            7. Coconut Milk + Curry Paste
-          </h3>
-          <p className="text-sm text-stone-400 mb-2">Add: 1/4 can coconut milk, 1 tsp curry paste | Cost: ~$0.80 | Total: ~$1.10</p>
-          <p>
-            Replace half the water with coconut milk before cooking. Add a
-            teaspoon of red or green curry paste. Cook as normal. You just made
-            coconut curry ramen for a dollar. The coconut milk makes the broth
-            rich and creamy, and the curry paste adds warmth and complexity. A
-            can of coconut milk is $1.50 and gives you 4 servings. Curry paste
-            is $3 and lasts months.
-          </p>
-        </div>
-        {/* 8 */}
-        <div>
-          <h3 className="text-lg font-semibold text-stone-800 mb-2">
-            8. Leftover Rotisserie Chicken + Green Onion
-          </h3>
-          <p className="text-sm text-stone-400 mb-2">Add: shredded chicken, green onion | Cost: ~$0.70 | Total: ~$1.00</p>
-          <p>
-            If you bought a $5 rotisserie chicken from the grocery store (and
-            you should &mdash; it&apos;s the best deal in any supermarket), shred
-            some of it into your ramen. Slice a green onion on top. The pre-cooked
-            chicken adds protein without any extra cooking, and the green onion
-            adds color and a sharp bite that cuts through the richness. A single
-            rotisserie chicken gives you 4-5 ramen servings worth of meat.
-          </p>
-        </div>
-        {/* 9 */}
-        <div>
-          <h3 className="text-lg font-semibold text-stone-800 mb-2">
-            9. Fried Egg + Chili Oil + Everything Bagel Seasoning
-          </h3>
-          <p className="text-sm text-stone-400 mb-2">Add: 1 egg, chili oil, everything seasoning | Cost: ~$0.50 | Total: ~$0.80</p>
-          <p>
-            Fry an egg in a little oil until the edges are crispy and the yolk
-            is still runny. Place it on top of your drained ramen. Drizzle chili
-            oil over everything and hit it with everything bagel seasoning. When
-            you break the yolk, it mixes with the chili oil and noodles and
-            creates the kind of meal that makes you close your eyes while eating.
-            This is the most photogenic upgrade on the list, if you care about
-            that sort of thing.
-          </p>
-        </div>
-        {/* 10 */}
-        <div>
-          <h3 className="text-lg font-semibold text-stone-800 mb-2">
-            10. Miso Paste + Tofu + Corn
-          </h3>
-          <p className="text-sm text-stone-400 mb-2">Add: 1 tbsp miso, tofu cubes, canned corn | Cost: ~$1.00 | Total: ~$1.30</p>
-          <p>
-            Skip the seasoning packet entirely. Instead, stir a tablespoon of
-            miso paste into the hot broth (don&apos;t boil it &mdash; miso
-            loses flavor at high heat, just stir it in after you turn off the
-            heat). Add cubed tofu and a few spoonfuls of canned corn. This is
-            basically miso ramen from scratch. Miso paste is $4 and lasts
-            forever in the fridge. Tofu is $2 for 4 servings. Corn is $0.80
-            a can.
-          </p>
-        </div>
-      </div>
+      <MealCardGrid meals={[
+        { name: "The Egg Drop", mealType: "dinner", prepTime: "5 min · ~$0.60", description: "Crack an egg into boiling ramen and stir slowly. It cooks in ribbons through the broth, adding protein and making the whole thing feel like an actual meal. Highest effort-to-reward ratio in cooking history.", tags: ["budget", "quick"] },
+        { name: "Peanut Butter + Soy Sauce + Sriracha", mealType: "dinner", prepTime: "5 min · ~$0.70", description: "Drain most of the water, stir in peanut butter, soy sauce, and sriracha. You just made budget pad thai. The peanut butter melts into a creamy sauce that coats every noodle. Life changing. Under a dollar.", tags: ["budget", "spicy"] },
+        { name: "Frozen Veggies + Sesame Oil", mealType: "dinner", prepTime: "5 min · ~$0.80", description: "Dump frozen stir-fry vegetables into the pot 2 minutes before the noodles are done. Finish with sesame oil. Technically a balanced meal now. The sesame oil makes the whole bowl smell like a real restaurant.", tags: ["budget", "vegetarian"] },
+        { name: "Kimchi + Soft Boiled Egg", mealType: "dinner", prepTime: "10 min · ~$1.10", description: "Boil an egg for 7 minutes, halve it, place on top of ramen with spoonfuls of kimchi. Fermented, spicy, tangy kimchi + jammy egg yolk = genuinely restaurant-level. A jar of kimchi costs $5 and lasts two weeks.", tags: ["budget", "impressive"] },
+        { name: "Canned Chicken + Lime + Cilantro", mealType: "dinner", prepTime: "5 min · ~$1.30", description: "Toss drained canned chicken into your ramen, squeeze in half a lime, add cilantro. Tastes like a quick chicken pho. The acid from the lime cuts through the sodium and makes everything taste fresh and bright.", tags: ["budget", "quick"] },
+        { name: "Cheese + Black Pepper (Cacio e Pepe Ramen)", mealType: "dinner", prepTime: "5 min · ~$0.70", description: "Korean internet invention. Drain most of the water, lay two slices of American cheese on top, microwave 30 seconds. Crack black pepper on top. It shouldn't work. It absolutely works.", tags: ["budget", "comfort"] },
+        { name: "Coconut Milk + Curry Paste", mealType: "dinner", prepTime: "5 min · ~$1.10", description: "Replace half the water with coconut milk, add a teaspoon of curry paste, cook as normal. Coconut curry ramen for a dollar. Rich, creamy broth with warmth and complexity.", tags: ["budget", "spicy"] },
+        { name: "Leftover Rotisserie Chicken + Green Onion", mealType: "dinner", prepTime: "5 min · ~$1.00", description: "Shred leftover rotisserie chicken into your ramen, slice green onion on top. Pre-cooked protein, zero extra cooking. A single rotisserie chicken gives you 4-5 ramen servings of meat.", tags: ["budget", "quick"] },
+        { name: "Fried Egg + Chili Oil + Everything Bagel Seasoning", mealType: "dinner", prepTime: "8 min · ~$0.80", description: "Fry an egg with crispy edges and runny yolk, place on drained ramen, drizzle chili oil, hit it with everything bagel seasoning. When you break the yolk it mixes with the chili oil and noodles. The most photogenic upgrade on the list.", tags: ["budget", "spicy"] },
+        { name: "Miso Paste + Tofu + Corn", mealType: "dinner", prepTime: "5 min · ~$1.30", description: "Skip the seasoning packet. Stir miso paste into hot broth (after heat is off), add cubed tofu and canned corn. Basically miso ramen from scratch. Miso paste lasts forever in the fridge.", tags: ["budget", "vegetarian"] },
+      ]} />
 
       {/* Mid-article CTA */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">

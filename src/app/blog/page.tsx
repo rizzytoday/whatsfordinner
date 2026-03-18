@@ -25,6 +25,7 @@ type Post = {
 
 type Section = {
   heading: string;
+  emoji: string;
   category: string;
   posts: Post[];
 };
@@ -32,6 +33,7 @@ type Section = {
 const sections: Section[] = [
   {
     heading: "Guides",
+    emoji: "📖",
     category: "Guides",
     posts: [
       {
@@ -39,6 +41,13 @@ const sections: Section[] = [
         title: "Meal Planning for Beginners: The Complete Guide (2026)",
         description:
           "Everything you need to start meal planning — the 5-step method, common mistakes, and when to automate.",
+        category: "Guides",
+      },
+      {
+        slug: "how-to-start-meal-planning",
+        title: "How to Start Meal Planning (Even If You've Failed Before)",
+        description:
+          "Meal planning keeps failing? It's not willpower — it's your system. The simple 5-day method with 10 beginner-friendly meals.",
         category: "Guides",
       },
       {
@@ -111,10 +120,32 @@ const sections: Section[] = [
           "Why a consolidated grocery list is the secret to actually following through on your meal plan.",
         category: "Guides",
       },
+      {
+        slug: "5-ingredient-meals",
+        title: "15 Easy 5-Ingredient Dinners (Under 30 Minutes)",
+        description:
+          "Simple 5-ingredient dinners using pantry staples, fresh basics, and no-cook assembly meals — all under 30 minutes and $4/serving.",
+        category: "Guides",
+      },
+      {
+        slug: "dinner-ideas-tonight",
+        title: "What Should I Make for Dinner? 20 Ideas Based on What You Have",
+        description:
+          "It's 6pm and you're hungry. 20 dinner ideas organized by what's in your fridge — chicken, pasta, eggs, ground beef, or literally nothing. All under 25 minutes.",
+        category: "Guides",
+      },
+      {
+        slug: "healthy-meal-plan-for-the-week",
+        title: "Healthy Meal Plan for the Week: Balanced, Simple, Under 30 Minutes",
+        description:
+          "A complete healthy weekly meal plan with breakfast, lunch, and dinner — all under 30 minutes. Balanced macros, real food, nothing weird.",
+        category: "Guides",
+      },
     ],
   },
   {
     heading: "Alternatives",
+    emoji: "🔄",
     category: "Alternatives",
     posts: [
       {
@@ -233,6 +264,7 @@ const sections: Section[] = [
   },
   {
     heading: "Gen Z & Young Adults",
+    emoji: "⚡",
     category: "Gen Z & Young Adults",
     posts: [
       {
@@ -330,6 +362,7 @@ const sections: Section[] = [
   },
   {
     heading: "VS Comparisons",
+    emoji: "⚖️",
     category: "VS Comparisons",
     posts: [
       {
@@ -378,6 +411,7 @@ const sections: Section[] = [
   },
   {
     heading: "Budget & Meal Prep",
+    emoji: "💰",
     category: "Budget & Meal Prep",
     posts: [
       {
@@ -408,10 +442,39 @@ const sections: Section[] = [
           "Stop deciding what to eat every night. A complete weekly meal plan with recipes and a grocery list — planned in 10 minutes or generated automatically by AI.",
         category: "Budget & Meal Prep",
       },
+      {
+        slug: "30-minute-dinners",
+        title: "20 Easy 30-Minute Dinners (That Don't Taste Like Shortcuts)",
+        description:
+          "Real flavor, real ingredients, legitimately done in half an hour. One-pan meals, pastas, sheet pan dinners, and stir-fries.",
+        category: "Budget & Meal Prep",
+      },
+      {
+        slug: "meal-prep-for-weight-loss",
+        title: "Meal Prep for Weight Loss: 12 Meals Under 500 Calories",
+        description:
+          "The problem isn't willpower — it's 6pm with no plan. 12 calorie-controlled meals plus a Sunday prep system that takes 2 hours.",
+        category: "Budget & Meal Prep",
+      },
+      {
+        slug: "high-protein-meals-on-a-budget",
+        title: "High-Protein Meals on a Budget: 15 Dinners Under $4",
+        description:
+          "You don't need $15 salmon fillets to hit 30g+ protein. 15 budget meals averaging $3/serving and 30g+ protein each.",
+        category: "Budget & Meal Prep",
+      },
+      {
+        slug: "grocery-list-template",
+        title: "The Only Grocery List Template You Need (+ Free Generator)",
+        description:
+          "Most grocery lists are random. This one is organized by store section and matched to actual meals — plus a tool that generates it automatically.",
+        category: "Budget & Meal Prep",
+      },
     ],
   },
   {
     heading: "For Families & Couples",
+    emoji: "👨‍👩‍👧",
     category: "For Families & Couples",
     posts: [
       {
@@ -432,20 +495,28 @@ const sections: Section[] = [
   },
 ];
 
+const CATEGORY_EMOJI: Record<string, string> = {
+  Guides: "📖",
+  Alternatives: "🔄",
+  "Gen Z & Young Adults": "⚡",
+  "VS Comparisons": "⚖️",
+  "Budget & Meal Prep": "💰",
+  "For Families & Couples": "👨‍👩‍👧",
+};
+
 function PostCard({ post }: { post: Post }) {
+  const emoji = CATEGORY_EMOJI[post.category];
   return (
     <Link
       href={`/blog/${post.slug}`}
-      className="bg-white rounded-2xl border border-stone-100 shadow-md hover:shadow-lg transition-shadow duration-200 p-6 flex flex-col gap-3"
+      className="bg-white rounded-xl border border-stone-100 hover:border-orange-200 hover:shadow-sm transition-all duration-200 p-5 flex flex-col gap-2"
     >
-      <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full self-start">
+      <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">
+        {emoji && <span className="mr-0.5 not-italic">{emoji}</span>}
         {post.category}
       </span>
-      <h3 className="text-lg font-semibold text-stone-900">{post.title}</h3>
-      <p className="text-sm text-stone-500 flex-1">{post.description}</p>
-      <span className="text-sm text-orange-500 font-medium">
-        Read more &rarr;
-      </span>
+      <h3 className="text-[15px] font-semibold text-stone-900 leading-snug">{post.title}</h3>
+      <p className="text-sm text-stone-500 flex-1 leading-relaxed">{post.description}</p>
     </Link>
   );
 }
@@ -460,10 +531,10 @@ export default function BlogIndex() {
 
       {sections.map((section) => (
         <section key={section.heading} className="mb-14">
-          <h2 className="text-2xl font-bold text-stone-800 mb-6 pb-2 border-b border-stone-200">
+          <h2 className="text-xl font-bold text-stone-800 mb-5">
             {section.heading}
           </h2>
-          <div className="grid gap-6 sm:grid-cols-2">
+          <div className="grid gap-4 sm:grid-cols-2">
             {section.posts.map((post) => (
               <PostCard key={post.slug} post={post} />
             ))}

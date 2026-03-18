@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
+import { MealCardGrid } from "@/components/blog/MealCard";
 
 export const metadata: Metadata = {
   title: "Cooking for Your Partner: 10 Impressive Meals Anyone Can Make",
@@ -84,7 +85,7 @@ export default function CookingForYourPartnerArticle() {
           { name: "Cooking for Your Partner", url: "https://whatsfordinner.fit/blog/cooking-for-your-partner" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>
@@ -121,180 +122,18 @@ export default function CookingForYourPartnerArticle() {
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
         The 10 Meals
       </h2>
-      <div className="space-y-6 text-stone-600 leading-relaxed">
-
-        <div className="bg-stone-50 rounded-xl p-5">
-          <h3 className="font-semibold text-stone-800 mb-2">1. Lemon Butter Salmon</h3>
-          <p className="mb-2">
-            <strong>Why it&apos;s impressive:</strong> Salmon is universally
-            considered &quot;fancy.&quot; A golden, flaky fillet with a lemon
-            butter sauce looks like something from a nice restaurant. People
-            will literally say &quot;you made this?&quot;
-          </p>
-          <p className="mb-2">
-            <strong>Why it&apos;s actually easy:</strong> Season salmon with
-            salt and pepper. Pan-sear skin-side down for 4 minutes. Flip, add
-            butter, garlic, and lemon juice. Baste for 3 minutes. Done. The
-            pan does all the work.
-          </p>
-          <p className="text-sm text-stone-400">~$12 for two | 15 minutes</p>
-        </div>
-
-        <div className="bg-stone-50 rounded-xl p-5">
-          <h3 className="font-semibold text-stone-800 mb-2">2. Creamy Tuscan Chicken</h3>
-          <p className="mb-2">
-            <strong>Why it&apos;s impressive:</strong> It looks like a
-            restaurant entree &mdash; chicken in a rich, creamy sauce with
-            sun-dried tomatoes and spinach. The colors alone make it look
-            professional.
-          </p>
-          <p className="mb-2">
-            <strong>Why it&apos;s actually easy:</strong> One pan. Sear chicken
-            breasts, remove them, make the sauce in the same pan (cream,
-            garlic, sun-dried tomatoes, spinach, parmesan), put chicken back
-            in. That&apos;s it. Everything cooks in the sauce.
-          </p>
-          <p className="text-sm text-stone-400">~$11 for two | 25 minutes</p>
-        </div>
-
-        <div className="bg-stone-50 rounded-xl p-5">
-          <h3 className="font-semibold text-stone-800 mb-2">3. Pasta Aglio e Olio</h3>
-          <p className="mb-2">
-            <strong>Why it&apos;s impressive:</strong> It sounds Italian because
-            it IS Italian. Say &quot;I made aglio e olio&quot; and people think
-            you studied abroad in Rome. In reality, the name just means
-            &quot;garlic and oil.&quot;
-          </p>
-          <p className="mb-2">
-            <strong>Why it&apos;s actually easy:</strong> Five ingredients:
-            spaghetti, garlic (lots of it), olive oil, red pepper flakes,
-            parsley. Cook pasta. Toast garlic in olive oil. Toss together
-            with pasta water. The starchy water creates a silky sauce
-            without any actual sauce-making.
-          </p>
-          <p className="text-sm text-stone-400">~$5 for two | 20 minutes</p>
-        </div>
-
-        <div className="bg-stone-50 rounded-xl p-5">
-          <h3 className="font-semibold text-stone-800 mb-2">4. Steak with Garlic Butter</h3>
-          <p className="mb-2">
-            <strong>Why it&apos;s impressive:</strong> Steak dinner at home is
-            an instant power move. Add a compound garlic-herb butter melting
-            on top and it looks like a steakhouse plate.
-          </p>
-          <p className="mb-2">
-            <strong>Why it&apos;s actually easy:</strong> Get a cast iron
-            screaming hot. Salt the steak 30 minutes before. Sear 4 minutes
-            per side. Rest for 5 minutes with a pat of garlic butter on top.
-            The resting is the hardest part (because you have to wait). Pair
-            with a simple salad or roasted potatoes.
-          </p>
-          <p className="text-sm text-stone-400">~$14 for two | 20 minutes (plus 30 min salting)</p>
-        </div>
-
-        <div className="bg-stone-50 rounded-xl p-5">
-          <h3 className="font-semibold text-stone-800 mb-2">5. Shrimp Scampi</h3>
-          <p className="mb-2">
-            <strong>Why it&apos;s impressive:</strong> Shrimp automatically
-            feels upscale. Tossed with pasta in a garlicky white wine butter
-            sauce? That&apos;s a $28 restaurant dish right there.
-          </p>
-          <p className="mb-2">
-            <strong>Why it&apos;s actually easy:</strong> Shrimp cooks in
-            literally 3 minutes. Saute garlic in butter, add white wine (or
-            chicken broth), toss in shrimp, cook until pink, add cooked
-            linguine. Squeeze lemon on top. The whole thing takes 15 minutes
-            and the wow factor is enormous.
-          </p>
-          <p className="text-sm text-stone-400">~$13 for two | 15 minutes</p>
-        </div>
-
-        <div className="bg-stone-50 rounded-xl p-5">
-          <h3 className="font-semibold text-stone-800 mb-2">6. Chicken Piccata</h3>
-          <p className="mb-2">
-            <strong>Why it&apos;s impressive:</strong> It has a French-sounding
-            name and a glossy lemon-caper sauce. It looks like something a
-            trained chef would plate.
-          </p>
-          <p className="mb-2">
-            <strong>Why it&apos;s actually easy:</strong> Pound chicken thin
-            (or butterfly it), dust with flour, pan-fry 3 minutes per side.
-            Make sauce in the same pan: butter, lemon juice, capers, a splash
-            of chicken broth. Pour over chicken. Five minutes of sauce work.
-          </p>
-          <p className="text-sm text-stone-400">~$10 for two | 25 minutes</p>
-        </div>
-
-        <div className="bg-stone-50 rounded-xl p-5">
-          <h3 className="font-semibold text-stone-800 mb-2">7. Mushroom Risotto</h3>
-          <p className="mb-2">
-            <strong>Why it&apos;s impressive:</strong> Risotto has a reputation
-            as the ultimate &quot;I know what I&apos;m doing in the
-            kitchen&quot; dish. Creamy, rich, luxurious. Gordon Ramsay tests
-            chefs on it.
-          </p>
-          <p className="mb-2">
-            <strong>Why it&apos;s actually easy:</strong> The technique is just
-            &quot;stir and add broth gradually.&quot; That&apos;s it. Saute
-            mushrooms, toast arborio rice, add warm broth one ladle at a time
-            while stirring. Finish with butter and parmesan. It takes 30
-            minutes of stirring but zero actual skill.
-          </p>
-          <p className="text-sm text-stone-400">~$9 for two | 30 minutes</p>
-        </div>
-
-        <div className="bg-stone-50 rounded-xl p-5">
-          <h3 className="font-semibold text-stone-800 mb-2">8. Honey Garlic Glazed Pork Chops</h3>
-          <p className="mb-2">
-            <strong>Why it&apos;s impressive:</strong> The glaze looks like
-            you caramelized something complicated. The shine on the pork chops
-            is genuinely photogenic. It&apos;s a dish that looks better in
-            person than in a recipe photo.
-          </p>
-          <p className="mb-2">
-            <strong>Why it&apos;s actually easy:</strong> Sear pork chops 4
-            minutes per side. Remove. In the same pan: honey, soy sauce,
-            garlic, a splash of vinegar. Let it bubble for 2 minutes. Pour
-            over chops. The glaze makes itself.
-          </p>
-          <p className="text-sm text-stone-400">~$8 for two | 20 minutes</p>
-        </div>
-
-        <div className="bg-stone-50 rounded-xl p-5">
-          <h3 className="font-semibold text-stone-800 mb-2">9. Caprese Stuffed Chicken</h3>
-          <p className="mb-2">
-            <strong>Why it&apos;s impressive:</strong> When you slice it open,
-            mozzarella oozes out with basil and tomato. It&apos;s a
-            presentation moment. It looks like you have technique.
-          </p>
-          <p className="mb-2">
-            <strong>Why it&apos;s actually easy:</strong> Cut a pocket in
-            chicken breast. Stuff with mozzarella, basil leaves, and sliced
-            tomato. Secure with a toothpick. Bake at 400&deg;F for 20
-            minutes. The &quot;stuffing&quot; is just putting things inside
-            other things.
-          </p>
-          <p className="text-sm text-stone-400">~$10 for two | 30 minutes</p>
-        </div>
-
-        <div className="bg-stone-50 rounded-xl p-5">
-          <h3 className="font-semibold text-stone-800 mb-2">10. One-Pot Creamy Tomato Pasta</h3>
-          <p className="mb-2">
-            <strong>Why it&apos;s impressive:</strong> Rich, creamy, vibrant
-            red &mdash; it looks like a pasta dish from a trattoria. The color
-            alone sells it.
-          </p>
-          <p className="mb-2">
-            <strong>Why it&apos;s actually easy:</strong> Everything goes in
-            one pot. Saute garlic, add crushed tomatoes, cream, dried basil,
-            and pasta. Cook with the lid on until the pasta absorbs the sauce.
-            Literally one pot, one burner, zero mess. Top with fresh basil
-            and parmesan.
-          </p>
-          <p className="text-sm text-stone-400">~$7 for two | 25 minutes</p>
-        </div>
-
-      </div>
+      <MealCardGrid meals={[
+        { name: "Lemon Butter Salmon", mealType: "dinner", prepTime: "15 min · ~$12", description: "Pan-sear skin-side down 4 minutes, flip, baste with butter, garlic, and lemon juice for 3 minutes. Golden, flaky, and looks like a restaurant plate. People will literally say \"you made this?\"", tags: ["date-night", "quick"] },
+        { name: "Creamy Tuscan Chicken", mealType: "dinner", prepTime: "25 min · ~$11", description: "One pan. Sear chicken breasts, make the sauce (cream, garlic, sun-dried tomatoes, spinach, parmesan) in the same pan, nestle chicken back in. Looks like a $30 entree.", tags: ["one-pan", "impressive"] },
+        { name: "Pasta Aglio e Olio", mealType: "dinner", prepTime: "20 min · ~$5", description: "Five ingredients: spaghetti, garlic, olive oil, red pepper flakes, parsley. Toast garlic in oil, toss with pasta and starchy water for a silky sauce. Sounds Italian because it IS Italian.", tags: ["budget", "vegetarian"] },
+        { name: "Steak with Garlic Butter", mealType: "dinner", prepTime: "20 min · ~$14", description: "Cast iron screaming hot, sear 4 minutes per side, rest with a pat of garlic-herb butter melting on top. Steakhouse vibes at home. The resting is the hardest part (because you have to wait).", tags: ["date-night", "impressive"] },
+        { name: "Shrimp Scampi", mealType: "dinner", prepTime: "15 min · ~$13", description: "Shrimp cooks in 3 minutes. Saute garlic in butter, add white wine, toss in shrimp until pink, add linguine and lemon. A $28 restaurant dish for under $15.", tags: ["quick", "date-night"] },
+        { name: "Chicken Piccata", mealType: "dinner", prepTime: "25 min · ~$10", description: "Pound chicken thin, dust with flour, pan-fry 3 minutes per side. Make the glossy lemon-caper sauce in the same pan. It has a French-sounding name and looks like a trained chef plated it.", tags: ["one-pan", "impressive"] },
+        { name: "Mushroom Risotto", mealType: "dinner", prepTime: "30 min · ~$9", description: "Saute mushrooms, toast arborio rice, add warm broth one ladle at a time while stirring. Finish with butter and parmesan. 30 minutes of stirring but zero actual skill. Gordon Ramsay tests chefs on this.", tags: ["vegetarian", "comfort"] },
+        { name: "Honey Garlic Glazed Pork Chops", mealType: "dinner", prepTime: "20 min · ~$8", description: "Sear pork chops, then make the glaze in the same pan: honey, soy sauce, garlic, a splash of vinegar. Let it bubble 2 minutes and pour over chops. The glaze makes itself.", tags: ["budget", "one-pan"] },
+        { name: "Caprese Stuffed Chicken", mealType: "dinner", prepTime: "30 min · ~$10", description: "Cut a pocket in chicken breast, stuff with mozzarella, basil, and sliced tomato, bake at 400\u00B0F for 20 minutes. When you slice it open, cheese oozes out. A presentation moment.", tags: ["impressive", "date-night"] },
+        { name: "One-Pot Creamy Tomato Pasta", mealType: "dinner", prepTime: "25 min · ~$7", description: "Everything goes in one pot: garlic, crushed tomatoes, cream, dried basil, and pasta. Cook with the lid on until the pasta absorbs the sauce. One pot, one burner, zero mess.", tags: ["one-pot", "budget"] },
+      ]} />
 
       {/* Restaurant techniques */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">

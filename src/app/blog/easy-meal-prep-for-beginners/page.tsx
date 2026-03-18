@@ -84,7 +84,7 @@ export default function EasyMealPrepForBeginnersArticle() {
           { name: "Easy Meal Prep for Beginners", url: "https://whatsfordinner.fit/blog/easy-meal-prep-for-beginners" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>

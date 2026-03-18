@@ -82,7 +82,7 @@ export default function BestMealDeliveryAlternativesPage() {
           { name: "7 Best Meal Delivery Alternatives in 2026", url: "https://whatsfordinner.fit/blog/best-meal-delivery-alternatives" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Roundup
       </span>

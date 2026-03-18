@@ -84,7 +84,7 @@ export default function MealPlanningAfterMovingOutArticle() {
           { name: "Meal Planning After Moving Out", url: "https://whatsfordinner.fit/blog/meal-planning-after-moving-out" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>

@@ -42,7 +42,7 @@ export default function BudgetBytesAlternativePage() {
           { name: "The Best Budget Bytes Alternative in 2026", url: "https://whatsfordinner.fit/blog/budget-bytes-alternative" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Alternatives
       </span>

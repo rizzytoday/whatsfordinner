@@ -4,23 +4,42 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
   return (
     <div className="min-h-screen bg-[#FFFBF5]">
       {/* Header */}
-      <nav className="max-w-3xl mx-auto px-6 py-6 flex items-center justify-between">
-        <Link
-          href="/"
-          className="text-sm font-semibold text-stone-800 hover:text-orange-600 transition-colors"
-        >
-          What&apos;s For Dinner
-        </Link>
+      <nav className="max-w-3xl mx-auto px-6 py-5 flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <Link
+            href="/"
+            className="text-sm font-semibold text-stone-800 hover:text-orange-600 transition-colors"
+          >
+            What&apos;s For Dinner
+          </Link>
+          <span className="text-stone-300">/</span>
+          <Link
+            href="/blog"
+            className="text-sm text-stone-400 hover:text-orange-500 transition-colors"
+          >
+            Blog
+          </Link>
+        </div>
         <Link
           href="/onboarding"
-          className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors"
+          className="hidden sm:inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors"
         >
           Try Free
         </Link>
       </nav>
 
       {/* Content */}
-      <main className="max-w-3xl mx-auto px-6 pb-20">{children}</main>
+      <main className="max-w-2xl mx-auto px-6 pb-28 sm:pb-20">{children}</main>
+
+      {/* Sticky mobile CTA */}
+      <div className="blog-sticky-cta">
+        <Link
+          href="/onboarding"
+          className="flex items-center justify-center w-full py-3 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors shadow-md"
+        >
+          Get your free meal plan
+        </Link>
+      </div>
 
       {/* Footer */}
       <footer className="border-t border-stone-100 py-12">

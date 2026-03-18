@@ -90,7 +90,7 @@ export default function BestMealPlanningAppsPage() {
           { name: "10 Best Meal Planning Apps in 2026", url: "https://whatsfordinner.fit/blog/best-meal-planning-apps" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Roundup
       </span>
@@ -126,6 +126,17 @@ export default function BestMealPlanningAppsPage() {
         </p>
       </div>
 
+      {/* --- TL;DR --- */}
+      <div className="bg-stone-50 rounded-xl p-5 my-8">
+        <p className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-2">TL;DR</p>
+        <ul className="space-y-1 text-sm text-stone-600">
+          <li>What&apos;s For Dinner wins for AI-powered weekly meal plans + grocery list ($7.99/mo)</li>
+          <li>Mealime is the best free option, but limited</li>
+          <li>Meal kits (HelloFresh, Factor) cost 10&ndash;20x more per serving</li>
+          <li>Most &ldquo;meal planning&rdquo; apps are really just recipe managers</li>
+        </ul>
+      </div>
+
       {/* --- How we ranked --- */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
         How we ranked these apps
@@ -148,7 +159,10 @@ export default function BestMealPlanningAppsPage() {
           </li>
           <li>
             <strong>Dietary support</strong> &mdash; How well does it handle
-            restrictions like keto, vegan, low-FODMAP, or custom diets?
+            restrictions like{" "}
+            <Link href="/meal-plans/keto" className="text-orange-500 underline">keto</Link>,{" "}
+            <Link href="/meal-plans/vegan" className="text-orange-500 underline">vegan</Link>,
+            low-FODMAP, or custom diets?
           </li>
           <li>
             <strong>Automation</strong> &mdash; Does it do the work for you, or
@@ -265,7 +279,7 @@ export default function BestMealPlanningAppsPage() {
 
       {/* --- #1 What's For Dinner --- */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
-        1. What&apos;s For Dinner &mdash; Best overall
+        🏆 1. What&apos;s For Dinner &mdash; Best overall
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
@@ -281,8 +295,11 @@ export default function BestMealPlanningAppsPage() {
           intelligence. The AI doesn&apos;t pull from a fixed recipe database.
           It generates original meal plans tailored to your exact constraints,
           every single week, without repeating itself. If you tell it you&apos;re
-          pescatarian, hate cilantro, feed a family of four on a budget, and
-          prefer Mediterranean and Japanese food &mdash; that&apos;s exactly
+          pescatarian, hate cilantro, feed a{" "}
+          <Link href="/meal-plans/meal-plan-for-family-of-4" className="text-orange-500 underline">family of four</Link>{" "}
+          on a{" "}
+          <Link href="/meal-plans/meal-plan-on-a-budget" className="text-orange-500 underline">budget</Link>,
+          and prefer Mediterranean and Japanese food &mdash; that&apos;s exactly
           what you get.
         </p>
         <p>
@@ -317,9 +334,15 @@ export default function BestMealPlanningAppsPage() {
         </Link>
       </div>
 
+      {/* --- Winner callout --- */}
+      <div className="bg-green-50 border border-green-100 rounded-xl p-4 my-6">
+        <p className="text-sm font-semibold text-green-700">Our pick: What&apos;s For Dinner</p>
+        <p className="text-sm text-green-600 mt-1">The only app that generates original weekly meal plans from scratch &mdash; personalized to your diet, budget, and household size. $7.99/mo with a free trial.</p>
+      </div>
+
       {/* --- #2 Mealime --- */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
-        2. Mealime &mdash; Best free option
+        🆓 2. Mealime &mdash; Best free option
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
@@ -334,7 +357,9 @@ export default function BestMealPlanningAppsPage() {
           The problem is variety. Mealime&apos;s recipe library hasn&apos;t
           grown much in recent years, and free users hit the repetition wall
           fast. After a few weeks, you&apos;re cycling through the same
-          meals. The Pro version ($5.99/mo) unlocks more recipes and
+          meals &mdash; especially if you follow a{" "}
+          <Link href="/meal-plans/vegetarian" className="text-orange-500 underline">vegetarian meal plan</Link>{" "}
+          where the options thin out quickly. The Pro version ($5.99/mo) unlocks more recipes and
           nutritional info, but the core issue remains: you&apos;re still
           picking meals manually from a static database.
         </p>
@@ -371,7 +396,7 @@ export default function BestMealPlanningAppsPage() {
 
       {/* --- #3 Eat This Much --- */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
-        3. Eat This Much &mdash; Best for calorie counters
+        📊 3. Eat This Much &mdash; Best for calorie counters
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
@@ -605,9 +630,15 @@ export default function BestMealPlanningAppsPage() {
         </Link>
       </div>
 
+      {/* --- Pro tip callout --- */}
+      <div className="bg-amber-50 border border-amber-100 rounded-xl p-4 my-6">
+        <p className="text-sm font-semibold text-amber-800">Don&apos;t confuse recipe managers with meal planners</p>
+        <p className="text-sm text-amber-700 mt-1">Apps like Paprika, Plan to Eat, and Prepear help you organize recipes you&apos;ve already found. They won&apos;t plan your week, generate new meals, or build a grocery list automatically. If you want hands-off weekly planning, you need an AI planner.</p>
+      </div>
+
       {/* --- #8 Budget Bytes --- */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
-        8. Budget Bytes &mdash; Best budget content
+        💰 8. Budget Bytes &mdash; Best budget content
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
@@ -702,7 +733,7 @@ export default function BestMealPlanningAppsPage() {
 
       {/* --- #10 HelloFresh --- */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
-        10. HelloFresh &mdash; Most convenient (but expensive)
+        📦 10. HelloFresh &mdash; Most convenient (but expensive)
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
@@ -807,6 +838,12 @@ export default function BestMealPlanningAppsPage() {
         </p>
       </div>
 
+      {/* --- Key stat callout --- */}
+      <div className="bg-orange-50 border-l-4 border-orange-400 rounded-r-xl p-4 my-6">
+        <p className="text-2xl font-bold text-stone-800">$2&ndash;3/serving vs $8&ndash;12/serving</p>
+        <p className="text-sm text-stone-500 mt-1">AI meal planning apps help you cook restaurant-quality meals at grocery store prices. Meal kits charge a 5x markup for pre-portioned ingredients.</p>
+      </div>
+
       {/* --- Bottom CTA --- */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">
         <p className="text-lg font-semibold text-stone-800 mb-2">
@@ -851,6 +888,20 @@ export default function BestMealPlanningAppsPage() {
             <Link href="/blog/best-meal-kit-alternatives" className="text-orange-500 hover:text-orange-600 underline">5 Cheap Alternatives to Meal Kits in 2026</Link>
             {" "}&mdash; all the budget-friendly options compared.
           </p>
+        </div>
+      </div>
+
+      {/* --- Browse meal plans --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Browse meal plans
+        </h2>
+        <div className="flex flex-wrap gap-2">
+          <Link href="/meal-plans/keto" className="inline-block px-4 py-2 bg-orange-50 text-orange-600 text-sm font-medium rounded-full hover:bg-orange-100 transition-colors duration-200">Keto</Link>
+          <Link href="/meal-plans/vegetarian" className="inline-block px-4 py-2 bg-orange-50 text-orange-600 text-sm font-medium rounded-full hover:bg-orange-100 transition-colors duration-200">Vegetarian</Link>
+          <Link href="/meal-plans/meal-plan-on-a-budget" className="inline-block px-4 py-2 bg-orange-50 text-orange-600 text-sm font-medium rounded-full hover:bg-orange-100 transition-colors duration-200">Budget-Friendly</Link>
+          <Link href="/meal-plans/meal-plan-for-family-of-4" className="inline-block px-4 py-2 bg-orange-50 text-orange-600 text-sm font-medium rounded-full hover:bg-orange-100 transition-colors duration-200">Family of 4</Link>
+          <Link href="/meal-plans/high-protein-meal-plan" className="inline-block px-4 py-2 bg-orange-50 text-orange-600 text-sm font-medium rounded-full hover:bg-orange-100 transition-colors duration-200">High Protein</Link>
         </div>
       </div>
 

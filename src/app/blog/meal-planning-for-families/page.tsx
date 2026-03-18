@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
+import { MealCardGrid, WeekPreviewCTA } from "@/components/blog/MealCard";
 
 export const metadata: Metadata = {
   title: "Meal Planning for Families: Feed a Family of 4 for Under $100/Week",
@@ -84,7 +85,7 @@ export default function MealPlanningForFamiliesArticle() {
           { name: "Meal Planning for Families (2026)", url: "https://whatsfordinner.fit/blog/meal-planning-for-families" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>
@@ -111,6 +112,17 @@ export default function MealPlanningForFamiliesArticle() {
           whole family will actually eat, keep your grocery bill under $100 a
           week, and get dinner on the table in 30 minutes on a Tuesday night.
         </p>
+      </div>
+
+      {/* TL;DR */}
+      <div className="bg-stone-50 rounded-xl p-5 my-8">
+        <p className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-2">TL;DR</p>
+        <ul className="space-y-1 text-sm text-stone-600">
+          <li>Feed a family of 4 for $75&ndash;100/week with planned meals</li>
+          <li>Every dinner in 30 minutes or less</li>
+          <li>Picky eaters? Build-your-own meal nights solve it</li>
+          <li>AI generates the plan + recipes + grocery list automatically</li>
+        </ul>
       </div>
 
       {/* Why family meal planning is different */}
@@ -156,15 +168,28 @@ export default function MealPlanningForFamiliesArticle() {
         </ul>
         <p>
           The point is: individual meal planning advice doesn&apos;t translate
-          to families. You need a system designed for the chaos of feeding
-          multiple people with different preferences, on different schedules,
-          without losing your mind or your budget.
+          to families. If you&apos;re brand new to this, our{" "}
+          <Link
+            href="/meal-plans/meal-plan-for-beginners"
+            className="text-orange-500 underline"
+          >
+            beginner meal plan guide
+          </Link>{" "}
+          covers the fundamentals &mdash; but families need a system designed
+          for the chaos of feeding multiple people with different preferences,
+          on different schedules, without losing your mind or your budget.
         </p>
+
+        {/* Stat callout */}
+        <div className="bg-orange-50 border-l-4 border-orange-400 rounded-r-xl p-4 my-6">
+          <p className="text-2xl font-bold text-stone-800">$100/week for a family of 4</p>
+          <p className="text-sm text-stone-500 mt-1">Balanced meals, one grocery trip, dinner on the table in 30 minutes. That&apos;s what a meal plan does.</p>
+        </div>
       </div>
 
       {/* Sample family meal plan */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
-        A Sample Family Meal Plan (Family of 4)
+        🍽️ A Sample Family Meal Plan (Family of 4)
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
@@ -173,54 +198,47 @@ export default function MealPlanningForFamiliesArticle() {
           Everything on this plan can be made by a normal person with a normal
           kitchen. Estimated weekly grocery cost: <strong>$85&ndash;100</strong>.
         </p>
-        <div className="overflow-x-auto my-4">
-          <table className="w-full text-sm text-left border border-stone-200 rounded-xl overflow-hidden">
-            <thead className="bg-stone-50">
-              <tr>
-                <th className="px-4 py-3 font-semibold text-stone-700">Day</th>
-                <th className="px-4 py-3 font-semibold text-stone-700">Dinner</th>
-                <th className="px-4 py-3 font-semibold text-stone-700">Notes</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-stone-100">
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Monday</td>
-                <td className="px-4 py-3">Sheet pan chicken thighs with roasted potatoes and green beans</td>
-                <td className="px-4 py-3 text-stone-400">Cook extra chicken for Wednesday</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Tuesday</td>
-                <td className="px-4 py-3">Beef taco bar with toppings (cheese, salsa, sour cream, lettuce)</td>
-                <td className="px-4 py-3 text-stone-400">Kids build their own &mdash; everyone&apos;s happy</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Wednesday</td>
-                <td className="px-4 py-3">Chicken quesadillas with leftover chicken, side of rice and beans</td>
-                <td className="px-4 py-3 text-stone-400">Uses Monday&apos;s chicken &mdash; 20 min meal</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Thursday</td>
-                <td className="px-4 py-3">One-pot pasta with ground turkey, spinach, and marinara</td>
-                <td className="px-4 py-3 text-stone-400">One pot = one dish to wash</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Friday</td>
-                <td className="px-4 py-3">Homemade pizza night with store-bought dough</td>
-                <td className="px-4 py-3 text-stone-400">Kids pick their own toppings</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Saturday</td>
-                <td className="px-4 py-3">Slow cooker pulled pork with coleslaw and cornbread</td>
-                <td className="px-4 py-3 text-stone-400">Set it in the morning, eat at dinner</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Sunday</td>
-                <td className="px-4 py-3">Leftover pulled pork sandwiches + soup from whatever&apos;s left</td>
-                <td className="px-4 py-3 text-stone-400">Fridge clean-out night</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <WeekPreviewCTA
+          days={[
+            { day: "Monday", meals: [
+              { mealType: "breakfast", name: "Scrambled Eggs with Toast", prepTime: "10 min", calories: "$1.50" },
+              { mealType: "lunch", name: "Turkey & Cheese Sandwiches", prepTime: "5 min", calories: "$2.00" },
+              { mealType: "dinner", name: "Sheet Pan Chicken Thighs with Potatoes & Green Beans", prepTime: "35 min", calories: "$3.50" },
+            ]},
+            { day: "Tuesday", meals: [
+              { mealType: "breakfast", name: "Overnight Oats with Banana", prepTime: "5 min", calories: "$1.00" },
+              { mealType: "lunch", name: "PB&J with Apple Slices", prepTime: "5 min", calories: "$1.50" },
+              { mealType: "dinner", name: "Beef Taco Bar with All the Toppings", prepTime: "25 min", calories: "$4.00" },
+            ]},
+            { day: "Wednesday", meals: [
+              { mealType: "breakfast", name: "Yogurt with Granola & Fruit", prepTime: "5 min", calories: "$1.50" },
+              { mealType: "lunch", name: "Leftover Chicken Quesadillas", prepTime: "10 min", calories: "$1.00" },
+              { mealType: "dinner", name: "Chicken Quesadillas with Rice & Beans", prepTime: "20 min", calories: "$2.50" },
+            ]},
+            { day: "Thursday", meals: [
+              { mealType: "breakfast", name: "Cereal with Milk & Berries", prepTime: "5 min", calories: "$1.00" },
+              { mealType: "lunch", name: "Pasta Salad (Prepped Sunday)", prepTime: "5 min", calories: "$1.50" },
+              { mealType: "dinner", name: "One-Pot Pasta with Turkey, Spinach & Marinara", prepTime: "25 min", calories: "$3.00" },
+            ]},
+          ]}
+          groceryItems={[
+            "Chicken thighs (3 lbs)",
+            "Ground beef (2 lbs)",
+            "Ground turkey (1 lb)",
+            "Tortillas (flour, 16-pack)",
+            "Spaghetti (1 lb)",
+            "Rice (2 lbs)",
+            "Canned black beans (2)",
+            "Marinara sauce (24 oz)",
+            "Shredded cheese (16 oz)",
+            "Eggs (1 dozen)",
+            "Bread (1 loaf)",
+            "Baby spinach (5 oz)",
+            "Potatoes (3 lbs)",
+            "Green beans (1 lb)",
+            "Bananas & apples",
+          ]}
+        />
         <p>
           <strong>Breakfasts (rotate through the week):</strong> Scrambled eggs
           with toast, overnight oats, yogurt with granola and fruit, cereal.
@@ -243,7 +261,7 @@ export default function MealPlanningForFamiliesArticle() {
 
       {/* The 30-minute rule */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
-        The 30-Minute Rule
+        ⏱️ The 30-Minute Rule
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
@@ -257,30 +275,11 @@ export default function MealPlanningForFamiliesArticle() {
           right meals for the right days. Here are three family dinners that
           clock in under 30 minutes:
         </p>
-        <ol className="list-decimal list-inside space-y-4 pl-1">
-          <li>
-            <strong>Stir-fried rice with eggs and frozen vegetables (15 minutes).</strong>{" "}
-            Heat oil, scramble eggs, toss in frozen stir-fry vegetables, add
-            leftover rice (or microwave instant rice), soy sauce, done. Kids
-            love it because it&apos;s mild. Adults love it because it&apos;s
-            fast. Cost: about $4 for a family of four.
-          </li>
-          <li>
-            <strong>Black bean quesadillas with avocado (20 minutes).</strong>{" "}
-            Tortillas, canned black beans, shredded cheese, whatever vegetables
-            you have. Press in a pan until crispy, slice into triangles, serve
-            with sliced avocado and salsa. Even the pickiest kid will eat a
-            cheese quesadilla.
-          </li>
-          <li>
-            <strong>Spaghetti with meat sauce (25 minutes).</strong>{" "}
-            Brown ground beef or turkey while the pasta boils. Add jarred
-            marinara (no shame in jarred sauce &mdash; it&apos;s there for
-            exactly this reason). Toss with pasta, grate some parmesan on top.
-            Side salad if you&apos;re feeling ambitious. Classic, fast,
-            universally accepted.
-          </li>
-        </ol>
+        <MealCardGrid meals={[
+          { name: "Stir-Fried Rice with Eggs & Frozen Veggies", mealType: "dinner", prepTime: "15 min · ~$4", description: "Scramble eggs, toss in frozen stir-fry vegetables and leftover rice, hit it with soy sauce. Kids love it because it's mild. Adults love it because it's fast.", tags: ["quick", "kid-friendly"] },
+          { name: "Black Bean Quesadillas with Avocado", mealType: "dinner", prepTime: "20 min · ~$5", description: "Tortillas, canned black beans, shredded cheese, whatever veggies you have. Press in a pan until crispy, serve with avocado and salsa. Even the pickiest kid will eat a cheese quesadilla.", tags: ["budget", "vegetarian"] },
+          { name: "Spaghetti with Meat Sauce", mealType: "dinner", prepTime: "25 min · ~$6", description: "Brown ground beef or turkey while the pasta boils. Add jarred marinara, toss with pasta, grate parmesan on top. Classic, fast, universally accepted.", tags: ["family-favorite", "one-pot"] },
+        ]} />
         <p>
           The 30-minute rule also means you need to think about prep time when
           you&apos;re choosing recipes. A recipe with 10 ingredients that all
@@ -347,6 +346,12 @@ export default function MealPlanningForFamiliesArticle() {
             broccoli mysteriously becomes acceptable.
           </li>
         </ul>
+
+        {/* Pro tip callout */}
+        <div className="bg-amber-50 border border-amber-100 rounded-xl p-4 my-6">
+          <p className="text-sm font-semibold text-amber-800">The taco night trick</p>
+          <p className="text-sm text-amber-700 mt-1">Build-your-own nights (tacos, bowls, wraps) let everyone customize their plate. Same ingredients, zero complaints. Schedule one per week.</p>
+        </div>
       </div>
 
       {/* Mid-article CTA */}
@@ -369,7 +374,7 @@ export default function MealPlanningForFamiliesArticle() {
 
       {/* The family grocery list */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
-        The Family Grocery List
+        🛒 The Family Grocery List
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
@@ -377,6 +382,13 @@ export default function MealPlanningForFamiliesArticle() {
           list is where the real savings happen &mdash; it&apos;s the difference
           between a focused $90 shop and a wandering $180 one.
         </p>
+
+        {/* Quick stat */}
+        <div className="bg-orange-50 border-l-4 border-orange-400 rounded-r-xl p-4 my-6">
+          <p className="text-2xl font-bold text-stone-800">1 trip. 1 list. 7 dinners.</p>
+          <p className="text-sm text-stone-500 mt-1">A consolidated grocery list means no mid-week panic runs. Everything you need for the week, bought once.</p>
+        </div>
+
         <p>
           When you plan your meals for the week, write a{" "}
           <Link
@@ -390,7 +402,14 @@ export default function MealPlanningForFamiliesArticle() {
           This eliminates duplicate buying and makes your shopping trip faster.
         </p>
         <p>
-          Budget tips that actually move the needle for families:
+          Budget tips that actually move the needle for families (see our full{" "}
+          <Link
+            href="/meal-plans/meal-plan-on-a-budget"
+            className="text-orange-500 underline"
+          >
+            budget meal plan
+          </Link>{" "}
+          for more):
         </p>
         <ul className="list-disc list-inside space-y-2 pl-1">
           <li>

@@ -84,10 +84,11 @@ export default function FactorAlternativePage() {
           { name: "Best Factor Alternative 2026", url: "https://whatsfordinner.fit/blog/factor-alternative" },
         ]}
       />
-      <article>
-      <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
+      <article className="blog-article">
+      <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-2">
         Alternatives
       </span>
+      <p className="text-xs text-stone-400">Updated March 2026</p>
       <p className="text-sm text-stone-400 mb-8">March 13, 2026</p>
 
       <h1 className="text-3xl font-bold text-stone-900 mb-4 mt-8">
@@ -112,6 +113,15 @@ export default function FactorAlternativePage() {
         </p>
       </div>
 
+      <div className="bg-stone-50 rounded-xl p-5 my-8">
+        <p className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-2">TL;DR</p>
+        <ul className="space-y-1 text-sm text-stone-600">
+          <li>Factor costs $520–620/month for one person (just dinners)</li>
+          <li>What&apos;s For Dinner: $7.99/mo for all meals + recipes + grocery list</li>
+          <li>You cook 20–30 min/meal but save $200–500/month</li>
+        </ul>
+      </div>
+
       {/* --- Why people are leaving Factor --- */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
         Why people are leaving Factor
@@ -125,11 +135,19 @@ export default function FactorAlternativePage() {
           $1,000/month on half their meals. That&apos;s car payment territory
           for reheated containers.
         </p>
+        <div className="bg-orange-50 border-l-4 border-orange-400 rounded-r-xl p-4 my-6">
+          <p className="text-2xl font-bold text-stone-800">$620/mo for reheated containers</p>
+          <p className="text-sm text-stone-500 mt-1">Factor&apos;s 12 meals/week only covers half your dinners. Breakfast, lunch, and snacks are extra.</p>
+        </div>
         <p>
           <strong>Limited personalization.</strong> Factor offers keto, protein
           plus, vegan, and a few other tracks — but you&apos;re choosing from
           their rotating menu of 30&ndash;35 options. If you have specific
-          cultural preferences, allergies beyond the basics, or just get tired
+          cultural preferences — like a full{" "}
+          <Link href="/meal-plans/mediterranean" className="text-orange-500 underline">Mediterranean meal plan</Link>
+          {" "}or{" "}
+          <Link href="/meal-plans/italian" className="text-orange-500 underline">Italian meal plan</Link>
+          {" "}— allergies beyond the basics, or just get tired
           of the same flavor profiles, you&apos;re stuck. The menu decides what
           you eat, not the other way around.
         </p>
@@ -147,6 +165,10 @@ export default function FactorAlternativePage() {
           can&apos;t cook a weeknight meal. Cancel, and you&apos;re right back
           to square one.
         </p>
+        <div className="bg-amber-50 border border-amber-100 rounded-xl p-4 my-6">
+          <p className="text-sm font-semibold text-amber-800">The real cost of Factor</p>
+          <p className="text-sm text-amber-700 mt-1">After 6 months on Factor, you&apos;ve spent $3,000+ and still can&apos;t cook a weeknight dinner. Cancel, and you&apos;re back to square one — except now you&apos;re $3,000 lighter.</p>
+        </div>
       </div>
 
       {/* --- WFD as the alternative --- */}
@@ -239,14 +261,29 @@ export default function FactorAlternativePage() {
 
       {/* --- Side-by-side comparison --- */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
-        Side-by-side comparison
+        &#x2696;&#xFE0F; Side-by-side comparison
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
           <strong>Price:</strong> Factor costs $11&ndash;13/meal
           ($520&ndash;620/month for 12 meals/week). What&apos;s For Dinner is
           $7.99/month + groceries at regular store prices (~$2&ndash;3/serving).
+          See our{" "}
+          <Link href="/meal-plans/meal-plan-on-a-budget" className="text-orange-500 underline">budget meal plan</Link>
+          {" "}for maximum savings.
         </p>
+        <div className="grid grid-cols-2 gap-4 my-6">
+          <div className="bg-red-50 rounded-xl p-4 text-center">
+            <p className="text-xs font-semibold text-red-400 uppercase tracking-wider">Factor</p>
+            <p className="text-2xl font-bold text-red-600 mt-1">$11–13</p>
+            <p className="text-xs text-red-400">per meal</p>
+          </div>
+          <div className="bg-green-50 rounded-xl p-4 text-center">
+            <p className="text-xs font-semibold text-green-500 uppercase tracking-wider">What&apos;s For Dinner</p>
+            <p className="text-2xl font-bold text-green-600 mt-1">$2–3</p>
+            <p className="text-xs text-green-500">per meal + $7.99/mo</p>
+          </div>
+        </div>
         <p>
           <strong>Personalization:</strong> Factor lets you pick from
           30&ndash;35 rotating meals. WFD generates unlimited original meals
@@ -256,12 +293,15 @@ export default function FactorAlternativePage() {
         <p>
           <strong>Dietary support:</strong> Factor has keto, vegan, protein
           plus, and calorie-smart tracks. WFD supports any dietary restriction
-          you can describe — including cultural and religious requirements.
+          you can describe — from{" "}
+          <Link href="/meal-plans/high-protein-meal-plan" className="text-orange-500 underline">high-protein plans</Link>
+          {" "}to cultural and religious requirements.
         </p>
         <p>
           <strong>Convenience:</strong> Factor is zero-cook (microwave only).
-          WFD requires 20&ndash;30 minutes of cooking per meal but eliminates
-          all planning and decision-making.
+          WFD requires 20&ndash;30 minutes of cooking per meal — try our{" "}
+          <Link href="/meal-plans/quick-30-minute-meal-plan" className="text-orange-500 underline">quick 30-minute meal plan</Link>
+          {" "}— but eliminates all planning and decision-making.
         </p>
         <p>
           <strong>Environmental impact:</strong> Factor ships individual sealed
@@ -362,6 +402,20 @@ export default function FactorAlternativePage() {
             <Link href="/blog/best-meal-delivery-alternatives" className="text-orange-500 hover:text-orange-600 underline">7 Best Meal Delivery Alternatives in 2026</Link>
             {" "}&mdash; every delivery alternative ranked.
           </p>
+        </div>
+      </div>
+
+      {/* --- Browse meal plans --- */}
+      <div className="mt-10 mb-6">
+        <h3 className="text-sm font-semibold text-stone-400 uppercase tracking-wider mb-4">
+          Browse Meal Plans
+        </h3>
+        <div className="flex flex-wrap gap-2">
+          <Link href="/meal-plans/meal-plan-on-a-budget" className="inline-block bg-orange-50 text-orange-600 text-xs font-medium px-3 py-1.5 rounded-full hover:bg-orange-100 transition-colors duration-200">Budget-Friendly</Link>
+          <Link href="/meal-plans/quick-30-minute-meal-plan" className="inline-block bg-orange-50 text-orange-600 text-xs font-medium px-3 py-1.5 rounded-full hover:bg-orange-100 transition-colors duration-200">Quick 30-Minute</Link>
+          <Link href="/meal-plans/high-protein-meal-plan" className="inline-block bg-orange-50 text-orange-600 text-xs font-medium px-3 py-1.5 rounded-full hover:bg-orange-100 transition-colors duration-200">High Protein</Link>
+          <Link href="/meal-plans/meal-plan-for-one" className="inline-block bg-orange-50 text-orange-600 text-xs font-medium px-3 py-1.5 rounded-full hover:bg-orange-100 transition-colors duration-200">For One</Link>
+          <Link href="/meal-plans/mediterranean" className="inline-block bg-orange-50 text-orange-600 text-xs font-medium px-3 py-1.5 rounded-full hover:bg-orange-100 transition-colors duration-200">Mediterranean</Link>
         </div>
       </div>
 

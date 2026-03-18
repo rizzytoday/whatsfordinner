@@ -82,7 +82,7 @@ export default function MealPlanningVsDoordashPage() {
           { name: "Meal Planning vs. DoorDash", url: "https://whatsfordinner.fit/blog/meal-planning-vs-doordash" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>

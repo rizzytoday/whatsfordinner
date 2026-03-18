@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
+import { WeekPreviewCTA } from "@/components/blog/MealCard";
 
 export const metadata: Metadata = {
   title: "Weekly Meal Plan: How to Plan Your Entire Week in 10 Minutes",
@@ -84,7 +85,7 @@ export default function WeeklyMealPlanArticle() {
           { name: "Weekly Meal Plan", url: "https://whatsfordinner.fit/blog/weekly-meal-plan" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>
@@ -114,9 +115,19 @@ export default function WeeklyMealPlanArticle() {
         </p>
       </div>
 
+      {/* TL;DR */}
+      <div className="bg-stone-50 rounded-xl p-5 my-8">
+        <p className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-2">TL;DR</p>
+        <ul className="space-y-1 text-sm text-stone-600">
+          <li>A weekly meal plan = what you&apos;ll eat + recipes + one grocery list</li>
+          <li>Manual method takes 10&ndash;15 min, AI method takes under 2 min</li>
+          <li>The grocery list is the real game-changer (saves $200+/month)</li>
+        </ul>
+      </div>
+
       {/* What a weekly meal plan looks like */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
-        What a Weekly Meal Plan Actually Looks Like
+        🍽️ What a Weekly Meal Plan Actually Looks Like
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
@@ -124,69 +135,55 @@ export default function WeeklyMealPlanArticle() {
           this week.&quot; It&apos;s a concrete schedule: every meal, every day,
           written down. Here&apos;s a realistic example for a household of two:
         </p>
-        <div className="overflow-x-auto my-4">
-          <table className="w-full text-sm text-left border border-stone-200 rounded-xl overflow-hidden">
-            <thead className="bg-stone-50">
-              <tr>
-                <th className="px-4 py-3 font-semibold text-stone-700">Day</th>
-                <th className="px-4 py-3 font-semibold text-stone-700">Breakfast</th>
-                <th className="px-4 py-3 font-semibold text-stone-700">Lunch</th>
-                <th className="px-4 py-3 font-semibold text-stone-700">Dinner</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-stone-100">
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Monday</td>
-                <td className="px-4 py-3">Overnight oats with banana and peanut butter</td>
-                <td className="px-4 py-3">Turkey and avocado wrap with side salad</td>
-                <td className="px-4 py-3">Lemon herb chicken thighs with roasted potatoes and green beans</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Tuesday</td>
-                <td className="px-4 py-3">Greek yogurt with granola and berries</td>
-                <td className="px-4 py-3">Leftover chicken over mixed greens</td>
-                <td className="px-4 py-3">Beef tacos with pico de gallo, cheese, and black beans</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Wednesday</td>
-                <td className="px-4 py-3">Scrambled eggs with toast and fruit</td>
-                <td className="px-4 py-3">Taco bowl with leftover beef, rice, and salsa</td>
-                <td className="px-4 py-3">One-pot pasta with sausage, spinach, and white beans</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Thursday</td>
-                <td className="px-4 py-3">Overnight oats (same as Monday)</td>
-                <td className="px-4 py-3">Leftover pasta with a side of fruit</td>
-                <td className="px-4 py-3">Sheet pan salmon with asparagus and quinoa</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Friday</td>
-                <td className="px-4 py-3">Smoothie (frozen berries, spinach, protein powder)</td>
-                <td className="px-4 py-3">Salmon quinoa bowl with leftover veggies</td>
-                <td className="px-4 py-3">Homemade pizza on store-bought naan</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Saturday</td>
-                <td className="px-4 py-3">Pancakes with maple syrup</td>
-                <td className="px-4 py-3">Grilled cheese and tomato soup</td>
-                <td className="px-4 py-3">Takeout or eat out (flex night)</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-stone-700">Sunday</td>
-                <td className="px-4 py-3">Eggs, bacon, and toast</td>
-                <td className="px-4 py-3">Leftovers or pantry raid</td>
-                <td className="px-4 py-3">Slow cooker chicken soup (prep for Monday lunches too)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <WeekPreviewCTA
+          days={[
+            { day: "Monday", meals: [
+              { mealType: "breakfast", name: "Overnight Oats with Banana & Peanut Butter", prepTime: "5 min" },
+              { mealType: "lunch", name: "Turkey & Avocado Wrap with Side Salad", prepTime: "10 min" },
+              { mealType: "dinner", name: "Lemon Herb Chicken Thighs with Roasted Potatoes", prepTime: "35 min" },
+            ]},
+            { day: "Tuesday", meals: [
+              { mealType: "breakfast", name: "Greek Yogurt with Granola & Berries", prepTime: "5 min" },
+              { mealType: "lunch", name: "Leftover Chicken over Mixed Greens", prepTime: "5 min" },
+              { mealType: "dinner", name: "Beef Tacos with Pico de Gallo & Black Beans", prepTime: "25 min" },
+            ]},
+            { day: "Wednesday", meals: [
+              { mealType: "breakfast", name: "Scrambled Eggs with Toast & Fruit", prepTime: "10 min" },
+              { mealType: "lunch", name: "Taco Bowl with Leftover Beef, Rice & Salsa", prepTime: "5 min" },
+              { mealType: "dinner", name: "One-Pot Pasta with Sausage, Spinach & Beans", prepTime: "25 min" },
+            ]},
+            { day: "Thursday", meals: [
+              { mealType: "breakfast", name: "Overnight Oats (Same as Monday)", prepTime: "5 min" },
+              { mealType: "lunch", name: "Leftover Pasta with a Side of Fruit", prepTime: "5 min" },
+              { mealType: "dinner", name: "Sheet Pan Salmon with Asparagus & Quinoa", prepTime: "30 min" },
+            ]},
+          ]}
+          groceryItems={[
+            "Chicken thighs (2 lbs)",
+            "Salmon fillets (1 lb)",
+            "Ground beef (1 lb)",
+            "Italian sausage (1 lb)",
+            "Greek yogurt (32 oz)",
+            "Rolled oats",
+            "Eggs (1 dozen)",
+            "Tortillas (flour, 8-pack)",
+            "Spaghetti (1 lb)",
+            "Quinoa",
+            "Asparagus (1 bunch)",
+            "Green beans (1 lb)",
+            "Baby spinach (5 oz)",
+            "Bananas",
+            "Peanut butter",
+          ]}
+        />
         <p>
           Notice the pattern: breakfasts rotate between three simple options.
           Lunches are almost entirely leftovers from the previous dinner.
           Dinners use overlapping ingredients (chicken, eggs, and canned beans
           appear in multiple meals). Saturday has a built-in flex night. This
-          isn&apos;t aspirational &mdash; it&apos;s a plan that actually
-          survives a real week.
+          isn&apos;t aspirational &mdash; it&apos;s a{" "}
+          <Link href="/meal-plans/meal-plan-for-family-of-4" className="text-orange-500 underline">plan that actually
+          survives a real week</Link>.
         </p>
       </div>
 
@@ -231,6 +228,20 @@ export default function WeeklyMealPlanArticle() {
           </li>
         </ol>
 
+        {/* Comparison mini-box */}
+        <div className="grid grid-cols-2 gap-4 my-6">
+          <div className="bg-stone-50 rounded-xl p-4 text-center">
+            <p className="text-xs font-semibold text-stone-400 uppercase tracking-wider">Manual</p>
+            <p className="text-xl font-bold text-stone-700 mt-1">10&ndash;15 min</p>
+            <p className="text-xs text-stone-400">per week</p>
+          </div>
+          <div className="bg-orange-50 rounded-xl p-4 text-center">
+            <p className="text-xs font-semibold text-orange-500 uppercase tracking-wider">AI-Generated</p>
+            <p className="text-xl font-bold text-orange-600 mt-1">Under 2 min</p>
+            <p className="text-xs text-orange-400">delivered to your inbox</p>
+          </div>
+        </div>
+
         <h3 className="text-lg font-semibold text-stone-700 mt-6 mb-2">
           The AI-Generated Method (Under 2 Minutes)
         </h3>
@@ -260,7 +271,7 @@ export default function WeeklyMealPlanArticle() {
 
       {/* The grocery list is the point */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
-        The Grocery List Is the Whole Point
+        🛒 The Grocery List Is the Whole Point
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
@@ -276,9 +287,17 @@ export default function WeeklyMealPlanArticle() {
           efficient than shopping recipe by recipe. You buy one container of
           Greek yogurt for breakfast and the marinade, not two. You buy one
           bunch of cilantro for tacos, pizza, and the soup, not three. Research
-          suggests that planned grocery shopping reduces food spending by 20-25%
-          compared to unplanned shopping.
+          suggests that{" "}
+          <Link href="/meal-plans/meal-plan-on-a-budget" className="text-orange-500 underline">planned grocery shopping reduces food spending by 20-25%</Link>
+          {" "}compared to unplanned shopping.
         </p>
+
+        {/* Stat callout */}
+        <div className="bg-orange-50 border-l-4 border-orange-400 rounded-r-xl p-4 my-6">
+          <p className="text-2xl font-bold text-stone-800">One trip. One list. Zero waste.</p>
+          <p className="text-sm text-stone-500 mt-1">Households that plan meals spend 20&ndash;25% less on groceries and throw away significantly less food.</p>
+        </div>
+
         <p>
           If you&apos;re building your plan manually, the grocery list is the
           most time-consuming step. If you want to shortcut it, read our full
@@ -312,11 +331,22 @@ export default function WeeklyMealPlanArticle() {
             meal plans faster than anything. The nights you don&apos;t plan for
             are what keep you from abandoning the nights you do.
           </li>
+        </ol>
+
+        {/* Pro tip callout */}
+        <div className="bg-amber-50 border border-amber-100 rounded-xl p-4 my-6">
+          <p className="text-sm font-semibold text-amber-800">The secret to sticking with it</p>
+          <p className="text-sm text-amber-700 mt-1">Don&apos;t plan 7 dinners &mdash; plan 5. Leave room for leftovers, eating out, or just not feeling it. A meal plan that accounts for real life is one you&apos;ll actually follow.</p>
+        </div>
+
+        <ol className="list-decimal list-inside space-y-4 pl-1" start={2}>
           <li>
             <strong>Prep ingredients on Sunday, not full meals.</strong> You
             don&apos;t need to cook everything in advance. Just wash and chop
             vegetables, cook a batch of rice or quinoa, and marinate proteins.
-            Twenty minutes of ingredient prep on Sunday cuts 10-15 minutes off
+            Twenty minutes of{" "}
+            <Link href="/meal-plans/meal-prep-meal-plan" className="text-orange-500 underline">ingredient prep on Sunday</Link>
+            {" "}cuts 10-15 minutes off
             every weeknight dinner. That&apos;s the difference between &quot;I
             can cook this&quot; and &quot;I don&apos;t have the energy.&quot;
           </li>

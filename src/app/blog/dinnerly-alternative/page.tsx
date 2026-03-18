@@ -84,7 +84,7 @@ export default function DinnerlyAlternativePage() {
           { name: "Best Dinnerly Alternative 2026", url: "https://whatsfordinner.fit/blog/dinnerly-alternative" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Alternatives
       </span>

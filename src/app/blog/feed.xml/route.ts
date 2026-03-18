@@ -1,6 +1,7 @@
 const BASE = "https://whatsfordinner.fit";
 
 const blogPosts: { slug: string; title: string; description: string; date: string }[] = [
+  { slug: "dinner-ideas-tonight", title: "What Should I Make for Dinner? 20 Ideas Based on What You Have", description: "It's 6pm and you're hungry. 20 dinner ideas organized by what's in your fridge — chicken, pasta, eggs, ground beef, or literally nothing. All under 25 minutes.", date: "2026-03-18" },
   { slug: "weekly-meal-plan", title: "Weekly Meal Plan: How to Plan Your Entire Week in 10 Minutes", description: "Stop deciding what to eat every night. Get a complete weekly meal plan with recipes and grocery list — planned in 10 minutes or generated automatically by AI. Free to try.", date: "2026-03-13" },
   { slug: "best-meal-kit-alternatives", title: "5 Cheap Alternatives to Meal Kits in 2026 (Under $2/Serving)", description: "Meal kits cost $8-12 per serving. These 5 alternatives give you planned meals with grocery lists for under $2/serving. Compare HelloFresh, Blue Apron, and cheaper options.", date: "2026-03-13" },
   { slug: "meal-planning-for-families", title: "Meal Planning for Families: Feed a Family of 4 for Under $100/Week", description: "A practical guide to family meal planning that actually works. Balanced meals kids will eat, a single grocery trip, and dinner on the table in 30 minutes. Free weekly plan included.", date: "2026-03-13" },

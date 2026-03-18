@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
+import { MealCardGrid } from "@/components/blog/MealCard";
 
 export const metadata: Metadata = {
   title: "What to Cook When You Have 'Nothing' in the Fridge",
@@ -84,7 +85,7 @@ export default function WhatToCookWhenYouHaveNothingArticle() {
           { name: "What to Cook When You Have Nothing", url: "https://whatsfordinner.fit/blog/what-to-cook-when-you-have-nothing" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>
@@ -157,30 +158,12 @@ export default function WhatToCookWhenYouHaveNothingArticle() {
           they last weeks, and they turn into a meal in under 10 minutes. If you have
           eggs, you&apos;re not broke &mdash; you&apos;re rich.
         </p>
-        <ul className="list-disc list-inside space-y-3 pl-1">
-          <li>
-            <strong>Scrambled eggs on toast.</strong> Butter in a pan, crack two eggs,
-            stir, put on toast. Add cheese if you have it. Salt, pepper, hot sauce.
-            Done in 5 minutes. This is a complete meal and don&apos;t let anyone tell
-            you otherwise.
-          </li>
-          <li>
-            <strong>Egg fried rice.</strong> Leftover rice (or cook some fresh), scramble
-            eggs in a hot pan with oil, add rice, splash of soy sauce. If you have
-            frozen peas or a leftover vegetable, throw it in. Restaurant-quality? No.
-            Satisfying? Absolutely.
-          </li>
-          <li>
-            <strong>Omelette with whatever.</strong> Any cheese, any vegetable, any
-            leftover meat. Crack 2-3 eggs, pour into a buttered pan, add stuff to one
-            half, fold. An omelette is just a vehicle for clearing out your fridge.
-          </li>
-          <li>
-            <strong>Egg sandwich.</strong> Fry an egg, put it on bread with cheese and
-            whatever sauce you have. If you have a slice of deli meat or some spinach,
-            even better. This is the breakfast sandwich you&apos;d pay $8 for at a cafe.
-          </li>
-        </ul>
+        <MealCardGrid meals={[
+          { name: "Scrambled Eggs on Toast", mealType: "breakfast", prepTime: "5 min · ~$1", description: "Butter in a pan, crack two eggs, stir, put on toast. Add cheese if you have it. Salt, pepper, hot sauce. A complete meal -- don't let anyone tell you otherwise.", tags: ["quick", "budget"] },
+          { name: "Egg Fried Rice", mealType: "dinner", prepTime: "10 min · ~$1.50", description: "Scramble eggs in a hot pan with oil, add leftover rice, splash of soy sauce. Throw in frozen peas or any leftover vegetable. Restaurant-quality? No. Satisfying? Absolutely.", tags: ["quick", "budget"] },
+          { name: "Omelette with Whatever", mealType: "breakfast", prepTime: "8 min · ~$1.50", description: "Any cheese, any vegetable, any leftover meat. Crack 2-3 eggs, pour into a buttered pan, add stuff to one half, fold. An omelette is just a vehicle for clearing out your fridge.", tags: ["quick", "versatile"] },
+          { name: "Egg Sandwich", mealType: "breakfast", prepTime: "5 min · ~$1.50", description: "Fry an egg, put it on bread with cheese and whatever sauce you have. Add deli meat or spinach if available. This is the breakfast sandwich you'd pay $8 for at a cafe.", tags: ["quick", "budget"] },
+        ]} />
       </div>
 
       {/* If you have pasta or rice */}
@@ -192,33 +175,12 @@ export default function WhatToCookWhenYouHaveNothingArticle() {
           Dry pasta and rice are the backbone of &quot;I have nothing&quot; cooking.
           They last forever, they&apos;re filling, and they pair with almost anything.
         </p>
-        <ul className="list-disc list-inside space-y-3 pl-1">
-          <li>
-            <strong>Aglio e olio.</strong> This is a real Italian dish and it uses three
-            ingredients: pasta, garlic, and olive oil. Boil pasta, saut&eacute; sliced
-            garlic in olive oil until golden, toss with pasta. Add red pepper flakes if
-            you have them. It sounds too simple to be good, but it&apos;s genuinely
-            delicious. Restaurants charge $16 for this.
-          </li>
-          <li>
-            <strong>Butter rice with soy sauce.</strong> Cook rice, add a knob of butter
-            and a splash of soy sauce. That&apos;s it. If you have a fried egg to put
-            on top, you&apos;re living. Add sesame seeds or green onion if you&apos;re
-            feeling fancy.
-          </li>
-          <li>
-            <strong>Pasta with literally any sauce.</strong> Jarred marinara, pesto from
-            a tube, even just olive oil and parmesan. Pasta is not meant to be
-            complicated. Italians have been eating simple pasta for centuries and they
-            seem to be doing fine.
-          </li>
-          <li>
-            <strong>Rice + canned beans + hot sauce.</strong> Open a can of black beans
-            or kidney beans, heat them up, serve over rice. Add hot sauce, lime if you
-            have it, cheese if you have it. This is a complete protein, costs about $0.80,
-            and takes 15 minutes.
-          </li>
-        </ul>
+        <MealCardGrid meals={[
+          { name: "Aglio e Olio", mealType: "dinner", prepTime: "10 min · ~$1", description: "Boil pasta, saute sliced garlic in olive oil until golden, toss together. Add red pepper flakes if you have them. Sounds too simple to be good, but restaurants charge $16 for this.", tags: ["budget", "vegetarian"] },
+          { name: "Butter Rice with Soy Sauce", mealType: "dinner", prepTime: "15 min · ~$0.50", description: "Cook rice, add a knob of butter and a splash of soy sauce. Put a fried egg on top if you have one. Add sesame seeds or green onion if you're feeling fancy.", tags: ["budget", "quick"] },
+          { name: "Pasta with Literally Any Sauce", mealType: "dinner", prepTime: "12 min · ~$1.50", description: "Jarred marinara, pesto from a tube, even just olive oil and parmesan. Pasta is not meant to be complicated. Italians have been doing this for centuries.", tags: ["budget", "versatile"] },
+          { name: "Rice + Canned Beans + Hot Sauce", mealType: "dinner", prepTime: "15 min · ~$0.80", description: "Open a can of black or kidney beans, heat them up, serve over rice with hot sauce. Add lime or cheese if you have it. Complete protein for under a dollar.", tags: ["budget", "vegetarian"] },
+        ]} />
       </div>
 
       {/* If you have bread */}
@@ -230,29 +192,12 @@ export default function WhatToCookWhenYouHaveNothingArticle() {
           Bread gets a bad rap, but it&apos;s one of the most versatile base ingredients
           you can have. Even slightly stale bread works for most of these.
         </p>
-        <ul className="list-disc list-inside space-y-3 pl-1">
-          <li>
-            <strong>Grilled cheese.</strong> Bread + butter + cheese + pan. The ultimate
-            comfort food that requires almost nothing. Add a slice of tomato or dip it
-            in soup if you have canned tomato soup. You&apos;re 10 years old again and
-            everything is fine.
-          </li>
-          <li>
-            <strong>French toast.</strong> Crack an egg, add a splash of milk (or water
-            honestly), pinch of cinnamon and sugar if you have them, dip bread, cook in a
-            buttered pan. This is a perfectly acceptable dinner. Nobody&apos;s judging.
-          </li>
-          <li>
-            <strong>Toast with peanut butter and banana.</strong> If you have peanut
-            butter and a banana, you have a meal with protein, carbs, and potassium.
-            Drizzle honey if you have it. This gets you through the evening.
-          </li>
-          <li>
-            <strong>Bread with canned tuna.</strong> Open tuna, drain it, mix with mayo
-            (or olive oil and lemon juice), put on bread. A tuna sandwich is a meal that
-            has been sustaining humanity since the invention of canned fish.
-          </li>
-        </ul>
+        <MealCardGrid meals={[
+          { name: "Grilled Cheese", mealType: "lunch", prepTime: "8 min · ~$1", description: "Bread + butter + cheese + pan. The ultimate comfort food. Add a slice of tomato or dip it in canned tomato soup. You're 10 years old again and everything is fine.", tags: ["budget", "comfort"] },
+          { name: "French Toast", mealType: "breakfast", prepTime: "10 min · ~$1", description: "Crack an egg, add a splash of milk, pinch of cinnamon and sugar, dip bread, cook in a buttered pan. This is a perfectly acceptable dinner. Nobody's judging.", tags: ["budget", "comfort"] },
+          { name: "Toast with Peanut Butter & Banana", mealType: "snack", prepTime: "3 min · ~$0.75", description: "Peanut butter and a banana on toast gives you protein, carbs, and potassium. Drizzle honey if you have it. This gets you through the evening.", tags: ["quick", "no-cook"] },
+          { name: "Tuna Sandwich", mealType: "lunch", prepTime: "5 min · ~$1.50", description: "Open tuna, drain it, mix with mayo (or olive oil and lemon juice), put on bread. A meal that has been sustaining humanity since the invention of canned fish.", tags: ["budget", "quick"] },
+        ]} />
       </div>
 
       {/* The emergency */}

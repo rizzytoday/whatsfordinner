@@ -41,7 +41,7 @@ export default function HowToMealPrepArticle() {
           { name: "How to Meal Prep (2026 Guide)", url: "https://whatsfordinner.fit/blog/how-to-meal-prep" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>

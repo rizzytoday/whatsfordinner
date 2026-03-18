@@ -84,7 +84,7 @@ export default function AdhdMealPlanningArticle() {
           { name: "ADHD Meal Planning", url: "https://whatsfordinner.fit/blog/adhd-meal-planning" },
         ]}
       />
-      <article>
+      <article className="blog-article">
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>
