@@ -31,6 +31,7 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
   const { t } = useT();
   const period = getMealPeriod();
   const [userMeal, setUserMeal] = useState<NextMeal | null>(null);
+  const [mealsCount, setMealsCount] = useState<number | null>(null);
 
   // Fetch the user's actual next meal if signed in
   useEffect(() => {
@@ -40,6 +41,14 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
       .then((data) => { if (data.meal) setUserMeal(data.meal); })
       .catch(() => {});
   }, [isSignedIn]);
+
+  // Fetch live meals counter
+  useEffect(() => {
+    fetch("/api/stats", { cache: "no-store" })
+      .then((r) => r.json())
+      .then((data) => { if (data.mealsPlanned) setMealsCount(data.mealsPlanned); })
+      .catch(() => {});
+  }, []);
 
   // Use the user's real meal or fall back to sample
   const mealType = userMeal?.type ?? period;
@@ -106,6 +115,12 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
           {!isSignedIn && (
             <p className="text-xs sm:text-sm text-stone-500">
               {t("landing.hero.subtext")}
+            </p>
+          )}
+
+          {mealsCount !== null && (
+            <p className="text-[11px] sm:text-xs text-stone-400 tracking-wide">
+              {t("landing.hero.liveCounter", { count: mealsCount.toLocaleString() })}
             </p>
           )}
         </div>

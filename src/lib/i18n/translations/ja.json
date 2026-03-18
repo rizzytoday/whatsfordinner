@@ -22,7 +22,8 @@
       "noCreditCard": "",
       "cta": "最初のプランを無料で試す",
       "ctaLoggedIn": "ダッシュボードへ",
-      "subtext": "クレジットカード不要。簡単な好みクイズだけ。"
+      "subtext": "クレジットカード不要。簡単な好みクイズだけ。",
+      "liveCounter": "{count}+食の献立を作成、さらに増加中"
     },
     "social": {
       "mealsPlanned": "食事のプランが立てられた",

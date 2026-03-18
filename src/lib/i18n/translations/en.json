@@ -22,7 +22,8 @@
       "noCreditCard": "",
       "cta": "Get Your First Plan Free",
       "ctaLoggedIn": "Go to Dashboard",
-      "subtext": "No credit card. Just a quick taste quiz."
+      "subtext": "No credit card. Just a quick taste quiz.",
+      "liveCounter": "{count}+ meals planned and counting"
     },
     "social": {
       "mealsPlanned": "meals planned",

@@ -63,8 +63,8 @@ export function LanguagePicker() {
               onClick={() => {
                 setOpen(false);
                 if (code === locale) return;
-                // Hard navigate to the locale homepage
-                // (soft navigation doesn't re-render server layouts)
+                // Save preference and hard navigate
+                localStorage.setItem("wfd_lang", code);
                 window.location.href = code === "en" ? "/" : `/${code}`;
               }}
               className={cn(

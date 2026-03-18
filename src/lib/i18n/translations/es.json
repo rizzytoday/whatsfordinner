@@ -22,7 +22,8 @@
       "noCreditCard": "",
       "cta": "Obtén Tu Primer Plan Gratis",
       "ctaLoggedIn": "Ir al Panel",
-      "subtext": "Sin tarjeta de crédito. Solo un rápido test de gustos."
+      "subtext": "Sin tarjeta de crédito. Solo un rápido test de gustos.",
+      "liveCounter": "{count}+ comidas planificadas y contando"
     },
     "social": {
       "mealsPlanned": "comidas planificadas",

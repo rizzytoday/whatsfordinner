@@ -22,7 +22,8 @@
       "noCreditCard": "",
       "cta": "免费获取你的第一份计划",
       "ctaLoggedIn": "前往控制台",
-      "subtext": "无需信用卡，只需一个简单的口味小测试。"
+      "subtext": "无需信用卡，只需一个简单的口味小测试。",
+      "liveCounter": "{count}+ 餐食已规划，持续增长中"
     },
     "social": {
       "mealsPlanned": "餐饮计划已制定",

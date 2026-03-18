@@ -22,7 +22,8 @@
       "noCreditCard": "",
       "cta": "İlk Planınızı Ücretsiz Alın",
       "ctaLoggedIn": "Panoya Git",
-      "subtext": "Kredi kartı gerekmez. Sadece kısa bir tat testi."
+      "subtext": "Kredi kartı gerekmez. Sadece kısa bir tat testi.",
+      "liveCounter": "{count}+ öğün planlandı ve artmaya devam ediyor"
     },
     "social": {
       "mealsPlanned": "planlanan öğün",

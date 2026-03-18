@@ -69,14 +69,19 @@ function detectLocale(): Locale {
       return pathLocale;
     }
 
-    // Check URL param (from translated pSEO pages)
+    // Root path "/" is always English — don't fall through to localStorage
+    if (window.location.pathname === "/") {
+      return "en";
+    }
+
+    // Check URL param (from translated pSEO pages like /onboarding?lang=tr)
     const urlLang = new URLSearchParams(window.location.search).get("lang") as Locale;
     if (urlLang && urlLang in LANGUAGES) {
       localStorage.setItem("wfd_lang", urlLang);
       return urlLang;
     }
 
-    // Check localStorage (user's explicit choice)
+    // Check localStorage (user's explicit choice — for non-locale pages like /onboarding)
     const saved = localStorage.getItem("wfd_lang") as Locale;
     if (saved && saved in LANGUAGES) return saved;
   }

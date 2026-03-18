@@ -22,7 +22,8 @@
       "noCreditCard": "",
       "cta": "첫 식단 무료로 받기",
       "ctaLoggedIn": "대시보드로 이동",
-      "subtext": "신용카드 필요 없어요. 간단한 취향 퀴즈만 하면 돼요."
+      "subtext": "신용카드 필요 없어요. 간단한 취향 퀴즈만 하면 돼요.",
+      "liveCounter": "{count}+끼 식단이 계획되었고 계속 늘어나는 중"
     },
     "social": {
       "mealsPlanned": "끼니 계획됨",

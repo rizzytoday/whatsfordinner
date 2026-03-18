@@ -22,7 +22,8 @@
       "noCreditCard": "",
       "cta": "Hol Dir Deinen Ersten Plan Kostenlos",
       "ctaLoggedIn": "Zum Dashboard",
-      "subtext": "Keine Kreditkarte. Nur ein schnelles Geschmacksquiz."
+      "subtext": "Keine Kreditkarte. Nur ein schnelles Geschmacksquiz.",
+      "liveCounter": "{count}+ Mahlzeiten geplant und es werden mehr"
     },
     "social": {
       "mealsPlanned": "Mahlzeiten geplant",

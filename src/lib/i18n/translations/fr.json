@@ -22,7 +22,8 @@
       "noCreditCard": "",
       "cta": "Obtenez Votre Premier Plan Gratuit",
       "ctaLoggedIn": "Aller au Tableau de bord",
-      "subtext": "Sans carte de crédit. Juste un petit quiz de goûts."
+      "subtext": "Sans carte de crédit. Juste un petit quiz de goûts.",
+      "liveCounter": "{count}+ repas planifiés et ça continue"
     },
     "social": {
       "mealsPlanned": "repas planifiés",
