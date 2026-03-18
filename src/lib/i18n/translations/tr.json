@@ -15,14 +15,14 @@
   },
   "landing": {
     "hero": {
-      "title": "akşam yemeğinde\nne var?",
-      "subtitle": "Günün en stresli sorusu. Cevaplandı.",
-      "description": "Haftada 3+ saatinizi ne yiyeceğinize karar vermeye, tarif aramaya ve alışveriş listesi yapmaya harcıyorsunuz. Biz hepsini 30 saniyede hallederiz.",
-      "tryCta": "İlk planınız ücretsiz",
-      "noCreditCard": "— kredi kartı yok, taahhüt yok.",
-      "cta": "Akşam Yemeği Stresine Son",
+      "title": "Bir haftalık yemekleriniz,\n30 saniyede hazır",
+      "subtitle": "Kişiselleştirilmiş yemek planları, tarifler ve alışveriş listesi, her pazar e-postanıza gelir.",
+      "description": "Ailenizin nelerden hoşlandığını söyleyin. Gerisini biz hallederiz.\nHer hafta, otomatik olarak.",
+      "tryCta": "",
+      "noCreditCard": "",
+      "cta": "İlk Planınızı Ücretsiz Alın",
       "ctaLoggedIn": "Panoya Git",
-      "subtext": "2 dakikada kurulur. Bir daha öğün planı düşünmezsiniz."
+      "subtext": "Kredi kartı gerekmez. Sadece kısa bir tat testi."
     },
     "social": {
       "mealsPlanned": "planlanan öğün",
@@ -113,9 +113,35 @@
       "q7": "Bu sadece tek kişi için mi?",
       "a7": "Bir kişi için de çalışır, altı kişi için de. Hane büyüklüğünüzü siz belirlersiniz, biz her şeyi ayarlarız — porsiyonlar, alışveriş miktarları, tüm plan. Çiftler, aileler, tek başına pişirenler — hepsi dahil."
     },
+    "popularPlans": {
+      "title": "Popüler Öğün Planları",
+      "subtitle": "Diyetinize göre uyarlanmış, tarifler ve alışveriş listesi içeren kişiselleştirilmiş haftalık planlar.",
+      "seeAll": "Tüm öğün planlarını gör",
+      "keto": "Keto",
+      "mediterranean": "Akdeniz",
+      "vegetarian": "Vejetaryen",
+      "vegan": "Vegan",
+      "budget": "Bütçe Dostu",
+      "highProtein": "Yüksek Protein",
+      "glutenFree": "Glutensiz",
+      "quick30": "30 Dakikalık Yemekler",
+      "family": "Aileler İçin"
+    },
+    "guides": {
+      "title": "Rehberler ve İpuçları",
+      "subtitle": "Öğün planlamaya başlamak ve her hafta daha iyi yemek için ihtiyacınız olan her şey.",
+      "readMore": "Devamını oku",
+      "beginners": "Yeni Başlayanlar İçin Öğün Planlama",
+      "apps": "En İyi Öğün Planlama Uygulamaları",
+      "budget": "Düşük Bütçeyle Sağlıklı Beslenme",
+      "cheapMeals": "Tek Kişilik Ucuz Yemekler",
+      "families": "Aileler İçin Öğün Planlama",
+      "stopTakeout": "Dışarıdan Yemek Siparişini Nasıl Bırakırsınız"
+    },
     "footer": {
       "brand": "What's For Dinner",
       "blog": "Blog",
+      "mealPlans": "Öğün Planları",
       "privacy": "Gizlilik",
       "terms": "Şartlar",
       "contact": "İletişim",

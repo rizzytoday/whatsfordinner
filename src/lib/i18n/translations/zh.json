@@ -15,14 +15,14 @@
   },
   "landing": {
     "hero": {
-      "title": "今晚吃什么？",
-      "subtitle": "每天最让人头疼的问题，帮你解决了。",
-      "description": "你每周花 3 个多小时纠结吃什么、翻食谱、列购物清单。我们 30 秒搞定。",
-      "tryCta": "免费查看你的第一份计划",
-      "noCreditCard": "——无需信用卡，无需承诺。",
-      "cta": "告别晚餐焦虑",
-      "subtext": "2 分钟完成设置，从此不用再想吃什么。",
-      "ctaLoggedIn": "前往控制台"
+      "title": "一周餐食，\n30秒搞定",
+      "subtitle": "个性化菜单、食谱和购物清单，每周日送到你的邮箱。",
+      "description": "告诉我们你的家人喜欢什么，剩下的交给我们。\n每周自动生成。",
+      "tryCta": "",
+      "noCreditCard": "",
+      "cta": "免费获取你的第一份计划",
+      "ctaLoggedIn": "前往控制台",
+      "subtext": "无需信用卡，只需一个简单的口味小测试。"
     },
     "social": {
       "mealsPlanned": "餐饮计划已制定",
@@ -113,9 +113,35 @@
       "q7": "只能一个人用吗？",
       "a7": "一个人能用，六个人也能用。设置家庭人数后，份量、购物数量、整个计划都会自动调整。情侣、家庭、独居——全都覆盖。"
     },
+    "popularPlans": {
+      "title": "热门餐饮计划",
+      "subtitle": "根据你的饮食定制的每周计划，含食谱和购物清单。",
+      "seeAll": "查看所有餐饮计划",
+      "keto": "生酮",
+      "mediterranean": "地中海",
+      "vegetarian": "素食",
+      "vegan": "纯素",
+      "budget": "经济实惠",
+      "highProtein": "高蛋白",
+      "glutenFree": "无麸质",
+      "quick30": "30分钟快手菜",
+      "family": "家庭适用"
+    },
+    "guides": {
+      "title": "指南与技巧",
+      "subtitle": "开始制定饮食计划、每周吃得更好所需的一切。",
+      "readMore": "阅读更多",
+      "beginners": "新手餐饮计划入门",
+      "apps": "最佳餐饮计划应用",
+      "budget": "低预算健康饮食",
+      "cheapMeals": "一人份省钱餐",
+      "families": "家庭餐饮计划",
+      "stopTakeout": "如何戒掉外卖"
+    },
     "footer": {
       "brand": "What's For Dinner",
       "blog": "博客",
+      "mealPlans": "餐饮计划",
       "privacy": "隐私",
       "terms": "条款",
       "contact": "联系我们",

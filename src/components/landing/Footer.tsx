@@ -24,7 +24,7 @@ export function Footer() {
             href="/meal-plans"
             className="text-sm text-stone-400 hover:text-orange-600 transition-colors duration-200"
           >
-            Meal Plans
+            {t("landing.footer.mealPlans")}
           </Link>
           <Link
             href="/privacy"

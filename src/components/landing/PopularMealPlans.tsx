@@ -1,26 +1,31 @@
+"use client";
+
 import Link from "next/link";
+import { useT } from "@/lib/i18n/context";
 
 const POPULAR_PLANS = [
-  { slug: "keto", label: "Keto", emoji: "🥑" },
-  { slug: "mediterranean", label: "Mediterranean", emoji: "🫒" },
-  { slug: "vegetarian", label: "Vegetarian", emoji: "🥗" },
-  { slug: "vegan", label: "Vegan", emoji: "🌱" },
-  { slug: "meal-plan-on-a-budget", label: "Budget-Friendly", emoji: "💰" },
-  { slug: "high-protein-meal-plan", label: "High Protein", emoji: "💪" },
-  { slug: "gluten-free", label: "Gluten Free", emoji: "🌾" },
-  { slug: "quick-30-minute-meal-plan", label: "30-Minute Meals", emoji: "⏱️" },
-  { slug: "meal-plan-for-family-of-4", label: "For Families", emoji: "👨‍👩‍👧‍👦" },
+  { slug: "keto", labelKey: "landing.popularPlans.keto", emoji: "🥑" },
+  { slug: "mediterranean", labelKey: "landing.popularPlans.mediterranean", emoji: "🫒" },
+  { slug: "vegetarian", labelKey: "landing.popularPlans.vegetarian", emoji: "🥗" },
+  { slug: "vegan", labelKey: "landing.popularPlans.vegan", emoji: "🌱" },
+  { slug: "meal-plan-on-a-budget", labelKey: "landing.popularPlans.budget", emoji: "💰" },
+  { slug: "high-protein-meal-plan", labelKey: "landing.popularPlans.highProtein", emoji: "💪" },
+  { slug: "gluten-free", labelKey: "landing.popularPlans.glutenFree", emoji: "🌾" },
+  { slug: "quick-30-minute-meal-plan", labelKey: "landing.popularPlans.quick30", emoji: "⏱️" },
+  { slug: "meal-plan-for-family-of-4", labelKey: "landing.popularPlans.family", emoji: "👨‍👩‍👧‍👦" },
 ];
 
 export function PopularMealPlans() {
+  const { t } = useT();
+
   return (
     <section className="py-24 sm:py-32 border-t border-stone-100">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 text-center tracking-tight">
-          Popular Meal Plans
+          {t("landing.popularPlans.title")}
         </h2>
         <p className="mt-4 text-stone-500 text-center text-lg max-w-xl mx-auto">
-          Personalized weekly plans with recipes and a grocery list, tailored to your diet.
+          {t("landing.popularPlans.subtitle")}
         </p>
 
         <div className="mt-12 grid grid-cols-2 sm:grid-cols-3 gap-4">
@@ -32,7 +37,7 @@ export function PopularMealPlans() {
             >
               <span className="text-2xl shrink-0">{plan.emoji}</span>
               <span className="text-sm font-medium text-stone-700 group-hover:text-orange-600 transition-colors">
-                {plan.label}
+                {t(plan.labelKey)}
               </span>
             </Link>
           ))}
@@ -43,7 +48,7 @@ export function PopularMealPlans() {
             href="/meal-plans"
             className="inline-flex items-center gap-1 text-sm font-medium text-orange-600 hover:text-orange-700 transition-colors"
           >
-            See all meal plans
+            {t("landing.popularPlans.seeAll")}
             <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>

@@ -122,9 +122,35 @@
       "mealDinner": "One-Pan Lemon Herb Salmon",
       "cta": "Get your full plan"
     },
+    "popularPlans": {
+      "title": "Popular Meal Plans",
+      "subtitle": "Personalized weekly plans with recipes and a grocery list, tailored to your diet.",
+      "seeAll": "See all meal plans",
+      "keto": "Keto",
+      "mediterranean": "Mediterranean",
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "budget": "Budget-Friendly",
+      "highProtein": "High Protein",
+      "glutenFree": "Gluten Free",
+      "quick30": "30-Minute Meals",
+      "family": "For Families"
+    },
+    "guides": {
+      "title": "Guides & Tips",
+      "subtitle": "Everything you need to start meal planning and eat better every week.",
+      "readMore": "Read more",
+      "beginners": "Meal Planning for Beginners",
+      "apps": "Best Meal Planning Apps",
+      "budget": "Eating Healthy on a Budget",
+      "cheapMeals": "Cheap Meals for One",
+      "families": "Meal Planning for Families",
+      "stopTakeout": "How to Stop Ordering Takeout"
+    },
     "footer": {
       "brand": "What's For Dinner",
       "blog": "Blog",
+      "mealPlans": "Meal Plans",
       "privacy": "Privacy",
       "terms": "Terms",
       "contact": "Contact",

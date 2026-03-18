@@ -15,14 +15,14 @@
   },
   "landing": {
     "hero": {
-      "title": "Was gibt's zum Abendessen?",
-      "subtitle": "Die stressigste Frage Deines Tages. Beantwortet.",
-      "description": "Du verbringst jede Woche 3+ Stunden damit, Dir zu überlegen, was Du essen sollst, Rezepte zu googeln und Einkaufslisten zu schreiben. Wir erledigen das in 30 Sekunden.",
-      "tryCta": "Sieh Deinen ersten Plan kostenlos",
-      "noCreditCard": "— keine Kreditkarte, keine Verpflichtung.",
-      "cta": "Schluss mit dem Dinner-Stress",
+      "title": "Deine Woche voller Mahlzeiten,\nin 30 Sekunden geplant",
+      "subtitle": "Personalisierte Essenspläne, Rezepte und eine Einkaufsliste, jeden Sonntag in Deinem Postfach.",
+      "description": "Sag uns, was Deine Familie mag. Wir kümmern uns um den Rest.\nJede Woche, automatisch.",
+      "tryCta": "",
+      "noCreditCard": "",
+      "cta": "Hol Dir Deinen Ersten Plan Kostenlos",
       "ctaLoggedIn": "Zum Dashboard",
-      "subtext": "2 Minuten einrichten. Nie wieder über Essensplanung nachdenken."
+      "subtext": "Keine Kreditkarte. Nur ein schnelles Geschmacksquiz."
     },
     "social": {
       "mealsPlanned": "Mahlzeiten geplant",
@@ -113,9 +113,35 @@
       "q7": "Ist das nur für eine Person?",
       "a7": "Funktioniert für eine Person, funktioniert für sechs. Du gibst Deine Haushaltsgröße an und wir passen alles an — Portionen, Einkaufsmengen, den ganzen Plan. Paare, Familien, Alleinkocher — alles abgedeckt."
     },
+    "popularPlans": {
+      "title": "Beliebte Essenspläne",
+      "subtitle": "Personalisierte Wochenpläne mit Rezepten und Einkaufsliste, auf Deine Ernährung abgestimmt.",
+      "seeAll": "Alle Essenspläne ansehen",
+      "keto": "Keto",
+      "mediterranean": "Mediterran",
+      "vegetarian": "Vegetarisch",
+      "vegan": "Vegan",
+      "budget": "Budget-freundlich",
+      "highProtein": "Proteinreich",
+      "glutenFree": "Glutenfrei",
+      "quick30": "30-Minuten-Gerichte",
+      "family": "Für Familien"
+    },
+    "guides": {
+      "title": "Ratgeber & Tipps",
+      "subtitle": "Alles, was Du brauchst, um mit Essensplanung zu starten und jede Woche besser zu essen.",
+      "readMore": "Weiterlesen",
+      "beginners": "Essensplanung für Anfänger",
+      "apps": "Beste Apps zur Essensplanung",
+      "budget": "Gesund Essen mit kleinem Budget",
+      "cheapMeals": "Günstige Gerichte für Eine Person",
+      "families": "Essensplanung für Familien",
+      "stopTakeout": "Wie Du aufhörst, Essen zu bestellen"
+    },
     "footer": {
       "brand": "What's For Dinner",
       "blog": "Blog",
+      "mealPlans": "Essenspläne",
       "privacy": "Datenschutz",
       "terms": "Bedingungen",
       "contact": "Kontakt",

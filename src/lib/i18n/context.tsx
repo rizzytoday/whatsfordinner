@@ -60,7 +60,15 @@ async function loadTranslation(locale: Locale): Promise<TranslationDict> {
 
 function detectLocale(): Locale {
   if (typeof window !== "undefined") {
-    // Check URL param first (from translated pSEO pages)
+    // Check URL path for locale prefix (e.g., /tr/, /es/)
+    const pathSegment = window.location.pathname.split("/").filter(Boolean)[0];
+    if (pathSegment && pathSegment in LANGUAGES && pathSegment !== "en") {
+      const pathLocale = pathSegment as Locale;
+      localStorage.setItem("wfd_lang", pathLocale);
+      return pathLocale;
+    }
+
+    // Check URL param (from translated pSEO pages)
     const urlLang = new URLSearchParams(window.location.search).get("lang") as Locale;
     if (urlLang && urlLang in LANGUAGES) {
       localStorage.setItem("wfd_lang", urlLang);

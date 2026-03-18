@@ -15,14 +15,14 @@
   },
   "landing": {
     "hero": {
-      "title": "qu'est-ce qu'on mange ce soir ?",
-      "subtitle": "La question la plus stressante de votre journée. Résolue.",
-      "description": "Vous passez plus de 3 heures par semaine à décider quoi manger, chercher des recettes et faire des listes de courses. On fait tout ça en 30 secondes.",
-      "tryCta": "Voyez votre premier plan gratuitement",
-      "noCreditCard": "— sans carte de crédit, sans engagement.",
-      "cta": "Fini le stress du dîner",
+      "title": "Votre semaine de repas,\nplanifiée en 30 secondes",
+      "subtitle": "Des menus personnalisés, des recettes et une liste de courses, livrés dans votre boîte mail chaque dimanche.",
+      "description": "Dites-nous ce que votre famille aime. On s'occupe du reste.\nChaque semaine, automatiquement.",
+      "tryCta": "",
+      "noCreditCard": "",
+      "cta": "Obtenez Votre Premier Plan Gratuit",
       "ctaLoggedIn": "Aller au Tableau de bord",
-      "subtext": "2 minutes pour tout configurer. Plus jamais besoin de penser aux repas."
+      "subtext": "Sans carte de crédit. Juste un petit quiz de goûts."
     },
     "social": {
       "mealsPlanned": "repas planifiés",
@@ -113,9 +113,35 @@
       "q7": "C'est seulement pour une personne ?",
       "a7": "Ça marche pour un, ça marche pour six. Vous indiquez la taille de votre foyer et on ajuste tout — les portions, les quantités de courses, tout le plan. Couples, familles, cuisiniers solo — tout est couvert."
     },
+    "popularPlans": {
+      "title": "Plans de Repas Populaires",
+      "subtitle": "Plans hebdomadaires personnalisés avec recettes et liste de courses, adaptés à votre régime.",
+      "seeAll": "Voir tous les plans de repas",
+      "keto": "Keto",
+      "mediterranean": "Méditerranéen",
+      "vegetarian": "Végétarien",
+      "vegan": "Végan",
+      "budget": "Petit Budget",
+      "highProtein": "Riche en Protéines",
+      "glutenFree": "Sans Gluten",
+      "quick30": "Repas en 30 Minutes",
+      "family": "Pour les Familles"
+    },
+    "guides": {
+      "title": "Guides et Astuces",
+      "subtitle": "Tout ce qu'il faut pour commencer à planifier vos repas et mieux manger chaque semaine.",
+      "readMore": "Lire la suite",
+      "beginners": "Planification de Repas pour Débutants",
+      "apps": "Meilleures Applis de Planification de Repas",
+      "budget": "Manger Sainement avec un Petit Budget",
+      "cheapMeals": "Repas Pas Chers pour Une Personne",
+      "families": "Planification de Repas pour les Familles",
+      "stopTakeout": "Comment Arrêter de Commander à Livrer"
+    },
     "footer": {
       "brand": "What's For Dinner",
       "blog": "Blog",
+      "mealPlans": "Plans de Repas",
       "privacy": "Confidentialité",
       "terms": "Conditions",
       "contact": "Contact",

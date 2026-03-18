@@ -1,23 +1,28 @@
+"use client";
+
 import Link from "next/link";
+import { useT } from "@/lib/i18n/context";
 
 const FEATURED_POSTS = [
-  { slug: "meal-planning-for-beginners", title: "Meal Planning for Beginners", emoji: "📋" },
-  { slug: "best-meal-planning-apps", title: "Best Meal Planning Apps", emoji: "📱" },
-  { slug: "eating-healthy-on-a-budget", title: "Eating Healthy on a Budget", emoji: "🥦" },
-  { slug: "cheap-meals-for-one", title: "Cheap Meals for One", emoji: "🍳" },
-  { slug: "meal-planning-for-families", title: "Meal Planning for Families", emoji: "👨‍👩‍👧" },
-  { slug: "how-to-stop-ordering-takeout", title: "How to Stop Ordering Takeout", emoji: "🚫" },
+  { slug: "meal-planning-for-beginners", titleKey: "landing.guides.beginners", emoji: "📋" },
+  { slug: "best-meal-planning-apps", titleKey: "landing.guides.apps", emoji: "📱" },
+  { slug: "eating-healthy-on-a-budget", titleKey: "landing.guides.budget", emoji: "🥦" },
+  { slug: "cheap-meals-for-one", titleKey: "landing.guides.cheapMeals", emoji: "🍳" },
+  { slug: "meal-planning-for-families", titleKey: "landing.guides.families", emoji: "👨‍👩‍👧" },
+  { slug: "how-to-stop-ordering-takeout", titleKey: "landing.guides.stopTakeout", emoji: "🚫" },
 ];
 
 export function GuidesAndTips() {
+  const { t } = useT();
+
   return (
     <section className="py-24 sm:py-32 border-t border-stone-100">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 text-center tracking-tight">
-          Guides & Tips
+          {t("landing.guides.title")}
         </h2>
         <p className="mt-4 text-stone-500 text-center text-lg max-w-xl mx-auto">
-          Everything you need to start meal planning and eat better every week.
+          {t("landing.guides.subtitle")}
         </p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -29,7 +34,7 @@ export function GuidesAndTips() {
             >
               <span className="text-xl shrink-0 mt-0.5">{post.emoji}</span>
               <span className="text-sm font-medium text-stone-700 group-hover:text-orange-600 transition-colors leading-snug">
-                {post.title}
+                {t(post.titleKey)}
               </span>
             </Link>
           ))}
@@ -40,7 +45,7 @@ export function GuidesAndTips() {
             href="/blog"
             className="inline-flex items-center gap-1 text-sm font-medium text-orange-600 hover:text-orange-700 transition-colors"
           >
-            Read more
+            {t("landing.guides.readMore")}
             <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>

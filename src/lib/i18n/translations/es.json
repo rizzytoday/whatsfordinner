@@ -15,14 +15,14 @@
   },
   "landing": {
     "hero": {
-      "title": "¿qué hay para cenar?",
-      "subtitle": "La pregunta más estresante de tu día. Resuelta.",
-      "description": "Pasas más de 3 horas a la semana decidiendo qué comer, buscando recetas y haciendo listas de compras. Nosotros lo hacemos todo en 30 segundos.",
-      "tryCta": "Mira tu primer plan gratis",
-      "noCreditCard": "— sin tarjeta de crédito, sin compromiso.",
-      "cta": "Acaba con el Estrés de la Cena",
+      "title": "Tu semana de comidas,\nplanificada en 30 segundos",
+      "subtitle": "Planes de comidas personalizados, recetas y lista de compras, en tu bandeja cada domingo.",
+      "description": "Cuéntanos qué le gusta a tu familia. Nosotros nos encargamos del resto.\nCada semana, automáticamente.",
+      "tryCta": "",
+      "noCreditCard": "",
+      "cta": "Obtén Tu Primer Plan Gratis",
       "ctaLoggedIn": "Ir al Panel",
-      "subtext": "2 minutos para configurar. No vuelvas a pensar en planificar comidas."
+      "subtext": "Sin tarjeta de crédito. Solo un rápido test de gustos."
     },
     "social": {
       "mealsPlanned": "comidas planificadas",
@@ -113,9 +113,35 @@
       "q7": "¿Esto es solo para una persona?",
       "a7": "Funciona para uno, funciona para seis. Tú defines el tamaño de tu hogar y ajustamos todo — porciones, cantidades de compras, el plan completo. Parejas, familias, cocineros solitarios — todos cubiertos."
     },
+    "popularPlans": {
+      "title": "Planes de Comidas Populares",
+      "subtitle": "Planes semanales personalizados con recetas y lista de compras, adaptados a tu dieta.",
+      "seeAll": "Ver todos los planes de comidas",
+      "keto": "Keto",
+      "mediterranean": "Mediterráneo",
+      "vegetarian": "Vegetariano",
+      "vegan": "Vegano",
+      "budget": "Económico",
+      "highProtein": "Alto en Proteínas",
+      "glutenFree": "Sin Gluten",
+      "quick30": "Comidas en 30 Minutos",
+      "family": "Para Familias"
+    },
+    "guides": {
+      "title": "Guías y Consejos",
+      "subtitle": "Todo lo que necesitas para empezar a planificar comidas y comer mejor cada semana.",
+      "readMore": "Leer más",
+      "beginners": "Planificación de Comidas para Principiantes",
+      "apps": "Mejores Apps para Planificar Comidas",
+      "budget": "Comer Saludable con Poco Presupuesto",
+      "cheapMeals": "Comidas Baratas para Uno",
+      "families": "Planificación de Comidas para Familias",
+      "stopTakeout": "Cómo Dejar de Pedir Delivery"
+    },
     "footer": {
       "brand": "What's For Dinner",
       "blog": "Blog",
+      "mealPlans": "Planes de Comidas",
       "privacy": "Privacidad",
       "terms": "Términos",
       "contact": "Contacto",
