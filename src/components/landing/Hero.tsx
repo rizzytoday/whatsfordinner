@@ -1,9 +1,33 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { useT } from "@/lib/i18n/context";
+
+// Slow count-up with ease-out deceleration (slot machine settling effect)
+function useCountUp(target: number, duration = 4000): number {
+  const [count, setCount] = useState(0);
+  const startedRef = useRef(false);
+
+  useEffect(() => {
+    if (target <= 0 || startedRef.current) return;
+    startedRef.current = true;
+
+    const start = performance.now();
+    function update(now: number) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      // Ease-out cubic — fast start, slow finish
+      const eased = 1 - Math.pow(1 - progress, 3);
+      setCount(Math.floor(eased * target));
+      if (progress < 1) requestAnimationFrame(update);
+    }
+    requestAnimationFrame(update);
+  }, [target, duration]);
+
+  return count;
+}
 
 type MealPeriod = "breakfast" | "lunch" | "dinner";
 
@@ -32,6 +56,7 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
   const period = getMealPeriod();
   const [userMeal, setUserMeal] = useState<NextMeal | null>(null);
   const [mealsCount, setMealsCount] = useState<number | null>(null);
+  const animatedCount = useCountUp(mealsCount ?? 0, 8000);
 
   // Fetch the user's actual next meal if signed in
   useEffect(() => {
@@ -119,8 +144,8 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
           )}
 
           {mealsCount !== null && (
-            <p className="text-[11px] sm:text-xs text-stone-400 tracking-wide">
-              {t("landing.hero.liveCounter", { count: mealsCount.toLocaleString() })}
+            <p className="text-[11px] sm:text-xs text-stone-400 tracking-wide tabular-nums">
+              {t("landing.hero.liveCounter", { count: animatedCount.toLocaleString() })}
             </p>
           )}
         </div>
