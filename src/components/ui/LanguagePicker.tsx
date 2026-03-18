@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { useRouter } from "next/navigation";
 import { useT, LANGUAGES, type Locale } from "@/lib/i18n/context";
 import { cn } from "@/lib/utils";
 
@@ -22,7 +21,6 @@ const LANG_FLAGS: Record<Locale, string> = {
 
 export function LanguagePicker() {
   const { locale } = useT();
-  const router = useRouter();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -65,13 +63,9 @@ export function LanguagePicker() {
               onClick={() => {
                 setOpen(false);
                 if (code === locale) return;
-                // Save preference and navigate to the locale homepage
-                localStorage.setItem("wfd_lang", code);
-                if (code === "en") {
-                  router.push("/");
-                } else {
-                  router.push(`/${code}`);
-                }
+                // Hard navigate to the locale homepage
+                // (soft navigation doesn't re-render server layouts)
+                window.location.href = code === "en" ? "/" : `/${code}`;
               }}
               className={cn(
                 "w-full text-left px-3 py-1.5 text-xs transition-colors",
