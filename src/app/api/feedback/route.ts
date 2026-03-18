@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Feedback system not configured." }, { status: 500 });
     }
 
-    await resend.emails.send({
+    const { data, error } = await resend.emails.send({
       from: "What's For Dinner <noreply@send.whatsfordinner.fit>",
       to: feedbackEmail,
       subject: "Feedback from whatsfordinner.fit",
@@ -41,7 +41,12 @@ export async function POST(req: NextRequest) {
       `,
     });
 
-    return NextResponse.json({ ok: true });
+    if (error) {
+      console.error("Resend error:", JSON.stringify(error));
+      return NextResponse.json({ error: "Failed to send feedback." }, { status: 500 });
+    }
+
+    return NextResponse.json({ ok: true, id: data?.id });
   } catch {
     console.error("Feedback send failed");
     return NextResponse.json({ error: "Something went wrong." }, { status: 500 });
