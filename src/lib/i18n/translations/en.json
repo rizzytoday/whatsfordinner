@@ -481,7 +481,7 @@
     "likelyAtHomeNote": "assuming you might have this"
   },
   "exitIntent": {
-    "title": "Wait — your free plan is ready",
+    "title": "Wait!\nYour free plan is ready",
     "subtitle": "Enter your email and we'll build a personalized 3-day meal plan with recipes and a grocery list. Free.",
     "emailPlaceholder": "you@example.com",
     "cta": "Get My Free Plan →",

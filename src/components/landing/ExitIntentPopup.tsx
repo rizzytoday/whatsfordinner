@@ -87,7 +87,7 @@ export function ExitIntentPopup({ isSignedIn }: { isSignedIn: boolean }) {
         {/* Decorative emoji */}
         <div className="text-5xl mb-4">🍽️</div>
 
-        <h2 className="text-2xl sm:text-3xl font-bold text-stone-900 tracking-tight">
+        <h2 className="text-2xl sm:text-3xl font-bold text-stone-900 tracking-tight whitespace-pre-line">
           {t("exitIntent.title")}
         </h2>
 
