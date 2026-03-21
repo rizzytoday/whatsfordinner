@@ -80,7 +80,7 @@ export interface Database {
       meal_plans: {
         Row: {
           id: string;
-          user_id: string;
+          user_id: string | null;
           week_of: string;
           plan_data: Json | null;
           regeneration_count: number;
@@ -90,7 +90,7 @@ export interface Database {
           updated_at: string;
         };
         Insert: {
-          user_id: string;
+          user_id?: string | null;
           week_of: string;
           plan_data?: Json;
           regeneration_count?: number;
