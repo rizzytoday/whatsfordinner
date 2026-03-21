@@ -58,6 +58,14 @@ const blogPosts = [
   { slug: "ai-vs-traditional-meal-planning", date: "2026-03-13" },
   { slug: "meal-planning-vs-doordash", date: "2026-03-13" },
   { slug: "meal-planning-vs-meal-prep", date: "2026-03-13" },
+  { slug: "5-ingredient-meals", date: "2026-03-18" },
+  { slug: "30-minute-dinners", date: "2026-03-18" },
+  { slug: "dinner-ideas-tonight", date: "2026-03-18" },
+  { slug: "grocery-list-template", date: "2026-03-18" },
+  { slug: "healthy-meal-plan-for-the-week", date: "2026-03-18" },
+  { slug: "high-protein-meals-on-a-budget", date: "2026-03-18" },
+  { slug: "how-to-start-meal-planning", date: "2026-03-18" },
+  { slug: "meal-prep-for-weight-loss", date: "2026-03-18" },
 ];
 
 // Sitemap IDs:
@@ -95,6 +103,12 @@ export default async function sitemap(props: { id: Promise<number> | number }): 
         url: `${BASE}/meal-plans`,
         lastModified: new Date("2026-03-18"),
         changeFrequency: "weekly",
+        priority: 0.9,
+      },
+      {
+        url: `${BASE}/pricing`,
+        lastModified: new Date("2026-03-18"),
+        changeFrequency: "monthly",
         priority: 0.9,
       },
       {
