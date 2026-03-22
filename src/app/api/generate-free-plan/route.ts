@@ -212,8 +212,20 @@ export async function POST(req: NextRequest) {
     // Record for stats + nurture tracking
     const admin = createAdminClient();
     const deliveryEmail = body.delivery_email?.trim();
+
+    // Extract meal summaries for nurture emails (just names, types, calories, cookTime)
+    const mealSummary = plan.days?.map((day: { day: string; meals: Array<{ name: string; type: string; calories: number; cookTime: number }> }) => ({
+      day: day.day,
+      meals: day.meals.map((m) => ({
+        name: m.name,
+        type: m.type,
+        calories: m.calories,
+        cookTime: m.cookTime,
+      })),
+    })) ?? [];
+
     const planDataForInsert = deliveryEmail && deliveryEmail.includes("@")
-      ? { nurture_email: deliveryEmail, nurture_sent: [] as string[] }
+      ? { nurture_email: deliveryEmail, nurture_sent: [] as string[], meals: mealSummary }
       : null;
     await admin
       .from("meal_plans")

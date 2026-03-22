@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { sendNurtureEmail, sendReferralReminderEmail } from "@/lib/nurture";
-import type { NurtureEmailType } from "@/lib/nurture";
+import type { NurtureEmailType, NurtureMealSummary } from "@/lib/nurture";
 import crypto from "crypto";
 
 const CRON_SECRET = process.env.CRON_SECRET?.trim();
@@ -95,7 +95,8 @@ export async function GET(req: NextRequest) {
         console.log(`Nurture cron: sending ${emailType} to ${email.replace(/(.{2}).*@/, "$1***@")} (${daysSinceCreated} days old)`);
 
         try {
-          await sendNurtureEmail(email, emailType);
+          const meals = (planData.meals as NurtureMealSummary[] | undefined) ?? undefined;
+          await sendNurtureEmail(email, emailType, meals);
 
           const updatedSent = [...nurtureSent, emailType];
           const updatedPlanData: Record<string, unknown> = {
