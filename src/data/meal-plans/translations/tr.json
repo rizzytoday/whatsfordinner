@@ -6672,5 +6672,626 @@
         "answer": "Düşük glisemik indeksli meyveler (yaban mersini, çilek, ahududu, yeşil elma, kiraz) küçük porsiyonlarda tüketilebilir. Muz, üzüm ve kuru meyveler kan şekerini hızlı yükselttiğinden dikkatli kullanılmalıdır."
       }
     ]
+  },
+  "15-minute-meal-plan": {
+    "title": "15 Dakikalık Yemek Planı — Acele Etmeden Hızlı Akşam Yemekleri",
+    "metaDescription": "15 dakikalık hızlı tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık yemek planı. 15 dakikada gerçek yemekler. Ücretsiz deneyin.",
+    "h1": "15 Dakikalık Yemek Planı — Gerçek Yemek, İnanılmaz Hızlı",
+    "intro": "On beş dakika yeterli. On beş dakika aktif pişirme artı yirmi dakika kaynatma değil — buzdolabını açtığınızdan tabakla oturduğunuz ana kadar toplam on beş dakika. Bunlar üzücü masa yemekleri ya da süslü atıştırmalıklar değil. Hızlı pişen proteinler, hazır malzemeler ve lezzetten ödün vermeden zaman kazandıran tekniklerle yapılmış gerçek akşam yemekleri.",
+    "valueProps": [
+      {
+        "heading": "Gerçekten 15 dakika",
+        "description": "Her tarifi buzdolabını açtığınız andan itibaren zamanlıyoruz. Gizli hazırlık yok, \"fırın ısınırken\" yok. 16 dakika sürüyorsa planda yeri yok."
+      },
+      {
+        "heading": "Hızlı proteinler, akıllı eşleştirmeler",
+        "description": "Karides 3 dakikada pişer. Yumurta 5 dakikada. İnce dilim tavuk 7 dakikada. Bunları anında hazır garnitürlerle eşleştiriyoruz."
+      },
+      {
+        "heading": "Beslenmeden sıfır taviz",
+        "description": "Her öğün protein, karbonhidrat ve sebze dengesini sağlar. Hızlı demek boş demek değildir. Sizi saatlerce tok tutan dengeli tabaklar."
+      },
+      {
+        "heading": "Hafta içi akşamları için tasarlandı",
+        "description": "Bu tarifler yorgun ve otopilotta olduğunuzu varsayar. Basit adımlar, minimum doğrama ve herhangi bir marketten bulabileceğiniz malzemeler."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Sarımsaklı Tereyağlı Karides ve Limonlu Kuskus",
+        "description": "Sarımsak tereyağında her tarafı 3 dakika kızartılmış karides. Kuskusun üzerine kaynar su dökün. Limon suyu, maydanoz ve kiraz domates ile karıştırın. 12 dakikada hazır.",
+        "tags": [
+          "15-dakika",
+          "yüksek-protein",
+          "tek-tava"
+        ]
+      },
+      {
+        "name": "Avokadolu Füme Somon Tostu",
+        "description": "Kızarmış ekmeğe ezilmiş avokado, füme somon, kapari, kırmızı soğan ve limon sıkışı. Beş dakika, sıfır pişirme.",
+        "tags": [
+          "15-dakika",
+          "pişirmesiz",
+          "yüksek-protein"
+        ]
+      },
+      {
+        "name": "Siyah Fasulye Tostada",
+        "description": "Kuru tavada kıtır mısır tortillası. Kimyon ve limeli ısıtılmış siyah fasulye. Marul, salsa, peynir ve krema ile üst üste dizin. 10 dakika.",
+        "tags": [
+          "15-dakika",
+          "vejetaryen",
+          "bütçe-dostu"
+        ]
+      },
+      {
+        "name": "Tavuk Teriyaki Pirinç Kasesi",
+        "description": "İnce dilim tavuk but sıcak tavada kızartılıp teriyaki sosuyla glazelenmiş. Mikrodalga pirinç, edamame ve turşu zencefil üzerinde servis.",
+        "tags": [
+          "15-dakika",
+          "yüksek-protein",
+          "hızlı"
+        ]
+      },
+      {
+        "name": "Pestolu Caprese Lavaş",
+        "description": "Naan ekmeğine pesto sürüp taze mozzarella ve kiraz domates dizin. 4 dakika ızgarada. Taze fesleğen ve balzamik sos ile tamamlayın.",
+        "tags": [
+          "15-dakika",
+          "vejetaryen",
+          "hızlı"
+        ]
+      },
+      {
+        "name": "Granolalı Yunan Yoğurdu Parfesi",
+        "description": "Yunan yoğurdu, bal, granola, karışık meyveler ve chia tohumu. Yüksek protein, sıfır pişirme, iki dakika.",
+        "tags": [
+          "15-dakika",
+          "pişirmesiz",
+          "yüksek-protein"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "15 dakikalık yemekler gerçekten doyurucu mu?",
+        "answer": "Evet. Hız doygunluğu belirlemez — makro besinler belirler. Öğünlerimiz her tabakta protein, kompleks karbonhidrat ve sebzeyi birleştirir; 400-600 kalori, yeterli protein ve lif."
+      },
+      {
+        "question": "Özel mutfak ekipmanına ihtiyacım var mı?",
+        "answer": "30 cm tava ve kesme tahtası bu tariflerin %90'ını karşılar. Pirinç ve sebzeler için mikrodalga yardımcı olur. Düdüklü tencere yok, airfryer yok."
+      },
+      {
+        "question": "Bunlar sadece sandviçler ve salatalar mı?",
+        "answer": "Kesinlikle hayır. Soteler, makarna, pirinç kaseleri, tostadalar, lavaşlar ve garnitürlü kızarmış proteinler bulacaksınız. Kısıtlama zaman, teknik değil."
+      },
+      {
+        "question": "Bu yemekleri önceden hazırlayabilir miyim?",
+        "answer": "Bazı bileşenler önceden hazırlanabilir ama bu tarifler ön hazırlığa gerek kalmayacak kadar hızlı olacak şekilde tasarlanmıştır. Mesele de bu zaten."
+      }
+    ]
+  },
+  "high-fiber-meal-plan": {
+    "title": "Yüksek Lifli Yemek Planı — Daha İyi Sindirim, Daha Fazla Enerji",
+    "metaDescription": "Lif açısından zengin tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık yüksek lifli yemek planı. Günlük 30g+ lif. Ücretsiz deneyin.",
+    "h1": "Yüksek Lifli Plan — Daha Tok, Daha İyi Sindirim",
+    "intro": "Çoğu insan ihtiyaç duyduğu lifin yarısını alıyor. Günde önerilen 25-30 gram, tipik bir diyetin yaklaşık 15 gram sağladığını fark edene kadar makul görünür. Fark şişkinlik, enerji düşüşleri ve yemekten sonraki o tatminsiz hisle kendini gösterir. Yüksek lifli bir yemek planı, her öğünü kepekli gevreğe çevirmeden bunu çözer.",
+    "valueProps": [
+      {
+        "heading": "Günlük 30+ gram, takviye yok",
+        "description": "Her günün öğünleri gerçek gıdalardan 30-40 gram life ulaşır. Mercimek çorbaları, fasulye salataları, yulaf ezmesi, tam tahıllı makarna ve kavurulmuş sebzeler işi yapar."
+      },
+      {
+        "heading": "Kademeli artış dahil",
+        "description": "15 gramdan 40 grama bir gecede atlamak şişkinliğe neden olur. Planlarımız ılımlı başlar ve kademeli olarak artarak bağırsak bakterilerinize uyum zamanı verir."
+      },
+      {
+        "heading": "Bağırsak dostu çeşitlilik",
+        "description": "Farklı lif kaynakları farklı bağırsak bakterilerini besler. Hafta boyunca çözünür ve çözünmez lif arasında dönüşümlü olarak çalışıyoruz."
+      },
+      {
+        "heading": "Saatlerce tok tutar",
+        "description": "Lif sindirimi yavaşlatır ve kan şekerini dengeler, bu da öğünlerin sizi çok daha uzun süre tok tutması anlamına gelir."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Chia, Meyve ve Cevizli Gece Yulaf Ezmesi",
+        "description": "Chia tohumlu gece yulaf ezmesi, karışık meyveler, kırılmış ceviz ve bir tutam bal ile. Evden çıkmadan 12 gram lif.",
+        "tags": [
+          "yüksek-lif",
+          "hazırlık-dostu",
+          "pişirmesiz"
+        ]
+      },
+      {
+        "name": "Mercimek ve Kavurulmuş Sebze Tahıl Kasesi",
+        "description": "Farro üzerinde yeşil mercimek, kavurulmuş tatlı patates, brokoli ve kırmızı soğan. Tahin-limon sosu. Kase başına 16 gram lif.",
+        "tags": [
+          "yüksek-lif",
+          "vegan",
+          "hazırlık-dostu"
+        ]
+      },
+      {
+        "name": "Siyah Fasulye ve Tatlı Patates Çili",
+        "description": "İki çeşit fasulye, küp tatlı patates, közlenmiş domates ve ısıtan baharatlar. Tam buğday ekmeğiyle. Porsiyon başına 18+ gram lif.",
+        "tags": [
+          "yüksek-lif",
+          "vegan",
+          "toplu-pişirme"
+        ]
+      },
+      {
+        "name": "Nohut ve Kinoa Dolgulu Biber",
+        "description": "Kinoa, nohut, ıspanak, kurutulmuş domates ve beyaz peynir karışımıyla doldurulmuş biberler. 25 dakika fırında. 14 gram lif.",
+        "tags": [
+          "yüksek-lif",
+          "vejetaryen",
+          "yüksek-protein"
+        ]
+      },
+      {
+        "name": "Badem Ezmeli ve Keten Tohumlu Elma Dilimleri",
+        "description": "Dilimlenmiş elma, badem ezmesi ve öğütülmüş keten tohumu ile. Basit, öğünler arasında 6 gram lif ekler.",
+        "tags": [
+          "yüksek-lif",
+          "pişirmesiz",
+          "hızlı"
+        ]
+      },
+      {
+        "name": "Beyaz Fasulye ve Kara Lahana Çorbası",
+        "description": "Cannellini fasulyesi, kara lahana, havuç ve sarımsak, biberiye ve parmezan ile pişirilmiş tavuk suyunda. Kase başına 13 gram lif.",
+        "tags": [
+          "yüksek-lif",
+          "yüksek-protein",
+          "rahatlatıcı"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Yüksek lifli diyet şişkinliğe neden olur mu?",
+        "answer": "Çok hızlı artırırsanız olabilir. Bu yüzden planlarımız 2-3 hafta içinde kademeli olarak artar. Çoğu insanın sindirimi uyum sürecinden sonra iyileşir."
+      },
+      {
+        "question": "Günde ne kadar lif yemeliyim?",
+        "answer": "Kadınlar için 25 gram, erkekler için 38 gram önerilir. Planlarımız günlük 30-40 gramı hedefler; bu çoğu yetişkin için optimal aralıktır."
+      },
+      {
+        "question": "Yeterli protein alabilir miyim?",
+        "answer": "Kesinlikle. Birçok yüksek lifli gıda aynı zamanda protein açısından da zengindir — mercimek, nohut, siyah fasulye, kinoa ve edamame. Tavuk, balık ve yumurta da dahil ediyoruz."
+      },
+      {
+        "question": "Lif kilo vermeye yardımcı olur mu?",
+        "answer": "Lif, en etkili doğal iştah düzenleyicilerinden biridir. Sindirimi yavaşlatır, kan şekerini dengeler ve sizi daha uzun süre tok tutar."
+      },
+      {
+        "question": "En iyi yüksek lifli gıdalar hangileri?",
+        "answer": "Mercimek (bardak başına 15g), siyah fasulye (15g), nohut (12g), ahududu (bardak başına 8g), avokado (tanesi 10g), yulaf (porsiyon başına 4g), chia tohumu (ons başına 10g) ve brokoli (bardak başına 5g)."
+      }
+    ]
+  },
+  "bodybuilding-meal-plan": {
+    "title": "Vücut Geliştirme Yemek Planı — Kazanımlarınızı Besleyin",
+    "metaDescription": "Yüksek proteinli tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık vücut geliştirme yemek planı. Her öğün tavuk pilav yemeden makrolarınızı tutturun. Ücretsiz deneyin.",
+    "h1": "Vücut Geliştirme Planı — Monotonluk Olmadan Makro Hedefi",
+    "intro": "Vücut geliştirme diyetinin bir imaj sorunu var. İnsanlar tatsız tavuk göğsü, beyaz pilav ve buharda brokoli düşünüyor — günde altı kez. Bu yaklaşım işe yarar ama sefil olduğu için kimse buna devam etmez. Kas yapmak için robot gibi yemek zorunda değilsiniz. Yeterli protein, doğru kalori fazlası veya açığı ve dördüncü öğünde bırakmak istememenizi sağlayacak kadar çeşitlilik yeterli.",
+    "valueProps": [
+      {
+        "heading": "Makro hesaplanmış öğünler",
+        "description": "Her tarif tam makro besin dağılımı içerir. Planlar vücut ağırlığı başına 1g protein hedefler; karbonhidrat ve yağlar mevcut fazınıza göre ayarlanır."
+      },
+      {
+        "heading": "Uyumu sürdüren çeşitlilik",
+        "description": "12 hafta zevkle yediğiniz bir plan, 10 günde bıraktığınız \"mükemmel\" planı yener. Proteinleri, karbonhidrat kaynaklarını ve tatları dönüşümlü kullanıyoruz."
+      },
+      {
+        "heading": "Hazırlık dostu",
+        "description": "Çoğu vücut geliştirmeci günde 4-6 öğün yer. Planlarımız Pazar günü toplu protein ve karbonhidrat pişirerek haftanın geri kalanını hazırlar."
+      },
+      {
+        "heading": "Kalori hedefinize uyum sağlar",
+        "description": "2.500 veya 4.000 kaloriye ihtiyacınız olsun, plan porsiyonları ayarlar. Hacim: daha fazla pirinç ve yağ. Kesim: daha yağsız protein ve daha fazla sebze."
+      },
+      {
+        "heading": "Zamana göre stratejik beslenme",
+        "description": "Antrenman öncesi hızlı karbonhidratlar. Antrenman sonrası protein ve ikmal karbonhidratları. Dinlenme günleri yağlar ve yavaş sindirilen gıdalar."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Hindi ve Yumurta Akı Karıştırması",
+        "description": "Kıyılmış hindi, yumurta akı, ıspanak, biber ve cheddar peynir. İki dilim Ezekiel ekmeği ile. 45g protein.",
+        "tags": [
+          "yüksek-protein",
+          "vücut-geliştirme",
+          "hızlı"
+        ]
+      },
+      {
+        "name": "Izgara Tavuk ve Tatlı Patates Kasesi",
+        "description": "Marine tavuk göğsü, kavurulmuş tatlı patates, esmer pirinç, brokoli ve avokado üzerinde. Tahin-limon sosu. 50g protein.",
+        "tags": [
+          "yüksek-protein",
+          "vücut-geliştirme",
+          "hazırlık-dostu"
+        ]
+      },
+      {
+        "name": "Yasemin Pirinçli ve Kuşkonmazlı Somon",
+        "description": "Soya-bal glazürlü kızarmış somon, yasemin pirinç ve kavurulmuş kuşkonmaz. Toparlanma için omega-3. 40g protein.",
+        "tags": [
+          "yüksek-protein",
+          "vücut-geliştirme",
+          "omega-3"
+        ]
+      },
+      {
+        "name": "Yağsız Dana Eti ve Noodle Sote",
+        "description": "İnce dilim dana eti wok'ta taze fasulye, mantar, sarımsak ve zencefil ile sotelenir. Soya sosu ve susamlı udon noodle ile. 42g protein.",
+        "tags": [
+          "yüksek-protein",
+          "vücut-geliştirme",
+          "hızlı"
+        ]
+      },
+      {
+        "name": "Ananaslı Süzme Peynir Kasesi",
+        "description": "Az yağlı süzme peynir, taze ananas ve bir tutam bal. 28g kazein — yavaş sindirilen protein, uyku öncesi için ideal.",
+        "tags": [
+          "yüksek-protein",
+          "pişirmesiz",
+          "hızlı"
+        ]
+      },
+      {
+        "name": "Proteinli Yulaf Pankek",
+        "description": "Yulaf, yumurta akı, muz ve protein tozu ile yapılan kabarık pankekler. Yunan yoğurdu ve meyvelerle. 38g protein.",
+        "tags": [
+          "yüksek-protein",
+          "vücut-geliştirme",
+          "hazırlık-dostu"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Günde ne kadar proteine ihtiyacım var?",
+        "answer": "Kanıta dayalı aralık vücut ağırlığı başına 0.7-1g'dır. 80 kg bir kişi için bu günde 126-180g demektir. Planlarımız varsayılan olarak pound başına 1g kullanır."
+      },
+      {
+        "question": "Dinlenme günlerinde farklı mı yemeliyim?",
+        "answer": "Hafifçe. Dinlenme günü öğünlerimiz hızlı karbonhidratları azaltır, yağları ve lifli sebzeleri artırır. Toplam protein aynı kalır."
+      },
+      {
+        "question": "Günde altı kez yemeden kas yapabilir miyim?",
+        "answer": "Evet. Son araştırmalar toplam günlük proteinin öğün sıklığından daha önemli olduğunu gösteriyor. Her biri 30-50g protein içeren üç-dört öğün yeterlidir."
+      },
+      {
+        "question": "Bu planı hacim ve kesim için nasıl kullanırım?",
+        "answer": "Hedefinizi belirtin. Hacim planları 300-500 ekstra kalori ekler. Kesim planları karbonhidratları azaltarak 300-500 kalori çıkarır. Tarifler aynı, sadece porsiyonlar değişir."
+      },
+      {
+        "question": "Takviyeler ne olacak?",
+        "answer": "Planlarımız makro ve mikro besin ihtiyaçlarınızı gerçek gıdayla karşılar. Kreatin monohidrat ve D vitamini tavsiye için yeterli kanıta sahip tek takviyelerdir."
+      }
+    ]
+  },
+  "pregnancy-meal-plan": {
+    "title": "Hamilelik Yemek Planı — İkisini de Zahmetsizce Besle",
+    "metaDescription": "Güvenli, besin açısından zengin tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık hamilelik yemek planı. Folik asit, demir, protein dahil. Ücretsiz deneyin.",
+    "h1": "Hamilelik Planı — İkisi İçin de Sağlıklı, Basitçe",
+    "intro": "Hamilelikte beslenme tavsiyeleri bunaltıcıdır. Bunu yeme, bundan daha fazla ye, bu takviyeleri al. Bu arada mide bulantısı, yorgunluk var ve kulağa hoş gelen tek şey kraker ve zencefilli su. Hamilelik yemek planı, her gün net bir cevapla gürültüyü keser: bugün ne ye, neden senin ve bebeğin için iyi, 30 dakikadan kısa sürede nasıl hazırlanır.",
+    "valueProps": [
+      {
+        "heading": "Temel besinler, her gün",
+        "description": "Folik asit, demir, kalsiyum, omega-3 ve kolin her günün yemeklerinde gıdalar aracılığıyla yer alır. Yapraklı yeşillikler, yumurta, somon, baklagiller ve süt ürünleri her tarife entegre edilmiştir."
+      },
+      {
+        "heading": "Sadece hamilelikte güvenli malzemeler",
+        "description": "Yüksek cıvalı balık yok, çiğ filiz yok, pastörize edilmemiş peynir yok. Her malzeme güncel kılavuzlara göre doğrulanmıştır."
+      },
+      {
+        "heading": "Sabah bulantısı seçenekleri",
+        "description": "İlk trimester planları zor sabahlar için hafif alternatifler içerir. Fıstık ezmeli kraker, zencefilli smoothie ve koku çıkarmayan soğuk yemekler."
+      },
+      {
+        "heading": "Trimestere göre ayarlanmış beslenme",
+        "description": "İlk trimester: folik asit ve bulantı yönetimi. İkinci: daha fazla kalori ve protein. Üçüncü: son dönem için demir ve kalsiyum."
+      },
+      {
+        "heading": "Eşinizin de seveceği yemekler",
+        "description": "Her akşam yemeği tüm ailenin tadını çıkarabileceği gerçek bir öğündür — prenatal vitamin tadında smoothie kasesi değil."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Ispanaklı ve Beyaz Peynirli Yumurta Muffini",
+        "description": "Sotelenmiş ıspanak, beyaz peynir ve kurutulmuş domates ile çırpılmış yumurta, muffin kalıbında pişirilir. 12 tane yapın, buzdolabında saklayın. Folik asit, protein ve kolin.",
+        "tags": [
+          "hamilelik-güvenli",
+          "yüksek-protein",
+          "hazırlık-dostu"
+        ]
+      },
+      {
+        "name": "Somon ve Avokado Esmer Pirinç Kasesi",
+        "description": "Fırında somon (düşük cıva, yüksek DHA), esmer pirinç üzerinde avokado, edamame, salatalık ve susamlı-zencefilli sos ile.",
+        "tags": [
+          "hamilelik-güvenli",
+          "omega-3",
+          "yüksek-protein"
+        ]
+      },
+      {
+        "name": "Mercimek ve Ispanak Körisi",
+        "description": "Kırmızı mercimek, hindistan cevizi sütünde ıspanak, domates ve hafif baharatlarla. Basmati pirinç üzerinde. Demir ve folik asit deposu.",
+        "tags": [
+          "hamilelik-güvenli",
+          "demir-açısından-zengin",
+          "vejetaryen"
+        ]
+      },
+      {
+        "name": "Hindi ve Beyaz Fasulye Çorbası",
+        "description": "Kıyılmış hindi, cannellini fasulyesi, kara lahana, havuç ve sarımsak, İtalyan otlarıyla hafif et suyunda. Protein, demir ve lif.",
+        "tags": [
+          "hamilelik-güvenli",
+          "yüksek-protein",
+          "toplu-pişirme"
+        ]
+      },
+      {
+        "name": "Cevizli ve Ballı Yunan Yoğurdu",
+        "description": "Tam yağlı Yunan yoğurdu, ceviz, bal ve yaban mersini ile. İki dakikalık atıştırmada kalsiyum, protein ve omega-3.",
+        "tags": [
+          "hamilelik-güvenli",
+          "pişirmesiz",
+          "kalsiyum-zengin"
+        ]
+      },
+      {
+        "name": "Zencefil-Muz Smoothie",
+        "description": "Dondurulmuş muz, taze zencefil, Yunan yoğurdu, badem ezmesi ve süt. Zencefil mide bulantısını yatıştırırken protein kan şekerini dengeler.",
+        "tags": [
+          "hamilelik-güvenli",
+          "bulantı-giderici",
+          "hızlı"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Hamilelikte ne kadar ekstra kaloriye ihtiyacım var?",
+        "answer": "İlk trimesterde yaklaşık sıfır ekstra, ikincide 340 ve üçüncüde 450. \"İki kişilik yemek\" bir efsane — daha çok 1.1 kişilik. Planlarımız kalorileri trimestere göre ayarlar."
+      },
+      {
+        "question": "Hangi yiyeceklerden kaçınmalıyım?",
+        "answer": "Yüksek cıvalı balık, çiğ veya az pişmiş et ve yumurta, pastörize edilmemiş süt ürünleri ve meyve suları, çiğ filizler ve aşırı kafein (limit 200mg/gün). Planlarımız otomatik olarak filtreler."
+      },
+      {
+        "question": "Hâlâ prenatal vitaminine ihtiyacım var mı?",
+        "answer": "Evet. Planlarımız gıdalar aracılığıyla prenatal besinleri maksimize etse de, takviye hâlâ güvence olarak önerilir. Plan ve vitamin takım arkadaşıdır, ikame değil."
+      },
+      {
+        "question": "İlk trimesterde hiçbir şey hazmedemiyorsam ne olur?",
+        "answer": "İlk trimester planlarımız bulantı alternatifleri içerir: fıstık ezmeli kraker, soğuk meyve, zencefil çayı ve sık küçük öğünler. Hayatta kalmak için yemek geçici olarak sorun değildir."
+      },
+      {
+        "question": "Gestasyonel diyabetimle bu planı takip edebilir miyim?",
+        "answer": "Standart planımız başlangıç noktası olabilir, ancak gestasyonel diyabet doktorunuz veya diyetisyeniniz rehberliğinde özel karbonhidrat yönetimi gerektirir."
+      }
+    ]
+  },
+  "diabetic-meal-plan": {
+    "title": "Diyabetik Yemek Planı — Lezzetli Şeker Kontrolü",
+    "metaDescription": "Düşük glisemik indeksli tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık diyabet yemek planı. Kan şekerini dengede tutan öğünler. Ücretsiz deneyin.",
+    "h1": "Diyabet Planı — Dengeli Şeker, Gerçek Lezzet",
+    "intro": "Diyabeti diyetle yönetmek, sevdiğiniz her şeyden vazgeçmek demek değildir. Enerjiyi yavaş salan gıdaları seçmek, karbonhidratları protein ve lifle eşleştirmek ve hangi yemeklerin kan şekerinizi dağ gibi inip çıkarmak yerine dengede tutacağını bilmek demektir. Zorluk teoriyi bilmek değil — Salı akşamı tüm gereksinimleri karşılayan ve yine de yemek isteyeceğiniz bir şey pişirmeyi bilmektir.",
+    "valueProps": [
+      {
+        "heading": "Tasarımdan düşük glisemik indeksli",
+        "description": "Her öğün düşük glisemik indeksli karbonhidratları önceliklendirir — beyaz patates yerine tatlı patates, beyaz pirinç yerine kinoa, tropikal meyve yerine çilek türleri."
+      },
+      {
+        "heading": "Kontrollü karbonhidrat porsiyonları",
+        "description": "Her öğün 30-45 gram karbonhidrat içerir, diyabet eğitmenlerin önerdiği aralıkta tutar."
+      },
+      {
+        "heading": "Her öğünde dengeli makrolar",
+        "description": "Glikoz emilimini yavaşlatmak için her öğünde protein ve sağlıklı yağlar. Tek başına meyve kan şekerini yükseltir. Aynı meyve kuruyemiş ve yoğurtla saatlerce enerji verir."
+      },
+      {
+        "heading": "Mahrumiyet yok",
+        "description": "Makarna (tam buğday, porsiyon kontrollü), ekmek (tam buğday, proteinle) ve tatlı (meyve bazlı, doğal tatlandırılmış) yiyeceksiniz. Plan, zaten sevdiğiniz yemeklerin akıllı versiyonlarını seçerek çalışır."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Sebzeli ve Peynirli Çırpılmış Yumurta, Tam Buğday Ekmeğinde",
+        "description": "Kabak, mantar ve cheddar peynirli çırpılmış yumurta, tam buğday ekmeği üzerinde. Yüksek protein, düşük glisemik, sadece 25g karbonhidrat.",
+        "tags": [
+          "diyabet-dostu",
+          "düşük-glisemik",
+          "yüksek-protein"
+        ]
+      },
+      {
+        "name": "Akdeniz Tavuk ve Kinoa Salatası",
+        "description": "Izgara tavuk, kinoa üzerinde salatalık, kiraz domates, kalamata zeytin ve limon vinegreti ile. 38g karbonhidrat, 42g protein.",
+        "tags": [
+          "diyabet-dostu",
+          "yüksek-protein",
+          "akdeniz"
+        ]
+      },
+      {
+        "name": "Fırında Morina, Brüksel Lahanası ve Tatlı Patates",
+        "description": "Otlu morina filetosu, Brüksel lahanası ve tatlı patates ile fırınlanmış. 35g karbonhidrat, lif ve omega-3 dolu.",
+        "tags": [
+          "diyabet-dostu",
+          "düşük-glisemik",
+          "tek-tepsi"
+        ]
+      },
+      {
+        "name": "Fıstık Ezmeli Hindi Marul Sarması",
+        "description": "Baharatlı kıyılmış hindi, rendelenmiş havuç ve salatalık, marul yapraklarında fıstık ezmesi-lime sosu ile. Çok düşük karbonhidrat.",
+        "tags": [
+          "diyabet-dostu",
+          "düşük-karbonhidrat",
+          "hızlı"
+        ]
+      },
+      {
+        "name": "Tarçınlı Kavrulmuş Badem",
+        "description": "Çiğ badem, tarçın, bir tutam tuz ve hindistan cevizi yağı. 12 dakika fırında. Kan şekerine neredeyse sıfır etki ile sağlıklı yağlar ve protein.",
+        "tags": [
+          "diyabet-dostu",
+          "düşük-karbonhidrat",
+          "toplu-pişirme"
+        ]
+      },
+      {
+        "name": "Tam Buğday Makarna, Hindi Bolonez Soslu",
+        "description": "Yağsız kıyılmış hindi, sarımsak, fesleğen ve kekikli domates sosunda. Ölçülü tam buğday spagetti, buharda taze fasulye ile. 42g karbonhidrat, 38g protein.",
+        "tags": [
+          "diyabet-dostu",
+          "yüksek-protein",
+          "rahatlatıcı"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Bu plan Tip 1 mi yoksa Tip 2 diyabet için mi?",
+        "answer": "Öncelikle Tip 2 diyabet ve prediyabet yönetimi için tasarlanmıştır. Tip 1 hastaları kullanabilir ancak endokrinologlarıyla insülin dozunu ayarlamalıdır."
+      },
+      {
+        "question": "Diyabetli biri için öğün başına kaç gram karbonhidrat?",
+        "answer": "Çoğu eğitmen öğün başına 45-60 gram önerir. Planlarımız çoğu kişi için iyi çalışan 30-45 gramlık muhafazakâr bir yaklaşım kullanır."
+      },
+      {
+        "question": "Diyabetli biri meyve yiyebilir mi?",
+        "answer": "Evet. Çilekgiller, elma ve armut düşük glisemik indeksli ve lif açısından zengindir. Anahtar meyveyi protein veya yağla eşleştirmektir."
+      },
+      {
+        "question": "Bu plan A1C düşürmeme yardımcı olur mu?",
+        "answer": "Diyet, A1C yönetimi için en güçlü araçlardan biridir. Birçok kullanıcı 2-3 aylık tutarlı diyet değişiklikleriyle iyileşmeler görür."
+      },
+      {
+        "question": "Bu planı takip ederek dışarıda yiyebilir miyim?",
+        "answer": "Elbette. İlkeler — karbonhidratları proteinle eşleştirmek, düşük glisemik seçenekleri tercih etmek, porsiyonları kontrol etmek — her restoranda geçerlidir."
+      }
+    ]
+  },
+  "clean-eating-meal-plan": {
+    "title": "Temiz Beslenme Yemek Planı — Gerçek Gıdalar, Komplikasyonsuz",
+    "metaDescription": "Tam gıda tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık temiz beslenme planı. İşlenmiş gıda yok, karmaşık kurallar yok. Ücretsiz deneyin.",
+    "h1": "Temiz Beslenme Planı — Gerçek Malzemeler, Gerçek Sonuçlar",
+    "intro": "Temiz yemek basittir: gıda gibi görünen gıdalar ye. Topraktan çıkmışsa, üzerinde yürümüşse veya denizde yüzmüşse, olur. Fişten daha uzun malzeme listesiyle bir fabrikada üretilmişse, olmaz. Makro saymak yok, gıda gruplarını elemek yok, özel ürünler almak yok. Sadece tam ve minimal işlenmiş malzemeler, sizi iyi hissettiren yemeklere dönüştürülmüş.",
+    "valueProps": [
+      {
+        "heading": "Tam gıdalar, minimum işleme",
+        "description": "Her malzeme annenizin annesinin tanıyacağı bir şey. Taze sebzeler, tam tahıllar, kaliteli proteinler, sağlıklı yağlar ve doğal tatlandırıcılar. Yapay koruyucu yok."
+      },
+      {
+        "heading": "Eleme yok, aşırılık yok",
+        "description": "Temiz beslenme keto, paleo veya vegan değildir. Karbonhidrat (tam tahıl), yağ (zeytinyağı, avokado), protein ve süt ürünleri yiyeceksiniz. Sadece ultra-işlenmiş gıdalar elenir."
+      },
+      {
+        "heading": "Ömür boyu sürdürülebilir",
+        "description": "Bu bir detoks veya 30 günlük meydan okuma değil. Abur cubur dışında hiçbir şey yasak olmadığı için kalıcı olarak işleyen bir yeme biçimi."
+      },
+      {
+        "heading": "Market çevresinden alışveriş listesi",
+        "description": "Listelerimiz sizi meyve-sebze, kasap, süt ürünleri ve toptan tahıl reyonlarında tutar. Orta koridorların %90'ını atlarsınız."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Poşe Yumurtalı Avokado Tostu",
+        "description": "Tam buğday ekşi maya ekmeği, avokado, iki poşe yumurta, kiraz domates ve pul tuz. Gerçek ekmek, gerçek yumurta, gerçek memnuniyet.",
+        "tags": [
+          "temiz-beslenme",
+          "tam-gıda",
+          "yüksek-protein"
+        ]
+      },
+      {
+        "name": "Izgara Tavuk ve Kavurulmuş Sebzeler",
+        "description": "Zeytinyağı, limon ve kekik ile marine tavuk göğsü, kavurulmuş kabak, biber ve tatlı patates ile. Sıfır işlenmiş malzeme.",
+        "tags": [
+          "temiz-beslenme",
+          "tam-gıda",
+          "yüksek-protein"
+        ]
+      },
+      {
+        "name": "Vahşi Somon, Kinoa ve Brokoli",
+        "description": "Kinoa üzerinde dereotu, limon kabuğu rendesi ve kavrulmuş çam fıstığıyla kızartılmış somon. Limon ve zeytinyağıyla buharda brokoli.",
+        "tags": [
+          "temiz-beslenme",
+          "omega-3",
+          "yüksek-protein"
+        ]
+      },
+      {
+        "name": "Ev Yapımı Hindi ve Siyah Fasulye Çili",
+        "description": "Kıyılmış hindi, siyah fasulye, domates, soğan, sarımsak ve baharatlar. Hazır çili konservesi veya baharat paketi yok. Yunan yoğurdu ve kişniş ile.",
+        "tags": [
+          "temiz-beslenme",
+          "toplu-pişirme",
+          "yüksek-protein"
+        ]
+      },
+      {
+        "name": "Ev Yapımı Karışık Kuruyemiş",
+        "description": "Badem, ceviz, şekersiz kuru kızılcık, %85 bitter çikolata ve kabak çekirdeği. 2 dakikada evde karıştırılır.",
+        "tags": [
+          "temiz-beslenme",
+          "pişirmesiz",
+          "tam-gıda"
+        ]
+      },
+      {
+        "name": "Tatlı Patates ve Kara Lahana Hash, Yumurtalı",
+        "description": "Küp tatlı patates, hindistan cevizi yağında kara lahana, kırmızı soğan ve füme biberi ile kızartılmış. Üzerine iki yumurta.",
+        "tags": [
+          "temiz-beslenme",
+          "tam-gıda",
+          "yüksek-protein"
+        ]
+      },
+      {
+        "name": "Akdeniz Ton Balığı Salatası",
+        "description": "Doğal ton balığı, zeytinyağı, kereviz, kırmızı soğan, kapari ve limon ile karıştırılmış. Yeşillikler üzerinde salatalık ve kiraz domates ile.",
+        "tags": [
+          "temiz-beslenme",
+          "pişirmesiz",
+          "yüksek-protein"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "\"İşlenmiş\" gıda olarak ne sayılır?",
+        "answer": "Katkı maddeleriyle dolu uzun malzeme listesine sahip ultra-işlenmiş gıdalarda çizgiyi çekiyoruz. Zeytinyağı, peynir, konserve fasulye ve dondurulmuş sebzeler gibi minimal işlenmiş gıdalar sorun değil."
+      },
+      {
+        "question": "Temiz beslenme organikle aynı şey mi?",
+        "answer": "Hayır. Temiz beslenme ultra-işlenmiş gıdalardan kaçınmakla ilgilidir, organik sertifikasyonla değil. Geleneksel ürünler, normal tavuk ve organik olmayan süt ürünleri tam gıda ise temizdir."
+      },
+      {
+        "question": "Temiz beslenmeyle kilo verebilir miyim?",
+        "answer": "Birçok kişi tam gıdalara geçtiğinde doğal olarak kilo verir çünkü ultra-işlenmiş gıdalar tokluk sinyallerinizi bastıracak şekilde tasarlanmıştır."
+      },
+      {
+        "question": "Temiz beslenme daha mı pahalı?",
+        "answer": "Olabilir ama olmak zorunda değil. Fasulye, mercimek, yulaf, yumurta, bütün tavuk, dondurulmuş sebzeler ve mevsim ürünleri ekonomik ve temizdir."
+      }
+    ]
   }
 }
