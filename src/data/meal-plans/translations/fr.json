@@ -6709,5 +6709,630 @@
         "answer": "Avec moderation, oui. Nous utilisons des portions controlees de pates et de pain a base de cereales completes ou de legumineuses, toujours accompagnes de proteines et de lipides pour ralentir l'absorption du glucose. Un quart de tasse de pates completes dans un repas equilibre a un impact glycemique tres different d'un grand bol de pates blanches seules."
       }
     ]
+  },
+  "15-minute-meal-plan": {
+    "title": "Plan Repas 15 Minutes — Des Vrais Dîners Ultra-Rapides",
+    "metaDescription": "Plan repas hebdomadaire personnalisé en 15 minutes avec recettes rapides et liste de courses. De vrais repas en 15 minutes chrono. Essai gratuit.",
+    "h1": "Plan Repas 15 Minutes — De Vrais Plats, Incroyablement Vite",
+    "intro": "Quinze minutes suffisent. Pas quinze minutes de cuisson active plus vingt minutes de repos — quinze minutes au total, de l'ouverture du frigo au moment où vous vous asseyez. Ce ne sont ni des repas de bureau tristes ni des en-cas déguisés. Ce sont de vrais dîners construits autour de protéines à cuisson rapide, d'ingrédients prêts à l'emploi et de techniques qui font gagner du temps sans sacrifier la saveur.",
+    "valueProps": [
+      {
+        "heading": "Vraiment 15 minutes",
+        "description": "Chaque recette est chronométrée dès l'ouverture du frigo. Pas de préparation cachée, pas de 'pendant que le four préchauffe'. Si ça prend 16 minutes, ce n'est pas dans le plan."
+      },
+      {
+        "heading": "Protéines rapides, associations malines",
+        "description": "Les crevettes cuisent en 3 minutes. Les œufs en 5. Le poulet émincé en 7. On les associe avec des accompagnements instantanés pour que tout le repas arrive en même temps."
+      },
+      {
+        "heading": "Zéro compromis nutritionnel",
+        "description": "Chaque repas équilibre protéines, glucides et légumes. Rapide ne veut pas dire vide. Des assiettes complètes qui rassasient pendant des heures."
+      },
+      {
+        "heading": "Conçus pour les soirs de semaine",
+        "description": "Ces recettes partent du principe que vous êtes fatigué et en pilote automatique. Étapes simples, minimum de découpe, ingrédients trouvables partout."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Crevettes au Beurre d'Ail et Couscous Citronné",
+        "description": "Crevettes saisies au beurre d'ail 3 minutes par côté. Pendant ce temps, versez l'eau bouillante sur le couscous. Mélangez avec citron, persil et tomates cerises. Prêt en 12 minutes.",
+        "tags": [
+          "15-minutes",
+          "riche-en-protéines",
+          "une-poêle"
+        ]
+      },
+      {
+        "name": "Toast au Saumon Fumé et Avocat",
+        "description": "Pain grillé avec avocat écrasé, saumon fumé, câpres, oignon rouge et citron. Cinq minutes, zéro cuisson.",
+        "tags": [
+          "15-minutes",
+          "sans-cuisson",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Tostadas aux Haricots Noirs",
+        "description": "Tortillas croustillantes à la poêle sèche. Haricots noirs au cumin et citron vert. Garnies de laitue, pico de gallo et fromage. 10 minutes.",
+        "tags": [
+          "15-minutes",
+          "végétarien",
+          "économique"
+        ]
+      },
+      {
+        "name": "Bol Poulet Teriyaki au Riz",
+        "description": "Poulet émincé saisi et glacé au teriyaki. Sur riz au micro-ondes avec edamame et gingembre mariné.",
+        "tags": [
+          "15-minutes",
+          "riche-en-protéines",
+          "rapide"
+        ]
+      },
+      {
+        "name": "Flatbread Caprese au Pesto",
+        "description": "Pesto sur pain naan, mozzarella fraîche et tomates cerises. Au grill 4 minutes. Basilic frais et vinaigre balsamique.",
+        "tags": [
+          "15-minutes",
+          "végétarien",
+          "rapide"
+        ]
+      },
+      {
+        "name": "Parfait Yaourt Grec et Granola",
+        "description": "Yaourt grec avec miel, granola, fruits rouges et graines de chia. Riche en protéines, zéro cuisson, deux minutes.",
+        "tags": [
+          "15-minutes",
+          "sans-cuisson",
+          "riche-en-protéines"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Les repas en 15 minutes sont-ils vraiment rassasiants ?",
+        "answer": "Oui. La vitesse ne détermine pas la satiété — les macronutriments oui. Nos repas combinent protéines, glucides complexes et légumes dans chaque assiette, pour 400-600 calories."
+      },
+      {
+        "question": "Ai-je besoin d'équipement spécial ?",
+        "answer": "Une poêle de 30 cm et une planche à découper couvrent 90% de ces recettes. Un micro-ondes aide pour le riz et les légumes vapeur. Pas de cocotte-minute, pas de friteuse sans huile."
+      },
+      {
+        "question": "Ce ne sont que des sandwichs et des salades ?",
+        "answer": "Pas du tout. Vous aurez des sautés, des pâtes, des bols de riz, des tostadas, des flatbreads et des protéines saisies avec des accompagnements."
+      },
+      {
+        "question": "Puis-je les préparer à l'avance ?",
+        "answer": "Certains éléments se préparent bien à l'avance, mais ces recettes sont conçues pour être assez rapides sans préparation préalable. C'est tout l'intérêt."
+      }
+    ]
+  },
+  "high-fiber-meal-plan": {
+    "title": "Plan Repas Riche en Fibres — Meilleure Digestion, Plus d'Énergie",
+    "metaDescription": "Plan repas hebdomadaire riche en fibres avec recettes et liste de courses. 30g+ de fibres par jour pour une meilleure digestion. Essai gratuit.",
+    "h1": "Plan Riche en Fibres — Plus de Satiété, Meilleure Digestion",
+    "intro": "La plupart des gens mangent moitié moins de fibres qu'il ne faudrait. Les 25-30 grammes recommandés semblent gérables jusqu'à ce que vous réalisiez qu'un régime typique n'en apporte que 15. Le déficit se traduit par des ballonnements, des baisses d'énergie et cette sensation de ne jamais être vraiment rassasié. Un plan riche en fibres corrige ça sans transformer chaque repas en bol de céréales au son.",
+    "valueProps": [
+      {
+        "heading": "30+ grammes par jour, sans suppléments",
+        "description": "Chaque journée totalise 30-40 grammes de fibres issues d'aliments réels. Soupes de lentilles, salades de haricots, flocons d'avoine et légumes rôtis font le travail."
+      },
+      {
+        "heading": "Montée progressive intégrée",
+        "description": "Passer de 15g à 40g du jour au lendemain provoque des ballonnements. Nos plans démarrent modérément et augmentent progressivement."
+      },
+      {
+        "heading": "Variété pour l'intestin",
+        "description": "Différentes sources de fibres nourrissent différentes bactéries intestinales. Nous alternons fibres solubles et insolubles tout au long de la semaine."
+      },
+      {
+        "heading": "Rassasiant pendant des heures",
+        "description": "Les fibres ralentissent la digestion et stabilisent la glycémie, ce qui veut dire que les repas vous satisfont bien plus longtemps."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Overnight Oats aux Graines de Chia et Fruits Rouges",
+        "description": "Flocons d'avoine trempés toute la nuit avec graines de chia, fruits rouges, noix et miel. 12 grammes de fibres avant de partir.",
+        "tags": [
+          "riche-en-fibres",
+          "préparation-avance",
+          "sans-cuisson"
+        ]
+      },
+      {
+        "name": "Bol de Lentilles et Légumes Rôtis",
+        "description": "Lentilles vertes sur épeautre avec patate douce rôtie, brocoli et oignon rouge. Sauce tahini-citron. 16 grammes de fibres.",
+        "tags": [
+          "riche-en-fibres",
+          "végan",
+          "meal-prep"
+        ]
+      },
+      {
+        "name": "Chili aux Haricots Noirs et Patate Douce",
+        "description": "Deux sortes de haricots, patate douce, tomates grillées et épices réconfortantes. Avec un petit pain complet. Plus de 18 grammes de fibres.",
+        "tags": [
+          "riche-en-fibres",
+          "végan",
+          "cuisine-en-lot"
+        ]
+      },
+      {
+        "name": "Poivrons Farcis Pois Chiches et Quinoa",
+        "description": "Poivrons garnis de quinoa, pois chiches, épinards, tomates séchées et feta. Au four 25 minutes. 14 grammes de fibres.",
+        "tags": [
+          "riche-en-fibres",
+          "végétarien",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Pomme au Beurre d'Amande et Graines de Lin",
+        "description": "Tranches de pomme avec beurre d'amande et graines de lin moulues. Simple, croquant, 6 grammes de fibres en plus.",
+        "tags": [
+          "riche-en-fibres",
+          "sans-cuisson",
+          "rapide"
+        ]
+      },
+      {
+        "name": "Soupe Haricots Blancs et Chou Frisé",
+        "description": "Haricots blancs, chou frisé, carottes et ail dans un bouillon au romarin et parmesan. 13 grammes de fibres par bol.",
+        "tags": [
+          "riche-en-fibres",
+          "riche-en-protéines",
+          "réconfortant"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Un régime riche en fibres va-t-il me faire gonfler ?",
+        "answer": "Ça peut si vous augmentez trop vite. C'est pourquoi nos plans montent progressivement sur 2-3 semaines. La plupart des gens voient leur digestion s'améliorer après la période d'adaptation."
+      },
+      {
+        "question": "Combien de fibres par jour dois-je manger ?",
+        "answer": "25 grammes pour les femmes et 38 pour les hommes sont recommandés. Nos plans visent 30-40 grammes, la fourchette optimale pour la plupart des adultes."
+      },
+      {
+        "question": "Puis-je avoir assez de protéines ?",
+        "answer": "Bien sûr. Beaucoup d'aliments riches en fibres sont aussi riches en protéines — lentilles, pois chiches, haricots noirs, quinoa et edamame. Nous incluons aussi poulet, poisson et œufs."
+      },
+      {
+        "question": "Les fibres aident-elles à perdre du poids ?",
+        "answer": "Les fibres sont l'un des régulateurs naturels d'appétit les plus efficaces. Elles ralentissent la digestion, stabilisent la glycémie et procurent une satiété durable."
+      },
+      {
+        "question": "Quels sont les meilleurs aliments riches en fibres ?",
+        "answer": "Lentilles (15g par tasse), haricots noirs (15g), pois chiches (12g), framboises (8g par tasse), avocat (10g pièce), flocons d'avoine (4g par portion), graines de chia (10g par once)."
+      }
+    ]
+  },
+  "bodybuilding-meal-plan": {
+    "title": "Plan Repas Musculation — Alimentez Vos Gains",
+    "metaDescription": "Plan repas musculation personnalisé avec recettes hyperprotéinées et liste de courses. Atteignez vos macros sans manger poulet-riz à chaque repas. Essai gratuit.",
+    "h1": "Plan Musculation — Atteignez Vos Macros Sans la Monotonie",
+    "intro": "Le régime musculation a un problème d'image. Les gens imaginent du blanc de poulet fade, du riz nature et du brocoli vapeur six fois par jour. Cette approche fonctionne mais personne ne la tient parce que c'est l'ennui total. Vous n'avez pas besoin de manger comme un robot pour prendre du muscle. Il vous faut assez de protéines, le bon surplus ou déficit calorique, et assez de variété pour ne pas abandonner au quatrième repas.",
+    "valueProps": [
+      {
+        "heading": "Repas calculés en macros",
+        "description": "Chaque recette inclut le détail complet des macronutriments. Les plans visent 1g de protéines par livre de poids corporel avec glucides et lipides ajustés à votre phase."
+      },
+      {
+        "heading": "De la variété pour rester constant",
+        "description": "Un plan que vous aimez manger pendant 12 semaines bat un plan 'parfait' abandonné après 10 jours. Nous alternons protéines, glucides et saveurs."
+      },
+      {
+        "heading": "Optimisé pour le meal prep",
+        "description": "La plupart des pratiquants mangent 4-6 repas par jour. Nos plans cuisent protéines et glucides en lot le dimanche pour toute la semaine."
+      },
+      {
+        "heading": "S'adapte à votre objectif calorique",
+        "description": "Que vous ayez besoin de 2 500 ou 4 000 calories, le plan ajuste les portions. Prise de masse : plus de riz et de lipides. Sèche : protéines plus maigres."
+      },
+      {
+        "heading": "Timing nutritionnel stratégique",
+        "description": "Repas pré-entraînement avec glucides rapides. Post-entraînement avec protéines et glucides de recharge. Jours de repos avec lipides et aliments à digestion lente."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Brouillarde Dinde et Blancs d'Œufs",
+        "description": "Dinde hachée sautée avec blancs d'œufs, épinards, poivrons et cheddar. Avec deux tranches de pain Ezekiel. 45g de protéines.",
+        "tags": [
+          "hyperprotéiné",
+          "musculation",
+          "rapide"
+        ]
+      },
+      {
+        "name": "Bol Poulet Grillé et Patate Douce",
+        "description": "Blanc de poulet mariné sur patate douce rôtie, riz complet, brocoli et avocat. Sauce citron-tahini. 50g de protéines.",
+        "tags": [
+          "hyperprotéiné",
+          "musculation",
+          "meal-prep"
+        ]
+      },
+      {
+        "name": "Saumon et Riz Jasmin aux Asperges",
+        "description": "Saumon poêlé glacé soja-miel, riz jasmin et asperges rôties. Oméga-3 pour la récupération. 40g de protéines.",
+        "tags": [
+          "hyperprotéiné",
+          "musculation",
+          "oméga-3"
+        ]
+      },
+      {
+        "name": "Sauté de Bœuf Maigre aux Nouilles",
+        "description": "Rumsteck émincé sauté au wok avec pois gourmands, champignons, ail et gingembre. Nouilles udon sauce soja-sésame. 42g de protéines.",
+        "tags": [
+          "hyperprotéiné",
+          "musculation",
+          "rapide"
+        ]
+      },
+      {
+        "name": "Bol Fromage Blanc et Ananas",
+        "description": "Fromage blanc allégé avec ananas frais et miel. 28g de caséine — protéine à digestion lente, parfaite avant le coucher.",
+        "tags": [
+          "hyperprotéiné",
+          "sans-cuisson",
+          "rapide"
+        ]
+      },
+      {
+        "name": "Pancakes Protéinés à l'Avoine",
+        "description": "Flocons d'avoine, blancs d'œufs, banane et poudre protéinée en pancakes moelleux. Avec yaourt grec et fruits rouges. 38g de protéines.",
+        "tags": [
+          "hyperprotéiné",
+          "musculation",
+          "meal-prep"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "De combien de protéines ai-je besoin par jour ?",
+        "answer": "La fourchette validée scientifiquement est de 0,7-1g par livre de poids corporel. Pour une personne de 80 kg, c'est 126-180g par jour. Nos plans utilisent 1g par livre par défaut."
+      },
+      {
+        "question": "Dois-je manger différemment les jours de repos ?",
+        "answer": "Légèrement. Les repas de jour de repos réduisent les glucides rapides au profit de lipides et légumes fibreux. Les protéines totales restent identiques."
+      },
+      {
+        "question": "Puis-je prendre du muscle sans manger six fois par jour ?",
+        "answer": "Oui. Les recherches récentes montrent que la quantité totale de protéines compte plus que la fréquence des repas. Trois à quatre repas avec 30-50g de protéines chacun suffisent."
+      },
+      {
+        "question": "Comment utiliser ce plan en prise de masse vs. sèche ?",
+        "answer": "Indiquez votre objectif. Les plans prise de masse ajoutent 300-500 calories. Les plans sèche en retirent autant en réduisant les glucides. Les recettes restent les mêmes, seules les portions changent."
+      },
+      {
+        "question": "Et les compléments alimentaires ?",
+        "answer": "Nos plans couvrent vos besoins en macro et micronutriments avec de la vraie nourriture. Créatine monohydrate et vitamine D sont les seuls suppléments avec suffisamment de preuves pour être recommandés."
+      }
+    ]
+  },
+  "pregnancy-meal-plan": {
+    "title": "Plan Repas Grossesse — Nourrir Deux Sans Stress",
+    "metaDescription": "Plan repas grossesse personnalisé avec recettes sûres et riches en nutriments, et liste de courses. Folate, fer, protéines couverts. Essai gratuit.",
+    "h1": "Plan Grossesse — Bien Manger pour Deux, Simplement",
+    "intro": "Les conseils nutritionnels pendant la grossesse sont accablants. Ne mange pas ci, mange plus de ça, prends ces compléments. Entre-temps, vous avez des nausées, vous êtes épuisée et la seule chose qui vous tente, ce sont des crackers et du gingembre. Un plan repas grossesse coupe court au bruit avec une réponse claire chaque jour : voici quoi manger, pourquoi c'est bon pour vous et bébé, et comment le préparer en moins de 30 minutes.",
+    "valueProps": [
+      {
+        "heading": "Nutriments essentiels, chaque jour",
+        "description": "Folate, fer, calcium, oméga-3 et choline dans chaque journée via les aliments. Légumes verts, œufs, saumon, légumineuses et produits laitiers intégrés dans les recettes."
+      },
+      {
+        "heading": "Uniquement des ingrédients sûrs",
+        "description": "Pas de poissons à haute teneur en mercure, pas de germes crus, pas de fromages au lait cru. Chaque ingrédient est vérifié selon les recommandations actuelles."
+      },
+      {
+        "heading": "Options anti-nausées",
+        "description": "Les plans du premier trimestre incluent des alternatives douces : crackers au beurre de cacahuète, smoothies au gingembre et plats froids sans odeurs de cuisson."
+      },
+      {
+        "heading": "Nutrition ajustée par trimestre",
+        "description": "Premier trimestre : folate et gestion des nausées. Deuxième : plus de calories et protéines. Troisième : fer et calcium pour la dernière ligne droite."
+      },
+      {
+        "heading": "Des repas que votre conjoint aimera aussi",
+        "description": "Chaque dîner est un vrai repas pour toute la famille, pas un smoothie bowl aux vitamines prénatales."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Muffins aux Œufs, Épinards et Feta",
+        "description": "Œufs battus avec épinards sautés, feta et tomates séchées cuits au four dans un moule à muffins. Préparez-en 12 pour la semaine. Folate, protéines et choline.",
+        "tags": [
+          "grossesse-sûr",
+          "riche-en-protéines",
+          "préparation-avance"
+        ]
+      },
+      {
+        "name": "Bol Saumon Avocat sur Riz Complet",
+        "description": "Saumon cuit (faible mercure, riche en DHA) sur riz complet avec avocat, edamame, concombre et vinaigrette sésame-gingembre.",
+        "tags": [
+          "grossesse-sûr",
+          "oméga-3",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Curry de Lentilles aux Épinards",
+        "description": "Lentilles corail dans du lait de coco avec épinards, tomates et épices douces. Sur riz basmati. Fer et folate à gogo.",
+        "tags": [
+          "grossesse-sûr",
+          "riche-en-fer",
+          "végétarien"
+        ]
+      },
+      {
+        "name": "Soupe Dinde et Haricots Blancs",
+        "description": "Dinde hachée, haricots blancs, chou frisé, carottes et ail en bouillon léger aux herbes italiennes.",
+        "tags": [
+          "grossesse-sûr",
+          "riche-en-protéines",
+          "cuisine-en-lot"
+        ]
+      },
+      {
+        "name": "Yaourt Grec aux Noix et Miel",
+        "description": "Yaourt grec entier avec noix, miel et myrtilles. Calcium, protéines et oméga-3 en deux minutes.",
+        "tags": [
+          "grossesse-sûr",
+          "sans-cuisson",
+          "riche-en-calcium"
+        ]
+      },
+      {
+        "name": "Smoothie Gingembre-Banane",
+        "description": "Banane congelée, gingembre frais, yaourt grec, beurre d'amande et lait. Le gingembre calme les nausées tandis que les protéines stabilisent la glycémie.",
+        "tags": [
+          "grossesse-sûr",
+          "anti-nausées",
+          "rapide"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Combien de calories en plus pendant la grossesse ?",
+        "answer": "Environ zéro supplémentaire au premier trimestre, 340 au deuxième et 450 au troisième. 'Manger pour deux' est un mythe — c'est plutôt manger pour 1,1."
+      },
+      {
+        "question": "Quels aliments éviter ?",
+        "answer": "Poissons à haute teneur en mercure, viandes et œufs crus ou insuffisamment cuits, produits laitiers et jus non pasteurisés, charcuterie non réchauffée, germes crus et excès de caféine (limite 200 mg/jour)."
+      },
+      {
+        "question": "Ai-je encore besoin de vitamines prénatales ?",
+        "answer": "Oui. Nos plans maximisent les nutriments via l'alimentation, mais une vitamine prénatale reste recommandée en complément. Le plan et la vitamine sont coéquipiers."
+      },
+      {
+        "question": "Et si je ne garde rien au premier trimestre ?",
+        "answer": "Nos plans du premier trimestre incluent des alternatives anti-nausées : crackers au beurre de cacahuète, fruits froids, tisane de gingembre et petits repas fréquents."
+      },
+      {
+        "question": "Puis-je suivre ce plan avec un diabète gestationnel ?",
+        "answer": "Notre plan standard peut servir de base, mais le diabète gestationnel nécessite une gestion spécifique des glucides encadrée par votre obstétricien ou diététicien."
+      }
+    ]
+  },
+  "diabetic-meal-plan": {
+    "title": "Plan Repas Diabétique — Glycémie Stable, Vrai Goût",
+    "metaDescription": "Plan repas diabétique personnalisé avec recettes à faible index glycémique et liste de courses. Des repas qui stabilisent la glycémie. Essai gratuit.",
+    "h1": "Plan Diabétique — Glycémie Équilibrée, Saveurs Intactes",
+    "intro": "Gérer le diabète par l'alimentation ne signifie pas renoncer à tout ce qui vous plaît. Cela signifie choisir des aliments qui libèrent l'énergie lentement, associer glucides, protéines et fibres, et savoir quels repas maintiendront votre glycémie stable. Le défi n'est pas la théorie — c'est de savoir quoi cuisiner un mardi soir qui coche toutes les cases et qui a bon goût.",
+    "valueProps": [
+      {
+        "heading": "Faible index glycémique par conception",
+        "description": "Chaque repas privilégie les glucides à faible IG — patate douce plutôt que pomme de terre blanche, quinoa plutôt que riz blanc, fruits rouges plutôt que fruits tropicaux."
+      },
+      {
+        "heading": "Portions de glucides contrôlées",
+        "description": "Chaque repas contient 30-45 grammes de glucides, dans la fourchette recommandée par les éducateurs en diabète."
+      },
+      {
+        "heading": "Macros équilibrés à chaque repas",
+        "description": "Protéines et bonnes graisses à chaque repas pour ralentir l'absorption du glucose. Un fruit seul fait monter la glycémie. Ce même fruit avec des noix et du yaourt libère l'énergie sur des heures."
+      },
+      {
+        "heading": "Zéro privation",
+        "description": "Vous mangerez des pâtes (complètes, bien dosées), du pain (complet, avec des protéines) et des desserts (à base de fruits). Le plan fonctionne en choisissant des versions plus malignes."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Brouillarde aux Légumes sur Pain Complet",
+        "description": "Œufs brouillés avec courgette, champignons et cheddar sur une tranche de pain complet. Riche en protéines, faible IG, seulement 25g de glucides.",
+        "tags": [
+          "diabète-adapté",
+          "faible-ig",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Salade Méditerranéenne Poulet-Quinoa",
+        "description": "Poulet grillé sur quinoa avec concombre, tomates cerises, olives kalamata et vinaigrette citron-herbes. 38g glucides, 42g protéines.",
+        "tags": [
+          "diabète-adapté",
+          "riche-en-protéines",
+          "méditerranéen"
+        ]
+      },
+      {
+        "name": "Cabillaud au Four avec Choux de Bruxelles",
+        "description": "Filets de cabillaud aux herbes avec choux de Bruxelles et patate douce rôtis. 35g de glucides, riche en fibres et oméga-3.",
+        "tags": [
+          "diabète-adapté",
+          "faible-ig",
+          "plaque-unique"
+        ]
+      },
+      {
+        "name": "Wraps de Laitue à la Dinde, Sauce Cacahuète",
+        "description": "Dinde hachée assaisonnée, carottes râpées et concombre en feuilles de laitue avec sauce cacahuète-citron vert. Ultra faible en glucides.",
+        "tags": [
+          "diabète-adapté",
+          "faible-glucides",
+          "rapide"
+        ]
+      },
+      {
+        "name": "Amandes Grillées à la Cannelle",
+        "description": "Amandes avec cannelle, une pointe de sel et huile de coco. Au four 12 minutes. Bonnes graisses et protéines, impact glycémique quasi nul.",
+        "tags": [
+          "diabète-adapté",
+          "faible-glucides",
+          "cuisine-en-lot"
+        ]
+      },
+      {
+        "name": "Pâtes Complètes Bolognaise à la Dinde",
+        "description": "Dinde hachée maigre dans une sauce tomate à l'ail, basilic et origan. Portion mesurée de spaghetti complets avec haricots verts. 42g glucides, 38g protéines.",
+        "tags": [
+          "diabète-adapté",
+          "riche-en-protéines",
+          "réconfortant"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Ce plan est-il pour le diabète de Type 1 ou Type 2 ?",
+        "answer": "Conçu principalement pour la gestion du diabète de Type 2 et du prédiabète. Les personnes de Type 1 peuvent l'utiliser mais doivent ajuster l'insuline avec leur endocrinologue."
+      },
+      {
+        "question": "Combien de glucides par repas pour un diabétique ?",
+        "answer": "La plupart des éducateurs recommandent 45-60 grammes par repas. Nos plans visent 30-45 grammes, une approche prudente qui convient à la plupart."
+      },
+      {
+        "question": "Puis-je manger des fruits avec le diabète ?",
+        "answer": "Oui. Les fruits rouges, pommes et poires sont à faible IG et riches en fibres. L'essentiel est d'associer les fruits avec protéines ou lipides."
+      },
+      {
+        "question": "Ce plan aidera-t-il à baisser mon HbA1c ?",
+        "answer": "L'alimentation est l'un des leviers les plus puissants pour gérer l'HbA1c. Beaucoup d'utilisateurs voient des améliorations en 2-3 mois d'habitudes alimentaires régulières."
+      },
+      {
+        "question": "Puis-je manger au restaurant ?",
+        "answer": "Absolument. Les principes — associer glucides et protéines, choisir le faible IG, contrôler les portions — s'appliquent partout."
+      }
+    ]
+  },
+  "clean-eating-meal-plan": {
+    "title": "Plan Alimentation Saine — Vrais Aliments, Zéro Prise de Tête",
+    "metaDescription": "Plan repas alimentation saine personnalisé avec recettes d'aliments complets et liste de courses. Sans ultra-transformé, sans règles compliquées. Essai gratuit.",
+    "h1": "Plan Alimentation Saine — Vrais Ingrédients, Vrais Résultats",
+    "intro": "Manger sainement, c'est simple : manger des aliments qui ressemblent à des aliments. Si ça a poussé dans la terre, marché dessus ou nagé dans la mer, c'est dedans. Si c'est fabriqué en usine avec une liste d'ingrédients plus longue qu'un ticket de caisse, c'est dehors. Pas de comptage de macros, pas d'élimination de groupes alimentaires. Juste des ingrédients entiers et peu transformés cuisinés en repas qui vous font du bien.",
+    "valueProps": [
+      {
+        "heading": "Aliments complets, transformation minimale",
+        "description": "Chaque ingrédient est quelque chose que votre grand-mère reconnaîtrait. Légumes frais, céréales complètes, protéines de qualité, bonnes graisses et sucrants naturels."
+      },
+      {
+        "heading": "Pas d'élimination, pas d'extrêmes",
+        "description": "Manger sain, ce n'est ni keto, ni paléo, ni végan. Vous mangerez glucides, lipides, protéines et produits laitiers. Seuls les ultra-transformés sont exclus."
+      },
+      {
+        "heading": "Durable à vie",
+        "description": "Ce n'est ni une détox ni un défi de 30 jours. C'est une façon de manger qui tient sur la durée parce que rien n'est interdit sauf la malbouffe."
+      },
+      {
+        "heading": "Liste de courses du périmètre",
+        "description": "Nos listes vous gardent au rayon fruits et légumes, à la boucherie, au rayon frais et aux céréales en vrac. Vous sautez 90% des rayons centraux."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Toast Avocat, Œufs Pochés et Tomates Cerises",
+        "description": "Pain au levain complet grillé avec avocat écrasé, deux œufs pochés, tomates cerises et fleur de sel. Vrai pain, vrais œufs.",
+        "tags": [
+          "alimentation-saine",
+          "aliment-complet",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Poulet Grillé et Plateau de Légumes Rôtis",
+        "description": "Blanc de poulet mariné huile d'olive-citron-origan avec courgette, poivrons et patate douce rôtis. Zéro ingrédient transformé.",
+        "tags": [
+          "alimentation-saine",
+          "aliment-complet",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Saumon Sauvage, Quinoa et Brocoli Vapeur",
+        "description": "Saumon sauvage poêlé sur quinoa à l'aneth, zeste de citron et pignons. Brocoli vapeur avec un filet de citron et d'huile d'olive.",
+        "tags": [
+          "alimentation-saine",
+          "oméga-3",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Chili Maison Dinde et Haricots Noirs",
+        "description": "Dinde hachée, haricots noirs, tomates, oignons, ail et épices. Pas de boîte de chili ni sachet d'assaisonnement. Yaourt grec et coriandre fraîche.",
+        "tags": [
+          "alimentation-saine",
+          "cuisine-en-lot",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Mélange Fruits Secs et Noix Maison",
+        "description": "Amandes, noix, canneberges séchées sans sucre, chocolat noir 85% et graines de courge. Mélangé à la maison en 2 minutes.",
+        "tags": [
+          "alimentation-saine",
+          "sans-cuisson",
+          "aliment-complet"
+        ]
+      },
+      {
+        "name": "Poêlée Patate Douce et Chou Frisé aux Œufs",
+        "description": "Patate douce en dés poêlée à l'huile de coco avec chou frisé, oignon rouge et paprika fumé. Couronnée de deux œufs au plat.",
+        "tags": [
+          "alimentation-saine",
+          "aliment-complet",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Salade Méditerranéenne au Thon",
+        "description": "Thon sauvage à l'huile d'olive avec céleri, oignon rouge, câpres et citron. Sur mesclun avec concombre et tomates cerises.",
+        "tags": [
+          "alimentation-saine",
+          "sans-cuisson",
+          "riche-en-protéines"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Qu'est-ce qui compte comme aliment 'transformé' ?",
+        "answer": "On trace la ligne aux ultra-transformés — aliments avec de longues listes d'additifs. Les aliments peu transformés comme l'huile d'olive, le fromage, les conserves de haricots et les légumes surgelés sont acceptés."
+      },
+      {
+        "question": "Manger sain et manger bio, c'est pareil ?",
+        "answer": "Non. Manger sain, c'est éviter les ultra-transformés, pas chercher le label bio. Les produits conventionnels sont sains s'ils sont des aliments entiers peu transformés."
+      },
+      {
+        "question": "Peut-on perdre du poids en mangeant sain ?",
+        "answer": "Beaucoup maigrissent naturellement en passant aux aliments complets car les ultra-transformés sont conçus pour court-circuiter vos signaux de satiété."
+      },
+      {
+        "question": "Manger sain coûte-t-il plus cher ?",
+        "answer": "Ça peut, mais pas forcément. Haricots, lentilles, flocons d'avoine, œufs, poulets entiers, surgelés et produits de saison sont abordables et sains."
+      },
+      {
+        "question": "Et au restaurant ?",
+        "answer": "Choisissez des restaurants qui cuisinent maison. Protéines grillées, légumes en accompagnement, préparations simples. L'objectif n'est pas la perfection, mais de faire de bons choix la plupart du temps."
+      }
+    ]
   }
 }

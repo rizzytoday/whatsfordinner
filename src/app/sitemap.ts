@@ -2,6 +2,10 @@ import type { MetadataRoute } from "next";
 import { getAllMealPlanPages } from "@/data/meal-plans";
 import { NON_DEFAULT_LOCALES } from "@/lib/i18n/locales";
 import { getSlugForLocale } from "@/data/meal-plans/translations";
+import {
+  getTranslatedBlogSlugs,
+  getBlogSlugForLocale,
+} from "@/data/blog/translations/content";
 
 const BASE = "https://whatsfordinner.fit";
 
@@ -118,6 +122,24 @@ export default async function sitemap(props: { id: Promise<number> | number }): 
         priority: 0.8,
       },
       {
+        url: `${BASE}/tools`,
+        lastModified: new Date("2026-04-01"),
+        changeFrequency: "monthly",
+        priority: 0.8,
+      },
+      {
+        url: `${BASE}/tools/calorie-calculator`,
+        lastModified: new Date("2026-04-01"),
+        changeFrequency: "monthly",
+        priority: 0.8,
+      },
+      {
+        url: `${BASE}/tools/dinner-generator`,
+        lastModified: new Date("2026-04-01"),
+        changeFrequency: "monthly",
+        priority: 0.8,
+      },
+      {
         url: `${BASE}/login`,
         lastModified: new Date("2026-03-01"),
         changeFrequency: "monthly",
@@ -184,5 +206,17 @@ export default async function sitemap(props: { id: Promise<number> | number }): 
     };
   });
 
-  return [hubEntry, ...localizedEntries];
+  // Translated blog articles for this locale
+  const translatedBlogSlugs = getTranslatedBlogSlugs();
+  const localizedBlogEntries = translatedBlogSlugs.map((englishSlug) => {
+    const localizedSlug = getBlogSlugForLocale(englishSlug, locale);
+    return {
+      url: `${BASE}/${locale}/blog/${localizedSlug}`,
+      lastModified: new Date("2026-04-01"),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    };
+  });
+
+  return [hubEntry, ...localizedEntries, ...localizedBlogEntries];
 }

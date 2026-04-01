@@ -6642,5 +6642,630 @@
         "answer": "Die Grundprinzipien (weniger Kohlenhydrate, niedriger GI) helfen auch bei Typ-1-Diabetes. Allerdings ist bei Typ 1 die praezise Insulindosierung entscheidend — nutze unsere Kohlenhydratangaben pro Mahlzeit als Basis fuer deine Insulinberechnung und stimme dich mit deinem Diabetesteam ab."
       }
     ]
+  },
+  "15-minute-meal-plan": {
+    "title": "15-Minuten-Ernährungsplan — Schnelle Abendessen Ohne Stress",
+    "metaDescription": "Persönlicher wöchentlicher 15-Minuten-Ernährungsplan mit Schnellrezepten und Einkaufsliste. Echte Mahlzeiten in 15 Minuten. Kostenlos testen.",
+    "h1": "15-Minuten-Ernährungsplan — Echtes Essen, Unglaublich Schnell",
+    "intro": "Fünfzehn Minuten genügen. Nicht fünfzehn Minuten aktives Kochen plus zwanzig Minuten Köcheln — fünfzehn Minuten insgesamt, vom Öffnen des Kühlschranks bis zum Hinsetzen mit dem Teller. Das sind keine traurigen Schreibtisch-Mahlzeiten. Es sind richtige Abendessen mit schnell garenden Proteinen, vorbereiteten Zutaten und Techniken, die Zeit sparen, ohne den Geschmack zu opfern.",
+    "valueProps": [
+      {
+        "heading": "Ehrlich 15 Minuten",
+        "description": "Jedes Rezept wird ab dem Öffnen des Kühlschranks gestoppt. Keine versteckte Vorbereitung, kein 'während der Ofen vorheizt'. Wenn es 16 Minuten dauert, ist es nicht im Plan."
+      },
+      {
+        "heading": "Schnelle Proteine, kluge Kombis",
+        "description": "Garnelen garen in 3 Minuten. Eier in 5. Dünn geschnittenes Hähnchen in 7. Dazu kommen Instant-Beilagen, damit alles gleichzeitig fertig ist."
+      },
+      {
+        "heading": "Null Kompromisse bei der Ernährung",
+        "description": "Jede Mahlzeit balanciert Protein, Kohlenhydrate und Gemüse. Schnell heißt nicht leer. Ausgewogene Teller, die stundenlang satt halten."
+      },
+      {
+        "heading": "Für müde Wochentag-Abende",
+        "description": "Diese Rezepte gehen davon aus, dass Sie müde und im Autopilot sind. Einfache Schritte, minimales Schneiden, Zutaten aus jedem Supermarkt."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Knoblauchbutter-Garnelen mit Zitronen-Couscous",
+        "description": "Garnelen in Knoblauchbutter 3 Minuten pro Seite anbraten. Währenddessen heißes Wasser über Couscous gießen. Mit Zitrone, Petersilie und Kirschtomaten mischen. Fertig in 12 Minuten.",
+        "tags": [
+          "15-Minuten",
+          "proteinreich",
+          "eine-Pfanne"
+        ]
+      },
+      {
+        "name": "Räucherlachs-Toast mit Avocado",
+        "description": "Getoastetes Brot mit zerdrückter Avocado, Räucherlachs, Kapern, roter Zwiebel und Zitrone. Fünf Minuten, null Kochen.",
+        "tags": [
+          "15-Minuten",
+          "ohne-Kochen",
+          "proteinreich"
+        ]
+      },
+      {
+        "name": "Schwarze-Bohnen-Tostadas",
+        "description": "Maistortillas knusprig in der trockenen Pfanne. Schwarze Bohnen mit Kreuzkümmel und Limette. Salat, Pico de Gallo und Käse darauf. 10 Minuten.",
+        "tags": [
+          "15-Minuten",
+          "vegetarisch",
+          "günstig"
+        ]
+      },
+      {
+        "name": "Teriyaki-Hähnchen-Reis-Bowl",
+        "description": "Dünn geschnittenes Hähnchen scharf angebraten und mit Teriyaki glasiert. Auf Mikrowellen-Reis mit Edamame und eingelegtem Ingwer.",
+        "tags": [
+          "15-Minuten",
+          "proteinreich",
+          "schnell"
+        ]
+      },
+      {
+        "name": "Caprese-Pesto-Fladenbrot",
+        "description": "Pesto auf Naan-Brot, frischer Mozzarella und Kirschtomaten. 4 Minuten unter dem Grill. Frisches Basilikum und Balsamico zum Abschluss.",
+        "tags": [
+          "15-Minuten",
+          "vegetarisch",
+          "schnell"
+        ]
+      },
+      {
+        "name": "Griechischer Joghurt mit Granola",
+        "description": "Griechischer Joghurt mit Honig, Granola, gemischten Beeren und Chiasamen. Proteinreich, null Kochen, zwei Minuten.",
+        "tags": [
+          "15-Minuten",
+          "ohne-Kochen",
+          "proteinreich"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Machen 15-Minuten-Mahlzeiten wirklich satt?",
+        "answer": "Ja. Geschwindigkeit bestimmt nicht die Sättigung — Makronährstoffe schon. Unsere Mahlzeiten kombinieren Protein, komplexe Kohlenhydrate und Gemüse für 400-600 Kalorien pro Mahlzeit."
+      },
+      {
+        "question": "Brauche ich spezielle Küchengeräte?",
+        "answer": "Eine 30-cm-Pfanne und ein Schneidebrett decken 90% der Rezepte ab. Eine Mikrowelle hilft bei Reis und gedünstetem Gemüse. Kein Schnellkochtopf, keine Heißluftfritteuse."
+      },
+      {
+        "question": "Sind das nur Sandwiches und Salate?",
+        "answer": "Keineswegs. Es gibt Pfannengerichte, Pasta, Reis-Bowls, Tostadas, Fladenbrote und angebratene Proteine mit Beilagen."
+      },
+      {
+        "question": "Kann ich die Mahlzeiten vorkochen?",
+        "answer": "Einige Komponenten eignen sich zum Vorbereiten, aber die Rezepte sind schnell genug, dass Vorbereitung nicht nötig ist. Das ist der Punkt."
+      }
+    ]
+  },
+  "high-fiber-meal-plan": {
+    "title": "Ballaststoffreicher Ernährungsplan — Bessere Verdauung, Mehr Energie",
+    "metaDescription": "Persönlicher ballaststoffreicher Ernährungsplan mit Rezepten und Einkaufsliste. 30g+ Ballaststoffe täglich für bessere Verdauung. Kostenlos testen.",
+    "h1": "Ballaststoffreicher Plan — Länger Satt, Besser Verdauen",
+    "intro": "Die meisten essen halb so viele Ballaststoffe wie nötig. Die empfohlenen 25-30 Gramm pro Tag klingen machbar, bis man merkt, dass eine typische Ernährung nur etwa 15 liefert. Die Lücke zeigt sich als Blähungen, Energietiefs und dem Gefühl, nach dem Essen nie richtig satt zu sein. Ein ballaststoffreicher Plan behebt das, ohne jede Mahlzeit in eine Schüssel Kleie-Müsli zu verwandeln.",
+    "valueProps": [
+      {
+        "heading": "30+ Gramm täglich, ohne Nahrungsergänzung",
+        "description": "Jeder Tag summiert sich auf 30-40 Gramm Ballaststoffe aus echten Lebensmitteln. Linsensuppen, Bohnensalate, Haferflocken und geröstetes Gemüse erledigen die Arbeit."
+      },
+      {
+        "heading": "Schrittweise Steigerung integriert",
+        "description": "Von 15g auf 40g Ballaststoffe über Nacht zu springen verursacht Blähungen. Unsere Pläne starten moderat und steigern sich über 2-3 Wochen."
+      },
+      {
+        "heading": "Vielfalt für den Darm",
+        "description": "Verschiedene Ballaststoffquellen nähren verschiedene Darmbakterien. Wir wechseln zwischen löslichen und unlöslichen Ballaststoffen ab."
+      },
+      {
+        "heading": "Hält stundenlang satt",
+        "description": "Ballaststoffe verlangsamen die Verdauung und stabilisieren den Blutzucker. Mahlzeiten halten deutlich länger satt als ballaststoffarme Alternativen."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Overnight Oats mit Chia, Beeren und Walnüssen",
+        "description": "Haferflocken über Nacht mit Chiasamen eingeweicht, mit gemischten Beeren, Walnüssen und Honig. 12 Gramm Ballaststoffe vor dem Aufbruch.",
+        "tags": [
+          "ballaststoffreich",
+          "vorbereitet",
+          "ohne-Kochen"
+        ]
+      },
+      {
+        "name": "Linsen-Gemüse-Bowl mit Geröstetem Gemüse",
+        "description": "Grüne Linsen auf Dinkel mit gerösteter Süßkartoffel, Brokkoli und roter Zwiebel. Tahini-Zitronen-Dressing. 16 Gramm Ballaststoffe.",
+        "tags": [
+          "ballaststoffreich",
+          "vegan",
+          "Meal-Prep"
+        ]
+      },
+      {
+        "name": "Schwarze-Bohnen-Süßkartoffel-Chili",
+        "description": "Zwei Bohnensorten, Süßkartoffel, feuergeröstete Tomaten und wärmende Gewürze. Mit Vollkornbrötchen. Über 18 Gramm Ballaststoffe.",
+        "tags": [
+          "ballaststoffreich",
+          "vegan",
+          "Batch-Kochen"
+        ]
+      },
+      {
+        "name": "Gefüllte Paprika mit Kichererbsen und Quinoa",
+        "description": "Paprika gefüllt mit Quinoa, Kichererbsen, Spinat, getrockneten Tomaten und Feta. 25 Minuten im Ofen. 14 Gramm Ballaststoffe.",
+        "tags": [
+          "ballaststoffreich",
+          "vegetarisch",
+          "proteinreich"
+        ]
+      },
+      {
+        "name": "Apfel mit Mandelmus und Leinsamen",
+        "description": "Apfelscheiben mit Mandelmus und gemahlenen Leinsamen. Einfach und liefert 6 Gramm Ballaststoffe zwischen den Mahlzeiten.",
+        "tags": [
+          "ballaststoffreich",
+          "ohne-Kochen",
+          "schnell"
+        ]
+      },
+      {
+        "name": "Weiße-Bohnen-Grünkohl-Suppe",
+        "description": "Weiße Bohnen, Grünkohl, Karotten und Knoblauch in Brühe mit Rosmarin und Parmesan. 13 Gramm Ballaststoffe pro Schüssel.",
+        "tags": [
+          "ballaststoffreich",
+          "proteinreich",
+          "Wohlfühlessen"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Bekomme ich von einer ballaststoffreichen Ernährung Blähungen?",
+        "answer": "Das kann passieren, wenn Sie zu schnell erhöhen. Deshalb steigern unsere Pläne über 2-3 Wochen graduell. Die meisten merken eine Verbesserung nach der Anpassungsphase."
+      },
+      {
+        "question": "Wie viele Ballaststoffe pro Tag?",
+        "answer": "Empfohlen werden 25g für Frauen und 38g für Männer. Unsere Pläne zielen auf 30-40g täglich ab, der optimale Bereich für die meisten Erwachsenen."
+      },
+      {
+        "question": "Kann ich genug Protein bekommen?",
+        "answer": "Auf jeden Fall. Viele ballaststoffreiche Lebensmittel sind auch proteinreich — Linsen, Kichererbsen, schwarze Bohnen, Quinoa und Edamame. Dazu Hähnchen, Fisch und Eier."
+      },
+      {
+        "question": "Hilft Ballaststoff beim Abnehmen?",
+        "answer": "Ballaststoffe gehören zu den wirksamsten natürlichen Appetitzüglern. Sie verlangsamen die Verdauung und stabilisieren den Blutzucker für längere Sättigung."
+      },
+      {
+        "question": "Welche sind die besten ballaststoffreichen Lebensmittel?",
+        "answer": "Linsen (15g pro Tasse), schwarze Bohnen (15g), Kichererbsen (12g), Himbeeren (8g), Avocado (10g), Haferflocken (4g), Chiasamen (10g pro Unze) und Brokkoli (5g)."
+      }
+    ]
+  },
+  "bodybuilding-meal-plan": {
+    "title": "Bodybuilding-Ernährungsplan — Kraftstoff Für Deine Gains",
+    "metaDescription": "Persönlicher Bodybuilding-Ernährungsplan mit proteinreichen Rezepten und Einkaufsliste. Deine Makros treffen ohne jeden Tag Hähnchen und Reis. Kostenlos testen.",
+    "h1": "Bodybuilding-Ernährungsplan — Makros Treffen Ohne Langeweile",
+    "intro": "Die Bodybuilding-Diät hat ein Imageproblem. Menschen stellen sich fades Hähnchenbrustfilet, weißen Reis und gedämpften Brokkoli sechsmal am Tag vor. Dieser Ansatz funktioniert, aber niemand hält ihn durch, weil er elend ist. Man muss nicht wie ein Roboter essen, um Muskeln aufzubauen. Man braucht genug Protein, den richtigen Kalorienüberschuss oder -defizit und genug Abwechslung, damit Mahlzeit vier nicht zum Aufgeben verleitet.",
+    "valueProps": [
+      {
+        "heading": "Makro-berechnete Mahlzeiten",
+        "description": "Jedes Rezept enthält vollständige Makronährstoff-Aufschlüsselung. Die Pläne zielen auf 1g Protein pro Pfund Körpergewicht ab."
+      },
+      {
+        "heading": "Abwechslung für Durchhaltevermögen",
+        "description": "Ein Plan, den man 12 Wochen gerne isst, schlägt einen 'perfekten' Plan, den man nach 10 Tagen aufgibt. Wir rotieren Proteine, Kohlenhydrate und Geschmäcker."
+      },
+      {
+        "heading": "Meal-Prep-freundlich",
+        "description": "Die meisten Bodybuilder essen 4-6 Mahlzeiten am Tag. Unsere Pläne kochen Proteine und Kohlenhydrate am Sonntag in Chargen für die ganze Woche."
+      },
+      {
+        "heading": "Skaliert auf Dein Kalorienziel",
+        "description": "Ob 2.500 oder 4.000 Kalorien — der Plan passt Portionsgrößen an. Aufbau: mehr Reis und Fette. Definition: magerere Proteine und mehr Gemüse."
+      },
+      {
+        "heading": "Strategisches Nährstoff-Timing",
+        "description": "Pre-Workout mit schnellen Kohlenhydraten. Post-Workout mit Protein und Kohlenhydraten zur Glykogen-Auffüllung. Ruhetage mit Fetten und langsam verdaulichen Lebensmitteln."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Puten-Eiweiß-Rührei",
+        "description": "Putenhack mit Eiweiß, Spinat, Paprika und Cheddar angebraten. Mit zwei Scheiben Vollkornbrot. 45g Protein.",
+        "tags": [
+          "proteinreich",
+          "Bodybuilding",
+          "schnell"
+        ]
+      },
+      {
+        "name": "Gegrilltes-Hähnchen-Süßkartoffel-Bowl",
+        "description": "Marinierte Hähnchenbrust auf gerösteter Süßkartoffel, Vollkornreis, Brokkoli und Avocado. Zitronen-Tahini-Sauce. 50g Protein.",
+        "tags": [
+          "proteinreich",
+          "Bodybuilding",
+          "Meal-Prep"
+        ]
+      },
+      {
+        "name": "Lachs mit Jasminreis und Spargel",
+        "description": "Gebratener Lachs mit Soja-Honig-Glasur, Jasminreis und geröstetem Spargel. Omega-3 für die Regeneration. 40g Protein.",
+        "tags": [
+          "proteinreich",
+          "Bodybuilding",
+          "Omega-3"
+        ]
+      },
+      {
+        "name": "Mageres Rinder-Wok-Pfanne mit Nudeln",
+        "description": "Dünn geschnittenes Rinderfilet aus dem Wok mit Zuckerschoten, Pilzen, Knoblauch und Ingwer. Udon-Nudeln in Soja-Sesam-Sauce. 42g Protein.",
+        "tags": [
+          "proteinreich",
+          "Bodybuilding",
+          "schnell"
+        ]
+      },
+      {
+        "name": "Hüttenkäse mit Ananas",
+        "description": "Fettarmer Hüttenkäse mit frischer Ananas und Honig. 28g Casein — langsam verdaulich, perfekt vor dem Schlafengehen.",
+        "tags": [
+          "proteinreich",
+          "ohne-Kochen",
+          "schnell"
+        ]
+      },
+      {
+        "name": "Protein-Hafer-Pancakes",
+        "description": "Haferflocken, Eiweiß, Banane und Proteinpulver zu fluffigen Pancakes. Mit griechischem Joghurt und Beeren. 38g Protein.",
+        "tags": [
+          "proteinreich",
+          "Bodybuilding",
+          "Meal-Prep"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Wie viel Protein brauche ich pro Tag?",
+        "answer": "Der evidenzbasierte Bereich liegt bei 0,7-1g pro Pfund Körpergewicht. Für eine 80-kg-Person sind das 126-180g täglich. Unsere Pläne setzen 1g pro Pfund als Standard."
+      },
+      {
+        "question": "Soll ich an Ruhetagen anders essen?",
+        "answer": "Etwas. Ruhetag-Mahlzeiten reduzieren schnelle Kohlenhydrate zugunsten von Fetten und ballaststoffreichem Gemüse. Gesamtprotein bleibt gleich."
+      },
+      {
+        "question": "Kann ich ohne sechsmal essen Muskeln aufbauen?",
+        "answer": "Ja. Aktuelle Forschung zeigt, dass die tägliche Gesamtproteinmenge wichtiger ist als die Mahlzeitenfrequenz. Drei bis vier Mahlzeiten mit je 30-50g Protein reichen."
+      },
+      {
+        "question": "Wie nutze ich den Plan für Aufbau vs. Definition?",
+        "answer": "Geben Sie Ihr Ziel an. Aufbaupläne fügen 300-500 Kalorien hinzu. Definitionspläne reduzieren um 300-500 durch weniger Kohlenhydrate. Die Rezepte bleiben gleich."
+      },
+      {
+        "question": "Was ist mit Nahrungsergänzungsmitteln?",
+        "answer": "Unsere Pläne decken den Makro- und Mikronährstoffbedarf über echte Lebensmittel ab. Kreatin-Monohydrat und Vitamin D sind die einzigen Supplements mit ausreichend Evidenz."
+      }
+    ]
+  },
+  "pregnancy-meal-plan": {
+    "title": "Schwangerschaft-Ernährungsplan — Zwei Versorgen Ohne Überforderung",
+    "metaDescription": "Persönlicher Schwangerschaft-Ernährungsplan mit sicheren, nährstoffreichen Rezepten und Einkaufsliste. Folsäure, Eisen, Protein abgedeckt. Kostenlos testen.",
+    "h1": "Schwangerschaft-Ernährungsplan — Gut Essen Für Zwei",
+    "intro": "Ernährungsratschläge in der Schwangerschaft sind überwältigend. Iss das nicht, iss mehr davon, nimm diese Ergänzungen. Währenddessen ist Ihnen übel, Sie sind erschöpft, und das Einzige, das gut klingt, sind Cracker und Ingwertee. Ein Schwangerschaft-Ernährungsplan schneidet durch den Lärm: Hier ist, was Sie essen sollten, warum es gut für Sie und Ihr Baby ist, und wie Sie es in unter 30 Minuten zubereiten.",
+    "valueProps": [
+      {
+        "heading": "Wichtige Nährstoffe, jeden Tag",
+        "description": "Folsäure, Eisen, Kalzium, Omega-3 und Cholin in jeder Tagesplanung durch Nahrung. Blattgemüse, Eier, Lachs, Hülsenfrüchte und Milchprodukte sind in die Rezepte eingebaut."
+      },
+      {
+        "heading": "Nur schwangerschaftssichere Zutaten",
+        "description": "Kein Fisch mit hohem Quecksilbergehalt, keine rohen Sprossen, kein Rohmilchkäse. Jede Zutat ist geprüft."
+      },
+      {
+        "heading": "Optionen gegen Übelkeit",
+        "description": "Pläne für das erste Trimester enthalten milde Alternativen: Cracker mit Nussbutter, Ingwer-Smoothies und kalte Mahlzeiten ohne Kochgerüche."
+      },
+      {
+        "heading": "Trimester-angepasste Ernährung",
+        "description": "Erstes Trimester: Folsäure und Übelkeitsmanagement. Zweites: mehr Kalorien und Protein. Drittes: Eisen und Kalzium für die Zielgerade."
+      },
+      {
+        "heading": "Mahlzeiten, die dem Partner schmecken",
+        "description": "Jedes Abendessen ist eine richtige Mahlzeit für die ganze Familie, kein Pränatal-Vitamin-Smoothie-Bowl."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Spinat-Feta-Ei-Muffins",
+        "description": "Eier mit Spinat, Feta und getrockneten Tomaten im Muffinblech. 12 Stück machen, die ganze Woche aufwärmen. Folsäure, Protein und Cholin.",
+        "tags": [
+          "schwangerschaftssicher",
+          "proteinreich",
+          "vorbereitet"
+        ]
+      },
+      {
+        "name": "Lachs-Avocado-Bowl auf Vollkornreis",
+        "description": "Gebackener Lachs (wenig Quecksilber, viel DHA) auf Vollkornreis mit Avocado, Edamame und Sesam-Ingwer-Dressing.",
+        "tags": [
+          "schwangerschaftssicher",
+          "Omega-3",
+          "proteinreich"
+        ]
+      },
+      {
+        "name": "Linsen-Spinat-Curry",
+        "description": "Rote Linsen in Kokosmilch mit Spinat, Tomaten und milden Gewürzen. Auf Basmatireis. Eisen- und Folsäure-Kraftpaket.",
+        "tags": [
+          "schwangerschaftssicher",
+          "eisenreich",
+          "vegetarisch"
+        ]
+      },
+      {
+        "name": "Puten-Weiße-Bohnen-Suppe",
+        "description": "Putenhack, weiße Bohnen, Grünkohl, Karotten und Knoblauch in leichter Brühe mit italienischen Kräutern.",
+        "tags": [
+          "schwangerschaftssicher",
+          "proteinreich",
+          "Batch-Kochen"
+        ]
+      },
+      {
+        "name": "Griechischer Joghurt mit Walnüssen und Honig",
+        "description": "Vollfett-Joghurt mit Walnüssen, Honig und Blaubeeren. Kalzium, Protein und Omega-3 in zwei Minuten.",
+        "tags": [
+          "schwangerschaftssicher",
+          "ohne-Kochen",
+          "kalziumreich"
+        ]
+      },
+      {
+        "name": "Ingwer-Bananen-Smoothie",
+        "description": "Gefrorene Banane, frischer Ingwer, griechischer Joghurt, Mandelmus und Milch. Ingwer beruhigt den Magen, Protein stabilisiert den Blutzucker.",
+        "tags": [
+          "schwangerschaftssicher",
+          "gegen-Übelkeit",
+          "schnell"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Wie viele Extra-Kalorien brauche ich in der Schwangerschaft?",
+        "answer": "Ungefähr null extra im ersten Trimester, 340 im zweiten und 450 im dritten. 'Für zwei essen' ist ein Mythos — es ist eher essen für 1,1."
+      },
+      {
+        "question": "Welche Lebensmittel sollte ich meiden?",
+        "answer": "Fische mit hohem Quecksilber, rohes Fleisch und Eier, nicht pasteurisierte Milchprodukte und Säfte, Wurstwaren (außer erhitzt), rohe Sprossen und zu viel Koffein (max. 200 mg/Tag)."
+      },
+      {
+        "question": "Brauche ich noch Schwangerschaftsvitamine?",
+        "answer": "Ja. Unsere Pläne maximieren die Nährstoffe über Nahrung, aber ein Pränatalvitamin bleibt empfohlen als Absicherung."
+      },
+      {
+        "question": "Was wenn ich im ersten Trimester nichts bei mir behalten kann?",
+        "answer": "Unsere Pläne für das erste Trimester bieten Übelkeit-freundliche Alternativen: Cracker mit Nussbutter, kaltes Obst, Ingwertee und kleine häufige Mahlzeiten."
+      },
+      {
+        "question": "Kann ich den Plan bei Schwangerschaftsdiabetes nutzen?",
+        "answer": "Unser Standardplan kann als Ausgangspunkt dienen, aber Schwangerschaftsdiabetes erfordert eine spezifische Kohlenhydrat-Steuerung unter ärztlicher Aufsicht."
+      }
+    ]
+  },
+  "diabetic-meal-plan": {
+    "title": "Diabetiker-Ernährungsplan — Stabiler Blutzucker, Voller Geschmack",
+    "metaDescription": "Persönlicher Diabetiker-Ernährungsplan mit Rezepten mit niedrigem glykämischen Index und Einkaufsliste. Mahlzeiten die den Blutzucker stabil halten. Kostenlos testen.",
+    "h1": "Diabetiker-Ernährungsplan — Stabiler Blutzucker, Echter Genuss",
+    "intro": "Diabetes durch Ernährung zu managen bedeutet nicht, auf alles zu verzichten. Es bedeutet, Lebensmittel zu wählen, die Energie langsam freisetzen, Kohlenhydrate mit Protein und Ballaststoffen zu kombinieren und zu wissen, welche Mahlzeiten den Blutzucker stabil halten. Die Herausforderung ist nicht die Theorie — sondern was man dienstagabends kochen soll, das alle Kriterien erfüllt und trotzdem schmeckt.",
+    "valueProps": [
+      {
+        "heading": "Niedriger glykämischer Index von Grund auf",
+        "description": "Jede Mahlzeit bevorzugt Kohlenhydrate mit niedrigem GI — Süßkartoffel statt Weißkartoffel, Quinoa statt weißer Reis, Beeren statt tropische Früchte."
+      },
+      {
+        "heading": "Kontrollierte Kohlenhydrat-Portionen",
+        "description": "Jede Mahlzeit enthält 30-45 Gramm Kohlenhydrate, im empfohlenen Bereich der Diabetesberater."
+      },
+      {
+        "heading": "Ausgewogene Makros bei jeder Mahlzeit",
+        "description": "Protein und gesunde Fette bei jeder Mahlzeit verlangsamen die Glukoseaufnahme. Obst allein lässt den Blutzucker steigen. Dasselbe Obst mit Nüssen und Joghurt gibt Energie über Stunden."
+      },
+      {
+        "heading": "Kein Verzicht",
+        "description": "Sie essen Pasta (Vollkorn, portioniert), Brot (Vollkorn, mit Protein) und Desserts (fruchtbasiert). Der Plan funktioniert durch klügere Versionen."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Gemüse-Käse-Rührei auf Vollkornbrot",
+        "description": "Rührei mit Zucchini, Pilzen und Cheddar auf Vollkornbrot. Proteinreich, niedriger GI, nur 25g Kohlenhydrate.",
+        "tags": [
+          "diabetesfreundlich",
+          "niedriger-GI",
+          "proteinreich"
+        ]
+      },
+      {
+        "name": "Mediterrane Hähnchen-Quinoa-Salat",
+        "description": "Gegrilltes Hähnchen auf Quinoa mit Gurke, Kirschtomaten, Kalamata-Oliven und Zitronen-Kräuter-Vinaigrette. 38g Kohlenhydrate, 42g Protein.",
+        "tags": [
+          "diabetesfreundlich",
+          "proteinreich",
+          "mediterran"
+        ]
+      },
+      {
+        "name": "Gebackener Kabeljau mit Rosenkohl und Süßkartoffel",
+        "description": "Kräuter-Kabeljaufilets mit Rosenkohl und Süßkartoffel im Ofen. 35g Kohlenhydrate, ballaststoff- und Omega-3-reich.",
+        "tags": [
+          "diabetesfreundlich",
+          "niedriger-GI",
+          "ein-Blech"
+        ]
+      },
+      {
+        "name": "Puten-Salat-Wraps mit Erdnuss-Sauce",
+        "description": "Gewürztes Putenhack, Karottenraspel und Gurke in Salatblättern mit Erdnuss-Limetten-Sauce. Ultra-wenig Kohlenhydrate.",
+        "tags": [
+          "diabetesfreundlich",
+          "kohlenhydratarm",
+          "schnell"
+        ]
+      },
+      {
+        "name": "Zimt-geröstete Mandeln",
+        "description": "Mandeln mit Zimt, einer Prise Salz und Kokosöl. 12 Minuten im Ofen. Gesunde Fette und Protein, nahezu null Blutzucker-Einfluss.",
+        "tags": [
+          "diabetesfreundlich",
+          "kohlenhydratarm",
+          "Batch-Kochen"
+        ]
+      },
+      {
+        "name": "Vollkorn-Pasta mit Puten-Bolognese",
+        "description": "Mageres Putenhack in Tomatensauce mit Knoblauch, Basilikum und Oregano. Abgemessene Portion Vollkorn-Spaghetti mit grünen Bohnen. 42g Kohlenhydrate.",
+        "tags": [
+          "diabetesfreundlich",
+          "proteinreich",
+          "Wohlfühlessen"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Ist dieser Plan für Typ 1 oder Typ 2 Diabetes?",
+        "answer": "Hauptsächlich für das Management von Typ-2-Diabetes und Prädiabetes. Menschen mit Typ 1 können ihn nutzen, sollten aber die Insulindosis mit ihrem Arzt anpassen."
+      },
+      {
+        "question": "Wie viele Kohlenhydrate pro Mahlzeit für Diabetiker?",
+        "answer": "Die meisten Diabetesberater empfehlen 45-60 Gramm pro Mahlzeit. Unsere Pläne zielen auf 30-45 Gramm ab, ein konservativer Ansatz der gut funktioniert."
+      },
+      {
+        "question": "Kann ich Obst essen?",
+        "answer": "Ja. Beeren, Äpfel und Birnen haben einen niedrigen GI und sind ballaststoffreich. Der Schlüssel ist die Kombination mit Protein oder Fett."
+      },
+      {
+        "question": "Hilft dieser Plan meinen HbA1c zu senken?",
+        "answer": "Ernährung ist eines der wirksamsten Werkzeuge für das HbA1c-Management. Viele Nutzer sehen Verbesserungen innerhalb von 2-3 Monaten."
+      },
+      {
+        "question": "Kann ich auswärts essen?",
+        "answer": "Natürlich. Die Prinzipien — Kohlenhydrate mit Protein kombinieren, niedrigen GI wählen, Portionen kontrollieren — gelten überall."
+      }
+    ]
+  },
+  "clean-eating-meal-plan": {
+    "title": "Clean-Eating-Ernährungsplan — Echte Lebensmittel, Kein Schnickschnack",
+    "metaDescription": "Persönlicher Clean-Eating-Ernährungsplan mit Vollwert-Rezepten und Einkaufsliste. Keine verarbeiteten Produkte, keine komplizierten Regeln. Kostenlos testen.",
+    "h1": "Clean-Eating-Plan — Echte Zutaten, Echte Ergebnisse",
+    "intro": "Clean Eating ist einfach: Essen, das wie Essen aussieht. Wenn es aus der Erde gewachsen ist, darauf gelaufen oder darin geschwommen hat, ist es drin. Wenn es in einer Fabrik hergestellt wurde mit einer Zutatenliste länger als ein Kassenbon, ist es raus. Kein Makro-Zählen, keine Lebensmittelgruppen streichen. Nur ganze, minimal verarbeitete Zutaten, gekocht zu Mahlzeiten, die gut tun.",
+    "valueProps": [
+      {
+        "heading": "Ganze Lebensmittel, minimale Verarbeitung",
+        "description": "Jede Zutat ist etwas, das Ihre Großmutter erkennen würde. Frisches Gemüse, Vollkorngetreide, Qualitätsproteine, gesunde Fette und natürliche Süßungsmittel."
+      },
+      {
+        "heading": "Keine Eliminierung, keine Extreme",
+        "description": "Clean Eating ist weder Keto, noch Paleo, noch Vegan. Sie essen Kohlenhydrate, Fette, Protein und Milchprodukte. Nur Ultra-Verarbeitetes fliegt raus."
+      },
+      {
+        "heading": "Nachhaltig fürs Leben",
+        "description": "Das ist keine Detox-Kur und kein 30-Tage-Challenge. Es ist eine Ernährungsweise, die dauerhaft funktioniert, weil nichts verboten ist außer Junkfood."
+      },
+      {
+        "heading": "Einkaufsliste am Rand",
+        "description": "Unsere Listen halten Sie in der Obst- und Gemüseabteilung, an der Fleischtheke und bei den Vollkornprodukten. 90% der Mittgänge werden übersprungen."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Avocado-Toast mit Pochierten Eiern",
+        "description": "Vollkorn-Sauerteigbrot mit zerdrückter Avocado, zwei pochierten Eiern, Kirschtomaten und Flockensalz. Echtes Brot, echte Eier.",
+        "tags": [
+          "Clean-Eating",
+          "Vollwertkost",
+          "proteinreich"
+        ]
+      },
+      {
+        "name": "Gegrilltes Hähnchen mit Ofengemüse",
+        "description": "Marinierte Hähnchenbrust mit Zucchini, Paprika und Süßkartoffel aus dem Ofen. Null verarbeitete Zutaten.",
+        "tags": [
+          "Clean-Eating",
+          "Vollwertkost",
+          "proteinreich"
+        ]
+      },
+      {
+        "name": "Wildlachs mit Kräuter-Quinoa und Brokkoli",
+        "description": "Gebratener Wildlachs auf Quinoa mit Dill, Zitronenschale und Pinienkernen. Gedämpfter Brokkoli mit Zitrone und Olivenöl.",
+        "tags": [
+          "Clean-Eating",
+          "Omega-3",
+          "proteinreich"
+        ]
+      },
+      {
+        "name": "Hausgemachter Puten-Bohnen-Chili",
+        "description": "Putenhack, schwarze Bohnen, Tomaten, Zwiebeln, Knoblauch und Gewürze. Ohne Dosenchili, ohne Gewürztüten. Mit Joghurt und Koriander.",
+        "tags": [
+          "Clean-Eating",
+          "Batch-Kochen",
+          "proteinreich"
+        ]
+      },
+      {
+        "name": "Frischer Nuss-Frucht-Mix",
+        "description": "Mandeln, Walnüsse, ungesüßte Cranberries, 85% Schokolade und Kürbiskerne. Zu Hause gemischt in 2 Minuten.",
+        "tags": [
+          "Clean-Eating",
+          "ohne-Kochen",
+          "Vollwertkost"
+        ]
+      },
+      {
+        "name": "Süßkartoffel-Grünkohl-Hash mit Spiegelei",
+        "description": "Süßkartoffelwürfel in Kokosöl mit Grünkohl, roter Zwiebel und Räucherpaprika. Zwei Spiegeleier darauf.",
+        "tags": [
+          "Clean-Eating",
+          "Vollwertkost",
+          "proteinreich"
+        ]
+      },
+      {
+        "name": "Mediterraner Thunfisch-Salat",
+        "description": "Wildthunfisch mit Olivenöl, Sellerie, roter Zwiebel, Kapern und Zitrone. Auf Blattsalat mit Gurke und Kirschtomaten.",
+        "tags": [
+          "Clean-Eating",
+          "ohne-Kochen",
+          "proteinreich"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Was zählt als 'verarbeitet'?",
+        "answer": "Wir ziehen die Grenze bei ultra-verarbeitet — Lebensmittel mit langen Zutatenlisten voller Zusatzstoffe. Minimal verarbeitete Lebensmittel wie Olivenöl, Käse, Dosenbohnen und Tiefkühlgemüse sind in Ordnung."
+      },
+      {
+        "question": "Ist Clean Eating das Gleiche wie Bio?",
+        "answer": "Nein. Clean Eating vermeidet Ultra-Verarbeitetes, nicht fehlende Bio-Zertifizierung. Konventionelle Produkte sind clean, wenn sie ganze, minimal verarbeitete Lebensmittel sind."
+      },
+      {
+        "question": "Kann ich mit Clean Eating abnehmen?",
+        "answer": "Viele nehmen natürlich ab beim Umstieg auf Vollwertkost, weil ultra-verarbeitete Lebensmittel darauf ausgelegt sind, Sättigungssignale zu überschreiben."
+      },
+      {
+        "question": "Ist Clean Eating teurer?",
+        "answer": "Kann sein, muss aber nicht. Bohnen, Linsen, Haferflocken, Eier, ganze Hähnchen, Tiefkühlgemüse und saisonales Obst sind günstig und clean."
+      },
+      {
+        "question": "Was ist mit auswärts essen?",
+        "answer": "Wählen Sie Restaurants, die frisch kochen. Gegrilltes Protein, Gemüsebeilagen, einfache Zubereitungen. Es geht nicht um Perfektion, sondern darum, meistens Vollwertkost zu wählen."
+      }
+    ]
   }
 }

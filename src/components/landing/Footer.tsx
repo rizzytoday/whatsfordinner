@@ -27,6 +27,12 @@ export function Footer() {
             {t("landing.footer.mealPlans")}
           </Link>
           <Link
+            href="/tools"
+            className="text-sm text-stone-400 hover:text-orange-600 transition-colors duration-200"
+          >
+            Free Tools
+          </Link>
+          <Link
             href="/privacy"
             className="text-sm text-stone-400 hover:text-orange-600 transition-colors duration-200"
           >

@@ -6747,5 +6747,630 @@
         "answer": "Com moderação, sim. Usamos porções controladas de macarrão e pão integrais ou à base de leguminosas, sempre combinados com proteína e gordura para retardar a absorção de glicose. Um quarto de xícara de macarrão integral como parte de uma refeição equilibrada tem um impacto muito diferente no açúcar no sangue do que uma tigela grande de macarrão branco sozinho."
       }
     ]
+  },
+  "15-minute-meal-plan": {
+    "title": "Cardapio de 15 Minutos — Jantares Rapidos Sem Correria",
+    "metaDescription": "Cardapio semanal personalizado de 15 minutos com receitas rapidas e lista de compras. Refeicoes de verdade em 15 minutos. Teste gratis.",
+    "h1": "Cardapio de 15 Minutos — Comida de Verdade, Incrivelmente Rapida",
+    "intro": "Quinze minutos e tudo o que voce precisa. Nao sao quinze minutos de preparo ativo mais vinte de cozimento — sao quinze minutos no total, de abrir a geladeira ate sentar com o prato. Nao sao refeicoes tristes de escritorio. Sao jantares de verdade com proteinas de cozimento rapido, ingredientes prontos e tecnicas que economizam tempo sem sacrificar sabor.",
+    "valueProps": [
+      {
+        "heading": "Honestamente 15 minutos",
+        "description": "Cronometramos cada receita desde que voce abre a geladeira. Sem preparo escondido, sem 'enquanto o forno preaquece'. Se leva 16 minutos, nao esta no cardapio."
+      },
+      {
+        "heading": "Proteinas rapidas, combinacoes inteligentes",
+        "description": "Camarao cozinha em 3 minutos. Ovos em 5. Frango fatiado em 7. Combinamos com acompanhamentos instantaneos para tudo ficar pronto ao mesmo tempo."
+      },
+      {
+        "heading": "Zero compromisso na nutricao",
+        "description": "Cada refeicao equilibra proteina, carboidratos e vegetais. Rapido nao significa vazio. Pratos balanceados que saciam por horas."
+      },
+      {
+        "heading": "Feitas para noites de semana",
+        "description": "Essas receitas assumem que voce esta cansado e no piloto automatico. Passos simples, pouco trabalho de faca, ingredientes de qualquer mercado."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Camarao ao Alho com Cuscuz de Limao",
+        "description": "Camarao selado na manteiga de alho por 3 minutos de cada lado. Enquanto cozinha, despeje agua fervente no cuscuz. Misture com limao, salsinha e tomates cereja. Pronto em 12 minutos.",
+        "tags": [
+          "15-minutos",
+          "rico-em-proteina",
+          "uma-panela"
+        ]
+      },
+      {
+        "name": "Torrada de Salmao Defumado com Abacate",
+        "description": "Pao torrado com abacate amassado, salmao defumado, alcaparras, cebola roxa e limao. Cinco minutos, zero cozimento.",
+        "tags": [
+          "15-minutos",
+          "sem-cozimento",
+          "rico-em-proteina"
+        ]
+      },
+      {
+        "name": "Tostadas de Feijao Preto",
+        "description": "Tortilhas crocantes na frigideira seca. Feijao preto com cominho e limao. Monte com alface, molho e queijo. 10 minutos.",
+        "tags": [
+          "15-minutos",
+          "vegetariano",
+          "economico"
+        ]
+      },
+      {
+        "name": "Bowl de Frango Teriyaki com Arroz",
+        "description": "Frango fatiado selado e glaceado com teriyaki. Sobre arroz de micro-ondas com edamame e gengibre em conserva.",
+        "tags": [
+          "15-minutos",
+          "rico-em-proteina",
+          "rapido"
+        ]
+      },
+      {
+        "name": "Flatbread Caprese com Pesto",
+        "description": "Pesto no pao naan, mussarela fresca e tomates cereja. Grelhe por 4 minutos. Manjericao fresco e balsamico para finalizar.",
+        "tags": [
+          "15-minutos",
+          "vegetariano",
+          "rapido"
+        ]
+      },
+      {
+        "name": "Parfait de Iogurte Grego com Granola",
+        "description": "Iogurte grego com mel, granola, frutas vermelhas e chia. Rico em proteina, zero cozimento, dois minutos.",
+        "tags": [
+          "15-minutos",
+          "sem-cozimento",
+          "rico-em-proteina"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Refeicoes de 15 minutos realmente saciam?",
+        "answer": "Sim. Velocidade nao determina saciedade — macronutrientes sim. Nossas refeicoes combinam proteina, carboidratos complexos e vegetais em cada prato, com 400-600 calorias."
+      },
+      {
+        "question": "Preciso de equipamento especial?",
+        "answer": "Uma frigideira de 30 cm e uma tabua de corte cobrem 90% das receitas. Um micro-ondas ajuda para arroz e legumes no vapor."
+      },
+      {
+        "question": "Sao so sanduiches e saladas?",
+        "answer": "De jeito nenhum. Voce tera refogados, massas, bowls de arroz, tostadas, flatbreads e proteinas seladas com acompanhamentos."
+      },
+      {
+        "question": "Posso preparar com antecedencia?",
+        "answer": "Alguns componentes se preparam bem, mas essas receitas sao rapidas o suficiente sem preparo previo. Essa e a ideia."
+      }
+    ]
+  },
+  "high-fiber-meal-plan": {
+    "title": "Cardapio Rico em Fibras — Melhor Digestao, Mais Energia",
+    "metaDescription": "Cardapio semanal personalizado rico em fibras com receitas e lista de compras. 30g+ de fibra diaria para melhor digestao. Teste gratis.",
+    "h1": "Cardapio Rico em Fibras — Mais Saciedade, Melhor Digestao",
+    "intro": "A maioria das pessoas come metade da fibra necessaria. Os 25-30 gramas diarios recomendados parecem atingiveis ate voce perceber que a dieta tipica fornece apenas 15. A diferenca aparece como inchaco, queda de energia e aquela sensacao de nunca estar realmente satisfeito. Um cardapio rico em fibras resolve isso sem transformar cada refeicao em uma tigela de cereal com farelo.",
+    "valueProps": [
+      {
+        "heading": "30+ gramas diarios, sem suplementos",
+        "description": "Cada dia soma 30-40 gramas de fibra de alimentos reais. Sopas de lentilha, saladas de feijao, aveia, massa integral e legumes assados."
+      },
+      {
+        "heading": "Aumento gradual incluido",
+        "description": "Pular de 15g para 40g de fibra da noite para o dia causa inchaco. Nossos cardapios comecam moderados e aumentam gradualmente."
+      },
+      {
+        "heading": "Variedade para o intestino",
+        "description": "Fontes diferentes de fibra alimentam bacterias intestinais diferentes. Alternamos entre fibra soluvel e insoluvel ao longo da semana."
+      },
+      {
+        "heading": "Sacia por horas",
+        "description": "A fibra desacelera a digestao e estabiliza o acucar no sangue, o que significa que as refeicoes satisfazem por muito mais tempo."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Overnight Oats com Chia, Frutas e Nozes",
+        "description": "Aveia deixada de molho com sementes de chia, frutas vermelhas, nozes e mel. 12 gramas de fibra antes de sair de casa.",
+        "tags": [
+          "rico-em-fibras",
+          "preparo-antecipado",
+          "sem-cozimento"
+        ]
+      },
+      {
+        "name": "Bowl de Lentilhas e Legumes Assados",
+        "description": "Lentilhas verdes sobre farro com batata-doce assada, brocolis e cebola roxa. Molho de tahini e limao. 16 gramas de fibra.",
+        "tags": [
+          "rico-em-fibras",
+          "vegano",
+          "meal-prep"
+        ]
+      },
+      {
+        "name": "Chili de Feijao Preto e Batata-Doce",
+        "description": "Dois tipos de feijao, batata-doce, tomates assados e especiarias. Com um paozinho integral. Mais de 18 gramas de fibra.",
+        "tags": [
+          "rico-em-fibras",
+          "vegano",
+          "cozinha-em-lote"
+        ]
+      },
+      {
+        "name": "Pimentoes Recheados de Grao-de-Bico e Quinoa",
+        "description": "Pimentoes recheados com quinoa, grao-de-bico, espinafre, tomate seco e queijo feta. 25 minutos no forno. 14 gramas de fibra.",
+        "tags": [
+          "rico-em-fibras",
+          "vegetariano",
+          "rico-em-proteina"
+        ]
+      },
+      {
+        "name": "Maca com Manteiga de Amendoas e Linhaca",
+        "description": "Fatias de maca com manteiga de amendoas e linhaca moida. Simples e adiciona 6 gramas de fibra entre refeicoes.",
+        "tags": [
+          "rico-em-fibras",
+          "sem-cozimento",
+          "rapido"
+        ]
+      },
+      {
+        "name": "Sopa de Feijao Branco e Couve",
+        "description": "Feijao branco, couve, cenouras e alho em caldo com alecrim e parmesao. 13 gramas de fibra por tigela.",
+        "tags": [
+          "rico-em-fibras",
+          "rico-em-proteina",
+          "reconfortante"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Uma dieta rica em fibras vai me inchar?",
+        "answer": "Pode, se voce aumentar rapido demais. Por isso nossos cardapios aumentam gradualmente em 2-3 semanas. A maioria melhora a digestao apos o periodo de adaptacao."
+      },
+      {
+        "question": "Quanta fibra devo comer por dia?",
+        "answer": "Recomenda-se 25g para mulheres e 38g para homens. Nossos cardapios miram 30-40g diarios, a faixa ideal para a maioria dos adultos."
+      },
+      {
+        "question": "Consigo proteina suficiente?",
+        "answer": "Claro. Muitos alimentos ricos em fibra tambem sao ricos em proteina — lentilhas, grao-de-bico, feijao preto, quinoa e edamame. Tambem incluimos frango, peixe e ovos."
+      },
+      {
+        "question": "Fibra ajuda a emagrecer?",
+        "answer": "A fibra e um dos reguladores naturais de apetite mais eficazes. Desacelera a digestao, estabiliza o acucar no sangue e mantem a saciedade."
+      },
+      {
+        "question": "Quais sao os melhores alimentos ricos em fibra?",
+        "answer": "Lentilhas (15g por xicara), feijao preto (15g), grao-de-bico (12g), framboesas (8g por xicara), abacate (10g), aveia (4g por porcao) e sementes de chia (10g por onca)."
+      }
+    ]
+  },
+  "bodybuilding-meal-plan": {
+    "title": "Cardapio para Musculacao — Combustivel Para Seus Ganhos",
+    "metaDescription": "Cardapio semanal para musculacao com receitas ricas em proteina e lista de compras. Bata seus macros sem comer frango com arroz todo dia. Teste gratis.",
+    "h1": "Cardapio para Musculacao — Bata Seus Macros Sem Monotonia",
+    "intro": "A dieta de musculacao tem um problema de imagem. As pessoas imaginam peito de frango sem gosto, arroz branco e brocolis no vapor seis vezes ao dia. Essa abordagem funciona, mas ninguem aguenta porque e miseravel. Voce nao precisa comer como um robo para ganhar musculo. Precisa de proteina suficiente, o superavit ou deficit calorico certo, e variedade suficiente para nao desistir na quarta refeicao.",
+    "valueProps": [
+      {
+        "heading": "Refeicoes calculadas por macros",
+        "description": "Cada receita inclui detalhamento completo de macronutrientes. Os cardapios miram 1g de proteina por libra de peso corporal."
+      },
+      {
+        "heading": "Variedade que mantem a consistencia",
+        "description": "Um cardapio que voce gosta de comer por 12 semanas supera um plano 'perfeito' abandonado em 10 dias. Rotacionamos proteinas, carboidratos e sabores."
+      },
+      {
+        "heading": "Ideal para meal prep",
+        "description": "A maioria dos praticantes come 4-6 refeicoes por dia. Nossos cardapios preparam proteinas e carboidratos em lote no domingo."
+      },
+      {
+        "heading": "Escala para seu objetivo calorico",
+        "description": "Seja 2.500 ou 4.000 calorias, o cardapio ajusta as porcoes. Bulking: mais arroz e gorduras. Cutting: proteinas mais magras."
+      },
+      {
+        "heading": "Timing nutricional estrategico",
+        "description": "Pre-treino com carboidratos rapidos. Pos-treino com proteina e reposicao de glicogenio. Dias de descanso com gorduras e alimentos de digestao lenta."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Mexido de Peru e Clara de Ovo",
+        "description": "Peru moido com claras, espinafre, pimentao e queijo cheddar. Com duas fatias de pao integral. 45g de proteina.",
+        "tags": [
+          "rico-em-proteina",
+          "musculacao",
+          "rapido"
+        ]
+      },
+      {
+        "name": "Bowl de Frango Grelhado com Batata-Doce",
+        "description": "Peito de frango marinado sobre batata-doce assada, arroz integral, brocolis e abacate. Molho de limao e tahini. 50g de proteina.",
+        "tags": [
+          "rico-em-proteina",
+          "musculacao",
+          "meal-prep"
+        ]
+      },
+      {
+        "name": "Salmao com Arroz Jasmin e Aspargos",
+        "description": "Salmao selado com glacê de shoyu e mel, arroz jasmin e aspargos assados. Omega-3 para recuperacao. 40g de proteina.",
+        "tags": [
+          "rico-em-proteina",
+          "musculacao",
+          "omega-3"
+        ]
+      },
+      {
+        "name": "Salteado de Carne Magra com Macarrao",
+        "description": "File mignon fatiado no wok com ervilhas-tortas, cogumelos, alho e gengibre. Macarrao udon no molho de shoyu e gergelim. 42g de proteina.",
+        "tags": [
+          "rico-em-proteina",
+          "musculacao",
+          "rapido"
+        ]
+      },
+      {
+        "name": "Bowl de Ricota com Abacaxi",
+        "description": "Ricota com abacaxi fresco e mel. 28g de caseina — proteina de digestao lenta, perfeita antes de dormir.",
+        "tags": [
+          "rico-em-proteina",
+          "sem-cozimento",
+          "rapido"
+        ]
+      },
+      {
+        "name": "Panquecas Proteicas de Aveia",
+        "description": "Aveia, claras, banana e whey protein em panquecas fofas. Com iogurte grego e frutas vermelhas. 38g de proteina.",
+        "tags": [
+          "rico-em-proteina",
+          "musculacao",
+          "meal-prep"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quanta proteina preciso por dia?",
+        "answer": "A faixa baseada em evidencias e 0,7-1g por libra de peso corporal. Para uma pessoa de 80kg, sao 126-180g diarios. Nossos cardapios usam 1g por libra como padrao."
+      },
+      {
+        "question": "Devo comer diferente em dias de descanso?",
+        "answer": "Um pouco. Refeicoes de dia de descanso reduzem carboidratos rapidos e aumentam gorduras e vegetais fibrosos. A proteina total permanece igual."
+      },
+      {
+        "question": "Posso ganhar musculo sem comer seis vezes ao dia?",
+        "answer": "Sim. Pesquisas recentes mostram que a proteina diaria total importa mais que a frequencia. Tres a quatro refeicoes com 30-50g de proteina cada sao suficientes."
+      },
+      {
+        "question": "Como usar o cardapio em bulking vs. cutting?",
+        "answer": "Indique seu objetivo. Cardapios de bulking adicionam 300-500 calorias. Cutting reduz 300-500 diminuindo carboidratos. As receitas sao as mesmas, so as porcoes mudam."
+      },
+      {
+        "question": "E os suplementos?",
+        "answer": "Nossos cardapios cobrem macro e micronutrientes com comida real. Creatina monohidratada e vitamina D sao os unicos suplementos com evidencia suficiente."
+      }
+    ]
+  },
+  "pregnancy-meal-plan": {
+    "title": "Cardapio para Gestantes — Nutrir Dois Sem Complicacao",
+    "metaDescription": "Cardapio semanal para gestantes com receitas seguras e nutritivas e lista de compras. Acido folico, ferro, proteina cobertos. Teste gratis.",
+    "h1": "Cardapio para Gestantes — Comer Bem por Dois, Com Simplicidade",
+    "intro": "Conselhos de nutricao na gravidez sao esmagadores. Nao coma isso, coma mais daquilo, tome esses suplementos. Enquanto isso voce esta com enjoo, exausta, e a unica coisa que parece boa sao biscoitos e cha de gengibre. Um cardapio para gestantes corta o ruido com uma resposta clara: o que comer, por que e bom para voce e o bebe, e como preparar em menos de 30 minutos.",
+    "valueProps": [
+      {
+        "heading": "Nutrientes essenciais, todos os dias",
+        "description": "Acido folico, ferro, calcio, omega-3 e colina em cada dia atraves dos alimentos. Folhas verdes, ovos, salmao, leguminosas e laticinios integrados nas receitas."
+      },
+      {
+        "heading": "Apenas ingredientes seguros",
+        "description": "Sem peixes com alto mercurio, sem brotos crus, sem queijos nao pasteurizados. Cada ingrediente e verificado."
+      },
+      {
+        "heading": "Opcoes para enjoo",
+        "description": "Cardapios do primeiro trimestre incluem alternativas suaves: biscoitos com pasta de amendoim, smoothies de gengibre e pratos frios."
+      },
+      {
+        "heading": "Nutricao ajustada por trimestre",
+        "description": "Primeiro trimestre: acido folico e manejo de enjoo. Segundo: mais calorias e proteina. Terceiro: ferro e calcio para a reta final."
+      },
+      {
+        "heading": "Refeicoes que o parceiro tambem vai gostar",
+        "description": "Cada jantar e uma refeicao de verdade para toda a familia."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Muffins de Ovo com Espinafre e Feta",
+        "description": "Ovos batidos com espinafre, feta e tomate seco assados em forma de muffin. Faca 12, refrigere e esquente a semana toda. Acido folico, proteina e colina.",
+        "tags": [
+          "seguro-gestacao",
+          "rico-em-proteina",
+          "preparo-antecipado"
+        ]
+      },
+      {
+        "name": "Bowl de Salmao e Abacate com Arroz Integral",
+        "description": "Salmao assado (baixo mercurio, alto DHA) sobre arroz integral com abacate, edamame e molho de gergelim e gengibre.",
+        "tags": [
+          "seguro-gestacao",
+          "omega-3",
+          "rico-em-proteina"
+        ]
+      },
+      {
+        "name": "Curry de Lentilhas e Espinafre",
+        "description": "Lentilhas vermelhas em leite de coco com espinafre, tomate e especiarias suaves. Sobre arroz basmati. Potencia de ferro e acido folico.",
+        "tags": [
+          "seguro-gestacao",
+          "rico-em-ferro",
+          "vegetariano"
+        ]
+      },
+      {
+        "name": "Sopa de Peru e Feijao Branco",
+        "description": "Peru moido, feijao branco, couve, cenouras e alho em caldo leve com ervas italianas.",
+        "tags": [
+          "seguro-gestacao",
+          "rico-em-proteina",
+          "cozinha-em-lote"
+        ]
+      },
+      {
+        "name": "Iogurte Grego com Nozes e Mel",
+        "description": "Iogurte grego integral com nozes, mel e mirtilos. Calcio, proteina e omega-3 em dois minutos.",
+        "tags": [
+          "seguro-gestacao",
+          "sem-cozimento",
+          "rico-em-calcio"
+        ]
+      },
+      {
+        "name": "Smoothie de Gengibre e Banana",
+        "description": "Banana congelada, gengibre fresco, iogurte grego, manteiga de amendoas e leite. O gengibre alivia o enjoo.",
+        "tags": [
+          "seguro-gestacao",
+          "anti-enjoo",
+          "rapido"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quantas calorias extras na gravidez?",
+        "answer": "Aproximadamente zero no primeiro trimestre, 340 no segundo e 450 no terceiro. 'Comer por dois' e mito — e mais como comer por 1,1."
+      },
+      {
+        "question": "Quais alimentos evitar?",
+        "answer": "Peixes com alto mercurio, carnes e ovos crus, laticinios e sucos nao pasteurizados, embutidos (a menos que bem aquecidos), brotos crus e cafeina em excesso (max 200mg/dia)."
+      },
+      {
+        "question": "Ainda preciso de vitaminas pre-natais?",
+        "answer": "Sim. Nossos cardapios maximizam nutrientes pelos alimentos, mas uma vitamina pre-natal continua recomendada como seguranca."
+      },
+      {
+        "question": "E se eu nao conseguir comer nada no primeiro trimestre?",
+        "answer": "Nossos cardapios do primeiro trimestre incluem alternativas para enjoo: biscoitos com pasta de amendoim, frutas frias, cha de gengibre e refeicoes pequenas frequentes."
+      },
+      {
+        "question": "Posso seguir com diabetes gestacional?",
+        "answer": "Nosso cardapio padrao pode ser ponto de partida, mas diabetes gestacional requer manejo especifico de carboidratos com orientacao medica."
+      }
+    ]
+  },
+  "diabetic-meal-plan": {
+    "title": "Cardapio para Diabeticos — Acucar Controlado com Sabor",
+    "metaDescription": "Cardapio semanal para diabeticos com receitas de baixo indice glicemico e lista de compras. Refeicoes que estabilizam o acucar no sangue. Teste gratis.",
+    "h1": "Cardapio para Diabeticos — Glicemia Estavel, Sabor de Verdade",
+    "intro": "Gerenciar diabetes pela alimentacao nao significa abrir mao de tudo. Significa escolher alimentos que liberam energia lentamente, combinar carboidratos com proteina e fibra, e saber quais refeicoes manterao seu acucar estavel. O desafio nao e a teoria — e descobrir o que cozinhar numa terca a noite que preencha todos os requisitos e ainda tenha gosto de comida que voce quer comer.",
+    "valueProps": [
+      {
+        "heading": "Baixo indice glicemico por design",
+        "description": "Cada refeicao prioriza carboidratos de baixo IG — batata-doce em vez de batata branca, quinoa em vez de arroz branco, frutas vermelhas em vez de frutas tropicais."
+      },
+      {
+        "heading": "Porcoes de carboidratos controladas",
+        "description": "Cada refeicao inclui 30-45 gramas de carboidratos, dentro da faixa recomendada pelos educadores em diabetes."
+      },
+      {
+        "heading": "Macros equilibrados em cada refeicao",
+        "description": "Proteina e gorduras saudaveis em cada refeicao para desacelerar a absorcao de glicose. Uma fruta sozinha dispara o acucar. A mesma fruta com nozes e iogurte libera energia por horas."
+      },
+      {
+        "heading": "Sem privacao",
+        "description": "Voce comera massa (integral, porcionada), pao (integral, com proteina) e sobremesas (base de frutas). O cardapio funciona escolhendo versoes mais inteligentes."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Mexido de Legumes e Queijo no Pao Integral",
+        "description": "Ovos mexidos com abobrinha, cogumelos e queijo cheddar sobre pao integral. Rico em proteina, baixo IG, apenas 25g de carboidratos.",
+        "tags": [
+          "para-diabeticos",
+          "baixo-ig",
+          "rico-em-proteina"
+        ]
+      },
+      {
+        "name": "Salada Mediterranea de Frango e Quinoa",
+        "description": "Frango grelhado sobre quinoa com pepino, tomates cereja, azeitonas kalamata e vinagrete de limao. 38g carboidratos, 42g proteina.",
+        "tags": [
+          "para-diabeticos",
+          "rico-em-proteina",
+          "mediterraneo"
+        ]
+      },
+      {
+        "name": "Bacalhau Assado com Couve-de-Bruxelas e Batata-Doce",
+        "description": "Files de bacalhau com ervas assados com couve-de-bruxelas e batata-doce. 35g de carboidratos, rico em fibra e omega-3.",
+        "tags": [
+          "para-diabeticos",
+          "baixo-ig",
+          "uma-assadeira"
+        ]
+      },
+      {
+        "name": "Wraps de Alface de Peru com Molho de Amendoim",
+        "description": "Peru moido temperado, cenoura ralada e pepino em folhas de alface com molho de amendoim e limao. Ultra baixo em carboidratos.",
+        "tags": [
+          "para-diabeticos",
+          "baixo-carb",
+          "rapido"
+        ]
+      },
+      {
+        "name": "Amendoas Torradas com Canela",
+        "description": "Amendoas com canela, pitada de sal e oleo de coco. 12 minutos no forno. Gorduras saudaveis e proteina com impacto quase zero no acucar.",
+        "tags": [
+          "para-diabeticos",
+          "baixo-carb",
+          "cozinha-em-lote"
+        ]
+      },
+      {
+        "name": "Massa Integral com Bolonhesa de Peru",
+        "description": "Peru moido magro em molho de tomate com alho, manjericao e oregano. Porcao medida de espaguete integral com vagem. 42g carboidratos, 38g proteina.",
+        "tags": [
+          "para-diabeticos",
+          "rico-em-proteina",
+          "reconfortante"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Este cardapio e para diabetes Tipo 1 ou Tipo 2?",
+        "answer": "Projetado principalmente para manejo de diabetes Tipo 2 e pre-diabetes. Pessoas com Tipo 1 podem usar mas devem ajustar insulina com seu endocrinologista."
+      },
+      {
+        "question": "Quantos carboidratos por refeicao para diabeticos?",
+        "answer": "A maioria dos educadores recomenda 45-60 gramas por refeicao. Nossos cardapios miram 30-45 gramas, uma abordagem conservadora que funciona bem."
+      },
+      {
+        "question": "Posso comer frutas?",
+        "answer": "Sim. Frutas vermelhas, macas e peras tem baixo IG e sao ricas em fibra. A chave e combinar frutas com proteina ou gordura."
+      },
+      {
+        "question": "Este cardapio ajudara a baixar minha A1C?",
+        "answer": "A dieta e uma das ferramentas mais poderosas para gerenciar A1C. Muitos usuarios veem melhorias em 2-3 meses de mudancas alimentares consistentes."
+      },
+      {
+        "question": "Posso comer fora?",
+        "answer": "Claro. Os principios — combinar carboidratos com proteina, escolher baixo IG, controlar porcoes — funcionam em qualquer restaurante."
+      }
+    ]
+  },
+  "clean-eating-meal-plan": {
+    "title": "Cardapio de Alimentacao Limpa — Comida de Verdade, Sem Complicacao",
+    "metaDescription": "Cardapio semanal de alimentacao limpa com receitas de alimentos integrais e lista de compras. Sem processados, sem regras complicadas. Teste gratis.",
+    "h1": "Alimentacao Limpa — Ingredientes Reais, Resultados Reais",
+    "intro": "Alimentacao limpa e simples: comer comida que parece comida. Se cresceu na terra, andou sobre ela ou nadou no mar, entra. Se foi fabricado numa industria com uma lista de ingredientes maior que um cupom fiscal, nao entra. Sem contar macros, sem eliminar grupos alimentares. So ingredientes inteiros e minimamente processados cozidos em refeicoes que fazem voce se sentir bem.",
+    "valueProps": [
+      {
+        "heading": "Alimentos integrais, minimo processamento",
+        "description": "Cada ingrediente e algo que sua avo reconheceria. Vegetais frescos, graos integrais, proteinas de qualidade, gorduras saudaveis e adocantes naturais."
+      },
+      {
+        "heading": "Sem eliminacao, sem extremos",
+        "description": "Alimentacao limpa nao e keto, paleo nem vegana. Voce comera carboidratos, gorduras, proteinas e laticinios. So ultraprocessados sao excluidos."
+      },
+      {
+        "heading": "Sustentavel para a vida toda",
+        "description": "Nao e detox nem desafio de 30 dias. E uma forma de comer que funciona permanentemente porque nada e proibido exceto junk food."
+      },
+      {
+        "heading": "Lista de compras do perimetro",
+        "description": "Nossas listas mantem voce na sessao de hortifruti, acougue, laticinios e graos. Voce pula 90% dos corredores centrais."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Torrada de Abacate com Ovos Pouche",
+        "description": "Pao de fermentacao natural integral com abacate amassado, dois ovos pouche, tomates cereja e sal em flocos.",
+        "tags": [
+          "alimentacao-limpa",
+          "alimento-integral",
+          "rico-em-proteina"
+        ]
+      },
+      {
+        "name": "Frango Grelhado com Legumes Assados",
+        "description": "Peito de frango marinado com azeite, limao e oregano com abobrinha, pimentao e batata-doce assados. Zero ingredientes processados.",
+        "tags": [
+          "alimentacao-limpa",
+          "alimento-integral",
+          "rico-em-proteina"
+        ]
+      },
+      {
+        "name": "Salmao Selvagem com Quinoa e Brocolis",
+        "description": "Salmao selvagem selado sobre quinoa com endro, raspas de limao e pinhoes. Brocolis no vapor com limao e azeite.",
+        "tags": [
+          "alimentacao-limpa",
+          "omega-3",
+          "rico-em-proteina"
+        ]
+      },
+      {
+        "name": "Chili Caseiro de Peru e Feijao Preto",
+        "description": "Peru moido, feijao preto, tomate, cebola, alho e especiarias do zero. Sem lata de chili nem sache de tempero. Com iogurte e coentro.",
+        "tags": [
+          "alimentacao-limpa",
+          "cozinha-em-lote",
+          "rico-em-proteina"
+        ]
+      },
+      {
+        "name": "Mix de Frutas Secas e Castanhas",
+        "description": "Amendoas, nozes, cranberries secas sem acucar, chocolate amargo 85% e sementes de abobora. Misturado em casa em 2 minutos.",
+        "tags": [
+          "alimentacao-limpa",
+          "sem-cozimento",
+          "alimento-integral"
+        ]
+      },
+      {
+        "name": "Hash de Batata-Doce e Couve com Ovos Fritos",
+        "description": "Batata-doce em cubos frita no oleo de coco com couve, cebola roxa e paprica defumada. Dois ovos fritos por cima.",
+        "tags": [
+          "alimentacao-limpa",
+          "alimento-integral",
+          "rico-em-proteina"
+        ]
+      },
+      {
+        "name": "Salada Mediterranea de Atum",
+        "description": "Atum selvagem com azeite, salsao, cebola roxa, alcaparras e limao. Sobre folhas verdes com pepino e tomates.",
+        "tags": [
+          "alimentacao-limpa",
+          "sem-cozimento",
+          "rico-em-proteina"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "O que conta como 'processado'?",
+        "answer": "Tracamos a linha nos ultraprocessados — alimentos com listas longas de aditivos. Alimentos minimamente processados como azeite, queijo, feijao em lata e legumes congelados sao aceitos."
+      },
+      {
+        "question": "Alimentacao limpa e o mesmo que organica?",
+        "answer": "Nao. Alimentacao limpa e evitar ultraprocessados, nao buscar certificacao organica. Produtos convencionais sao limpos se forem alimentos integrais."
+      },
+      {
+        "question": "Posso emagrecer comendo limpo?",
+        "answer": "Muitas pessoas emagrecem naturalmente ao mudar para alimentos integrais porque ultraprocessados sao projetados para anular sinais de saciedade."
+      },
+      {
+        "question": "Alimentacao limpa e mais cara?",
+        "answer": "Pode ser, mas nao precisa. Feijao, lentilhas, aveia, ovos, frangos inteiros, congelados e produtos da estacao sao acessiveis e limpos."
+      },
+      {
+        "question": "E comer fora?",
+        "answer": "Escolha restaurantes que cozinham do zero. Proteinas grelhadas, legumes de acompanhamento, preparacoes simples. A meta nao e perfeicao, e fazer boas escolhas na maior parte do tempo."
+      }
+    ]
   }
 }

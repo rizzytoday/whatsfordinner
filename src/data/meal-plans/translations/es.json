@@ -6709,5 +6709,630 @@
         "answer": "Con moderación, sí. Usamos porciones controladas de pasta y pan integrales o a base de legumbres, siempre acompañados de proteína y grasa para ralentizar la absorción de glucosa. Un cuarto de taza de pasta integral como parte de una comida balanceada tiene un impacto muy diferente en el azúcar en sangre que un plato grande de pasta blanca sola."
       }
     ]
+  },
+  "15-minute-meal-plan": {
+    "title": "Plan de Comidas de 15 Minutos — Cenas Rápidas Sin Prisas",
+    "metaDescription": "Plan semanal personalizado de comidas en 15 minutos con recetas rápidas y lista de compras. Cenas reales en 15 minutos. Prueba gratis.",
+    "h1": "Plan de Comidas de 15 Minutos — Comida Real, Increíblemente Rápida",
+    "intro": "Quince minutos es todo lo que necesitas. No quince minutos de cocción activa más veinte de reposo — quince minutos en total, desde que abres la nevera hasta que te sientas con el plato. No son comidas tristes de escritorio ni snacks glorificados. Son cenas de verdad construidas con proteínas de cocción rápida, ingredientes prelistos y técnicas que ahorran tiempo sin sacrificar sabor.",
+    "valueProps": [
+      {
+        "heading": "15 minutos de verdad",
+        "description": "Cronometramos cada receta desde que abres la nevera. Sin preparación oculta, sin 'mientras el horno precalienta'. Si tarda 16 minutos, no está en el plan."
+      },
+      {
+        "heading": "Proteínas rápidas, combinaciones inteligentes",
+        "description": "Los camarones se cocinan en 3 minutos. Los huevos en 5. El pollo en láminas en 7. Los combinamos con acompañamientos instantáneos para que toda la comida esté lista a la vez."
+      },
+      {
+        "heading": "Nutrición sin compromisos",
+        "description": "Cada comida equilibra proteína, carbohidratos y vegetales. Rápido no significa vacío. Platos balanceados que te mantienen satisfecho durante horas."
+      },
+      {
+        "heading": "Pensados para noches de semana",
+        "description": "Estas recetas asumen que estás cansado y en piloto automático. Pasos simples, mínimo trabajo con cuchillo e ingredientes de cualquier supermercado."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Camarones al Ajillo con Cuscús al Limón",
+        "description": "Camarones sellados en mantequilla de ajo por 3 minutos por lado. Mientras se cocinan, vierte agua hirviendo sobre el cuscús. Mezcla con limón, perejil y tomates cherry. Listo en 12 minutos.",
+        "tags": [
+          "15-minutos",
+          "alto-en-proteína",
+          "una-sartén"
+        ]
+      },
+      {
+        "name": "Tostada de Salmón Ahumado con Aguacate",
+        "description": "Pan tostado con aguacate machacado, salmón ahumado, alcaparras, cebolla morada y limón. Cinco minutos, cero cocción.",
+        "tags": [
+          "15-minutos",
+          "sin-cocción",
+          "alto-en-proteína"
+        ]
+      },
+      {
+        "name": "Tostadas de Frijol Negro",
+        "description": "Tortillas crujientes en sartén seca. Frijoles negros con comino y lima. Apila con lechuga, pico de gallo, queso cotija y crema. 10 minutos.",
+        "tags": [
+          "15-minutos",
+          "vegetariano",
+          "económico"
+        ]
+      },
+      {
+        "name": "Bowl de Pollo Teriyaki con Arroz",
+        "description": "Pollo en láminas sellado y glaseado con teriyaki. Sobre arroz de microondas con edamame y jengibre encurtido.",
+        "tags": [
+          "15-minutos",
+          "alto-en-proteína",
+          "rápido"
+        ]
+      },
+      {
+        "name": "Flatbread Caprese con Pesto",
+        "description": "Pesto sobre pan naan, mozzarella fresca y tomates cherry. Al grill 4 minutos. Albahaca fresca y balsámico para terminar.",
+        "tags": [
+          "15-minutos",
+          "vegetariano",
+          "rápido"
+        ]
+      },
+      {
+        "name": "Parfait de Yogur Griego con Granola",
+        "description": "Yogur griego con miel, granola, frutos rojos y semillas de chía. Alto en proteína, cero cocción, dos minutos.",
+        "tags": [
+          "15-minutos",
+          "sin-cocción",
+          "alto-en-proteína"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Las comidas de 15 minutos son realmente llenadores?",
+        "answer": "Sí. La velocidad no determina la saciedad — los macronutrientes sí. Nuestras comidas combinan proteína, carbohidratos complejos y vegetales en cada plato, alcanzando 400-600 calorías con suficiente proteína y fibra."
+      },
+      {
+        "question": "¿Necesito algún equipo especial?",
+        "answer": "Una sartén de 30 cm y una tabla de cortar cubren el 90% de estas recetas. Un microondas ayuda para el arroz y los vegetales al vapor. Sin olla a presión, sin freidora de aire."
+      },
+      {
+        "question": "¿No son solo sándwiches y ensaladas?",
+        "answer": "Para nada. Tendrás salteados, pasta, bowls de arroz, tostadas, flatbreads y proteínas selladas con guarniciones. La limitación es el tiempo, no la técnica."
+      },
+      {
+        "question": "¿Puedo preparar estas comidas con anticipación?",
+        "answer": "Algunos componentes se preparan bien por adelantado, pero estas recetas están diseñadas para ser lo suficientemente rápidas sin preparación previa. Esa es la gracia."
+      }
+    ]
+  },
+  "high-fiber-meal-plan": {
+    "title": "Plan de Comidas Alto en Fibra — Mejor Digestión, Más Energía",
+    "metaDescription": "Plan semanal personalizado alto en fibra con recetas ricas en fibra y lista de compras. 30g+ de fibra diaria para mejor digestión. Prueba gratis.",
+    "h1": "Plan Alto en Fibra — Más Saciedad, Mejor Digestión",
+    "intro": "La mayoría come la mitad de la fibra que necesita. Los 25-30 gramos diarios recomendados suenan manejables hasta que te das cuenta de que la dieta típica aporta unos 15. La diferencia se nota en hinchazón, bajones de energía y esa sensación de no estar satisfecho después de comer. Un plan alto en fibra soluciona esto sin convertir cada comida en un tazón de cereal con salvado.",
+    "valueProps": [
+      {
+        "heading": "30+ gramos diarios, sin suplementos",
+        "description": "Cada día suma 30-40 gramos de fibra de alimentos reales. Sopas de lentejas, ensaladas de frijoles, avena, pasta integral y vegetales asados hacen el trabajo."
+      },
+      {
+        "heading": "Aumento gradual incluido",
+        "description": "Saltar de 15g a 40g de fibra de un día para otro causa hinchazón. Nuestros planes arrancan moderados y aumentan gradualmente, dándole tiempo a tu flora intestinal."
+      },
+      {
+        "heading": "Variedad para el intestino",
+        "description": "Diferentes fuentes de fibra alimentan diferentes bacterias intestinales. Rotamos entre fibra soluble e insoluble durante la semana."
+      },
+      {
+        "heading": "Te mantiene lleno por horas",
+        "description": "La fibra ralentiza la digestión y estabiliza el azúcar en sangre, lo que significa que las comidas te satisfacen mucho más tiempo."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Avena Nocturna con Chía, Frutos Rojos y Nueces",
+        "description": "Avena remojada toda la noche con semillas de chía, frutos rojos, nueces y un toque de miel. 12 gramos de fibra antes de salir de casa.",
+        "tags": [
+          "alto-en-fibra",
+          "preparación-previa",
+          "sin-cocción"
+        ]
+      },
+      {
+        "name": "Bowl de Lentejas y Vegetales Asados",
+        "description": "Lentejas verdes sobre farro con camote asado, brócoli y cebolla morada. Aderezo de tahini y limón. 16 gramos de fibra por bowl.",
+        "tags": [
+          "alto-en-fibra",
+          "vegano",
+          "preparación-previa"
+        ]
+      },
+      {
+        "name": "Chili de Frijol Negro y Camote",
+        "description": "Dos tipos de frijoles, camote en cubos, tomates asados y especias reconfortantes. Con un panecillo integral. Más de 18 gramos de fibra.",
+        "tags": [
+          "alto-en-fibra",
+          "vegano",
+          "cocina-en-lote"
+        ]
+      },
+      {
+        "name": "Pimientos Rellenos de Garbanzos y Quinoa",
+        "description": "Pimientos rellenos de quinoa, garbanzos, espinaca, tomates secos y feta. Al horno 25 minutos. 14 gramos de fibra.",
+        "tags": [
+          "alto-en-fibra",
+          "vegetariano",
+          "alto-en-proteína"
+        ]
+      },
+      {
+        "name": "Manzana con Mantequilla de Almendras y Linaza",
+        "description": "Rodajas de manzana con mantequilla de almendras y linaza molida. Simple y agrega 6 gramos de fibra entre comidas.",
+        "tags": [
+          "alto-en-fibra",
+          "sin-cocción",
+          "rápido"
+        ]
+      },
+      {
+        "name": "Sopa de Frijol Blanco y Kale",
+        "description": "Frijoles cannellini, kale, zanahorias y ajo en caldo con romero y parmesano. 13 gramos de fibra por tazón.",
+        "tags": [
+          "alto-en-fibra",
+          "alto-en-proteína",
+          "reconfortante"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Una dieta alta en fibra me va a hinchar?",
+        "answer": "Puede si aumentas demasiado rápido. Por eso nuestros planes incrementan gradualmente en 2-3 semanas. La mayoría mejora su digestión después del período de adaptación."
+      },
+      {
+        "question": "¿Cuánta fibra debo comer al día?",
+        "answer": "Se recomiendan 25 gramos para mujeres y 38 para hombres. Nuestros planes apuntan a 30-40 gramos diarios, el rango óptimo para la mayoría de adultos."
+      },
+      {
+        "question": "¿Puedo obtener suficiente proteína?",
+        "answer": "Claro. Muchos alimentos altos en fibra también son ricos en proteína — lentejas, garbanzos, frijoles negros, quinoa y edamame. También incluimos pollo, pescado y huevos."
+      },
+      {
+        "question": "¿La fibra ayuda a perder peso?",
+        "answer": "La fibra es uno de los reguladores naturales del apetito más efectivos. Ralentiza la digestión, estabiliza el azúcar en sangre y te mantiene lleno más tiempo."
+      },
+      {
+        "question": "¿Cuáles son los mejores alimentos altos en fibra?",
+        "answer": "Lentejas (15g por taza), frijoles negros (15g), garbanzos (12g), frambuesas (8g por taza), aguacate (10g cada uno), avena (4g por porción), semillas de chía (10g por onza) y brócoli (5g por taza)."
+      }
+    ]
+  },
+  "bodybuilding-meal-plan": {
+    "title": "Plan de Comidas para Fisicoculturismo — Impulsa Tus Ganancias",
+    "metaDescription": "Plan semanal personalizado para fisicoculturismo con recetas altas en proteína y lista de compras. Cumple tus macros sin comer pollo y arroz siempre. Prueba gratis.",
+    "h1": "Plan para Fisicoculturismo — Cumple Tus Macros Sin Monotonía",
+    "intro": "La dieta de fisicoculturismo tiene un problema de imagen. La gente imagina pechuga de pollo insípida, arroz blanco y brócoli al vapor seis veces al día. Ese enfoque funciona, pero nadie lo mantiene porque es miserable. No necesitas comer como un robot para ganar músculo. Necesitas suficiente proteína, el superávit o déficit calórico correcto, y suficiente variedad para no querer rendirte en la cuarta comida.",
+    "valueProps": [
+      {
+        "heading": "Comidas calculadas por macros",
+        "description": "Cada receta incluye desglose completo de macronutrientes. Los planes apuntan a 1g de proteína por libra de peso corporal con carbohidratos y grasas ajustados a tu fase."
+      },
+      {
+        "heading": "Variedad que mantiene la constancia",
+        "description": "Un plan que disfrutas comer por 12 semanas supera a un plan 'perfecto' que abandonas en 10 días. Rotamos proteínas, carbohidratos y sabores."
+      },
+      {
+        "heading": "Ideal para meal prep",
+        "description": "La mayoría de fisicoculturistas come 4-6 comidas al día. Nuestros planes cocinan proteínas y carbohidratos en lote el domingo para toda la semana."
+      },
+      {
+        "heading": "Se adapta a tu objetivo calórico",
+        "description": "Ya sea que necesites 2,500 o 4,000 calorías, el plan ajusta las porciones. Volumen: más arroz y grasas. Definición: proteínas más magras y más vegetales."
+      },
+      {
+        "heading": "Nutrición estratégica por horario",
+        "description": "Comidas pre-entreno con carbohidratos rápidos. Post-entreno con proteína y carbohidratos de reposición. Días de descanso con grasas y alimentos de digestión lenta."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Revuelto de Pavo y Clara de Huevo",
+        "description": "Pavo molido con claras de huevo, espinaca, pimientos y queso cheddar. Con dos rebanadas de pan Ezekiel. 45g de proteína.",
+        "tags": [
+          "alto-en-proteína",
+          "fisicoculturismo",
+          "rápido"
+        ]
+      },
+      {
+        "name": "Bowl de Pollo a la Parrilla con Camote",
+        "description": "Pechuga de pollo marinada sobre camote asado, arroz integral, brócoli y aguacate. Salsa de limón y tahini. 50g de proteína.",
+        "tags": [
+          "alto-en-proteína",
+          "fisicoculturismo",
+          "meal-prep"
+        ]
+      },
+      {
+        "name": "Salmón con Arroz Jazmín y Espárragos",
+        "description": "Salmón sellado con glaseado de soya y miel, arroz jazmín y espárragos asados. Omega-3 para recuperación. 40g de proteína.",
+        "tags": [
+          "alto-en-proteína",
+          "fisicoculturismo",
+          "omega-3"
+        ]
+      },
+      {
+        "name": "Salteado de Res Magra con Fideos",
+        "description": "Lomo en láminas salteado al wok con ejotes, champiñones, ajo y jengibre. Con fideos udon en salsa de soya y sésamo. 42g de proteína.",
+        "tags": [
+          "alto-en-proteína",
+          "fisicoculturismo",
+          "rápido"
+        ]
+      },
+      {
+        "name": "Bowl de Requesón con Piña",
+        "description": "Requesón bajo en grasa con piña fresca y un toque de miel. 28g de caseína — proteína de digestión lenta, perfecta antes de dormir.",
+        "tags": [
+          "alto-en-proteína",
+          "sin-cocción",
+          "rápido"
+        ]
+      },
+      {
+        "name": "Hotcakes de Avena Proteicos",
+        "description": "Avena, claras de huevo, plátano y proteína en polvo en hotcakes esponjosos. Con yogur griego y frutos rojos. 38g de proteína.",
+        "tags": [
+          "alto-en-proteína",
+          "fisicoculturismo",
+          "meal-prep"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánta proteína necesito al día?",
+        "answer": "El rango basado en evidencia es 0.7-1g por libra de peso corporal. Para una persona de 80kg, eso son 126-180g diarios. Nuestros planes usan 1g por libra por defecto."
+      },
+      {
+        "question": "¿Debo comer diferente en días de descanso?",
+        "answer": "Ligeramente. Nuestras comidas de día de descanso reducen carbohidratos rápidos y aumentan grasas y vegetales fibrosos. La proteína total se mantiene igual."
+      },
+      {
+        "question": "¿Puedo ganar músculo sin comer seis veces al día?",
+        "answer": "Sí. Investigaciones recientes muestran que la proteína diaria total importa más que la frecuencia de comidas. Tres a cuatro comidas con 30-50g de proteína cada una son suficientes."
+      },
+      {
+        "question": "¿Cómo uso este plan en volumen vs. definición?",
+        "answer": "Indícanos tu objetivo. Los planes de volumen agregan 300-500 calorías extra. Los de definición restan 300-500 reduciendo carbohidratos. Las recetas son las mismas, solo cambian las porciones."
+      },
+      {
+        "question": "¿Qué hay de los suplementos?",
+        "answer": "Nuestros planes cubren tus necesidades de macro y micronutrientes con comida real. Creatina monohidratada y vitamina D son los únicos suplementos con evidencia suficiente para recomendar."
+      }
+    ]
+  },
+  "pregnancy-meal-plan": {
+    "title": "Plan de Comidas para Embarazo — Nutre a Dos Sin Agobio",
+    "metaDescription": "Plan semanal personalizado para embarazo con recetas seguras, ricas en nutrientes y lista de compras. Ácido fólico, hierro, proteína cubiertos. Prueba gratis.",
+    "h1": "Plan para Embarazo — Comer Bien por Dos, Con Simplicidad",
+    "intro": "Los consejos de nutrición en el embarazo son abrumadores. No comas esto, come más de aquello, toma estos suplementos. Mientras tanto estás con náuseas, agotada y lo único que suena bien son galletas y agua con jengibre. Un plan de comidas para embarazo corta el ruido con una respuesta clara cada día: esto es lo que hay que comer, por qué es bueno para ti y tu bebé, y cómo prepararlo en menos de 30 minutos.",
+    "valueProps": [
+      {
+        "heading": "Nutrientes clave, todos los días",
+        "description": "Ácido fólico, hierro, calcio, omega-3 y colina aparecen en cada día a través de los alimentos. Verduras de hoja, huevos, salmón, legumbres y lácteos están integrados en cada receta."
+      },
+      {
+        "heading": "Solo ingredientes seguros para el embarazo",
+        "description": "Sin pescados con alto contenido de mercurio, sin brotes crudos, sin quesos no pasteurizados. Cada ingrediente está verificado según las guías actuales."
+      },
+      {
+        "heading": "Opciones para las náuseas",
+        "description": "Los planes del primer trimestre incluyen alternativas suaves para mañanas difíciles. Galletas con mantequilla de maní, smoothies de jengibre y platos fríos que no provocan olores."
+      },
+      {
+        "heading": "Nutrición ajustada por trimestre",
+        "description": "Primer trimestre: ácido fólico y manejo de náuseas. Segundo: más calorías y proteína. Tercero: hierro y calcio para la recta final."
+      },
+      {
+        "heading": "Comidas que tu pareja también disfrutará",
+        "description": "Cada cena es una comida real que toda la familia puede disfrutar, no un smoothie bowl con sabor a vitamina prenatal."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Muffins de Huevo con Espinaca y Feta",
+        "description": "Huevos batidos con espinaca salteada, feta y tomates secos horneados en molde de muffin. Haz 12, refrigera y recalienta toda la semana. Ácido fólico, proteína y colina.",
+        "tags": [
+          "apto-embarazo",
+          "alto-en-proteína",
+          "preparación-previa"
+        ]
+      },
+      {
+        "name": "Bowl de Salmón y Aguacate con Arroz Integral",
+        "description": "Salmón al horno (bajo en mercurio, alto en DHA) sobre arroz integral con aguacate, edamame, pepino y aderezo de sésamo y jengibre.",
+        "tags": [
+          "apto-embarazo",
+          "omega-3",
+          "alto-en-proteína"
+        ]
+      },
+      {
+        "name": "Curry de Lentejas y Espinaca",
+        "description": "Lentejas rojas en leche de coco con espinaca, tomate y especias suaves. Sobre arroz basmati. Potencia de hierro y ácido fólico.",
+        "tags": [
+          "apto-embarazo",
+          "alto-en-hierro",
+          "vegetariano"
+        ]
+      },
+      {
+        "name": "Sopa de Pavo y Frijol Blanco",
+        "description": "Pavo molido, frijoles cannellini, kale, zanahorias y ajo en caldo ligero con hierbas italianas. Proteína, hierro y fibra.",
+        "tags": [
+          "apto-embarazo",
+          "alto-en-proteína",
+          "cocina-en-lote"
+        ]
+      },
+      {
+        "name": "Yogur Griego con Nueces y Miel",
+        "description": "Yogur griego entero con nueces, miel y arándanos. Calcio, proteína y omega-3 en un snack de dos minutos.",
+        "tags": [
+          "apto-embarazo",
+          "sin-cocción",
+          "rico-en-calcio"
+        ]
+      },
+      {
+        "name": "Smoothie de Jengibre y Plátano",
+        "description": "Plátano congelado, jengibre fresco, yogur griego, mantequilla de almendras y leche. El jengibre calma las náuseas mientras la proteína estabiliza el azúcar.",
+        "tags": [
+          "apto-embarazo",
+          "anti-náuseas",
+          "rápido"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuántas calorías extra necesito en el embarazo?",
+        "answer": "Aproximadamente cero extra en el primer trimestre, 340 en el segundo y 450 en el tercero. 'Comer por dos' es un mito — es más como comer por 1.1. Nuestros planes ajustan calorías por trimestre."
+      },
+      {
+        "question": "¿Qué alimentos debo evitar?",
+        "answer": "Pescados con alto mercurio, carnes y huevos crudos o poco cocidos, lácteos y jugos no pasteurizados, embutidos (a menos que estén bien calientes), brotes crudos y exceso de cafeína (límite 200mg/día). Nuestros planes filtran automáticamente."
+      },
+      {
+        "question": "¿Aún necesito vitaminas prenatales?",
+        "answer": "Sí. Aunque nuestros planes maximizan los nutrientes prenatales a través de los alimentos, una vitamina prenatal sigue siendo recomendada como seguro. El plan y la vitamina son compañeros de equipo, no sustitutos."
+      },
+      {
+        "question": "¿Qué pasa si no puedo retener nada en el primer trimestre?",
+        "answer": "Nuestros planes del primer trimestre incluyen alternativas para las náuseas: galletas con mantequilla de maní, fruta fría, té de jengibre y comidas pequeñas frecuentes. Comer para sobrevivir está bien temporalmente."
+      },
+      {
+        "question": "¿Puedo seguir este plan con diabetes gestacional?",
+        "answer": "Nuestro plan estándar puede ser un punto de partida, pero la diabetes gestacional requiere un manejo específico de carbohidratos guiado por tu obstetra o nutricionista."
+      }
+    ]
+  },
+  "diabetic-meal-plan": {
+    "title": "Plan de Comidas para Diabéticos — Control de Azúcar con Sabor",
+    "metaDescription": "Plan semanal personalizado para diabéticos con recetas de bajo índice glucémico y lista de compras. Comidas que mantienen el azúcar estable. Prueba gratis.",
+    "h1": "Plan para Diabéticos — Azúcar Estable, Sabor Real",
+    "intro": "Manejar la diabetes a través de la dieta no significa renunciar a todo lo que disfrutas. Significa elegir alimentos que liberen energía lentamente, combinar carbohidratos con proteína y fibra, y saber qué comidas mantendrán tu azúcar estable en vez de subirla y bajarla como montaña rusa. El reto no es conocer la teoría — es saber qué cocinar un martes por la noche que cumpla todos los requisitos y aún así sepa a comida que quieres comer.",
+    "valueProps": [
+      {
+        "heading": "Bajo índice glucémico por diseño",
+        "description": "Cada comida prioriza carbohidratos de bajo índice glucémico — camote en vez de papa blanca, quinoa en vez de arroz blanco, frutos rojos en vez de fruta tropical."
+      },
+      {
+        "heading": "Porciones de carbohidratos controladas",
+        "description": "Cada comida incluye 30-45 gramos de carbohidratos, manteniéndote dentro del rango que los educadores en diabetes recomiendan."
+      },
+      {
+        "heading": "Macros balanceados en cada comida",
+        "description": "Proteína y grasas saludables en cada comida para ralentizar la absorción de glucosa. Una fruta sola dispara el azúcar. Esa misma fruta con nueces y yogur libera energía durante horas."
+      },
+      {
+        "heading": "Sin privaciones",
+        "description": "Comerás pasta (integral, porcionada), pan (integral, con proteína) y postres (a base de fruta, endulzados naturalmente). El plan funciona eligiendo versiones más inteligentes de comidas que ya disfrutas."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Revuelto de Vegetales y Queso sobre Pan Integral",
+        "description": "Huevos revueltos con calabacín, champiñones y queso cheddar sobre pan integral. Alto en proteína, bajo índice glucémico, solo 25g de carbohidratos.",
+        "tags": [
+          "apto-diabéticos",
+          "bajo-glucémico",
+          "alto-en-proteína"
+        ]
+      },
+      {
+        "name": "Ensalada Mediterránea de Pollo y Quinoa",
+        "description": "Pollo a la parrilla sobre quinoa con pepino, tomates cherry, aceitunas kalamata y vinagreta de limón. 38g carbohidratos, 42g proteína.",
+        "tags": [
+          "apto-diabéticos",
+          "alto-en-proteína",
+          "mediterráneo"
+        ]
+      },
+      {
+        "name": "Bacalao al Horno con Coles y Camote",
+        "description": "Filetes de bacalao con hierbas al horno con coles de Bruselas y camote. 35g de carbohidratos, lleno de fibra y omega-3.",
+        "tags": [
+          "apto-diabéticos",
+          "bajo-glucémico",
+          "una-bandeja"
+        ]
+      },
+      {
+        "name": "Wraps de Lechuga de Pavo con Salsa de Cacahuate",
+        "description": "Pavo molido sazonado, zanahoria rallada y pepino en hojas de lechuga con salsa de cacahuate y lima. Ultra bajo en carbohidratos.",
+        "tags": [
+          "apto-diabéticos",
+          "bajo-en-carbohidratos",
+          "rápido"
+        ]
+      },
+      {
+        "name": "Almendras Tostadas con Canela",
+        "description": "Almendras crudas con canela, una pizca de sal y aceite de coco. Al horno 12 minutos. Grasas saludables y proteína con impacto casi nulo en el azúcar.",
+        "tags": [
+          "apto-diabéticos",
+          "bajo-en-carbohidratos",
+          "cocina-en-lote"
+        ]
+      },
+      {
+        "name": "Pasta Integral con Boloñesa de Pavo",
+        "description": "Pavo molido magro en salsa de tomate con ajo, albahaca y orégano. Porción medida de espagueti integral con ejotes al vapor. 42g carbohidratos, 38g proteína.",
+        "tags": [
+          "apto-diabéticos",
+          "alto-en-proteína",
+          "reconfortante"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Este plan es para diabetes Tipo 1 o Tipo 2?",
+        "answer": "Diseñado principalmente para manejo de diabetes Tipo 2 y prediabetes. Las personas con Tipo 1 pueden usarlo pero deben ajustar la dosis de insulina con su endocrinólogo."
+      },
+      {
+        "question": "¿Cuántos carbohidratos por comida para un diabético?",
+        "answer": "La mayoría de educadores recomiendan 45-60 gramos por comida. Nuestros planes usan 30-45 gramos, un enfoque conservador que funciona bien para la mayoría."
+      },
+      {
+        "question": "¿Puedo comer fruta si tengo diabetes?",
+        "answer": "Sí. Frutos rojos, manzanas y peras son de bajo índice glucémico y ricos en fibra. La clave es combinar fruta con proteína o grasa."
+      },
+      {
+        "question": "¿Este plan ayudará a bajar mi A1C?",
+        "answer": "La dieta es una de las herramientas más poderosas para el manejo del A1C. Muchos usuarios ven mejoras en 2-3 meses de cambios dietéticos consistentes."
+      },
+      {
+        "question": "¿Puedo comer fuera siguiendo este plan?",
+        "answer": "Claro. Los principios — combinar carbohidratos con proteína, elegir opciones de bajo índice glucémico, controlar porciones — aplican en cualquier restaurante."
+      }
+    ]
+  },
+  "clean-eating-meal-plan": {
+    "title": "Plan de Comida Limpia — Alimentos Reales, Sin Complicaciones",
+    "metaDescription": "Plan semanal personalizado de comida limpia con recetas de alimentos integrales y lista de compras. Sin procesados, sin reglas complicadas. Prueba gratis.",
+    "h1": "Plan de Comida Limpia — Ingredientes Reales, Resultados Reales",
+    "intro": "Comer limpio es simple: come alimentos que parezcan alimentos. Si creció de la tierra, caminó sobre ella o nadó en el mar, entra. Si fue fabricado en una fábrica con una lista de ingredientes más larga que un ticket, no entra. Sin contar macros, sin eliminar grupos alimenticios, sin comprar productos especiales. Solo ingredientes enteros y mínimamente procesados cocinados en comidas que te hacen sentir bien.",
+    "valueProps": [
+      {
+        "heading": "Alimentos enteros, mínimo procesamiento",
+        "description": "Cada ingrediente es algo que tu abuela reconocería. Vegetales frescos, granos integrales, proteínas de calidad, grasas saludables y endulzantes naturales. Sin conservadores artificiales."
+      },
+      {
+        "heading": "Sin eliminación, sin extremos",
+        "description": "Comer limpio no es keto, paleo ni vegano. Comerás carbohidratos (integrales), grasas (aceite de oliva, aguacate), proteínas y lácteos. Solo se eliminan los ultraprocesados."
+      },
+      {
+        "heading": "Sostenible de por vida",
+        "description": "Esto no es un detox ni un reto de 30 días. Es una forma de comer que funciona permanentemente porque nada está prohibido excepto la comida chatarra."
+      },
+      {
+        "heading": "Lista de compras del perímetro",
+        "description": "Nuestras listas te mantienen en la sección de frutas y verduras, la carnicería, los lácteos y los granos a granel. Te saltas el 90% de los pasillos centrales."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Tostada de Aguacate con Huevos Pochados",
+        "description": "Pan de masa madre integral con aguacate, dos huevos pochados, tomates cherry y sal en escamas. Pan real, huevos reales, satisfacción real.",
+        "tags": [
+          "comida-limpia",
+          "alimento-integral",
+          "alto-en-proteína"
+        ]
+      },
+      {
+        "name": "Pollo a la Parrilla con Vegetales Asados",
+        "description": "Pechuga marinada en aceite de oliva, limón y orégano con calabacín, pimientos y camote asados. Cero ingredientes procesados.",
+        "tags": [
+          "comida-limpia",
+          "alimento-integral",
+          "alto-en-proteína"
+        ]
+      },
+      {
+        "name": "Salmón Salvaje con Quinoa y Brócoli",
+        "description": "Salmón sellado sobre quinoa con eneldo fresco, ralladura de limón y piñones tostados. Brócoli al vapor con limón y aceite de oliva.",
+        "tags": [
+          "comida-limpia",
+          "omega-3",
+          "alto-en-proteína"
+        ]
+      },
+      {
+        "name": "Chili Casero de Pavo y Frijol Negro",
+        "description": "Pavo molido, frijoles negros, tomate, cebolla, ajo y especias. Sin latas de chili ni sobres de sazón. Con yogur griego y cilantro.",
+        "tags": [
+          "comida-limpia",
+          "cocina-en-lote",
+          "alto-en-proteína"
+        ]
+      },
+      {
+        "name": "Mix de Frutas Secas y Nueces",
+        "description": "Almendras, nueces, arándanos secos sin azúcar, chocolate oscuro 85% y semillas de calabaza. Mezclado en casa en 2 minutos.",
+        "tags": [
+          "comida-limpia",
+          "sin-cocción",
+          "alimento-integral"
+        ]
+      },
+      {
+        "name": "Hash de Camote y Kale con Huevos Fritos",
+        "description": "Camote en cubos frito en aceite de coco con kale, cebolla morada y pimentón ahumado. Coronado con dos huevos fritos.",
+        "tags": [
+          "comida-limpia",
+          "alimento-integral",
+          "alto-en-proteína"
+        ]
+      },
+      {
+        "name": "Ensalada Mediterránea de Atún",
+        "description": "Atún salvaje mezclado con aceite de oliva, apio, cebolla morada, alcaparras y limón. Sobre hojas verdes con pepino y tomates cherry.",
+        "tags": [
+          "comida-limpia",
+          "sin-cocción",
+          "alto-en-proteína"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Qué cuenta como alimento 'procesado'?",
+        "answer": "Trazamos la línea en los ultraprocesados — alimentos con largas listas de ingredientes llenas de aditivos. Alimentos mínimamente procesados como aceite de oliva, queso, frijoles en lata y vegetales congelados están bien."
+      },
+      {
+        "question": "¿Comer limpio es lo mismo que orgánico?",
+        "answer": "No. Comer limpio se trata de evitar ultraprocesados, no de certificación orgánica. Productos convencionales, pollo regular y lácteos no orgánicos son limpios si son alimentos enteros."
+      },
+      {
+        "question": "¿Puedo bajar de peso comiendo limpio?",
+        "answer": "Muchas personas bajan de peso naturalmente al cambiar a alimentos integrales porque la comida ultraprocesada está diseñada para anular tus señales de saciedad."
+      },
+      {
+        "question": "¿Comer limpio es más caro?",
+        "answer": "Puede serlo, pero no tiene que serlo. Frijoles, lentejas, avena, huevos, pollos enteros, vegetales congelados y productos de temporada son económicos y limpios."
+      },
+      {
+        "question": "¿Qué pasa con comer fuera?",
+        "answer": "Elige restaurantes que cocinen desde cero. Proteínas a la parrilla, guarniciones de vegetales y preparaciones simples. No se trata de perfección, sino de elegir alimentos reales la mayor parte del tiempo."
+      }
+    ]
   }
 }
