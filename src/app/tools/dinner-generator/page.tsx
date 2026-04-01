@@ -187,7 +187,7 @@ export default function DinnerGeneratorPage() {
           href="/"
           className="inline-flex items-center gap-2 text-sm text-stone-500 hover:text-orange-600 transition-colors"
         >
-          <span className="text-lg">🍴</span>
+          <img src="/logo-orange.svg" alt="" className="w-6 h-6" />
           <span className="font-medium">What&apos;s For Dinner</span>
         </Link>
         <Link

@@ -168,12 +168,7 @@ export default function CalorieCalculatorPage() {
           href="/"
           className="flex items-center gap-2 text-stone-800 font-semibold text-sm hover:text-orange-600 transition-colors duration-200"
         >
-          <span
-            className="inline-flex items-center justify-center w-8 h-8 bg-orange-500 rounded-xl text-white text-lg leading-none"
-            style={{ filter: "brightness(0) invert(1)" }}
-          >
-            🍴
-          </span>
+          <img src="/logo-orange.svg" alt="" className="w-8 h-8" />
           What&apos;s For Dinner
         </Link>
         <Link
