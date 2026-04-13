@@ -1,0 +1,45 @@
+# What's For Dinner
+
+> AI-powered meal planner that generates personalized weekly meal plans with recipes and a grocery list in 30 seconds.
+
+## What It Does
+
+What's For Dinner is a meal planning app at whatsfordinner.fit. You tell it what your family eats, what to avoid (allergies, dietary restrictions, dislikes), your household size, and your budget. It uses AI to generate a complete weekly meal plan with full recipes and a consolidated grocery list, delivered to your inbox every Sunday.
+
+## What Makes It Different
+
+- Generates complete meal plans with full recipes AND a grocery list — not just meal suggestions
+- Personalized to dietary needs: keto, vegan, vegetarian, gluten-free, halal, allergies, picky eaters
+- Plans are ready in 30 seconds, not hours of manual planning
+- Portions and grocery quantities auto-adjust to household size (1-6+ people)
+- Real, practical meals with common ingredients — not restaurant-level complexity
+- Free 3-day plan available with no credit card required
+
+## Who It's For
+
+- Busy families tired of the daily "what's for dinner?" question
+- People with dietary restrictions who struggle to find compatible meal ideas
+- Budget-conscious cooks who want to reduce food waste with planned grocery lists
+- Anyone who wants to eat well without spending hours planning and searching for recipes
+
+## Pricing
+
+- Free: 3-day meal plan with recipes and a grocery list (no account required)
+- Monthly: $7.99/month for weekly 7-day plans, regenerations, and email delivery
+- Yearly: $59.99/year (save 37%)
+
+## Free Tools
+
+- "What Should I Cook Tonight?" quiz: answer 4 quick questions, get a dinner recommendation
+- Calorie Calculator: find your daily calorie target
+- Dinner Generator: random dinner ideas filtered by cuisine, diet, and time
+- Recipe Library: 800+ recipes browsable by meal type, diet, and tags
+
+## Links
+
+- Website: https://whatsfordinner.fit
+- Recipe Library: https://whatsfordinner.fit/recipes
+- Blog: https://whatsfordinner.fit/blog
+- Meal Plan Examples: https://whatsfordinner.fit/meal-plans
+- Free Tools: https://whatsfordinner.fit/tools
+- Best Meal Planners Comparison: https://whatsfordinner.fit/blog/best-meal-planners-2026

@@ -70,153 +70,149 @@ const blogPosts = [
   { slug: "high-protein-meals-on-a-budget", date: "2026-03-18" },
   { slug: "how-to-start-meal-planning", date: "2026-03-18" },
   { slug: "meal-prep-for-weight-loss", date: "2026-03-18" },
+  { slug: "best-meal-planners-2026", date: "2026-04-13" },
 ];
 
-// Sitemap IDs:
-// 0 = static pages + blog
-// 1 = English meal plan pages
-// 2-11 = localized meal plan pages (one per locale)
-export async function generateSitemaps() {
-  return [
-    { id: 0 },
-    { id: 1 },
-    ...NON_DEFAULT_LOCALES.map((_, i) => ({ id: i + 2 })),
-  ];
-}
-
-export default async function sitemap(props: { id: Promise<number> | number }): Promise<MetadataRoute.Sitemap> {
-  const id = Number(await props.id);
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const mealPlanPages = getAllMealPlanPages();
-
-  // Sitemap 0: static pages + blog
-  if (id === 0) {
-    return [
-      {
-        url: BASE,
-        lastModified: new Date("2026-03-18"),
-        changeFrequency: "weekly",
-        priority: 1.0,
-      },
-      {
-        url: `${BASE}/blog`,
-        lastModified: new Date("2026-03-18"),
-        changeFrequency: "weekly",
-        priority: 0.9,
-      },
-      {
-        url: `${BASE}/meal-plans`,
-        lastModified: new Date("2026-03-18"),
-        changeFrequency: "weekly",
-        priority: 0.9,
-      },
-      {
-        url: `${BASE}/pricing`,
-        lastModified: new Date("2026-03-18"),
-        changeFrequency: "monthly",
-        priority: 0.9,
-      },
-      {
-        url: `${BASE}/onboarding`,
-        lastModified: new Date("2026-03-01"),
-        changeFrequency: "monthly",
-        priority: 0.8,
-      },
-      {
-        url: `${BASE}/tools`,
-        lastModified: new Date("2026-04-01"),
-        changeFrequency: "monthly",
-        priority: 0.8,
-      },
-      {
-        url: `${BASE}/tools/calorie-calculator`,
-        lastModified: new Date("2026-04-01"),
-        changeFrequency: "monthly",
-        priority: 0.8,
-      },
-      {
-        url: `${BASE}/tools/dinner-generator`,
-        lastModified: new Date("2026-04-01"),
-        changeFrequency: "monthly",
-        priority: 0.8,
-      },
-      {
-        url: `${BASE}/login`,
-        lastModified: new Date("2026-03-01"),
-        changeFrequency: "monthly",
-        priority: 0.4,
-      },
-      {
-        url: `${BASE}/signup`,
-        lastModified: new Date("2026-03-01"),
-        changeFrequency: "monthly",
-        priority: 0.4,
-      },
-      {
-        url: `${BASE}/privacy`,
-        lastModified: new Date("2026-01-01"),
-        changeFrequency: "yearly",
-        priority: 0.3,
-      },
-      {
-        url: `${BASE}/terms`,
-        lastModified: new Date("2026-01-01"),
-        changeFrequency: "yearly",
-        priority: 0.3,
-      },
-      ...blogPosts.map((post) => ({
-        url: `${BASE}/blog/${post.slug}`,
-        lastModified: new Date(post.date),
-        changeFrequency: "monthly" as const,
-        priority: 0.8,
-      })),
-    ];
-  }
-
-  // Sitemap 1: English meal plan pages
-  if (id === 1) {
-    return mealPlanPages.map((page) => ({
-      url: `${BASE}/meal-plans/${page.slug}`,
-      lastModified: new Date(page.dateModified),
-      changeFrequency: "monthly" as const,
-      priority: page.type === "combo" ? 0.7 : 0.8,
-    }));
-  }
-
-  // Sitemaps 2-11: localized meal plan pages (one per locale)
-  const localeIndex = id - 2;
-  const locale = NON_DEFAULT_LOCALES[localeIndex];
-
-  if (!locale) return [];
-
-  // Hub page for this locale
-  const hubEntry = {
-    url: `${BASE}/${locale}/meal-plans`,
-    lastModified: new Date("2026-03-08"),
-    changeFrequency: "weekly" as const,
-    priority: 0.8,
-  };
-
-  const localizedEntries = mealPlanPages.map((page) => {
-    const localizedSlug = getSlugForLocale(page.slug, locale);
-    return {
-      url: `${BASE}/${locale}/meal-plans/${localizedSlug}`,
-      lastModified: new Date(page.dateModified),
-      changeFrequency: "monthly" as const,
-      priority: page.type === "combo" ? 0.6 : 0.7,
-    };
-  });
-
-  // Translated blog articles for this locale
   const translatedBlogSlugs = getTranslatedBlogSlugs();
-  const localizedBlogEntries = translatedBlogSlugs.map((englishSlug) => {
-    const localizedSlug = getBlogSlugForLocale(englishSlug, locale);
-    return {
-      url: `${BASE}/${locale}/blog/${localizedSlug}`,
-      lastModified: new Date("2026-04-01"),
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    };
-  });
 
-  return [hubEntry, ...localizedEntries, ...localizedBlogEntries];
+  // Static pages
+  const staticPages: MetadataRoute.Sitemap = [
+    {
+      url: BASE,
+      lastModified: new Date("2026-03-18"),
+      changeFrequency: "weekly",
+      priority: 1.0,
+    },
+    {
+      url: `${BASE}/blog`,
+      lastModified: new Date("2026-03-18"),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${BASE}/meal-plans`,
+      lastModified: new Date("2026-03-18"),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${BASE}/pricing`,
+      lastModified: new Date("2026-03-18"),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${BASE}/onboarding`,
+      lastModified: new Date("2026-03-01"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE}/tools`,
+      lastModified: new Date("2026-04-01"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE}/tools/calorie-calculator`,
+      lastModified: new Date("2026-04-01"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE}/tools/dinner-generator`,
+      lastModified: new Date("2026-04-01"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE}/tools/what-to-cook`,
+      lastModified: new Date("2026-04-13"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE}/recipes`,
+      lastModified: new Date("2026-04-13"),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${BASE}/login`,
+      lastModified: new Date("2026-03-01"),
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
+    {
+      url: `${BASE}/signup`,
+      lastModified: new Date("2026-03-01"),
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
+    {
+      url: `${BASE}/privacy`,
+      lastModified: new Date("2026-01-01"),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${BASE}/terms`,
+      lastModified: new Date("2026-01-01"),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+  ];
+
+  // Blog posts
+  const blogEntries: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `${BASE}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
+
+  // English meal plan pages
+  const mealPlanEntries: MetadataRoute.Sitemap = mealPlanPages.map((page) => ({
+    url: `${BASE}/meal-plans/${page.slug}`,
+    lastModified: new Date(page.dateModified),
+    changeFrequency: "monthly",
+    priority: page.type === "combo" ? 0.7 : 0.8,
+  }));
+
+  // Localized pages (all locales)
+  const localizedEntries: MetadataRoute.Sitemap = NON_DEFAULT_LOCALES.flatMap(
+    (locale) => {
+      const hub = {
+        url: `${BASE}/${locale}/meal-plans`,
+        lastModified: new Date("2026-03-08"),
+        changeFrequency: "weekly" as const,
+        priority: 0.8,
+      };
+
+      const mealPlans = mealPlanPages.map((page) => ({
+        url: `${BASE}/${locale}/meal-plans/${getSlugForLocale(page.slug, locale)}`,
+        lastModified: new Date(page.dateModified),
+        changeFrequency: "monthly" as const,
+        priority: page.type === "combo" ? 0.6 : 0.7,
+      }));
+
+      const blogs = translatedBlogSlugs.map((englishSlug) => ({
+        url: `${BASE}/${locale}/blog/${getBlogSlugForLocale(englishSlug, locale)}`,
+        lastModified: new Date("2026-04-01"),
+        changeFrequency: "monthly" as const,
+        priority: 0.7,
+      }));
+
+      return [hub, ...mealPlans, ...blogs];
+    }
+  );
+
+  return [
+    ...staticPages,
+    ...blogEntries,
+    ...mealPlanEntries,
+    ...localizedEntries,
+  ];
 }

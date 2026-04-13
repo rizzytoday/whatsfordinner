@@ -38,6 +38,13 @@ const tools = [
     href: "/tools/dinner-generator",
     emoji: "\uD83C\uDF72",
   },
+  {
+    title: "What Should I Cook Tonight?",
+    description:
+      "Take a fun 4-question quiz to get a personalized dinner recommendation based on your mood, time, dietary needs, and group size.",
+    href: "/tools/what-to-cook",
+    emoji: "\uD83E\uDD14",
+  },
 ];
 
 export default function ToolsPage() {

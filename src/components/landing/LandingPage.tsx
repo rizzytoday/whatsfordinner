@@ -12,6 +12,7 @@ import { FAQ } from "@/components/landing/FAQ";
 import { FreeTools } from "@/components/landing/FreeTools";
 import { PopularMealPlans } from "@/components/landing/PopularMealPlans";
 import { GuidesAndTips } from "@/components/landing/GuidesAndTips";
+import { About } from "@/components/landing/About";
 import { Footer } from "@/components/landing/Footer";
 import { ExitIntentPopup } from "@/components/landing/ExitIntentPopup";
 import { LanguagePicker } from "@/components/ui/LanguagePicker";
@@ -74,6 +75,7 @@ export function LandingPage() {
       <FreeTools />
       <PopularMealPlans />
       <GuidesAndTips />
+      <About />
       <Footer />
       <ExitIntentPopup isSignedIn={isSignedIn === true} />
     </main>

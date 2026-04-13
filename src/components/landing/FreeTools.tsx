@@ -54,6 +54,55 @@ const tools = [
     href: "/tools/dinner-generator",
     cta: "Get a Dinner Idea",
   },
+  {
+    icon: (
+      <svg
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="text-orange-500"
+      >
+        <circle cx="12" cy="12" r="10" />
+        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+        <circle cx="12" cy="17" r="0.5" fill="currentColor" />
+      </svg>
+    ),
+    title: "What Should I Cook?",
+    description:
+      "Take a quick 4-question quiz and get a personalized dinner pick.",
+    href: "/tools/what-to-cook",
+    cta: "Take the Quiz",
+  },
+  {
+    icon: (
+      <svg
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="text-orange-500"
+      >
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+        <path d="M8 7h8" />
+        <path d="M8 11h6" />
+      </svg>
+    ),
+    title: "Recipe Library",
+    description:
+      "Browse 800+ recipes. Filter by meal type, diet, and tags.",
+    href: "/recipes",
+    cta: "Browse Recipes",
+  },
 ];
 
 export function FreeTools() {
