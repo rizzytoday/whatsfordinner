@@ -5,7 +5,11 @@ import { lunchExtendedRecipes } from "./lunch-extended";
 import { dinnerRecipes } from "./dinner";
 import { dinnerExtendedRecipes } from "./dinner-extended";
 import { snackRecipes } from "./snack";
+import { snackExtendedRecipes } from "./snack-extended";
+import { dessertRecipes } from "./desserts";
 import { globalCuisineRecipes } from "./global-cuisines";
+import { comfortClassicsRecipes } from "./comfort-classics";
+import { healthyLightRecipes } from "./healthy-light";
 import type { FullRecipe } from "./types";
 
 const ALL_RECIPES: FullRecipe[] = [
@@ -16,7 +20,11 @@ const ALL_RECIPES: FullRecipe[] = [
   ...dinnerRecipes,
   ...dinnerExtendedRecipes,
   ...snackRecipes,
+  ...snackExtendedRecipes,
+  ...dessertRecipes,
   ...globalCuisineRecipes,
+  ...comfortClassicsRecipes,
+  ...healthyLightRecipes,
 ];
 
 // Validate no duplicate slugs at import time
