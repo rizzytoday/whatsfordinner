@@ -362,7 +362,7 @@ export const breakfastRecipes: FullRecipe[] = [
     ],
     nutrition: { calories: 480, protein: 24, carbs: 40, fat: 24, fiber: 8 },
     tags: ["high-protein", "quick", "meal-prep", "budget"],
-    youtubeVideoId: null,
+    youtubeVideoId: "f0AQD5fBXOU",
     relatedSlugs: ["shakshuka", "chicken-quesadilla", "loaded-quesadillas"],
     datePublished: "2026-04-13",
     dateModified: "2026-04-13",

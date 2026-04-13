@@ -539,7 +539,7 @@ export const dinnerRecipes: FullRecipe[] = [
     ],
     nutrition: { calories: 520, protein: 34, carbs: 38, fat: 26, fiber: 4 },
     tags: ["comfort-food", "family-friendly", "meal-prep"],
-    youtubeVideoId: null,
+    youtubeVideoId: "fVDsTP-pTXs",
     relatedSlugs: ["spaghetti-carbonara", "one-pot-mac-and-cheese", "beef-stew"],
     datePublished: "2026-04-13",
     dateModified: "2026-04-13",
