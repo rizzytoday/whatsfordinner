@@ -48,11 +48,11 @@ const tools = [
         <path d="M16.24 7.76l2.83-2.83" />
       </svg>
     ),
-    title: "Dinner Generator",
+    title: "Random Meal",
     description:
-      "Not sure what to cook tonight? We'll pick a dinner idea for you.",
+      "Spin the wheel. Get a random meal idea filtered by cuisine, diet, and time.",
     href: "/tools/dinner-generator",
-    cta: "Get a Dinner Idea",
+    cta: "Pick a Random Meal",
   },
   {
     icon: (

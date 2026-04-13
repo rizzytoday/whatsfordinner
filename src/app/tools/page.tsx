@@ -32,11 +32,11 @@ const tools = [
     emoji: "\uD83D\uDD25",
   },
   {
-    title: "Dinner Generator",
+    title: "Random Meal",
     description:
-      "Not sure what to cook? Get a random dinner idea instantly. Filter by cuisine, dietary needs, and cooking time.",
+      "Spin the wheel and get a random meal idea. Filter by cuisine, dietary needs, and cooking time.",
     href: "/tools/dinner-generator",
-    emoji: "\uD83C\uDF72",
+    emoji: "\uD83C\uDFB2",
   },
   {
     title: "What Should I Cook Tonight?",
